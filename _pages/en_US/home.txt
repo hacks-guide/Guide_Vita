@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete PS Vita hacking guide, <br /> from stock to Ensō.<br />"
+excerpt: "A complete guide to Vita (TV) custom firmware, <br /> from stock to HENkaku Ensō.<br />"
 ---
 
 For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
