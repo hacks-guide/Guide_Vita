@@ -1,0 +1,27 @@
+---
+title: "Site Navigation" #
+layout: single-no-ads
+sitemap: false
+---
+
+{% capture notice-2 %}
+**All**
+
++ [Blocking Updates](coldboot-haxchi)
++ [Credits](credits)
++ [Donations](donations)
++ [FAQ](faq)
++ [Get Started](get-started)
++ [Home](/)
++ [Installing Adrenaline](installing-adrenaline)
++ [Installing HENkaku](installing-henkaku)
++ [Installing HENkaku Ensō](installing-henkaku-enso)
++ [Installing Homebrew](installing-homebrew)
++ [Installing SD2Vita](installing-sd2vita)
++ [Installing USBMC](installing-usbmc)
++ [Installing VitaShell to System](installing-vitashell-to-system)
++ [Updating to 3.60](updating-to-3.60)
++ [Updating to HENkaku Ensō 3.65](updating-to-henkaku-enso-3.65)
++ [Why Ads?](why-ads)
+{% endcapture %}
+<div class="notice--primary">{{ notice-2 | markdownify }}</div>

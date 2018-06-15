@@ -1,0 +1,58 @@
+---
+title: "Installing Adrenaline"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+Adrenaline is a homebrew application that lets you run PS1 and PSP games and homebrew from your memory card.
+
+This will use FTP (File Transfer Protocol) to transfer the files so your Vita and PC must be connected to the same network.
+
+The method install the Adrenaline application and then install and set up the PSP XMB.
+
+Afterwards we will install the Adrenaline plugin. Without installing the plugin, you will have to start Adrenaline twice after every reboot.
+
+### What You Need
+
+- A HENkaku enabled PS Vita
+- An FTP Client
+	- For Windows, [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"} are recommended
+- The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest){:target="_blank"}
+- The latest release of [PSP Homebrew Browser](/assets/files/PSPhbb_dev.vpk)
+
+### Instructions
+
+#### Section I - Installing Adrenaline
+
+1. Open VitaShell or MolecularShell on your Vita
+1. Press (SELECT)
+1. Open your FTP client on your computer
+1. Type in the IP Address and Port shown on your Vita
+1. Navigate to `ux0:data` on the FTP Client
+1. Transfer the Adrenaline `.vpk` file
+1. Transfer the PSP Homebrew Browser `.vpk` file
+1. Press (O) on your Vita to close the server
+1. Navigate to `ux0:data` on your Vita
+1. Press (X) on the `.vpk` files to install both of the homebrew applications you downloaded
+	- Make sure you have unsafe homebrew enabled
+	
+#### Section II - Installing the PSP XMB
+
+1. Open the Adrenaline application from the home menu
+1. Press (X) to download the PSP 6.61 firmware
+1. Adrenaline will automatically close
+1. Open Adrenaline again and press **X** to install the firmware
+1. Press (X) to boot the PSP XMB
+1. Set up the PSP XMB
+1. Hold the PS button and select **Settings > Exit PspEmu Application**
+
+#### Section III - Installing the Adrenaline plugin
+
+1. Open up VitaShell or MolecularShell and navigate to `ur0:tai`
+1. Open `config.txt`
+1. Go to `*KERNEL` and press (/\\)
+1. Select "Insert Empty Line"
+1. Type into the new line: `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
+1. Reboot the device

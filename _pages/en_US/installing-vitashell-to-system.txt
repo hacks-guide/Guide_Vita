@@ -1,0 +1,44 @@
+---
+title: "Updating to HENkaku Ensō 3.65"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+This will install VitaShell to system by injecting it into another system app through a homebrew application called HBInjector.
+
+This is recommended as formatting on HENkaku Ensō 3.65 removes VitaShell. If you are stuck without VitaShell, you will not be able to install homebrew applications, and you will lose homebrew access.
+
+By injecting VitaShell into a system app, we will always be able to access VitaShell, even after a format.
+
+The system application can be restored using the HBInjector application. It is also restored when updating, so don't install this *before* updating to 3.65, as it won't make a difference.
+
+The selected system app will remain unusable until it is restored.
+
+The system app backups will be stored in `ux0:data/HBInjector`
+
+After installing VitaShell to system, the database will be rebuilt and the app layout will be reset. This is necessary as VitaShell will not work on the system without doing this.
+
+### What You Need
+
+- A HENkaku enabled PS Vita
+- An FTP Client
+	- For Windows, [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"} are recommended
+- The latest release of [HBInjector](https://github.com/emiyl/HBInjector/releases/latest/){:target="_blank"}
+
+### Instructions
+
+1. Open MolecularShell or VitaShell on your Vita
+1. Press (SELECT)
+1. Open your FTP client on your computer
+1. Type in the IP Address and Port shown on your Vita
+1. Navigate to `ux0:data` on the FTP Client
+1. Transfer the HBInjector `.vpk` file to your Vita
+1. Press (O) on your Vita to close the server
+1. Navigate to `ux0:data` on your Vita
+1. Press (X) on the HBInjector `.vpk` file to install it
+	- Make sure you have unsafe homebrew enabled
+1. Close VitaShell and open HBInjector
+1. Follow the on-screen instructions
+1. Once installed, backup `ux0:data/HBInjector/` to your PC to make sure you never lose your system app backups

@@ -1,0 +1,137 @@
+---
+title: "Updating to HENkaku Ensō 3.65"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+This will update your PS Vita to system version 3.65 while keeping HENkaku Ensō. Once on 3.65, you will not be able to downgrade back to 3.60.
+
+After you update, you will be able to activate your Vita, use the PS Store, play online and install/play games which require a firmware higher than 3.61.
+
+You must have an official Sony memory card to update to 3.65.
+
+This method is not compatible with any devices on 3.61 or above.
+
+Do not mess with system files. If you brick your device, you will have to restore to stock 3.65. Once restored, you will not be able to install HENkaku again. There is no way to downgrade back.
+
+Do not reboot, turn off, or let your PS Vita run out of charge while following this guide unless told to.
+
+{% capture danger-1 %}
+
+**DO NOT:**
+- Reflash the 3.65 PUP
+- Mess with system partitions
+- Use untrustworthy applications
+
+{% endcapture %}
+
+<div class="notice--danger">{{ danger-1 | markdownify }}</div>
+
+### What You Need
+
+- An FTP Client
+	- For Windows, [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"} are recommended
+- The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/){:target="_blank"}
+  - You must have v1.82 or later
+  - VitaShell v1.82 and earlier no longer automatically update, so you will need to download it again if it's not already installed
+- The latest release of [update365](https://github.com/TheOfficialFloW/update365/releases/latest){:target="_blank"}
+  - Download both files
+- The latest release of [QCMA](https://codestation.github.io/qcma/){:target="_blank"}
+  - Uninstall CMA if it's installed
+- The latest release of [HENkaku Ensō](https://github.com/henkaku/enso/releases/latest/){:target="_blank"}
+  - Only if you have previously installed HENkaku Ensō
+  
+### Instructions
+
+Do not reboot, turn off, or let your PS Vita run out of charge while following this guide unless told to.
+
+#### Section I - Preparing for the update
+
+1. Remove any microSD cards or USB devices
+1. Delete VitaShell if it's already installed
+  - Make sure MolecularShell is still installed
+  - Reinstall HENkaku while holding down (R) to reinstall it
+1. Open MolecularShell on your Vita
+1. Open the `ux0` partition
+1. Navigate to the `VitaShell` directory
+1. Press (/\\) and then select "Delete"
+1. Navigate to the `patch/VITASHELL/` directory
+1. Press (/\\) and then select "Delete"
+1. Press (SELECT)
+1. Open your FTP client on your computer
+1. Type in the IP Address and Port shown on your Vita
+1. Navigate to `ux0:data` on the FTP Client
+1. Transfer the `VitaShell.vpk` file to your Vita
+1. Transfer the `updater.vpk` file to your Vita
+1. Transfer the `enso.vpk` file to your Vita
+	- Only if you have previously installed HENkaku Ensō
+1. Transfer the `PSP2UPDAT.PUP` file to your Vita
+1. Press (O) on your Vita to close the server
+1. Navigate to `ux0:data` on your Vita
+1. Press (X) on the VitaShell and updater `.vpk` files to install both of the homebrew applications
+	- Make sure you have unsafe homebrew enabled
+
+1. Press (X) on the `enso.vpk` file to install it
+  - Only if you have previously installed HENkaku Ensō
+1. Press (/\\) on the `PSP2UPDAT.PUP` file and select "Move"
+1. Navigate to `ux0:app/UPDATE365/`
+1. Press (/\\) and then select "Paste"
+	- The 'PSP2UPDAT.PUP' file should be there
+1. Open `ux0:tai/config.txt` if it exists
+1. Add a `#` (disable) before  each plugin you may have installed
+	- e.g. NoNpDrm, ReNpDrm, ReStore, DownloadEnabler, gamesd (SD2Vita), etc.
+	- e.g. turn `ux0:tai/gamesd.skrpx` to `#ux0:tai/gamesd.skrpx`
+1. Open `ur0:tai/config.txt` if it exists
+1. Add a `#` (disable) before each plugin
+	- e.g. NoNpDrm, ReNpDrm, ReStore, DownloadEnabler, gamesd (SD2Vita), etc.
+	- e.g. turn `ux0:tai/gamesd.skrpx` to `#ux0:tai/gamesd.skrpx`
+1. Exit MolecularShell
+
+#### Section II -  Backing up VitaShell
+
+1. Download and install the CMA software onto your computer
+1. Connect your PS Vita to your computer via a USB cable or network connection
+1. Open the "Content Manager" application on your PS Vita
+1. Select "Copy Content"
+1. Select "PS Vita System -> PC"
+1. Select "Applications"
+1. Select "PS Vita"
+1. Select "VitaShell"
+1. Click "Copy" in the right hand corner
+1. Select "Okay"
+  - Overwrite any copies previously saved
+  - The copy will be saved in `Documents/PS Vita/APP` on your computer
+1. Exit Content Manager
+
+#### Section III -  Unlinking Memory Card
+
+1. Open the System Settings application
+1. Select "HENkaku Settings"
+1. Disable "Enable PSN Spoofing"
+1. Select "Unlink Memory Card"
+  - If you do not do this, you will not be able to use your memory card on 3.65
+
+#### Section IV - Uninstalling HENkaku Ensō
+
+1. Open up the HENkaku Ensō application
+	- If HENkaku Ensō is not installed, this doesn't apply to you and you can skip to the next section
+1. Read what's on screen and then press (O)
+1. Press (/\\) to uninstall HENkaku Ensō
+1. Reboot when prompted
+
+#### Section V -  Installing HENkaku Ensō for 3.65
+
+1. Reboot your device
+1. Open the Web Browser
+1. Go to [http://go.henkaku.xyz](http://go.henkaku.xyz){:target="_blank"}
+1. Launch the HENkaku Ensō 3.65 Update application
+1. Follow the on-screen instructions
+1. When it reboots to 3.65, make sure to re-enable PSN Spoofing to 3.68
+
+You should now be on HENkaku Ensō 3.65. You should see the Ensō bootlogo when the device boots.
+{: .notice--info}
+
+Continue to [Installing VitaShell to System](installing-vitashell-to-system)
+{: .notice--primary}

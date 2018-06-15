@@ -1,0 +1,44 @@
+---
+title: "FAQ"
+---
+
+<a name="faq_c2-12828" />**Q:** *I received Error C2-12828 when launching HENkaku! What do I do?*    
+**A:** Follow the instructions below:
+
+1. Make sure you have a strong Wi-Fi signal
+1. Delete your cookies in the PS Vita Browser
+	- Make sure that after each step, you keep trying for a bit before moving on
+1. Turn your Vita off, wait a few minutes, turn it back on again and then try again
+1. Start the Vita in Safe mode and select “Rebuild Database”
+	- Turn your Vita off
+	- Press the (R) button + (PS) button + Power button simultaneously for 5 seconds while the Vita is off
+	- Select Rebuild Database
+1. Reset the Wi-Fi Settings
+1. If all that fails, try formatting the memory card
+
+<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
+**A:** No, you must be on 3.60 or below.
+
+<a name="faq_newfw" />**Q:** *I have a Vita on 3.61+ version. Is there a HENkaku exploit coming soon?*    
+**A:** Yes, a HENkaku exploit for system version 3.61 and above is estimated to release sometime in September.
+
+<a name="faq_downgrade" />**Q:** *Can I downgrade my Vita to 3.60 or below?*    
+**A:** No. You must buy a new Vita on 3.60 or below or swap out your motherboard for one on 3.60 or below. Be careful however, as some sellers lie about their motherboard's firmware version for extra cash.
+
+<a name="faq_updates" />**Q:** *Now that Sony is ending production of the Vita, does that mean no more updates?*    
+**A:** Not necessarily. The version 3.68 was released 6 months after the previous update, when people least expected. That's why you must always ensure that you have followed the [Blocking Updates](blocking-updates) guide.
+
+<a name="faq_update" />**Q:** *Is it safe to update a Vita on HENkaku?*    
+**A:** No! You must always ensure that you have followed the [Blocking Updates](blocking-updates) guide.
+
+<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
+**A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
+
+<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
+**A:** Yes! This enables any custom user-made homebrew to be played on your device.
+
+<a name="faq_support" />**Q:** *Where should I go for support?*    
+**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6).
+
+<a name="faq_nopc" />**Q:** *Can I do this without a computer?*    
+**A:** No! You must have a PC to complete this guide.
