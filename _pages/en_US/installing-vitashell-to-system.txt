@@ -1,5 +1,5 @@
 ---
-title: "Updating to HENkaku Ensō 3.65"
+title: "Installing VitaShell to System"
 ---
 
 {% include toc title="Table of Contents" %}
