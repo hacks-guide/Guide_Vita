@@ -6,7 +6,7 @@ title: "Updating to HENkaku Ensō 3.65"
 
 ### Required Reading
 
-This will update your PS Vita to system version 3.65 while keeping HENkaku Ensō. Once on 3.65, you will not be able to downgrade back to 3.60.
+This will update your PS Vita to system version 3.65 while keeping HENkaku Ensō.
 
 After you update, you will be able to activate your Vita, use the PS Store, play online and install/play games which require a firmware higher than 3.61.
 
@@ -14,7 +14,7 @@ You must have an official Sony memory card to update to 3.65.
 
 This method is not compatible with any devices on 3.61 or above.
 
-Do not mess with system files. If you brick your device, you will have to restore to stock 3.65. Once restored, you will not be able to install HENkaku again. There is no way to downgrade back.
+Do not mess with system files. If you brick your device, you will have to restore to stock 3.65. Once restored, you will not be able to install HENkaku again until a new exploit is released on July 1.
 
 Do not reboot, turn off, or let your PS Vita run out of charge while following this guide unless told to.
 

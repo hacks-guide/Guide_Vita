@@ -29,7 +29,7 @@ Alternatively, click [here](https://crowdin.com/project/vita-guide){:target="_bl
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebew/HENkaku?
+## What is Homebrew/HENkaku?
 
 HENkaku is the first ever homebrew enabler for PS Vita and PSTV. [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games){:target="_blank"} usually refers to software that is not authorized by Sony. This includes homebrew tools, applications, games, and emulators.
 

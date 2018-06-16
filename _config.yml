@@ -11,7 +11,7 @@ minimal_mistakes_skin    : "nord"
 locale                   : "en-US"
 title                    : "Vita Hacks Guide"
 title_separator          : "-"
-name                     : "Plailect, emiyl & T3CHNOLOG1C"
+name                     : '<a href="https://github.com/Plailect" target="_blank">Plailect</a>, <a href="https://github.com/emiyl" target="_blank">emiyl</a> & <a href="https://github.com/T3CHNOLOG1C" target="_blank">T3CHNOLOG1C</a>'
 description              : "A complete guide to Vita (TV) custom firmware, from stock to HENkaku Ensō."
 url                      : "https://vita.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "vita.hacks.guide"

@@ -6,11 +6,9 @@ title: "Get Started"
 
 ### Required Reading
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 3.61 to 3.67" row includes 3.61, 3.63, 3.65, 3.67 and 3.68.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 3.65 to 3.68" row includes 3.65, 3.67 and 3.68.
 
 Before beginning, remember that if you have a PS Vita 1000, you must have a memory card. Size does not matter.
-
-If you are on system version 3.65 or below, it is recommended that you do not update as you will not be able to install HENkaku Ensō in the future on 3.67 and above.
 
 ### Version Table
 
@@ -40,7 +38,12 @@ If you are on system version 3.65 or below, it is recommended that you do not up
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.61</td>
-      <td style="text-align: center; font-weight: bold;">3.67</td>
+      <td style="text-align: center; font-weight: bold;">3.63</td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-to-3.65">Updating to 3.65</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.65</td>
+      <td style="text-align: center; font-weight: bold;">3.68</td>
       <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
     </tr>
   </tbody>

@@ -58,7 +58,7 @@ ___
 #### Updating to HENkaku Ensō 3.65
 This method updates your console to 3.65 while keeping HENkaku Ensō. This will launch the HENkaku exploit on boot. You will be able to use the PS Store, go online, and play games which require system version 3.61 without any issue.
 
-If you lose HENkaku Ensō on 3.65, you will lose homebrew access forever. There is no way to downgrade back to 3.60 once this is installed.
+If you lose HENkaku Ensō on 3.65, you will lose homebrew access until a new exploit is released on July 1.
 
 Continue to [Updating to HENkaku Ensō 3.65](updating-to-henkaku-enso-3.65)
 {: .notice--primary}

@@ -11,17 +11,17 @@ This will update your PS Vita to system version 3.60. HENkaku only runs on 3.60,
 ### Instructions
 
 1. Open the Settings application
-2. Select **Network > Wi-Fi Settings > Your Network > Advanced Settings > DNS Settings**
+2. Select *Network > Wi-Fi Settings > Your Network > Advanced Settings > DNS Settings*
 	- Make sure you are connected to the internet
-	- Make sure **Proxy Server** is set to **Do Not Use**
-3. Choose **Manual**
-4. Change your **Primary DNS** to `212.47.229.76`
-5. Change your **Secondary DNS** to `212.47.229.76`
+	- Make sure "Proxy Server" is set to "Do Not Use"
+3. Choose "Manual"
+4. Change your ""Primary DNS" to `212.47.229.76`
+5. Change your "Secondary DNS" to `212.47.229.76`
 6. Go back to the main Settings screen
-7. Go to **System > Auto-Start Settings**
-8. Uncheck **Download Update File for System Software**
+7. Go to *System > Auto-Start Settings*
+8. Uncheck "Download Update File for System Software"
 6. Go back to the main Settings screen
-7. Select **System Update > Update Using Wi-Fi**
+7. Select *System Update > Update Using Wi-Fi*
 8. Be absolutely certain that the message says “3.60 (変革 Compatible)”
 9. Update your system to 3.60
 
