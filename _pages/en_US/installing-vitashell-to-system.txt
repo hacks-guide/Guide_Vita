@@ -42,3 +42,8 @@ After installing VitaShell to system, the database will be rebuilt and the app l
 1. Close VitaShell and open HBInjector
 1. Follow the on-screen instructions
 1. Once installed, backup `ux0:data/HBInjector/` to your PC to make sure you never lose your system app backups
+
+___
+
+### Continue to [Blocking Updates](blocking-updates)
+{: .notice--primary}
