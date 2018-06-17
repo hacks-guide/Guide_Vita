@@ -4,6 +4,9 @@
 
 $(document).ready(function(){
 
+  // external links should open in a new tab
+  ('a[href^="http"]').not('a[href^="'+$(location).attr('hostname')+'"]').attr('target', '_blank');
+
   // Sticky footer
   var bumpIt = function() {
       $('body').css('margin-bottom', $('.page__footer').outerHeight(true));
@@ -166,6 +169,4 @@ $(document).ready(function(){
       }
     }
   }
-
-  ('a[href^="http"]').not('a[href^="'+$(location).attr('hostname')+'"]').attr('target', '_blank');
 });
