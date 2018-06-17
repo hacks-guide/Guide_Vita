@@ -18,8 +18,8 @@ Afterwards we will install the Adrenaline plugin. Without installing the plugin,
 
 - A HENkaku enabled PS Vita
 - An FTP Client
-	- For Windows, [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"} are recommended
-- The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest){:target="_blank"}
+	- For Windows, [FileZilla](https://filezilla-project.org/) or [WinSCP](https://winscp.net/eng/download.php) are recommended
+- The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
 - The latest release of [PSP Homebrew Browser](/assets/files/PSPhbb_dev.vpk)
 
 ### Instructions

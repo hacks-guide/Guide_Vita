@@ -24,8 +24,8 @@ After installing VitaShell to system, the database will be rebuilt and the app l
 
 - A HENkaku enabled PS Vita
 - An FTP Client
-	- For Windows, [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"} are recommended
-- The latest release of [HBInjector](https://github.com/emiyl/HBInjector/releases/latest/){:target="_blank"}
+	- For Windows, [FileZilla](https://filezilla-project.org/) or [WinSCP](https://winscp.net/eng/download.php) are recommended
+- The latest release of [HBInjector](https://github.com/emiyl/HBInjector/releases/latest/)
 
 ### Instructions
 

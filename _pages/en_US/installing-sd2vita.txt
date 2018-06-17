@@ -16,9 +16,9 @@ This will use FTP (File Transfer Protocol) to transfer the files so your Vita an
 
 - A HENkaku enabled PS Vita
 - An FTP Client
-	- For Windows, [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"} are recommended
+	- For Windows, [FileZilla](https://filezilla-project.org/) or [WinSCP](https://winscp.net/eng/download.php) are recommended
 - The latest release of [gamecard-microsd](/assets/files/gamesd.skprx)
-- The latest release of [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/){:target="_blank"}
+- The latest release of [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
 - [zzBlank.img](/assets/files/zzBlank.img)
 
 ### Instructions

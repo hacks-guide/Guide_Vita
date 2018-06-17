@@ -11,7 +11,7 @@ HENkaku Ensō launches HENkaku automatically on boot, without having to launch i
 ### What You Need
 
 - An FTP Client
-	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"}
+	- For Windows, I'd recommend [FileZilla](https://filezilla-project.org/) or [WinSCP](https://winscp.net/eng/download.php)
 - The latest release of [HENkaku Ensō](https://github.com/henkaku/enso/releases/download/v1.0/enso.vpk)
 
 ### Instructions

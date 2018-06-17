@@ -17,9 +17,9 @@ This will use FTP (File Transfer Protocol) to transfer the files so your Vita an
 ### What You Need
 
 + An FTP Client
-	+ For Windows, [FileZilla](https://filezilla-project.org/){:target="_blank"} or [WinSCP](https://winscp.net/eng/download.php){:target="_blank"} are recommended
-+ The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest){:target="_blank"}
-+ The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest){:target="_blank"}
+	+ For Windows, [FileZilla](https://filezilla-project.org/) or [WinSCP](https://winscp.net/eng/download.php) are recommended
++ The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
++ The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
 
 ### Enabling Unsafe Homebrew
 
