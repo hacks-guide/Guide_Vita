@@ -5,7 +5,13 @@
 $(document).ready(function(){
 
   // external links should open in a new tab
-  ('a[href^="http"]').not('a[href^="'+$(location).attr('hostname')+'"]').attr('target', '_blank');
+  var host = location.hostname
+  var allLinks = document.querySelectorAll('a')
+  for (var i = 0; i < allLinks.length; ++i) {
+    if (allLinks[i].hostname !== host && allLinks[i].hostname !== '') {
+      allLinks[i].target = '_blank'
+    }
+  }
 
   // Sticky footer
   var bumpIt = function() {
