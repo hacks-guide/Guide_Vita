@@ -6,30 +6,37 @@ title: "Updating to 3.60"
 
 ### Required Reading
 
-This will update your PS Vita to system version 3.60. HENkaku only runs on 3.60, so we'll need to update to that before we can proceed.
+These steps will use a custom "HENkaku Easy Update Server" to update your device to the firmware version 3.60. This version is required in order to install HENkaku Ensō CFW.
+
+### What you need
+
+* An internet connection on your Vita (TV)
 
 ### Instructions
 
-1. Open the Settings application
-2. Select *Network > Wi-Fi Settings > Your Network > Advanced Settings > DNS Settings*
-	- Make sure you are connected to the internet
-	- Make sure "Proxy Server" is set to "Do Not Use"
-3. Choose "Manual"
-4. Change your ""Primary DNS" to `212.47.229.76`
-5. Change your "Secondary DNS" to `212.47.229.76`
-6. Go back to the main Settings screen
-7. Go to *System > Auto-Start Settings*
-8. Uncheck "Download Update File for System Software"
-6. Go back to the main Settings screen
-7. Select *System Update > Update Using Wi-Fi*
-8. Be absolutely certain that the message says “3.60 (変革 Compatible)”
-9. Update your system to 3.60
+#### Section I: HENkaku Easy Update Server Setup
+
+1. Launch the Settings application
+1. Navigate to `Network` -> `Wi-Fi Settings`
+  + Connect to a Wi-Fi network if you have not already done so
+1. Select your current connection
+  + This is signified by a green dot next to the network
+1. Go to "Advanced Settings"
+1. Set "DNS Settings" to "Manual"
+1. Set "Primary DNS" to `212.47.229.76`
+1. Leave "Secondary DNS" blank
+1. Ensure "Proxy Server" is set to "Do Not Use"
+1. Return to the main Settings menu
+
+#### Section II: Updating to 3.60
+
+1. Navigate to `System Update` -> `Update Using Wi-Fi`
+1. Ensure the update message "3.60 (変革 Compatible)" is displayed
+  + If it displays any other message, stop and figure out what went wrong
+1. Follow the prompts to update your device to 3.60
+  + Your device should reboot automatically once the process has completed
 
 ___
 
-After you've updated, your system should now be on system version 3.60.
-{: .notice--info}
-
-Continue to [Installing HENkaku](installing-henkaku)
+Continue to [HENkaku](henkaku)
 {: .notice--primary}
-

@@ -1,2 +1,0 @@
-a=wiiu/apps/homebrew_launcher/homebrew_launcher.elf
-default=sysmenu

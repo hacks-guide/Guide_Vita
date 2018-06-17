@@ -66,7 +66,7 @@ This guide has the end goal of taking a completely unmodified Vita (TV) from sto
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc will be preserved).
 + **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
 + The PS Vita 2000 is essentially identical to the original PS Vita 1000 in terms of software. All steps which say "PS Vita" also apply to both models unless otherwise specified.
-+ You must have an official Sony memory card if you have a PS Vita 1000 (the size does not matter).
++ If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000.
 
 ___
 
