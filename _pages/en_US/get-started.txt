@@ -35,7 +35,7 @@ Your device version can be found under the System Information menu in the System
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">1.00</td>
+      <td style="text-align: center; font-weight: bold;">1.03</td>
       <td style="text-align: center; font-weight: bold;">3.57</td>
       <td style="text-align: center; font-weight: bold;"><a href="updating-to-3.60">Updating to 3.60</a></td>
     </tr>
