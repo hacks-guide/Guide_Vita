@@ -20,7 +20,7 @@ title: "FAQ"
 **A:** No, you must be on 3.60 or below.
 
 <a name="faq_newfw" />**Q:** *I have a Vita on 3.61+ version. Is there a HENkaku exploit coming soon?*    
-**A:** Yes, a HENkaku exploit for system version 3.61 and above is estimated to release sometime in September.
+**A:** Yes, a HENkaku exploit, named "h-encore", for system version 3.65 and above is estimated to release on July 1. In preparation for the new exploit, please follow the [Updating to 3.65](updating-to-3.65) guide if you are on 3.61 or 3.63.
 
 <a name="faq_downgrade" />**Q:** *Can I downgrade my Vita to 3.60 or below?*    
 **A:** No. You must buy a new Vita on 3.60 or below or swap out your motherboard for one on 3.60 or below. Be careful however, as some sellers lie about their motherboard's firmware version for extra cash.
