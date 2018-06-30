@@ -6,39 +6,39 @@ title: "Installing HENkaku"
 
 ### Required Reading
 
-HENkaku is a homebrew enabler for the PS Vita which will allow you to install homebrew applications to the home menu.
+HENkaku is an exploit chain for the PS Vita (TV) which will allow for the installation of homebrew applications to the LiveArea Screen. It is only compatible with the firmware version 3.60.
 
-We launch this using the Vita's built in browser, so your Vita will need to be able to access the internet.
+After a reboot, you will have to re-run the HENkaku exploit in order to re-enable homebrew access on your device. This is only a temporary restriction until HENkaku Ensō is installed on the next page to enable permanent homebrew access.
 
-Remember that if you have a PS Vita 1000, you must have a memory card. Size does not matter.
+Additionally, we enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analagous to the "administrator" mode on a computer.
 
-You must be on system version 3.60 to install HENkaku.
-
-We will also enable unsafe homebrew and install the Vita Homebrew Browser, a homebrew application which will allow you to install other homebrew applications from the console itself, without a PC.
+If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
+{: .notice--info}
 
 ### What You Need
 
- * Internet access
+* An internet connection on your Vita (TV)
 
 ### Instructions
 
-#### Section I - Preparing Browser
+#### Section I - Launching HENkaku
 
-1. Launch the browser on your device
-1. Delete your cookies in the PS Vita Browser
-  + This will prevent issues with the browser exploit
-1. Return to the browser
+1. Launch the browser and go to the following URL on your device
+  + `http://henkaku.xyz`
+1. Tap "Install"
+1. Read the disclaimer, then tap "Install"
+  + If you get an error, [follow this troubleshooting guide](troubleshooting#)
+1. If the exploit was successful, you will now have a bubble on your LiveArea screen named "molecularShell".
 
-#### Section II - Launching HENkaku
+#### Section II - Configuring HENkaku
 
-1. Open the Web Browser on your PS Vita
-1. Go to `https://henkaku.xyz/go`
-  + You may want to bookmark this address to save time on typing in the future
+1. Launch the Settings application
+1. Navigate to `HENkaku Settings`
+1. Check "Enable Unsafe Homebrew"
+1. Return to HENkaku Settings menu
+1. Exit the Settings application
 
 ___
 
-After installation, HENkaku should be installed, along with MolecularShell, a file manager and homebrew installer for the Vita.
-{: .notice--info}
-
-Continue to [Installing Homebrew](installing-homebrew)
+Continue to [Installing HENkaku Ensō + 3.65](installing-henkaku-enso-+-3.65)
 {: .notice--primary}

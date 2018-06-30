@@ -16,9 +16,9 @@ This will use FTP (File Transfer Protocol) to transfer the files so your Vita an
 
 ### What You Need
 
-+ An FTP Client
-	+ For Windows, [FileZilla](https://filezilla-project.org/) or [WinSCP](https://winscp.net/eng/download.php) are recommended
-+ The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
+* The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
+* An FTP Client such as [FileZilla](https://filezilla-project.org/download.php)
+* An internet connection on your Vita (TV)
 + The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
 
 ### Enabling Unsafe Homebrew
@@ -42,25 +42,6 @@ Now we’ve got that out the way, we can start to install some homebrew applicat
 1. Press (X) on the `.vpk` files to install both of the homebrew applications you downloaded
 
 ___
-### Methods
-
-___
-
-#### Installing HENkaku Ensō
-
-This method installs HENkaku Ensō on 3.60. This will launch the HENkaku exploit on boot. If you lose HENkaku Ensō on 3.60, you can easily reinstall it.
 
 Continue to [Installing HENkaku Ensō](installing-henkaku-enso)
 {: .notice--primary}
-
-___
-
-#### Updating to HENkaku Ensō 3.65
-This method updates your console to 3.65 while keeping HENkaku Ensō. This will launch the HENkaku exploit on boot. You will be able to use the PS Store, go online, and play games which require system version 3.61 without any issue.
-
-If you lose HENkaku Ensō on 3.65, you will lose homebrew access until a new exploit is released on July 1.
-
-Continue to [Updating to HENkaku Ensō 3.65](updating-to-henkaku-enso-3.65)
-{: .notice--primary}
-
-___

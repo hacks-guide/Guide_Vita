@@ -10,14 +10,20 @@ main:
     title: Donations
     url: donations
   -
+    title: Credits
+    url: credits
+  -
+    title: Troubleshooting
+    url: troubleshooting
+  -
     title: Adrenaline
-    url: installing-adrenaline
+    url: adrenaline
   -
     title: SD2Vita
-    url: installing-sd2vita
+    url: sd2vita
   -
     title: USBMC
-    url: installing-usbmc
+    url: usbmc
   -
     title: Site Navigation
     url: site-navigation
@@ -44,17 +50,17 @@ sidebar_pages:
     title: Get Started
     url: get-started
   -
+    title: Blocking Updates
+    url: blocking-updates
+  -
     title: Updating to 3.60
     url: updating-to-3.60
   -
     title: Installing HENkaku
     url: installing-henkaku
   -
-    title: installing-homebrew
+    title: Installing Homebrew
     url: installing-homebrew
   -
     title: Multiple Options
     url: multiple-options
-  -
-    title: Blocking Updates
-    url: blocking-updates
