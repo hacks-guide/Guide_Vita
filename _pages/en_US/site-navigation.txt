@@ -12,11 +12,8 @@ sitemap: false
 + [Donations](donations)
 + [FAQ](faq)
 + [Get Started](get-started)
-+ [HENkaku](henkaku)
 + [Home](/)
 + [Troubleshooting](troubleshooting)
-+ [Updating to 3.60](updating-to-3.60)
-+ [Updating to HENkaku Ensō 3.65](updating-to-henkaku-enso-3.65)
 + [Why Ads?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

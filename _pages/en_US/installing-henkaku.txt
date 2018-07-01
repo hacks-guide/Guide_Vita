@@ -1,5 +1,5 @@
 ---
-title: "HENkaku"
+title: "Installing HENkaku"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -27,7 +27,7 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
   + `http://henkaku.xyz`
 1. Tap "Install"
 1. Read the disclaimer, then tap "Install"
-  + If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
+  + If you get an error and cannot proceed, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
 1. If the exploit was successful, you will now have a bubble on your LiveArea screen named "molecularShell".
 
 #### Section II - Configuring HENkaku

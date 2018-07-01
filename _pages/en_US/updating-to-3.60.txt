@@ -40,5 +40,5 @@ Note that a custom update server can only update your device, not downgrade it. 
 
 ___
 
-Continue to [HENkaku](henkaku)
+Continue to [Installing HENkaku](installing-henkaku)
 {: .notice--primary}

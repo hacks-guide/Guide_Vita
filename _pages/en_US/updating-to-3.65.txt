@@ -6,7 +6,7 @@ title: "Updating to 3.65"
 
 ### Required Reading
 
-These steps are for updating a *stock* device to 3.65. If you have already hacked your PS Vita (TV) before and are running HENkaku Ensō on 3.60, follow [Updating to 3.65 (Ensō)](updating-to-3.65-(enso)).
+These steps are for updating a *stock* device to 3.65. If you have already hacked your PS Vita (TV) before and are running HENkaku Ensō on 3.60, follow [Updating to (Ensō) 3.65](updating-to-(enso)-3.65).
 {: .notice--danger}
 
 The hencore exploit is only compatible with the firmware version 3.65, 3.67, and 3.68. As a result, lower firmware versions must update using a custom update server in order to use the exploit.
@@ -45,5 +45,5 @@ Note that a custom update server can only update your device, not downgrade it. 
 
 ___
 
-Continue to [h-encore](h-encore)
+Continue to [Installing h-encore](installing-h-encore)
 {: .notice--primary}
