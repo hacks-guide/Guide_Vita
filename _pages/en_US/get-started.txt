@@ -52,7 +52,7 @@ Your device version can be found under the System Information menu in the System
     <tr>
       <td style="text-align: center; font-weight: bold;">3.65</td>
       <td style="text-align: center; font-weight: bold;">3.68</td>
-      <td style="text-align: center; font-weight: bold;">Wait for CFW -- <a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="h-encore">h-encore</a></td>
     </tr>
   </tbody>
 </table>

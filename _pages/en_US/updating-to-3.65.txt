@@ -6,51 +6,44 @@ title: "Updating to 3.65"
 
 ### Required Reading
 
-This will update your PS Vita to system version 3.65 in preparation for the new HENkaku exploit. The exploit only runs on 3.65 and above, so you'll need to update to that before you can proceed.
+These steps are for updating a *stock* device to 3.65. If you have already hacked your PS Vita (TV) before and are running HENkaku Ensō on 3.60, follow [Updating to 3.65 (Ensō)](updating-to-3.65-(enso)).
+{: .notice--danger}
 
-*Do not* update through the system to 3.68. You cannot install HENkaku Ensō on system versions 3.67 and above. HENkaku Ensō allows you to run homebrew automatically on boot.
+The hencore exploit is only compatible with the firmware version 3.65, 3.67, and 3.68. As a result, lower firmware versions must update using a custom update server in order to use the exploit.
 
-This guide is for updating to *STOCK* 3.65. If you are looking to update to HENkaku Ensō 3.65 from 3.60, follow [this guide](updating-to-henkaku-enso-3.65).
-{: .notice--info}
+While the h-encore exploit itself is compatible with firmware versions 3.67 and 3.68, we will be updating to firmware version 3.65 as it is the latest version which still supports the HENkaku Ensō boot-time exploit.
 
-This guide is not compatible with PS TV consoles.
-{: .notice--warning}
+Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.65, you should return to [Get Started](get-started).
 
-### What You Need
+### What you need
 
-- [PS Vita Firmware 3.65](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP)
-- [QCMA](https://codestation.github.io/qcma/)
-- `psp2-updatelist.xml`
-	- <a href="/assets/files/us/psp2-updatelist.xml" download>US</a>
-	- <a href="/assets/files/eu/psp2-updatelist.xml" download>EU</a>
-	- <a href="/assets/files/jp/psp2-updatelist.xml" download>JP</a>
-	
+* An internet connection on your PS Vita (TV)
+
 ### Instructions
 
-#### Section I - Preparing for update
+#### Section I: Prep Work
 
-1. Install QCMA onto your PC
-1. Copy the `PSP2UPDAT.PUP` file to your QCMA Updates folder
-	- On Windows this is typically `C:\Users\USERNAME\Documents\PSV Updates`
-1. Copy the `psp2-updatelist.xml` file to your QCMA Updates folder
-1. On your PS Vita, open the Settings application
-1. Enable "Flight Mode"
-1. Press the PS button to go back to the home screen
-1. Tap the bubble in the top right corner
-1. Delete any updates previously downloaded if they exist
+1. Launch the Settings application
+1. Navigate to `Network` -> `Wi-Fi Settings`
+  + Connect to a Wi-Fi network if you have not already done so
+1. Select your current connection
+  + This is signified by a green dot next to the network
+1. Select "Advanced Settings"
+1. Set "DNS Settings" to "Manual"
+1. Set "Primary DNS" to `23.96.6.207`
+1. Leave "Secondary DNS" blank
+1. Ensure "Proxy Server" is set to "Do Not Use"
+1. Return to the main Settings menu
 
-#### Section II - Updating to 3.65
+#### Section II: Updating to 3.65
 
-1. Launch QCMA on your PC
-1. Plug your Vita into your PC via USB
-1. On your Vita, open the Settings application again
-1. Select "System Update"
-1. Select "Update from PC"
-1. Be absolutely certain that the message says "Version 3.65"
-	- If it does not, go back and see where you went wrong
-1. Update your system
+1. Navigate to `System Update` -> `Update Using Wi-Fi`
+1. Ensure the update message "3.65 (変革 Compatible)" is displayed
+  + If it displays any other message, stop and figure out what went wrong
+1. Follow the prompts to update your device to 3.65
+  + Your device should reboot automatically once the process has completed
 
 ___
 
-Continue to [Blocking Updates](blocking-updates)
+Continue to [h-encore](h-encore)
 {: .notice--primary}

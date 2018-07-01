@@ -6,22 +6,24 @@ title: "Updating to 3.60"
 
 ### Required Reading
 
-These steps will use a custom "HENkaku Easy Update Server" to update your device to the firmware version 3.60. This version is required in order to install HENkaku Ensō CFW.
+The HENkaku exploit is only compatible with the firmware version 3.60. As a result, lower firmware versions must update using a custom update server in order to use the exploit.
+
+Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.60, you should return to [Get Started](get-started).
 
 ### What you need
 
-* An internet connection on your Vita (TV)
+* An internet connection on your PS Vita (TV)
 
 ### Instructions
 
-#### Section I: HENkaku Easy Update Server Setup
+#### Section I: Prep Work
 
 1. Launch the Settings application
 1. Navigate to `Network` -> `Wi-Fi Settings`
   + Connect to a Wi-Fi network if you have not already done so
 1. Select your current connection
   + This is signified by a green dot next to the network
-1. Go to "Advanced Settings"
+1. Select "Advanced Settings"
 1. Set "DNS Settings" to "Manual"
 1. Set "Primary DNS" to `212.47.229.76`
 1. Leave "Secondary DNS" blank

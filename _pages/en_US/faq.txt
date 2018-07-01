@@ -2,37 +2,20 @@
 title: "FAQ"
 ---
 
-<a name="faq_c2-12828" />**Q:** *I received Error C2-12828 when launching HENkaku! What do I do?*    
-**A:** Follow the instructions below:
-
-1. Make sure you have a strong Wi-Fi signal
-1. Delete your cookies in the PS Vita Browser
-	- Make sure that after each step, you keep trying for a bit before moving on
-1. Turn your Vita off, wait a few minutes, turn it back on again and then try again
-1. Start the Vita in Safe mode and select “Rebuild Database”
-	- Turn your Vita off
-	- Press the (R) button + (PS) button + Power button simultaneously for 5 seconds while the Vita is off
-	- Select Rebuild Database
-1. Reset the Wi-Fi Settings
-1. If all that fails, try formatting the memory card
-
 <a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** No, you must be on 3.60 or below.
+**A:** Yes!
 
-<a name="faq_newfw" />**Q:** *I have a Vita on 3.61+ version. Is there a HENkaku exploit coming soon?*    
-**A:** Yes, a HENkaku exploit, named "h-encore", for system version 3.65 and above is estimated to release on July 1. In preparation for the new exploit, please follow the [Updating to 3.65](updating-to-3.65) guide if you are on 3.61 or 3.63.
+<a name="faq_downgrade" />**Q:** *Can I downgrade my Vita?*    
+**A:** No.
 
-<a name="faq_downgrade" />**Q:** *Can I downgrade my Vita to 3.60 or below?*    
-**A:** No. You must buy a new Vita on 3.60 or below or swap out your motherboard for one on 3.60 or below. Be careful however, as some sellers lie about their motherboard's firmware version for extra cash.
+<a name="faq_update" />**Q:** *Is it safe to update a Vita with CFW?*    
+**A:** No! You must always ensure that you have blocked updates as specified at the end of [Finalizing Setup](finalizing-setup).
 
-<a name="faq_updates" />**Q:** *Now that Sony is ending production of the Vita, does that mean no more updates?*    
-**A:** Not necessarily. The version 3.68 was released 6 months after the previous update, when people least expected. That's why you must always ensure that you have followed the [Blocking Updates](blocking-updates) guide.
-
-<a name="faq_update" />**Q:** *Is it safe to update a Vita on HENkaku?*    
-**A:** No! You must always ensure that you have followed the [Blocking Updates](blocking-updates) guide.
+<a name="faq_updates" />**Q:** *Now that Sony has ended production of the Vita, does that mean no more updates will be released?*    
+**A:** This is not necessarily the case. The firmware version 3.68 was released six months after the previous update (at which point it was assumed no new updates would be released).
 
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
+**A:** Bricks are *basically* impossible unless you ignore instructions.
 
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
 **A:** Yes! This enables any custom user-made homebrew to be played on your device.
