@@ -1,0 +1,38 @@
+---
+title: "h-encore"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+h-encore is an exploit chain for the PS Vita (TV) which will allow for the installation of homebrew applications to the LiveArea Screen. It is compatible with the firmware versions 3.65, 3.67, and 3.68.
+
+Note that the h-encore exploit chain is not "persistent" (meaning it does not remain installed after a reboot). For devices on firmware version 3.65, this is fortunately only a temporary restriction until HENkaku Ensō is installed on a later page. For devices on 3.67 or 3.68, you will unfortunately need to perform a small portion of these instructions (indicated below) after every reboot until a new persistent exploit is developed.
+
+In addition to installing the h-encore exploit, we enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analagous to the "administrator" mode on a computer.
+
+If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
+{: .notice--info}
+
+### What You Need
+
+* The `.pkg` format demo of [Bitter Smile](http://ares.dl.playstation.net/cdn/JP0741/PCSG90096_00/xGMrXOkORxWRyqzLMihZPqsXAbAXLzvAdJFqtPJLAZTgOcqJobxQAhLNbgiFydVlcmVOrpZKklOYxizQCRpiLfjeROuWivGXfwgkq.pkg)
+* The latest release of [h-encore](https://github.com/TheOfficialFloW/h-encore/releases/latest)
+* The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) *(the `.zip` file for your OS)*
+* The latest release of [pkg2zip](https://github.com/mmozeiko/pkg2zip/releases/latest)
+  + MacOS and Linux users will need to manually compile pkg2zip by following the [readme](https://github.com/mmozeiko/pkg2zip/blob/master/README.md#building)
+* The latest release of [QCMA](https://github.com/codestation/qcma/releases/latest)
+  + Uninstall the official Sony CMA if it is already installed
+  + MacOS users should download the "noffmpgeg" version of QCMA
+  
+### Instructions
+
+#### Section I - Prep Work
+
+
+
+___
+
+Continue to [Finalizing Setup](finalizing-setup)
+{: .notice--primary}
