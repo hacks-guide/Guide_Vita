@@ -2,9 +2,7 @@
 # changes to take place.
 # For kernel plugins, you must reboot for changes to take place.
 *KERNEL
-# henkaku.skprx is hard-coded to load and is not listed here
 ux0:tai/nonpdrm.skprx
 *main
-# main is a special titleid for SceShell
 ux0:tai/download_enabler.suprx
 ux0:tai/shellbat.suprx

@@ -111,9 +111,9 @@ $(document).ready(function(){
   }
 
   var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "credits", "disc2app", "donations", "f3-(linux)", "f3x-(mac)", 
-                              "faq", "file-extensions-(windows)", "h2testw-(windows)", "site-navigation", 
-                              "troubleshooting", "uninstall-cfw", "vwii-modding", "why-ads"];
+  var sidebar_hidden_pages = ["404", "adrenaline", "credits", "donations", "faq", "file-extensions-(windows)",
+                              "site-navigation", "sd2vita", "troubleshooting", "uninstall-cfw",
+                              "updating-to-3.65-(enso)", "usbmc" ,"why-ads"];
   
   for(var i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
@@ -122,11 +122,10 @@ $(document).ready(function(){
   }
 
   var methods = {
-    "get-started": "0",
-    "homebrew-launcher": "1",
-    "mocha-cfw": "2",
-    "haxchi": "3",
-    "coldboot-haxchi": "4",
+    "updating-to-3.60": "0",
+    "installing-henkaku": "1",
+    "updating-to-3.65": "2",
+    "installing-h-encore": "3",
   };
 
   for(var method in methods){
@@ -143,11 +142,10 @@ $(document).ready(function(){
   if(sidebar_shown){
     var unhide = [];
     var route = {
-      "0": ["homebrew-launcher", "multiple-options", "homebrew-launcher-(channel)", "nand-backup"],
-      "1": ["homebrew-launcher", "multiple-options", "homebrew-launcher-(channel)", "nand-backup"],
-      "2": ["homebrew-launcher", "mocha-cfw", "homebrew-launcher-(channel)", "nand-backup"],
-      "3": ["homebrew-launcher", "haxchi", "coldboot-haxchi","homebrew-launcher-(channel)", "nand-backup"],
-      "4": ["homebrew-launcher", "haxchi", "coldboot-haxchi","homebrew-launcher-(channel)", "nand-backup"],
+      "0": ["updating-to-3.60", "installing-henkaku", "installing-enso-(3.65)", "finalizing-setup"],
+      "1": ["installing-henkaku", "installing-enso-(3.65)", "finalizing-setup"],
+      "2": ["updating-to-3.65", "installing-h-encore", "finalizing-setup"],
+      "3": ["installing-h-encore", "finalizing-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
