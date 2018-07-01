@@ -6,6 +6,9 @@ title: "Installing Ensō (3.65)"
 
 ### Required Reading
 
+These steps are for updating a HENkaku 3.60 device to a 3.65 HENkaku Ensō device. If you have a 3.60 HENkaku Ensō device and are trying to update to a 3.65 HENkaku Ensō device, follow [Updating to 3.65 (Ensō](updating-to-3.65-(enso)).
+{: .notice--warning}
+
 HENkaku Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment. It is more convenient than HENkaku as it does not require you to manually trigger an exploit on your device after every reboot.
 
 In addition to installing HENkaku Ensō, we will also update your PS Vita (TV) to the firmware version 3.65 which will allow you to access the PS Store, use online features, and play newer games which require newer firmware versions.
@@ -18,7 +21,6 @@ In order to install the necessary `.vpk` (content package) files on your device,
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
 * The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/)
-* The latest release of [HENkaku Ensō](https://github.com/henkaku/enso/releases/latest/)
 * The latest release of [update365](https://github.com/TheOfficialFloW/update365/releases/latest) *(the `.PUP` and `.vpk` files)*
 * The latest release of [QCMA](https://github.com/codestation/qcma/releases/latest)
   + Uninstall the official Sony CMA if it is already installed
@@ -34,7 +36,6 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, navigate to `ux0:` -> `data/`
 1. Transfer `VitaShell.vpk` to the `data` folder
-1. Transfer `enso.vpk` to the `data` folder
 1. Transfer `updater.vpk` to the `data` folder
 1. Transfer `PSP2UPDAT.PUP` to the `data` folder
 1. Press (Circle) on your device to close the FTP connection

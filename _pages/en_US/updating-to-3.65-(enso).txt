@@ -90,7 +90,13 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Select "Unlink Memory Card"
   + If you do not unlink your memory card, the card will need to be formatted before it can be used on 3.65
 
-#### Section VI - Installing HENkaku Ensō + 3.65
+#### Section VI - Uninstalling HENkaku Ensō
+1. Launch the HENkaku Ensō application
+1. Press (Circle) to proceed
+1. Press (Triangle) to uninstall HENkaku Ensō
+1. Reboot your device when prompted
+
+#### Section VII - Installing HENkaku Ensō + 3.65
 
 1. Reboot your device
   + This is *required* to ensure no other kernel modules are running when the update begins
@@ -102,7 +108,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Follow the on-screen instructions
 1. When your device reboots, you should see the Team Molecule boot-logo indicating your device is now on HENkaku Ensō 3.65
 
-#### Section VII - Reconfiguring HENkaku
+#### Section VIII - Reconfiguring HENkaku
 
 1. Launch the Settings application
 1. Navigate to `HENkaku Settings`
