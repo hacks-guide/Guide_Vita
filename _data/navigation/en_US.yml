@@ -30,9 +30,6 @@ main:
   -
     title: Site Navigation
     url: site-navigation
-  -
-    title: Uninstall CFW
-    url: uninstall-cfw
 bottom:
   -
     title: For support in English, ask for help at <a href="https://discord.gg/JXEKeg6">Vita Hacking on Discord</a>.

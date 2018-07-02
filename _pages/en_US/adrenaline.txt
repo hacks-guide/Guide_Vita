@@ -16,6 +16,7 @@ You must have already installed VitaShell to use this.
 ### What You Need
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
+  + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
 * The latest release of [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }}){:download="config.txt"}
 
@@ -55,7 +56,7 @@ You must have already installed VitaShell to use this.
   + `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
 1. Press (Circle) to close the editor
 1. When prompted, press (Cross) to save your modifications
-1. Exit the VitaShell application
+1. close the VitaShell application
 1. Reboot your device
   + This is required to load the new kernel plugin added to `ux0:tai/config.txt`
 	
@@ -71,7 +72,7 @@ You must have already installed VitaShell to use this.
 1. Press (Cross) to boot the PSP home menu
   + The PSP home menu is also known as the [XrossMediaBar](https://wikipedia.org/wiki/XrossMediaBar) ("XMB")
 1. Perform the PSP Initial Setup
-1. To exit the PSP Emulator, hold the (PS) button to open the menu, then select `Settings` -> `Exit PspEmu Application`
+1. To close the PSP Emulator, hold the (PS) button to open the menu, then select `Settings` -> `Exit PspEmu Application`
 
 ___
 

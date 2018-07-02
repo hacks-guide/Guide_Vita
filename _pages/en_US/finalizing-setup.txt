@@ -19,9 +19,12 @@ In addition to installing VitaShell as a system application, we also setup appli
 +  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
 +  **shellbat** *(displays exact battery percentage in the status bar)*
 
+In order to install the necessary `.vpk` (content package) files on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card. 
+
 ### What You Need
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
+  + Alternatively, you can also use the USB transfer feature of VitaShell
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * The latest release of [HBInjector](https://github.com/emiyl/HBInjector/releases/latest/)
 * The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
@@ -37,7 +40,7 @@ In addition to installing VitaShell as a system application, we also setup appli
 1. Press (Start) to open the VitaShell settings
 1. Press (Cross) on "SELECT button" to change the mode to "FTP"
   + If you wish, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
-1. Press (Circle) to exit the VitaShell settings
+1. Press (Circle) to close the VitaShell settings
 1. Press (Select) to enable FTP access on your device
 1. Open your FTP client on your computer
 1. Enter the IP Address and Port displayed on your device
@@ -63,7 +66,7 @@ In addition to installing VitaShell as a system application, we also setup appli
 1. Press (Cross) to continue the install each time you are prompted about extended permissions
 1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
 1. Press (Cross) to confirm the deletion
-1. Exit the VitaShell application
+1. close the VitaShell application
 1. Reboot your device
   + This is required to load the new kernel plugins added to `ux0:tai/config.txt`
   + To confirm that everything is working, you should now see a battery percentage in the status bar
@@ -99,9 +102,6 @@ In addition to installing VitaShell as a system application, we also setup appli
 
 #### Section V - PSN Access
 
-If you are already on the latest firmware version (3.68), skip this section.
-{: .notice--info}
-
 1. Navigate to `HENkaku Settings`
 1. Check "Enable PSN spoofing"
 1. Check "Enable Version Spoofing"
@@ -111,9 +111,6 @@ If you are already on the latest firmware version (3.68), skip this section.
 1. Close the Settings application
 
 #### Section VI - Cleanup
-
-If you do not mind having unnecessary applications installed on your device, feel free to skip this section.
-{: .notice--info}
 
 1. Launch the Content Manager application
 1. Select "Manage Content on Memory Card"
@@ -129,10 +126,10 @@ ___
 You can now easily install new homebrew applications just by using Vita Homebrew Browser.
 {: .notice--info}
 
-For information on installing CFW to the built-in PSP emulator, check out the [Adrenaline](adrenaline) page.
+For information on replacing your Sony memory card with an alternative storage (such as a microSD card or USB drive), check out the [StorageMgr](storagemgr) page.
 {: .notice--success}
 
-For information on using an SD card in your device, check out the [SD2Vita](sd2vita) page.
+For information on installing CFW to the built-in PSP emulator, check out the [Adrenaline](adrenaline) page.
 {: .notice--success}
 
 For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.

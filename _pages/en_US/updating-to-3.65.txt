@@ -45,5 +45,5 @@ Note that a custom update server can only update your device, not downgrade it. 
 
 ___
 
-Continue to [Installing h-encore](installing-h-encore)
+### Continue to [Installing h-encore](installing-h-encore)
 {: .notice--primary}

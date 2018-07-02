@@ -112,8 +112,9 @@ $(document).ready(function(){
 
   var sidebar_shown = true;
   var sidebar_hidden_pages = ["404", "adrenaline", "credits", "donations", "faq", "file-extensions-(windows)",
-                              "site-navigation", "sd2vita", "troubleshooting", "uninstall-cfw",
-                              "updating-to-3.65-(enso)", "usbmc" ,"why-ads"];
+                              "storage-format-(linux)", "storage-format-(mac)", "storage-format-(windows)",
+                              "site-navigation", "storagemgr", "troubleshooting", "uninstall-cfw",
+                              "updating-to-3.65-(enso)", "why-ads"];
   
   for(var i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {

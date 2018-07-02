@@ -57,7 +57,8 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Press (Circle) to return to `ux0:`
 1. Navigate to `app` -> `UPDATE365/`
 1. Press (Triangle) to open the menu, then select "Paste" to move the `PSP2UPDAT.PUP` file to the current directory
-1. Exit the molecularShell application
+1. Press (Cross) to dismiss the copied file dialogue box
+1. close the molecularShell application
 
 #### Section IV - Backing up VitaShell
 
@@ -106,9 +107,9 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Navigate to `HENkaku Settings`
 1. Check "Enable Unsafe Homebrew"
 1. Return to HENkaku Settings menu
-1. Exit the Settings application
+1. close the Settings application
 
 ___
 
-Continue to [Finalizing Setup](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
