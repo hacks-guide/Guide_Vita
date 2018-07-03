@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "製作群"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/vita-guide) for being awesome!**
+**感謝所有的超讚的[翻譯人員](https://crowdin.com/project/vita-guide)！**
 {: .notice--primary}
 
-If we forgot you here, contact us and we'll add your name.
+如果我們忘記把您加進來的話，請與我們聯繫。
 
 {% capture notice-1 %}
 
