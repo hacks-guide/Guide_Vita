@@ -65,7 +65,7 @@ Adrenaline 是一個用於修改 PS Vita (TV) 中內建的 PSP 模擬器以運�
 1. 啟動 Adrenaline
 1. 按下「X」鍵以下載 PSP 6.61 系統韌體
   + 此過程將花費一些時間
-  + If you cancel the download before it completes, the downloader will get confused and give you an error about being unable to find the 6.61 PUP
+  + If you cancel the download before it completes, the downloader will get confused and give you an error about being unable to find the 6.61 PBP
   + If you encounter the above error, use VitaShell to delete the `ux0:app/PSPEMUCFW/` folder, then re-install adrenaline, then reboot and try again
   + 於下載完畢時，Adrenaline 將會自動關閉
 1. 重新啟動 Adrenaline
