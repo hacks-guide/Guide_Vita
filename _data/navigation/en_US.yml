@@ -71,8 +71,11 @@ sidebar_pages:
     title: Installing h-encore (Linux / Mac)
     url: installing-h-encore-(linux-mac)
   -
-    title: Installing h-encore (Windows)
-    url: installing-h-encore-(windows)
+    title: Installing h-encore (Windows Auto)
+    url: installing-h-encore-(windows-auto)
+  -
+    title: Installing h-encore (Windows Manual)
+    url: installing-h-encore-(windows-manual)
   -
     title: Configuring h-encore
     url: configuring-h-encore
