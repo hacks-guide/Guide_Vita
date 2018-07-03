@@ -1,112 +1,112 @@
 ---
-title: "Configuring h-encore"
+title: "設定 h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-Now that the h-encore exploit is installed on your device (either through the Windows or Linux / Mac method), we will configure it for easy homebrew access.
+於您的主機安裝完 h-encore 漏洞後 (透過 Windows 或 Linux/Mac 的安裝方式)，我們會將其設置於較簡易存取自製軟體的配置。
 
-For devices on firmware version 3.65, there is additionally an optional section for installing the HENkaku Ensō exploit.
+持有韌體版本 3.65 的主機，於本章節結尾將有安裝 HENkaku Ensō 漏洞的選用章節。
   
-### Instructions
+### 操作說明
 
-#### Section I - Configuring h-encore
+#### 第一節 — 設定 h-encore
 
-1. Launch the h-encore application
-1. If prompted about trophies, select "Yes"
-1. If the exploit was successful, you will now see the h-encore menu
-  + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
-  + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
-1. Select "Install HENkaku"
-  + This will install the HENkaku exploit and enable homebrew access until the next reboot
-1. Select "Download VitaShell"
-  + This will install the VitaShell homebrew application for managing your device's filesystem
-  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
-1. Select "Exit"
+1. 啟動 h-encore
+1. 如有提示關於獎盃的事項，選擇「是」
+1. 如果漏洞成功執行的話，您將會看到 h-encore 選單
+  + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
+  + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
+1. 選擇『Install HENkaku』
+  + 這將會安裝 HENkaku 漏洞，並啟用自製軟體存取權直到下次重啟
+1. 選擇『Download VitaShell』
+  + 這將會安裝自製軟體 VitaShell 以管理您主機的檔案系統
+  + VitaShell (以及所有其他的自製軟體) 於重啟後仍會保持其安裝狀態，但如果沒有先執行 HENkaku 漏洞的話將無法執行
+1. 選擇『Exit』
 
-#### Section II - Configuring HENkaku
+#### 第二節 — 設定 HENkaku
 
-1. Launch the Settings application
-1. Navigate to `HENkaku Settings`
-1. Check "Enable Unsafe Homebrew"
-1. Return to HENkaku Settings menu
-1. Close the Settings application
+1. 啟動設定
+1. 移動至 `HENkaku Settings`
+1. 勾選『Enable Unsafe Homebrew』
+1. 回到 HENkaku Settings 選單
+1. 關閉設定
 
-#### Section III - Disabling Trophy Warning
+#### 第三節 — 關閉獎盃相關警告
 
 {% capture notice-1 %}
-This is an optional section which will disable the trophy warning that appears when h-encore is launched. 
+本結為選用章節。此章節將會關閉啟動 h-encore 時所出現的獎盃相關警告。 
 
-This section is not recommended for devices on firmware version 3.65 as HENkaku Ensō can replace h-encore on those systems.
+本章節不建議用於持有系統版本 3.65 的主機，因為 HENkaku Ensō 可以在這些系統中替代 h-encore。
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Launch the VitaShell application
-1. Navigate to `ux0:` -> `user/` -> `00/` -> `savedata`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Square) to un-mark `system.dat`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Delete" to delete the folder
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
-1. Launch the h-encore application
-1. When the "Bitter Smile" main menu appears, close the h-encore application
-1. Launch the VitaShell application
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Delete" to delete the file
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. 啟動 VitaShell
+1. 移動至 `ux0:` -> `user/` -> `00/` -> `savedata`
+1. 於 `PCSG90096` 資料夾上按下「△」(三角形) 鍵以啟動選單，並選擇『Open decrypted』
+  + 如果您看見 `sce_pfs`，那麼您在開啟資料夾時可能使用了錯誤的選單選項
+1. 於 `system.dat` 檔案上按下「△」(三角形) 鍵以啟動選單，並選擇『Copy』
+1. 按下「X」鍵以忽略複製檔案的對話框
+1. 按下「O」鍵以返回至 `savedata` 資料夾中
+1. 按下「△」(三角形) 鍵以開啟選單，並選擇『Paste』將 `system.dat` 檔案複製至當前的資料夾中
+1. 按下「□」(方形) 鍵以取消選取 `system.dat`
+1. 於 `PCSG90096` 資料夾上按下「△」(三角形) 鍵以啟動選單，並選擇『Delete』以刪除此資料夾
+1. 按下「X」鍵確認刪除
+1. 關閉 VitaShell
+1. 啟動 h-encore
+1. 當『Bitter Smile』主選單出現時，關閉 h-encore
+1. 啟動 VitaShell
+1. 於 `system.dat` 檔案上按下「△」(三角形) 鍵以啟動選單，並選擇『Copy』
+1. 按下「X」鍵以忽略複製檔案的對話框
+1. 於 `PCSG90096` 資料夾上按下「△」(三角形) 鍵以啟動選單，並選擇『Open decrypted』
+  + 如果您看見 `sce_pfs`，那麼您在開啟資料夾時可能使用了錯誤的選單選項
+1. 按下「△」(三角形) 鍵以開啟選單，並選擇『Paste』將 `system.dat` 檔案複製至當前的資料夾中
+1. 按下「O」鍵以返回至 `savedata` 資料夾中
+1. 於 `system.dat` 檔案上按下「△」(三角形) 鍵以啟動選單，並選擇『Delete』以刪除此檔案
+1. 按下「X」鍵確認刪除
+1. 關閉 VitaShell
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### 繼續至[完成安裝](finalizing-setup)
 {: .notice--primary}
 
 ___
 
-The following is an optional section for devices on firmware version 3.65 which will install the HENkaku Ensō exploit.
+以下為適用於系統版本 3.65 的主機的選用章節。本章節將會安裝 HENkaku Ensō 漏洞。
 
-HENkaku Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment. It is more convenient than h-encore as it does not require you to manually trigger an exploit on your device after every reboot.
+HENkaku Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，您的主機能於啟動時自動設置 HENkaku 環境，讓您能輕易地使用自製軟體。 因為 h-encore 需於每次主機重新啟動時重新手動觸發漏洞，此方案相對方便許多。
 
-#### Section IV - Installing HENkaku Ensō
+#### 第四節 — 安裝 HENkaku Ensō
 
-##### What You Need
+##### 必備項目
 
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
-* The latest release of [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
+* 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
+  + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
+* 最新版的 [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
-##### Instructions
+##### 操作說明
 
-1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-  + Alternatively, you can also use the USB transfer feature of VitaShell
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `enso.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
-1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Cross) on `enso.vpk` to install the file
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install each time you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
-1. Open the Ensō application
-1. Press (Circle) to accept the terms
-1. Press (Cross) to install HENkaku Ensō
-  + This process will take some time
-  + When the process has completed, press any button to reboot your device
+1. 啟動 VitaShell
+1. 按下「Select」鍵以啟動 FTP 存取功能
+  + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
+1. 於您的電腦中啟動您的 FTP 客戶端
+1. 輸入於您主機上顯示的 IP 位址以及埠
+1. 透過 FTP 端移動至 `ux0:` -> `data/`
+1. 複製 `enso.vpk` 至 `data` 資料夾中
+1. 於您的主機按下「O」鍵以關閉 FTP 連線
+1. 於您的主機中移動至 `ux0:` -> `data/`
+1. 於 `enso.vpk` 上按下「X」鍵安裝
+1. 按下「X」鍵確認安裝
+1. 當每次提示要求使用更高權限時，按下「X」繼續
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
+1. 按下「X」鍵確認刪除
+1. 關閉 VitaShell
+1. 啟動 Ensō
+1. 按下「O」鍵接受條款
+1. 按下「X」鍵安裝 HENkaku Ensō
+  + 此過程將花費一些時間
+  + 當安裝完畢後，按下任意按鈕重啟您的主機
