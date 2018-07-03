@@ -22,11 +22,8 @@ main:
     title: Adrenaline
     url: adrenaline
   -
-    title: SD2Vita
-    url: sd2vita
-  -
-    title: USBMC
-    url: usbmc
+    title: StorageMgr
+    url: storagemgr
   -
     title: Site Navigation
     url: site-navigation
