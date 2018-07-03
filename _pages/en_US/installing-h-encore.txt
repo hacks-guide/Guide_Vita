@@ -28,7 +28,11 @@ ___
 
 #### Installing h-encore (Windows)
 
-Continue to [Installing boot9strap (DSiWare Save Injection)](installing-boot9strap-(dsiware-save-injection))
+This method requires a Windows computer.
+    
+The "auto h-encore" tool is used to automate a portion of the h-encore installation.
+
+Continue to [Installing h-encore (Windows)](installing-h-encore-(windows))
 {: .notice--primary}
 
 ___
@@ -39,7 +43,7 @@ This method requires a Linux or Mac computer.
     
 The h-encore installation is performed manually and requires usage of the command line.
 
-Continue to [Installing boot9strap (DSiWare Game Injection)](installing-boot9strap-(dsiware-game-injection))
+Continue to [Installing h-encore (Linux / Mac)](installing-h-encore-(linux-mac))
 {: .notice--primary}
 
 ___
