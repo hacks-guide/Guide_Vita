@@ -51,7 +51,7 @@ HENkaku Ensō is available on all devices with firmware version 3.65 or below, w
 
 ## What can I do with Custom Firmware?
 
-+ Customize your LiveArea Screen with user-created [themes](http://vstema.com/).
++ Customize your home screen with user-created [themes](http://vstema.com/).
 + Use "ROM hacks" for games that you own
 + [Backup, edit, and restore](https://github.com/d3m3vilurr/vita-savemgr) saves for many games.
 + Play games for older systems with various emulators, using RetroArch or other standalone emulators.
