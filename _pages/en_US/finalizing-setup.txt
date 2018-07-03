@@ -39,7 +39,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Launch the VitaShell application
 1. Press (Start) to open the VitaShell settings
 1. Press (Cross) on "SELECT button" to change the mode to "FTP"
-  + If you wish, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
+  + Alternatively, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
 1. Press (Circle) to close the VitaShell settings
 1. Press (Select) to enable FTP access on your device
 1. Open your FTP client on your computer
@@ -115,7 +115,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Launch the Content Manager application
 1. Select "Manage Content on Memory Card"
 1. Select "PS Vita"
-1. Delete the following applications if they exist (note that, depending on your install method, some of these applications may not be present):
+1. Delete the following applications if they exist (note that, depending on your install method, some or all of these applications may be missing):
   + "3.65 HENkaku Enso Updater"
   + "ensō"
   + "molecularShell"

@@ -36,7 +36,7 @@ Note that a custom update server can only update your device, not downgrade it. 
 1. Ensure the update message "3.60 (変革 Compatible)" is displayed
   + If it displays any other message, stop and figure out what went wrong
 1. Follow the prompts to update your device to 3.60
-  + Your device should reboot automatically once the process has completed
+  + When the process has completed, your device will reboot automatically
 
 ___
 

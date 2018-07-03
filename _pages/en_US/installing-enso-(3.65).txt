@@ -13,7 +13,7 @@ HENkaku Ensō is a complete CFW solution for the PS Vita (TV) which allows for c
 
 In addition to installing HENkaku Ensō, we will also update your PS Vita (TV) to the firmware version 3.65 which will allow you to access the PS Store, use online features, and play newer games which require newer firmware versions.
 
-Note that updating your device to the firmware version 3.65 will render the standard HENkaku exploit unusable. Should you remove HENkaku Ensō after updating, you will need to follow [Installing h-encore](installing-h-encore) to reinstall it.
+Note that updating your device to the firmware version 3.65 will render the standard HENkaku exploit unusable. Should you remove HENkaku Ensō for some reason, you will need to follow [Installing h-encore](installing-h-encore) to reinstall it.
 
 In order to install the necessary `.vpk` (content package) files on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card. 
 
@@ -22,15 +22,14 @@ In order to install the necessary `.vpk` (content package) files on your device,
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
 * The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/)
 * The latest release of [update365](https://github.com/TheOfficialFloW/update365/releases/latest) *(the `.PUP` and `.vpk` files)*
-* The latest release of [QCMA](https://github.com/codestation/qcma/releases/latest)
-  + Uninstall the official Sony CMA if it is already installed
-  + MacOS users should download the "noffmpgeg" version of QCMA
   
 ### Instructions
 
 #### Section I - Prep Work
 
 1. Launch the molecularShell application
+  + This is a homebrew application for managing your device's filesystem
+  + We will soon replace molecularShell with VitaShell, which is a newer version of the same application
 1. Press (Select) to enable FTP access on your device
 1. Open your FTP client on your computer
 1. Enter the IP Address and Port displayed on your device
@@ -60,28 +59,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Press (Cross) to dismiss the copied file dialogue box
 1. close the molecularShell application
 
-#### Section IV - Backing up VitaShell
-
-1. Install and launch QCMA on your computer if you have not already
-1. Launch the Content Manager application on your device
-1. Select "Copy Content"
-1. Select "PC"
-1. Select the method you wish to use to connect to QCMA
-  + If you are prompted to log-in to a PlayStation Network Account, do so
-  + If you do not have a PlayStation Network Account, create one
-1. Select / register your computer if prompted
-1. Select "PS Vita System -> PC"
-1. Select "Applications"
-1. Select "PS Vita"
-1. Select "VitaShell"
-1. Select "Copy" in the corner
-1. Select "Okay"
-  + The backup of VitaShell will be saved in `Documents/PS Vita/APP` on your computer
-  + Make backups in multiple locations (such as online file storage)
-  + This backup of VitaShell will allow you to easily re-install VitaShell should it be corrupted or removed from your device
-1. Exit Content Manager
-
-#### Section V - Unlinking Memory Card
+#### Section IV - Unlinking Memory Card
 
 1. Launch the Settings application
 1. Navigate to `HENkaku Settings`
@@ -89,7 +67,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Select "Unlink Memory Card"
   + If you do not unlink your memory card, the card will need to be formatted before it can be used on 3.65
 
-#### Section VI - Installing HENkaku Ensō + 3.65
+#### Section V - Installing HENkaku Ensō + 3.65
 
 1. Reboot your device
   + This is *required* to ensure no other kernel modules are running when the update begins
@@ -101,7 +79,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Follow the on-screen instructions
 1. When your device reboots, you should see the Team Molecule boot-logo indicating your device is now on HENkaku Ensō 3.65
 
-#### Section VII - Reconfiguring HENkaku
+#### Section VI - Configuring HENkaku
 
 1. Launch the Settings application
 1. Navigate to `HENkaku Settings`
