@@ -18,6 +18,7 @@ In addition to installing VitaShell as a system application, we also setup appli
 +  **NoNpDrm** *(allows for decrypted games and applications to be used)*
 +  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
 +  **shellbat** *(displays exact battery percentage in the status bar)*
++  **pngshot** *(improves the built-in screenshot utility)*
 
 In order to install the necessary `.vpk` (content package) files on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card. 
 
@@ -31,6 +32,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 * The latest release of [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
 * The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest)
 * The latest release of [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
+* The latest release of [pngshot](https://github.com/xyzz/pngshot/releases/latest)
 
 ### Instructions
 
@@ -53,6 +55,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Transfer `nonpdrm.skprx` to the `tai` folder
 1. Transfer `download_enabler.suprx` to the `tai` folder
 1. Transfer `shellbat.suprx` to the `tai` folder
+1. Transfer `pngshot.suprx` to the `tai` folder
 1. Transfer `config.txt` to  the `tai` folder
   + Overwrite (replace) the existing `config.txt` file
 1. Press (Circle) on your device to close the FTP connection
