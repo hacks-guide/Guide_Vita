@@ -22,13 +22,24 @@ ___
 
 ___
 
-#### Installing h-encore (Windows)
+#### Installing h-encore (Windows Auto)
 
 This method requires a Windows computer.
     
 The "auto h-encore" tool is used to automate a portion of the h-encore installation.
 
-Continue to [Installing h-encore (Windows)](installing-h-encore-(windows))
+Continue to [Installing h-encore (Windows)](installing-h-encore-(windows-auto))
+{: .notice--primary}
+
+___
+
+#### Installing h-encore (Windows Manual)
+
+This method requires a Windows computer.
+    
+The h-encore installation is performed manually and requires usage of the command line.
+
+Continue to [Installing h-encore (Windows)](installing-h-encore-(windows-manual))
 {: .notice--primary}
 
 ___

@@ -128,7 +128,8 @@ $(document).ready(function(){
     "updating-to-3.65": "2",
     "installing-h-encore": "3",
     "installing-h-encore-(linux-mac)": "4",
-    "installing-h-encore-(windows)": "5",
+    "installing-h-encore-(windows-auto)": "5",
+    "installing-h-encore-(windows-manual)": "6",
   };
 
   for(var method in methods){
@@ -150,7 +151,8 @@ $(document).ready(function(){
       "2": ["updating-to-3.65", "installing-h-encore", "finalizing-setup"],
       "3": ["installing-h-encore", "multiple-options", "configuring-h-encore", "finalizing-setup"],
       "4": ["installing-h-encore", "installing-h-encore-(linux-mac)", "configuring-h-encore", "finalizing-setup"],
-      "5": ["installing-h-encore", "installing-h-encore-(windows)", "configuring-h-encore", "finalizing-setup"],
+      "5": ["installing-h-encore", "installing-h-encore-(windows-auto)", "configuring-h-encore", "finalizing-setup"],
+      "5": ["installing-h-encore", "installing-h-encore-(windows-manual)", "configuring-h-encore", "finalizing-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){

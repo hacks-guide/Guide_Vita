@@ -1,5 +1,5 @@
 ---
-title: "Installing h-encore (Windows)"
+title: "Installing h-encore (Windows Auto)"
 ---
 
 {% include toc title="Table of Contents" %}
