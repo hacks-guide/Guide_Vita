@@ -15,7 +15,7 @@ Note that, as part of the HBInjector injection process, the system database will
 In addition to installing VitaShell as a system application, we also setup applications and plugins such as the following:    
 
 +  **Vita Homebrew Browser** *(downloads and installs other homebrew applications)*
-+  **NoNpDrm** *(allows for decrypted games and applications to be used)*
++  **NoNpDrm** *(allows for encrypted games and applications to be used)*
 +  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
 +  **shellbat** *(displays exact battery percentage in the status bar)*
 +  **pngshot** *(improves the built-in screenshot utility)*
@@ -69,7 +69,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Press (Cross) to continue the install each time you are prompted about extended permissions
 1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
 1. Press (Cross) to confirm the deletion
-1. close the VitaShell application
+1. Close the VitaShell application
 1. Reboot your device
   + This is required to load the new kernel plugins added to `ux0:tai/config.txt`
   + To confirm that everything is working, you should now see a battery percentage in the status bar
