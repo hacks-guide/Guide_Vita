@@ -9,7 +9,7 @@ title: "Updating to 3.65 (Ensō)"
 These steps are for updating a 3.60 HENkaku Ensō device to 3.65 (while retaining HENKaku Ensō). If you have a stock device and are trying to update to 3.65, follow [Updating to 3.65](updating-to-3.65).
 {: .notice--warning}
 
-Updating your HENkaku Ensō PS Vita (TV) to the firmware version 3.65 which will allow you to access the PS Store, use online features, and play newer games which require newer firmware versions, all while retaining access to the convenient boot-time HENkaku Ensō homebrew exploit.
+Updating your HENkaku Ensō PS Vita (TV) to the firmware version 3.65 will allow you to access the PS Store, use online features, and play newer games which require newer firmware versions, all while retaining access to the convenient boot-time HENkaku Ensō homebrew exploit.
 
 Note that updating your device to the firmware version 3.65 will render the standard HENkaku exploit unusable. Should you remove HENkaku Ensō for some reason, you will need to follow [Installing h-encore](installing-h-encore) to reinstall it.
 
