@@ -1,80 +1,80 @@
 ---
-title: "Installing Adrenaline"
+title: "安裝 Adrenaline"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-Adrenaline is a homebrew application which modifies the official PSP Emulator of the PS Vita (TV) to run a PSP 6.61 custom firmware.
+Adrenaline 是一個用於修改 PS Vita (TV) 中內建的 PSP 模擬器以運行 PSP 6.61自製韌體的自製軟體。
 
-Additionally, adrenaline also enables access to a full PSP home menu running under the official PSP Emulator.
+此外，透過 Adrenaline 也可以讓您在使用內建的 PSP 模擬器中使用 PSP 的系統選單。
 
-You must have already installed VitaShell to use this.
+您必須先安裝 VitaShell 才能繼續。
 {: .notice--info}
 
-### What You Need
+### 必備項目
 
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
-* The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
-* The latest release of [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }}){:download="config.txt"}
+* 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
+  + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
+* 最新版的 [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
+* 最新版的 [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }}){:download="config.txt"}
 
-### Instructions
+### 操作說明
 
-#### Section I - Prep Work
+#### 第一節 — 準備工作
 
-1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `Adrenaline.vpk` to the `data` folder
-1. Transfer `PSPhbb_dev.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
+1. 啟動 VitaShell
+1. 按下「Select」鍵以啟動 FTP 存取功能
+1. 於您的電腦中啟動您的 FTP 客戶端
+1. 輸入於您主機上顯示的 IP 位址以及埠
+1. 透過 FTP 端移動至 `ux0:` -> `data/`
+1. 複製 `Adrenaline.vpk` 至 `data` 資料夾中
+1. 複製 `PSPhbb_dev.vpk` 至 `data` 資料夾中
+1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
-#### Section II - Installing VPKs
+#### 第二節 — 安裝 VPKs
 
-1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Square) on each of the `.vpk` files to mark them
-1. Press (Triangle) to open the menu, then select "More" -> "Install all" to install the marked files
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install each time you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
-1. Press (Cross) to confirm the deletion
+1. 於您的主機中移動至 `ux0:` -> `data/`
+1. 於各個 `.vpk` 檔案上按下「□」(方形) 鍵將其選取
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『More』->『Install all』以安裝所有已選取的檔案
+1. 按下「X」鍵確認安裝
+1. 當每次提示要求使用更高權限時，按下「X」繼續
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
+1. 按下「X」鍵確認刪除
 
-#### Section III - Modifying Plugin Config
+#### 第三節 — 更改插件設置
 
-1. Press (Circle) to return to `ux0:`
-1. Navigate to `tai/`
-1. Press (Cross) on `config.txt` to open it in the editor
-1. Highlight the `*KERNEL` line with the cursor
-1. Press (Triangle) to open the menu, then select "Insert empty line"
-1. Highlight the new blank line
-1. Press (Cross) to edit the line
-1. Enter the following text:
+1. 按下「O」鍵回到 `ux0:` 中
+1. 移動至 `tai/`
+1. 於 `config.txt` 上按下「X」鍵將其於文件編輯器中開啟
+1. 透過游標選取含有 `*KERNEL` 字串的行列
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『Insert empty line』(插入空行)
+1. 選擇新的空行
+1. 按下「X」鍵編輯此行
+1. 輸入下列文字：
   + `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
-1. Press (Circle) to close the editor
-1. When prompted, press (Cross) to save your modifications
-1. Close the VitaShell application
-1. Reboot your device
-  + This is required to load the new kernel plugin added to `ux0:tai/config.txt`
+1. 按下「O」鍵以關閉編輯器
+1. 當提示時，按下「X」鍵存檔
+1. 關閉 VitaShell
+1. 重新啟動您的主機
+  + 此為必要步驟以載入剛所設定至 `ux0:tai/config.txt` 的內核插件
 	
-#### Section IV - Installing PSP XMB
+#### 第四節 — 安裝 PSP 主選單 (XMB)
 
-1. Launch the Adrenaline application
-1. Press (Cross) to download the PSP 6.61 firmware
-  + This process will take some time
-  + If you cancel the download before it completes, you will need to reboot before you can restart the download
-  + The Adrenaline application will close automatically when the download is complete
-1. Re-launch the Adrenaline application
-1. Press (Cross) to install PSP 6.61 the firmware
-1. Press (Cross) to boot the PSP home menu
-  + The PSP home menu is also known as the [XrossMediaBar](https://wikipedia.org/wiki/XrossMediaBar) ("XMB")
-1. Perform the PSP Initial Setup
-1. To close the PSP Emulator, hold the (PS) button to open the menu, then select `Settings` -> `Exit PspEmu Application`
+1. 啟動 Adrenaline
+1. 按下「X」鍵以下載 PSP 6.61 系統韌體
+  + 此過程將花費一些時間
+  + 如果您在下載完成前取消，您得在重新下載前重啟您的主機才能繼續
+  + 於下載完畢時，Adrenaline 將會自動關閉
+1. 重新啟動 Adrenaline
+1. 按下「X」鍵以安裝 PSP 6.61 系統韌體
+1. 按下「X」鍵以啟動 PSP 系統主選單
+  + PSP 系統主選單俗稱為 [XrossMediaBar](https://wikipedia.org/wiki/XrossMediaBar) ("XMB")
+1. 完成 PSP 的初始設置
+1. 若要關閉 PSP 模擬器，按住「PS」按鈕開啟選單，並選擇 `Settings` -> `Exit PspEmu Application`
 
 ___
 
-Adrenaline and the PSP Homebrew Browser have been successfully installed.
+已成功安裝 Adrenaline 及 PSP Homebrew Browser。
 {: .notice--success}
