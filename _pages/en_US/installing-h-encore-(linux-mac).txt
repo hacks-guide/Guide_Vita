@@ -22,7 +22,7 @@ Before proceeding, ensure you have read all of the information on [Installing h-
   + You will need to manually compile pkg2zip by following the [readme](https://github.com/mmozeiko/pkg2zip/blob/master/README.md#building)
 * The latest release of [QCMA](https://github.com/codestation/qcma/releases/latest)
   + Uninstall the official Sony CMA if it is already installed
-  + MacOS users should download the "noffmpgeg" version of QCMA
+  + MacOS users should download the "noffmpeg" version of QCMA
   
 ### Instructions
 
