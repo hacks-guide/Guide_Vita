@@ -1,0 +1,35 @@
+---
+title: "Site Navigation" #
+layout: single-no-ads
+sitemap: false
+---
+
+{% capture notice-2 %}
+**All**
+
++ [Adrenaline](adrenaline)
++ [Configuring h-encore](configuring-h-encore)
++ [Credits](credits)
++ [Donations](donations)
++ [FAQ](faq)
++ [File Extensions (Windows)](file-extensions-(windows))
++ [Finalizing Setup](finalizing-setup)
++ [Get Started](get-started)
++ [Home](/)
++ [Installing Ensō (3.65)](installing-enso-(3.65))
++ [Installing h-encore](installing-h-encore)
++ [Installing h-encore (Linux / Mac)](installing-h-encore-(linux-mac))
++ [Installing h-encore (Windows Auto)](installing-h-encore-(windows-auto))
++ [Installing h-encore (Windows Manual)](installing-h-encore-(windows-manual))
++ [Installing HENkaku](installing-henkaku)
++ [Storage Format (Linux)](storage-format-(linux))
++ [Storage Format (Mac)](storage-format-(mac))
++ [Storage Format (Windows)](storage-format-(windows))
++ [StorageMgr](storagemgr)
++ [Troubleshooting](troubleshooting)
++ [Updating to 3.60](updating-to-3.60)
++ [Updating to 3.65](updating-to-3.65)
++ [Updating to 3.65 (Ensō)](updating-to-3.65-(enso))
++ [Why Ads?](why-ads)
+{% endcapture %}
+<div class="notice--primary">{{ notice-2 | markdownify }}</div>
