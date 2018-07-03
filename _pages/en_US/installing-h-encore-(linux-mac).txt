@@ -8,7 +8,7 @@ title: "Installing h-encore (Linux / Mac)"
 
 This method requires a Linux or Mac computer.
     
-The h-encore installation is performed manually and requires usage of the command line.
+The h-encore installation is performed manually and requires the use of the command line.
 
 Before proceeding, ensure you have read all of the information on [Installing h-encore](installing-h-encore)
 
@@ -19,7 +19,7 @@ Before proceeding, ensure you have read all of the information on [Installing h-
 * The latest release of [h-encore](https://github.com/TheOfficialFloW/h-encore/releases/latest)
 * The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) *(the `.zip` file for your OS)*
 * The latest version of [pkg2zip](https://github.com/mmozeiko/pkg2zip/archive/master.zip)
-  + You will need to manually compile pkg2zip by following the [readme](https://github.com/mmozeiko/pkg2zip/blob/master/README.md#building)
+  + You will need to compile pkg2zip manually by following the [readme](https://github.com/mmozeiko/pkg2zip/blob/master/README.md#building)
 * The latest release of [QCMA](https://github.com/codestation/qcma/releases/latest)
   + Uninstall the official Sony CMA if it is already installed
   + MacOS users should download the "noffmpeg" version of QCMA
@@ -47,7 +47,7 @@ Before proceeding, ensure you have read all of the information on [Installing h-
 1. Copy the name of the folder in this directory, then paste it into the "AID" box on the CMA website
   + Here is an example AID: `ec8d45ec9c055609`
 1. Select "Submit" to generate the corresponding key
-  + Keep this page open, you will need this key soon
+  + Keep this page open; you will need this key soon
   + Here is an example key: `488d3ff6cce7a9ef1be6da8338c7d18db18147c3255fa4d50596568555687174`
 1. Copy the `h-encore` folder from the h-encore `.zip` to a folder on your computer
 1. Copy the contents of the psvimgtools `.zip` to the `h-encore` folder

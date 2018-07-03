@@ -109,7 +109,7 @@ ___
 You can now easily install new homebrew applications just by using Vita Homebrew Browser.
 {: .notice--info}
 
-For information on replacing your Sony memory card with an alternative storage (such as a microSD card or USB drive), check out the [StorageMgr](storagemgr) page.
+For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [StorageMgr](storagemgr) page.
 {: .notice--success}
 
 For information on installing CFW to the built-in PSP emulator, check out the [Adrenaline](adrenaline) page.
