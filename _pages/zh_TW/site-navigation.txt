@@ -1,35 +1,35 @@
 ---
-title: "Site Navigation" #
+title: "網站導覽" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**所有**
 
 + [Adrenaline](adrenaline)
-+ [Configuring h-encore](configuring-h-encore)
-+ [Credits](credits)
-+ [Donations](donations)
-+ [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
-+ [Finalizing Setup](finalizing-setup)
-+ [Get Started](get-started)
-+ [Home](/)
-+ [Installing Ensō (3.65)](installing-enso-(3.65))
-+ [Installing h-encore](installing-h-encore)
-+ [Installing h-encore (Linux / Mac)](installing-h-encore-(linux-mac))
-+ [Installing h-encore (Windows Auto)](installing-h-encore-(windows-auto))
-+ [Installing h-encore (Windows Manual)](installing-h-encore-(windows-manual))
-+ [Installing HENkaku](installing-henkaku)
-+ [Storage Format (Linux)](storage-format-(linux))
-+ [Storage Format (Mac)](storage-format-(mac))
-+ [Storage Format (Windows)](storage-format-(windows))
++ [設定 h-encore](configuring-h-encore)
++ [製作群](credits)
++ [贊助](donations)
++ [常見問題 FAQ](faq)
++ [檔案副檔名 (Windows)](file-extensions-(windows))
++ [完成安裝](finalizing-setup)
++ [新手入門](get-started)
++ [首頁](/zh_TW/)
++ [安裝 Ensō (版本 3.65)](installing-enso-(3.65))
++ [安裝 h-encore](installing-h-encore)
++ [安裝 h-encore (透過 Linux / Mac)](installing-h-encore-(linux-mac))
++ [安裝 h-encore (透過 Windows 自動安裝)](installing-h-encore-(windows-auto))
++ [安裝 h-encore (透過 Windows 手動安裝)](installing-h-encore-(windows-manual))
++ [安裝 HENkaku](installing-henkaku)
++ [格式化儲存空間 (Linux)](storage-format-(linux))
++ [格式化儲存空間 (Mac)](storage-format-(mac))
++ [格式化儲存空間 (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
-+ [Troubleshooting](troubleshooting)
-+ [Updating to 3.60](updating-to-3.60)
-+ [Updating to 3.65](updating-to-3.65)
-+ [Updating to 3.65 (Ensō)](updating-to-3.65-(enso))
-+ [Why Ads?](why-ads)
++ [疑難排解](troubleshooting)
++ [更新至 3.60](updating-to-3.60)
++ [更新至 3.65](updating-to-3.65)
++ [更新至 3.65 (持有 Ensō 的主機)](updating-to-3.65-(enso))
++ [為什麼有廣告?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
