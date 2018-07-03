@@ -1,0 +1,22 @@
+---
+title: "Credits"
+---
+
+**Special thanks to all of [the translators](https://crowdin.com/project/vita-guide) for being awesome!**
+{: .notice--primary}
+
+If we forgot you here, contact us and we'll add your name.
+
+{% capture notice-1 %}
+
+    + codestation
+    + Davee
+    + mmozeiko
+    + Proxima
+    + TheFloW
+    + xyz
+    + YifanLu
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
