@@ -16,7 +16,7 @@ title: "設定 h-encore"
 
 1. 啟動 h-encore
 1. 如有提示關於獎盃的事項，選擇「是」
-1. If the exploit was successful, you will now see the h-encore bootstrap menu
+1. 如果漏洞成功執行的話，您將會看到 h-encore 引導選單
   + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
   + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
 1. 選擇『Install HENkaku』
@@ -30,7 +30,7 @@ title: "設定 h-encore"
 
 1. 啟動設定
 1. 移動至 `HENkaku Settings`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
+  + 如果您找不到 HENkaku Settings，從 h-core 引導選單中選擇『Reset taiHEN config.txt』並再試一次
 1. 勾選『Enable Unsafe Homebrew』
 1. 回到 HENkaku Settings 選單
 1. 關閉設定
