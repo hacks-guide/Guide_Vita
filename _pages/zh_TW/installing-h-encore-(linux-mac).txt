@@ -8,7 +8,7 @@ title: "安裝 h-encore (透過 Linux / Mac)"
 
 此方法需要一台裝有 Linux 的電腦或者一台 Mac。
     
-The h-encore installation is performed manually and requires the use of the command line.
+以手動方式及命令提示字元安裝 h-encore。
 
 在開始前，請先確保您已閱讀完[安裝 h-encore](installing-h-encore) 頁面。
 
@@ -19,10 +19,10 @@ The h-encore installation is performed manually and requires the use of the comm
 * 最新版的 [h-encore](https://github.com/TheOfficialFloW/h-encore/releases/latest)
 * 最新版的 [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) *(適用於您主機版本的 `.zip`)*
 * 最新版的 [pkg2zip](https://github.com/mmozeiko/pkg2zip/archive/master.zip)
-  + You will need to compile pkg2zip manually by following the [readme](https://github.com/mmozeiko/pkg2zip/blob/master/README.md#building)
+  + 您得透過 [readme](https://github.com/mmozeiko/pkg2zip/blob/master/README.md#building) 以手動編譯 pkg2zip
 * 最新版的 [QCMA](https://github.com/codestation/qcma/releases/latest)
   + 若您已安裝官方 Sony 的 CMA，請先將其解除安裝
-  + MacOS users should download the "noffmpeg" version of QCMA
+  + MacOS 用戶應下載『noffmpeg』版本的 QCMA
   
 ### 操作說明
 
@@ -47,7 +47,7 @@ The h-encore installation is performed manually and requires the use of the comm
 1. 複製本資料夾中的資料夾名稱，並將其貼入至 CMA 網站中的『AID』欄位中
   + 您的 AID 格式應類似於: `ec8d45ec9c055609`
 1. 按下『Submit』以建立相對應的金鑰
-  + Keep this page open; you will need this key soon
+  + 先不要關閉此頁面，稍後您將需要此金鑰
   + 您的金鑰格式應類似於: `488d3ff6cce7a9ef1be6da8338c7d18db18147c3255fa4d50596568555687174`
 1. 從 h-encore `.zip` 中解壓 `h-encore` 資料夾至您電腦中的另一個資料夾中
 1. 解壓 psvimgtools `.zip` 的內容至 `h-encore` 資料夾中
