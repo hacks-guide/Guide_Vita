@@ -86,7 +86,7 @@ HENkaku Ensō is a complete CFW solution for the PS Vita (TV) which allows for c
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
   + Alternatively, you can also use the USB transfer feature of VitaShell
-* The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/)
+* The latest release of [Ensō](https://github.com/TheOfficialFloW/enso/releases/releases/latest/)
 
 ##### Instructions
 
