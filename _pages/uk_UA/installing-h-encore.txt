@@ -8,11 +8,11 @@ title: "Installing h-encore"
 
 h-encore is an exploit chain for the PS Vita (TV) which will allow for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65, 3.67, and 3.68.
 
-Note that the h-encore exploit chain is not "persistent" (meaning it does not remain installed after a reboot). For devices on firmware version 3.65, this is fortunately only a temporary restriction until HENkaku Ensō is installed on a later page. For devices on 3.67 or 3.68, you will unfortunately need to perform a small portion of these instructions (which will be indicated) after every reboot until a new persistent exploit is developed.
+Note that the h-encore exploit chain is not "persistent" (meaning it does not remain installed after a reboot). For devices on firmware version 3.65, this is fortunately only a temporary restriction until HENkaku Ensō is installed on a later page. For devices on 3.67 or 3.68, you will, unfortunately, need to perform a small portion of these instructions (which will be indicated) after every reboot until a new persistent exploit is developed.
 
-In addition to installing the h-encore exploit, we enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analagous to the "administrator" mode on a computer.
+In addition to installing the h-encore exploit, we enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the "administrator" mode on a computer.
 
-Unfortunately, h-encore is more complicated to install than previous PS Vita (TV) exploits. For Windows users, there is a tool which automates some of the process, but Linux and Mac users will need to perform the entire installation manually.
+Unfortunately, h-encore is more complicated to install than previous PS Vita (TV) exploits. For Windows users, there is a tool which automates some of the processes, but Linux and Mac users will need to perform the entire installation manually.
 
 If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
 {: .notice--info}
@@ -37,7 +37,7 @@ ___
 
 This method requires a Windows computer.
     
-The h-encore installation is performed manually and requires usage of the command line.
+The h-encore installation is performed manually and requires the use of the command line.
 
 Continue to [Installing h-encore (Windows Manual)](installing-h-encore-(windows-manual))
 {: .notice--primary}
@@ -48,7 +48,7 @@ ___
 
 This method requires a Linux or Mac computer.
     
-The h-encore installation is performed manually and requires usage of the command line.
+The h-encore installation is performed manually and requires the use of the command line.
 
 Continue to [Installing h-encore (Linux / Mac)](installing-h-encore-(linux-mac))
 {: .notice--primary}
