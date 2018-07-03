@@ -10,9 +10,9 @@ StorageMgr 是一個適用於 PS Vita (TV) 的多功能內核插件；此插件�
 
 SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機的 Vita 卡槽中；psvd 則是個 microSD 轉接器，用於替代 3G 型號中的數據機。
 
-透過 StorageMgr 插件，您的隨身碟或 microSD 卡將會被加載到 `ux0:` 底下，就跟普通的 Sony 原廠記憶卡一樣。 這是非常有用的，因為 microSD 卡與原廠 Sony Vita 記憶卡相比價錢天差地別 (尤其是容量較大的記憶卡)。
+By using the StorageMgr kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. 這是非常有用的，因為 microSD 卡與原廠 Sony Vita 記憶卡相比價錢天差地別 (尤其是容量較大的記憶卡)。
 
-本節將使用 FTP (檔案傳輸協定) 以與您的電腦及 Vita 進行連接並傳輸檔案，因此這兩台裝置得必須連到同一個網路下才能繼續。
+This will use FTP (File Transfer Protocol) to transfer the files, so your Vita and PC must be connected to the same network.
 
 您必須先安裝 VitaShell 才能繼續。
 {: .notice--info}
