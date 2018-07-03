@@ -80,5 +80,5 @@ Before proceeding, ensure you have read all of the information on [Installing h-
 
 ___
 
-### Continue to [Configuring h-encore](finalizing-setup)
+### Continue to [Configuring h-encore](configuring-h-encore)
 {: .notice--primary}
