@@ -27,7 +27,6 @@ In order to install the necessary `.vpk` (content package) files on your device,
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
   + Alternatively, you can also use the USB transfer feature of VitaShell
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* The latest release of [HBInjector](https://github.com/emiyl/HBInjector/releases/latest/)
 * The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
 * The latest release of [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
 * The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest)
@@ -74,19 +73,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
   + This is required to load the new kernel plugins added to `ux0:tai/config.txt`
   + To confirm that everything is working, you should now see a battery percentage in the status bar
 
-#### Section III - Injecting VitaShell
-
-1. Launch the HBInjector application
-1. Follow the on-screen instructions
-  + Select a system application you do not intend to use in the future (such as Calendar)
-  + A backup of the system application will be saved to `ux0:data/HBInjector/` on your device
-  + Transfer this backup to your computer using FTP, then make backups in multiple locations (such as online file storage)
-  + This backup will allow you to restore your system application to normal
-1. After your device has rebooted, you should notice that your battery percentage is now displayed in the status bar
-  + If this is not the case, you have not properly configured your plugins (ensure you copied `config.txt` to `ux0:tai/`)
-1. If desired, re-arrange your home screen back to the previous layout
-
-#### Section IV - Blocking Updates
+#### Section III - Blocking Updates
 
 1. Launch the Settings application
 1. Navigate to `Network` -> `Wi-Fi Settings`
@@ -103,7 +90,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Uncheck "Download Update File for System Software"
 1. Return to the main Settings menu
 
-#### Section V - PSN Access
+#### Section IV - PSN Access
 
 1. Navigate to `HENkaku Settings`
 1. Check "Enable PSN spoofing"
@@ -113,7 +100,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
   + Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN
 1. Close the Settings application
 
-#### Section VI - Cleanup
+#### Section V - Cleanup
 
 1. Launch the Content Manager application
 1. Select "Manage Content on Memory Card"
