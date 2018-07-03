@@ -9,7 +9,7 @@ title: "Installing Ensō (3.65)"
 These steps are for updating a HENkaku 3.60 device to a 3.65 HENkaku Ensō device. If you have a 3.60 HENkaku Ensō device and are trying to update to a 3.65 HENkaku Ensō device, follow [Updating to 3.65 (Ensō)](updating-to-3.65-(enso)).
 {: .notice--warning}
 
-HENkaku Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment. It is more convenient than HENkaku as it does not require you to manually trigger an exploit on your device after every reboot.
+HENkaku Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment. It is more convenient than HENkaku as it does not require you to trigger an exploit on your device after every reboot manually.
 
 In addition to installing HENkaku Ensō, we will also update your PS Vita (TV) to the firmware version 3.65 which will allow you to access the PS Store, use online features, and play newer games which require newer firmware versions.
 
