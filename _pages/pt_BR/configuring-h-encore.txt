@@ -72,6 +72,9 @@ This section is not recommended for devices on firmware version 3.65 as HENkaku 
 
 ___
 
+To re-enable homebrew access after a reboot, simply launch and exit h-encore.
+{: .notice--info}
+
 ### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
 
