@@ -37,9 +37,11 @@ In many cases, running homebrew on your device is 100% free using just the syste
 
 ## What is Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do. Currently, essentially all homebrew solutions on the PS Vita (TV) include a CFW solution of some kind.
 
-HENkaku Ensō CFW can be easily set up on any console in any region for firmware versions <=3.65, while higher versions can install h-encore CFW.
+The best CFW solution currently available, HENkaku Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to manually trigger an exploit on your device after every reboot.
+
+HENkaku Ensō is available on all devices with firmware version 3.65 or below, while higher firmware version devices can use h-encore to achieve a similar (if less convenient) result.
 
 For information on how HENkaku Ensō works, please see [this post](https://yifan.lu/2017/07/31/henkaku-enso-bootloader-hack-for-vita/) by [Yifan Lu](https://twitter.com/yifanlu).
 
