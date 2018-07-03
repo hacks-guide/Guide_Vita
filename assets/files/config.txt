@@ -6,3 +6,4 @@ ux0:tai/nonpdrm.skprx
 *main
 ux0:tai/download_enabler.suprx
 ux0:tai/shellbat.suprx
+ux0:tai/pngshot.suprx
