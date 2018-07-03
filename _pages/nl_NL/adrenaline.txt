@@ -18,7 +18,7 @@ You must have already installed VitaShell to use this.
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
   + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
-* The latest release of [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }}){:download="config.txt"}
+* The latest release of [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }})
 
 ### Instructions
 
@@ -65,7 +65,8 @@ You must have already installed VitaShell to use this.
 1. Launch the Adrenaline application
 1. Press (Cross) to download the PSP 6.61 firmware
   + This process will take some time
-  + If you cancel the download before it completes, you will need to reboot before you can restart the download
+  + If you cancel the download before it completes, the downloader will get confused and give you an error about being unable to find the 6.61 PUP
+  + If you encounter the above error, use VitaShell to delete the `ux0:app/PSPEMUCFW/` folder, then re-install adrenaline, then reboot and try again
   + The Adrenaline application will close automatically when the download is complete
 1. Re-launch the Adrenaline application
 1. Press (Cross) to install PSP 6.61 the firmware
