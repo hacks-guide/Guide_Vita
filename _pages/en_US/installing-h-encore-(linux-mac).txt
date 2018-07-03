@@ -39,7 +39,7 @@ Before proceeding, ensure you have read all of the information on [Installing h-
 
 #### Section II - Installing h-encore
 
-1. Open [http://cma.henkaku.xyz/] on your computer
+1. Open [cma.henkaku.xyz](http://cma.henkaku.xyz/) on your computer
 1. Navigate to the `PS Vita/APP/` folder on your computer using the file explorer
   + By default, this directory will be in the `Documents` folder on your computer
   + If you cannot find it, check the QCMA "Applications / Backups" setting
