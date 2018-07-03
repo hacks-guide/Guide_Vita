@@ -106,7 +106,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 
 ___
 
-You can now easily install new homebrew applications just by using Vita Homebrew Browser.
+You can now easily install new homebrew applications just by using Vita Homebrew Browser. Alternatively, you could also browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
 {: .notice--info}
 
 For information on replacing your Sony memory card with an alternative storage (such as a microSD card or USB drive), check out the [StorageMgr](storagemgr) page.
