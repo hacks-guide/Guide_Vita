@@ -1,44 +1,44 @@
 ---
-title: "Updating to 3.60"
+title: "更新至 3.60"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-The HENkaku exploit is only compatible with the firmware version 3.60. As a result, lower firmware versions must update using a custom update server in order to use the exploit.
+HENkaku 漏洞僅適用於韌體版本 3.60。 因此，舊版的韌體必須先透過第三方伺服器更新才能使用本漏洞。
 
-Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.60, you should return to [Get Started](get-started).
+請注意，您的主機僅能透過該伺服器更新，而非降級。 如果您的主機韌體比 3.60 還新，請回到[新手入門](get-started)頁面中。
 
-### What you need
+### 必備項目
 
-* An internet connection on your PS Vita (TV)
+* 在您的 PS Vita (TV) 可用的網路連線
 
-### Instructions
+### 操作說明
 
-#### Section I: Prep Work
+#### 第一節 — 準備工作
 
-1. Launch the Settings application
-1. Navigate to `Network` -> `Wi-Fi Settings`
-  + Connect to a Wi-Fi network if you have not already done so
-1. Select your current connection
-  + This is signified by a green dot next to the network
-1. Select "Advanced Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `212.47.229.76`
-1. Leave "Secondary DNS" blank
-1. Ensure "Proxy Server" is set to "Do Not Use"
-1. Return to the main Settings menu
+1. 啟動設定
+1. 移動至 `網路` -> `Wi-Fi 設定`
+  + 若您尚未連上網，請連接到 Wi-Fi 網路
+1. 選擇您目前所連結的網路
+  + 已連上的網路旁邊會有一個綠色點點
+1. 選擇『詳細設定』
+1. 將『DNS 設定』改為『手動』
+1. 將『主要 DNS (Primary DNS)』改為 `212.47.229.76`
+1. 將『次要 DNS (Secondary DNS)』留空
+1. 確保您已將『Proxy 伺服器』設定至『不使用』
+1. 回到主選單
 
-#### Section II: Updating to 3.60
+#### 第二節 — 更新至 3.60
 
-1. Navigate to `System Update` -> `Update Using Wi-Fi`
-1. Ensure the update message "3.60 (変革 Compatible)" is displayed
-  + If it displays any other message, stop and figure out what went wrong
-1. Follow the prompts to update your device to 3.60
-  + When the process has completed, your device will reboot automatically
+1. 移動至 `系統更新` -> `使用 Wi-Fi／行動網路更新`
+1. 確保更新訊息為『3.60 (変革 Compatible)』
+  + 如果顯示的不是此訊息，請立刻停止更新並重新檢查您是否漏了哪些步驟
+1. 依循所示步驟以更新至 3.60
+  + 當更新完畢後，您的主機將自動重啟
 
 ___
 
-### Continue to [Installing HENkaku](installing-henkaku)
+### 繼續至 [安裝 HENkaku](installing-henkaku)
 {: .notice--primary}
