@@ -9,7 +9,7 @@ title: "更新至 3.65 (持有 Ensō 的主機)"
 下列步驟將更新持有 HENkaku Ensō 3.60 的主機至 3.65 (在仍持有 HENkaku Ensō 的狀況下)。 如果您的主機為尚未修改的原廠主機且正試著更新至 3.65，請見[更新至 3.65](updating-to-3.65)。
 {: .notice--warning}
 
-更新您的 HENkaku Ensō PS Vita (TV) 至韌體版本 3.65 可讓您在仍持有 HENkaku Ensō 漏洞的方便性的同時存取 PlayStation 商店、使用線上功能以及遊玩要求較新韌體版本的遊戲。
+Updating your HENkaku Ensō PS Vita (TV) to the firmware version 3.65 will allow you to access the PS Store, use online features, and play newer games which require newer firmware versions, all while retaining access to the convenient boot-time HENkaku Ensō homebrew exploit.
 
 請注意，當您更新至韌體版本 3.65 後，原本的 HENkaku 漏洞將無法正常執行。 如果您未來因特殊原因想要移除 HENkaku Ensō，您將會需要重新依照[安裝 h-encore](installing-h-core) 中的步驟將其重新安裝。
 
