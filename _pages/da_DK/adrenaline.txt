@@ -65,7 +65,7 @@ You must have already installed VitaShell to use this.
 1. Launch the Adrenaline application
 1. Press (Cross) to download the PSP 6.61 firmware
   + This process will take some time
-  + If you cancel the download before it completes, the downloader will get confused and give you an error about being unable to find the 6.61 PUP
+  + If you cancel the download before it completes, the downloader will get confused and give you an error about being unable to find the 6.61 PBP
   + If you encounter the above error, use VitaShell to delete the `ux0:app/PSPEMUCFW/` folder, then re-install adrenaline, then reboot and try again
   + The Adrenaline application will close automatically when the download is complete
 1. Re-launch the Adrenaline application
