@@ -1,0 +1,67 @@
+---
+title: "Installing h-encore (Windows Auto)"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+This method requires a Windows computer.
+    
+The "auto h-encore" tool is used to automate a portion of the h-encore installation.
+
+Before proceeding, ensure you have read all of the information on [Installing h-encore](installing-h-encore)
+
+### What You Need
+
+* The latest release of [auto-h-encore](https://github.com/noahc3/auto-h-encore/releases/latest)
+* The latest release of [QCMA](https://github.com/codestation/qcma/releases/latest)
+  + Uninstall the official Sony CMA if it is already installed
+  
+### Instructions
+
+#### Section I - Prep Work
+
+1. Install and launch QCMA on your computer if you have not already
+1. Copy the contents of the auto h-encore `.zip` to a folder on your computer
+1. Launch the Content Manager application on your device
+1. Select "Copy Content"
+1. Select "PC"
+1. Select the method you wish to use to connect to QCMA
+  + If you are prompted to log-in to a PlayStation Network Account, do so
+  + If you do not have a PlayStation Network Account, create one
+1. Select / register your computer if prompted
+
+#### Section II - auto h-encore
+
+1. Launch auto h-encore on your computer
+1. In auto h-encore, select "Browse", then select the `PS Vita` directory on your computer and press "OK"
+  + By default, this directory will be in the `Documents` folder on your computer
+  + If you cannot find it, check the QCMA "Applications / Backups" setting by right-clicking the QCMA icon in the system tray, then selecting "Settings"
+  + The "QCMA PS Vita directory" box should look something like `C:\Users\username\Documents\PS Vita`
+1. Navigate to the `PS Vita\APP\` folder on your computer using the file explorer
+1. Copy the name of the folder in this directory, then paste it into the "Account ID (AID)" box in auto h-encore
+  + Here is an example AID: `ec8d45ec9c055609`
+1. Select "Start"
+  + This process will take some time
+  + If you get an error, ensure you entered the AID and QCMA PS Vita directory correctly
+1. Press "OK" to dismiss the dialogue box that appears when the process completes
+1. Close auto h-encore on your computer
+
+#### Section III - QCMA Transfer
+
+1. Right-click the QCMA icon in the system tray, then select "Refresh database"
+1. In the Content Manager application on your device, select "PC -> PS Vita System"
+1. Select "Applications"
+1. Select "PS Vita"
+1. Select "h-encore"
+1. Select "Copy"
+1. Select "OK"
+  + The h-encore exploit will be copied to your device
+  + This process will take some time
+1. Close the Content Manager application
+
+___
+
+### Continue to [Configuring h-encore](configuring-h-encore)
+{: .notice--primary}
