@@ -106,7 +106,7 @@ title: "完成安裝"
 
 ___
 
-您現在可以透過 Vita Homebrew Browser 輕易地安裝任何自製程式。 Alternatively, you could also browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
+您現在可以透過 Vita Homebrew Browser 輕易地安裝任何自製程式。 或者，您也可以在 [VitaDB](https://vitadb.rinnegatamante.it/) 中找尋新的自製程式。
 {: .notice--info}
 
 若您想要以其他記憶卡代替原廠的 Sony 記憶卡 (比如像是 microSD 或 USB 磁碟)，請見 [StorageMgr](storagemgr)。
