@@ -68,6 +68,9 @@ sidebar_pages:
     title: Installing h-encore
     url: installing-h-encore
   -
+    title: Multiple Options
+    url: multiple-options
+  -
     title: Installing h-encore (Linux / Mac)
     url: installing-h-encore-(linux-mac)
   -
