@@ -9,7 +9,7 @@ title: "安裝 Ensō (版本 3.65)"
 下列步驟將更新持有 HENkaku 3.60 的主機至 3.65 HENkaku Ensō。 如果您的主機已經持有 3.60 HENkaku Ensō 且正試著更新至 3.65 HENkaku Ensō，請見[更新至 3.65 (持有 Ensō 的主機)](updating-to-3.65-(enso))。
 {: .notice--warning}
 
-HENkaku Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，您的主機能於啟動時自動設置 HENkaku 環境，讓您能輕易地使用自製軟體。 因為 HENkaku 需於每次主機重新啟動時重新手動觸發漏洞，此方案相對方便許多。
+HENkaku Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，您的主機能於啟動時自動設置 HENkaku 環境，讓您能輕易地使用自製軟體。 It is more convenient than HENkaku as it does not require you to trigger an exploit on your device after every reboot manually.
 
 除了安裝 HENkaku Ensō 外，我們也會將您的 PS Vita (TV) 更新至韌體版本 3.65；這能讓您存取 PlayStation 商店、使用線上功能以及遊玩要求較新韌體版本的遊戲。
 
