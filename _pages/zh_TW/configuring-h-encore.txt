@@ -72,6 +72,9 @@ title: "設定 h-encore"
 
 ___
 
+To re-enable homebrew access after a reboot, simply launch and exit h-encore.
+{: .notice--info}
+
 ### 繼續至[完成安裝](finalizing-setup)
 {: .notice--primary}
 
