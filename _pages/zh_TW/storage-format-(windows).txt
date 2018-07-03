@@ -14,7 +14,7 @@ title: "格式化儲存空間 (Windows)"
 
 ### 必備項目
 
-* [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }}){:download="zzBlank.img"}
+* [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }})
 * 最新版的 [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
 * 最新版的 [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
   + 如果您不想檢查您的儲存裝置是否有誤，您可忽略本需求
