@@ -84,7 +84,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
   + This backup will allow you to restore your system application to normal
 1. After your device has rebooted, you should notice that your battery percentage is now displayed in the status bar
   + If this is not the case, you have not properly configured your plugins (ensure you copied `config.txt` to `ux0:tai/`)
-1. If desired, re-arrange your LiveArea screen back to the previous layout
+1. If desired, re-arrange your home screen back to the previous layout
 
 #### Section IV - Blocking Updates
 
