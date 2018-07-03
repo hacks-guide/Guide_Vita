@@ -66,7 +66,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Press (Cross) to continue the install each time you are prompted about extended permissions
 1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
 1. Press (Cross) to confirm the deletion
-1. close the VitaShell application
+1. Close the VitaShell application
 1. Reboot your device
   + This is required to load the new kernel plugins added to `ux0:tai/config.txt`
   + To confirm that everything is working, you should now see a battery percentage in the status bar
