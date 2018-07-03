@@ -114,6 +114,3 @@ For information on replacing your Sony memory card with alternative storage (suc
 
 For information on installing CFW to the built-in PSP emulator, check out the [Adrenaline](adrenaline) page.
 {: .notice--success}
-
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
-{: .notice--warning}
