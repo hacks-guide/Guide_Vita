@@ -45,7 +45,7 @@ For information on how custom firmware works, please see [this post](https://yif
 
 This guide has the end goal of taking a completely unmodified PS Vita (TV) from stock firmware to custom firmware.
 
-The best CFW solution currently available, HENkaku Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to manually trigger an exploit on your device after every reboot.
+The best CFW solution currently available, HENkaku Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to trigger an exploit on your device after every reboot manually.
 
 HENkaku Ensō is available on all devices with firmware version 3.65 or below, while higher firmware version devices can use h-encore to achieve a similar (if less convenient) result.
 
