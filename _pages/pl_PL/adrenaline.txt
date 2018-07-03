@@ -56,7 +56,7 @@ You must have already installed VitaShell to use this.
   + `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
 1. Press (Circle) to close the editor
 1. When prompted, press (Cross) to save your modifications
-1. close the VitaShell application
+1. Close the VitaShell application
 1. Reboot your device
   + This is required to load the new kernel plugin added to `ux0:tai/config.txt`
 	
