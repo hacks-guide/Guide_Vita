@@ -32,7 +32,7 @@ For devices on firmware version 3.65, there is additionally an optional section 
 1. Navigate to `HENkaku Settings`
 1. Check "Enable Unsafe Homebrew"
 1. Return to HENkaku Settings menu
-1. close the Settings application
+1. Close the Settings application
 
 #### Section III - Disabling Trophy Warning
 
