@@ -15,7 +15,7 @@ Note that, as part of the HBInjector injection process, the system database will
 In addition to installing VitaShell as a system application, we also setup applications and plugins such as the following:    
 
 +  **Vita Homebrew Browser** *(downloads and installs other homebrew applications)*
-+  **NoNpDrm** *(allows for decrypted games and applications to be used)*
++  **NoNpDrm** *(allows for encrypted games and applications to be used)*
 +  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
 +  **shellbat** *(displays exact battery percentage in the status bar)*
 +  **pngshot** *(improves the built-in screenshot utility)*
