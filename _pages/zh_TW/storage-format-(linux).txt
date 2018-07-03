@@ -38,9 +38,9 @@ title: "格式化儲存空間 (Linux)"
 
 1. 解壓 f3 `.zip`
 1. `cd` 至 f3 目錄中
-1. Run `make` to compile F3
+1. 運行 `make` 以編譯 F3
 1. 將您所想使用的儲存裝置插入至電腦中
-1. 裝載您的儲存裝置
+1. 掛載您的儲存裝置
 1. 輸入 `./f3write <您儲存裝置的掛載點>`
 1. 等到檢查完畢為止。 可以參考底下的範例。
 
@@ -72,7 +72,7 @@ Data LOST: 0.00 Byte (0 sectors)
 Average Reading speed: 9.42 MB/s
 ~~~
 
-如果結果顯示`Data LOST: 0.00 Byte (0 sectors)`，則表示您的儲存裝置是沒問題的，接著就可以刪除裝置上所有的`.h2w` 檔案了
+如果結果顯示 `Data LOST: 0.00 Byte (0 sectors)`，則表示您的儲存裝置是沒問題的，接著就可以刪除儲存空間中所有的 `.h2w` 檔案了
 {: .notice--success}
 
 如果出現任何其他結果，您的儲存裝置可能是有問題且需要更換的！
