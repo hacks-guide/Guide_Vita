@@ -7,3 +7,8 @@ ux0:tai/nonpdrm.skprx
 ux0:tai/download_enabler.suprx
 ux0:tai/shellbat.suprx
 ux0:tai/pngshot.suprx
+ur0:tai/henkaku.suprx
+*NPXS10015
+ur0:tai/henkaku.suprx
+*NPXS10016
+ur0:tai/henkaku.suprx
