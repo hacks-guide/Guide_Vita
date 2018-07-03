@@ -39,7 +39,7 @@ In many cases, running homebrew on your device is 100% free using just the syste
 
 **Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
 
-HENkaku Ensō CFW can be easily set up on any console in any region for versions <=3.60. Versions >=3.61 must 
+HENkaku Ensō CFW can be easily set up on any console in any region for firmware versions <=3.65, while higher versions can install h-encore CFW.
 
 For information on how HENkaku Ensō works, please see [this post](https://yifan.lu/2017/07/31/henkaku-enso-bootloader-hack-for-vita/) by [Yifan Lu](https://twitter.com/yifanlu).
 
