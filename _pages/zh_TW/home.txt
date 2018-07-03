@@ -46,7 +46,7 @@ ___
 
 本教學的最終目的為將從未改機過的 PS Vita (TV) 從原廠韌體改為自製韌體。
 
-目前可用且最佳的自製韌體方案，HENkaku Ensō，可在主機啟動時透過一個漏洞讓您輕易地啟動任何自製軟體。 It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to trigger an exploit on your device after every reboot manually.
+目前可用且最佳的自製韌體方案，HENkaku Ensō，可在主機啟動時透過一個漏洞讓您輕易地啟動任何自製軟體。 它比其他方案方便許多，因為其他自製系統方案通常都需於每次主機重啟時重新手動觸發漏洞。
 
 HENkaku Ensō 可在所有持有 3.65 系統版本(含)以下的主機中執行；至於其他較新版本的主機可以使用 h-encore，雖然步驟稍微不那麼方便些。
 
