@@ -114,6 +114,3 @@ For information on replacing your Sony memory card with alternative storage (suc
 
 若您想要於內建的 PSP 模擬器中安裝自製韌體，請見 [Adrenaline](adrenaline)。
 {: .notice--success}
-
-若您想知道如何安全卸載自製韌體並還原至原廠狀態，請見[卸載自製韌體](uninstall-cfw)。
-{: .notice--warning}
