@@ -57,7 +57,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Navigate to `app` -> `UPDATE365/`
 1. Press (Triangle) to open the menu, then select "Paste" to move the `PSP2UPDAT.PUP` file to the current directory
 1. Press (Cross) to dismiss the copied file dialogue box
-1. close the molecularShell application
+1. Close the molecularShell application
 
 #### Section IV - Unlinking Memory Card
 
@@ -85,7 +85,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Navigate to `HENkaku Settings`
 1. Check "Enable Unsafe Homebrew"
 1. Return to HENkaku Settings menu
-1. close the Settings application
+1. Close the Settings application
 
 ___
 
