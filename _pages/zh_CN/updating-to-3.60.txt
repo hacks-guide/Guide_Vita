@@ -16,7 +16,7 @@ Note that a custom update server can only update your device, not downgrade it. 
 
 ### Instructions
 
-#### Section I: Prep Work
+#### Section I - Prep Work
 
 1. Launch the Settings application
 1. Navigate to `Network` -> `Wi-Fi Settings`
@@ -30,7 +30,7 @@ Note that a custom update server can only update your device, not downgrade it. 
 1. Ensure "Proxy Server" is set to "Do Not Use"
 1. Return to the main Settings menu
 
-#### Section II: Updating to 3.60
+#### Section II - Updating to 3.60
 
 1. Navigate to `System Update` -> `Update Using Wi-Fi`
 1. Ensure the update message "3.60 (変革 Compatible)" is displayed
