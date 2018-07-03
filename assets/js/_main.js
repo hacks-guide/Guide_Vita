@@ -111,7 +111,7 @@ $(document).ready(function(){
   }
 
   var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "adrenaline", "credits", "donations", "faq", "file-extensions-(windows)",
+  var sidebar_hidden_pages = ["404", "adrenaline", "credits", "donations", "faq", "file-extensions-(windows)", "get-started",
                               "storage-format-(linux)", "storage-format-(mac)", "storage-format-(windows)",
                               "site-navigation", "storagemgr", "troubleshooting", "uninstall-cfw",
                               "updating-to-3.65-(enso)", "why-ads"];
@@ -152,7 +152,7 @@ $(document).ready(function(){
       "3": ["installing-h-encore", "multiple-options", "configuring-h-encore", "finalizing-setup"],
       "4": ["installing-h-encore", "installing-h-encore-(linux-mac)", "configuring-h-encore", "finalizing-setup"],
       "5": ["installing-h-encore", "installing-h-encore-(windows-auto)", "configuring-h-encore", "finalizing-setup"],
-      "5": ["installing-h-encore", "installing-h-encore-(windows-manual)", "configuring-h-encore", "finalizing-setup"],
+      "6": ["installing-h-encore", "installing-h-encore-(windows-manual)", "configuring-h-encore", "finalizing-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
