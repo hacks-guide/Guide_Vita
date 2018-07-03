@@ -10,9 +10,9 @@ StorageMgr is a multi-purpose kernel plugin for the PS Vita (TV) which allows fo
 
 The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvd is a microSD adapter which replaces the 3g modem on 3g PS Vita models.
 
-Using the StorageMgr kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. This is very useful because microSD cards are significantly cheaper than Sony memory cards (especially at higher capacities).
+By using the StorageMgr kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. This is very useful because microSD cards are significantly cheaper than Sony memory cards (especially at higher capacities).
 
-This will use FTP (File Transfer Protocol) to transfer the files so your Vita and PC must be connected to the same network.
+This will use FTP (File Transfer Protocol) to transfer the files, so your Vita and PC must be connected to the same network.
 
 You must have already installed VitaShell to use this.
 {: .notice--info}
