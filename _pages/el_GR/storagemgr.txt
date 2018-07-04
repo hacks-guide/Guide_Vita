@@ -72,7 +72,7 @@ If you decide to do this and are using h-encore on firmware versions 3.67 or 3.6
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
   + `uma0:data/bootstrap.self`
-  + `uma0:license/PCSG90096`
+  + `uma0:license/app/PCSG90096`
   + `uma0:user/00/savedata/PCSG90096`
 
 This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore StorageMgr) after a reboot.
