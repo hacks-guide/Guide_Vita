@@ -37,7 +37,7 @@ title: "新手入門"
     <tr>
       <td style="text-align: center; font-weight: bold;">1.00</td>
       <td style="text-align: center; font-weight: bold;">3.57</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-to-3.60">Updating to 3.60</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-to-3.60">更新至 3.60</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.60</td>
