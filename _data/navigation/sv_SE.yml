@@ -1,0 +1,84 @@
+---
+main:
+  - 
+    title: Home
+    url: /
+  - 
+    title: FAQ
+    url: faq
+  - 
+    title: Donations
+    url: donations
+  - 
+    title: Credits
+    url: credits
+  - 
+    title: Updating to 3.65 (Ensō)
+    url: updating-to-3.65-(enso)
+  - 
+    title: Troubleshooting
+    url: troubleshooting
+  - 
+    title: Adrenaline
+    url: adrenaline
+  - 
+    title: StorageMgr
+    url: storagemgr
+  - 
+    title: Site Navigation
+    url: site-navigation
+bottom:
+  - 
+    title: For support in English, ask for help at <a href="https://discord.gg/JXEKeg6">Vita Hacking on Discord</a>.
+  - 
+    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+footer:
+  - 
+    title: Source
+  - 
+    title: Site Navigation
+  - 
+    title: Why Ads?
+sidebar_title:
+  - 
+    title: Overall Progress
+sidebar_pages:
+  - 
+    title: Home
+    url: /
+  - 
+    title: Get Started
+    url: get-started
+  - 
+    title: Updating to 3.60
+    url: updating-to-3.60
+  - 
+    title: Updating to 3.65
+    url: updating-to-3.65
+  - 
+    title: Installing HENkaku
+    url: installing-henkaku
+  - 
+    title: Installing Ensō (3.65)
+    url: installing-enso-(3.65)
+  - 
+    title: Installing h-encore
+    url: installing-h-encore
+  - 
+    title: Multiple Options
+    url: multiple-options
+  - 
+    title: Installing h-encore (Windows Auto)
+    url: installing-h-encore-(windows-auto)
+  - 
+    title: Installing h-encore (Windows Manual)
+    url: installing-h-encore-(windows-manual)
+  - 
+    title: Installing h-encore (Linux / Mac)
+    url: installing-h-encore-(linux-mac)
+  - 
+    title: Configuring h-encore
+    url: configuring-h-encore
+  - 
+    title: Finalizing Setup
+    url: finalizing-setup

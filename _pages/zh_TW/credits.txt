@@ -1,0 +1,22 @@
+---
+title: "製作群"
+---
+
+**感謝所有的超讚的[翻譯人員](https://crowdin.com/project/vita-guide)！**
+{: .notice--primary}
+
+如果我們忘記把您加進來的話，請與我們聯繫。
+
+{% capture notice-1 %}
+
+    + codestation
+    + Davee
+    + mmozeiko
+    + Proxima
+    + TheFloW
+    + xyz
+    + YifanLu
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
