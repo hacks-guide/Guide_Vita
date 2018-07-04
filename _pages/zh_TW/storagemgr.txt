@@ -54,7 +54,6 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
 
 1. 複製所有 `ux0:` 的內容至您電腦中的一個資料夾中
   + 依您的 Sony 記憶卡內容大小而定，這可能得耗費一些時間
-1. 從您的 PS Vita (TV) 中刪除所有 `ux0:` 底下的內容
 1. 將您所想使用的儲存裝置插入至電腦中
 1. 將所有剛剛複製的內容複製進您新的儲存裝置中
   + 依您的 Sony 記憶卡內容大小而定，這可能得耗費一些時間
@@ -64,6 +63,22 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
 1. 重新啟動您的主機
 
 ___
+
+{% capture notice-1 %}
+If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point). 
+
+If you decide to do this and are using h-encore on firmware versions 3.67 or 3.68, you must *not* delete these folders:
+
+  + `uma0:app/PCSG90096`
+  + `uma0:appmeta/PCSG90096`
+  + `uma0:data/bootstrap.self`
+  + `uma0:license/PCSG90096`
+  + `uma0:user/00/savedata/PCSG90096`
+
+This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore StorageMgr) after a reboot.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 您新的儲存裝置現在已經設定完畢，且已掛載於您設定在 `storage_config.txt` 中的掛載點中。
 {: .notice--success}
