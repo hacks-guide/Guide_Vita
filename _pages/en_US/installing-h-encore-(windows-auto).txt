@@ -39,7 +39,7 @@ Before proceeding, ensure you have read all of the information on [Installing h-
   + If this is not the case, you will have to manually enter this information
   + The "QCMA PS Vita directory" will typically be the `C:\Users\username\Documents\PS Vita\` folder on your computer
   + If you cannot find it, check the QCMA "Applications / Backups" setting by right-clicking the QCMA icon in the system tray, then selecting "Settings"
-  + The "Account ID (AID)" will be the name of the folder in the `PS Vita` directory
+  + The "Account ID (AID)" will be the name of the folder in the `PS Vita\APP\` directory
   + Here is an example Account ID: `ec8d45ec9c055609`
 1. Select "Start"
   + This process will take some time
