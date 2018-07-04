@@ -35,16 +35,15 @@ Before proceeding, ensure you have read all of the information on [Installing h-
 #### Section II - auto h-encore
 
 1. Launch auto h-encore on your computer
-1. In auto h-encore, select "Browse", then select the `PS Vita` directory on your computer and press "OK"
-  + By default, this directory will be in the `Documents` folder on your computer
-  + The "QCMA PS Vita directory" box should now look something like `C:\Users\username\Documents\PS Vita`
+1. The "Account ID (AID)" and "QCMA PS Vita directory" fields should be filled in for you
+  + If this is not the case, you will have to manually enter this information
+  + The "QCMA PS Vita directory" will typically be the `C:\Users\username\Documents\PS Vita\` folder on your computer
   + If you cannot find it, check the QCMA "Applications / Backups" setting by right-clicking the QCMA icon in the system tray, then selecting "Settings"
-1. Navigate to the `PS Vita\APP\` folder on your computer using the file explorer
-1. Copy the name of the folder in this directory, then paste it into the "Account ID (AID)" box in auto h-encore
-  + Here is an example AID: `ec8d45ec9c055609`
+  + The "Account ID (AID)" will be the name of the folder in the `PS Vita\APP\` directory
+  + Here is an example Account ID: `ec8d45ec9c055609`
 1. Select "Start"
   + This process will take some time
-  + If you get an error, ensure you entered the AID and QCMA PS Vita directory correctly
+  + If you get an error, ensure the "Account ID (AID)" and "QCMA PS Vita directory" fields are correctly filled in
 1. Press "OK" to dismiss the dialogue box that appears when the process completes
 1. Close auto h-encore on your computer
 
