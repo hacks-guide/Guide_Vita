@@ -45,7 +45,7 @@ You must have already installed VitaShell to use this.
 1. Replace any `ux0:` paths in `ur0:tai/config.txt` to instead be `ur0` paths
 1. Add the following line to `ur0:tai/config.txt` under the `*KERNEL` line:
   + `ur0:tai/storagemgr.skprx`
-1. Delete all files from `ux0:tai/`
+1. Delete all files from the `ux0:tai/` folder
   
 #### Section II - Restoring Data
 
