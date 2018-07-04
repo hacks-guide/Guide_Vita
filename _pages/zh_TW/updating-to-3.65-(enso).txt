@@ -30,6 +30,9 @@ Updating your HENkaku Ensō PS Vita (TV) to the firmware version 3.65 will allow
 
 #### 第一節 — 準備工作
 
+1. If you are using an alternative storage device (such as an SD2Vita, USB drive, or psvd), disable it 
+  + You must use an official Sony memory card to perform the 3.65 update
+  + You can either disable the plugin or remove the device, depending on your specific setup
 1. 啟動 molecularShell
   + 如果您先前已安裝 1.82 版或更新的 VitaShell，您也可以使用它
 1. 按下「Select」鍵以啟動 FTP 存取功能
