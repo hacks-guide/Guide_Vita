@@ -35,6 +35,8 @@ title: "完成安裝"
 1. 按下「Start」鍵開啟 VitaShell 設定
 1. 於『SELECT button』上按下「X」鍵以將模式更改為『FTP』
   + 或者，您也可以將此設定為『USB』模式並透過其方式傳輸所有的檔案
+  + Note that the USB transfer mode will start you in the ux0 partition
+  + Additionally, some files will be hidden in USB mode on Windows; you must enable "Show hidden files, folders, and drives" and disable "Hide protected operating system files" in the File Explorer options in order to see all files
 1. 按下「O」鍵關閉 VitaShell 設定
 1. 按下「Select」鍵以啟動 FTP 存取功能
 1. 於您的電腦中啟動您的 FTP 客戶端
