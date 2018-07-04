@@ -35,15 +35,15 @@ title: "安裝 h-encore (透過 Windows 自動安裝)"
 #### 第二節 — 使用 auto h-encore
 
 1. 在您的電腦中啟動 auto h-encore
-1. The "Account ID (AID)" and "QCMA PS Vita directory" fields should be filled in for you
-  + If this is not the case, you will have to manually enter this information
-  + The "QCMA PS Vita directory" will typically be the `C:\Users\username\Documents\PS Vita\` folder on your computer
+1. 本程式應自動將『Account ID (AID)』及『QCMA PS Vita directory』填入
+  + 若並非如此，您得要自行輸入這些資訊
+  + 『QCMA PS Vita directory』通常指的是您電腦的 `C:\Users\username\Documents\PS Vita\` 資料夾
   + 如果您找不到此資料夾，請於右下角的系統圖示中右鍵點擊 QCMA 圖示，並選擇『Settings』中的『Applications / Backups』
-  + The "Account ID (AID)" will be the name of the folder in the `PS Vita\APP\` directory
-  + Here is an example Account ID: `ec8d45ec9c055609`
+  + 『Account ID (AID)』指的是 `PS Vita\APP\` 資料夾地下子資料夾的名字
+  + 您的 Account ID 格式應類似於: `ec8d45ec9c055609`
 1. 選擇『Start』
   + 此過程將花費一些時間
-  + If you get an error, ensure the "Account ID (AID)" and "QCMA PS Vita directory" fields are correctly filled in
+  + 如果你遇到錯誤訊息，請確保您的『Account ID (AID)』及『QCMA PS Vita directory』已正確填入
 1. 按下『OK』以忽略完成後的提示
 1. 在您的電腦中關閉 auto h-encore
 
