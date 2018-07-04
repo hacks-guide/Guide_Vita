@@ -47,7 +47,7 @@ title: "格式化儲存空間 (Windows)"
 1. 從 h2testw `.zip` 中解壓 `h2testw.exe`
 1. 將您所想使用的儲存裝置插入至電腦中
 1. 開啟 `h2testw.exe`
-1. 選擇『英語(English)』
+1. 選擇『英語 (English)』
 1. 選擇『Select target』
 1. 選擇您儲存裝置的磁區代號
 1. 確定『all available space』有選起來
