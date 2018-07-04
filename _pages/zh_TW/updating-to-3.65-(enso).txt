@@ -9,7 +9,7 @@ title: "更新至 3.65 (持有 Ensō 的主機)"
 下列步驟將更新持有 HENkaku Ensō 3.60 的主機至 3.65 (在仍持有 HENkaku Ensō 的狀況下)。 如果您的主機為尚未修改的原廠主機且正試著更新至 3.65，請見[更新至 3.65](updating-to-3.65)。
 {: .notice--warning}
 
-Updating your HENkaku Ensō PS Vita (TV) to the firmware version 3.65 will allow you to access the PS Store, use online features, and play newer games which require newer firmware versions, all while retaining access to the convenient boot-time HENkaku Ensō homebrew exploit.
+更新您的 HENkaku Ensō PS Vita (TV) 至韌體版本 3.65 可讓您在仍持有 HENkaku Ensō 漏洞的方便性的同時存取 PlayStation 商店、使用線上功能以及遊玩要求較新韌體版本的遊戲。
 
 請注意，當您更新至韌體版本 3.65 後，原本的 HENkaku 漏洞將無法正常執行。 如果您未來因特殊原因想要移除 HENkaku Ensō，您將會需要重新依照[安裝 h-encore](installing-h-core) 中的步驟將其重新安裝。
 
@@ -30,9 +30,9 @@ Updating your HENkaku Ensō PS Vita (TV) to the firmware version 3.65 will allow
 
 #### 第一節 — 準備工作
 
-1. If you are using an alternative storage device (such as an SD2Vita, USB drive, or psvd), disable it 
-  + You must use an official Sony memory card to perform the 3.65 update
-  + You can either disable the plugin or remove the device, depending on your specific setup
+1. 如果您正在使用某種儲存裝置 (比如 SD2Vita、USB 隨身碟、或 psvd)，請先將其關閉 
+  + 您必須使用原廠的 Sony 記憶卡才能進行 3.65 韌體更新
+  + 依您的設置而定，您可以選擇將其插件關閉或將該裝置移除
 1. 啟動 molecularShell
   + 如果您先前已安裝 1.82 版或更新的 VitaShell，您也可以使用它
 1. 按下「Select」鍵以啟動 FTP 存取功能
