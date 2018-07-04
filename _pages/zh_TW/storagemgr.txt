@@ -28,7 +28,7 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
   + `MCD=uma0` 大部分時間不需要經過修改
   + `INT=imc0` PS Vita 2000 及 PS TV 用戶不需更改此選項，而 PS Vita 1000 的用戶應該將此選項移除
   + `GCD=ux0` SD2Vita 用戶不需更改此選項，而 psvd 或隨身碟的用戶需將該選項改為 `UMA=ux0`
-  + `UMA=grw0` should be removed unless you have multiple storage devices (in which case the device which is not assigned to `ux0:` should be assigned to `grw0:`)
+  + `UMA=grw0` 除非您有多項儲存空間否則請刪除此選項 (若真如此，未分發至 `ux0:` 的裝置應被分發至 `grw0:` 當中)
 
 ### 操作說明
 
@@ -45,7 +45,7 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
 1. 將 `ur0:tai/config.txt` 內的 `ux0:` 替代為 `ur0:`
 1. 將下列的字串加入至 `ur0:tai/config.txt` 中 `*KERNEL` 行列下：
   + `ur0:tai/storagemgr.skprx`
-1. Delete all files from the `ux0:tai/` folder
+1. 刪除 `ux0:tai/` 中所有的檔案
   
 #### 第二節 — 還原資料
 
@@ -65,9 +65,9 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
 ___
 
 {% capture notice-1 %}
-If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point) and / or `imc0:` (if you have a PS Vita 2000 or PS TV).
+如果您想要清理您記憶卡中的內容 (假設說您想存放 PSP 遊戲之類的)，您可將 `uma0:` (新的記憶卡掛載點) 以及/或者 `imc0:` (適用於 PS Vita 2000 或 PS TV) 中的資料刪除。
 
-If you decide to do this and are using h-encore on firmware versions 3.67 or 3.68, you must *not* delete these folders:
+如果您想要做清理的動作，且您的主機為正使用 h-encore 且持有韌體版本 3.67 或 3.68 的主機，您*千萬不可*刪除下列資料夾:
 
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
@@ -75,7 +75,7 @@ If you decide to do this and are using h-encore on firmware versions 3.67 or 3.6
   + `uma0:license/app/PCSG90096`
   + `uma0:user/00/savedata/PCSG90096`
 
-This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore StorageMgr) after a reboot.
+這是因為 h-encore 得保持其記憶卡中的安裝狀態，這樣您才能在重啟後啟用 HENkaku (及 StorageMgr)。
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
