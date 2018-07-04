@@ -54,7 +54,6 @@ This section will copy the data from your old Sony memory card to your new stora
 
 1. Backup the contents of `ux0:` to a folder on your computer
   + This may take some time if you have a large amount of data on your Sony memory card
-1. Delete the contents of `ux0:` from your PS Vita (TV)
 1. Insert your new storage device into your computer
 1. Copy the contents of your `ux0:` folder to your new storage device
   + This may take some time if you have a large amount of data on your Sony memory card
@@ -64,6 +63,22 @@ This section will copy the data from your old Sony memory card to your new stora
 1. Reboot your device
 
 ___
+
+{% capture notice-1 %}
+If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point). 
+
+If you decide to do this and are using h-encore on firmware versions 3.67 or 3.68, you must *not* delete these folders:
+
+  + `uma0:app/PCSG90096`
+  + `uma0:appmeta/PCSG90096`
+  + `uma0:data/bootstrap.self`
+  + `uma0:license/PCSG90096`
+  + `uma0:user/00/savedata/PCSG90096`
+
+This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore StorageMgr) after a reboot.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 Your new storage device is now configured and ready for use at the mount point specified in your `storage_config.txt`.
 {: .notice--success}
