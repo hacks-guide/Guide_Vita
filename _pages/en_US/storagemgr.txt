@@ -28,7 +28,7 @@ You must have already installed VitaShell to use this.
   + `MCD=uma0` should almost always be kept as-is
   + `INT=imc0` should be kept as-is for PS Vita 2000 and PS TV users, and removed for PS Vita 1000 users
   + `GCD=ux0` should be kept as-is for SD2Vita users, and edited to `UMA=ux0` for USB drive and psvd users
-  + `UMA=grw0` should be removed unless you have multiple storage devices
+  + `UMA=grw0` should be removed unless you have multiple storage devices (in which case the device which is not assigned to `ux0:` should be assigned to `grw0:`)
 
 ### Instructions
 
