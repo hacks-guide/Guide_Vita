@@ -80,7 +80,7 @@ To re-enable homebrew access after a reboot, simply launch and exit h-encore.
 
 ___
 
-The following is an optional section for devices on firmware version 3.65 which will install the HENkaku Ensō exploit.
+The following is an optional section for devices **on firmware version 3.65** which will install the HENkaku Ensō exploit.
 
 HENkaku Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment. It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
 
