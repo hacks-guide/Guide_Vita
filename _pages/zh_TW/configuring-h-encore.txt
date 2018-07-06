@@ -80,7 +80,7 @@ ___
 
 ___
 
-以下為適用於系統版本 3.65 的主機的選用章節。本章節將會安裝 HENkaku Ensō 漏洞。
+The following is an optional section for devices **on firmware version 3.65** which will install the HENkaku Ensō exploit.
 
 HENkaku Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，您的主機能於啟動時自動設置 HENkaku 環境，讓您能輕易地使用自製軟體。 因為 h-encore 需於每次主機重新啟動時重新手動觸發漏洞，此方案相對方便許多。
 

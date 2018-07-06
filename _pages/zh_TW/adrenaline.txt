@@ -6,7 +6,7 @@ title: "Adrenaline"
 
 ### 必讀事項
 
-Adrenaline 是一個用於修改 PS Vita (TV) 中內建的 PSP 模擬器以運行 PSP 6.61自製韌體的自製軟體。
+Adrenaline 是一個用於修改 PS Vita (TV) 中內建的 PSP 模擬器並透過其運行 PSP 6.61 自製韌體的自製軟體。
 
 此外，透過 Adrenaline 也可以讓您在使用內建的 PSP 模擬器中使用 PSP 的系統選單。
 
