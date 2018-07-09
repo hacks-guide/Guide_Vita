@@ -26,7 +26,7 @@ ___
 
 此方法需要一台裝有 Windows 的電腦。
     
-透過『auto h-encore』來自動安裝部分的 h-encore 設置。
+The "auto h-encore" tool is used to automate the h-encore installation.
 
 繼續至 [安裝 h-encore (透過 Windows 自動安裝)](installing-h-encore-(windows-auto))
 {: .notice--primary}
