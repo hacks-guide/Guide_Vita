@@ -13,9 +13,6 @@ main:
     title: Credits
     url: credits
   -
-    title: Updating to 3.65 (Ensō)
-    url: updating-to-3.65-(enso)
-  -
     title: Troubleshooting
     url: troubleshooting
   -
@@ -50,17 +47,11 @@ sidebar_pages:
     title: Get Started
     url: get-started
   -
-    title: Updating to 3.60
-    url: updating-to-3.60
-  -
     title: Updating to 3.65
     url: updating-to-3.65
   -
-    title: Installing HENkaku
-    url: installing-henkaku
-  -
-    title: Installing Ensō (3.65)
-    url: installing-enso-(3.65)
+    title: Updating to 3.65 (HENkaku)
+    url: updating-to-3.65-(henkaku)
   -
     title: Installing h-encore
     url: installing-h-encore
@@ -79,6 +70,9 @@ sidebar_pages:
   -
     title: Configuring h-encore
     url: configuring-h-encore
+  -
+    title: Installing Ensō (3.65)
+    url: installing-enso-(3.65)
   -
     title: Finalizing Setup
     url: finalizing-setup
