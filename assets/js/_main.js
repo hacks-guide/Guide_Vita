@@ -145,7 +145,7 @@ $(document).ready(function(){
   if(sidebar_shown){
     var unhide = [];
     var route = {
-      "0": ["updating-to-3.65", "installing-h-encore", "finalizing-setup"],
+      "0": ["updating-to-3.65", "multiple-options", "configuring-h-encore", "finalizing-setup"],
       "1": ["installing-h-encore", "multiple-options", "configuring-h-encore", "finalizing-setup"],
       "2": ["installing-h-encore", "installing-h-encore-(windows-auto)", "configuring-h-encore", "finalizing-setup"],
       "3": ["installing-h-encore", "installing-h-encore-(windows-manual)", "configuring-h-encore", "finalizing-setup"],
