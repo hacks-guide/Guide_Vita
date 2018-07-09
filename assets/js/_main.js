@@ -123,13 +123,12 @@ $(document).ready(function(){
   }
 
   var methods = {
-    "updating-to-3.60": "0",
-    "installing-henkaku": "1",
-    "updating-to-3.65": "2",
-    "installing-h-encore": "3",
-    "installing-h-encore-(windows-auto)": "4",
-    "installing-h-encore-(windows-manual)": "5",
-    "installing-h-encore-(linux-mac)": "6",
+    "updating-to-3.65": "0",
+    "installing-h-encore": "1",
+    "installing-h-encore-(windows-auto)": "2",
+    "installing-h-encore-(windows-manual)": "3",
+    "installing-h-encore-(linux-mac)": "4",
+    "installing-enso-(3.65)": "5",
   };
 
   for(var method in methods){
@@ -146,13 +145,12 @@ $(document).ready(function(){
   if(sidebar_shown){
     var unhide = [];
     var route = {
-      "0": ["updating-to-3.60", "installing-henkaku", "installing-enso-(3.65)", "finalizing-setup"],
-      "1": ["installing-henkaku", "installing-enso-(3.65)", "finalizing-setup"],
-      "2": ["updating-to-3.65", "installing-h-encore", "finalizing-setup"],
-      "3": ["installing-h-encore", "multiple-options", "configuring-h-encore", "finalizing-setup"],
-      "4": ["installing-h-encore", "installing-h-encore-(windows-auto)", "configuring-h-encore", "finalizing-setup"],
-      "5": ["installing-h-encore", "installing-h-encore-(windows-manual)", "configuring-h-encore", "finalizing-setup"],
-      "6": ["installing-h-encore", "installing-h-encore-(linux-mac)", "configuring-h-encore", "finalizing-setup"],
+      "0": ["updating-to-3.65", "installing-h-encore", "finalizing-setup"],
+      "1": ["installing-h-encore", "multiple-options", "configuring-h-encore", "finalizing-setup"],
+      "2": ["installing-h-encore", "installing-h-encore-(windows-auto)", "configuring-h-encore", "finalizing-setup"],
+      "3": ["installing-h-encore", "installing-h-encore-(windows-manual)", "configuring-h-encore", "finalizing-setup"],
+      "4": ["installing-h-encore", "installing-h-encore-(linux-mac)", "configuring-h-encore", "finalizing-setup"],
+      "5": ["installing-h-encore", "multiple-options", "configuring-h-encore", "installing-enso-(3.65)", "finalizing-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
