@@ -46,7 +46,6 @@ It is more convenient than h-encore as it does not require you to trigger an exp
 1. Open the Ensō application
 1. Press (Circle) to accept the terms
 1. Press (Cross) to install Ensō
-  + This process will take some time
   + When the process has completed, press any button to reboot your device
 
 ___
