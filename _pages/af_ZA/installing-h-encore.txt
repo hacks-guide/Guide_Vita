@@ -26,7 +26,7 @@ ___
 
 This method requires a Windows computer.
     
-The "auto h-encore" tool is used to automate a portion of the h-encore installation.
+The "auto h-encore" tool is used to automate the h-encore installation.
 
 Continue to [Installing h-encore (Windows Auto)](installing-h-encore-(windows-auto))
 {: .notice--primary}
