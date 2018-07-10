@@ -1,22 +1,22 @@
 ---
-title: "Installing Ensō (3.65)"
+title: "Установка Ensō (3.65)"
 ---
 
 {% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to trigger an exploit on your device after every reboot manually.
+Ensō предоставляет удобный доступ к хоумбрю путем запуска эксплойта в процессе загрузки для установки хоумбрю окружения. Это решение более удобно чем другие (такие как HENkaku или h-encore), поскольку не требует вручную активировать эксплойт после каждой перезагрузки.
 
-Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment. 
+Ensō это полноценное CFW решение для PS Vita (TV), которое предоставляет удобный доступ к хоумбрю путем запуска эксплойта в процессе загрузки для установки хоумбрю окружения HENkaku. 
 
-It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
+Это решение более удобно чем h-encore, поскольку не требует вручную активировать эксплойт после каждой перезагрузки.
 
 ### Что понадобится
 
 * FTP клиент, такой как [WinSCP](https://winscp.net/) или [CyberDuck](https://cyberduck.io/)
   + Вместо этого можно использовать функцию USB transfer в приложении VitaShell
-* The latest release of [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
+* Свежая версия [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
 ### Инструкция
 
@@ -28,25 +28,25 @@ It is more convenient than h-encore as it does not require you to trigger an exp
 1. Запустите FTP клиент на компьютере
 1. Введите IP адрес и порт, отображаемые на консоли
 1. Используя FTP клиент, перейдите в `ux0:` -> `data/`
-1. Transfer `enso.vpk` to the `data` folder
+1. Загрузите `enso.vpk` в папку `data`
 1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
 
-#### Section II - Installing VPK
+#### Часть II - Установка VPK
 
 1. На консоли перейдите в `ux0:` -> `data/`
-1. Press (Cross) on `enso.vpk` to install the file
+1. Нажмите (Крест), выделив файл `enso.vpk` чтобы установить его
 1. Нажмите (Крест) чтобы подтвердить установку
 1. Нажимайте (Крест) чтобы продолжить каждый раз, когда появляется запрос о расширенных правах
 1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Delete" чтобы удалить все выделенные файлы
 1. Нажмите (Крест) чтобы подтвердить удаление
 1. Закройте приложение VitaShell
 
-#### Section III - Installing Ensō
+#### Часть III - Установка Ensō
 
-1. Open the Ensō application
-1. Press (Circle) to accept the terms
-1. Press (Cross) to install Ensō
-  + When the process has completed, press any button to reboot your device
+1. Запустите приложение Ensō
+1. Нажмите (Круг) чтобы принять условия соглашения
+1. Нажмите (Крест) чтобы установить Ensō
+  + После завершения процесса нажмите любую кнопку для перезагрузки
 
 ___
 
