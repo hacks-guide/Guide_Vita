@@ -42,15 +42,15 @@ title: "Установка h-encore (автоматически для Windows)"
 1. В приложении Управление данными на консоли выберите "PC -> Система PS Vita"
 1. Выберите "Приложения"
 1. Выберите "PS Vita"
-1. Select "h-encore"
-1. Select "Copy"
-1. Select "OK"
-  + The h-encore exploit will be copied to your device
-  + This process will take some time
-1. Close the Content Manager application on your device
-1. Close auto h-encore on your computer
+1. Выберите "h-encore"
+1. Выберите "Копировать"
+1. Выберите "OK"
+  + Эксплойт h-encore будет скопирован на вашу консоль
+  + Этот процесс займет некоторое время
+1. Закройте приложение "Управление данными" на консоли
+1. Закройте auto h-encore на компьютере
 
 ___
 
-### Continue to [Configuring h-encore](configuring-h-encore)
+### Следующий шаг: [Настройка h-encore](configuring-h-encore)
 {: .notice--primary}
