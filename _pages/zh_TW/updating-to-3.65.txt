@@ -23,9 +23,6 @@ While the h-encore exploit itself is compatible with firmware versions 3.67 and 
 
 #### Section I - DNS Configuration
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
-{: .notice--warning}
-
 1. 啟動設定
 1. 移動至 `網路` -> `Wi-Fi 設定`
   + 若您尚未連上網，請連接到 Wi-Fi 網路
