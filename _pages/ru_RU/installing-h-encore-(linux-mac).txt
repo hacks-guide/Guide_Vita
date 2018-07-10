@@ -70,13 +70,13 @@ Before proceeding, ensure you have read all of the information on [Installing h-
 1. Right-click the QCMA icon in the system tray, then select "Refresh database"
 1. In the Content Manager application on your device, select "PC -> PS Vita System"
 1. Select "Applications"
-1. Select "PS Vita"
+1. Выберите "PS Vita"
 1. Select "h-encore"
 1. Select "Copy"
 1. Select "OK"
   + The h-encore exploit will be copied to your device
   + Этот процесс займет некоторое время
-1. Close the Content Manager application
+1. Закройте приложение Управление данными
 
 ___
 
