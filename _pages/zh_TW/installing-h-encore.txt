@@ -6,16 +6,38 @@ title: "安裝 h-encore"
 
 ### 必讀事項
 
-h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您安裝自製軟體至您的主畫面中。 它與韌體版本 3.65、3.67、3.68 相容。
+The h-encore exploit chain for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. 它與韌體版本 3.65、3.67、3.68 相容。
 
-請注意，h-encore 並非永久性的漏洞 (也就是說該漏洞將於主機重啟後失效)。 好消息是待會裝有韌體版本 3.65 的主機可以安裝 HENkaku Ensō 來解決這問題。 壞消息是裝有韌體版本 3.67 或 3.68 的主機得在每次重啟後重複下列有特別標記的步驟直到有人開發新的永久性漏洞為止。
+請注意，h-encore 並非永久性的漏洞 (也就是說該漏洞將於主機重啟後失效)。 For devices on firmware version 3.65, this is fortunately only a temporary restriction until Ensō is installed on a later page. 壞消息是裝有韌體版本 3.67 或 3.68 的主機得在每次重啟後重複下列有特別標記的步驟直到有人開發新的永久性漏洞為止。
+
+Prior to installing the h-encore exploit, we configure your network's DNS settings to use a custom update server which will always tell your device that 3.60 is the latest update available. This has the effect of blocking any firmware versions above 3.60 from being installed when the device attempts to perform an update.
 
 除了安裝 h-encore 漏洞外，我們也將啟用『非安全』的自製程式使用權以提高自製程式的執行權限。 這類似於電腦中的「管理員」權限。
 
-不幸的是，h-encore 與先前的 PS Vita (TV) 漏洞相比起來較難安裝。 對於 Windows 使用者來說，這步驟可能稍微簡單些，因為我們可以透過一套工具來自動化某些步驟；但是 Linux 以及 Mac 使用者得手動進行整套過程。
+不幸的是，h-encore 與先前的 PS Vita (TV) 漏洞相比起來較難安裝。 For Windows users, there is a tool which automates the processes, but Linux and Mac users will need to perform the entire installation manually.
 
 如果您使用的是 PS Vita 1000，那麼您必須要有一張原廠 Sony 記憶卡 (任意大小) 才能繼續。 此限制不適用於 PS Vita 2000 或 PS TV，因為這些主機皆有內建記憶卡/內存。
 {: .notice--info}
+
+### 操作說明
+
+Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+{: .notice--warning}
+
+1. 啟動設定
+1. 移動至 `網路` -> `Wi-Fi 設定`
+  + 若您尚未連上網，請連接到 Wi-Fi 網路
+1. 選擇您目前所連結的網路
+  + 已連上的網路旁邊會有一個綠色點點
+1. 選擇『詳細設定』
+1. 將『DNS 設定』改為『手動』
+1. 將『主要 DNS (Primary DNS)』改為 `212.47.229.76`
+1. 將『次要 DNS』留空
+1. 確保您已將『Proxy 伺服器』設定至『不使用』
+1. 回到主選單
+1. Navigate to `System` -> `Auto-Start Settings`
+1. Uncheck "Download Update File for System Software"
+1. 關閉設定
 
 ___
 ### 方法
@@ -26,7 +48,7 @@ ___
 
 此方法需要一台裝有 Windows 的電腦。
     
-透過『auto h-encore』來自動安裝部分的 h-encore 設置。
+The "auto h-encore" tool is used to automate the h-encore installation.
 
 繼續至 [安裝 h-encore (透過 Windows 自動安裝)](installing-h-encore-(windows-auto))
 {: .notice--primary}

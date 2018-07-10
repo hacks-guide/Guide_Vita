@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.5
   caption:
 
-excerpt: "最完整的 PS Vita (TV) 改機教戰手冊，<br />教你如何從原廠韌體改成 HENkaku Ensō。<br />"
+excerpt: "A complete guide to PS Vita (TV) custom firmware, <br /> from stock to Ensō.<br />"
 ---
 
 有關於其他主機的改機手冊，請見 [Hacks.Guide](https://hacks.guide)。
@@ -46,9 +46,9 @@ ___
 
 本教學的最終目的為將從未改機過的 PS Vita (TV) 從原廠韌體改為自製韌體。
 
-目前可用且最佳的自製韌體方案為 HENkaku Ensō。它可在主機開機時透過一個漏洞讓您在開機後能輕易地啟動任何自製軟體。 它比其他方案方便許多，因為其他自製系統方案通常都需於每次主機重啟時重新手動觸發漏洞。
+The best CFW solution currently available, Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. 它比其他方案方便許多，因為其他自製系統方案通常都需於每次主機重啟時重新手動觸發漏洞。
 
-HENkaku Ensō 可在所有持有 3.65 系統版本(含)以下的主機中執行；至於其他較新版本的主機可以使用 h-encore，雖然步驟稍微不那麼方便些。
+Ensō is available on all devices with firmware version 3.65 or below, while higher firmware version devices can use h-encore to achieve a similar (if less convenient) result.
 
 ## 我可以透過自製韌體做些什麼？
 
@@ -63,7 +63,7 @@ HENkaku Ensō 可在所有持有 3.65 系統版本(含)以下的主機中執行�
 ## 在開始前我得注意什麼？
 
 + **在開始前，您一定得注意 Vita 改機的風險：每當您修改系統時，都有可能造成無法挽回的磚機。 這種情況是滿罕見的，但還是有可能的；所以請確實遵守每一個步驟。**
-+ 本教學適用於任意地區持有系統版本 1.00 至 3.68 的所有 PS Vita (厚／薄機) 以及所有 PS TV
++ This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.68
 + 如果一切都順利的話，您將不會失去任何資料 (像是遊戲、PSN 帳號、存檔... 等都會被留下)。
 + **請在充電的情況下改機，以確保途中不會因為電力關係而突然關機造成資料遺失或甚至毀損！**
 + PS Vita 2000 及 PS TV 型號的軟體基本上與原版 PS Vita 1000 是非常相似的。 除非特別註明，否則文章中所提及任何關於『PS Vita』的步驟皆適用於其他型號。
