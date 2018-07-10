@@ -1,5 +1,5 @@
 ---
-title: "Installing h-encore (Windows Manual)"
+title: "Установка h-encore (вручную для Windows)"
 ---
 
 {% include toc title="Содержание" %}
@@ -18,7 +18,7 @@ title: "Installing h-encore (Windows Manual)"
 * Демо-версия игры [Bitter Smile](http://ares.dl.playstation.net/cdn/JP0741/PCSG90096_00/xGMrXOkORxWRyqzLMihZPqsXAbAXLzvAdJFqtPJLAZTgOcqJobxQAhLNbgiFydVlcmVOrpZKklOYxizQCRpiLfjeROuWivGXfwgkq.pkg) в формате `.pkg`
 * Свежая версия [h-encore](https://github.com/TheOfficialFloW/h-encore/releases/latest)
 * Свежая версия [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) *(`.zip-архив` для вашей ОС)*
-* The latest release of [pkg2zip](https://github.com/mmozeiko/pkg2zip/releases/latest)
+* Свежая версия [pkg2zip](https://github.com/mmozeiko/pkg2zip/releases/latest)
 * Свежая версия [QCMA](https://github.com/codestation/qcma/releases/latest)
   + Если ранее было установлено официальное приложение Sony Content Manager Assistant, удалите его
   
@@ -36,12 +36,12 @@ title: "Installing h-encore (Windows Manual)"
   + Если у вас нет аккаунта PlayStation Network, создайте его
 1. Выберите / зарегистрируйте ваш компьютер, если появится запрос
 
-#### Section II - auto h-encore
+#### Часть II - auto h-encore
 
 1. Перейдите по ссылке [cma.henkaku.xyz](http://cma.henkaku.xyz/) на компьютере
-1. Navigate to the `PS Vita\APP\` folder on your computer using the file explorer
+1. Перейдите в папку `PS Vita\APP\` на компьютере с помощью проводника
   + По умолчанию эта папка находится внутри папки `Documents` на вашем компьютере
-  + If you cannot find it, check the QCMA "Applications / Backups" setting by right-clicking the QCMA icon in the system tray, then selecting "Settings"
+  + Если вы не можете её найти, проверьте настройку "Applications / Backups" в приложении QCMA, щелкнув правой кнопкой мыши значок QCMA в трее, а затем выбрав "Settings"
 1. Скопируйте имя папки внутри этой директории, затем вставьте его в поле "AID" на сайте CMA
   + Вот пример AID: `ec8d45ec9c055609`
 1. Нажмите "Отправить запрос" для создания соответствующего ключа
@@ -49,18 +49,18 @@ title: "Installing h-encore (Windows Manual)"
   + Вот пример ключа: `488d3ff6cce7a9ef1be6da8338c7d18db18147c3255fa4d50596568555687174`
 1. Скопируйте папку `h-encore` из `.zip-архива` h-encore в папку на вашем компьютере
 1. Скопируйте содержимое `zip-архива` psvimgtools в папку `h-encore`
-1. Copy `pkg2zip.exe` from the pkg2zip `.zip` to the `h-encore` folder
+1. Скопируйте файл `pkg2zip.exe` из `.zip-архива` pkg2zip в папку `h-encore`
 1. Переместите `.pkg-файл` Bitter Smile в папку `h-encore`
-1. Open a command prompt window
+1. Откройте окно командной строки
 1. Перейдите в папку `h-encore` командой `cd`
-1. Run `unpack`
-1. Run `psvimg-create -n app -K YOUR_KEY app PCSG90096\app`
+1. Выполните `unpack`
+1. Выполните `psvimg-create -n app -K YOUR_KEY app PCSG90096\app`
   + Замените "YOUR_KEY" на ключ, созданный ранее
-1. Run `psvimg-create -n appmeta -K YOUR_KEY appmeta PCSG90096\appmeta`
-1. Run `psvimg-create -n license -K YOUR_KEY license PCSG90096\license`
-1. Run `psvimg-create -n savedata -K YOUR_KEY savedata PCSG90096\savedata`
-1. Close your command prompt window
-1. Copy the `h-encore\PCSG90096` folder to the `PS Vita\APP\YOUR_AID\` folder on your computer using the file explorer
+1. Выполните `psvimg-create -n appmeta -K YOUR_KEY appmeta PCSG90096\appmeta`
+1. Выполните `psvimg-create -n license -K YOUR_KEY license PCSG90096\license`
+1. Выполните `psvimg-create -n savedata -K YOUR_KEY savedata PCSG90096\savedata`
+1. Закройте окно командной строки
+1. Скопируйте папку `h-encore\PCSG90096` в папку `PS Vita\APP\YOUR_AID\` на вашем компьютере с помощью проводника
 
 #### Часть III - Передача данных QCMA
 
