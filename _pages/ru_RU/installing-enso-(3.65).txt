@@ -39,7 +39,7 @@ It is more convenient than h-encore as it does not require you to trigger an exp
 1. Нажимайте (Крест) чтобы продолжить каждый раз, когда появляется запрос о расширенных правах
 1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Delete" чтобы удалить все выделенные файлы
 1. Нажмите (Крест) чтобы подтвердить удаление
-1. Close the VitaShell application
+1. Закройте приложение VitaShell
 
 #### Section III - Installing Ensō
 
@@ -50,5 +50,5 @@ It is more convenient than h-encore as it does not require you to trigger an exp
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Следующий шаг: [Завершение установки](finalizing-setup)
 {: .notice--primary}
