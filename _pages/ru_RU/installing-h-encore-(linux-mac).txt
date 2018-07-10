@@ -2,9 +2,9 @@
 title: "Installing h-encore (Linux / Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
 This method requires a Linux or Mac computer.
     
@@ -12,7 +12,7 @@ The h-encore installation is performed manually and requires the use of the comm
 
 Before proceeding, ensure you have read all of the information on [Installing h-encore](installing-h-encore)
 
-### What You Need
+### Что понадобится
 
 * [unpack.sh]({{ "/assets/files/unpack.sh" | absolute_url }}){:download="unpack.sh"}
 * The `.pkg` format demo of [Bitter Smile](http://ares.dl.playstation.net/cdn/JP0741/PCSG90096_00/xGMrXOkORxWRyqzLMihZPqsXAbAXLzvAdJFqtPJLAZTgOcqJobxQAhLNbgiFydVlcmVOrpZKklOYxizQCRpiLfjeROuWivGXfwgkq.pkg)
@@ -24,9 +24,9 @@ Before proceeding, ensure you have read all of the information on [Installing h-
   + Uninstall the official Sony CMA if it is already installed
   + MacOS users should download the "noffmpeg" version of QCMA
   
-### Instructions
+### Инструкция
 
-#### Section I - Prep Work
+#### Часть I - Подготовительные работы
 
 1. Install and launch QCMA on your computer if you have not already
 1. Copy the contents of the auto h-encore `.zip` to a folder on your computer
@@ -75,7 +75,7 @@ Before proceeding, ensure you have read all of the information on [Installing h-
 1. Select "Copy"
 1. Select "OK"
   + The h-encore exploit will be copied to your device
-  + This process will take some time
+  + Этот процесс займет некоторое время
 1. Close the Content Manager application
 
 ___
