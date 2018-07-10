@@ -37,7 +37,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Return to the main Settings menu
 1. Navigate to `System` -> `Auto-Start Settings`
 1. Uncheck "Download Update File for System Software"
-1. Close the Settings application
+1. Закройте приложение Настройки
 
 ___
 ### Методы
