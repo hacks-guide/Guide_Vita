@@ -21,7 +21,7 @@ title: "Вопросы и ответы"
 **О:** Да! На вашей консоли будут доступны любые созданные пользователями homebrew приложения.
 
 <a name="faq_support" />**В:** *Куда я могу обратиться за помощью?*    
-**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6).
+**О:** Для поддержки, обратитесь за помощью на сервер [Vita Hacking в Discord](https://discord.gg/JXEKeg6).
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer?*    
-**О:** Нет! You must have a PC to complete this guide.
+<a name="faq_nopc" />**В:** *Могу ли я обойтись без использования компьютера?*    
+**О:** Нет! У вас должен быть компьютер для выполнения этого руководства.
