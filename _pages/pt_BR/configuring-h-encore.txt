@@ -7,8 +7,6 @@ title: "Configuring h-encore"
 ### Required Reading
 
 Now that the h-encore exploit is installed on your device (either through the Windows or Linux / Mac method), we will configure it for easy homebrew access.
-
-For devices on firmware version 3.65, there is additionally an optional section for installing the HENkaku Ensō exploit.
   
 ### Instructions
 
@@ -40,7 +38,7 @@ For devices on firmware version 3.65, there is additionally an optional section 
 {% capture notice-1 %}
 This is an optional section which will disable the trophy warning that appears when h-encore is launched. 
 
-This section is not recommended for devices on firmware version 3.65 as HENkaku Ensō can replace h-encore on those systems.
+This section is not recommended for devices on firmware version 3.65 as Ensō can replace h-encore on those systems.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -71,46 +69,24 @@ This section is not recommended for devices on firmware version 3.65 as HENkaku 
 1. Close the VitaShell application
 
 ___
+### Methods
 
-To re-enable homebrew access after a reboot, simply launch and exit h-encore.
-{: .notice--info}
+___
+
+#### Firmware Version 3.65
+
+Devices on firmware version 3.65 can now use the h-encore exploit to install Ensō, a more convenient exploit which runs automatically after a reboot.
+
+### Continue to [Installing Ensō (3.65)](installing-enso-(3.65))
+{: .notice--primary}
+
+___
+
+#### Firmware Versions 3.67 and 3.68
+
+Devices on firmware versions 3.67 and 3.68 are unfortunately incompatible with Ensō and must perform the h-encore exploit manually after each reboot.
 
 ### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
 
 ___
-
-The following is an optional section for devices **on firmware version 3.65** which will install the HENkaku Ensō exploit.
-
-HENkaku Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment. It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
-
-#### Section IV - Installing HENkaku Ensō
-
-##### What You Need
-
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
-* The latest release of [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
-
-##### Instructions
-
-1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-  + Alternatively, you can also use the USB transfer feature of VitaShell
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `enso.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
-1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Cross) on `enso.vpk` to install the file
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install each time you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
-1. Open the Ensō application
-1. Press (Circle) to accept the terms
-1. Press (Cross) to install HENkaku Ensō
-  + This process will take some time
-  + When the process has completed, press any button to reboot your device

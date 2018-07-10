@@ -1,22 +1,19 @@
 ---
 main:
   - 
-    title: Home
+    title: Главная
     url: /
   - 
-    title: FAQ
+    title: Вопросы и ответы
     url: faq
   - 
-    title: Donations
+    title: Пожертвования
     url: donations
   - 
-    title: Credits
+    title: Благодарности
     url: credits
   - 
-    title: Updating to 3.65 (Ensō)
-    url: updating-to-3.65-(enso)
-  - 
-    title: Troubleshooting
+    title: Проблемы и их решения
     url: troubleshooting
   - 
     title: Adrenaline
@@ -25,60 +22,57 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Site Navigation
+    title: Навигация по сайту
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/JXEKeg6">Vita Hacking on Discord</a>.
+    title: Для поддержки на английском языке обратитесь за помощью на сервер <a href="https://discord.gg/JXEKeg6">Vita Hacking в Discord</a>.
   - 
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+    title: Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="donations">пожертвования</a>.
 footer:
   - 
-    title: Source
+    title: Исходный код
   - 
-    title: Site Navigation
+    title: Навигация по сайту
   - 
-    title: Why Ads?
+    title: Зачем реклама?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Общий прогресс
 sidebar_pages:
   - 
-    title: Home
+    title: Главная
     url: /
   - 
-    title: Get Started
+    title: Начало
     url: get-started
   - 
-    title: Updating to 3.60
-    url: updating-to-3.60
-  - 
-    title: Updating to 3.65
+    title: Обновление до 3.65
     url: updating-to-3.65
   - 
-    title: Installing HENkaku
-    url: installing-henkaku
+    title: Обновление до 3.65 (HENkaku)
+    url: updating-to-3.65-(henkaku)
   - 
-    title: Installing Ensō (3.65)
-    url: installing-enso-(3.65)
-  - 
-    title: Installing h-encore
+    title: Установка h-encore
     url: installing-h-encore
   - 
-    title: Multiple Options
+    title: Несколько вариантов
     url: multiple-options
   - 
-    title: Installing h-encore (Windows Auto)
+    title: Установка h-encore (автоматически для Windows)
     url: installing-h-encore-(windows-auto)
   - 
-    title: Installing h-encore (Windows Manual)
+    title: Установка h-encore (вручную для Windows)
     url: installing-h-encore-(windows-manual)
   - 
-    title: Installing h-encore (Linux / Mac)
+    title: Установка h-encore (для Linux / Mac)
     url: installing-h-encore-(linux-mac)
   - 
-    title: Configuring h-encore
+    title: Настройка h-encore
     url: configuring-h-encore
   - 
-    title: Finalizing Setup
+    title: Установка Ensō (3.65)
+    url: installing-enso-(3.65)
+  - 
+    title: Завершение установки
     url: finalizing-setup

@@ -7,8 +7,6 @@ title: "設定 h-encore"
 ### 必讀事項
 
 於您的主機安裝完 h-encore 漏洞後 (透過 Windows 或 Linux/Mac 的安裝方式)，我們會將其設置於較簡易存取自製軟體的配置。
-
-持有韌體版本 3.65 的主機，於本章節結尾將有安裝 HENkaku Ensō 漏洞的選用章節。
   
 ### 操作說明
 
@@ -40,7 +38,7 @@ title: "設定 h-encore"
 {% capture notice-1 %}
 本結為選用章節。此章節將會關閉啟動 h-encore 時所出現的獎盃相關警告。 
 
-本章節不建議用於持有系統版本 3.65 的主機，因為 HENkaku Ensō 可以在這些系統中替代 h-encore。
+This section is not recommended for devices on firmware version 3.65 as Ensō can replace h-encore on those systems.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -71,46 +69,24 @@ title: "設定 h-encore"
 1. 關閉 VitaShell
 
 ___
+### 方法
 
-若要在重啟後重新啟用自製軟體，只要啟動 h-encore 並退出即可。
-{: .notice--info}
+___
+
+#### Firmware Version 3.65
+
+Devices on firmware version 3.65 can now use the h-encore exploit to install Ensō, a more convenient exploit which runs automatically after a reboot.
+
+### 繼續至 [安裝 Ensō (版本 3.65)](installing-enso-(3.65))
+{: .notice--primary}
+
+___
+
+#### Firmware Versions 3.67 and 3.68
+
+Devices on firmware versions 3.67 and 3.68 are unfortunately incompatible with Ensō and must perform the h-encore exploit manually after each reboot.
 
 ### 繼續至[完成安裝](finalizing-setup)
 {: .notice--primary}
 
 ___
-
-The following is an optional section for devices **on firmware version 3.65** which will install the HENkaku Ensō exploit.
-
-HENkaku Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，您的主機能於啟動時自動設置 HENkaku 環境，讓您能輕易地使用自製軟體。 因為 h-encore 需於每次主機重新啟動時重新手動觸發漏洞，此方案相對方便許多。
-
-#### 第四節 — 安裝 HENkaku Ensō
-
-##### 必備項目
-
-* 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
-  + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
-* 最新版的 [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
-
-##### 操作說明
-
-1. 啟動 VitaShell
-1. 按下「Select」鍵以啟動 FTP 存取功能
-  + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
-1. 於您的電腦中啟動您的 FTP 客戶端
-1. 輸入於您主機上顯示的 IP 位址以及埠
-1. 透過 FTP 端移動至 `ux0:` -> `data/`
-1. 複製 `enso.vpk` 至 `data` 資料夾中
-1. 於您的主機按下「O」鍵以關閉 FTP 連線
-1. 於您的主機中移動至 `ux0:` -> `data/`
-1. 於 `enso.vpk` 上按下「X」鍵安裝
-1. 按下「X」鍵確認安裝
-1. 當每次提示要求使用更高權限時，按下「X」繼續
-1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
-1. 按下「X」鍵確認刪除
-1. 關閉 VitaShell
-1. 啟動 Ensō
-1. 按下「O」鍵接受條款
-1. 按下「X」鍵安裝 HENkaku Ensō
-  + 此過程將花費一些時間
-  + 當安裝完畢後，按下任意按鈕重啟您的主機

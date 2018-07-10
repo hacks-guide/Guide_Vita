@@ -65,27 +65,11 @@ title: "完成安裝"
 1. 按下「X」鍵確認刪除
 1. 關閉 VitaShell
 1. 重新啟動您的主機
+  + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
   + 此為必要步驟以載入剛所設定至 `ux0:tai/config.txt` 的內核插件
   + 若您做對一切的話，您現在應該可以在狀態列中看到剩餘電量的百分比
 
-#### 第三節 — 阻擋系統更新
-
-1. 啟動設定
-1. 移動至 `網路` -> `Wi-Fi 設定`
-  + 若您尚未連上網，請連接到 Wi-Fi 網路
-1. 選擇您目前所連結的網路
-  + 已連上的網路旁邊會有一個綠色點點
-1. 選擇『詳細設定』
-1. 將『DNS 設定』改為『手動』
-1. 將『主要 DNS (Primary DNS)』改為 `212.47.229.76`
-1. 將『次要 DNS (Secondary DNS)』留空
-1. 確保您已將『Proxy 伺服器』設定至『不使用』
-1. 回到主選單
-1. 移動至 `系統` -> `自動啟動設定`
-1. 取消『下載系統軟件的更新檔案』
-1. 回到主選單
-
-#### 第四節 — PSN 存取
+#### Section III - PSN Access
 
 1. 移動至 `HENkaku Settings`
 1. 勾選『Enable PSN spoofing (啟用假PSN)』
@@ -95,20 +79,19 @@ title: "完成安裝"
   + 如果未來 Sony 推出了新的系統韌體，您必須將此數值更換至最新的系統版本以存取 PSN
 1. 關閉設定
 
-#### 第五節 — 清理檔案
+#### Section IV - Cleanup
 
 1. 啟動「內容管理員」
 1. 選擇『管理記憶卡的內容』
 1. 選擇『PS Vita』
 1. 若有看見下列檔案，請將其刪除 (您所看到的檔案將因您的安裝方式而異，因此您可能只會看見部分列出的檔案)：
-  + "3.65 HENkaku Enso Updater"
   + "ensō"
   + "molecularShell"
 1. 關閉「內容管理員」
 
 ___
 
-您現在可以透過 Vita Homebrew Browser 輕易地安裝任何自製程式。 或者，您也可以在 [VitaDB](https://vitadb.rinnegatamante.it/) 中找尋新的自製程式。
+您現在可以透過 Vita Homebrew Browser 輕易地安裝任何自製程式。 Alternatively, you can also browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
 {: .notice--info}
 
 若您想要以其他記憶卡代替原廠的 Sony 記憶卡 (比如像是 microSD 或 USB 磁碟)，請見 [StorageMgr](storagemgr)。

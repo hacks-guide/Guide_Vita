@@ -21,15 +21,13 @@ sitemap: false
 + [Installing h-encore (Linux / Mac)](installing-h-encore-(linux-mac))
 + [Installing h-encore (Windows Auto)](installing-h-encore-(windows-auto))
 + [Installing h-encore (Windows Manual)](installing-h-encore-(windows-manual))
-+ [Installing HENkaku](installing-henkaku)
 + [Storage Format (Linux)](storage-format-(linux))
 + [Storage Format (Mac)](storage-format-(mac))
 + [Storage Format (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
 + [Troubleshooting](troubleshooting)
-+ [Updating to 3.60](updating-to-3.60)
 + [Updating to 3.65](updating-to-3.65)
-+ [Updating to 3.65 (Ensō)](updating-to-3.65-(enso))
++ [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku))
 + [Why Ads?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
