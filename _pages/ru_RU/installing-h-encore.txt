@@ -40,7 +40,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Close the Settings application
 
 ___
-### Methods
+### Методы
 
 ___
 
