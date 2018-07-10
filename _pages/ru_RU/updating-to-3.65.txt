@@ -23,23 +23,23 @@ While the h-encore exploit itself is compatible with firmware versions 3.67 and 
 
 #### Section I - DNS Configuration
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
+Обратите внимание, что адреса этих DNS серверов должны быть настроены для каждой сети, к которой вы подключаете свою консоль, чтобы обновления блокировались!
 {: .notice--warning}
 
 1. Запустите приложение Настройки
-1. Navigate to `Network` -> `Wi-Fi Settings`
-  + Connect to a Wi-Fi network if you have not already done so
-1. Select your current connection
-  + This is signified by a green dot next to the network
-1. Select "Advanced Settings"
-1. Set "DNS Settings" to "Manual"
+1. Перейдите в `Сеть` -> `Настройки Wi-Fi`
+  + Подключитесь к сети Wi-Fi, если вы еще этого не сделали
+1. Выберите ваше текущее подключение
+  + Оно обозначено зелёной точкой рядом с сетью
+1. Выберите "Дополнительные настройки"
+1. Измените "Настройки DNS" на "Вручную"
 1. Set "Primary DNS" to `23.96.6.207`
-1. Leave "Secondary DNS" blank
-1. Ensure "Proxy Server" is set to "Do Not Use"
-1. Return to the main Settings menu
-1. Navigate to `System` -> `Auto-Start Settings`
-1. Uncheck "Download Update File for System Software"
-1. Return to the main Settings menu
+1. Оставьте "Дополнительный DNS" пустым
+1. Убедитесь, что настройка "Прокси-сервер" имеет значение "Не использовать"
+1. Вернитесь в главное меню настроек
+1. Перейдите в `Система` -> `Настройка автозапуска`
+1. Снимите флажок "Загружать файл обновления для системного программного обеспечения"
+1. Вернитесь в главное меню настроек
 
 #### Section II - Updating to 3.65
 
