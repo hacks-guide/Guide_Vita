@@ -2,9 +2,9 @@
 title: "Installing h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
 The h-encore exploit chain for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65, 3.67, and 3.68.
 
@@ -19,12 +19,12 @@ Unfortunately, h-encore is more complicated to install than previous PS Vita (TV
 If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
 {: .notice--info}
 
-### Instructions
+### Инструкция
 
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
 {: .notice--warning}
 
-1. Launch the Settings application
+1. Запустите приложение Настройки
 1. Navigate to `Network` -> `Wi-Fi Settings`
   + Connect to a Wi-Fi network if you have not already done so
 1. Select your current connection
