@@ -82,5 +82,5 @@ ___
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Your new storage device is now configured and ready for use at the mount point specified in your `storage_config.txt`.
+Ваш новый накопитель теперь настроен и готов к использованию в точке монтирования, указанной в файле `storage_config.txt`.
 {: .notice--success}
