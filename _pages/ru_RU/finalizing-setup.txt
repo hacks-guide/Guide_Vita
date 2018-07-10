@@ -63,7 +63,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Нажимайте (Крест) чтобы продолжить каждый раз, когда появляется запрос о расширенных правах
 1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Delete" чтобы удалить все выделенные файлы
 1. Нажмите (Крест) чтобы подтвердить удаление
-1. Close the VitaShell application
+1. Закройте приложение VitaShell
 1. Перезагрузите консоль
   + Если на вашей консоли нет Ensō, то вам нужно вручную запустить и выйти из h-encore, чтобы восстановить доступ к хоумбрю
   + This is required to load the new kernel plugins added to `ux0:tai/config.txt`
