@@ -11,7 +11,7 @@ If you have already hacked your PS Vita (TV) before on 3.60, follow [Updating to
 
 hencore 漏洞僅與韌體版本 3.65、3.67、3.68 相容。 因此，舊版的韌體必須先透過第三方伺服器更新才能使用本漏洞。
 
-To do this, we configure your network's DNS settings to use a custom update server which will always tell your device that 3.65 is the latest update available. This has the effect of blocking any firmware versions above 3.65 from being installed when the device attempts to perform an update.
+To do this, we configure your network's DNS settings to use a custom update server which points to 3.65 as the latest update available. This has the effect of blocking any firmware versions above 3.65 from being installed when the device attempts to perform an update.
 
 While the h-encore exploit itself is compatible with firmware versions 3.67 and 3.68, we will be updating to firmware version 3.65 as it is the latest version which still supports the Ensō boot-time exploit.
 
@@ -22,9 +22,6 @@ While the h-encore exploit itself is compatible with firmware versions 3.67 and 
 ### 操作說明
 
 #### Section I - DNS Configuration
-
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
-{: .notice--warning}
 
 1. 啟動設定
 1. 移動至 `網路` -> `Wi-Fi 設定`

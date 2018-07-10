@@ -2,82 +2,82 @@
 title: "Adrenaline"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-Adrenaline is a homebrew application which modifies the official PSP Emulator of the PS Vita (TV) to run a PSP 6.61 custom firmware.
+Adrenaline это хоумбрю приложение, которое модифицирует официальный эмулятор PSP на консоли PS Vita (TV), позволяя использовать кастомную прошивку для PSP 6.61.
 
-Additionally, adrenaline also enables access to a full PSP home menu running under the official PSP Emulator.
+Кроме того, adrenaline также обеспечивает доступ к главному меню PSP внутри официального эмулятора PSP.
 
-You must have already installed VitaShell to use this.
+У вас уже должно быть установлено приложение VitaShell.
 {: .notice--info}
 
-### What You Need
+### Что понадобится
 
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
-* The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
-* The latest release of [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }})
+* FTP клиент, такой как [WinSCP](https://winscp.net/) или [CyberDuck](https://cyberduck.io/)
+  + Вместо этого можно использовать функцию USB transfer в приложении VitaShell
+* Свежая версия [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
+* Свежая версия [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }})
 
-### Instructions
+### Инструкция
 
-#### Section I - Prep Work
+#### Часть I - Подготовительные работы
 
-1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `Adrenaline.vpk` to the `data` folder
-1. Transfer `PSPhbb_dev.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
+1. Запустите приложение VitaShell
+1. Нажмите (Select) чтобы включить доступ по FTP на консоли
+1. Запустите FTP клиент на компьютере
+1. Введите IP адрес и порт, отображаемые на консоли
+1. Используя FTP клиент, перейдите в `ux0:` -> `data/`
+1. Загрузите `Adrenaline.vpk` в папку `data`
+1. Загрузите `PSPhbb_dev.vpk` в папку `data`
+1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
 
-#### Section II - Installing VPKs
+#### Часть II - Установка VPK
 
-1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Square) on each of the `.vpk` files to mark them
-1. Press (Triangle) to open the menu, then select "More" -> "Install all" to install the marked files
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install each time you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
-1. Press (Cross) to confirm the deletion
+1. На консоли перейдите в `ux0:` -> `data/`
+1. Нажмите (Квадрат) на каждом из файлов `.vpk` чтобы выделить их
+1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "More" -> "Install all" чтобы установить все выделенные файлы
+1. Нажмите (Крест) чтобы подтвердить установку
+1. Нажимайте (Крест) чтобы продолжить каждый раз, когда появляется запрос о расширенных правах
+1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Delete" чтобы удалить все выделенные файлы
+1. Нажмите (Крест) чтобы подтвердить удаление
 
-#### Section III - Modifying Plugin Config
+#### Часть III - Изменение конфигурации плагинов
 
-1. Press (Circle) to return to `ux0:`
-1. Navigate to `tai/`
-1. Press (Cross) on `config.txt` to open it in the editor
-1. Highlight the `*KERNEL` line with the cursor
-1. Press (Triangle) to open the menu, then select "Insert empty line"
-1. Highlight the new blank line
-1. Press (Cross) to edit the line
-1. Enter the following text:
+1. Нажмите (Круг) чтобы вернуться в `ux0:`
+1. Перейдите в `tai/`
+1. Нажмите (Крест), выделив файл `config.txt` чтобы открыть его в редакторе
+1. Выделите строку `*KERNEL`
+1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Insert empty line"
+1. Выделите новую пустую строку
+1. Нажмите (Крест) чтобы редактировать строку
+1. Введите следующий текст:
   + `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
-1. Press (Circle) to close the editor
-1. When prompted, press (Cross) to save your modifications
-1. Close the VitaShell application
-1. Reboot your device
-  + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
-  + This is required to load the new kernel plugin added to `ux0:tai/config.txt`
+1. Нажмите (Круг) чтобы закрыть редактор
+1. При появлении запроса, нажмите (Крест) чтобы сохранить изменения
+1. Закройте приложение VitaShell
+1. Перезагрузите консоль
+  + Если на вашей консоли нет Ensō, то вам нужно вручную запустить и выйти из h-encore, чтобы восстановить доступ к хоумбрю
+  + Это необходимо для запуска нового плагина, добавленного в `ux0:tai/config.txt`
 	
-#### Section IV - Installing PSP XMB
+#### Часть IV - Установка PSP XMB
 
-1. Launch the Adrenaline application
-1. Press (Cross) to download the PSP 6.61 firmware
-  + This process will take some time
-  + If the download fails, the downloader will get confused and begin to give you the error `Cannot find ux0:/app/PSPEMUCFW/661.PBP`
-  + If you encounter the above error, use VitaShell to delete the `ux0:app/PSPEMUCFW/flash0/` folder, then try again
-  + If you still encounter this error, manually download [EBOOT.PBP](http://de01.psp.update.playstation.org/update/psp/image/eu/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP), rename it to `661.PBP`, then transfer it to `ux0:app/PSPEMUCFW/` using VitaShell
-  + The Adrenaline application will close automatically when the download is complete
-1. Re-launch the Adrenaline application
-1. Press (Cross) to install PSP 6.61 the firmware
-1. Press (Cross) to boot the PSP home menu
-  + The PSP home menu is also known as the [XrossMediaBar](https://wikipedia.org/wiki/XrossMediaBar) ("XMB")
-1. Perform the PSP Initial Setup
-1. To close the PSP Emulator, hold the (PS) button to open the menu, then select `Settings` -> `Exit PspEmu Application`
+1. Запустите приложение Adrenaline
+1. Нажмите (Крест) чтобы загрузить прошивку PSP 6.61
+  + Этот процесс займет некоторое время
+  + Если загрузка не завершится, программа начнет выдавать ошибку `Cannot find ux0:/app/PSPEMUCFW/661.PBP`
+  + При появлении этой ошибки удалите папку `ux0:app/PSPEMUCFW/flash0/` при помощи VitaShell, затем попробуйте еще раз
+  + Если это не помогло, вручную скачайте файл [EBOOT.PBP](http://de01.psp.update.playstation.org/update/psp/image/eu/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP), переименуйте его в `661.PBP`, затем загрузите этот файл в папку `ux0:app/PSPEMUCFW/` при помощи VitaShell
+  + Приложение Adrenaline автоматически закроется после завершения загрузки
+1. Снова запустите приложение Adrenaline
+1. Нажмите (Крест) чтобы установить прошивку PSP 6.61
+1. Нажмите (Крест) чтобы запустить главное меню PSP
+  + Главное меню PSP также известно как [XrossMediaBar](https://wikipedia.org/wiki/XrossMediaBar) ("XMB")
+1. Выполните начальную настройку PSP
+1. Чтобы закрыть эмулятор PSP, удерживайте кнопку (PS) чтобы открыть меню, затем выберите `Настройки` -> `Exit PspEmu Application`
 
 ___
 
-Adrenaline and the PSP Homebrew Browser have been successfully installed.
+Adrenaline и PSP Homebrew Browser были успешно установлены.
 {: .notice--success}

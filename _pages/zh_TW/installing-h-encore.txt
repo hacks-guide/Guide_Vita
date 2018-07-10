@@ -10,7 +10,7 @@ The h-encore exploit chain for the PS Vita (TV) allows for the installation of h
 
 請注意，h-encore 並非永久性的漏洞 (也就是說該漏洞將於主機重啟後失效)。 For devices on firmware version 3.65, this is fortunately only a temporary restriction until Ensō is installed on a later page. 壞消息是裝有韌體版本 3.67 或 3.68 的主機得在每次重啟後重複下列有特別標記的步驟直到有人開發新的永久性漏洞為止。
 
-Prior to installing the h-encore exploit, we configure your network's DNS settings to use a custom update server which will always tell your device that 3.60 is the latest update available. This has the effect of blocking any firmware versions above 3.60 from being installed when the device attempts to perform an update.
+Prior to installing the h-encore exploit, we configure your network's DNS settings to use a custom update server which blocks new firmware versions from being installed when the device attempts to perform an update.
 
 除了安裝 h-encore 漏洞外，我們也將啟用『非安全』的自製程式使用權以提高自製程式的執行權限。 這類似於電腦中的「管理員」權限。
 

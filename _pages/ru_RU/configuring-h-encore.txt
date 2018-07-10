@@ -1,92 +1,92 @@
 ---
-title: "Configuring h-encore"
+title: "Настройка h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-Now that the h-encore exploit is installed on your device (either through the Windows or Linux / Mac method), we will configure it for easy homebrew access.
+Теперь, когда экплойт h-encore установлен на вашей консоли (медтодом для Windows либо для Linux / Mac), мы настроим его для легкого доступа к хоумбрю.
   
-### Instructions
+### Инструкция
 
-#### Section I - Configuring h-encore
+#### Часть I - Настройка h-encore
 
-1. Launch the h-encore application
-1. If prompted about trophies, select "Yes"
-1. If the exploit was successful, you will now see the h-encore bootstrap menu
-  + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
-  + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
-1. Select "Install HENkaku"
-  + This will install the HENkaku exploit and enable homebrew access until the next reboot
-1. Select "Download VitaShell"
-  + This will install the VitaShell homebrew application for managing your device's filesystem
-  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
-1. Select "Exit"
+1. Запустите приложение h-encore
+1. Если появится запрос о призах, выберите "Да"
+1. Если эксплойт сработал, вы увидите меню h-encore bootstrap
+  + Если эксплойт завис на белом экране, просто закройте приложение (это приведет к перезагрузке консоли), затем попробуйте снова
+  + Если это не помогло, удерживайте кнопку питания в течение 30 секунд для принудительной перезагрузки, затем попробуйте снова
+1. Выберите "Install HENkaku"
+  + Это действие установит эксплойт HENkaku и разрешит доступ к хоумбрю до следующей перезагрузки
+1. Выберите "Download VitaShell"
+  + Это действие установит хоумбрю приложение VitaShell для управления файловой системой консоли
+  + VitaShell (как и все прочие хоумбрю приложения) останется установленным после перезагрузки, но будет выдавать ошибку при запуске, если эксплойт HENkaku не активен
+1. Выберите "Exit"
 
-#### Section II - Configuring HENkaku
+#### Часть II - Настройка HENkaku
 
-1. Launch the Settings application
-1. Navigate to `HENkaku Settings`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
-1. Check "Enable Unsafe Homebrew"
-1. Return to HENkaku Settings menu
-1. Close the Settings application
+1. Запустите приложение Настройки
+1. Перейдите в `Настройки HENkaku`
+  + Если пункт Настройки HENkaku отсутствует, выберите "Reset taiHEN config.txt" в меню h-encore bootstrap, затем попробуйте снова
+1. Установите флажок "Включить небезопасные приложения"
+1. Вернитесь в меню Настройки HENkaku
+1. Закройте приложение Настройки
 
-#### Section III - Disabling Trophy Warning
+#### Часть III - Отключение предупреждения о призах
 
 {% capture notice-1 %}
-This is an optional section which will disable the trophy warning that appears when h-encore is launched. 
+Это опциональный раздел для отключения предупреждения, которое появляется при запуске h-encore. 
 
-This section is not recommended for devices on firmware version 3.65 as Ensō can replace h-encore on those systems.
+Этот раздел не рекомендован для консолей с прошивкой 3.65, поскольку Ensō может заменить h-encore на этих консолях.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Launch the VitaShell application
-1. Navigate to `ux0:` -> `user/` -> `00/` -> `savedata`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Square) to un-mark `system.dat`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Delete" to delete the folder
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
-1. Launch the h-encore application
-1. When the "Bitter Smile" main menu appears, close the h-encore application
-1. Launch the VitaShell application
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Delete" to delete the file
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. Запустите приложение VitaShell
+1. Перейдите в `ux0:` -> `user/` -> `00/` -> `savedata`
+1. Нажмите (Треугольник), выбрав папку `PCSG90096` чтобы открыть меню, затем выберите "Open decrypted"
+  + Если вы видите `sce_pfs`, то вы не открыли папку с помощью правильного пункта меню
+1. Нажмите (Треугольник), выделив файл `system.dat` чтобы открыть меню, затем выберите "Copy"
+1. Нажмите (Крест) чтобы закрыть окно диалога
+1. Нажмите (Круг) чтобы вернуться в папку `savedata`
+1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Paste" чтобы вставить файл `system.dat` в текущую папку
+1. Нажмите (Квадрат) чтобы снять выделение с `system.dat`
+1. Нажмите (Треугольник), выбрав папку `PCSG90096` чтобы открыть меню, затем выберите "Delete" чтобы удалить папку
+1. Нажмите (Крест) чтобы подтвердить удаление
+1. Закройте приложение VitaShell
+1. Запустите приложение h-encore
+1. Когда появится главное меню "Bitter Smile", закройте приложение h-encore
+1. Запустите приложение VitaShell
+1. Нажмите (Треугольник), выделив файл `system.dat` чтобы открыть меню, затем выберите "Copy"
+1. Нажмите (Крест) чтобы закрыть окно диалога
+1. Нажмите (Треугольник), выбрав папку `PCSG90096` чтобы открыть меню, затем выберите "Open decrypted"
+  + Если вы видите `sce_pfs`, то вы не открыли папку с помощью правильного пункта меню
+1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Paste" чтобы вставить файл `system.dat` в текущую папку
+1. Нажмите (Круг) чтобы вернуться в папку `savedata`
+1. Нажмите (Треугольник), выбрав файл `system.dat` чтобы открыть меню, затем выберите "Delete" чтобы удалить файл
+1. Нажмите (Крест) чтобы подтвердить удаление
+1. Закройте приложение VitaShell
 
 ___
-### Methods
+### Методы
 
 ___
 
-#### Firmware Version 3.65
+#### Версия прошивки 3.65
 
-Devices on firmware version 3.65 can now use the h-encore exploit to install Ensō, a more convenient exploit which runs automatically after a reboot.
+Консоли с прошивкой 3.65 теперь могут использовать эксплойт h-encore для установки Ensō - более удобного эксплойта, который запускается автоматически после перезагрузки.
 
-### Continue to [Installing Ensō (3.65)](installing-enso-(3.65))
+### Следующий шаг: [Установка Ensō (3.65)](installing-enso-(3.65))
 {: .notice--primary}
 
 ___
 
-#### Firmware Versions 3.67 and 3.68
+#### Версия прошивки 3.67 и 3.68
 
-Devices on firmware versions 3.67 and 3.68 are unfortunately incompatible with Ensō and must perform the h-encore exploit manually after each reboot.
+Консоли с прошивкой 3.67 и 3.68, к сожалению, не совместимы с Ensō и должны будут запускать эксплойт h-encore вручную после каждой перезагрузки.
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Следующий шаг: [Завершение установки](finalizing-setup)
 {: .notice--primary}
 
 ___

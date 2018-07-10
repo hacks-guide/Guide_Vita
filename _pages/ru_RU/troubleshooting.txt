@@ -1,33 +1,33 @@
 ---
-title: "Troubleshooting"
+title: "Проблемы и их решения"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+При возникновении проблем, найдите соответствующий раздел и следуйте инструкциям.
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+Если проблема всё ещё не может быть решена и вам требуется помощь, то обращайтесь с уже подготовленным описанием проблемы и проделанных действий по её устранению.
 
-## A browser based exploit is not working
+## Не работает эксплойт на основе браузера
 
-Browser based exploits (such as the WebKit exploit used for HENkaku) can be unstable and crash frequently, but they can sometimes be fixed by doing the following steps:
+Эксплойты, базирующиеся на браузере (например WebKit эксплойт, используемый для HENkaku), нестабильны и часто не срабатывают, но в некоторых случаях это можно исправить, следуя рекомендациям ниже:
 
-1. Ensure your device has a stable network connection
-1. Launch the browser, then open the browser settings
-1. Scroll to the bottom and click "Delete Cookies" and "Clear Search History"
-1. Try the exploit again
+1. Убедитесь, что консоль имеет стабильное сетевое подключение
+1. Запустите браузер, откройте настройки браузера
+1. Прокрутите до конца вниз и нажмите "Delete Cookies" и "Clear Search History"
+1. Попробуйте запустить эксплойт еще раз
 
-## Removing an PSN account without formatting your device
+## Удаление аккаунта PSN без форматирования устройства
 
-1. Go to your [PSN Account Management Page](https://account.sonyentertainmentnetwork.com/home/index!display.action)
-1. Under the devices section, choose "PlayStation Systems"
-1. Select your console
-1. Select "Deactivate"
+1. Перейдите на [страницу управления учетной записью PSN](https://account.sonyentertainmentnetwork.com/home/index!display.action)
+1. В разделе Устройства выберите "Системы PlayStation"
+1. Выберите вашу консоль
+1. Выберите "Деактивировать"
 
-## Black screen on boot
+## Черный экран при загрузке
 
-1. Hold L on boot to disable TaiHEN plugin loading
-1. If your device boots, try editing `ux0:tai/config.txt` and remove any plugins you may have recently added
-1. If these instructions do not work, your device may be bricked
+1. Удерживайте L при включении, чтобы отключить плагины TaiHEN
+1. Если консоль загружается, попробуйте отредактировать файл `ux0:tai/config.txt` и удалить недавно добавленные плагины
+1. Если эти инструкции не помогли, консоль, скорее всего, превратилась в брик

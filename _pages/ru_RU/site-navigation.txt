@@ -1,33 +1,33 @@
 ---
-title: "Site Navigation" #
+title: "Навигация по сайту" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**Все**
 
 + [Adrenaline](adrenaline)
-+ [Configuring h-encore](configuring-h-encore)
-+ [Credits](credits)
-+ [Donations](donations)
-+ [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
-+ [Finalizing Setup](finalizing-setup)
-+ [Get Started](get-started)
-+ [Home](/)
-+ [Installing Ensō (3.65)](installing-enso-(3.65))
-+ [Installing h-encore](installing-h-encore)
-+ [Installing h-encore (Linux / Mac)](installing-h-encore-(linux-mac))
-+ [Installing h-encore (Windows Auto)](installing-h-encore-(windows-auto))
-+ [Installing h-encore (Windows Manual)](installing-h-encore-(windows-manual))
-+ [Storage Format (Linux)](storage-format-(linux))
-+ [Storage Format (Mac)](storage-format-(mac))
-+ [Storage Format (Windows)](storage-format-(windows))
++ [Настройка h-encore](configuring-h-encore)
++ [Благодарности](credits)
++ [Пожертвования](donations)
++ [Вопросы и ответы](faq)
++ [Расширения файлов (Windows)](file-extensions-(windows))
++ [Завершение установки](finalizing-setup)
++ [Начало](get-started)
++ [Главная](/)
++ [Установка Ensō (3.65)](installing-enso-(3.65))
++ [Установка h-encore](installing-h-encore)
++ [Установка h-encore (для Linux / Mac)](installing-h-encore-(linux-mac))
++ [Установка h-encore (автоматически для Windows)](installing-h-encore-(windows-auto))
++ [Установка h-encore (вручную для Windows)](installing-h-encore-(windows-auto))
++ [Форматирование накопителя (Linux)](storage-format-(linux))
++ [Форматирование накопителя (Mac)](storage-format-(mac))
++ [Форматирование накопителя (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
-+ [Troubleshooting](troubleshooting)
-+ [Updating to 3.65](updating-to-3.65)
-+ [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku))
-+ [Why Ads?](why-ads)
++ [Проблемы и их решения](troubleshooting)
++ [Обновление до 3.65](updating-to-3.65)
++ [Обновление до 3.65 (HENkaku)](updating-to-3.65-(henkaku))
++ [Зачем реклама?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
