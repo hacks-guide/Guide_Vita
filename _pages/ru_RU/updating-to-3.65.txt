@@ -2,9 +2,9 @@
 title: "Updating to 3.65"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
 If you have already hacked your PS Vita (TV) before on 3.60, follow [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku)) before continuing.
 {: .notice--warning}
@@ -19,14 +19,14 @@ While the h-encore exploit itself is compatible with firmware versions 3.67 and 
 
 * An internet connection on your PS Vita (TV)
 
-### Instructions
+### Инструкция
 
 #### Section I - DNS Configuration
 
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
 {: .notice--warning}
 
-1. Launch the Settings application
+1. Запустите приложение Настройки
 1. Navigate to `Network` -> `Wi-Fi Settings`
   + Connect to a Wi-Fi network if you have not already done so
 1. Select your current connection
