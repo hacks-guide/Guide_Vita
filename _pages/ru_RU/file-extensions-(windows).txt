@@ -2,13 +2,13 @@
 title: "File Extensions (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
 This is an add-on section for disabling Windows's default behavior of hiding file extensions.
 
 This will make it easier for you to find the referenced files in the rest of this guide.
 
-### Instructions
+### Инструкция
 
 #### Windows 10 / 8.1 / 8
 
