@@ -47,5 +47,5 @@ If the test shows any other results, your storage device may be corrupted or dam
 
 ___
 
-### Return to [Get Started](get-started)
+### Вернитесь к [Началу](get-started)
 {: .notice--primary}
