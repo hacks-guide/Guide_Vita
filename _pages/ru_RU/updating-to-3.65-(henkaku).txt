@@ -38,7 +38,7 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 1. Нажимайте (Крест) чтобы продолжить каждый раз, когда появляется запрос о расширенных правах
 1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Delete" чтобы удалить все выделенные файлы
 1. Нажмите (Крест) чтобы подтвердить удаление
-1. Close the VitaShell application
+1. Закройте приложение VitaShell
 
 #### Section III - Unlinking Memory Card
 
