@@ -59,7 +59,7 @@ This section will copy the data from your old Sony memory card to your new stora
   + This may take some time if you have a large amount of data on your Sony memory card
 1. Insert your new storage device into your PS Vita (TV)
 1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
-1. Close the VitaShell application
+1. Закройте приложение VitaShell
 1. Перезагрузите консоль
   + Если на вашей консоли нет Ensō, то вам нужно вручную запустить и выйти из h-encore, чтобы восстановить доступ к хоумбрю
   + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
