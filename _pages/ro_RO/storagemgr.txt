@@ -25,7 +25,7 @@ You must have already installed VitaShell to use this.
   + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest release of [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
   + `storage_config.txt` should be edited to fit your situation as instructed in the [README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
-  + `MCD=uma0` should almost always be kept as-is
+  + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
   + `INT=imc0` should be kept as-is for PS Vita 2000 and PS TV users, and removed for PS Vita 1000 users
   + `GCD=ux0` should be kept as-is for SD2Vita users, and edited to `UMA=ux0` for USB drive and psvd users
   + `UMA=grw0` should be removed unless you have multiple storage devices (in which case the device which is not assigned to `ux0:` should be assigned to `grw0:`)
