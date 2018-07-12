@@ -1,27 +1,27 @@
 ---
-title: "FAQ"
+title: "Вопросы и ответы"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes!
+<a name="faq_latestfw" />**В:** *Моя консоль на последней версии прошивки, могу ли я её взломать?*    
+**О:** Да!
 
-<a name="faq_downgrade" />**Q:** *Can I downgrade my Vita?*    
-**A:** No.
+<a name="faq_downgrade" />**В:** *Могу ли я понизить версию прошивки на своей Vita?*    
+**О:** Нет.
 
-<a name="faq_update" />**Q:** *Is it safe to update a Vita with CFW?*    
-**A:** No! You must always ensure that you have blocked updates as specified at the end of [Finalizing Setup](finalizing-setup).
+<a name="faq_update" />**В:** *Безопасно ли обновлять Vita на кастомной прошивке?*    
+**О:** Нет! Убедитесь, что у вас заблокированы обновления, как написано в конце страницы [Завершение установки](finalizing-setup).
 
-<a name="faq_updates" />**Q:** *Now that Sony has ended production of the Vita, does that mean no more updates will be released?*    
-**A:** This is not necessarily the case. The firmware version 3.68 was released six months after the previous update (at which point it was assumed no new updates would be released).
+<a name="faq_updates" />**В:** *На текущий момент Sony завершила производство Vita, означает ли это, что больше не будет новых обновлений прошивки?*    
+**О:** Это не обязательно так. Прошивка версии 3.68 была выпущена через шесть месяцев после предыдущей (на тот момент предполагалось, что обновлений больше не будет).
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are *basically* impossible unless you ignore instructions.
+<a name="faq_risky" />**В:** *Насколько рискованно взламывать мою консоль?*    
+**О:** Практически невозможно испортить консоль, если не игнорировать инструкции.
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! This enables any custom user-made homebrew to be played on your device.
+<a name="faq_homebrew" />**В:** *Смогу ли я запускать homebrew программы и эмуляторы?*    
+**О:** Да! На вашей консоли будут доступны любые созданные пользователями homebrew приложения.
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6).
+<a name="faq_support" />**В:** *Куда я могу обратиться за помощью?*    
+**О:** Для поддержки, обратитесь за помощью на сервер [Vita Hacking в Discord](https://discord.gg/JXEKeg6).
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer?*    
-**A:** No! You must have a PC to complete this guide.
+<a name="faq_nopc" />**В:** *Могу ли я обойтись без использования компьютера?*    
+**О:** Нет! У вас должен быть компьютер для выполнения этого руководства.

@@ -1,81 +1,81 @@
 ---
-title: "Installing h-encore (Windows Manual)"
+title: "Установка h-encore (вручную для Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-This method requires a Windows computer.
+Этот метод требует компьютер под управлением Windows.
     
-The h-encore installation is performed manually and requires the use of the command line.
+Установка h-encore выполняется вручную и требует использования командной строки.
 
-Before proceeding, ensure you have read all of the information on [Installing h-encore](installing-h-encore)
+Прежде чем продолжить, убедитесь, что прочитали всю информацию на странице [Установка h-encore](installing-h-encore)
 
-### What You Need
+### Что понадобится
 
 * [unpack.bat]({{ "/assets/files/unpack.bat" | absolute_url }}){:download="unpack.bat"}
-* The `.pkg` format demo of [Bitter Smile](http://ares.dl.playstation.net/cdn/JP0741/PCSG90096_00/xGMrXOkORxWRyqzLMihZPqsXAbAXLzvAdJFqtPJLAZTgOcqJobxQAhLNbgiFydVlcmVOrpZKklOYxizQCRpiLfjeROuWivGXfwgkq.pkg)
-* The latest release of [h-encore](https://github.com/TheOfficialFloW/h-encore/releases/latest)
-* The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) *(the `.zip` file for your OS)*
-* The latest release of [pkg2zip](https://github.com/mmozeiko/pkg2zip/releases/latest)
-* The latest release of [QCMA](https://github.com/codestation/qcma/releases/latest)
-  + Uninstall the official Sony CMA if it is already installed
+* Демо-версия игры [Bitter Smile](http://ares.dl.playstation.net/cdn/JP0741/PCSG90096_00/xGMrXOkORxWRyqzLMihZPqsXAbAXLzvAdJFqtPJLAZTgOcqJobxQAhLNbgiFydVlcmVOrpZKklOYxizQCRpiLfjeROuWivGXfwgkq.pkg) в формате `.pkg`
+* Свежая версия [h-encore](https://github.com/TheOfficialFloW/h-encore/releases/latest)
+* Свежая версия [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) *(`.zip-архив` для вашей ОС)*
+* Свежая версия [pkg2zip](https://github.com/mmozeiko/pkg2zip/releases/latest)
+* Свежая версия [QCMA](https://github.com/codestation/qcma/releases/latest)
+  + Если ранее было установлено официальное приложение Sony Content Manager Assistant, удалите его
   
-### Instructions
+### Инструкция
 
-#### Section I - Prep Work
+#### Часть I - Подготовительные работы
 
-1. Install and launch QCMA on your computer if you have not already
-1. Copy the contents of the auto h-encore `.zip` to a folder on your computer
-1. Launch the Content Manager application on your device
-1. Select "Copy Content"
-1. Select "PC"
-1. Select the method you wish to use to connect to QCMA
-  + If you are prompted to log-in to a PlayStation Network Account, do so
-  + If you do not have a PlayStation Network Account, create one
-1. Select / register your computer if prompted
+1. Установите и запустите на компьютере QCMA, если вы еще этого не сделали
+1. Скопируйте содержимое `zip-архива` auto h-encore в папку на вашем компьютере
+1. Запустите на консоли приложение "Управление данными"
+1. Выберите "Скопировать контент"
+1. Выберите "Компьютер"
+1. Выберите метод, который вы хотите использовать для подключения к QCMA
+  + Если вам предложат войти в аккаунт PlayStation Network, сделайте это
+  + Если у вас нет аккаунта PlayStation Network, создайте его
+1. Выберите / зарегистрируйте ваш компьютер, если появится запрос
 
-#### Section II - auto h-encore
+#### Часть II - auto h-encore
 
-1. Open [cma.henkaku.xyz](http://cma.henkaku.xyz/) on your computer
-1. Navigate to the `PS Vita\APP\` folder on your computer using the file explorer
-  + By default, this directory will be in the `Documents` folder on your computer
-  + If you cannot find it, check the QCMA "Applications / Backups" setting by right-clicking the QCMA icon in the system tray, then selecting "Settings"
-1. Copy the name of the folder in this directory, then paste it into the "AID" box on the CMA website
-  + Here is an example AID: `ec8d45ec9c055609`
-1. Select "Submit" to generate the corresponding key
-  + Keep this page open; you will need this key soon
-  + Here is an example key: `488d3ff6cce7a9ef1be6da8338c7d18db18147c3255fa4d50596568555687174`
-1. Copy the `h-encore` folder from the h-encore `.zip` to a folder on your computer
-1. Copy the contents of the psvimgtools `.zip` to the `h-encore` folder
-1. Copy `pkg2zip.exe` from the pkg2zip `.zip` to the `h-encore` folder
-1. Move the Bitter Smile `.pkg` file to the `h-encore` folder
-1. Open a command prompt window
-1. `cd` into the `h-encore` directory
-1. Run `unpack`
-1. Run `psvimg-create -n app -K YOUR_KEY app PCSG90096\app`
-  + Replace "YOUR_KEY" with the key we generated earlier
-1. Run `psvimg-create -n appmeta -K YOUR_KEY appmeta PCSG90096\appmeta`
-1. Run `psvimg-create -n license -K YOUR_KEY license PCSG90096\license`
-1. Run `psvimg-create -n savedata -K YOUR_KEY savedata PCSG90096\savedata`
-1. Close your command prompt window
-1. Copy the `h-encore\PCSG90096` folder to the `PS Vita\APP\YOUR_AID\` folder on your computer using the file explorer
+1. Перейдите по ссылке [cma.henkaku.xyz](http://cma.henkaku.xyz/) на компьютере
+1. Перейдите в папку `PS Vita\APP\` на компьютере с помощью проводника
+  + По умолчанию эта папка находится внутри папки `Documents` на вашем компьютере
+  + Если вы не можете её найти, проверьте настройку "Applications / Backups" в приложении QCMA, щелкнув правой кнопкой мыши значок QCMA в трее, а затем выбрав "Settings"
+1. Скопируйте имя папки внутри этой директории, затем вставьте его в поле "AID" на сайте CMA
+  + Вот пример AID: `ec8d45ec9c055609`
+1. Нажмите "Отправить запрос" для создания соответствующего ключа
+  + Оставьте эту страницу открытой; ключ вам вскоре понадобится
+  + Вот пример ключа: `488d3ff6cce7a9ef1be6da8338c7d18db18147c3255fa4d50596568555687174`
+1. Скопируйте папку `h-encore` из `.zip-архива` h-encore в папку на вашем компьютере
+1. Скопируйте содержимое `zip-архива` psvimgtools в папку `h-encore`
+1. Скопируйте файл `pkg2zip.exe` из `.zip-архива` pkg2zip в папку `h-encore`
+1. Переместите `.pkg-файл` Bitter Smile в папку `h-encore`
+1. Откройте окно командной строки
+1. Перейдите в папку `h-encore` командой `cd`
+1. Выполните `unpack`
+1. Выполните `psvimg-create -n app -K YOUR_KEY app PCSG90096\app`
+  + Замените "YOUR_KEY" на ключ, созданный ранее
+1. Выполните `psvimg-create -n appmeta -K YOUR_KEY appmeta PCSG90096\appmeta`
+1. Выполните `psvimg-create -n license -K YOUR_KEY license PCSG90096\license`
+1. Выполните `psvimg-create -n savedata -K YOUR_KEY savedata PCSG90096\savedata`
+1. Закройте окно командной строки
+1. Скопируйте папку `h-encore\PCSG90096` в папку `PS Vita\APP\YOUR_AID\` на вашем компьютере с помощью проводника
 
-#### Section III - QCMA Transfer
+#### Часть III - Перенос данных QCMA
 
-1. Right-click the QCMA icon in the system tray, then select "Refresh database"
-1. In the Content Manager application on your device, select "PC -> PS Vita System"
-1. Select "Applications"
-1. Select "PS Vita"
-1. Select "h-encore"
-1. Select "Copy"
-1. Select "OK"
-  + The h-encore exploit will be copied to your device
-  + This process will take some time
-1. Close the Content Manager application
+1. Нажмите правой кнопкой мыши на значок QCMA в трее, затем выберите "Refresh database"
+1. В приложении Управление данными на консоли выберите "PC -> Система PS Vita"
+1. Выберите "Приложения"
+1. Выберите "PS Vita"
+1. Выберите "h-encore"
+1. Выберите "Копировать"
+1. Выберите "OK"
+  + Эксплойт h-encore будет скопирован на вашу консоль
+  + Этот процесс займет некоторое время
+1. Закройте приложение Управление данными
 
 ___
 
-### Continue to [Configuring h-encore](configuring-h-encore)
+### Следующий шаг: [Настройка h-encore](configuring-h-encore)
 {: .notice--primary}

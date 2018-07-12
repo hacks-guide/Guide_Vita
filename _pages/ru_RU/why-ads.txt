@@ -1,15 +1,15 @@
 ---
-title: "Why Ads?" #
+title: "Зачем реклама?" #
 layout: single-no-ads
 ---
 
-This project is an extension of hundreds upon hundreds of hours of constant work.
+Этот проект - результат сотен и сотен часов непрерывной работы.
 
-We maintain this guide, for free, and ensure it is always up to date. Because of this effort, we feel that it is fair for us to attempt to gain a meager income from our work.
+Мы бесплатно поддерживаем это руководство в актуальном состоянии. Из-за этого мы считаем, что это справедливо пытаться получить скудный доход от нашей работы.
 
-This site costs you nothing to use, and all that we display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
+Использование этого сайта бесплатно для вас, и вся реклама на сайте не мешает его использовать. Если она вам мешает, можете смело её блокировать.
 
-If you do block ads, we would like to also remind you of the [Donations](donations) page, but once again that is optional too.
+Если вы блокируете рекламу, то не забывайте про пожертвования на этой странице: [Donations](donations); впрочем, и это необязательно.
 
-Thanks,<br>
+С уважением,<br>
 Plailect, emiyl & T3CHNOLOG1C

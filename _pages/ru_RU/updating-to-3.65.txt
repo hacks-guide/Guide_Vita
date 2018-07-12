@@ -1,55 +1,52 @@
 ---
-title: "Updating to 3.65"
+title: "Обновление до 3.65"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-If you have already hacked your PS Vita (TV) before on 3.60, follow [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku)) before continuing.
+Если вы уже прошили свою консоль PS Vita (TV) ранее на 3.60, выполните инструкции на странице [Обновление до 3.65 (HENkaku)](updating-to-3.65-(henkaku)) перед тем, как продолжить.
 {: .notice--warning}
 
-The hencore exploit is only compatible with the firmware version 3.65, 3.67, and 3.68. As a result, lower firmware versions must update using a custom update server in order to use the exploit.
+Эксплойт h-encore совместим только с версиями прошивки 3.65, 3.67 и 3.68. Поэтому консоли с более низкой версией прошивки должны быть обновлены при помощи кастомного сервера обновлений, чтобы использовать эксплойт.
 
-To do this, we configure your network's DNS settings to use a custom update server which will always tell your device that 3.65 is the latest update available. This has the effect of blocking any firmware versions above 3.65 from being installed when the device attempts to perform an update.
+Для этого мы изменим настройки DNS вашей сети, чтобы использовать кастомный сервер обновлений, который указывает на 3.65 в качестве последней доступной версии. Это действие заблокирует установку любых версий прошивки выше 3.65, когда консоль попытается выполнить обновление.
 
-While the h-encore exploit itself is compatible with firmware versions 3.67 and 3.68, we will be updating to firmware version 3.65 as it is the latest version which still supports the Ensō boot-time exploit.
+Хотя эксплойт h-encore и совместим с версиями прошивки 3.67 и 3.68, мы обновимся до версии прошивки 3.65, поскольку это последняя версия, поддерживающая эксплойт Ensō.
 
-### What you need
+### Что понадобится
 
-* An internet connection on your PS Vita (TV)
+* Подключение к интернету на PS Vita (TV)
 
-### Instructions
+### Инструкция
 
-#### Section I - DNS Configuration
+#### Часть I - Конфигурация DNS
 
-Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
-{: .notice--warning}
+1. Запустите приложение Настройки
+1. Перейдите в `Сеть` -> `Настройки Wi-Fi`
+  + Подключитесь к сети Wi-Fi, если вы еще этого не сделали
+1. Выберите ваше текущее подключение
+  + Оно обозначено зелёной точкой рядом с сетью
+1. Выберите "Дополнительные настройки"
+1. Измените "Настройки DNS" на "Вручную"
+1. Измените "Основной DNS" на `23.96.6.207`
+1. Оставьте "Дополнительный DNS" пустым
+1. Убедитесь, что настройка "Прокси-сервер" имеет значение "Не использовать"
+1. Вернитесь в главное меню настроек
+1. Перейдите в `Система` -> `Настройка автозапуска`
+1. Снимите флажок "Загружать файл обновления для системного программного обеспечения"
+1. Вернитесь в главное меню настроек
 
-1. Launch the Settings application
-1. Navigate to `Network` -> `Wi-Fi Settings`
-  + Connect to a Wi-Fi network if you have not already done so
-1. Select your current connection
-  + This is signified by a green dot next to the network
-1. Select "Advanced Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `23.96.6.207`
-1. Leave "Secondary DNS" blank
-1. Ensure "Proxy Server" is set to "Do Not Use"
-1. Return to the main Settings menu
-1. Navigate to `System` -> `Auto-Start Settings`
-1. Uncheck "Download Update File for System Software"
-1. Return to the main Settings menu
+#### Часть II - Обновление до 3.65
 
-#### Section II - Updating to 3.65
-
-1. Navigate to `System Update` -> `Update Using Wi-Fi`
-1. Ensure the update message "3.65 (変革 Compatible)" is displayed
-  + If it displays any other message, stop and figure out what went wrong
-1. Follow the prompts to update your device to 3.65
-  + When the process has completed, your device will reboot automatically
+1. Перейдите в `Обновление системы` -> `Обновление с использованием Wi-Fi`
+1. Убедитесь, что отображается сообщение "3.65 (変革 Compatible)"
+  + Если отображается любое другое сообщение, остановитесь и выясните, что пошло не так
+1. Следуйте инструкциям на экране, чтобы обновить консоль до 3.65
+  + После завершения процесса консоль перезагрузится автоматически
 
 ___
 
-### Continue to [Installing h-encore](installing-h-encore)
+### Следующий шаг: [Установка h-encore](installing-h-encore)
 {: .notice--primary}

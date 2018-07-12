@@ -10,7 +10,7 @@ The h-encore exploit chain for the PS Vita (TV) allows for the installation of h
 
 Note that the h-encore exploit chain is not "persistent" (meaning it does not remain installed after a reboot). For devices on firmware version 3.65, this is fortunately only a temporary restriction until Ensō is installed on a later page. For devices on 3.67 or 3.68, you will, unfortunately, need to perform a small portion of these instructions (which will be indicated) after every reboot until a new persistent exploit is developed.
 
-Prior to installing the h-encore exploit, we configure your network's DNS settings to use a custom update server which will always tell your device that 3.60 is the latest update available. This has the effect of blocking any firmware versions above 3.60 from being installed when the device attempts to perform an update.
+Prior to installing the h-encore exploit, we configure your network's DNS settings to use a custom update server which blocks new firmware versions from being installed when the device attempts to perform an update.
 
 In addition to installing the h-encore exploit, we enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the "administrator" mode on a computer.
 
