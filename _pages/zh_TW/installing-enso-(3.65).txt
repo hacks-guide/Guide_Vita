@@ -36,8 +36,8 @@ It is more convenient than h-encore as it does not require you to trigger an exp
 1. 於您的主機中移動至 `ux0:` -> `data/`
 1. Press (Cross) on `enso.vpk` to install the file
 1. 按下「X」鍵確認安裝
-1. 當每次提示要求使用更高權限時，按下「X」繼續
-1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
+1. Press (Cross) to continue the install when you are prompted about extended permissions
+1. Press (Triangle) to open the menu, then select "Delete" to delete the marked file
 1. 按下「X」鍵確認刪除
 1. 關閉 VitaShell
 
