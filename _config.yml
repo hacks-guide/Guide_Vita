@@ -164,7 +164,7 @@ exclude: [
   _pages/pt_BR,
   _pages/pt_PT,
   _pages/ro_RO,
-  _pages/ru_RU,
+  # _pages/ru_RU,
   _pages/sr_SP,
   _pages/sv_SE,
   _pages/th_TH,
