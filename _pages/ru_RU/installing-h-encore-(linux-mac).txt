@@ -53,7 +53,7 @@ title: "Установка h-encore (для Linux / Mac)"
 1. Скопируйте содержимое `zip-архива` psvimgtools в папку `h-encore`
 1. Скопируйте скомпилированный запускаемый файл `pkg2zip` в папку `h-encore`
 1. Переместите `.pkg-файл` Bitter Smile в папку `h-encore`
-1. Скопируйте `trim.sh` в папку `h-encore`
+1. Скопируйте `unpack.sh` в папку `h-encore`
 1. Откройте окно терминала
 1. Перейдите в папку `h-encore` командой `cd`
 1. Выполните `sh unpack.sh`

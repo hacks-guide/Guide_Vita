@@ -25,7 +25,7 @@ SD2Vita это адаптер для microSD карты, который вста
   + Вместо этого можно использовать функцию USB transfer в приложении VitaShell
 * Свежая версия [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
   + Файл `storage_config.txt` должен быть отредактирован согласно вашей ситуации, как указано в [README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
-  + `MCD=uma0` практически всегда остается неизменным
+  + `MCD=uma0` остается неизменным, если вы планируете продолжить пользоваться картой памяти Sony, и удаляется в противном случае
   + `INT=imc0` остается неизменным для PS Vita 2000 и PS TV, и удаляется для PS Vita 1000
   + `GCD=ux0` остается неизменным для SD2Vita, и меняется на `UMA=ux0` для USB диска и psvd
   + `UMA=grw0` удаляется, кроме случая когда у вас несколько накопителей (в этом случае устройство не подключенное как `ux0:` будет подключено как `grw0:`)

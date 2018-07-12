@@ -25,7 +25,7 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
   + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
 * 最新版的 [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
   + 依您的情形修改 `storage_config.txt`，請見[README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
-  + `MCD=uma0` 大部分時間不需要經過修改
+  + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
   + `INT=imc0` PS Vita 2000 及 PS TV 用戶不需更改此選項，而 PS Vita 1000 的用戶應該將此選項移除
   + `GCD=ux0` SD2Vita 用戶不需更改此選項，而 psvd 或隨身碟的用戶需將該選項改為 `UMA=ux0`
   + `UMA=grw0` 除非您有多項儲存空間否則請刪除此選項 (若真如此，未分發至 `ux0:` 的裝置應被分發至 `grw0:` 當中)
