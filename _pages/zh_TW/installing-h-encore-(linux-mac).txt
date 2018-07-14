@@ -53,7 +53,7 @@ title: "安裝 h-encore (透過 Linux / Mac)"
 1. 解壓 psvimgtools `.zip` 的內容至 `h-encore` 資料夾中
 1. 複製編譯後的 `pkg2zip` 檔案至 `h-encore` 資料夾中
 1. 移動 Bitter Smile 試玩版的 `.pkg` 檔案至 `h-encore` 資料夾中
-1. 複製 `trim.sh` 至 `h-encore` 資料夾中
+1. Copy `unpack.sh` to the `h-encore` folder
 1. 開啟終端機視窗
 1. `cd` 至 `h-encore` 目錄中
 1. 運行 `sh unpack.sh`
