@@ -53,7 +53,7 @@ Before proceeding, ensure you have read all of the information on [Installing h-
 1. Copy the contents of the psvimgtools `.zip` to the `h-encore` folder
 1. Copy the compiled `pkg2zip` binary to the `h-encore` folder
 1. Move the Bitter Smile `.pkg` file to the `h-encore` folder
-1. Copy `trim.sh` to the `h-encore` folder
+1. Copy `unpack.sh` to the `h-encore` folder
 1. Open a terminal window
 1. `cd` into the `h-encore` directory
 1. Run `sh unpack.sh`
