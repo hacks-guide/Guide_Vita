@@ -16,39 +16,15 @@ Updating your 3.60 HENkaku (Ensō) device to the firmware version 3.65 will allo
   
 ### 操作說明
 
-#### 第一節 — 準備工作
-
-1. 如果您正在使用某種儲存裝置 (比如 SD2Vita、USB 隨身碟、或 psvd)，請先將其關閉 
-  + 您必須使用原廠的 Sony 記憶卡才能進行 3.65 韌體更新
-  + 依您的設置而定，您可以選擇將其插件關閉或將該裝置移除
-1. 啟動 molecularShell
-  + 如果您先前已安裝 1.82 版或更新的 VitaShell，您也可以使用它
-1. 按下「Select」鍵以啟動 FTP 存取功能
-1. 於您的電腦中啟動您的 FTP 客戶端
-1. 輸入於您主機上顯示的 IP 位址以及埠
-1. 透過 FTP 端移動至 `ux0:` -> `data/`
-1. 複製 `VitaShell.vpk` 至 `data` 資料夾中
-1. 於您的主機按下「O」鍵以關閉 FTP 連線
-
-#### Section II - Installing VPK
-
-1. 於您的主機中移動至 `ux0:` -> `data/`
-1. Press (Cross) on `VitaShell.vpk` to install the file
-1. 按下「X」鍵確認安裝
-1. 當每次提示要求使用更高權限時，按下「X」繼續
-1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
-1. 按下「X」鍵確認刪除
-1. 關閉 VitaShell
-
-#### Section III - Unlinking Memory Card
+#### Section I - Unlinking Memory Card
 
 1. 啟動設定
 1. 移動至 `HENkaku Settings`
 1. 取消勾選『Enable PSN spoofing (啟用假PSN)』
 1. 選擇『Unlink Memory Card (取消記憶卡連結)』
-  + 如果您不取消您主機與您記憶卡間的連結，此記憶卡必須先經過格式化才能在 3.65 的系統中使用
+  + If you do not unlink your memory card, the card will need to be formatted before it can be used after the update
   
-#### Section IV - Disabling Plugins
+#### Section II - Disabling Plugins
 
 如果您之前尚未安裝任何插件至 `ux0:tai/` 或 `ur0:tai/` 資料夾中，請跳過本節。
 {: .notice--info}
@@ -60,7 +36,7 @@ Updating your 3.60 HENkaku (Ensō) device to the firmware version 3.65 will allo
 1. Delete any `.skprx` or `.suprx` plugin files you have installed from `ur0:tai/`
 1. 關閉 molecularShell 或 VitaShell
 
-#### Section V - Uninstalling Ensō
+#### Section III - Uninstalling Ensō
 
 If you do not currently have Ensō installed, skip this section.
 {: .notice--info}

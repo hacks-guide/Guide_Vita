@@ -20,7 +20,7 @@ sitemap: false
 + [Установка h-encore](installing-h-encore)
 + [Установка h-encore (для Linux / Mac)](installing-h-encore-(linux-mac))
 + [Установка h-encore (автоматически для Windows)](installing-h-encore-(windows-auto))
-+ [Установка h-encore (вручную для Windows)](installing-h-encore-(windows-auto))
++ [Installing h-encore (вручную для Windows)](installing-h-encore-(windows-manual))
 + [Форматирование накопителя (Linux)](storage-format-(linux))
 + [Форматирование накопителя (Mac)](storage-format-(mac))
 + [Форматирование накопителя (Windows)](storage-format-(windows))
