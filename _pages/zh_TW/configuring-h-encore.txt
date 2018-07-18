@@ -38,7 +38,7 @@ title: "設定 h-encore"
 {% capture notice-1 %}
 本結為選用章節。此章節將會關閉啟動 h-encore 時所出現的獎盃相關警告。 
 
-This section is not recommended for devices on firmware version 3.65 as Ensō can replace h-encore on those systems.
+本章節不建議用於持有系統版本 3.65 的主機，因為 Ensō 可以在這些系統中替代 h-encore。
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -73,18 +73,18 @@ ___
 
 ___
 
-#### Firmware Version 3.65
+#### 韌體版本 3.65
 
-Devices on firmware version 3.65 can now use the h-encore exploit to install Ensō, a more convenient exploit which runs automatically after a reboot.
+於韌體版本 3.65 的主機現在可以透過 h-encore 漏洞安裝 Ensō，另一個更方便會於重啟時自動重新執行的漏洞。
 
 ### 繼續至 [安裝 Ensō (版本 3.65)](installing-enso-(3.65))
 {: .notice--primary}
 
 ___
 
-#### Firmware Versions 3.67 and 3.68
+#### 韌體版本 3.67 及 3.68
 
-Devices on firmware versions 3.67 and 3.68 are unfortunately incompatible with Ensō and must perform the h-encore exploit manually after each reboot.
+很不幸地，於韌體版本 3.67 及 3.68 的主機將無法與 Ensō 相容，且必須在每次重新啟動主機時重新運行 h-encore 漏洞。
 
 ### 繼續至[完成安裝](finalizing-setup)
 {: .notice--primary}

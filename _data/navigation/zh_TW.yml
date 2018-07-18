@@ -13,7 +13,7 @@ main:
     title: 製作群
     url: credits
   - 
-    title: Troubleshooting
+    title: 疑難排解
     url: troubleshooting
   - 
     title: Adrenaline
@@ -47,32 +47,32 @@ sidebar_pages:
     title: 新手入門
     url: get-started
   - 
-    title: Updating to 3.65
+    title: 更新至 3.65
     url: updating-to-3.65
   - 
-    title: Updating to 3.65 (HENkaku)
+    title: 更新至 3.65 (持有 HENkaku 的主機)
     url: updating-to-3.65-(henkaku)
   - 
-    title: Installing h-encore
+    title: 安裝 h-encore
     url: installing-h-encore
   - 
-    title: Multiple Options
+    title: 多項選擇
     url: multiple-options
   - 
-    title: Installing h-encore (Windows Auto)
+    title: 安裝 h-encore (透過 Windows 自動安裝)
     url: installing-h-encore-(windows-auto)
   - 
-    title: Installing h-encore (Windows Manual)
+    title: 安裝 h-encore (透過 Windows 手動安裝)
     url: installing-h-encore-(windows-manual)
   - 
-    title: Installing h-encore (Linux / Mac)
+    title: 安裝 h-encore (透過 Linux / Mac)
     url: installing-h-encore-(linux-mac)
   - 
-    title: Configuring h-encore
+    title: 設置 h-encore
     url: configuring-h-encore
   - 
-    title: Installing Ensō (3.65)
+    title: 安裝 Ensō (版本 3.65)
     url: installing-enso-(3.65)
   - 
-    title: Finalizing Setup
+    title: 完成安裝
     url: finalizing-setup

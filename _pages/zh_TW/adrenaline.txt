@@ -58,7 +58,7 @@ Adrenaline 是一個用於修改 PS Vita (TV) 中內建的 PSP 模擬器並透�
 1. 當提示時，按下「X」鍵存檔
 1. 關閉 VitaShell
 1. 重新啟動您的主機
-  + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
+  + 如果您的主機尚未安裝 Ensō，您將會需要手動啟動並關閉 h-encore 以啟用自製軟體使用權
   + 此為必要步驟以載入剛所設定至 `ux0:tai/config.txt` 的內核插件
 	
 #### 第四節 — 安裝 PSP 主選單 (XMB)

@@ -18,16 +18,13 @@ sitemap: false
 + [首頁](/zh_TW/)
 + [安裝 Ensō (版本 3.65)](installing-enso-(3.65))
 + [安裝 h-encore](installing-h-encore)
-+ [安裝 h-encore (透過 Linux / Mac)](installing-h-encore-(linux-mac))
-+ [安裝 h-encore (透過 Windows 自動安裝)](installing-h-encore-(windows-auto))
-+ [安裝 h-encore (透過 Windows 手動安裝)](installing-h-encore-(windows-manual))
 + [格式化儲存空間 (Linux)](storage-format-(linux))
 + [格式化儲存空間 (Mac)](storage-format-(mac))
 + [格式化儲存空間 (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
 + [疑難排解](troubleshooting)
 + [更新至 3.65](updating-to-3.65)
-+ [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku))
++ [更新至 3.65 (持有 HENkaku 的主機)](updating-to-3.65-(henkaku))
 + [為什麼有廣告?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

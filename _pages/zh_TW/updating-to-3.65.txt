@@ -6,14 +6,14 @@ title: "更新至 3.65"
 
 ### 必讀事項
 
-If you have already hacked your PS Vita (TV) before on 3.60, follow [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku)) before continuing.
+如果您先前已於 3.60 前改了您的 PS Vita (TV)，請在繼續前見[更新至 3.65 (HENkaku)](updating-to-3.65-(henkaku))。
 {: .notice--warning}
 
 hencore 漏洞僅與韌體版本 3.65、3.67、3.68 相容。 因此，舊版的韌體必須先透過第三方伺服器更新才能使用本漏洞。
 
-To do this, we configure your network's DNS settings to use a custom update server which points to 3.65 as the latest update available. This has the effect of blocking any firmware versions above 3.65 from being installed when the device attempts to perform an update.
+我們將透過設定您主機的 DNS 設定將更新伺服器設定為一個第三方的伺服器，如此一來，在您的主機眼中 3.65 即會是最新版的系統韌體。 透過這點，我們能阻擋任何比 3.65 更新的系統韌體被安裝到您的主機中。
 
-While the h-encore exploit itself is compatible with firmware versions 3.67 and 3.68, we will be updating to firmware version 3.65 as it is the latest version which still supports the Ensō boot-time exploit.
+雖然 h-encore 漏洞可與韌體版本 3.67 及 3.68 相容，我們僅會更新至韌體版本 3.65，因為目前只有該最新韌體仍支援 Ensō 的早期開機漏洞。
 
 ### 必備項目
 
@@ -21,7 +21,7 @@ While the h-encore exploit itself is compatible with firmware versions 3.67 and 
 
 ### 操作說明
 
-#### Section I - DNS Configuration
+#### 第一節 — DNS 設置
 
 1. 啟動設定
 1. 移動至 `網路` -> `Wi-Fi 設定`
@@ -34,8 +34,8 @@ While the h-encore exploit itself is compatible with firmware versions 3.67 and 
 1. 將『次要 DNS』留空
 1. 確保您已將『Proxy 伺服器』設定至『不使用』
 1. 回到主選單
-1. Navigate to `System` -> `Auto-Start Settings`
-1. Uncheck "Download Update File for System Software"
+1. 移動至 `系統` -> `自動啟動設定`
+1. 取消『下載系統軟件的更新檔案』
 1. 回到主選單
 
 #### 第二節 — 更新至 3.65

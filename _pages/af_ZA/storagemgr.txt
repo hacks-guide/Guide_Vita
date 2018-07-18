@@ -40,12 +40,14 @@ You must have already installed VitaShell to use this.
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, copy all files from `ux0:tai/` to `ur0:tai/`
   + Overwrite any existing files in the `ur0:tai/` folder
+  + If you do not have a `ux0:tai/` folder, skip this step
 1. Transfer `storagemgr.skprx` to the `ur0:tai/` folder
 1. Transfer `storage_config.txt` to  the `ur0:tai/` folder
 1. Replace any `ux0:` paths in `ur0:tai/config.txt` to instead be `ur0` paths
+  + If you did not have a `ux0:tai/` folder, skip this step
 1. Add the following line to `ur0:tai/config.txt` under the `*KERNEL` line:
   + `ur0:tai/storagemgr.skprx`
-1. Delete all files from the `ux0:tai/` folder
+1. Delete the `ux0:tai/` folder
   
 #### Section II - Restoring Data
 

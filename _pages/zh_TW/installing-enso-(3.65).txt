@@ -6,47 +6,52 @@ title: "安裝 Ensō (版本 3.65)"
 
 ### 必讀事項
 
-Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. 它比其他方案方便許多，因為其他自製系統方案通常都需於每次主機重啟時重新手動觸發漏洞。
+Ensō 可在主機開機時透過一個漏洞讓您在開機後能輕易地啟動任何自製軟體。 它比其他方案方便許多，因為其他自製系統方案通常都需於每次主機重啟時重新手動觸發漏洞。
 
-Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment. 
+Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，您的主機能於啟動時自動設置 HENkaku 環境，讓您能輕易地使用自製軟體。 
 
-It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
+因為 h-encore 需於每次主機重新啟動時重新手動觸發漏洞，此方案相對方便許多。
 
 ### 必備項目
 
 * 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
-* The latest release of [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
+* 最新版的 [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
 ### 操作說明
 
 #### 第一節 — 準備工作
 
 1. 啟動 VitaShell
+1. 按下「Start」鍵開啟 VitaShell 設定
+1. 於『SELECT button』上按下「X」鍵以將模式更改為『FTP』
+  + 或者，您也可以將此設定為『USB』模式並透過其方式傳輸所有的檔案
+  + 若您使用的是 USB 傳輸模式的話，連接的磁區為 ux0
+  + 此外，某些檔案將藏於 USB 傳輸模式中；您必須在『檔案總管』的『檢視』設定中開啟『顯示隱藏的檔案、資料夾及磁碟機』並關閉『隱藏保護的作業系統檔案 (建議選項)』
+1. 按下「O」鍵關閉 VitaShell 設定
 1. 按下「Select」鍵以啟動 FTP 存取功能
-  + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
 1. 於您的電腦中啟動您的 FTP 客戶端
 1. 輸入於您主機上顯示的 IP 位址以及埠
 1. 透過 FTP 端移動至 `ux0:` -> `data/`
-1. Transfer `enso.vpk` to the `data` folder
+1. 複製 `enso.vpk` 至 `data` 資料夾中
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
-#### Section II - Installing VPK
+#### 第二節 — 安裝 VPK
 
 1. 於您的主機中移動至 `ux0:` -> `data/`
-1. Press (Cross) on `enso.vpk` to install the file
+1. 於 `enso.vpk` 上按下「X」鍵安裝
 1. 按下「X」鍵確認安裝
-1. Press (Cross) to continue the install when you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked file
+1. 當提示要求使用更高權限時，按下「X」繼續
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
 1. 按下「X」鍵確認刪除
 1. 關閉 VitaShell
 
-#### Section III - Installing Ensō
+#### 第三節 — 安裝 VPK
 
-1. Open the Ensō application
-1. Press (Circle) to accept the terms
-1. Press (Cross) to install Ensō
-  + When the process has completed, press any button to reboot your device
+1. 啟動 Ensō
+1. 按下「O」鍵接受免責聲明
+1. 按下「X」鍵安裝 Ensō
+  + 當安裝完畢後，按下任意按鈕重啟您的主機
 
 ___
 
