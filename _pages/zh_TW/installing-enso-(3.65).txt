@@ -23,8 +23,13 @@ It is more convenient than h-encore as it does not require you to trigger an exp
 #### 第一節 — 準備工作
 
 1. 啟動 VitaShell
+1. 按下「Start」鍵開啟 VitaShell 設定
+1. 於『SELECT button』上按下「X」鍵以將模式更改為『FTP』
+  + 或者，您也可以將此設定為『USB』模式並透過其方式傳輸所有的檔案
+  + 若您使用的是 USB 傳輸模式的話，連接的磁區為 ux0
+  + 此外，某些檔案將藏於 USB 傳輸模式中；您必須在『檔案總管』的『檢視』設定中開啟『顯示隱藏的檔案、資料夾及磁碟機』並關閉『隱藏保護的作業系統檔案 (建議選項)』
+1. 按下「O」鍵關閉 VitaShell 設定
 1. 按下「Select」鍵以啟動 FTP 存取功能
-  + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
 1. 於您的電腦中啟動您的 FTP 客戶端
 1. 輸入於您主機上顯示的 IP 位址以及埠
 1. 透過 FTP 端移動至 `ux0:` -> `data/`
