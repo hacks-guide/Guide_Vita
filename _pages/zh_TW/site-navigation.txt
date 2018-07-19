@@ -27,7 +27,7 @@ sitemap: false
 + [StorageMgr](storagemgr)
 + [疑難排解](troubleshooting)
 + [更新至 3.65](updating-to-3.65)
-+ [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku))
++ [更新至 3.65 (持有 HENkaku 的主機)](updating-to-3.65-(henkaku))
 + [為什麼有廣告?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
