@@ -47,17 +47,17 @@ title: "完成安裝"
   + `ux0:` 代表著您主機記憶卡的磁區 (在第一代的 Vita 中 (PSV-1000)，本磁區指的是外存記憶卡；在第二代 Vita (PSV-2000) 及 PS TV 中，本磁區指的是內存或者是已插入的外存記憶卡)
   + `ur0:` 代表著您主機的系統內存；此磁區永遠都會出現在任何主機中 (在第二代 Vita 中 (PSV-2000) 及 PS TV 中，這與普通內存是*不相干的*！)
 1. 複製 `VitaHBBrowser.vpk` 至 `data` 資料夾中
-1. Using your FTP client, navigate to `ur0:` -> `tai/`
-1. Transfer `kuio.skprx` to the `tai` folder
-1. Transfer `vsh.suprx` to the `tai` folder
-1. Navigate to `ux0:` -> `tai/`
-  + This is *not* the same as the `ur0:tai/` folder you were just in
+1. Using your FTP client, navigate to `ux0:`
+1. Delete the `tai` folder
+1. Navigate to `ur0:` -> `tai/`
+1. 複製 `config.txt` 至 `tai` 資料夾中
+  + 複寫任何已存在的 `config.txt` 檔案
 1. 複製 `nonpdrm.skprx` 至 `tai` 資料夾中
 1. 複製 `download_enabler.suprx` 至 `tai` 資料夾中
 1. 複製 `shellbat.suprx` 至 `tai` 資料夾中
 1. 複製 `pngshot.suprx` 至 `tai` 資料夾中
-1. 複製 `config.txt` 至 `tai` 資料夾中
-  + 複寫任何已存在的 `config.txt` 檔案
+1. Transfer `kuio.skprx` to the `tai` folder
+1. Transfer `vsh.suprx` to the `tai` folder
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
 #### 第二節 — 安裝 VPK
@@ -71,7 +71,7 @@ title: "完成安裝"
 1. 關閉 VitaShell
 1. 重新啟動您的主機
   + 如果您的主機尚未安裝 Ensō，您將會需要手動啟動並關閉 h-encore 以啟用自製軟體使用權
-  + 此為必要步驟以載入剛所設定至 `ux0:tai/config.txt` 的內核插件
+  + 此為必要步驟以載入剛所設定至 `ur0:tai/config.txt` 的內核插件
   + 若您做對一切的話，您現在應該可以在狀態列中看到剩餘電量的百分比
 
 #### 第三節 — PSN 存取
