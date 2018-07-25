@@ -13,6 +13,7 @@ title: "完成安裝"
 +  **DownloadEnabler** *(允許您在內建的網頁瀏覽器中下載任何檔案類型)*
 +  **shellbat** *(於狀態列中顯示剩餘電量)*
 +  **pngshot** *(改進內建的截圖程式)*
++  **PSV VSH Menu** *(in-game menu for overclocking or displaying the frame-rate)*
 
 為了在您的主機上安裝必要的 `.vpk` 安裝包，我們將會使用[檔案傳輸協定 (FTP)](https://zh.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE) 來將檔案複製到您主機的記憶卡中。 
 
@@ -26,6 +27,7 @@ title: "完成安裝"
 * 最新版的 [DownloadEnabler](https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest)
 * 最新版的 [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * 最新版的 [pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* The latest release of [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(both files)*
 
 ### 操作說明
 
@@ -45,7 +47,11 @@ title: "完成安裝"
   + `ux0:` 代表著您主機記憶卡的磁區 (在第一代的 Vita 中 (PSV-1000)，本磁區指的是外存記憶卡；在第二代 Vita (PSV-2000) 及 PS TV 中，本磁區指的是內存或者是已插入的外存記憶卡)
   + `ur0:` 代表著您主機的系統內存；此磁區永遠都會出現在任何主機中 (在第二代 Vita 中 (PSV-2000) 及 PS TV 中，這與普通內存是*不相干的*！)
 1. 複製 `VitaHBBrowser.vpk` 至 `data` 資料夾中
-1. 透過 FTP 端移動至 `ux0:` -> `tai/`
+1. Using your FTP client, navigate to `ur0:` -> `tai/`
+1. Transfer `kuio.skprx` to the `tai` folder
+1. Transfer `vsh.suprx` to the `tai` folder
+1. Navigate to `ux0:` -> `tai/`
+  + This is *not* the same as the `ur0:tai/` folder you were just in
 1. 複製 `nonpdrm.skprx` 至 `tai` 資料夾中
 1. 複製 `download_enabler.suprx` 至 `tai` 資料夾中
 1. 複製 `shellbat.suprx` 至 `tai` 資料夾中
@@ -91,6 +97,9 @@ title: "完成安裝"
 ___
 
 您現在可以透過 Vita Homebrew Browser 輕易地安裝任何自製程式。 或者，您也可以在 [VitaDB](https://vitadb.rinnegatamante.it/) 中找尋新的自製程式。
+{: .notice--info}
+
+You can now press (L) + (R) + (Start) or (L) + (R) + (Select) while in a game to open the PSV VSH Menu. This menu allows you to configure "overclocking" settings (which just allows your device to run at its maximum speed since it is normally underclocked by Sony) and view information such as the frame-rate and battery status.
 {: .notice--info}
 
 若您想要以其他記憶卡代替原廠的 Sony 記憶卡 (比如像是 microSD 或 USB 磁碟)，請見 [StorageMgr](storagemgr)。
