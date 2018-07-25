@@ -47,17 +47,17 @@ title: "Завершение установки"
   + Раздел `ux0:` соответствует карте памяти консоли (на PS Vita 1000, этот раздел всегда будет внешней картой памяти; на PS Vita 2000 и PS TV этот раздел будет либо внешней картой памяти, если она вставлена, либо встроенной картой памяти в противном случае)
   + Раздел `ur0:` соответствует встроенной системной памяти, которая всегда присутствует на всех консолях (на PS Vita 2000 и PS TV это *не* то же самое что встроенная карта памяти!)
 1. Загрузите `VitaHBBrowser.vpk` в папку `data`
-1. Using your FTP client, navigate to `ur0:` -> `tai/`
-1. Transfer `kuio.skprx` to the `tai` folder
-1. Transfer `vsh.suprx` to the `tai` folder
-1. Navigate to `ux0:` -> `tai/`
-  + This is *not* the same as the `ur0:tai/` folder you were just in
+1. Using your FTP client, navigate to `ux0:`
+1. Delete the `tai` folder
+1. Navigate to `ur0:` -> `tai/`
+1. Загрузите `config.txt` в папку `tai`
+  + Перезапишите существующий файл `config.txt`
 1. Загрузите `nonpdrm.skprx` в папку `tai`
 1. Загрузите `download_enabler.suprx` в папку `tai`
 1. Загрузите `shellbat.suprx` в папку `tai`
 1. Загрузите `pngshot.suprx` в папку `tai`
-1. Загрузите `config.txt` в папку `tai`
-  + Перезапишите существующий файл `config.txt`
+1. Transfer `kuio.skprx` to the `tai` folder
+1. Transfer `vsh.suprx` to the `tai` folder
 1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
 
 #### Часть II - Установка VPK
@@ -71,7 +71,7 @@ title: "Завершение установки"
 1. Закройте приложение VitaShell
 1. Перезагрузите консоль
   + Если на вашей консоли нет Ensō, то вам нужно вручную запустить и выйти из h-encore, чтобы восстановить доступ к хоумбрю
-  + Это необходимо для запуска новых плагинов, добавленных в `ux0:tai/config.txt`
+  + Это необходимо для запуска новых плагинов, добавленных в `ur0:tai/config.txt`
   + Если все работает, вы должны увидеть процент заряда батареи в строке состояния
 
 #### Часть III - Доступ к PSN
