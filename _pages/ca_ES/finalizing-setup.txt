@@ -47,17 +47,17 @@ In order to install the necessary `.vpk` (content package) files on your device,
   + The `ux0:` partition corresponds to the memory card of your device (on the PS Vita 1000, this partition will always be the external memory card; on the PS Vita 2000 and PS TV, this partition will either be the external memory card if one is inserted, or the built-in memory card otherwise)
   + The `ur0:` partition corresponds to the internal system memory which is always present on all devices (on the PS Vita 2000 and PS TV, this is *not* the same as the built-in memory card!))
 1. Transfer `VitaHBBrowser.vpk` to the `data` folder
-1. Using your FTP client, navigate to `ur0:` -> `tai/`
-1. Transfer `kuio.skprx` to the `tai` folder
-1. Transfer `vsh.suprx` to the `tai` folder
-1. Navigate to `ux0:` -> `tai/`
-  + This is *not* the same as the `ur0:tai/` folder you were just in
+1. Using your FTP client, navigate to `ux0:`
+1. Delete the `tai` folder
+1. Navigate to `ur0:` -> `tai/`
+1. Transfer `config.txt` to  the `tai` folder
+  + Overwrite (replace) the existing `config.txt` file
 1. Transfer `nonpdrm.skprx` to the `tai` folder
 1. Transfer `download_enabler.suprx` to the `tai` folder
 1. Transfer `shellbat.suprx` to the `tai` folder
 1. Transfer `pngshot.suprx` to the `tai` folder
-1. Transfer `config.txt` to  the `tai` folder
-  + Overwrite (replace) the existing `config.txt` file
+1. Transfer `kuio.skprx` to the `tai` folder
+1. Transfer `vsh.suprx` to the `tai` folder
 1. Press (Circle) on your device to close the FTP connection
 
 #### Section II - Installing VPK
@@ -71,7 +71,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Close the VitaShell application
 1. Reboot your device
   + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
-  + This is required to load the new kernel plugins added to `ux0:tai/config.txt`
+  + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
   + To confirm that everything is working, you should now see a battery percentage in the status bar
 
 #### Section III - PSN Access
