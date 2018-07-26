@@ -44,27 +44,27 @@ title: "Установка h-encore"
 1. Снимите флажок "Загружать файл обновления для системного программного обеспечения"
 1. Закройте приложение Настройки
 
-#### Section II - finalhe
+#### Часть II - finalhe
 
-1. Copy the contents of the finalhe `.zip` to a folder on your computer
-1. Launch finalhe on your computer
-  + If you are using a Windows computer and are prompted to allow finalhe network access through the firewall, do so
-1. Connect your device to your computer using USB
-1. Select "Trim h-encore to ~13MB"
-1. Select "Let's GO!"
+1. Скопируйте содержимое `zip-архива` finalhe в папку на вашем компьютере
+1. Запустите finalhe на компьютере
+  + Если у вас компьютер под управлением Windows, и если появится запрос брандмауэра на разрешение доступа к сети для finalhe, разрешите доступ
+1. Подключите консоль к компьютеру с помощью USB
+1. Выберите "Trim h-encore to ~13MB"
+1. Выберите "Let's GO!"
   + Файлы эксплойта будут автоматически скачаны и подготовлены
   + Этот процесс займет некоторое время
 
-#### Section III - h-encore Transfer
+#### Часть III - Перенос h-encore
 
 1. Запустите на консоли приложение "Управление данными"
 1. Выберите "Скопировать контент"
 1. Выберите "Компьютер"
-1. Select "USB Cable"
+1. Выберите "Кабель USB"
   + Если вам предложат войти в аккаунт PlayStation Network, сделайте это
   + Если у вас нет аккаунта PlayStation Network, создайте его
 1. Выберите / зарегистрируйте ваш компьютер, если появится запрос
-1. Select "PC -> PS Vita System"
+1. Выберите "PC -> система PS Vita"
 1. Выберите "Приложения"
 1. Выберите "PS Vita"
 1. Выберите "h-encore"
