@@ -40,14 +40,14 @@ SD2Vita это адаптер для microSD карты, который вста
 1. Введите IP адрес и порт, отображаемые на консоли
 1. Используя FTP клиент, скопируйте все файлы из `ux0:tai/` в `ur0:tai/`
   + Перезаписывайте существующие файлы в папке `ur0:tai/`
-  + If you do not have a `ux0:tai/` folder, skip this step
+  + Если у вас нет папки `ux0:tai/`, пропустите этот шаг
 1. Загрузите `storagemgr.skprx` в папку `ur0:tai/`
 1. Загрузите `storage_config.txt` в папку `ur0:tai/`
 1. Замените все пути `ux0:` в файле `ur0:tai/config.txt` на пути `ur0:`
-  + If you did not have a `ux0:tai/` folder, skip this step
+  + Если у вас не было папки `ux0:tai/`, пропустите этот шаг
 1. Добавьте следующую строку в файл `ur0:tai/config.txt` сразу после строки `*KERNEL`:
   + `ur0:tai/storagemgr.skprx`
-1. Delete the `ux0:tai/` folder
+1. Удалите папку `ux0:tai/`
   
 #### Часть II - Восстановление данных
 
