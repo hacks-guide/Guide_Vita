@@ -13,7 +13,7 @@ title: "Завершение установки"
 +  **DownloadEnabler** *(позволяет скачивать файлы любых типов с помощью браузера)*
 +  **shellbat** *(отображает процент заряда батареи в строке состояния)*
 +  **pngshot** *(улучшает встроенную утилиту для скриншотов)*
-+  **PSV VSH Menu** *(in-game menu for overclocking or displaying the frame-rate)*
++  **PSV VSH Menu** *(внутриигровое меню для разгона или отображения частоты кадров)*
 
 Для установки необходимых файлов `.vpk` (content package) на консоль мы используем [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol), чтобы скопировать файлы на карту памяти консоли. 
 
@@ -27,7 +27,7 @@ title: "Завершение установки"
 * Свежая версия [DownloadEnabler](https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest)
 * Свежая версия [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Свежая версия [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(both files)*
+* Свежая версия [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(оба файла)*
 
 ### Инструкция
 
@@ -47,17 +47,17 @@ title: "Завершение установки"
   + Раздел `ux0:` соответствует карте памяти консоли (на PS Vita 1000, этот раздел всегда будет внешней картой памяти; на PS Vita 2000 и PS TV этот раздел будет либо внешней картой памяти, если она вставлена, либо встроенной картой памяти в противном случае)
   + Раздел `ur0:` соответствует встроенной системной памяти, которая всегда присутствует на всех консолях (на PS Vita 2000 и PS TV это *не* то же самое что встроенная карта памяти!)
 1. Загрузите `VitaHBBrowser.vpk` в папку `data`
-1. Using your FTP client, navigate to `ux0:`
-1. Delete the `tai` folder
-1. Navigate to `ur0:` -> `tai/`
+1. Используя FTP клиент, перейдите в `ux0:`
+1. Удалите папку `tai`
+1. Перейдите в `ur0:` -> `tai/`
 1. Загрузите `config.txt` в папку `tai`
   + Перезапишите существующий файл `config.txt`
 1. Загрузите `nonpdrm.skprx` в папку `tai`
 1. Загрузите `download_enabler.suprx` в папку `tai`
 1. Загрузите `shellbat.suprx` в папку `tai`
 1. Загрузите `pngshot.suprx` в папку `tai`
-1. Transfer `kuio.skprx` to the `tai` folder
-1. Transfer `vsh.suprx` to the `tai` folder
+1. Загрузите `kuio.skprx` в папку `tai`
+1. Загрузите `vsh.suprx` в папку `tai`
 1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
 
 #### Часть II - Установка VPK
