@@ -49,22 +49,23 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Copy the contents of the finalhe `.zip` to a folder on your computer
 1. Launch finalhe on your computer
   + If you are using a Windows computer and are prompted to allow finalhe network access through the firewall, do so
-1. Connect your device to your computer using USB
+1. Launch the Content Manager application on your device
+1. Select "Copy Content"
+1. Select "PC"
+1. Select the method you wish to use to connect to finalhe
+  + If you are prompted to log-in to a PlayStation Network Account, do so
+  + If you do not have a PlayStation Network Account, create one
+1. Select / register your computer if prompted
+  + If you encounter a message instructing you to update, reboot your device and try again
+  + If your device is not detected over USB on Windows, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
+
+#### Section III - h-encore Transfer
+
 1. Select "Trim h-encore to ~13MB"
 1. Select "Let's GO!"
   + The exploit files will be automatically downloaded and prepared
   + This process will take some time
-
-#### Section III - h-encore Transfer
-
-1. Launch the Content Manager application on your device
-1. Select "Copy Content"
-1. Select "PC"
-1. Select "USB Cable"
-  + If you are prompted to log-in to a PlayStation Network Account, do so
-  + If you do not have a PlayStation Network Account, create one
-1. Select / register your computer if prompted
-1. Select "PC -> PS Vita System"
+1. Select "PC -> PS Vita System" on your device
 1. Select "Applications"
 1. Select "PS Vita"
 1. Select "h-encore"
