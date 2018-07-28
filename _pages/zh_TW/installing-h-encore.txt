@@ -49,22 +49,23 @@ The "finalhe" tool is used to automate the h-encore installation.
 1. Copy the contents of the finalhe `.zip` to a folder on your computer
 1. Launch finalhe on your computer
   + If you are using a Windows computer and are prompted to allow finalhe network access through the firewall, do so
-1. Connect your device to your computer using USB
+1. 於您的主機中啟動「內容管理員」
+1. 選擇『Copy Content』
+1. 選擇『PC』
+1. Select the method you wish to use to connect to finalhe
+  + 如果您被要求登入至 PlayStation Network，請登入
+  + 如果您並沒有一隻 PlayStation Network 的帳號，請創立一隻
+1. 如提示時，選擇／註冊您的電腦
+  + If you encounter a message instructing you to update, reboot your device and try again
+  + If your device is not detected over USB on Windows, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
+
+#### Section III - h-encore Transfer
+
 1. Select "Trim h-encore to ~13MB"
 1. Select "Let's GO!"
   + 漏洞所需檔案將自動被下載及自動進行其前置作業
   + 此過程將花費一些時間
-
-#### Section III - h-encore Transfer
-
-1. 於您的主機中啟動「內容管理員」
-1. 選擇『Copy Content』
-1. 選擇『PC』
-1. Select "USB Cable"
-  + 如果您被要求登入至 PlayStation Network，請登入
-  + 如果您並沒有一隻 PlayStation Network 的帳號，請創立一隻
-1. 如提示時，選擇／註冊您的電腦
-1. Select "PC -> PS Vita System"
+1. Select "PC -> PS Vita System" on your device
 1. 選擇『應用程式』
 1. 選擇『PS Vita』
 1. 選擇『h-encore』
