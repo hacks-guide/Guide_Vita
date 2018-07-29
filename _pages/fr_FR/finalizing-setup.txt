@@ -24,7 +24,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
 * The latest release of [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest)
+* The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * The latest release of [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * The latest release of [pngshot](https://github.com/xyzz/pngshot/releases/latest)
 * The latest release of [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(both files)*
