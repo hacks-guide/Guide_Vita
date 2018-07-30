@@ -40,14 +40,14 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
 1. 輸入於您主機上顯示的 IP 位址以及埠
 1. 透過您的 FTP 客戶端，將所有的檔案從 `ux0:tai/` 複製至 `ur0:tai/`
   + 複寫所有在 `ur0:tai/` 資料夾中的檔案
-  + If you do not have a `ux0:tai/` folder, skip this step
+  + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 複製 `storagemgr.skprx` 至 `ur0:tai/` 資料夾中
 1. 複製 `storage_config.txt` 至 `ur0:tai/` 資料夾中
 1. 將 `ur0:tai/config.txt` 內的 `ux0:` 替代為 `ur0:`
-  + If you did not have a `ux0:tai/` folder, skip this step
+  + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 將下列的字串加入至 `ur0:tai/config.txt` 中 `*KERNEL` 行列下：
   + `ur0:tai/storagemgr.skprx`
-1. Delete the `ux0:tai/` folder
+1. 刪除 `ux0:tai/` 資料夾
   
 #### 第二節 — 還原資料
 
