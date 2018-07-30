@@ -24,7 +24,7 @@ title: "Завершение установки"
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * Свежая версия [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
 * Свежая версия [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
+* Свежая версия [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Свежая версия [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Свежая версия [pngshot](https://github.com/xyzz/pngshot/releases/latest)
 * Свежая версия [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(оба файла)*
