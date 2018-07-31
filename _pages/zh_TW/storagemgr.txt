@@ -25,7 +25,7 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
   + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
 * 最新版的 [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
   + 依您的情形修改 `storage_config.txt`，請見[README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
-  + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
+  + `MCD=uma0` 應被保留，除非您並不希望繼續使用 Sony 原廠的記憶卡
   + `INT=imc0` PS Vita 2000 及 PS TV 用戶不需更改此選項，而 PS Vita 1000 的用戶應該將此選項移除
   + `GCD=ux0` SD2Vita 用戶不需更改此選項，而 psvd 或隨身碟的用戶需將該選項改為 `UMA=ux0`
   + `UMA=grw0` 除非您有多項儲存空間否則請刪除此選項 (若真如此，未分發至 `ux0:` 的裝置應被分發至 `grw0:` 當中)
@@ -40,12 +40,14 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
 1. 輸入於您主機上顯示的 IP 位址以及埠
 1. 透過您的 FTP 客戶端，將所有的檔案從 `ux0:tai/` 複製至 `ur0:tai/`
   + 複寫所有在 `ur0:tai/` 資料夾中的檔案
+  + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 複製 `storagemgr.skprx` 至 `ur0:tai/` 資料夾中
 1. 複製 `storage_config.txt` 至 `ur0:tai/` 資料夾中
 1. 將 `ur0:tai/config.txt` 內的 `ux0:` 替代為 `ur0:`
+  + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 將下列的字串加入至 `ur0:tai/config.txt` 中 `*KERNEL` 行列下：
   + `ur0:tai/storagemgr.skprx`
-1. 刪除 `ux0:tai/` 中所有的檔案
+1. 刪除 `ux0:tai/` 資料夾
   
 #### 第二節 — 還原資料
 
@@ -61,8 +63,8 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 1. 關閉 VitaShell
 1. 重新啟動您的主機
-  + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
-  + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
+  + 如果您的主機尚未安裝 Ensō，您將會需要手動啟動並關閉 h-encore 以啟用自製軟體使用權
+  + 此為必要步驟以載入剛所設定至 `ur0:tai/config.txt` 的內核插件
 
 ___
 

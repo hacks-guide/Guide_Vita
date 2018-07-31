@@ -13,6 +13,7 @@ title: "Завершение установки"
 +  **DownloadEnabler** *(позволяет скачивать файлы любых типов с помощью браузера)*
 +  **shellbat** *(отображает процент заряда батареи в строке состояния)*
 +  **pngshot** *(улучшает встроенную утилиту для скриншотов)*
++  **PSV VSH Menu** *(внутриигровое меню для разгона или отображения частоты кадров)*
 
 Для установки необходимых файлов `.vpk` (content package) на консоль мы используем [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol), чтобы скопировать файлы на карту памяти консоли. 
 
@@ -23,9 +24,10 @@ title: "Завершение установки"
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * Свежая версия [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
 * Свежая версия [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* Свежая версия [DownloadEnabler](https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest)
+* Свежая версия [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Свежая версия [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Свежая версия [pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* Свежая версия [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(оба файла)*
 
 ### Инструкция
 
@@ -45,13 +47,17 @@ title: "Завершение установки"
   + Раздел `ux0:` соответствует карте памяти консоли (на PS Vita 1000, этот раздел всегда будет внешней картой памяти; на PS Vita 2000 и PS TV этот раздел будет либо внешней картой памяти, если она вставлена, либо встроенной картой памяти в противном случае)
   + Раздел `ur0:` соответствует встроенной системной памяти, которая всегда присутствует на всех консолях (на PS Vita 2000 и PS TV это *не* то же самое что встроенная карта памяти!)
 1. Загрузите `VitaHBBrowser.vpk` в папку `data`
-1. Используя FTP клиент, перейдите в `ux0:` -> `tai/`
+1. Используя FTP клиент, перейдите в `ux0:`
+1. Удалите папку `tai`
+1. Перейдите в `ur0:` -> `tai/`
+1. Загрузите `config.txt` в папку `tai`
+  + Перезапишите существующий файл `config.txt`
 1. Загрузите `nonpdrm.skprx` в папку `tai`
 1. Загрузите `download_enabler.suprx` в папку `tai`
 1. Загрузите `shellbat.suprx` в папку `tai`
 1. Загрузите `pngshot.suprx` в папку `tai`
-1. Загрузите `config.txt` в папку `tai`
-  + Перезапишите существующий файл `config.txt`
+1. Загрузите `kuio.skprx` в папку `tai`
+1. Загрузите `vsh.suprx` в папку `tai`
 1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
 
 #### Часть II - Установка VPK
@@ -65,7 +71,7 @@ title: "Завершение установки"
 1. Закройте приложение VitaShell
 1. Перезагрузите консоль
   + Если на вашей консоли нет Ensō, то вам нужно вручную запустить и выйти из h-encore, чтобы восстановить доступ к хоумбрю
-  + Это необходимо для запуска новых плагинов, добавленных в `ux0:tai/config.txt`
+  + Это необходимо для запуска новых плагинов, добавленных в `ur0:tai/config.txt`
   + Если все работает, вы должны увидеть процент заряда батареи в строке состояния
 
 #### Часть III - Доступ к PSN
@@ -91,6 +97,9 @@ title: "Завершение установки"
 ___
 
 Теперь вы можете легко устанавливать новые хоумбрю приложения при помощи Vita Homebrew Browser. Кроме того, вы можете найти новые хоумбрю приложения на [VitaDB](https://vitadb.rinnegatamante.it/).
+{: .notice--info}
+
+Теперь вы можете нажать (L) + (R) + (Start) или (L) + (R) + (Select) во время игры, чтобы открыть PSV VSH Menu. Это меню позволяет изменять настройки "разгона" (которые просто позволяют консоли работать на своей максимальной скорости, поскольку обычно Sony понижает скорость) и просматривать такую информацию, как частота кадров и статус батареи.
 {: .notice--info}
 
 Для получения информации о замене карты памяти Sony на другой носитель (такой как microSD карта или USB диск), перейдите к странице [StorageMgr](storagemgr).
