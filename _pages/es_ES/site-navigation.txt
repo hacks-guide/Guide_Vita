@@ -1,30 +1,30 @@
 ---
-title: "Site Navigation" #
+title: "Navegación del sitio" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**Todo**
 
 + [Adrenaline](adrenaline)
-+ [Configuring h-encore](configuring-h-encore)
-+ [Credits](credits)
-+ [Donations](donations)
++ [Configurar h-encore](configuring-h-encore)
++ [Créditos](credits)
++ [Donaciones](donations)
 + [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
-+ [Finalizing Setup](finalizing-setup)
-+ [Get Started](get-started)
-+ [Home](/)
-+ [Installing Ensō (3.65)](installing-enso-(3.65))
-+ [Installing h-encore](installing-h-encore)
-+ [Storage Format (Linux)](storage-format-(linux))
-+ [Storage Format (Mac)](storage-format-(mac))
-+ [Storage Format (Windows)](storage-format-(windows))
++ [Extensiones de archivos (Windows)](file-extensions-(windows))
++ [Finalizar Instalación](finalizing-setup)
++ [Comencemos](get-started)
++ [Inicio](/)
++ [Instalar Ensō (3.65)](installing-enso-(3.65))
++ [Instalar h-encore](installing-h-encore)
++ [Formatear almacenamiento (Linux)](storage-format-(linux))
++ [Formatear almacenamiento (Mac)](storage-format-(mac))
++ [Formatear almacenamiento (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
-+ [Troubleshooting](troubleshooting)
-+ [Updating to 3.65](updating-to-3.65)
-+ [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku))
-+ [Why Ads?](why-ads)
++ [Solución de problemas](troubleshooting)
++ [Actualizar a 3.65](updating-to-3.65)
++ [Actualizar a 3.65 (HENkaku)](updating-to-3.65-(henkaku))
++ [¿Por qué anuncios?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

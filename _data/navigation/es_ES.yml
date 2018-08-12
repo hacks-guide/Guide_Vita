@@ -1,19 +1,19 @@
 ---
 main:
   - 
-    title: Home
+    title: Inicio
     url: /
   - 
     title: FAQ
     url: faq
   - 
-    title: Donations
+    title: Donaciones
     url: donations
   - 
-    title: Credits
+    title: Créditos
     url: credits
   - 
-    title: Troubleshooting
+    title: Solución de problemas
     url: troubleshooting
   - 
     title: Adrenaline
@@ -22,57 +22,57 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Site Navigation
+    title: Navegación del sitio
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/JXEKeg6">Vita Hacking on Discord</a>.
+    title: Para soporte en inglés, pide ayuda en el <a href="https://discord.gg/JXEKeg6">Discord de Vita Hacking</a>.
   - 
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+    title: Si aprecias esta guía, aceptamos <a href="donations">donaciones</a>.
 footer:
   - 
-    title: Source
+    title: Código fuente
   - 
-    title: Site Navigation
+    title: Navegación del sitio
   - 
-    title: Why Ads?
+    title: '¿Por qué anuncios?'
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progreso total
 sidebar_pages:
   - 
-    title: Home
+    title: Inicio
     url: /
   - 
-    title: Get Started
+    title: Comencemos
     url: get-started
   - 
-    title: Updating to 3.65
+    title: Actualizar a 3.65
     url: updating-to-3.65
   - 
-    title: Updating to 3.65 (HENkaku)
+    title: Actualizar a 3.65 (HENkaku)
     url: updating-to-3.65-(henkaku)
   - 
-    title: Installing h-encore
+    title: Instalar h-encore
     url: installing-h-encore
   - 
-    title: Multiple Options
+    title: Múltiples opciones
     url: multiple-options
   - 
-    title: Installing h-encore (Windows Auto)
+    title: Instalar h-encore (Windows - Automático)
     url: installing-h-encore-(windows-auto)
   - 
-    title: Installing h-encore (Windows Manual)
+    title: Instalar h-encore (Windows - Manual)
     url: installing-h-encore-(windows-manual)
   - 
-    title: Installing h-encore (Linux / Mac)
+    title: Instalar h-encore (Linux / Mac)
     url: installing-h-encore-(linux-mac)
   - 
-    title: Configuring h-encore
+    title: Configurar h-encore
     url: configuring-h-encore
   - 
-    title: Installing Ensō (3.65)
+    title: Instalar Ensō (3.65)
     url: installing-enso-(3.65)
   - 
-    title: Finalizing Setup
+    title: Finalizar instalación
     url: finalizing-setup

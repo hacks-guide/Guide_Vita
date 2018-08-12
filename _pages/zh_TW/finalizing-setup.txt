@@ -76,10 +76,10 @@ title: "完成安裝"
 
 #### 第三節 — PSN 存取
 
-1. 移動至 `HENkaku Settings`
-1. 勾選『Enable PSN spoofing (啟用假PSN)』
-1. 勾選『Enable Version spoofing (啟用假系統版本)』
-1. 移動至『Spoofed Version (假系統版本數值)』
+1. 移動至 `HENkaku 設置`
+1. 勾選『啟用 PSN 偽裝』
+1. 勾選『啟用版本偽裝』
+1. 移動至『偽裝版本』
 1. 輸入『3.68』
   + 如果未來 Sony 推出了新的系統韌體，您必須將此數值更換至最新的系統版本以存取 PSN
 1. 關閉設定

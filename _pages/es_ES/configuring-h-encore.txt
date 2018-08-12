@@ -1,92 +1,92 @@
 ---
-title: "Configuring h-encore"
+title: "Configurar h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
-Now that the h-encore exploit is installed on your device (either through the Windows or Linux / Mac method), we will configure it for easy homebrew access.
+Ahora que el exploit h-encore está instalado en la consola (ya sea con el método Windows o Linux / Mac), lo configuraremos para acceder fácilmente a homebrew.
   
-### Instructions
+### Instrucciones
 
-#### Section I - Configuring h-encore
+#### Sección I - Configurar h-encore
 
-1. Launch the h-encore application
-1. If prompted about trophies, select "Yes"
-1. If the exploit was successful, you will now see the h-encore bootstrap menu
-  + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
-  + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
-1. Select "Install HENkaku"
-  + This will install the HENkaku exploit and enable homebrew access until the next reboot
-1. Select "Download VitaShell"
-  + This will install the VitaShell homebrew application for managing your device's filesystem
-  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
-1. Select "Exit"
+1. Inicia la aplicación h-encore
+1. Si te pregunta por trofeos, selecciona "Yes"
+1. Si el exploit fue exitoso, ahora verás el menú de inicio de h-encore
+  + Si el exploit se quedó en una pantalla en blanco, tan solo cierra la aplicación (lo cual causará un crash y reiniciará tu consola), y vuelve a intentar
+  + Si aún no funciona, mantén presionado el botón de apagado por unos 30 segundos para forzar un reinicio, y vuelve a intentar
+1. Selecciona "Install HENkaku"
+  + Esto instalará el exploit HENkaku para activar acceso a homebrew hasta el siguiente reinicio
+1. Selecciona "Download VitaShell"
+  + Esto instalará la aplicación de homebrew VitaShell para adminsitrar el sistema de archivos de tu consola
+  + VitaShell (y en general todas las aplicaciones de homebrew) se mantendrán instaladas luego de un reinicio, pero darán un error al ejecutar si el exploit de HENkaku no está activo
+1. Selecciona "Exit"
 
-#### Section II - Configuring HENkaku
+#### Sección II - Configurar HENkaku
 
-1. Launch the Settings application
-1. Navigate to `HENkaku Settings`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
-1. Check "Enable Unsafe Homebrew"
-1. Return to HENkaku Settings menu
-1. Close the Settings application
+1. Inicia la aplicación Ajustes
+1. Ve a `HENkaku Settings`
+  + Si los ajustes de HENkaku no aparece, selecciona "Reset taiHEN config.txt" en el menú de inicio de h-encore, y vuelve a intentar
+1. Activa "Enable Unsafe Homebrew"
+1. Vuelve al menú de ajustes de HENkaku
+1. Cierra la aplicación Ajustes
 
-#### Section III - Disabling Trophy Warning
+#### Sección III - Desactivar alerta sobre trofeos
 
 {% capture notice-1 %}
-This is an optional section which will disable the trophy warning that appears when h-encore is launched. 
+Esta es una sección opcional con la que desactivarás la alerta sobre trofeos que aparece cuando h-encore es ejecutado. 
 
-This section is not recommended for devices on firmware version 3.65 as Ensō can replace h-encore on those systems.
+Esta sección no es recomendada para consolas con versión de firmware 3.65 ya que Ensō puede reemplazar h-encore en esos sistemas.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Launch the VitaShell application
-1. Navigate to `ux0:` -> `user/` -> `00/` -> `savedata`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Square) to un-mark `system.dat`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Delete" to delete the folder
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
-1. Launch the h-encore application
-1. When the "Bitter Smile" main menu appears, close the h-encore application
-1. Launch the VitaShell application
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Delete" to delete the file
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. Inicia la aplicación VitaShell
+1. Ve a `ux0:` -> `user/` -> `00/` -> `savedata`
+1. Presiona (Triángulo) en la carpeta `PCSG90096` para abrir el menú, luego selecciona "Open decrypted"
+  + Si ves `sce_pfs`, no abriste la carpeta con la opción correcta del menú
+1. Presiona (Triángulo) en el archivo `system.dat` para abrir el menú, luego selecciona "Copy"
+1. Presiona (Cruz) para cerrar el diálogo de archivo copiado
+1. Presiona (Círculo) para volver a la carpeta `savedata`
+1. Presiona (Tríángulo) para abrir el menú, luego selecciona "Paste" para pegar `system.dat` en la carpeta actual
+1. Presiona (Cuadrado) para desmarcar `system.dat`
+1. Presiona (Triángulo) en la carpeta `PCSG90096` para abrir el menú, luego selecciona "Delete" para borrar la carpeta
+1. Presiona (Cruz) para confirmar la eliminación
+1. Cierra la aplicación VitaShell
+1. Inicia la aplicación h-encore
+1. Cuando el menú principal de "Bitter Smile" aparezca, cierra la aplicación h-encore
+1. Inicia la aplicación VitaShell
+1. Presiona (Triángulo) en el archivo `system.dat` para abrir el menú, luego selecciona "Copy"
+1. Presiona (Cruz) para cerrar el diálogo de archivo copiado
+1. Presiona (Triángulo) en la carpeta `PCSG90096` para abrir el menú, luego selecciona "Open decrypted"
+  + Si ves `sce_pfs`, no abriste la carpeta con la opción correcta del menú
+1. Presiona (Tríángulo) para abrir el menú, luego selecciona "Paste" para pegar `system.dat` en la carpeta actual
+1. Presiona (Círculo) para volver a la carpeta `savedata`
+1. Presiona (Triángulo) sobre el archivo `system.dat` para abrir el menú, luego selecciona "Delete" para borrar el archivo
+1. Presiona (Cruz) para confirmar la eliminación
+1. Cierra la aplicación VitaShell
 
 ___
-### Methods
+### Métodos
 
 ___
 
-#### Firmware Version 3.65
+#### Firmware versión 3.65
 
-Devices on firmware version 3.65 can now use the h-encore exploit to install Ensō, a more convenient exploit which runs automatically after a reboot.
+Consolas en firmware versión 3.65 ahora pueden usar el exploit de h-encore para instalar Ensō, un exploit más conveniente que se ejecuta automáticamente luego de un reinicio.
 
-### Continue to [Installing Ensō (3.65)](installing-enso-(3.65))
+### Continúa a [Instalar Ensō (3.65)](installing-enso-(3.65))
 {: .notice--primary}
 
 ___
 
-#### Firmware Versions 3.67 and 3.68
+#### Versiones de firmware 3.67 y 3.68
 
-Devices on firmware versions 3.67 and 3.68 are unfortunately incompatible with Ensō and must perform the h-encore exploit manually after each reboot.
+Consolas en la versión de firmware 3.67 y 3.68 lamentablemente son incompatibles con Ensō y deben ejecutar el exploit h-encore manualmente luego de cada reinicio.
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continúa en [Finalizar instalación](finalizing-setup)
 {: .notice--primary}
 
 ___

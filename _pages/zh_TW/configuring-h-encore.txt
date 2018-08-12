@@ -27,10 +27,10 @@ title: "設定 h-encore"
 #### 第二節 — 設定 HENkaku
 
 1. 啟動設定
-1. 移動至 `HENkaku Settings`
-  + 如果您找不到 HENkaku Settings，從 h-core 引導選單中選擇『Reset taiHEN config.txt』並再試一次
-1. 勾選『Enable Unsafe Homebrew』
-1. 回到 HENkaku Settings 選單
+1. 移動至 `HENkaku 設置`
+  + 如果您找不到 HENkaku 設置，從 h-core 引導選單中選擇『Reset taiHEN config.txt』並再試一次
+1. 勾選『啟動不安全自制軟件』
+1. 回到 HENkaku 設置選單
 1. 關閉設定
 
 #### 第三節 — 關閉獎盃相關警告
