@@ -2,9 +2,9 @@
 title: "Updating to 3.65 (HENkaku)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
 These steps are for preparing a 3.60 HENkaku (Ensō) device to update to 3.65. If you have a stock device and are trying to update to 3.65, follow [Updating to 3.65](updating-to-3.65).
 {: .notice--warning}
