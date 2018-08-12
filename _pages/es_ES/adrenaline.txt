@@ -6,7 +6,7 @@ title: "Adrenaline"
 
 ### Lectura requerida
 
-Adrenaline is a homebrew application which modifies the official PSP Emulator of the PS Vita (TV) to run a PSP 6.61 custom firmware.
+Adrenaline es una aplicación homebrew que modifica el emulador oficial de PSP de la PS Vita (TV) para ejecutar un custom firmware de PSP versión 6.61.
 
 Additionally, adrenaline also enables access to a full PSP home menu running under the official PSP Emulator.
 
