@@ -2,9 +2,9 @@
 title: "Configuring h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
 Now that the h-encore exploit is installed on your device (either through the Windows or Linux / Mac method), we will configure it for easy homebrew access.
   
