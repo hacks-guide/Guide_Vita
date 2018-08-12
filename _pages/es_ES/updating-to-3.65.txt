@@ -19,7 +19,7 @@ While the h-encore exploit itself is compatible with firmware versions 3.67 and 
 
 * An internet connection on your PS Vita (TV)
 
-### Instructions
+### Instrucciones
 
 #### Section I - DNS Configuration
 
