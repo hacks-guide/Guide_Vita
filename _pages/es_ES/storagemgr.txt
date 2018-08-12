@@ -6,9 +6,9 @@ title: "StorageMgr"
 
 ### Lectura requerida
 
-StorageMgr is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
+StorageMgr es un plugin de kernel multipropósito para la PS Vita (TV) y permite el uso de un dispositivo de almacenamiento alternativo como una unidad USB, un SD2Vita, o un psvd.
 
-The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvd is a microSD adapter which replaces the 3g modem on 3g PS Vita models.
+SD2Vita es un adaptador de microSD a cartucho de juego el cual es insertado en el slot de cartuchos de juego en tu consola, mientras que psvd es un adaptador microSD que reemplaza el módem 3g en algunos modelos de PS Vita 3g.
 
 By using the StorageMgr kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. This is very useful because microSD cards are significantly cheaper than Sony memory cards (especially at higher capacities).
 
