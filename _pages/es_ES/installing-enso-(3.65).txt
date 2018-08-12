@@ -12,27 +12,27 @@ Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenien
 
 It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
 
-### What You Need
+### Qué necesitas
 
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
+* Un cliente FTP como [WinSCP](https://winscp.net/) o [CyberDuck](https://cyberduck.io/)
+  + Alternativamente, puedes usar la función de transferencia vía USB de VitaShell
 * The latest release of [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
-### Instructions
+### Instrucciones
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
-1. Launch the VitaShell application
+1. Inicia la aplicación VitaShell
 1. Press (Start) to open the VitaShell settings
 1. Press (Cross) on "SELECT button" to change the mode to "FTP"
   + Alternatively, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
   + Note that the USB transfer mode will start you in the ux0 partition
   + Additionally, some files will be hidden in USB mode on Windows; you must enable "Show hidden files, folders, and drives" and disable "Hide protected operating system files" in the File Explorer options in order to see all files
 1. Press (Circle) to close the VitaShell settings
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
+1. Presiona (Select) para activar el acceso FTP en tu consola
+1. Abre el cliente FTP en tu computadora
+1. Ingresa la dirección IP y el puerto mostrados en tu consola
+1. Usando tu cliente FTP, navega a `ux0:` -> `data/`
 1. Transfer `enso.vpk` to the `data` folder
 1. Press (Circle) on your device to close the FTP connection
 
