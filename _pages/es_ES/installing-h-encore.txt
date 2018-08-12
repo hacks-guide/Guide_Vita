@@ -64,7 +64,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Select "Trim h-encore to ~13MB"
 1. Select "Let's GO!"
   + The exploit files will be automatically downloaded and prepared
-  + This process will take some time
+  + Este proceso tomará algún tiempo
 1. Select "PC -> PS Vita System" on your device
 1. Select "Applications"
 1. Select "PS Vita"
@@ -72,7 +72,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Select "Copy"
 1. Select "OK"
   + The h-encore exploit will be copied to your device
-  + This process will take some time
+  + Este proceso tomará algún tiempo
 1. Close the Content Manager application on your device
 1. Close auto h-encore on your computer
 
