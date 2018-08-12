@@ -2,9 +2,9 @@
 title: "StorageMgr"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
 StorageMgr is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
 
