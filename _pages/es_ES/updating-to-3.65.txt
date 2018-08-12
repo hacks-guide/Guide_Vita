@@ -2,9 +2,9 @@
 title: "Updating to 3.65"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
 If you have already hacked your PS Vita (TV) before on 3.60, follow [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku)) before continuing.
 {: .notice--warning}
