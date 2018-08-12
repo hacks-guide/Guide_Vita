@@ -13,21 +13,21 @@ Adicionalmente, adrenaline también activa el acceso al menú HOME completo de P
 Ya debes haber instalado VitaShell para usar esto.
 {: .notice--info}
 
-### What You Need
+### Qué necesitas
 
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
-* The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
-* The latest release of [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }})
+* Un cliente FTP como [WinSCP](https://winscp.net/) o [CyberDuck](https://cyberduck.io/)
+  + Alternativamente, puedes usar la función de transferencia vía USB de VitaShell
+* La última versión de [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
+* La última versión de [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }})
 
-### Instructions
+### Instrucciones
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
-1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
+1. Inicia la aplicación VitaShell
+1. Presiona (Select) para activar el acceso FTP en tu consola
+1. Abre el cliente FTP en tu computadora
+1. Ingresa la dirección IP y el puerto mostrados en tu consola
 1. Using your FTP client, navigate to `ux0:` -> `data/`
 1. Transfer `Adrenaline.vpk` to the `data` folder
 1. Transfer `PSPhbb_dev.vpk` to the `data` folder
