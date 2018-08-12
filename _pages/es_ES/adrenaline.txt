@@ -28,14 +28,14 @@ Ya debes haber instalado VitaShell para usar esto.
 1. Presiona (Select) para activar el acceso FTP en tu consola
 1. Abre el cliente FTP en tu computadora
 1. Ingresa la dirección IP y el puerto mostrados en tu consola
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `Adrenaline.vpk` to the `data` folder
-1. Transfer `PSPhbb_dev.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
+1. Usando tu cliente FTP, navega a `ux0:` -> `data/`
+1. Transfiere `Adrenaline.vpk` a la carpeta `data`
+1. Transfiere `PSPhbb_dev.vpk` a la carpeta `data`
+1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
 
-#### Section II - Installing VPKs
+#### Sección II - Instalar VPKs
 
-1. On your device, navigate to `ux0:` -> `data/`
+1. En tu consola, navega a `ux0:` -> `data/`
 1. Press (Square) on each of the `.vpk` files to mark them
 1. Press (Triangle) to open the menu, then select "More" -> "Install all" to install the marked files
 1. Press (Cross) to confirm the install
