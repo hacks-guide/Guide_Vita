@@ -17,12 +17,12 @@ This will use FTP (File Transfer Protocol) to transfer the files, so your Vita a
 Ya debes haber instalado VitaShell para usar esto.
 {: .notice--info}
 
-### What You Need
+### Qué necesitas
 
 * A formatted storage device compatible with your system
   + To format your device, see [Storage Format (Windows)](storage-format-(windows)), [Storage Format (Linux)](storage-format-(linux)), or [Storage Format (Mac)](storage-format-(mac))
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
+* Un cliente FTP como [WinSCP](https://winscp.net/) o [CyberDuck](https://cyberduck.io/)
+  + Alternativamente, puedes usar la función de transferencia vía USB de VitaShell
 * The latest release of [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
   + `storage_config.txt` should be edited to fit your situation as instructed in the [README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
   + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
@@ -30,14 +30,14 @@ Ya debes haber instalado VitaShell para usar esto.
   + `GCD=ux0` should be kept as-is for SD2Vita users, and edited to `UMA=ux0` for USB drive and psvd users
   + `UMA=grw0` should be removed unless you have multiple storage devices (in which case the device which is not assigned to `ux0:` should be assigned to `grw0:`)
 
-### Instructions
+### Instrucciones
 
 #### Section I - Installing Plugins
 
-1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
+1. Inicia la aplicación VitaShell
+1. Presiona (Select) para activar el acceso FTP en tu consola
+1. Abre el cliente FTP en tu computadora
+1. Ingresa la dirección IP y el puerto mostrados en tu consola
 1. Using your FTP client, copy all files from `ux0:tai/` to `ur0:tai/`
   + Overwrite any existing files in the `ur0:tai/` folder
   + If you do not have a `ux0:tai/` folder, skip this step
