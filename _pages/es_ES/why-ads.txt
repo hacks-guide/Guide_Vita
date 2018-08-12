@@ -1,11 +1,11 @@
 ---
-title: "Why Ads?" #
+title: "¿Por qué anuncios?" #
 layout: single-no-ads
 ---
 
-This project is an extension of hundreds upon hundreds of hours of constant work.
+Este proyecto es el resultado de cientos y cientos de horas de constante trabajo.
 
-We maintain this guide, for free, and ensure it is always up to date. Because of this effort, we feel that it is fair for us to attempt to gain a meager income from our work.
+Mantenemos esta guía en pie sin dinero alguno de por medio, y asegurándonos de que esté siempre actualizada. Por este esfuerzo, sentimos que es justo intentar ganar un poco de dinero por nuestro trabajo.
 
 This site costs you nothing to use, and all that we display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
 
