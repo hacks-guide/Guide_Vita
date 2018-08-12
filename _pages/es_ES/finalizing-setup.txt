@@ -43,7 +43,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Presiona (Select) para activar el acceso FTP en tu consola
 1. Abre el cliente FTP en tu computadora
 1. Ingresa la dirección IP y el puerto mostrados en tu consola
-1. Using your FTP client, navigate to `ux0:` -> `data/`
+1. Usando tu cliente FTP, navega a `ux0:` -> `data/`
   + The `ux0:` partition corresponds to the memory card of your device (on the PS Vita 1000, this partition will always be the external memory card; on the PS Vita 2000 and PS TV, this partition will either be the external memory card if one is inserted, or the built-in memory card otherwise)
   + The `ur0:` partition corresponds to the internal system memory which is always present on all devices (on the PS Vita 2000 and PS TV, this is *not* the same as the built-in memory card!))
 1. Transfer `VitaHBBrowser.vpk` to the `data` folder
@@ -58,11 +58,11 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Transfer `pngshot.suprx` to the `tai` folder
 1. Transfer `kuio.skprx` to the `tai` folder
 1. Transfer `vsh.suprx` to the `tai` folder
-1. Press (Circle) on your device to close the FTP connection
+1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
 
 #### Section II - Installing VPK
 
-1. On your device, navigate to `ux0:` -> `data/`
+1. En tu consola, navega a `ux0:` -> `data/`
 1. Press (Cross) on `VitaHBBrowser.vpk` to install the file
 1. Press (Cross) to confirm the install
 1. Press (Cross) to continue the install when you are prompted about extended permissions
