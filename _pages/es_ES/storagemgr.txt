@@ -14,7 +14,7 @@ By using the StorageMgr kernel plugin, the USB drive or microSD card you use wil
 
 This will use FTP (File Transfer Protocol) to transfer the files, so your Vita and PC must be connected to the same network.
 
-You must have already installed VitaShell to use this.
+Ya debes haber instalado VitaShell para usar esto.
 {: .notice--info}
 
 ### What You Need
