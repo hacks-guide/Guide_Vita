@@ -14,7 +14,7 @@ Esta página es sólo para usuarios de Mac. Si no estás en Mac, revisa las pág
 
 ### Qué necesitas
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+* La última versión de [F3X](https://github.com/insidegui/F3X/releases/latest)
   + No es necesario si no quieres comprobar el dispositivo de almacenamiento por errores
 
 ### Instrucciones
@@ -22,24 +22,24 @@ Esta página es sólo para usuarios de Mac. Si no estás en Mac, revisa las pág
 #### Sección I - Formatear el dispositivo de almacenamiento
 
 1. Inserta el dispositivo de almacenamiento en tu computadora
-1. Launch Disk Utility
-1. Select your storage device
-1. Select the "Partition" menu
-1. Partition your storage device as MBR with one exFAT partition
+1. Ejecuta la Utilidad de discos
+1. Selecciona tu dispositivo de almacenamiento
+1. Selecciona el menú "Particiones"
+1. Particiona tu dispositivo de almacenamiento como MBR con una partición exFAT
 
 #### Sección II - Verificar tu dispositivo de almacenamiento
 
 Si no deseas revisar el dispositivo de almacenamiento en busca de errores, omite esta sección.
 {: .notice--info}
 
-1. Unzip the F3X `.zip` file
+1. Descomprime el archivo F3X `.zip`
 1. Inserta el dispositivo de almacenamiento en tu computadora
-1. Run the F3X app
-1. Select your storage device
-1. Press "Start Test"
+1. Ejecuta la aplicación F3X
+1. Selecciona tu dispositivo de almacenamiento
+1. Haz clic en "Start Test"
 1. Espera hasta que se complete el proceso.
 
-If the test shows the result `Success! Your card is ok!` your storage device is good and you can delete all `.h2w` files on your storage device
+Si la comprobación muestra el resultado `Success! Your card is ok!` tu dispositivo de almacenamiento está bien y puedes borrar todos los archivos `.h2w` de tu dispositivo de almacenamiento
 {: .notice--success}
 
 Si la comprobación muestra otro tipo de resultado, ¡tu dispositivo de almacenamiento puede estar corrupto o dañado y tendrás que reemplazarlo!
