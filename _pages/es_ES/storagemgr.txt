@@ -44,34 +44,34 @@ Ya debes haber instalado VitaShell para usar esto.
 1. Transfiere `storagemgr.skprx` a la carpeta `ur0:tai/`
 1. Transfiere `storage_config.txt` a la carpeta `ur0:tai/`
 1. Reemplaza cualquier ubicación `ux0:` en `ur0:tai/config.txt` para que sean rutas del tipo `ur0`
-  + If you did not have a `ux0:tai/` folder, skip this step
-1. Add the following line to `ur0:tai/config.txt` under the `*KERNEL` line:
+  + Si no tenías una carpeta `ux0:tai/`, sáltate este paso
+1. Agrega la siguiente línea a `ur0:tai/config.txt` bajo la línea `*KERNEL`:
   + `ur0:tai/storagemgr.skprx`
-1. Delete the `ux0:tai/` folder
+1. Borra la carpeta `ux0:tai/`
   
-#### Section II - Restoring Data
+#### Sección II - Restaurar datos
 
-This section will copy the data from your old Sony memory card to your new storage device.
+Esta sección copiará los datos desde tu antigua tarjeta de memoria Sony a tu nuevo dispositivo de almacenamiento.
 {: .notice--info}
 
-1. Backup the contents of `ux0:` to a folder on your computer
-  + This may take some time if you have a large amount of data on your Sony memory card
-1. Insert your new storage device into your computer
-1. Copy the contents of your `ux0:` folder to your new storage device
-  + This may take some time if you have a large amount of data on your Sony memory card
-1. Insert your new storage device into your PS Vita (TV)
+1. Respalda el contenido de `ux0:` a una carpeta en tu computadora
+  + Esto puede tomar algún tiempo si tienes una gran cantidad de datos en tu tarjeta de memoria Sony
+1. Inserta tu nuevo dispositivo de almacenamiento en tu computadora
+1. Copia el contenido de tu carpeta `ux0:` a tu nuevo dispositivo de almacenamiento
+  + Esto puede tomar algún tiempo si tienes una gran cantidad de datos en tu tarjeta de memoria Sony
+1. Inserta tu nuevo dispositivo de almacenamiento en tu PS Vita (TV)
 1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
-1. Close the VitaShell application
+1. Cierra la aplicación VitaShell
 1. Reinicia tu consola
   + Si tu consola no tiene Ensō, deberás iniciar manualmente y salir de h-encore para habilitar homebrew
-  + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
+  + Esto es necesario para cargar los nuevos plugin de kernel añadidos a 'ur0:tai/config.txt'
 
 ___
 
 {% capture notice-1 %}
-If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point) and / or `imc0:` (if you have a PS Vita 2000 or PS TV).
+Si quieres tener más espacio en tu tarjeta de memoria (para usarlo para guardar juegos de PSP, por ejemplo), puedes borrar el contenido de `uma0:` (el punto de montaje de la nueva tarjeta de memoria) y/o `imc0:` (si tienes una PS Vita 200 o PS TV).
 
-If you decide to do this and are using h-encore on firmware versions 3.67 or 3.68, you must *not* delete these folders:
+Si decides hacer esto y estás usando h-encore en versiones de firmware 3.67 o 3.68, debes *conservar* las siguientes carpetas:
 
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
@@ -79,10 +79,10 @@ If you decide to do this and are using h-encore on firmware versions 3.67 or 3.6
   + `uma0:license/app/PCSG90096`
   + `uma0:user/00/savedata/PCSG90096`
 
-This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore StorageMgr) after a reboot.
+Esto es porque debes mantener h-encore instalado en la tarjeta de memoria para que puedas activar HENkaku (y por ende StorageMgr) luego de reiniciar.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Your new storage device is now configured and ready for use at the mount point specified in your `storage_config.txt`.
+Tu nuevo dispositivo de almacenamiento ya está configurado y listo para usar en el punto de montaje que especificaste en `storage_config.txt`.
 {: .notice--success}
