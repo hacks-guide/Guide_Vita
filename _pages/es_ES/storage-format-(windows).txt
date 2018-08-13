@@ -17,14 +17,14 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 * [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }})
 * The latest version of [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
 * The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-  + This is not required if you do not want to check your storage device for errors
+  + No es necesario si no quieres comprobar el dispositivo de almacenamiento por errores
 
 ### Instrucciones
 
-#### Section I - Formatting Storage Device
+#### Sección I - Formatear el dispositivo de almacenamiento
 
 1. Install Win32DiskImager if you have not already
-1. Insert your storage device into your computer
+1. Inserta el dispositivo de almacenamiento en tu computadora
 1. Launch Win32DiskImager
 1. Select `zzBlank.img` as the "Image File"
 1. Set "Device" to the drive letter of your storage device
@@ -39,9 +39,9 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 1. Select "OK" to dismiss the dialogue box when the format completes
 1. Close the format window
 
-#### Section II - Verifying Storage Device
+#### Sección II - Verificar tu dispositivo de almacenamiento
 
-If you do not want to check your storage device for errors, skip this section.
+Si no deseas revisar el dispositivo de almacenamiento en busca de errores, omite esta sección.
 {: .notice--info}
 
 1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
