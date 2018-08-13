@@ -1,21 +1,21 @@
 ---
-title: "Storage Format (Linux)"
+title: "Formatear almacenamiento (Linux)"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 ### Lectura requerida
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+Esta es una sección adicional para formatear el dispositivo de almacenamiento para ser usado con el plugin de kernel StorageMgr.
 
-Additionally, there is an optional section for checking your storage device for errors using F3. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+Además, hay una sección opcional para revisar tu dispositivo de almacenamiento en busca de errores usando F3. Dependiendo del tamaño tu dispositivo de almacenamiento y la velocidad de tu computadora, ¡este proceso podría tardar varias horas!
 
-This page is for Linux users only. If you are not on Linux, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Mac)](storage-format-(mac)) pages.
+Esta página es solo para usuarios de Linux. Si no estás en Linux, revisa las páginas [Formatear almacenamiento (Windows)](storage-format-(windows)) o [Formatear almacenamiento (Mac)](storage-format-(mac)).
 
 ### Qué necesitas
 
-* The latest version of [exfat-utils](https://github.com/relan/exfat) for your distribution (check your package manager)
-* The latest version of [fuse-exfat](https://github.com/relan/exfat) for your distribution (check your package manager)
+* La última versión de [exfat-utils](https://github.com/relan/exfat) para tu distribución (revisa en tu gestor de paquetes)
+* La última versión de [fuse-exfat](https://github.com/relan/exfat) para tu distribución (revisa en tu gestor de paquetes)
 * The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
   + This is not required if you do not want to check your storage device for errors
 
