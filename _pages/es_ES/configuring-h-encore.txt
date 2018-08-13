@@ -54,7 +54,7 @@ This section is not recommended for devices on firmware version 3.65 as Ensō ca
 1. Press (Square) to un-mark `system.dat`
 1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Delete" to delete the folder
 1. Presiona (Cruz) para confirmar la eliminación
-1. Close the VitaShell application
+1. Cierra la aplicación VitaShell
 1. Launch the h-encore application
 1. When the "Bitter Smile" main menu appears, close the h-encore application
 1. Inicia la aplicación VitaShell
@@ -66,7 +66,7 @@ This section is not recommended for devices on firmware version 3.65 as Ensō ca
 1. Press (Circle) to return to the `savedata` folder
 1. Press (Triangle) on the `system.dat` file to open the menu, then select "Delete" to delete the file
 1. Presiona (Cruz) para confirmar la eliminación
-1. Close the VitaShell application
+1. Cierra la aplicación VitaShell
 
 ___
 ### Methods
