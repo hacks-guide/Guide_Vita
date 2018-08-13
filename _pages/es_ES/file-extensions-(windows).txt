@@ -35,5 +35,5 @@ This will make it easier for you to find the referenced files in the rest of thi
     
 ___
 
-### Return to [Get Started](get-started)
+### Regresa a [Comencemos](get-started)
 {: .notice--primary}
