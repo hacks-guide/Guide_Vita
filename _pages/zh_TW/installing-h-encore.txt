@@ -50,7 +50,7 @@ h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您
 1. 在您的電腦中啟動 finalhe
   + 如果您使用的是 Windows 電腦且系統跳出防火牆警示，請允許 finalhe 連接至網路
 1. 於您的主機中啟動「內容管理員」
-1. 選擇『Copy Content』
+1. 選擇『複製內容』
 1. 選擇『PC』
 1. 選擇您想要連接至 finalhe 的方式
   + 如果您被要求登入至 PlayStation Network，請登入
