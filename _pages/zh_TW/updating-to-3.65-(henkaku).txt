@@ -19,7 +19,7 @@ title: "更新至 3.65 (持有 HENkaku 的主機)"
 #### 第一節 — 取消記憶卡連結
 
 1. 啟動設定
-1. 移動至 `HENkaku Settings`
+1. 移動至 `HENkaku 設置`
 1. 取消勾選『Enable PSN spoofing (啟用假PSN)』
 1. 選擇『Unlink Memory Card (取消記憶卡連結)』
   + 如果您不取消您主機與您記憶卡間的連結，此記憶卡必須先經過格式化才能在更新後的系統中使用
