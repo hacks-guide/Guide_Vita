@@ -23,7 +23,7 @@ While the h-encore exploit itself is compatible with firmware versions 3.67 and 
 
 #### Section I - DNS Configuration
 
-1. Launch the Settings application
+1. Inicia la aplicación Ajustes
 1. Navigate to `Network` -> `Wi-Fi Settings`
   + Connect to a Wi-Fi network if you have not already done so
 1. Select your current connection
