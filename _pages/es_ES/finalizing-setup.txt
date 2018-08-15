@@ -1,57 +1,57 @@
 ---
-title: "Finalizing Setup"
+title: "Finalizar instalación"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 ### Lectura requerida
 
-We will now setup applications and plugins such as the following:    
+Ahora configuraremos aplicaciones y plugins tales como:    
 
-+  **Vita Homebrew Browser** *(downloads and installs other homebrew applications)*
-+  **NoNpDrm** *(allows for encrypted games and applications to be used)*
-+  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
-+  **shellbat** *(displays exact battery percentage in the status bar)*
-+  **pngshot** *(improves the built-in screenshot utility)*
-+  **PSV VSH Menu** *(in-game menu for overclocking or displaying the frame-rate)*
++  **Vita Homebrew Browser** *(descarga e instala otras aplicación homebrew)*
++  **NoNpDrm** *(permite que juegos y aplicaciones encriptadas sean utilizadas)*
++  **DownloadEnabler** *(permite descargar cualquier tipo de archivo con el navegador)*
++  **shellbat** *(muestra el porcentaje de batería exacto en la barra de estado)*
++  **pngshot** *(mejora la utilidad de captura de pantalla integrada)*
++  **PSV VSH Menu** *(menú in-game para overclocking o mostrar la velocidad de cuadros)*
 
-In order to install the necessary `.vpk` (content package) files on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card. 
+Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu consola, usaremos [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) para copiar archivos a la tarjeta de memoria de tu consola. 
 
 ### Qué necesitas
 
 * Un cliente FTP como [WinSCP](https://winscp.net/) o [CyberDuck](https://cyberduck.io/)
   + Alternativamente, puedes usar la función de transferencia vía USB de VitaShell
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
-* The latest release of [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
-* The latest release of [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
-* The latest release of [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(both files)*
+* La última versión del [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
+* La última versión de [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
+* La última versión de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
+* La última versión de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
+* La última versión de [pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* La última versión de [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(ámbos archivos)*
 
 ### Instrucciones
 
 #### Sección I - Preparativos
 
 1. Inicia la aplicación VitaShell
-1. Press (Start) to open the VitaShell settings
-1. Press (Cross) on "SELECT button" to change the mode to "FTP"
-  + Alternatively, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
-  + Note that the USB transfer mode will start you in the ux0 partition
-  + Additionally, some files will be hidden in USB mode on Windows; you must enable "Show hidden files, folders, and drives" and disable "Hide protected operating system files" in the File Explorer options in order to see all files
-1. Press (Circle) to close the VitaShell settings
+1. Presiona (Start) para abrir los ajustes de VitaShell
+1. Presiona (Cruz) sobre "SELECT button" para cambiar el modo a "FTP"
+  + Alternativamente, puedes dejar este ajuste en "USB" para transferir todos los archivos vía cable USB por el resto de esta guía
+  + Ten en cuenta que el modo de transferencia USB te deja inicialmente en la partición ux0
+  + Adicionalmente, algunos archivos estarán ocultos en el modo USB en Windows; debes activar "Mostrar archivos, carpetas y unidades ocultos" y desactivar "Ocultar archivos protegidos del sistema operativo" en el Explorador de archivos para poder ver todos los archivos
+1. Presiona (Círculo) para cerrar los ajustes de VitaShell
 1. Presiona (Select) para activar el acceso FTP en tu consola
 1. Abre el cliente FTP en tu computadora
 1. Ingresa la dirección IP y el puerto mostrados en tu consola
 1. Usando tu cliente FTP, navega a `ux0:` -> `data/`
-  + The `ux0:` partition corresponds to the memory card of your device (on the PS Vita 1000, this partition will always be the external memory card; on the PS Vita 2000 and PS TV, this partition will either be the external memory card if one is inserted, or the built-in memory card otherwise)
-  + The `ur0:` partition corresponds to the internal system memory which is always present on all devices (on the PS Vita 2000 and PS TV, this is *not* the same as the built-in memory card!))
-1. Transfer `VitaHBBrowser.vpk` to the `data` folder
-1. Using your FTP client, navigate to `ux0:`
-1. Delete the `tai` folder
-1. Navigate to `ur0:` -> `tai/`
-1. Transfer `config.txt` to  the `tai` folder
-  + Overwrite (replace) the existing `config.txt` file
+  + La partición `ux0:` corresponde a la tarjeta de memoria de tu consola (en la PS Vita 1000, esta partición siempre será la tarjeta de memoria externa; en la PS Vita 2000 y PS TV, esta partición será la tarjeta de memoria externa si hay una insertada, o la memoria interna en caso contrario)
+  + La partición `ur0:` corresponde a la memoria interna del sistema la cual está presente en todas las consolas (¡en la PS Vita 2000 y PS TV, esto *no* es lo mismo que la tarjeta de memoria integrada!)
+1. Transfiere `VitaHBBrowser.vpk` a la carpeta `data`
+1. Usando tu cliente FTP, navega a `ux0:`
+1. Borrar la carpeta `tai`
+1. Ve a `ur0:` -> `tai/`
+1. Transfiere `config.txt` a la carpeta `tai`
+  + Sobreescribe (reemplaza) el archivo `config.txt` existente
 1. Transfer `nonpdrm.skprx` to the `tai` folder
 1. Transfer `download_enabler.suprx` to the `tai` folder
 1. Transfer `shellbat.suprx` to the `tai` folder
@@ -82,7 +82,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Navigate to "Spoofed Version"
 1. Enter "3.68" into the box
   + Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN
-1. Close the Settings application
+1. Cierra la aplicación Ajustes
 
 #### Section IV - Cleanup
 
