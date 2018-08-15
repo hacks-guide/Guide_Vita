@@ -14,7 +14,7 @@ Prior to installing the h-encore exploit, we configure your network's DNS settin
 
 In addition to installing the h-encore exploit, we enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the "administrator" mode on a computer.
 
-If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
+If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. Esta restricción no aplica a los modelos PS Vita 2000 o PS TV debido a que poseen una tarjeta de memoria interna.
     
 The "finalhe" tool is used to automate the h-encore installation.
 
@@ -29,7 +29,7 @@ The "finalhe" tool is used to automate the h-encore installation.
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
 {: .notice--warning}
 
-1. Launch the Settings application
+1. Inicia la aplicación Ajustes
 1. Navigate to `Network` -> `Wi-Fi Settings`
   + Connect to a Wi-Fi network if you have not already done so
 1. Select your current connection
@@ -42,7 +42,7 @@ Note that these DNS servers will need to be set on each network you connect your
 1. Return to the main Settings menu
 1. Navigate to `System` -> `Auto-Start Settings`
 1. Uncheck "Download Update File for System Software"
-1. Close the Settings application
+1. Cierra la aplicación Ajustes
 
 #### Section II - finalhe
 
