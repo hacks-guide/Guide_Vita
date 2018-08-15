@@ -41,8 +41,8 @@ It is more convenient than h-encore as it does not require you to trigger an exp
 1. En tu consola, navega a `ux0:` -> `data/`
 1. Press (Cross) on `enso.vpk` to install the file
 1. Presiona (Cruz) para confirmar la instalación
-1. Press (Cross) to continue the install when you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked file
+1. Presiona (Cruz) para continuar la instalación cuando se pregunte sobre permisos extendidos
+1. Presiona (Triángulo) para abrir el menú, luego selecciona "Delete" para borrar el archivo marcado
 1. Presiona (Cruz) para confirmar la eliminación
 1. Cierra la aplicación VitaShell
 
