@@ -67,7 +67,7 @@ Note that these DNS servers will need to be set on each network you connect your
   + Este proceso tomará algún tiempo
 1. Select "PC -> PS Vita System" on your device
 1. Select "Applications"
-1. Select "PS Vita"
+1. Selecciona "PS Vita"
 1. Select "h-encore"
 1. Select "Copy"
 1. Select "OK"
