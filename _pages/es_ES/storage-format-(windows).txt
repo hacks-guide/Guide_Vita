@@ -62,5 +62,5 @@ Si la comprobación muestra otro tipo de resultado, ¡tu dispositivo de almacena
 
 ___
 
-### Return to [StorageMgr](storagemgr)
+### Vuelve a [StorageMgr](storagemgr)
 {: .notice--primary}
