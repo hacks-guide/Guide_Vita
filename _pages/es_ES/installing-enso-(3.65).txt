@@ -23,12 +23,12 @@ It is more convenient than h-encore as it does not require you to trigger an exp
 #### Sección I - Preparativos
 
 1. Inicia la aplicación VitaShell
-1. Press (Start) to open the VitaShell settings
-1. Press (Cross) on "SELECT button" to change the mode to "FTP"
-  + Alternatively, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
-  + Note that the USB transfer mode will start you in the ux0 partition
-  + Additionally, some files will be hidden in USB mode on Windows; you must enable "Show hidden files, folders, and drives" and disable "Hide protected operating system files" in the File Explorer options in order to see all files
-1. Press (Circle) to close the VitaShell settings
+1. Presiona (Start) para abrir los ajustes de VitaShell
+1. Presiona (Cruz) sobre "SELECT button" para cambiar el modo a "FTP"
+  + Alternativamente, puedes dejar este ajuste en "USB" para transferir todos los archivos vía cable USB por el resto de esta guía
+  + Ten en cuenta que el modo de transferencia USB te deja inicialmente en la partición ux0
+  + Adicionalmente, algunos archivos estarán ocultos en el modo USB en Windows; debes activar "Mostrar archivos, carpetas y unidades ocultos" y desactivar "Ocultar archivos protegidos del sistema operativo" en el Explorador de archivos para poder ver todos los archivos
+1. Presiona (Círculo) para cerrar los ajustes de VitaShell
 1. Presiona (Select) para activar el acceso FTP en tu consola
 1. Abre el cliente FTP en tu computadora
 1. Ingresa la dirección IP y el puerto mostrados en tu consola
@@ -55,5 +55,5 @@ It is more convenient than h-encore as it does not require you to trigger an exp
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continúa en [Finalizar instalación](finalizing-setup)
 {: .notice--primary}
