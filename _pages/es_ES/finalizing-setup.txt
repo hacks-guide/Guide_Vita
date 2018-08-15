@@ -52,54 +52,54 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 1. Ve a `ur0:` -> `tai/`
 1. Transfiere `config.txt` a la carpeta `tai`
   + Sobreescribe (reemplaza) el archivo `config.txt` existente
-1. Transfer `nonpdrm.skprx` to the `tai` folder
-1. Transfer `download_enabler.suprx` to the `tai` folder
-1. Transfer `shellbat.suprx` to the `tai` folder
-1. Transfer `pngshot.suprx` to the `tai` folder
-1. Transfer `kuio.skprx` to the `tai` folder
-1. Transfer `vsh.suprx` to the `tai` folder
+1. Transfiere `nonpdrm.skprx` a la carpeta `tai`
+1. Transfiere `download_enabler.suprx` a la carpeta `tai`
+1. Transfiere `shellbat.suprx` a la carpeta `tai`
+1. Transfiere `pngshot.suprx` a la carpeta `tai`
+1. Transfiere `kuio.skprx` a la carpeta `tai`
+1. Transfiere `vsh.suprx` a la carpeta `tai`
 1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
 
-#### Section II - Installing VPK
+#### Sección II - Instalar VPK
 
 1. En tu consola, navega a `ux0:` -> `data/`
-1. Press (Cross) on `VitaHBBrowser.vpk` to install the file
+1. Presiona (Cruz) sobre `VitaHBBrowser.vpk` para instalar el archivo
 1. Presiona (Cruz) para confirmar la instalación
-1. Press (Cross) to continue the install when you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked file
+1. Presiona (Cruz) para continuar la instalación cuando se pregunte sobre permisos extendidos
+1. Presiona (Triángulo) para abrir el menú, luego selecciona "Delete" para borrar el archivo marcado
 1. Presiona (Cruz) para confirmar la eliminación
-1. Close the VitaShell application
+1. Cierra la aplicación VitaShell
 1. Reinicia tu consola
   + Si tu consola no tiene Ensō, deberás iniciar manualmente y salir de h-encore para habilitar homebrew
-  + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
-  + To confirm that everything is working, you should now see a battery percentage in the status bar
+  + Esto es necesario para cargar los nuevos plugin de kernel añadidos a 'ur0:tai/config.txt'
+  + Para confirmar que todo está funcionando, ahora deberías ver el porcentaje de batería en la barra de estado
 
-#### Section III - PSN Access
+#### Sección III - Acceso a PSN
 
-1. Navigate to `HENkaku Settings`
-1. Check "Enable PSN spoofing"
-1. Check "Enable Version Spoofing"
-1. Navigate to "Spoofed Version"
-1. Enter "3.68" into the box
-  + Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN
+1. Ve a `HENkaku Settings`
+1. Marca "Enable PSN spoofing"
+1. Marca "Enable Version Spoofing"
+1. Ve a "Spoofed Version"
+1. Escribe "3.68" en el recuadro
+  + Cuando se publique una nueva versión en el futuro, debes cambiar la versión falsificada para coincidir de modo de poder acceder a PSN
 1. Cierra la aplicación Ajustes
 
-#### Section IV - Cleanup
+#### Sección IV - Limpieza
 
-1. Launch the Content Manager application
-1. Select "Manage Content on Memory Card"
-1. Select "PS Vita"
-1. Delete the following applications if they exist (note that, depending on your install method, some or all of these applications may be missing):
+1. Inicia la aplicación Gestor de contenido
+1. Selecciona "Gestionar contenido en la tarjeta de memoria"
+1. Selecciona "PS Vita"
+1. Elimina las siguientes aplicaciones si existen (ten en cuenta que, dependiendo de tu método de instalación, algunas podrían no estar):
   + "ensō"
   + "molecularShell"
-1. Close the Content Manager application
+1. Cierra la aplicación Gestor de contenido
 
 ___
 
-You can now easily install new homebrew applications just by using Vita Homebrew Browser. Alternatively, you can also browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
+Ahora puedes fácilmente instalar nuevas aplicaciones homebrew tan sólo utilizando el Vita Homebrew Browser. Alternativamente, también puedes buscar nuevas aplicaciones homebrew en [VitaDB](https://vitadb.rinnegatamante.it/).
 {: .notice--info}
 
-You can now press (L) + (R) + (Start) or (L) + (R) + (Select) while in a game to open the PSV VSH Menu. This menu allows you to configure "overclocking" settings (which just allows your device to run at its maximum speed since it is normally underclocked by Sony) and view information such as the frame-rate and battery status.
+Ahora puedes presionar (L) + (R) + (Start) o (L) + (R) + (Select) en un juego para abrir el PSV VSH Menu. Este menú te permite configurar los ajustes de "overclocking" (que permiten ejecutar tu consola a su máxima velocidad ya que Sony reduce su desempeño (underclock)) y poder ver información como la velocidad de cuadros por segundo y el estado de la batería.
 {: .notice--info}
 
 For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [StorageMgr](storagemgr) page.
