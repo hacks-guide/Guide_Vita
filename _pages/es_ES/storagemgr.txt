@@ -43,7 +43,7 @@ Ya debes haber instalado VitaShell para usar esto.
   + Si no tienes una carpeta `ux0:tai/`, sáltate este paso
 1. Transfiere `storagemgr.skprx` a la carpeta `ur0:tai/`
 1. Transfiere `storage_config.txt` a la carpeta `ur0:tai/`
-1. For any paths in `ur0:tai/config.txt` which contain `ux0:tai/`, replace `ux0:tai/` with `ur0:tai/` 
+1. Para cualquier ruta en `ur0:tai/config.txt` que contenga `ux0:tai/`, reemplaza `ux0:tai/` con `ur0:tai/` 
   + Si no tenías una carpeta `ux0:tai/`, sáltate este paso
 1. Agrega la siguiente línea a `ur0:tai/config.txt` bajo la línea `*KERNEL`:
   + `ur0:tai/storagemgr.skprx`
