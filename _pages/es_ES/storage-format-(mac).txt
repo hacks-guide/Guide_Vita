@@ -1,51 +1,51 @@
 ---
-title: "Storage Format (Mac)"
+title: "Formatear almacenamiento (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+Esta es una sección adicional para formatear el dispositivo de almacenamiento para ser usado con el plugin de kernel StorageMgr.
 
-Additionally, there is an optional section for checking your storage device for errors using F3X. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+Además, hay una sección opcional para revisar tu dispositivo de almacenamiento en busca de errores usando F3X. Dependiendo del tamaño tu dispositivo de almacenamiento y la velocidad de tu computadora, ¡este proceso podría tardar varias horas!
 
-This page is for Mac users only. If you are not on Mac, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Linux)](storage-format-(linux)) pages.
+Esta página es sólo para usuarios de Mac. Si no estás en Mac, revisa las páginas [Formatear almacenamiento (Windows)](storage-format-(windows)) o [Formatear almacenamiento (Linux)](storage-format-(linux)).
 
-### What You Need
+### Qué necesitas
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
-  + This is not required if you do not want to check your storage device for errors
+* La última versión de [F3X](https://github.com/insidegui/F3X/releases/latest)
+  + No es necesario si no quieres comprobar el dispositivo de almacenamiento por errores
 
-### Instructions
+### Instrucciones
 
-#### Section I - Formatting Storage Device
+#### Sección I - Formatear el dispositivo de almacenamiento
 
-1. Insert your storage device into your computer
-1. Launch Disk Utility
-1. Select your storage device
-1. Select the "Partition" menu
-1. Partition your storage device as MBR with one exFAT partition
+1. Inserta el dispositivo de almacenamiento en tu computadora
+1. Ejecuta la Utilidad de discos
+1. Selecciona tu dispositivo de almacenamiento
+1. Selecciona el menú "Particiones"
+1. Particiona tu dispositivo de almacenamiento como MBR con una partición exFAT
 
-#### Section II - Verifying Storage Device
+#### Sección II - Verificar tu dispositivo de almacenamiento
 
-If you do not want to check your storage device for errors, skip this section.
+Si no deseas revisar el dispositivo de almacenamiento en busca de errores, omite esta sección.
 {: .notice--info}
 
-1. Unzip the F3X `.zip` file
-1. Insert your storage device into your computer
-1. Run the F3X app
-1. Select your storage device
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. Descomprime el archivo F3X `.zip`
+1. Inserta el dispositivo de almacenamiento en tu computadora
+1. Ejecuta la aplicación F3X
+1. Selecciona tu dispositivo de almacenamiento
+1. Haz clic en "Start Test"
+1. Espera hasta que se complete el proceso.
 
-If the test shows the result `Success! Your card is ok!` your storage device is good and you can delete all `.h2w` files on your storage device
+Si la comprobación muestra el resultado `Success! Your card is ok!` tu dispositivo de almacenamiento está bien y puedes borrar todos los archivos `.h2w` de tu dispositivo de almacenamiento
 {: .notice--success}
 
-If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
+Si la comprobación muestra otro tipo de resultado, ¡tu dispositivo de almacenamiento puede estar corrupto o dañado y tendrás que reemplazarlo!
 {: .notice--danger}
 
 ___
 
-### Return to [Get Started](get-started)
+### Regresa a [Comencemos](get-started)
 {: .notice--primary}

@@ -1,15 +1,15 @@
 ---
-title: "Why Ads?" #
+title: "¿Por qué anuncios?" #
 layout: single-no-ads
 ---
 
-This project is an extension of hundreds upon hundreds of hours of constant work.
+Este proyecto es el resultado de cientos y cientos de horas de constante trabajo.
 
-We maintain this guide, for free, and ensure it is always up to date. Because of this effort, we feel that it is fair for us to attempt to gain a meager income from our work.
+Mantenemos esta guía en pie sin dinero alguno de por medio, y asegurándonos de que esté siempre actualizada. Por este esfuerzo, sentimos que es justo intentar ganar un poco de dinero por nuestro trabajo.
 
-This site costs you nothing to use, and all that we display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
+Este sitio no tiene ningún costo de uso, así como ningún anuncio mostrado es intrusivo. Si aún así tienes problemas con esto, eres libre de bloquear los anuncios.
 
-If you do block ads, we would like to also remind you of the [Donations](donations) page, but once again that is optional too.
+Si bloqueas los anuncios, me gustaría recordarte sobre la página de [Donaciones](donations), pero de nuevo, esto también es opcional.
 
-Thanks,<br>
-Plailect, emiyl & T3CHNOLOG1C
+Gracias, <br>
+Plailect, emiyl y T3CHNOLOG1C
