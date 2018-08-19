@@ -43,7 +43,7 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
   + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 複製 `storagemgr.skprx` 至 `ur0:tai/` 資料夾中
 1. 複製 `storage_config.txt` 至 `ur0:tai/` 資料夾中
-1. 將 `ur0:tai/config.txt` 內的 `ux0:` 替代為 `ur0:`
+1. For any paths in `ur0:tai/config.txt` which contain `ux0:tai/`, replace `ux0:tai/` with `ur0:tai/` 
   + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 將下列的字串加入至 `ur0:tai/config.txt` 中 `*KERNEL` 行列下：
   + `ur0:tai/storagemgr.skprx`
