@@ -46,8 +46,8 @@ You must have already installed VitaShell to use this.
 #### Section III - Modifying Plugin Config
 
 1. Press (Circle) to return to `ux0:`
-  + If your config is located at `ur0:tai`, press (Circle) again and then navigate to `ur0:`
 1. Navigate to `tai/`
+  + If `urx:tai` doesn't exist, press (Circle) again and then navigate to `ur0:taix`
 1. Press (Cross) on `config.txt` to open it in the editor
 1. Highlight the `*KERNEL` line with the cursor
 1. Press (Triangle) to open the menu, then select "Insert empty line"
