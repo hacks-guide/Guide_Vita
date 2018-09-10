@@ -46,7 +46,7 @@ Ya debes haber instalado VitaShell para usar esto.
 #### Sección III - Modificar la configuración del plugin
 
 1. Presiona (Círculo) para regresar a `ux0:`
-  + If your config is located at `ur0:tai`, press (Circle) again and then navigate to `ur0:`
+  + Si tu configuración está ubicada en `ur0:tai`, presiona (Círculo) nuevamente y ve a `ur0:`
 1. Ve a `tai/`
 1. Presiona (Cruz) sobre `config.txt` para abrirlo en el editor
 1. Resalta la línea `*KERNEL` con el cursor
