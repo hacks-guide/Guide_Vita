@@ -44,5 +44,10 @@ title: "Начало"
       <td style="text-align: center; font-weight: bold;">3.68</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">Установка h-encore</a></td>
     </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.69</td>
+      <td style="text-align: center; font-weight: bold;">3.69</td>
+      <td style="text-align: center; font-weight: bold;">---</td>
+    </tr>
   </tbody>
 </table>
