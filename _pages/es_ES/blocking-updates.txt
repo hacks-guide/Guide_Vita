@@ -1,12 +1,12 @@
 ---
-title: "Blocking Updates"
+title: "Bloquear actualizaciones"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 ### Lectura requerida
 
-The latest PS Vita exploit is not compatible with versions 3.69 and higher. As a result, we must wait for a new exploit to be released and stop the Vita updating any further than its current firmware version. Updating further may patch future exploits which could be used.
+El último exploit de PS Vita no es compatible con las versiones 3.69 y superiores. Por ello, debemos esperar a que un nuevo exploit sea lanzado y detener cualquier actualización de Vita que sea superior a su versión de firmware actual. Actualizar podría arreglar cualquier exploit futuro que pudiera ser utilizado.
 
 Para hacer esto, configuraremos los ajustes de DNS de la red para utilizar un servidor de actualización *custom* el cual indica que la versión 3.65 es la última actualización disponible. Esto tiene el efecto de evitar que cualquier versión de firmware superior a 3.65 sea instalada si la consola intenta realizar una actualización.
 
