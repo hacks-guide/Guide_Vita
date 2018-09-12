@@ -1,5 +1,5 @@
 ---
-title: "Blocking Updates"
+title: "Блокировка обновлений"
 ---
 
 {% include toc title="Содержание" %}
