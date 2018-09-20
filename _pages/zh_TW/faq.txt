@@ -3,7 +3,7 @@ title: "常見問題 FAQ"
 ---
 
 <a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*    
-**A:** 可以的！
+**A:** 目前不行。
 
 <a name="faq_downgrade" />**Q:** *我能降級我的 Vita 系統嗎？*    
 **A:** 不行。
