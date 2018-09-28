@@ -3,7 +3,7 @@ title: "FAQ"
 ---
 
 <a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes!
+**A:** Not at this time.
 
 <a name="faq_downgrade" />**Q:** *Can I downgrade my Vita?*    
 **A:** No.
