@@ -1,12 +1,12 @@
 ---
-title: "Blocking Updates"
+title: "阻擋更新"
 ---
 
 {% include toc title="條目內容" %}
 
 ### 必讀事項
 
-The latest PS Vita exploit is not compatible with versions 3.69 and higher. As a result, we must wait for a new exploit to be released and stop the Vita updating any further than its current firmware version. Updating further may patch future exploits which could be used.
+最新版的 PS Vita 漏洞無法與版本 3.69 或更新的系統版本相容。 因此，我們必須等待新版的漏洞釋出且於同時阻止 Vita 更新至任何更新版本的系統韌體。 更新可能將阻止您使用任何未來所研發的漏洞。
 
 我們將透過設定您主機的 DNS 設定將更新伺服器設定為一個第三方的伺服器，如此一來，在您的主機眼中 3.65 即會是最新版的系統韌體。 透過這點，我們能阻擋任何比 3.65 更新的系統韌體被安裝到您的主機中。
 
