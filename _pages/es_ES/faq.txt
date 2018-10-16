@@ -3,7 +3,7 @@ title: "Preguntas Frecuentes"
 ---
 
 <a name="faq_latestfw" />**P:** *Estoy en la última versión de sistema, ¿mi consola es hackeable?*    
-**A:** Not at this time.
+**R:** No en este momento.
 
 <a name="faq_downgrade" />**Q:** *¿Puedo hacer downgrade a mi Vita?*    
 **R:** No.

@@ -11,7 +11,7 @@ Different device versions will require different steps to achieve the end goal o
 Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.03 to 3.57" row includes 1.03, 3.57, and all versions in-between.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.03 to 3.63" row includes 1.03, 3.63, and all versions in-between.
 
 Your device version can be found under the System Information menu in the System category of the Settings application.
 

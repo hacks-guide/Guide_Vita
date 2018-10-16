@@ -22,7 +22,7 @@ This page is for Mac users only. If you are not on Mac, check out the [Storage F
 #### Section I - Formatting Storage Device
 
 1. Insert your storage device into your computer
-1. Launch Disk Utility
+1. Lansaţi Utilitar disc
 1. Select your storage device
 1. Select the "Partition" menu
 1. Partition your storage device as MBR with one exFAT partition

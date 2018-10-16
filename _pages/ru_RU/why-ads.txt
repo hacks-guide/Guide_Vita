@@ -12,4 +12,4 @@ layout: single-no-ads
 Если вы блокируете рекламу, то не забывайте про пожертвования на этой странице: [Donations](donations); впрочем, и это необязательно.
 
 С уважением,<br>
-Plailect, emiyl & T3CHNOLOG1C
+Plailect & emiyl
