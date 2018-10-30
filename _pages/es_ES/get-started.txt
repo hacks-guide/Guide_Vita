@@ -11,7 +11,7 @@ Las diferentes versiones de modelos requerirán diferentes pasos para completar 
 ¡Antes de empezar, se recomienda que los usuarios de Windows habiliten la opción para mostrar extensiones de archivo mediante [Extensiones de archivos (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Selecciona la página apropiada para tu versión en la tabla de abajo. Ten en cuenta que las columnas "desde" y "hasta" son inclusivas. This means that, for example, the "from 1.03 to 3.63" row includes 1.03, 3.63, and all versions in-between.
+Selecciona la página apropiada para tu versión en la tabla de abajo. Ten en cuenta que las columnas "desde" y "hasta" son inclusivas. Esto significa que, por ejemplo, la fila "desde 1.03 a 3.63" incluye 1.03, 3.63, y todas las versiones entre ellas.
 
 La versión del sistema de tu consola se encuentra debajo del menú de Información del sistema en la categoría Sistema dentro de la aplicación de configuración.
 
