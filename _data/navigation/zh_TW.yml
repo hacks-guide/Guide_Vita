@@ -22,7 +22,7 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: 網站導覽
+    title: Site Navigation
     url: site-navigation
 bottom:
   - 
@@ -41,7 +41,7 @@ sidebar_title:
     title: 整體進度
 sidebar_pages:
   - 
-    title: 首頁
+    title: Home
     url: /
   - 
     title: 新手入門
