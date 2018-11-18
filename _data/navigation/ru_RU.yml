@@ -22,7 +22,7 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Навигация по сайту
+    title: Site Navigation
     url: site-navigation
 bottom:
   - 
@@ -41,7 +41,7 @@ sidebar_title:
     title: Общий прогресс
 sidebar_pages:
   - 
-    title: Главная
+    title: Home
     url: /
   - 
     title: Начало
