@@ -1,92 +1,92 @@
 ---
-title: "Configuring h-encore"
+title: "Configurând h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
-Now that the h-encore exploit is installed on your device (either through the Windows or Linux / Mac method), we will configure it for easy homebrew access.
+Acum că exploit-ul h-encore este instalat în dispozitivul dumneavoastră (fie prin metoda Windows sau Linux / Mac), îl vom configura pentru accesul ușor la have.
   
-### Instructions
+### Instrucțiuni
 
-#### Section I - Configuring h-encore
+#### Secțiunea I - Configurând h-encore
 
-1. Launch the h-encore application
-1. If prompted about trophies, select "Yes"
-1. If the exploit was successful, you will now see the h-encore bootstrap menu
-  + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
-  + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
-1. Select "Install HENkaku"
-  + This will install the HENkaku exploit and enable homebrew access until the next reboot
-1. Select "Download VitaShell"
-  + This will install the VitaShell homebrew application for managing your device's filesystem
-  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
-1. Select "Exit"
+1. Lansați aplicația h-encore
+1. Dacă vi se întreabă despre trofee, selectaţi "Yes"
+1. În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore
+  + Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou
+  + În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou
+1. Selectaţi "Install HENkaku"
+  + Aceasta va instala exploit-ul HENkaku şi va permite accesul la homebrew până la următoarea repornire
+1. Selectați "Download VitaShell"
+  + Aceasta va instala aplicația de homebrew VitaShell pentru a administra sistemul de fișiere al dispozitivului
+  + VitaShell (și toate aplicațiile de homebrew în general) vor rămâne instalate după o repornire, dar vor afișa o eroare la lansare dacă exploit-ul HENkaku nu este activ
+1. Selectaţi "Exit"
 
-#### Section II - Configuring HENkaku
+#### Secțiunea II - Configurând HENkaku
 
-1. Launch the Settings application
-1. Navigate to `HENkaku Settings`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
-1. Check "Enable Unsafe Homebrew"
-1. Return to HENkaku Settings menu
-1. Close the Settings application
+1. Lansați aplicația Settings
+1. Navigați spre `HENkaku Settings`
+  + În cazul în care setările HENkaku lipsesc, selectaţi "Reset taiHEN config.txt" în meniul de pornire h-encore, apoi încercați din nou
+1. Activați "Enable Unsafe Homebrew"
+1. Reveniți la meniul de setări HENkaku
+1. Închideți aplicația Settings
 
-#### Section III - Disabling Trophy Warning
+#### Secţiunea III - Dezactivând avertismentul despre trofee
 
 {% capture notice-1 %}
-This is an optional section which will disable the trophy warning that appears when h-encore is launched. 
+Aceasta este o secțiune suplimentară care va dezactiva avertismentul despre trofee care apare când h-encore este lansat. 
 
-This section is not recommended for devices on firmware version 3.65 as Ensō can replace h-encore on those systems.
+Această secțiune nu este recomandată pentru dispozitivele cu versiunea de firmware 3.65 de vreme ce Ensō poate înlocui h-encore pe acele sisteme.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Launch the VitaShell application
-1. Navigate to `ux0:` -> `user/` -> `00/` -> `savedata`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Square) to un-mark `system.dat`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Delete" to delete the folder
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
-1. Launch the h-encore application
-1. When the "Bitter Smile" main menu appears, close the h-encore application
-1. Launch the VitaShell application
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Delete" to delete the file
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. Lansați aplicația VitaShell
+1. Navigați spre `ux0:` -> `user/` -> `00/` -> `savedata`
+1. Apăsaţi (Triunghi) pe folderul `PCSG90096` pentru a deschide meniul, apoi selectaţi "Open decrypted"
+  + Dacă vedeţi `sce_pfs`, nu ați deschis folderul folosind opţiunea de meniu corectă
+1. Apăsaţi (Triunghi) pe fișierul `system.dat` pentru a deschide meniul, apoi selectaţi "Copy"
+1. Apăsați (X) pentru a închide căsuța de dialog de fișier copiat
+1. Apăsați (O) pentru a vă întoarce la folderul `savedata`
+1. Apăsaţi (Triunghi) pentru a deschide meniul, apoi selectaţi "Paste" pentru a lipi `system.dat` în folderul prezent
+1. Apăsți (Pătrat) pentru a demarca `system.dat`
+1. Apăsaţi (Triunghi) pe folderul `PCSG90096` pentru a deschide meniul, apoi selectaţi "Delete" pentru a șterge folderul
+1. Apăsați (X) pentru a confirma stergerea
+1. Închideți aplicația VitaShell
+1. Lansați aplicația h-encore
+1. Când apare meniul principal "Bitter Smile", închideți aplicația h-enore
+1. Lansați aplicația VitaShell
+1. Apăsaţi (Triunghi) pe fișierul `system.dat` pentru a deschide meniul, apoi selectaţi "Copy"
+1. Apăsați (X) pentru a închide căsuța de dialog de fișier copiat
+1. Apăsaţi (Triunghi) pe folderul `PCSG90096` pentru a deschide meniul, apoi selectaţi "Open decrypted"
+  + Dacă vedeţi `sce_pfs`, nu ați deschis folderul folosind opţiunea de meniu corectă
+1. Apăsaţi (Triunghi) pentru a deschide meniul, apoi selectaţi "Paste" pentru a lipi `system.dat` în folderul prezent
+1. Apăsați (O) pentru a vă întoarce la folderul `savedata`
+1. Apăsaţi (Triunghi) pe fișierul `system.dat` pentru a deschide meniul, apoi selectaţi "Delete" pentru a șterge fișierul
+1. Apăsați (X) pentru a confirma stergerea
+1. Închideți aplicația VitaShell
 
 ___
-### Methods
+### Metode
 
 ___
 
-#### Firmware Version 3.65
+#### Versiunea de firmware 3.65
 
-Devices on firmware version 3.65 can now use the h-encore exploit to install Ensō, a more convenient exploit which runs automatically after a reboot.
+Dispozitivele pe versiunea de firmware 3.65 pot folosi acum exploit-ul h-enceore spre a instala Ensō, un exploit mai convenabil care se execută automat după o repornire.
 
-### Continue to [Installing Ensō (3.65)](installing-enso-(3.65))
+### Continuați spre [Instalând Ensō (3.65)](installing-enso-(3.65))
 {: .notice--primary}
 
 ___
 
-#### Firmware Versions 3.67 and 3.68
+#### Versiuni de firmware 3.67 și 3.68
 
-Devices on firmware versions 3.67 and 3.68 are unfortunately incompatible with Ensō and must perform the h-encore exploit manually after each reboot.
+Dispozitivele pe versiuni de firmware 3.67 şi 3,68 sunt din păcate incompatibile cu Ensō şi trebuie să execute exploit-ul h-encore manual după fiecare repornire.
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continuați la [Finalizând instalarea](finalizing-setup)
 {: .notice--primary}
 
 ___
