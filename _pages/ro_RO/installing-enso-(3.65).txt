@@ -1,59 +1,59 @@
 ---
-title: "Installing Ensō (3.65)"
+title: "Instalând Ensō (3.65)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
-Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to trigger an exploit on your device after every reboot manually.
+Ensō, permite acces convenbil la homebrew pe dispozitiv executând un exploit în timpul pornirii pentru a genera un spaţiu de lucru pentru homebrew. Este mai convenabil decât alte soluţii de CFW (cum ar fi HENkaku sau h-encore) de vreme ce nu are nevoie să porniţi un exploit pe dispozitiv după fiecare repornire manuală.
 
-Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment. 
+Ensō este cea mai bună soluţie de CFW disponibilă pentru PS Vita (TV), care permite acces convenbil la homebrew pe dispozitiv executând un exploit în timpul pornirii pentru a genera un spaţiu de lucru pentru HENkaku. 
 
-It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
+Este mai convenabil decât h-encore de vreme ce nu are nevoie să porniţi un exploit pe dispozitiv după fiecare repornire manuală.
 
-### What You Need
+### Ce aveți nevoie
 
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
-* The latest release of [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
+* Un Client FTP, cum ar fi [WinSCP](https://winscp.net/) sau [CyberDuck](https://cyberduck.io/)
+  + Alternativ, puteţi utiliza VitaShell in modul USB
+* Ultima versiune de [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
-### Instructions
+### Instrucțiuni
 
-#### Section I - Prep Work
+#### Secțiunea I - Preparații
 
-1. Launch the VitaShell application
-1. Press (Start) to open the VitaShell settings
-1. Press (Cross) on "SELECT button" to change the mode to "FTP"
-  + Alternatively, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
-  + Note that the USB transfer mode will start you in the ux0 partition
-  + Additionally, some files will be hidden in USB mode on Windows; you must enable "Show hidden files, folders, and drives" and disable "Hide protected operating system files" in the File Explorer options in order to see all files
-1. Press (Circle) to close the VitaShell settings
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `enso.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
+1. Lansați aplicația VitaShell
+1. Apăsaţi (Start) pentru a deschide setările de VitaShell
+1. Apăsaţi (X) pe "SELECT button" pentru a schimba modul la "FTP"
+  + Alternativ, puteţi lăsa această setare pe "USB" şi transfera toate fişierele prin cablu USB pentru restul ghidului
+  + Ţineţi cont că modul de transfer USB vă va lăsa iniţial pe partiţia ux0
+  + În plus, unele fişiere vor fi ascunse în modul USB pe Windows; trebuie să bifați "Show hidden files, folders and drives" şi debifați "Hide protected operating system files" în opţiunile de File Explorer pentru a vedea toate fişierele
+1. Apăsaţi (Cerc) pentru a închide setările de VitaShell
+1. Apăsați (Select) pentru a activa accesul FTP pe dispozitiv
+1. Deschideţi clientul FTP pe computer
+1. Introduceţi adresa IP şi Portul afişat pe aparatul dvs
+1. Folosind clientul FTP, navigați la `ux0:` -> `data /`
+1. Transferați `enso.vpk` către folderul `data`
+1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
 
-#### Section II - Installing VPK
+#### Secţiunea II - Instalând VPK
 
-1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Cross) on `enso.vpk` to install the file
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install when you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked file
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. Pe dispozitiv, navigaţi la `ux0:` -> `data/`
+1. Apăsați (X) pe `enso.vpk` pentru a instala fişierul
+1. Apăsați (X) pentru a confirma instalarea
+1. Apăsați (X) pentru a continua instalarea când vi se solicită permisiuni extinse
+1. Apăsați (Triunghi) pentru a deschide meniul, apoi selectați "Delete" pentru a șterge fișierul marcat
+1. Apăsați (X) pentru a confirma stergerea
+1. Închideți aplicația VitaShell
 
-#### Section III - Installing Ensō
+#### Secţiunea III - Instalând Ensō
 
-1. Open the Ensō application
-1. Press (Circle) to accept the terms
-1. Press (Cross) to install Ensō
-  + When the process has completed, press any button to reboot your device
+1. Deschideţi aplicația Ensō
+1. Apăsaţi (O) pentru a accepta termenii
+1. Apăsați (X) pentru a instala Ensō
+  + Când procesul s-a completat, apăsaţi orice buton pentru a reporni dispozitivul
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continuați la [Finalizând instalarea](finalizing-setup)
 {: .notice--primary}
