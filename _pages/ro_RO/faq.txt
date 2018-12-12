@@ -1,27 +1,27 @@
 ---
-title: "FAQ"
+title: "Întrebări frecvente"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Not at this time.
+<a name="faq_latestfw" />**Î:** *Am dispozitivul actualizat la zi, este dispozitivul modabil?*    
+** R:** Nu în acest moment.
 
-<a name="faq_downgrade" />**Q:** *Can I downgrade my Vita?*    
-**A:** No.
+<a name="faq_downgrade" /> ** Q: ** * Pot să-mi downgradez Vita-ul?*    
+**A:** Nu.
 
-<a name="faq_update" />**Q:** *Is it safe to update a Vita with CFW?*    
-**A:** No! You must always ensure that you have blocked updates as specified at the end of [Finalizing Setup](finalizing-setup).
+<a name="faq_update" />**Î:** *Este în regulă să actualizez un Vita cu CFW?*    
+**R:** Nu! Trebuie să vă asigurați întotdeauna că ați blocat actualizările așa cum este specificat la sfârșitul secțiunii [Finalizing Setup](finalizing-setup).
 
-<a name="faq_updates" />**Q:** *Now that Sony has ended production of the Vita, does that mean no more updates will be released?*    
-**A:** This is not necessarily the case. The firmware version 3.68 was released six months after the previous update (at which point it was assumed no new updates would be released).
+<a name="faq_updates" />**Î:** *Acum că Sony a încheiat producția de Vita, înseamnă că nu vor mai fi lansate actualizări?*    
+**R:** Nu neapărat. Versiunea firmware 3.68 a fost lansată la șase luni după actualizarea anterioară (moment în care se presupunea că nu s-ar lansa actualizări noi).
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are *basically* impossible unless you ignore instructions.
+<a name="faq_risky" />**Î:** *Cât de riscant este să îmi fac modare la consolă?*    
+**R:** Brickuirea consolei este practic imposibilă atâta timp cât nu ignorați instructiunile.
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! This enables any custom user-made homebrew to be played on your device.
+<a name="faq_homebrew" />**Î:** *Pot rula homebrew și emulatoare cu asta?*    
+**R:** Da! Astfel, orice homebrew poate fi pornit pe consolă.
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6).
+<a name="faq_support" /> **Î:** *Unde ar trebui să mă duc pentru asistenţă?*    
+**R:** Pentru suport, cereți ajutor la [Vita Hacking pe Discord](https://discord.gg/JXEKeg6).
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer?*    
-**A:** No! You must have a PC to complete this guide.
+<a name="faq_nopc" />**Î:** *Pot face asta fără un calculator?*    
+**R:** Nu! Trebuie să aveți un computer pentru a urma acest ghid.

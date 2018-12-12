@@ -1,30 +1,30 @@
 ---
-title: "Site Navigation" #
+title: "Navigarea pe site" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**Toate**
 
 + [Adrenaline](adrenaline)
-+ [Configuring h-encore](configuring-h-encore)
-+ [Credits](credits)
-+ [Donations](donations)
-+ [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
-+ [Finalizing Setup](finalizing-setup)
-+ [Get Started](get-started)
-+ [Home](/)
-+ [Installing Ensō (3.65)](installing-enso-(3.65))
-+ [Installing h-encore](installing-h-encore)
-+ [Storage Format (Linux)](storage-format-(linux))
-+ [Storage Format (Mac)](storage-format-(mac))
-+ [Storage Format (Windows)](storage-format-(windows))
++ [Configurând h-encore](configuring-h-encore)
++ [Contribuții](credits)
++ [Donaţii](donations)
++ [Întrebări frecvente](faq)
++ [Extensii de fișier (Windows)](file-extensions-(windows))
++ [Finalizând instalarea](finalizing-setup)
++ [Începeți](get-started)
++ [Acasă](/)
++ [Instalând Ensō (3.65)](installing-enso-(3.65))
++ [Instalând h-encore](installing-h-encore)
++ [Formatare de stocare (Linux)](storage-format-(linux))
++ [Formatare de stocare (Mac)](storage-format-(mac))
++ [Formatare de stocare (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
-+ [Troubleshooting](troubleshooting)
-+ [Updating to 3.65](updating-to-3.65)
-+ [Updating to 3.65 (HENkaku)](updating-to-3.65-(henkaku))
-+ [Why Ads?](why-ads)
++ [Depanare](troubleshooting)
++ [Actualizând spre 3.65](updating-to-3.65)
++ [Actualizând la 3.65 (HENkaku)](updating-to-3.65-(henkaku))
++ [De ce sunt reclame?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

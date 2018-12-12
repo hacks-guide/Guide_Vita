@@ -1,5 +1,5 @@
 ---
-title: "Donations" #
+title: "Donaţii"
 layout: single-no-ads
 ---
 
