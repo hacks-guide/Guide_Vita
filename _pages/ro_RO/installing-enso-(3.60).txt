@@ -32,15 +32,11 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 #### Secţiunea III - Instalând VPK-uri
 
 1. Pe dispozitiv, navigaţi la `ux0:` -> `data/`
-1. Apăsați (X) pe `enso.vpk` pentru a instala fişierul
+1. Apăsaţi (pătrat) pe fiecare dintre fişierele `.vpk` pentru a le marca
+1. Apăsaţi (triunghi) pentru a deschide meniul, apoi selectează "More" -> "Install all" pentru a instala fişierele selectate
 1. Apăsați (X) pentru a confirma instalarea
-1. Apăsați (X) pentru a continua instalarea când vi se solicită permisiuni extinse
-1. Apăsați (Triunghi) pentru a deschide meniul, apoi selectați "Delete" pentru a șterge fișierul marcat
-1. Apăsați (X) pentru a confirma stergerea
-1. Press (Cross) on `VitaShell.vpk` to install the file
-1. Apăsați (X) pentru a confirma instalarea
-1. Apăsați (X) pentru a continua instalarea când vi se solicită permisiuni extinse
-1. Apăsați (Triunghi) pentru a deschide meniul, apoi selectați "Delete" pentru a șterge fișierul marcat
+1. Apăsați (X) pentru a continua instalarea de fiecare dată când vi se solicită permisiuni extinse
+1. Apăsați (Triunghi) pentru a deschide meniul, apoi selectați "Delete" pentru a șterge fișierele marcate
 1. Apăsați (X) pentru a confirma stergerea
 1. Close the molecularShell application
 
