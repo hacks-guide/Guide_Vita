@@ -8,7 +8,7 @@ title: "阻擋更新"
 
 最新版的 PS Vita 漏洞無法與版本 3.69 或更新的系統版本相容。 因此，我們必須等待新版的漏洞釋出且於同時阻止 Vita 更新至任何更新版本的系統韌體。 更新可能將阻止您使用任何未來所研發的漏洞。
 
-我們將透過設定您主機的 DNS 設定將更新伺服器設定為一個第三方的伺服器，如此一來，在您的主機眼中 3.65 即會是最新版的系統韌體。 透過這點，我們能阻擋任何比 3.65 更新的系統韌體被安裝到您的主機中。
+To prevent unwanted updates, we configure the device's DNS settings to use a custom update server which points to 3.60 as the latest update available. This has the effect of blocking any firmware versions above 3.60 from being installed when the device attempts to perform an update.
 
 ### 必備項目
 
@@ -28,7 +28,7 @@ title: "阻擋更新"
   + 已連上的網路旁邊會有一個綠色點點
 1. 選擇『詳細設定』
 1. 將『DNS 設定』改為『手動』
-1. 將『主要 DNS』改為 `23.96.6.207`
+1. 將『主要 DNS (Primary DNS)』改為 `212.47.229.76`
 1. 將『次要 DNS』留空
 1. 確保您已將『Proxy 伺服器』設定至『不使用』
 1. 回到主選單

@@ -8,6 +8,7 @@ sitemap: false
 **所有**
 
 + [Adrenaline](adrenaline)
++ [Blocking Updates](blocking-updates)
 + [設定 h-encore](configuring-h-encore)
 + [製作群](credits)
 + [贊助](donations)
@@ -16,15 +17,19 @@ sitemap: false
 + [完成安裝](finalizing-setup)
 + [新手入門](get-started)
 + [首頁](/zh_TW/)
++ [Installing Ensō (3.60)](installing-enso-(3.60))
 + [安裝 Ensō (版本 3.65)](installing-enso-(3.65))
 + [安裝 h-encore](installing-h-encore)
++ [Installing HENkaku](installing-henkaku)
 + [格式化儲存空間 (Linux)](storage-format-(linux))
 + [格式化儲存空間 (Mac)](storage-format-(mac))
 + [格式化儲存空間 (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
 + [疑難排解](troubleshooting)
-+ [更新至 3.65](updating-to-3.65)
-+ [更新至 3.65 (持有 HENkaku 的主機)](updating-to-3.65-(henkaku))
++ [Updating Firmware (3.60)](updating-firmware-(3.60))
++ [Updating Firmware (HENkaku)](updating-firmware-(henkaku))
++ [Updating Firmware (PS TV 3.65 and 3.68)](updating-firmware-(ps-tv-3.65-and-3.68))
++ [Updating Firmware (PS Vita 3.65 and 3.68)](updating-firmware-(ps-vita-3.65-and-3.68))
 + [為什麼有廣告?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

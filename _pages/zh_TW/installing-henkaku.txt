@@ -1,16 +1,16 @@
 ---
-title: "安裝 HENkaku"
+title: "Installing HENkaku"
 ---
 
 {% include toc title="條目內容" %}
 
 ### 必讀事項
 
-HENkaku 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您安裝自製軟體至您的主畫面中。 本漏洞僅適用於韌體版本 3.60。
+HENkaku is an exploit chain for the PS Vita (TV) which will allow for the installation of homebrew applications to the LiveArea Screen. It is only compatible with the firmware version 3.60.
 
-請注意，HENkaku 系列漏洞並非「永久性」的 (也就是說該漏洞將於主機重啟後失效)。 好消息是待會可以安裝 HENkaku Ensō 來解決這問題。
+Note that the HENkaku exploit chain is not "persistent" (meaning it does not remain installed after a reboot). Fortunately, this is only a temporary restriction until HENkaku Ensō is installed on the next page.
 
-除了運行 HENkaku 漏洞外，我們也將啟用『非安全』的自製程式使用權以提高自製程式的執行權限。 這類似於電腦中的「管理員」權限。
+In addition to running the HENkaku exploit, we will also enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analagous to the "administrator" mode on a computer.
 
 如果您使用的是 PS Vita 1000，那麼您必須要有一張原廠 Sony 記憶卡 (任意大小) 才能繼續。 此限制不適用於 PS Vita 2000 或 PS TV，因為這些主機皆有內建記憶卡/內存。
 {: .notice--info}
@@ -21,24 +21,24 @@ HENkaku 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您�
 
 ### 操作說明
 
-#### 第一節 — 運行 HENkaku
+#### Section I - Launching HENkaku
 
-1. 啟動主機上的網頁瀏覽器，並開啟下列網址:
+1. Launch the browser and go to the following URL on your device:
   + `http://henkaku.xyz`
-1. 點選『Install』
-1. 閱讀免責聲明，然後點選『Install』
-  + 如果遇到錯誤且無法繼續的話， [請依循此疑難排解之步驟](troubleshooting#a-browser-based-exploit-is-not-working)
-1. 如果漏洞成功執行，您的主選單中將出現一個新的應用程式叫做『molecularShell』
+1. Tap "Install"
+1. Read the disclaimer, then tap "Install"
+  + If you get an error and cannot proceed, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
+1. If the exploit was successful, you will now have a bubble on your LiveArea screen named "molecularShell".
 
 #### 第二節 — 設定 HENkaku
 
 1. 啟動設定
-1. 移動至 `HENkaku Settings`
-1. 勾選『Enable Unsafe Homebrew』
-1. 回到 HENkaku Settings 選單
+1. 移動至 `HENkaku 設置`
+1. 勾選『啟動不安全自制軟件』
+1. 回到 HENkaku 設置選單
 1. 關閉設定
 
 ___
 
-### 繼續至 [安裝 Ensō (版本 3.65)](installing-enso-(3.65))
+### Continue to [Installing Ensō (3.60)](installing-enso-(3.60))
 {: .notice--primary}

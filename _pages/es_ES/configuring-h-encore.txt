@@ -6,8 +6,8 @@ title: "Configurar h-encore"
 
 ### Lectura requerida
 
-Ahora que el exploit h-encore está instalado en la consola (ya sea con el método Windows o Linux / Mac), lo configuraremos para acceder fácilmente a homebrew.
-  
+Now that the h-encore exploit is installed on your device, we will configure it for easy homebrew access.
+
 ### Instrucciones
 
 #### Sección I - Configurar h-encore
@@ -36,7 +36,7 @@ Ahora que el exploit h-encore está instalado en la consola (ya sea con el méto
 #### Sección III - Desactivar alerta sobre trofeos
 
 {% capture notice-1 %}
-Esta es una sección opcional con la que desactivarás la alerta sobre trofeos que aparece cuando h-encore es ejecutado. 
+Esta es una sección opcional con la que desactivarás la alerta sobre trofeos que aparece cuando h-encore es ejecutado.
 
 Esta sección no es recomendada para consolas con versión de firmware 3.65 ya que Ensō puede reemplazar h-encore en esos sistemas.
 {% endcapture %}

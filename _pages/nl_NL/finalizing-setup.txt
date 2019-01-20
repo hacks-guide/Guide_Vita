@@ -6,24 +6,29 @@ title: "Finalizing Setup"
 
 ### Required Reading
 
-We will now setup applications and plugins such as the following:    
+We will now setup applications and plugins such as the following:
 
 +  **Vita Homebrew Browser** *(downloads and installs other homebrew applications)*
++  **UpdateBlocker** *(completely prevents system updates from being accidentally installed)*
 +  **NoNpDrm** *(allows for encrypted games and applications to be used)*
++  **reF00D** *(allows for transparently decrypting games and applications of any firmware version)*
 +  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
 +  **shellbat** *(displays exact battery percentage in the status bar)*
 +  **pngshot** *(improves the built-in screenshot utility)*
 +  **PSV VSH Menu** *(in-game menu for overclocking or displaying the frame-rate)*
 
-In order to install the necessary `.vpk` (content package) files on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card. 
+In order to install the necessary `.vpk` (content package) files on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
 
 ### What You Need
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
   + Alternatively, you can also use the USB transfer feature of VitaShell
+* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [keys.bin](magnet:?xt=urn:btih:a3796f22b82b80c5fefa8407c6fd7d71df2c2258&dn=keys.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce) ([mirror](https://www.mediafire.com/download/t5obgaa3naatr9m))
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
+* The latest release of [UpdateBlocker](https://bitbucket.org/SilicaAndPina/updateblocker/downloads/)
 * The latest release of [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
+* The latest release of [reF00D](https://github.com/dots-tb/reF00D/releases/latest)
 * The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * The latest release of [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * The latest release of [pngshot](https://github.com/xyzz/pngshot/releases/latest)
@@ -47,12 +52,15 @@ In order to install the necessary `.vpk` (content package) files on your device,
   + The `ux0:` partition corresponds to the memory card of your device (on the PS Vita 1000, this partition will always be the external memory card; on the PS Vita 2000 and PS TV, this partition will either be the external memory card if one is inserted, or the built-in memory card otherwise)
   + The `ur0:` partition corresponds to the internal system memory which is always present on all devices (on the PS Vita 2000 and PS TV, this is *not* the same as the built-in memory card!)
 1. Transfer `VitaHBBrowser.vpk` to the `data` folder
+1. Transfer `UpdateBlocker.vpk` to the `data` folder
 1. Using your FTP client, navigate to `ux0:`
 1. Delete the `tai` folder
 1. Navigate to `ur0:` -> `tai/`
 1. Transfer `config.txt` to  the `tai` folder
   + Overwrite (replace) the existing `config.txt` file
 1. Transfer `nonpdrm.skprx` to the `tai` folder
+1. Transfer `reF00D.skprx` to the `tai` folder
+1. Transfer `keys.bin` to the `tai` folder
 1. Transfer `download_enabler.suprx` to the `tai` folder
 1. Transfer `shellbat.suprx` to the `tai` folder
 1. Transfer `pngshot.suprx` to the `tai` folder
@@ -63,28 +71,36 @@ In order to install the necessary `.vpk` (content package) files on your device,
 #### Section II - Installing VPK
 
 1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Cross) on `VitaHBBrowser.vpk` to install the file
+1. Press (Square) on each of the `.vpk` files to mark them
+1. Press (Triangle) to open the menu, then select "More" -> "Install all" to install the marked files
 1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install when you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked file
+1. Press (Cross) to continue the install each time you are prompted about extended permissions
+1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
 1. Press (Cross) to confirm the deletion
 1. Close the VitaShell application
-1. Reboot your device
+
+#### Section III - Blocking Updates
+
+1. Launch the UpdateBlocker application
+1. Press (Square) to block update downloads
+1. Wait for the process to complete and return to the menu
+1. Press (Cross) to block system updates
+1. Your device will reboot when the process completes
   + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
-  + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
   + To confirm that everything is working, you should now see a battery percentage in the status bar
 
-#### Section III - PSN Access
+#### Section IV - PSN Access
 
+1. Launch the Settings application
 1. Navigate to `HENkaku Settings`
 1. Check "Enable PSN spoofing"
 1. Check "Enable Version Spoofing"
 1. Navigate to "Spoofed Version"
-1. Enter "3.69" into the box
+1. Enter "3.70" into the box
   + Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN
 1. Close the Settings application
 
-#### Section IV - Cleanup
+#### Section V - Cleanup
 
 1. Launch the Content Manager application
 1. Select "Manage Content on Memory Card"

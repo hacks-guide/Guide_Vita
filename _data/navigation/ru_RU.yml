@@ -47,32 +47,35 @@ sidebar_pages:
     title: Начало
     url: get-started
   - 
-    title: Обновление до 3.65
-    url: updating-to-3.65
+    title: Обновление прошивки (3.60)
+    url: updating-firmware-(3.60)
   - 
-    title: Обновление до 3.65 (HENkaku)
-    url: updating-to-3.65-(henkaku)
+    title: Обновление прошивки (HENkaku)
+    url: updating-firmware-(henkaku)
+  - 
+    title: Обновление прошивки (PS TV 3.65 и 3.68)
+    url: updating-firmware-(ps-tv-3.65-and-3.68)
+  - 
+    title: Обновление прошивки (PS Vita 3.65 и 3.68)
+    url: updating-firmware-(ps-vita-3.65-and-3.68)
   - 
     title: Установка h-encore
     url: installing-h-encore
   - 
-    title: Несколько вариантов
-    url: multiple-options
-  - 
-    title: Установка h-encore (автоматически для Windows)
-    url: installing-h-encore-(windows-auto)
-  - 
-    title: Установка h-encore (вручную для Windows)
-    url: installing-h-encore-(windows-manual)
-  - 
-    title: Установка h-encore (для Linux / Mac)
-    url: installing-h-encore-(linux-mac)
+    title: Установка HENkaku
+    url: installing-henkaku
   - 
     title: Настройка h-encore
     url: configuring-h-encore
   - 
+    title: Несколько вариантов
+    url: multiple-options
+  - 
     title: Установка Ensō (3.65)
     url: installing-enso-(3.65)
+  - 
+    title: Установка Ensō (3.60)
+    url: installing-enso-(3.60)
   - 
     title: Завершение установки
     url: finalizing-setup

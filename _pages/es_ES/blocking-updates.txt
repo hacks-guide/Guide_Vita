@@ -8,7 +8,7 @@ title: "Bloquear actualizaciones"
 
 El último exploit de PS Vita no es compatible con las versiones 3.69 y superiores. Por ello, debemos esperar a que un nuevo exploit sea lanzado y detener cualquier actualización de Vita que sea superior a su versión de firmware actual. Actualizar podría arreglar cualquier exploit futuro que pudiera ser utilizado.
 
-Para hacer esto, configuraremos los ajustes de DNS de la red para utilizar un servidor de actualización *custom* el cual indica que la versión 3.65 es la última actualización disponible. Esto tiene el efecto de evitar que cualquier versión de firmware superior a 3.65 sea instalada si la consola intenta realizar una actualización.
+To prevent unwanted updates, we configure the device's DNS settings to use a custom update server which points to 3.60 as the latest update available. This has the effect of blocking any firmware versions above 3.60 from being installed when the device attempts to perform an update.
 
 ### Qué necesitas
 
@@ -28,7 +28,7 @@ Para hacer esto, configuraremos los ajustes de DNS de la red para utilizar un se
   + Esto se denota por un punto verde junto a la red
 1. Selecciona "Ajustes avanzados"
 1. Establece la "Configuración del DNS" en "Modo manual"
-1. Establece el "DNS primario" como `23.96.6.207`
+1. Establece el "DNS primario" como `212.47.229.76`
 1. Deja el "DNS secundario" en blanco
 1. Asegúrate de que "Servidor proxy" está configurado como "No usar"
 1. Vuelve al menú principal de Ajustes
