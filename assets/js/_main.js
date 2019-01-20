@@ -111,7 +111,7 @@ $(document).ready(function(){
   }
 
   var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "adrenaline", "credits", "donations", "faq", "file-extensions-(windows)",
+  var sidebar_hidden_pages = ["404", "adrenaline", "blocking-updates", "credits", "donations", "faq", "file-extensions-(windows)",
                               "get-started", "installing-enso-(3.65)", "storage-format-(linux)", "storage-format-(mac)",
                               "storage-format-(windows)", "site-navigation", "storagemgr", "troubleshooting",
                               "uninstall-cfw", "updating-to-3.65-(henkaku)", "why-ads"];
@@ -123,9 +123,12 @@ $(document).ready(function(){
   }
 
   var methods = {
-    "updating-to-3.65": "0",
-    "installing-h-encore": "1",
-    "installing-enso-(3.65)": "2",
+    "updating-firmware-(3.60)": "0",
+    "installing-henkaku": "1",
+    "updating-firmware-(ps-tv-3.65-and-3.68)": "2",
+    "updating-firmware-(ps-vita-3.65-and-3.68)": "3",
+    "installing-h-encore": "4",
+    "installing-enso-(3.65)": "5",
   };
 
   for(var method in methods){
@@ -142,9 +145,12 @@ $(document).ready(function(){
   if(sidebar_shown){
     var unhide = [];
     var route = {
-      "0": ["updating-to-3.65", "installing-h-encore", "multiple-options", "configuring-h-encore", "finalizing-setup"],
-      "1": ["installing-h-encore", "configuring-h-encore", "finalizing-setup"],
-      "2": ["installing-h-encore", "configuring-h-encore", "installing-enso-(3.65)", "finalizing-setup"],
+      "0": ["updating-firmware-(3.60)", "installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
+      "1": ["installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
+      "2": ["updating-firmware-(ps-tv-3.65-and-3.68)", "installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
+      "3": ["updating-firmware-(ps-vita-3.65-and-3.68)", "installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
+      "4": ["multiple-options", "installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
+      "5": ["multiple-options", "installing-h-encore", "configuring-h-encore", "installing-enso-(3.65)", "finalizing-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
