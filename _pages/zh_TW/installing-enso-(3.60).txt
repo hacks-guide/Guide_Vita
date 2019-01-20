@@ -29,7 +29,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 1. Transfer `VitaShell.vpk` to the `data` folder
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
-#### 第二節 — 安裝 VPK
+#### 第二節 — 安裝 VPKs
 
 1. 於您的主機中移動至 `ux0:` -> `data/`
 1. 於 `enso.vpk` 上按下「X」鍵安裝
