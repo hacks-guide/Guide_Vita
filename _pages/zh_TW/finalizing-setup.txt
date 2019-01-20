@@ -9,6 +9,7 @@ title: "完成安裝"
 我們將安裝下列程式及插件：
 
 +  **Vita Homebrew Browser** *(下載及安裝其他自製軟體)*
++  **UpdateBlocker** *(completely prevents system updates from being accidentally installed)*
 +  **NoNpDrm** *(允許您使用已加密的遊戲及應用程式)*
 +  **reF00D** *(allows for transparently decrypting games and applications of any firmware version)*
 +  **DownloadEnabler** *(允許您在內建的網頁瀏覽器中下載任何檔案類型)*
@@ -25,6 +26,7 @@ title: "完成安裝"
 * <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [keys.bin](magnet:?xt=urn:btih:a3796f22b82b80c5fefa8407c6fd7d71df2c2258&dn=keys.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce) ([mirror](https://www.mediafire.com/download/t5obgaa3naatr9m))
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * 最新版的 [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
+* The latest release of [UpdateBlocker](https://bitbucket.org/SilicaAndPina/updateblocker/downloads/)
 * 最新版的 [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
 * The latest release of [reF00D](https://github.com/dots-tb/reF00D/releases/latest)
 * 最新版的 [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
@@ -50,6 +52,7 @@ title: "完成安裝"
   + `ux0:` 代表著您主機記憶卡的磁區 (在第一代的 Vita 中 (PSV-1000)，本磁區指的是外存記憶卡；在第二代 Vita (PSV-2000) 及 PS TV 中，本磁區指的是內存或者是已插入的外存記憶卡)
   + The `ur0:` partition corresponds to the internal system memory which is always present on all devices (on the PS Vita 2000 and PS TV, this is *not* the same as the built-in memory card!)
 1. 複製 `VitaHBBrowser.vpk` 至 `data` 資料夾中
+1. Transfer `UpdateBlocker.vpk` to the `data` folder
 1. 透過 FTP 端移動至 `ux0:`
 1. 刪除 `tai` 資料夾
 1. 移動至 `ur0:` -> `tai/`
@@ -68,19 +71,27 @@ title: "完成安裝"
 #### 第二節 — 安裝 VPK
 
 1. 於您的主機中移動至 `ux0:` -> `data/`
-1. 於 `VitaHBBrowser.vpk` 上按下「X」鍵安裝
+1. 於各個 `.vpk` 檔案上按下「□」(方形) 鍵將其選取
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『More』->『Install all』以安裝所有已選取的檔案
 1. 按下「X」鍵確認安裝
-1. 當提示要求使用更高權限時，按下「X」繼續
+1. 當每次提示要求使用更高權限時，按下「X」繼續
 1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
 1. 按下「X」鍵確認刪除
 1. 關閉 VitaShell
-1. 重新啟動您的主機
+
+#### Section III - Blocking Updates
+
+1. Launch the UpdateBlocker application
+1. Press (Square) to block update downloads
+1. Wait for the process to complete and return to the menu
+1. Press (Cross) to block system updates
+1. Your device will reboot when the process completes
   + 如果您的主機尚未安裝 Ensō，您將會需要手動啟動並關閉 h-encore 以啟用自製軟體使用權
-  + 此為必要步驟以載入剛所設定至 `ur0:tai/config.txt` 的內核插件
   + 若您做對一切的話，您現在應該可以在狀態列中看到剩餘電量的百分比
 
-#### 第三節 — PSN 存取
+#### Section IV - PSN Access
 
+1. 啟動設定
 1. 移動至 `HENkaku 設置`
 1. 勾選『啟用 PSN 偽裝』
 1. 勾選『啟用版本偽裝』
@@ -89,7 +100,7 @@ title: "完成安裝"
   + 如果未來 Sony 推出了新的系統韌體，您必須將此數值更換至最新的系統版本以存取 PSN
 1. 關閉設定
 
-#### 第四節 — 清理檔案
+#### Section V - Cleanup
 
 1. 啟動「內容管理員」
 1. 選擇『管理記憶卡的內容』
