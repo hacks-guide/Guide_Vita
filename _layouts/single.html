@@ -50,7 +50,7 @@ layout: default
       <section class="page__content" itemprop="text">
 
         <hr>
-        
+
         {% assign split_path = page.path | split: "/" %}
         {% assign locale = split_path[1] %}
 
@@ -76,22 +76,13 @@ layout: default
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-8267943526926430"
-          data-ad-slot="7687410804"
-          data-ad-format="auto">
-        </ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
         </center>
 
         <hr>
 
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        
+
         <hr>
 
         <center>
@@ -139,7 +130,7 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
-  
+
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
