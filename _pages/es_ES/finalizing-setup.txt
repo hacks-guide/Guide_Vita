@@ -6,24 +6,27 @@ title: "Finalizar instalación"
 
 ### Lectura requerida
 
-Ahora configuraremos aplicaciones y plugins tales como:    
+Ahora configuraremos aplicaciones y plugins tales como:
 
 +  **Vita Homebrew Browser** *(descarga e instala otras aplicación homebrew)*
 +  **NoNpDrm** *(permite que juegos y aplicaciones encriptadas sean utilizadas)*
++  **reF00D** *(allows for transparently decrypting games and applications of any firmware version)*
 +  **DownloadEnabler** *(permite descargar cualquier tipo de archivo con el navegador)*
 +  **shellbat** *(muestra el porcentaje de batería exacto en la barra de estado)*
 +  **pngshot** *(mejora la utilidad de captura de pantalla integrada)*
 +  **PSV VSH Menu** *(menú in-game para overclocking o mostrar la velocidad de cuadros)*
 
-Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu consola, usaremos [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) para copiar archivos a la tarjeta de memoria de tu consola. 
+Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu consola, usaremos [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) para copiar archivos a la tarjeta de memoria de tu consola.
 
 ### Qué necesitas
 
 * Un cliente FTP como [WinSCP](https://winscp.net/) o [CyberDuck](https://cyberduck.io/)
   + Alternativamente, puedes usar la función de transferencia vía USB de VitaShell
+* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [keys.bin](magnet:?xt=urn:btih:a3796f22b82b80c5fefa8407c6fd7d71df2c2258&dn=keys.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce) ([mirror](https://www.mediafire.com/download/t5obgaa3naatr9m))
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * La última versión del [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
 * La última versión de [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
+* The latest release of [reF00D](https://github.com/dots-tb/reF00D/releases/latest)
 * La última versión de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * La última versión de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * La última versión de [pngshot](https://github.com/xyzz/pngshot/releases/latest)
@@ -53,6 +56,8 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 1. Transfiere `config.txt` a la carpeta `tai`
   + Sobreescribe (reemplaza) el archivo `config.txt` existente
 1. Transfiere `nonpdrm.skprx` a la carpeta `tai`
+1. Transfer `reF00D.skprx` to the `tai` folder
+1. Transfer `keys.bin` to the `tai` folder
 1. Transfiere `download_enabler.suprx` a la carpeta `tai`
 1. Transfiere `shellbat.suprx` a la carpeta `tai`
 1. Transfiere `pngshot.suprx` a la carpeta `tai`
@@ -80,7 +85,7 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 1. Marca "Enable PSN spoofing"
 1. Marca "Enable Version Spoofing"
 1. Ve a "Spoofed Version"
-1. Escribe "3.69" en el recuadro
+1. Enter "3.70" into the box
   + Cuando se publique una nueva versión en el futuro, debes cambiar la versión falsificada para coincidir de modo de poder acceder a PSN
 1. Cierra la aplicación Ajustes
 
