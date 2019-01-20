@@ -6,8 +6,8 @@ title: "Configurând h-encore"
 
 ### Lectură obligatorie
 
-Acum că exploit-ul h-encore este instalat în dispozitivul dumneavoastră (fie prin metoda Windows sau Linux / Mac), îl vom configura pentru accesul ușor la have.
-  
+Now that the h-encore exploit is installed on your device, we will configure it for easy homebrew access.
+
 ### Instrucțiuni
 
 #### Secțiunea I - Configurând h-encore
@@ -36,7 +36,7 @@ Acum că exploit-ul h-encore este instalat în dispozitivul dumneavoastră (fie 
 #### Secţiunea III - Dezactivând avertismentul despre trofee
 
 {% capture notice-1 %}
-Aceasta este o secțiune suplimentară care va dezactiva avertismentul despre trofee care apare când h-encore este lansat. 
+Aceasta este o secțiune suplimentară care va dezactiva avertismentul despre trofee care apare când h-encore este lansat.
 
 Această secțiune nu este recomandată pentru dispozitivele cu versiunea de firmware 3.65 de vreme ce Ensō poate înlocui h-encore pe acele sisteme.
 {% endcapture %}
