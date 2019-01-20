@@ -29,7 +29,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 1. Transfer `VitaShell.vpk` to the `data` folder
 1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
 
-#### Sección II - Instalar VPK
+#### Sección II - Instalar VPKs
 
 1. En tu consola, navega a `ux0:` -> `data/`
 1. Presiona (Cruz) sobre `enso.vpk` para instalar el archivo
