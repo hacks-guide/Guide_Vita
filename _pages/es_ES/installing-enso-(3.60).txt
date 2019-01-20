@@ -32,15 +32,11 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 #### Sección II - Instalar VPKs
 
 1. En tu consola, navega a `ux0:` -> `data/`
-1. Presiona (Cruz) sobre `enso.vpk` para instalar el archivo
+1. Presiona (Cuadrado) en cada archivo `.vpk` para marcarlos
+1. Presiona (Triángulo) para abrir el menú, luego selecciona "More" -> "Install all" para instalar los archivos marcados
 1. Presiona (Cruz) para confirmar la instalación
-1. Presiona (Cruz) para continuar la instalación cuando se pregunte sobre permisos extendidos
-1. Presiona (Triángulo) para abrir el menú, luego selecciona "Delete" para borrar el archivo marcado
-1. Presiona (Cruz) para confirmar la eliminación
-1. Press (Cross) on `VitaShell.vpk` to install the file
-1. Presiona (Cruz) para confirmar la instalación
-1. Presiona (Cruz) para continuar la instalación cuando se pregunte sobre permisos extendidos
-1. Presiona (Triángulo) para abrir el menú, luego selecciona "Delete" para borrar el archivo marcado
+1. Presiona (Cruz) para continuar la instalación cada vez que te pregunte sobre permisos extendidos
+1. Presiona (Triángulo) para abrir el menú, luego selecciona "Delete" para borrar los archivos marcados
 1. Presiona (Cruz) para confirmar la eliminación
 1. Close the molecularShell application
 
