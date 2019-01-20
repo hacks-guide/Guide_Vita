@@ -29,7 +29,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 1. Transfer `VitaShell.vpk` to the `data` folder
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
 
-#### Secţiunea II - Instalând VPK
+#### Secţiunea III - Instalând VPK-uri
 
 1. Pe dispozitiv, navigaţi la `ux0:` -> `data/`
 1. Apăsați (X) pe `enso.vpk` pentru a instala fişierul
