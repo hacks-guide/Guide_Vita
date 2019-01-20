@@ -36,17 +36,37 @@ title: "新手入門"
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.03</td>
+      <td style="text-align: center; font-weight: bold;">3.57</td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.60)">Updating Firmware (3.60)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.60</td>
+      <td style="text-align: center; font-weight: bold;">3.60</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-henkaku">Installing HENkaku</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.61</td>
       <td style="text-align: center; font-weight: bold;">3.63</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-to-3.65">更新至 3.65</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65-and-3.68)">Updating Firmware (PS Vita 3.65 and 3.68)</a> or <a href="updating-firmware-(ps-tv-3.65-and-3.68)">Updating Firmware (PS TV 3.65 and 3.68)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.65</td>
+      <td style="text-align: center; font-weight: bold;">3.65</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">安裝 h-encore</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.67</td>
+      <td style="text-align: center; font-weight: bold;">3.67</td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65-and-3.68)">Updating Firmware (PS Vita 3.65 and 3.68)</a> or <a href="updating-firmware-(ps-tv-3.65-and-3.68)">Updating Firmware (PS TV 3.65 and 3.68)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.68</td>
       <td style="text-align: center; font-weight: bold;">3.68</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">安裝 h-encore</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.69</td>
-      <td style="text-align: center; font-weight: bold;">3.69</td>
+      <td style="text-align: center; font-weight: bold;">3.70</td>
       <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">阻擋更新</a></td>
     </tr>
   </tbody>
