@@ -6,8 +6,8 @@ title: "Configuring h-encore"
 
 ### Required Reading
 
-Now that the h-encore exploit is installed on your device (either through the Windows or Linux / Mac method), we will configure it for easy homebrew access.
-  
+Now that the h-encore exploit is installed on your device, we will configure it for easy homebrew access.
+
 ### Instructions
 
 #### Section I - Configuring h-encore
@@ -36,7 +36,7 @@ Now that the h-encore exploit is installed on your device (either through the Wi
 #### Section III - Disabling Trophy Warning
 
 {% capture notice-1 %}
-This is an optional section which will disable the trophy warning that appears when h-encore is launched. 
+This is an optional section which will disable the trophy warning that appears when h-encore is launched.
 
 This section is not recommended for devices on firmware version 3.65 as Ensō can replace h-encore on those systems.
 {% endcapture %}
