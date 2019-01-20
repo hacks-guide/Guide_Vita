@@ -149,8 +149,8 @@ $(document).ready(function(){
       "1": ["installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
       "2": ["updating-firmware-(ps-tv-3.65-and-3.68)", "installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
       "3": ["updating-firmware-(ps-vita-3.65-and-3.68)", "installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
-      "4": ["multiple-options", "installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
-      "5": ["multiple-options", "installing-h-encore", "configuring-h-encore", "installing-enso-(3.65)", "finalizing-setup"],
+      "4": ["installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
+      "5": ["installing-h-encore", "configuring-h-encore", "installing-enso-(3.65)", "finalizing-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
