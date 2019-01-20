@@ -1,0 +1,45 @@
+
+---
+title: "Updating to 3.60"
+---
+
+{% include toc title="條目內容" %}
+
+### 必讀事項
+
+The HENkaku exploit is only compatible with the firmware version 3.60. As a result, lower firmware versions must update using a custom update server in order to use that exploit.
+
+Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.60, you should return to [Get Started](get-started).
+
+### 必備項目
+
+* 在您的 PS Vita (TV) 可用的網路連線
+
+### 操作說明
+
+#### Section I: Prep Work
+
+1. 啟動設定
+1. 移動至 `網路` -> `Wi-Fi 設定`
+  + 若您尚未連上網，請連接到 Wi-Fi 網路
+1. 選擇您目前所連結的網路
+  + 已連上的網路旁邊會有一個綠色點點
+1. 選擇『詳細設定』
+1. 將『DNS 設定』改為『手動』
+1. 將『主要 DNS (Primary DNS)』改為 `212.47.229.76`
+1. 將『次要 DNS』留空
+1. 確保您已將『Proxy 伺服器』設定至『不使用』
+1. 回到主選單
+
+#### Section II: Updating to 3.60
+
+1. 移動至 `系統更新` -> `使用 Wi-Fi／行動網路更新`
+1. Ensure the update message "3.60 (変革 Compatible)" is displayed
+  + 如果顯示的不是此訊息，請立刻停止更新並重新檢查您是否漏了哪些步驟
+1. Follow the prompts to update your device to 3.60
+  + 當更新完畢後，您的主機將自動重啟
+
+___
+
+### Continue to [Installing HENkaku](installing-henkaku)
+{: .notice--primary}
