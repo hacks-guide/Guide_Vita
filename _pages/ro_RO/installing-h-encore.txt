@@ -15,36 +15,16 @@ Lanțul de exploits de h-encore pentru PS Vita (TV) permite instalarea de aplica
 În plus, faţă de instalarea exploit-ului h-encore, vom activa accesul la homebrew "nesigur" care dă permisiuni extinse la aplicaţiile homebrew. Această idee ar putea fi considerată similară cu modul de "administrator" de pe un calculator.
 
 Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie Sony (de orice mărime) pentru a urma acest ghid. Această restricţie nu se aplică la PS Vita 2000 sau PS TV de vreme ce aceste dispozitive au un card de memorie incorporat.
-    
+
 Unealta "finalhe" este folosită pentru a automatiza instalarea h-encore.
 
 ### Ce aveți nevoie
 
 * Ultima versiune de [finalhe](https://github.com/soarqin/finalhe/releases/latest)
-  
+
 ### Instrucțiuni
 
-#### Secțiunea I - Configurare DNS
-
-Țineți cont că aceste servere DNS vor avea nevoie să fie setate pe fiecare conexiune la care vă conectați pentru a putea bloca actualizrile!
-{: .notice--warning}
-
-1. Lansați aplicația Settings
-1. Navigați spre `Network` -> `Wi-Fi Settings`
-  + Conectați-vă la o rețea Wi-Fi dacă nu v-ați conectat deja
-1. Selectaţi-vă reţeaua actuală
-  + Aceasta este simbolizată de un punct verde alături de reţea
-1. Selectați "Advanced Settings"
-1. Setați "DNS Settings" la "Manual"
-1. Setaţi "Primary DNS" la `212.47.229.76`
-1. Lăsați "DNS secundar" necompletat
-1. Asigurați-vă că "Proxy Server" este setat la "Do Not Use"
-1. Reveniți la meniul principal de Settings
-1. Navigați spre `System` -> `Auto-Start Settings`
-1. Debifaţi "Download Update File for System Software"
-1. Închideți aplicația Settings
-
-#### Secțiunea II - finalhe
+#### Section I - finalhe
 
 1. Copiați conținutul arhivei `.zip` către un folder de pe calculator
 1. Porniți finalhe pe calculator
@@ -59,7 +39,7 @@ Unealta "finalhe" este folosită pentru a automatiza instalarea h-encore.
   + Dacă vedeți un mesaj care vă cere să actualizați, reporniţi dispozitivul și încercați din nou
   + Dacă dispozitivul nu este detectat prin USB pe Windows, instalați [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) și încercați din nou
 
-#### Secțiunea III - Transfer de h-encore
+#### Section II - h-encore Transfer
 
 1. Selectați "Trim h-encore to ~13MB"
 1. Selectați "Let's GO!"
@@ -74,7 +54,7 @@ Unealta "finalhe" este folosită pentru a automatiza instalarea h-encore.
   + Exploit-ul h-encore va fi copiat pe dispozitiv
   + Acest proces va lua ceva timp
 1. Închideți aplicația Content Manager pe dispozitiv
-1. Închideți auto h-encore pe calculator
+1. Close finalhe on your computer
 
 ___
 
