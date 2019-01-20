@@ -71,11 +71,11 @@ sidebar_pages:
     title: Multiple Options
     url: multiple-options
   -
-    title: Installing Ensō (3.60)
-    url: installing-enso-(3.60)
-  -
     title: Installing Ensō (3.65)
     url: installing-enso-(3.65)
+  -
+    title: Installing Ensō (3.60)
+    url: installing-enso-(3.60)
   -
     title: Finalizing Setup
     url: finalizing-setup

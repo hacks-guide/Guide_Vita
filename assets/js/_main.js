@@ -112,7 +112,7 @@ $(document).ready(function(){
 
   var sidebar_shown = true;
   var sidebar_hidden_pages = ["404", "adrenaline", "blocking-updates", "credits", "donations", "faq", "file-extensions-(windows)",
-                              "get-started", "installing-enso-(3.65)", "storage-format-(linux)", "storage-format-(mac)",
+                              "get-started", "storage-format-(linux)", "storage-format-(mac)",
                               "storage-format-(windows)", "site-navigation", "storagemgr", "troubleshooting",
                               "uninstall-cfw", "updating-to-3.65-(henkaku)", "why-ads"];
 
