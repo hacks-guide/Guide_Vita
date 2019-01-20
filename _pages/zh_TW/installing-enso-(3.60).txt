@@ -32,14 +32,10 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 #### 第二節 — 安裝 VPKs
 
 1. 於您的主機中移動至 `ux0:` -> `data/`
-1. 於 `enso.vpk` 上按下「X」鍵安裝
+1. 於各個 `.vpk` 檔案上按下「□」(方形) 鍵將其選取
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『More』->『Install all』以安裝所有已選取的檔案
 1. 按下「X」鍵確認安裝
-1. 當提示要求使用更高權限時，按下「X」繼續
-1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
-1. 按下「X」鍵確認刪除
-1. Press (Cross) on `VitaShell.vpk` to install the file
-1. 按下「X」鍵確認安裝
-1. 當提示要求使用更高權限時，按下「X」繼續
+1. 當每次提示要求使用更高權限時，按下「X」繼續
 1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
 1. 按下「X」鍵確認刪除
 1. Close the molecularShell application
