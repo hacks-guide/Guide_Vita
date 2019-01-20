@@ -6,8 +6,8 @@ title: "設定 h-encore"
 
 ### 必讀事項
 
-於您的主機安裝完 h-encore 漏洞後 (透過 Windows 或 Linux/Mac 的安裝方式)，我們會將其設置於較簡易存取自製軟體的配置。
-  
+Now that the h-encore exploit is installed on your device, we will configure it for easy homebrew access.
+
 ### 操作說明
 
 #### 第一節 — 設定 h-encore
@@ -36,7 +36,7 @@ title: "設定 h-encore"
 #### 第三節 — 關閉獎盃相關警告
 
 {% capture notice-1 %}
-本結為選用章節。此章節將會關閉啟動 h-encore 時所出現的獎盃相關警告。 
+本結為選用章節。此章節將會關閉啟動 h-encore 時所出現的獎盃相關警告。
 
 本章節不建議用於持有系統版本 3.65 的主機，因為 Ensō 可以在這些系統中替代 h-encore。
 {% endcapture %}
