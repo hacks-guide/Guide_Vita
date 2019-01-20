@@ -6,9 +6,9 @@ title: "Instalând h-encore"
 
 ### Lectură obligatorie
 
-Lanțul de exploits de h-encore pentru PS Vita (TV) permite instalarea de aplicații homebrew pentru ecranul de pornire. Este compatibil cu versiunile de firmware 3.65, 3.67, și 3.68.
+Lanțul de exploits de h-encore pentru PS Vita (TV) permite instalarea de aplicații homebrew pentru ecranul de pornire. It is compatible with the firmware versions 3.65 and 3.68.
 
-Țineți cont că lanțul de exploit-uri h-encore nu este "persistent" (ceea ce înseamnă că nu rămâne instalat după o repornire). Pentru dispo în versiunea de firmware 3.65, aceasta este, din fericire, doar o restricție temporară până când Ensō este instalat într-o pagină ulterioară. Pentru dispozitivele care sunt pe 3.67 sau 3,68, din păcate, trebuie să efectuaţi o mică parte din aceste instrucţiuni (care vor fi indicate) după fiecare repornire, până când un nou exploit persistent este dezvoltat.
+Țineți cont că lanțul de exploit-uri h-encore nu este "persistent" (ceea ce înseamnă că nu rămâne instalat după o repornire). Pentru dispo în versiunea de firmware 3.65, aceasta este, din fericire, doar o restricție temporară până când Ensō este instalat într-o pagină ulterioară. For devices on 3.68, you will, unfortunately, need to perform a small portion of these instructions (which will be indicated) after every reboot until a new persistent exploit is developed.
 
 Înainte de a instala exploit-ul h-encore, vom configura setările DNS pe reţea pentru a utiliza un server de actualizare personalizat care blochează noi versiuni de firmware din a se instala atunci când dispozitivul încearcă să efectueze o actualizare.
 
