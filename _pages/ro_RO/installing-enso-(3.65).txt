@@ -6,9 +6,7 @@ title: "Instalând Ensō (3.65)"
 
 ### Lectură obligatorie
 
-Ensō, permite acces convenbil la homebrew pe dispozitiv executând un exploit în timpul pornirii pentru a genera un spaţiu de lucru pentru homebrew. Este mai convenabil decât alte soluţii de CFW (cum ar fi HENkaku sau h-encore) de vreme ce nu are nevoie să porniţi un exploit pe dispozitiv după fiecare repornire manuală.
-
-Ensō este cea mai bună soluţie de CFW disponibilă pentru PS Vita (TV), care permite acces convenbil la homebrew pe dispozitiv executând un exploit în timpul pornirii pentru a genera un spaţiu de lucru pentru HENkaku. 
+Ensō este cea mai bună soluţie de CFW disponibilă pentru PS Vita (TV), care permite acces convenbil la homebrew pe dispozitiv executând un exploit în timpul pornirii pentru a genera un spaţiu de lucru pentru HENkaku.
 
 Este mai convenabil decât h-encore de vreme ce nu are nevoie să porniţi un exploit pe dispozitiv după fiecare repornire manuală.
 
@@ -16,7 +14,7 @@ Este mai convenabil decât h-encore de vreme ce nu are nevoie să porniţi un ex
 
 * Un Client FTP, cum ar fi [WinSCP](https://winscp.net/) sau [CyberDuck](https://cyberduck.io/)
   + Alternativ, puteţi utiliza VitaShell in modul USB
-* Ultima versiune de [Ensō](https://github.com/TheOfficialFloW/enso/releases/latest/)
+* The latest release of [Ensō (3.65)](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
 ### Instrucțiuni
 
