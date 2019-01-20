@@ -47,32 +47,35 @@ sidebar_pages:
     title: 新手入門
     url: get-started
   - 
-    title: 更新至 3.65
-    url: updating-to-3.65
+    title: Updating Firmware (3.60)
+    url: updating-firmware-(3.60)
   - 
-    title: 更新至 3.65 (持有 HENkaku 的主機)
-    url: updating-to-3.65-(henkaku)
+    title: Updating Firmware (HENkaku)
+    url: updating-firmware-(henkaku)
   - 
-    title: 安裝 h-encore
+    title: Updating Firmware (PS TV 3.65 and 3.68)
+    url: updating-firmware-(ps-tv-3.65-and-3.68)
+  - 
+    title: Updating Firmware (PS Vita 3.65 and 3.68)
+    url: updating-firmware-(ps-vita-3.65-and-3.68)
+  - 
+    title: Installing h-encore
     url: installing-h-encore
   - 
-    title: 多項選擇
+    title: Installing HENkaku
+    url: installing-henkaku
+  - 
+    title: Multiple Options
     url: multiple-options
-  - 
-    title: 安裝 h-encore (透過 Windows 自動安裝)
-    url: installing-h-encore-(windows-auto)
-  - 
-    title: 安裝 h-encore (透過 Windows 手動安裝)
-    url: installing-h-encore-(windows-manual)
-  - 
-    title: 安裝 h-encore (透過 Linux / Mac)
-    url: installing-h-encore-(linux-mac)
   - 
     title: 設置 h-encore
     url: configuring-h-encore
   - 
-    title: 安裝 Ensō (版本 3.65)
+    title: Installing Ensō (3.60)
+    url: installing-enso-(3.60)
+  - 
+    title: Installing Ensō (3.65)
     url: installing-enso-(3.65)
   - 
-    title: 完成安裝
+    title: Finalizing Setup
     url: finalizing-setup
