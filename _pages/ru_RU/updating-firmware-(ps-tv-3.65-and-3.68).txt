@@ -23,12 +23,12 @@ title: "Обновление прошивки (PS TV 3.65 и 3.68)"
 
 ### Инструкция
 
-#### Section I - Drive Preparation
+#### Часть I - Подготовка накопителя
 
-1. Create a folder named `PSVITA` on the root of your USB drive
-1. Create a folder named `UPDATE` in the `PSVITA` folder on your USB drive
-1. Rename the downloaded `PSP2UPDAT.PUP` to `PSVUPDAT.PUP`
-1. Move `PSVUPDAT.PUP` to the created `UPDATE` folder
+1. Создайте папку `PSVITA` в корне USB-накопителя
+1. Создайте папку `UPDATE` внутри папки `PSVITA` на USB-накопителе
+1. Переименуйте скачанный файл `PSP2UPDAT.PUP` в `PSVUPDAT.PUP`
+1. Переместите файл `PSVUPDAT.PUP` в созданную папку `UPDATE`
 
 #### Section II - Updating Firmware
 
