@@ -30,14 +30,14 @@ title: "Обновление прошивки (PS TV 3.65 и 3.68)"
 1. Переименуйте скачанный файл `PSP2UPDAT.PUP` в `PSVUPDAT.PUP`
 1. Переместите файл `PSVUPDAT.PUP` в созданную папку `UPDATE`
 
-#### Section II - Updating Firmware
+#### Часть II - Обновление прошивки
 
-1. Power off your PS TV completely
-1. Hold the power button for at least 7 seconds to boot into safe-mode
-1. Connect a controller using a USB cable, then press the (PS) button
-1. Navigate to `Update System Software` -> `Update from USB Storage Device`
-1. Connect your USB drive to your PS TV
-1. Follow the prompts to update your device
+1. Полностью выключите PS TV
+1. Держите нажатой кнопку питания не менее 7 секунд, чтобы загрузиться в безопасный режим
+1. Подключите контроллер с помощью USB кабеля, затем нажмите кнопку (PS)
+1. Перейдите в `Обновить системное ПО` -> `Обновить из накопителя USB`
+1. Подключите USB-накопитель к PS TV
+1. Следуйте инструкциям на экране, чтобы обновить консоль
   + После завершения процесса консоль перезагрузится автоматически
 
 ___
