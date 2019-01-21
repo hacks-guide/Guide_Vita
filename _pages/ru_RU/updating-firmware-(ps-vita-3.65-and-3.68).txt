@@ -1,5 +1,5 @@
 ---
-title: "Updating Firmware (PS Vita 3.65 and 3.68)"
+title: "Обновление прошивки (PS Vita 3.65 и 3.68)"
 ---
 
 {% include toc title="Содержание" %}
@@ -40,13 +40,13 @@ title: "Updating Firmware (PS Vita 3.65 and 3.68)"
   + Если консоль не определяется при подключении через USB под Windows, установите [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) и попробуйте снова
 1. The finalhe application should display instructions for updating your device
 
-#### Section II - Updating Firmware
+#### Часть II - Обновление прошивки
 
 1. Запустите приложение Настройки
 1. Navigate to `System Update` -> `Update by Connecting to a PC`
 1. Ensure the update message "Version 3.65" or "Version 3.68" is displayed, depending on which version you are attempting to update to
   + Если отображается любое другое сообщение, остановитесь и выясните, что пошло не так
-1. Follow the prompts to update your device
+1. Следуйте инструкциям на экране, чтобы обновить консоль
   + После завершения процесса консоль перезагрузится автоматически
 
 ___
