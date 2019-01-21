@@ -8,13 +8,13 @@ title: "Установка Ensō (3.65)"
 
 Ensō это полноценное CFW решение для PS Vita (TV), которое предоставляет удобный доступ к хоумбрю путем запуска эксплойта в процессе загрузки для установки хоумбрю окружения HENkaku.
 
-It is more convenient than HENkaku as it does not require you to trigger an exploit on your device after every reboot manually.
+Это решение более удобно чем HENkaku, поскольку не требует вручную активировать эксплойт после каждой перезагрузки.
 
 ### Что понадобится
 
 * FTP клиент, такой как [WinSCP](https://winscp.net/) или [CyberDuck](https://cyberduck.io/)
-* The latest release of [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
-* The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
+* Свежая версия [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
+* Свежая версия [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
 
 ### Инструкция
 
