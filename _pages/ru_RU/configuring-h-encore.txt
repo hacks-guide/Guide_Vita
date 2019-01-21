@@ -6,7 +6,7 @@ title: "Настройка h-encore"
 
 ### Обязательно к прочтению
 
-Now that the h-encore exploit is installed on your device, we will configure it for easy homebrew access.
+Теперь, когда экплойт h-encore установлен на вашей консоли, мы настроим его для легкого доступа к хоумбрю.
 
 ### Инструкция
 
