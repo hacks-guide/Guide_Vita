@@ -1,5 +1,5 @@
 ---
-title: "Updating Firmware (PS TV 3.65 and 3.68)"
+title: "Обновление прошивки (PS TV 3.65 и 3.68)"
 ---
 
 {% include toc title="Содержание" %}
