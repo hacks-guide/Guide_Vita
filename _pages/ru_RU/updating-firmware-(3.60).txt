@@ -1,15 +1,15 @@
 
 ---
-title: "Updating to 3.60"
+title: "Обновление до 3.60"
 ---
 
 {% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-The HENkaku exploit is only compatible with the firmware version 3.60. As a result, lower firmware versions must update using a custom update server in order to use that exploit.
+Эксплойт HENkaku совместим только с версией прошивки 3.60. Поэтому консоли с более низкой версией прошивки должны быть обновлены при помощи кастомного сервера обновлений, чтобы использовать этот эксплойт.
 
-Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.60, you should return to [Get Started](get-started).
+Обратите внимание, что кастомный сервер обновлений может лишь увеличить версию прошивки, но не понизить её. Если ваша версия прошивки выше 3.60, то вы должны вернуться к [Началу](get-started).
 
 ### Что понадобится
 
@@ -17,7 +17,7 @@ Note that a custom update server can only update your device, not downgrade it. 
 
 ### Инструкция
 
-#### Section I: Prep Work
+#### Часть I: Подготовка
 
 1. Запустите приложение Настройки
 1. Перейдите в `Сеть` -> `Настройки Wi-Fi`
@@ -31,15 +31,15 @@ Note that a custom update server can only update your device, not downgrade it. 
 1. Убедитесь, что настройка "Прокси-сервер" имеет значение "Не использовать"
 1. Вернитесь в главное меню настроек
 
-#### Section II: Updating to 3.60
+#### Часть II: Обновление до 3.60
 
 1. Перейдите в `Обновление системы` -> `Обновление с использованием Wi-Fi`
-1. Ensure the update message "3.60 (変革 Compatible)" is displayed
+1. Убедитесь, что отображается сообщение "3.60 (変革 Compatible)"
   + Если отображается любое другое сообщение, остановитесь и выясните, что пошло не так
-1. Follow the prompts to update your device to 3.60
+1. Следуйте инструкциям на экране, чтобы обновить консоль до 3.60
   + После завершения процесса консоль перезагрузится автоматически
 
 ___
 
-### Continue to [Installing HENkaku](installing-henkaku)
+### Следующий шаг: [Установка HENkaku](installing-henkaku)
 {: .notice--primary}
