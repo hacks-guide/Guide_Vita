@@ -6,13 +6,13 @@ title: "Updating Firmware (PS Vita 3.65 and 3.68)"
 
 ### Обязательно к прочтению
 
-The hencore exploit is only compatible with the firmware versions 3.65 and 3.68. As a result, other firmware versions must update using a custom update application in order to use that exploit.
+Эксплойт hencore совместим только с версиями прошивки 3.65 и 3.68. Поэтому консоли с другой версией прошивки должны быть обновлены при помощи кастомного приложения для обновлений, чтобы использовать этот эксплойт.
 
-While the h-encore exploit itself is compatible with firmware version 3.68, users on a firmware version under 3.65 should only update to firmware version 3.65 as it is the latest version which still supports the Ensō boot-time exploit.
+Хотя эксплойт h-encore и совместим с версией прошивки 3.68, пользователи с версией прошивки ниже 3.65 должны обновиться только до версии прошивки 3.65, поскольку это последняя версия, поддерживающая эксплойт Ensō.
 
-Users on a firmware version above 3.65 will unfortunately have to update to the more limited 3.68 firmware version to use this exploit.
+Пользователям с версией прошивки выше 3.65 придется обновиться до более ограниченной версии 3.68, чтобы использовать этот эксплойт.
 
-Note that a custom update application can only update your device, not downgrade it. If you are on a firmware version higher than 3.68, you should return to [Get Started](get-started).
+Обратите внимание, что кастомное приложение для обновлений может лишь увеличить версию прошивки, но не понизить её. Если ваша версия прошивки выше 3.68, то вы должны вернуться к [Началу](get-started).
 
 ### Что понадобится
 
