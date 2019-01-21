@@ -21,14 +21,14 @@ HENkaku это набор эксплойтов для PS Vita (TV), которы
 
 ### Инструкция
 
-#### Section I - Launching HENkaku
+#### Часть I - Запуск HENkaku
 
-1. Launch the browser and go to the following URL on your device:
+1. Запустите браузер на консоли и перейдите следующей ссылке:
   + `http://henkaku.xyz`
-1. Tap "Install"
-1. Read the disclaimer, then tap "Install"
-  + If you get an error and cannot proceed, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
-1. If the exploit was successful, you will now have a bubble on your LiveArea screen named "molecularShell".
+1. Нажмите "Install"
+1. Прочитайте отказ от ответственности, затем нажмите "Install"
+  + При возникновении ошибки, обратитесь к разделу [Проблемы и их решения](troubleshooting#не-работает-эксплойт-на-основе-браузера)
+1. Если эксплойт сработал, то на экране LiveArea появится значок "molecularShell".
 
 #### Часть II - Настройка HENkaku
 
@@ -40,5 +40,5 @@ HENkaku это набор эксплойтов для PS Vita (TV), которы
 
 ___
 
-### Continue to [Installing Ensō (3.60)](installing-enso-(3.60))
+### Следующий шаг: [Установка Ensō (3.60)](installing-enso-(3.60))
 {: .notice--primary}
