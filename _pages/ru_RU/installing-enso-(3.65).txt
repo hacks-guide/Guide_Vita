@@ -14,7 +14,7 @@ Ensō это полноценное CFW решение для PS Vita (TV), ко
 
 * FTP клиент, такой как [WinSCP](https://winscp.net/) или [CyberDuck](https://cyberduck.io/)
   + Вместо этого можно использовать функцию USB transfer в приложении VitaShell
-* The latest release of [Ensō (3.65)](https://github.com/TheOfficialFloW/enso/releases/latest/)
+* Свежая версия [Ensō (3.65)](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
 ### Инструкция
 
