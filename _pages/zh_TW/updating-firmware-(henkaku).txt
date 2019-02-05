@@ -1,12 +1,12 @@
 ---
-title: "Updating Firmware (HENkaku)"
+title: "更新韌體 (持有 HENkaku 的主機)"
 ---
 
 {% include toc title="條目內容" %}
 
 ### 必讀事項
 
-以下步驟適用於已安裝 3.60 HENkaku (持有 Ensō) 的主機至韌體版本 3.65。 If you have a stock device and are trying to update to 3.65, follow [Updating Firmware](updating-firmware).
+以下步驟適用於已安裝 3.60 HENkaku (持有 Ensō) 的主機至韌體版本 3.65。 如果您的主機為尚未修改的原廠主機且正試著更新至 3.65，請見[更新韌體](updating-firmware)。
 {: .notice--warning}
 
 更新您的 3.60 HENkaku (Ensō) 主機 至韌體版本 3.65 可讓您在仍持有 Ensō 漏洞的方便性的同時存取 PlayStation 商店、使用線上功能以及遊玩要求較新韌體版本的遊戲。
