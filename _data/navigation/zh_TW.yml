@@ -22,7 +22,7 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Site Navigation
+    title: 網站導覽
     url: site-navigation
 bottom:
   - 
@@ -41,41 +41,41 @@ sidebar_title:
     title: 整體進度
 sidebar_pages:
   - 
-    title: Home
+    title: 首頁
     url: /
   - 
     title: 新手入門
     url: get-started
   - 
-    title: Updating Firmware (3.60)
+    title: 更新韌體 (3.60)
     url: updating-firmware-(3.60)
   - 
-    title: Updating Firmware (HENkaku)
+    title: 更新韌體 (持有 HENkaku 的主機)
     url: updating-firmware-(henkaku)
   - 
-    title: Updating Firmware (PS TV 3.65 and 3.68)
+    title: 更新韌體 (PS TV 3.65 及 3.68)
     url: updating-firmware-(ps-tv-3.65-and-3.68)
   - 
-    title: Updating Firmware (PS Vita 3.65 and 3.68)
+    title: 更新韌體 (PS Vita 3.65 及 3.68)
     url: updating-firmware-(ps-vita-3.65-and-3.68)
   - 
-    title: Installing h-encore
+    title: 安裝 h-encore
     url: installing-h-encore
   - 
-    title: Installing HENkaku
+    title: 安裝 HENkaku
     url: installing-henkaku
   - 
-    title: Configuring h-encore
+    title: 設置 h-encore
     url: configuring-h-encore
   - 
-    title: Multiple Options
+    title: 多項選擇
     url: multiple-options
   - 
-    title: Installing Ensō (3.65)
+    title: 安裝 Ensō (版本 3.65)
     url: installing-enso-(3.65)
   - 
-    title: Installing Ensō (3.60)
+    title: 安裝 Ensō (版本 3.60)
     url: installing-enso-(3.60)
   - 
-    title: Finalizing Setup
+    title: 完成安裝
     url: finalizing-setup

@@ -8,25 +8,25 @@ title: "安裝 Ensō (版本 3.65)"
 
 Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，您的主機能於啟動時自動設置 HENkaku 環境，讓您能輕易地使用自製軟體。
 
-It is more convenient than HENkaku as it does not require you to trigger an exploit on your device after every reboot manually.
+因為 HENkaku 需於每次主機重新啟動時重新手動觸發漏洞，此方案相對方便許多。
 
 ### 必備項目
 
 * 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
-* The latest release of [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
-* The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
+* 最新版的 [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
+* 最新版的 [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
 
 ### 操作說明
 
 #### 第一節 — 準備工作
 
-1. Launch the molecularShell application
+1. 啟動 molecularShell
 1. 按下「Select」鍵以啟動 FTP 存取功能
 1. 於您的電腦中啟動您的 FTP 客戶端
 1. 輸入於您主機上顯示的 IP 位址以及埠
 1. 透過 FTP 端移動至 `ux0:` -> `data/`
 1. 複製 `enso.vpk` 至 `data` 資料夾中
-1. Transfer `VitaShell.vpk` to the `data` folder
+1. 複製 `VitaShell.vpk` 至 `data` 資料夾中
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
 #### 第二節 — 安裝 VPKs
@@ -38,7 +38,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 1. 當每次提示要求使用更高權限時，按下「X」繼續
 1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
 1. 按下「X」鍵確認刪除
-1. Close the molecularShell application
+1. 關閉 molecularShell
 
 #### 第三節 — 安裝 VPK
 

@@ -8,7 +8,7 @@ title: "阻擋更新"
 
 最新版的 PS Vita 漏洞無法與版本 3.69 或更新的系統版本相容。 因此，我們必須等待新版的漏洞釋出且於同時阻止 Vita 更新至任何更新版本的系統韌體。 更新可能將阻止您使用任何未來所研發的漏洞。
 
-To prevent unwanted updates, we configure the device's DNS settings to use a custom update server which points to 3.60 as the latest update available. This has the effect of blocking any firmware versions above 3.60 from being installed when the device attempts to perform an update.
+我們將更改您主機的 DNS 設定並將更新伺服器設定為一個第三方的伺服器，如此一來，在您的主機眼中 3.60 即會是最新版的系統韌體。 透過這點，我們能阻擋任何比 3.60 還新的系統韌體。
 
 ### 必備項目
 

@@ -14,7 +14,7 @@ Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，
 
 * 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
-* The latest release of [Ensō (3.65)](https://github.com/TheOfficialFloW/enso/releases/latest/)
+* 最新版的 [Ensō (3.65)](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
 ### 操作說明
 
