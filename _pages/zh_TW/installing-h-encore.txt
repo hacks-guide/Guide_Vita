@@ -6,9 +6,9 @@ title: "安裝 h-encore"
 
 ### 必讀事項
 
-h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您安裝自製軟體至您的主畫面中。 It is compatible with the firmware versions 3.65 and 3.68.
+h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您安裝自製軟體至您的主畫面中。 它與 3.65 至 3.68 的系統韌體相容。
 
-請注意，h-encore 並非永久性的漏洞 (也就是說該漏洞將於主機重啟後失效)。 好消息是待會裝有韌體版本 3.65 的主機可以安裝 Ensō 來解決這問題。 For devices on 3.68, you will, unfortunately, need to perform a small portion of these instructions (which will be indicated) after every reboot until a new persistent exploit is developed.
+請注意，h-encore 並非永久性的漏洞 (也就是說該漏洞將於主機重啟後失效)。 好消息是待會裝有韌體版本 3.65 的主機可以安裝 Ensō 來解決這問題。 壞消息是裝有韌體版本 3.68 的主機得在每次重啟後重複下列有特別標記的步驟直到有人開發新的永久性漏洞為止。
 
 在安裝 h-encore 漏洞之前，我們將設定您的網路 DNS 設定至一個第三方的更新伺服器；這將會防止您的主機安裝任何新的系統更新。
 
@@ -24,7 +24,7 @@ h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您
 
 ### 操作說明
 
-#### Section I - finalhe
+#### 第一節 — finalhe
 
 1. 解壓 finalhe `.zip` 的檔案至您電腦的一個資料夾中
 1. 在您的電腦中啟動 finalhe
@@ -39,7 +39,7 @@ h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您
   + 若有提示更新的警示，請重新啟動您的主機並再試一次
   + 如果您的 Windows 電腦偵測不到您主機的 USB 連線的話，請安裝 [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) 並再試一次
 
-#### Section II - h-encore Transfer
+#### 第二節 — h-encore 轉移
 
 1. 選擇『Trim h-encore to ~13MB』
 1. 選擇『Let's GO!』
@@ -54,7 +54,7 @@ h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您
   + h-encore 漏洞將會被複製到您的主機中
   + 此過程將花費一些時間
 1. 於您的主機中關閉「內容管理員」
-1. Close finalhe on your computer
+1. 在您的電腦中關閉 finalhe
 
 ___
 
