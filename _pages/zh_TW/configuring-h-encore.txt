@@ -6,7 +6,7 @@ title: "設定 h-encore"
 
 ### 必讀事項
 
-Now that the h-encore exploit is installed on your device, we will configure it for easy homebrew access.
+在安裝完 h-encore 後，我們將設定您的主機好讓您以後可以更容易地存取自製軟體。
 
 ### 操作說明
 
