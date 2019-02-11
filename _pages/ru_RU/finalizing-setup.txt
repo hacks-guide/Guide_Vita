@@ -15,7 +15,6 @@ title: "Завершение установки"
 +  **DownloadEnabler** *(позволяет скачивать файлы любых типов с помощью браузера)*
 +  **shellbat** *(отображает процент заряда батареи в строке состояния)*
 +  **pngshot** *(улучшает встроенную утилиту для скриншотов)*
-+  **PSV VSH Menu** *(внутриигровое меню для разгона или отображения частоты кадров)*
 
 Для установки необходимых файлов `.vpk` (content package) на консоль мы используем [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol), чтобы скопировать файлы на карту памяти консоли.
 
@@ -32,7 +31,6 @@ title: "Завершение установки"
 * Свежая версия [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Свежая версия [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Свежая версия [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* Свежая версия [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(оба файла)*
 
 ### Инструкция
 
@@ -64,8 +62,6 @@ title: "Завершение установки"
 1. Загрузите `download_enabler.suprx` в папку `tai`
 1. Загрузите `shellbat.suprx` в папку `tai`
 1. Загрузите `pngshot.suprx` в папку `tai`
-1. Загрузите `kuio.skprx` в папку `tai`
-1. Загрузите `vsh.suprx` в папку `tai`
 1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
 
 #### Часть II - Установка VPK
@@ -113,9 +109,6 @@ title: "Завершение установки"
 ___
 
 Теперь вы можете легко устанавливать новые хоумбрю приложения при помощи Vita Homebrew Browser. Кроме того, вы можете найти новые хоумбрю приложения на [VitaDB](https://vitadb.rinnegatamante.it/).
-{: .notice--info}
-
-Теперь вы можете нажать (L) + (R) + (Start) или (L) + (R) + (Select) во время игры, чтобы открыть PSV VSH Menu. Это меню позволяет изменять настройки "разгона" (которые просто позволяют консоли работать на своей максимальной скорости, поскольку обычно Sony понижает скорость) и просматривать такую информацию, как частота кадров и статус батареи.
 {: .notice--info}
 
 Для получения информации о замене карты памяти Sony на другой носитель (такой как microSD карта или USB диск), перейдите к странице [StorageMgr](storagemgr).
