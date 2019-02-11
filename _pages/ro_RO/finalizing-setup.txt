@@ -15,7 +15,6 @@ Acuma vom instala aplicații și plugin-uri precum următoarele:
 +  **DownloadEnabler** *(permite orice tip de fișier să fie descărcat cu browserul)*
 +  **shellbat** *(afișează procentajul exact al bateriei în bara de stare)*
 +  **pngshot** *(îmbunătățește utilitatea de captură de ecran integrată)*
-+  **PSV VSH Menu** *(menu in-game pentru overclocking sau afișare de cadre)*
 
 Pentru a putea instala fișierele `.vpk` (pachet de conținut) pe dispozitiv, folosim [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) pentru a copia fișierele către cardul de memorie al dispozitivului.
 
@@ -32,7 +31,6 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) pe dispozitiv, fo
 * Ultima versiune de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Ultima versiune de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Ultima versiune de [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* Cea mai nouă versiune de [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(ambele fișiere)*
 
 ### Instrucțiuni
 
@@ -64,8 +62,6 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) pe dispozitiv, fo
 1. Transferați `download_enabler.suprx` către folderul `tai`
 1. Transferați `shellbat.suprx` către folderul `tai`
 1. Transferați `pngshot.suprx` către folderul `tai`
-1. Transferați `kuio.skprx` către folderul `tai`
-1. Transferați `vsh.suprx` către folderul `tai`
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
 
 #### Secţiunea II - Instalând VPK
@@ -113,9 +109,6 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) pe dispozitiv, fo
 ___
 
 Acum puteţi instala cu uşurinţă noi aplicații de homebrew folosind doar Vita Homebrew Browser. Alternativ, puteţi căuta de asemenea noi aplicaţii de homebrew pe [VitaDB](https://vitadb.rinnegatamante.it/).
-{: .notice--info}
-
-Acuma puteți apăsa (L) + (R) + (Start) sau (L) + (R) + (Select) în timpul unui joc pentru a deschide PSV VSH Menu. Acest meniu vă permite să configurați setările de "overclocking" (care permite doar ca dispozitivul să meargă la viteza lui maximă de vreme ce Sony îi reduce performanța prin underclocking) și să vizualizați informații precum viteza de cadre pe secundă și starea bateriei.
 {: .notice--info}
 
 Pentru informații despre cum să înlocuiți cardul de memorie Sony cu stocare alternativă (precum un card microSD sau o unitate USB), vedeți pagina [StorageMgr](storagemgr).

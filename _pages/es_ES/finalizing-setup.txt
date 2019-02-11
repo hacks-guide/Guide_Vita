@@ -15,7 +15,6 @@ Ahora configuraremos aplicaciones y plugins tales como:
 +  **DownloadEnabler** *(permite descargar cualquier tipo de archivo con el navegador)*
 +  **shellbat** *(muestra el porcentaje de batería exacto en la barra de estado)*
 +  **pngshot** *(mejora la utilidad de captura de pantalla integrada)*
-+  **PSV VSH Menu** *(menú in-game para overclocking o mostrar la velocidad de cuadros)*
 
 Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu consola, usaremos [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) para copiar archivos a la tarjeta de memoria de tu consola.
 
@@ -32,7 +31,6 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 * La última versión de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * La última versión de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * La última versión de [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* La última versión de [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(ámbos archivos)*
 
 ### Instrucciones
 
@@ -64,8 +62,6 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 1. Transfiere `download_enabler.suprx` a la carpeta `tai`
 1. Transfiere `shellbat.suprx` a la carpeta `tai`
 1. Transfiere `pngshot.suprx` a la carpeta `tai`
-1. Transfiere `kuio.skprx` a la carpeta `tai`
-1. Transfiere `vsh.suprx` a la carpeta `tai`
 1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
 
 #### Sección II - Instalar VPK
@@ -113,9 +109,6 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 ___
 
 Ahora puedes fácilmente instalar nuevas aplicaciones homebrew tan sólo utilizando el Vita Homebrew Browser. Alternativamente, también puedes buscar nuevas aplicaciones homebrew en [VitaDB](https://vitadb.rinnegatamante.it/).
-{: .notice--info}
-
-Ahora puedes presionar (L) + (R) + (Start) o (L) + (R) + (Select) en un juego para abrir el PSV VSH Menu. Este menú te permite configurar los ajustes de "overclocking" (que permiten ejecutar tu consola a su máxima velocidad ya que Sony reduce su desempeño (underclock)) y poder ver información como la velocidad de cuadros por segundo y el estado de la batería.
 {: .notice--info}
 
 Para información sobre cómo reemplazar tu memora Sony con almacenamiento alternativo (como una tarjeta microSD o una unidad USB), revisa la página [StorageMgr](storagemgr).
