@@ -62,7 +62,6 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 1. Transfiere `download_enabler.suprx` a la carpeta `tai`
 1. Transfiere `shellbat.suprx` a la carpeta `tai`
 1. Transfiere `pngshot.suprx` a la carpeta `tai`
-1. Transfiere `kuio.skprx` a la carpeta `tai`
 1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
 
 #### Sección II - Instalar VPK
