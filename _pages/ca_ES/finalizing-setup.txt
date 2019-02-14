@@ -15,7 +15,6 @@ We will now setup applications and plugins such as the following:
 +  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
 +  **shellbat** *(displays exact battery percentage in the status bar)*
 +  **pngshot** *(improves the built-in screenshot utility)*
-+  **PSV VSH Menu** *(in-game menu for overclocking or displaying the frame-rate)*
 
 In order to install the necessary `.vpk` (content package) files on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
 
@@ -32,7 +31,6 @@ In order to install the necessary `.vpk` (content package) files on your device,
 * The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * The latest release of [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * The latest release of [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(both files)*
 
 ### Instructions
 
@@ -65,7 +63,6 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Transfer `shellbat.suprx` to the `tai` folder
 1. Transfer `pngshot.suprx` to the `tai` folder
 1. Transfer `kuio.skprx` to the `tai` folder
-1. Transfer `vsh.suprx` to the `tai` folder
 1. Press (Circle) on your device to close the FTP connection
 
 #### Section II - Installing VPK
@@ -113,9 +110,6 @@ In order to install the necessary `.vpk` (content package) files on your device,
 ___
 
 You can now easily install new homebrew applications just by using Vita Homebrew Browser. Alternatively, you can also browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
-{: .notice--info}
-
-You can now press (L) + (R) + (Start) or (L) + (R) + (Select) while in a game to open the PSV VSH Menu. This menu allows you to configure "overclocking" settings (which just allows your device to run at its maximum speed since it is normally underclocked by Sony) and view information such as the frame-rate and battery status.
 {: .notice--info}
 
 For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [StorageMgr](storagemgr) page.
