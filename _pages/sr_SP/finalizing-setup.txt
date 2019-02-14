@@ -62,7 +62,6 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Transfer `download_enabler.suprx` to the `tai` folder
 1. Transfer `shellbat.suprx` to the `tai` folder
 1. Transfer `pngshot.suprx` to the `tai` folder
-1. Transfer `kuio.skprx` to the `tai` folder
 1. Press (Circle) on your device to close the FTP connection
 
 #### Section II - Installing VPK
