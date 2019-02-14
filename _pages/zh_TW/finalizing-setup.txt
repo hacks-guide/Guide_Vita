@@ -62,7 +62,6 @@ title: "完成安裝"
 1. 複製 `download_enabler.suprx` 至 `tai` 資料夾中
 1. 複製 `shellbat.suprx` 至 `tai` 資料夾中
 1. 複製 `pngshot.suprx` 至 `tai` 資料夾中
-1. 複製 `kuio.skprx` 至 `tai` 資料夾中
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
 #### 第二節 — 安裝 VPK
