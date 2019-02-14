@@ -15,7 +15,6 @@ title: "完成安裝"
 +  **DownloadEnabler** *(允許您在內建的網頁瀏覽器中下載任何檔案類型)*
 +  **shellbat** *(於狀態列中顯示剩餘電量)*
 +  **pngshot** *(改進內建的截圖程式)*
-+  **PSV VSH Menu** *(可於遊戲中進行超頻或者顯示幀率)*
 
 為了在您的主機上安裝必要的 `.vpk` 安裝包，我們將會使用[檔案傳輸協定 (FTP)](https://zh.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE) 來將檔案複製到您主機的記憶卡中。
 
@@ -32,7 +31,6 @@ title: "完成安裝"
 * 最新版的 [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * 最新版的 [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * 最新版的 [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* 最新版的 [PSV VSH Menu](https://github.com/joel16/PSV-VSH-Menu/releases/latest) *(兩個檔案)*
 
 ### 操作說明
 
@@ -65,7 +63,6 @@ title: "完成安裝"
 1. 複製 `shellbat.suprx` 至 `tai` 資料夾中
 1. 複製 `pngshot.suprx` 至 `tai` 資料夾中
 1. 複製 `kuio.skprx` 至 `tai` 資料夾中
-1. 複製 `vsh.suprx` 至 `tai` 資料夾中
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
 #### 第二節 — 安裝 VPK
@@ -113,9 +110,6 @@ title: "完成安裝"
 ___
 
 您現在可以透過 Vita Homebrew Browser 輕易地安裝任何自製程式。 或者，您也可以在 [VitaDB](https://vitadb.rinnegatamante.it/) 中找尋新的自製程式。
-{: .notice--info}
-
-您現在可在遊戲中透過「L」+「R」+「Start」鍵或「L」+「R」+「Select」鍵的組合開啟 PSV VSH 選單。 這選單可讓您設定超頻用的設定 (這可讓您的主機全速運行遊戲，因為 Sony 於出廠時是將主機降頻的)，且能讓您檢視遊戲內的幀率以及您電池的詳細資訊。
 {: .notice--info}
 
 若您想要以其他記憶卡代替原廠的 Sony 記憶卡 (比如像是 microSD 或 USB 磁碟)，請見 [StorageMgr](storagemgr)。
