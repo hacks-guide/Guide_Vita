@@ -5,7 +5,6 @@
 *KERNEL
 ur0:tai/nonpdrm.skprx
 ur0:tai/reF00D.skprx
-ur0:tai/kuio.skprx
 
 *main
 ur0:tai/henkaku.suprx
@@ -18,7 +17,3 @@ ur0:tai/henkaku.suprx
 
 *NPXS10016
 ur0:tai/henkaku.suprx
-
-*!PSPEMUCFW
-*ALL
-ur0:tai/vsh.suprx
