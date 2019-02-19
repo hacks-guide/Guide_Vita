@@ -6,9 +6,9 @@ title: "安裝 Ensō (版本 3.65)"
 
 ### 必讀事項
 
-Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，您的主機能於啟動時自動設置 HENkaku 環境，讓您能輕易地使用自製軟體。
+If your device on firmware version 3.65 was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will fortunately still be able to use the more convenience Ensō boot-time exploit.
 
-因為 h-encore 需於每次主機重新啟動時重新手動觸發漏洞，此方案相對方便許多。
+Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
 
 ### 必備項目
 
