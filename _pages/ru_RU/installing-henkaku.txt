@@ -29,6 +29,7 @@ HENkaku это набор эксплойтов для PS Vita (TV), которы
 1. Прочитайте отказ от ответственности, затем нажмите "Install"
   + При возникновении ошибки, обратитесь к разделу [Проблемы и их решения](troubleshooting#не-работает-эксплойт-на-основе-браузера)
 1. Если эксплойт сработал, то на экране LiveArea появится значок "molecularShell".
+  + If the exploit was successful but the molecularShell application is missing, perform the exploit again and press R1 when prompted to re-install molecularShell
 
 #### Часть II - Настройка HENkaku
 
