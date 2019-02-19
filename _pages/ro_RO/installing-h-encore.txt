@@ -8,15 +8,12 @@ title: "Instalând h-encore"
 
 Lanțul de exploits de h-encore pentru PS Vita (TV) permite instalarea de aplicații homebrew pentru ecranul de pornire. It is compatible with the firmware versions 3.65 and 3.68.
 
-Țineți cont că lanțul de exploit-uri h-encore nu este "persistent" (ceea ce înseamnă că nu rămâne instalat după o repornire). Pentru dispo în versiunea de firmware 3.65, aceasta este, din fericire, doar o restricție temporară până când Ensō este instalat într-o pagină ulterioară. For devices on 3.68, you will, unfortunately, need to perform a small portion of these instructions (which will be indicated) after every reboot until a new persistent exploit is developed.
-
-Înainte de a instala exploit-ul h-encore, vom configura setările DNS pe reţea pentru a utiliza un server de actualizare personalizat care blochează noi versiuni de firmware din a se instala atunci când dispozitivul încearcă să efectueze o actualizare.
+Țineți cont că lanțul de exploit-uri h-encore nu este "persistent" (ceea ce înseamnă că nu rămâne instalat după o repornire). For the purposes of these instructions, we will be merely using it in order to gain the level of access required to downgrade to firmware version 3.60 in order to install more powerful exploits.
 
 În plus, faţă de instalarea exploit-ului h-encore, vom activa accesul la homebrew "nesigur" care dă permisiuni extinse la aplicaţiile homebrew. Această idee ar putea fi considerată similară cu modul de "administrator" de pe un calculator.
 
 Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie Sony (de orice mărime) pentru a urma acest ghid. Această restricţie nu se aplică la PS Vita 2000 sau PS TV de vreme ce aceste dispozitive au un card de memorie incorporat.
-
-Unealta "finalhe" este folosită pentru a automatiza instalarea h-encore.
+{: .notice--info}
 
 ### Ce aveți nevoie
 
@@ -37,6 +34,8 @@ Unealta "finalhe" este folosită pentru a automatiza instalarea h-encore.
   + Dacă nu aveți un cont PlayStation Network, creați unul
 1. Selectați / înregistrați calculatorul când vi se cere
   + Dacă vedeți un mesaj care vă cere să actualizați, reporniţi dispozitivul și încercați din nou
+  + If you still encounter this message, follow the instructions on [Blocking Updates](blocking-updates) and try again
+  + If you *stil* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
   + Dacă dispozitivul nu este detectat prin USB pe Windows, instalați [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) și încercați din nou
 
 #### Section II - h-encore Transfer
@@ -56,7 +55,30 @@ Unealta "finalhe" este folosită pentru a automatiza instalarea h-encore.
 1. Închideți aplicația Content Manager pe dispozitiv
 1. Close finalhe on your computer
 
+#### Section III - Configuring h-encore
+
+1. Lansați aplicația h-encore
+1. Dacă vi se întreabă despre trofee, selectaţi "Yes"
+1. În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore
+  + Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou
+  + În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou
+1. Selectaţi "Install HENkaku"
+  + Aceasta va instala exploit-ul HENkaku şi va permite accesul la homebrew până la următoarea repornire
+1. Select "Download VitaShell"
+  + This will install the VitaShell homebrew application for managing your device's filesystem
+  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
+1. Selectaţi "Exit"
+
+#### Section IV - Configuring HENkaku
+
+1. Lansați aplicația Settings
+1. Navigați spre `HENkaku Settings`
+  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
+1. Activați "Enable Unsafe Homebrew"
+1. Reveniți la meniul de setări HENkaku
+1. Închideți aplicația Settings
+
 ___
 
-### Continuați la [Configurând h-encore](configuring-h-encore)
+### Continue to [Downgrading Firmware (3.60)](downgrading-firmware-(3.60))
 {: .notice--primary}
