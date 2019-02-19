@@ -9,7 +9,6 @@ sitemap: false
 
 + [Adrenaline](adrenaline)
 + [Blocking Updates](blocking-updates)
-+ [Configurând h-encore](configuring-h-encore)
 + [Contribuții](credits)
 + [Donaţii](donations)
 + [Întrebări frecvente](faq)
@@ -18,7 +17,6 @@ sitemap: false
 + [Începeți](get-started)
 + [Acasă](/)
 + [Installing Ensō (3.60)](installing-enso-(3.60))
-+ [Instalând Ensō (3.65)](installing-enso-(3.65))
 + [Instalând h-encore](installing-h-encore)
 + [Installing HENkaku](installing-henkaku)
 + [Formatare de stocare (Linux)](storage-format-(linux))
@@ -27,7 +25,6 @@ sitemap: false
 + [StorageMgr](storagemgr)
 + [Depanare](troubleshooting)
 + [Updating Firmware (3.60)](updating-firmware-(3.60))
-+ [Updating Firmware (HENkaku)](updating-firmware-(henkaku))
 + [Updating Firmware (PS TV 3.65 and 3.68)](updating-firmware-(ps-tv-3.65-and-3.68))
 + [Updating Firmware (PS Vita 3.65 and 3.68)](updating-firmware-(ps-vita-3.65-and-3.68))
 + [De ce sunt reclame?](why-ads)
