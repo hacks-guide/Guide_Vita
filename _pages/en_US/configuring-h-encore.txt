@@ -6,42 +6,13 @@ title: "Configuring h-encore"
 
 ### Required Reading
 
-Now that the h-encore exploit is installed on your device, we will configure it for easy homebrew access.
+If your device was unable to downgrade to either 3.60 or 3.65 due to its "factory firmware", you will be unable to use the more convenient Ensō boot-time exploit.
+
+As a result, you will have to perform the h-encore exploit manually after each reboot. To make this slightly more convenient, we will disable the "trophy warning" that currently appears on every launch of the h-encore exploit.
 
 ### Instructions
 
-#### Section I - Configuring h-encore
-
-1. Launch the h-encore application
-1. If prompted about trophies, select "Yes"
-1. If the exploit was successful, you will now see the h-encore bootstrap menu
-  + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
-  + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
-1. Select "Install HENkaku"
-  + This will install the HENkaku exploit and enable homebrew access until the next reboot
-1. Select "Download VitaShell"
-  + This will install the VitaShell homebrew application for managing your device's filesystem
-  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
-1. Select "Exit"
-
-#### Section II - Configuring HENkaku
-
-1. Launch the Settings application
-1. Navigate to `HENkaku Settings`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
-1. Check "Enable Unsafe Homebrew"
-1. Return to HENkaku Settings menu
-1. Close the Settings application
-
-#### Section III - Disabling Trophy Warning
-
-{% capture notice-1 %}
-This is an optional section which will disable the trophy warning that appears when h-encore is launched.
-
-This section is not recommended for devices on firmware version 3.65 as Ensō can replace h-encore on those systems.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
+#### Section I - Disabling Trophy Warning
 
 1. Launch the VitaShell application
 1. Navigate to `ux0:` -> `user/` -> `00/` -> `savedata`
@@ -69,24 +40,6 @@ This section is not recommended for devices on firmware version 3.65 as Ensō ca
 1. Close the VitaShell application
 
 ___
-### Methods
-
-___
-
-#### Firmware Version 3.65
-
-Devices on firmware version 3.65 can now use the h-encore exploit to install Ensō, a more convenient exploit which runs automatically after a reboot.
-
-### Continue to [Installing Ensō (3.65)](installing-enso-(3.65))
-{: .notice--primary}
-
-___
-
-#### Firmware Versions 3.67 and 3.68
-
-Devices on firmware versions 3.67 and 3.68 are unfortunately incompatible with Ensō and must perform the h-encore exploit manually after each reboot.
 
 ### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
-
-___
