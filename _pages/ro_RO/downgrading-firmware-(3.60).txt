@@ -61,7 +61,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Apăsați (X) pentru a confirma stergerea
 1. Închideți aplicația VitaShell
 
-#### Section III - Downgrading
+#### Section III - Downgrading Prep
 
 1. Reporniți dispozitivul
 1. Lansați aplicația h-encore
@@ -72,6 +72,14 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Selectaţi "Install HENkaku"
   + Aceasta va instala exploit-ul HENkaku şi va permite accesul la homebrew până la următoarea repornire
 1. Selectaţi "Exit"
+1. Lansați aplicația Settings
+1. Navigați spre `HENkaku Settings`
+1. Selectaţi "Unlink Memory Card"
+1. Reveniți la meniul de setări HENkaku
+1. Închideți aplicația Settings
+
+#### Section IV - Downgrading
+
 1. Launch the modoru application
 1. Press (Cross) to confirm the downgrade to firmware version 3.60
   + If you are given the message "Error you cannot go lower than your factory firmware.", you will be unable to downgrade to firmware version 3.60
