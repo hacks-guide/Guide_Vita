@@ -74,7 +74,7 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 1. Sélectionnez "EXIT"
 1. Allez dans l'application paramètres
 1. Accédez à `HENkaku Settings`
-1. Select "Unlink Memory Card"
+1. Choisissez "Unlink Memory Card"
 1. Return to HENkaku Settings menu
 1. Close the Settings application
 
