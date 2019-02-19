@@ -6,42 +6,13 @@ title: "Configurând h-encore"
 
 ### Lectură obligatorie
 
-Now that the h-encore exploit is installed on your device, we will configure it for easy homebrew access.
+If your device was unable to downgrade to either 3.60 or 3.65 due to its "factory firmware", you will be unable to use the more convenient Ensō boot-time exploit.
+
+As a result, you will have to perform the h-encore exploit manually after each reboot. To make this slightly more convenient, we will disable the "trophy warning" that currently appears on every launch of the h-encore exploit.
 
 ### Instrucțiuni
 
-#### Secțiunea I - Configurând h-encore
-
-1. Lansați aplicația h-encore
-1. Dacă vi se întreabă despre trofee, selectaţi "Yes"
-1. În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore
-  + Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou
-  + În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou
-1. Selectaţi "Install HENkaku"
-  + Aceasta va instala exploit-ul HENkaku şi va permite accesul la homebrew până la următoarea repornire
-1. Selectați "Download VitaShell"
-  + Aceasta va instala aplicația de homebrew VitaShell pentru a administra sistemul de fișiere al dispozitivului
-  + VitaShell (și toate aplicațiile de homebrew în general) vor rămâne instalate după o repornire, dar vor afișa o eroare la lansare dacă exploit-ul HENkaku nu este activ
-1. Selectaţi "Exit"
-
-#### Secțiunea II - Configurând HENkaku
-
-1. Lansați aplicația Settings
-1. Navigați spre `HENkaku Settings`
-  + În cazul în care setările HENkaku lipsesc, selectaţi "Reset taiHEN config.txt" în meniul de pornire h-encore, apoi încercați din nou
-1. Activați "Enable Unsafe Homebrew"
-1. Reveniți la meniul de setări HENkaku
-1. Închideți aplicația Settings
-
-#### Secţiunea III - Dezactivând avertismentul despre trofee
-
-{% capture notice-1 %}
-Aceasta este o secțiune suplimentară care va dezactiva avertismentul despre trofee care apare când h-encore este lansat.
-
-Această secțiune nu este recomandată pentru dispozitivele cu versiunea de firmware 3.65 de vreme ce Ensō poate înlocui h-encore pe acele sisteme.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
+#### Section I - Disabling Trophy Warning
 
 1. Lansați aplicația VitaShell
 1. Navigați spre `ux0:` -> `user/` -> `00/` -> `savedata`
@@ -69,24 +40,6 @@ Această secțiune nu este recomandată pentru dispozitivele cu versiunea de fir
 1. Închideți aplicația VitaShell
 
 ___
-### Metode
-
-___
-
-#### Versiunea de firmware 3.65
-
-Dispozitivele pe versiunea de firmware 3.65 pot folosi acum exploit-ul h-enceore spre a instala Ensō, un exploit mai convenabil care se execută automat după o repornire.
-
-### Continuați spre [Instalând Ensō (3.65)](installing-enso-(3.65))
-{: .notice--primary}
-
-___
-
-#### Versiuni de firmware 3.67 și 3.68
-
-Dispozitivele pe versiuni de firmware 3.67 şi 3,68 sunt din păcate incompatibile cu Ensō şi trebuie să execute exploit-ul h-encore manual după fiecare repornire.
 
 ### Continuați la [Finalizând instalarea](finalizing-setup)
 {: .notice--primary}
-
-___
