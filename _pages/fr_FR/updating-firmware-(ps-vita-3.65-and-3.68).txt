@@ -2,9 +2,9 @@
 title: "Updating Firmware (PS Vita 3.65 and 3.68)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 The hencore exploit is only compatible with the firmware versions 3.65 and 3.68. As a result, other firmware versions must update using a custom update application in order to use that exploit.
 
@@ -44,7 +44,7 @@ Note that a custom update application can only update your device, not downgrade
 
 #### Section II - Updating Firmware
 
-1. Launch the Settings application
+1. Allez dans l'application paramètres
 1. Navigate to `System Update` -> `Update by Connecting to a PC`
 1. Ensure the update message "Version 3.65" or "Version 3.68" is displayed, depending on which version you are attempting to update to
   + If it displays any other message, stop and figure out what went wrong
