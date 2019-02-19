@@ -2,9 +2,9 @@
 title: "StorageMgr"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 StorageMgr is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
 
@@ -21,8 +21,8 @@ You must have already installed VitaShell to use this.
 
 * A formatted storage device compatible with your system
   + To format your device, see [Storage Format (Windows)](storage-format-(windows)), [Storage Format (Linux)](storage-format-(linux)), or [Storage Format (Mac)](storage-format-(mac))
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
+* Un client FTP comme [WinSCP](https://winscp.net/) ou [CyberDuck](https://cyberduck.io/)
+  + Vous pouvez également utiliser la fonctionnalité de tranfert USB de VitaShell
 * The latest release of [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
   + `storage_config.txt` should be edited to fit your situation as instructed in the [README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
   + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
@@ -35,9 +35,9 @@ You must have already installed VitaShell to use this.
 #### Section I - Installing Plugins
 
 1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
+1. Appuyez sur (Select) pour activer l'accès FTP sur votre machine
+1. Ouvrez votre client FTP sur votre ordinateur
+1. Entrez l'adresse IP et le port affichés sur votre machine
 1. Using your FTP client, copy all files from `ux0:tai/` to `ur0:tai/`
   + Overwrite any existing files in the `ur0:tai/` folder
   + If you do not have a `ux0:tai/` folder, skip this step
@@ -60,10 +60,10 @@ This section will copy the data from your old Sony memory card to your new stora
 1. Copy the contents of your `ux0:` folder to your new storage device
   + This may take some time if you have a large amount of data on your Sony memory card
 1. Insert your new storage device into your PS Vita (TV)
-1. Press (Circle) on your device to close the FTP connection
+1. Appuyez sur (Rond) sur votre machine pour fermer la connexion FTP
 1. Fermez l'application VitaShell
-1. Reboot your device
-  + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
+1. Redémarrez votre machine
+  + Si votre appareil n'a pas Ensō, vous allez devoir lancer et quitter h-encore manuellement pour activer les homebrews
   + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
 
 ___
