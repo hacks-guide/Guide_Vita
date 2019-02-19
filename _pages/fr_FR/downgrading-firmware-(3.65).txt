@@ -1,12 +1,12 @@
 ---
-title: Downgrading Firmware (3.65)
+title: Downgrade du logicielle système (3.65)
 ---
 
 ### Lecture requise
 
-If your device was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will still be able to use the more convenience Ensō boot-time exploit (as long as your "factory firmware" is 3.65 or lower) by downgrading to firmware version 3.65.
+Si votre appareil n'a pas pu downgrader en raison de sa "version logicielle système d'usine", vous pourrez toujours utiliser l'exploit du bootloader Ensō (tant que votre "version logicielle système d'usine" est 3.65 ou inférieur) en téléchargeant vers la version 3.65 du firmware.
 
-Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
+Malheureusement, vous pourrez avoir des incompatibilités logiciels mineurs car vous ne serez pas en mesure d'utiliser un homebrew qui n'est compatible qu'avec la version 3.60.
 
 Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de continuer.
 {:.notice--info}
@@ -19,7 +19,7 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 
 #### Section I - Préparation
 
-1. Exit the modoru application
+1. Quittez l'application modoru
 1. Lancez l'application VitaShell
 1. Press (Start) to open the VitaShell settings
 1. Press (Cross) on "SELECT button" to change the mode to "FTP"
@@ -31,8 +31,8 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 1. Ouvrez votre client FTP sur votre ordinateur
 1. Entrez l'adresse IP et le port affichés sur votre machine
 1. En utilisant votre client FTP, naviguez vers `ux0:` -> `data/`
-1. Delete the existing 3.60 `PSP2UPDAT.PUP` file
-1. Transfer the 3.65 `PSP2UPDAT.PUP` to the `data` folder
+1. Supprimer le fichier existant `PSP2UPDAT.PUP` de la version logicielle 3.60
+1. Transférez le fichier `PSP2UPDAT.PUP` de la version logicielle 3.65 vers le dossier `data`
 1. Appuyez sur (Rond) sur votre machine pour fermer la connexion FTP
 
 #### Section II - Installation de modoru
@@ -43,19 +43,19 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 1. Press (Cross) to continue the install when you are prompted about extended permissions
 1. Appuyez sur (Triangle) pour ouvrir le menu, et sélectionnez "Delete" pour supprimer modoru
 1. Appuyez sur (Croix) pour confirmer la suppression
-1. Press (Triangle) on the 3.65 `PSP2UPDAT.PUP` to open the menu, then select "Copy"
+1. Appuyez sur (Triangle) sur le fichier `PSP2UPDAT.PUP` de la version logicielle 3.65 pour ouvrir le menu, puis sélectionnez  "Copy" pour copier le fichier.
 1. Appuyez sur (croix) pour fermer la boîte de dialogue de fichier copié
 1. Appuyez sur (Rond) pour retourner vers `ux0:`
 1. Naviguez vers `app` -> `MODORU000`
-1. Press (Triangle) on the existing 3.60 `PSP2UPDAT.PUP` to open the menu, then select "Delete"
+1. Appuyez sur (Triangle) sur le fichier `PSP2UPDAT.PUP` de la version logicielle 3.60 pour ouvrir le menu, puis sélectionnez  "Delete" pour le supprimer
 1. Appuyez sur (Croix) pour confirmer la suppression
-1. Press (Triangle) to open then menu, then select "Paste" to paste the 3.65 `PSP2UPDAT.PUP` in the current folder
+1. Appuyez sur (Triangle) pour ouvrir le menu, puis sélectionnez « Coller » pour coller `PSP2UPDAT.PUP` de la version logicielle 3.65 dans le dossier
 1. Appuyez sur (Rond) pour retourner vers `ux0:`
 1. Appuyez sur (Triangle) sur le dossier `tai` pour ouvrir le menu, et sélectionnez "Delete" pour supprimer le dossier `tai`.
 1. Appuyez sur (Croix) pour confirmer la suppression
 1. Fermez l'application VitaShell
 
-#### Section III - Downgrading
+#### Section III - Downgrade
 
 1. Redémarrez votre machine
 1. Lancez l'application h-encore
@@ -67,12 +67,12 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
   + Cela installera l'exploit HENkaku et permettra l'accès aux homebrews jusqu'au prochain redémarrage
 1. Sélectionnez "EXIT"
 1. Lancez l'application modoru
-1. Press (Cross) to confirm the downgrade to firmware version 3.65
+1. Appuyez sur (Croix) pour confirmer le downgrade vers la version 3.65 du logicielle système.
 1. Appuyez sur (Croix) pour accepter les termes et conditions d'utilisation.
 1. Votre appareil commencera le downgrade
 1. Attendez que le downgrade soit terminé, votre appareil redémarrera automatiquement.
 
 ___
 
-### Continue to [Installing Ensō (3.65)](installing-enso-(3.65))
+### Installation de Ensō (3.65)](installing-enso-(3.65))
 {: .notice--primary}
