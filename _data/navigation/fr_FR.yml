@@ -1,19 +1,19 @@
 ---
 main:
   - 
-    title: Home
+    title: Accueil
     url: /
   - 
     title: FAQ
     url: faq
   - 
-    title: Donations
+    title: Dons
     url: donations
   - 
-    title: Credits
+    title: Remerciements
     url: credits
   - 
-    title: Troubleshooting
+    title: Problèmes et Dépannage
     url: troubleshooting
   - 
     title: Adrenaline
@@ -22,63 +22,63 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Site Navigation
+    title: Index du site
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/JXEKeg6">Vita Hacking on Discord</a>.
+    title: Pour un support en Anglais, demandez de l'aide sur le <a href="https://discord.gg/JXEKeg6">Discord Vita Hacking</a>.
   - 
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+    title: Si vous appréciez ce guide, j'accepte des <a href="donations">dons</a>.
 footer:
   - 
     title: Source
   - 
-    title: Site Navigation
+    title: Index du site
   - 
-    title: Why Ads?
+    title: Pourquoi des pubs ?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progression globale
 sidebar_pages:
   - 
-    title: Home
+    title: Accueil
     url: /
   - 
-    title: Get Started
+    title: Pour commencer
     url: get-started
   - 
-    title: Updating Firmware (3.60)
-    url: updating-firmware-(3.60)
+    title: Mise à jour du logiciel (3.60)
+    url: mise à jour du logiciel (3.60)
   - 
-    title: Updating Firmware (PS TV 3.65 and 3.68)
-    url: updating-firmware-(ps-tv-3.65-and-3.68)
+    title: Mise à jour du logiciel (PS TV 3,65 et 3,68)
+    url: mise-à-jour-du-logiciel-(ps-tv-3,65-et-3,68)
   - 
-    title: Updating Firmware (PS Vita 3.65 and 3.68)
-    url: updating-firmware-(ps-vita-3.65-and-3.68)
+    title: Mise à jour du logiciel (PS Vita 3,65 et 3,68)
+    url: mise-à-jour-du-logiciel-(psvita-3,65-et-3,68)
   - 
-    title: Installing h-encore
-    url: installing-h-encore
+    title: Installation de h-encore
+    url: installation-de-h-encore
   - 
-    title: Downgrading Firmware (3.60)
-    url: downgrading-firmware-(3.60)
+    title: Downgrade du Firmware (3.60)
+    url: downgrade-du-firmware-(3.60)
   - 
-    title: Downgrading Firmware (3.65)
-    url: downgrading-firmware-(3.65)
+    title: Downgrade du Firmware (3.65)
+    url: downgrade-du-firmware-(3.65)
   - 
-    title: Installing HENkaku
-    url: installing-henkaku
+    title: Installation de HENkaku
+    url: installation-de-henkaku
   - 
-    title: Configuring h-encore
-    url: configuring-h-encore
+    title: Configuration de h-encore
+    url: configuration de h-encore
   - 
-    title: Multiple Options
+    title: Options multiples
     url: multiple-options
   - 
-    title: Installing Ensō (3.65)
-    url: installing-enso-(3.65)
+    title: Installation de Ensō (3.65)
+    url: installation-de-enso-(3.65)
   - 
-    title: Installing Ensō (3.60)
-    url: installing-enso-(3.60)
+    title: Installation de Ensō (3.60)
+    url: installation-de-enso-(3.60)
   - 
-    title: Finalizing Setup
-    url: finalizing-setup
+    title: Finalisation de la configuration
+    url: finalisation-de-la-configuration
