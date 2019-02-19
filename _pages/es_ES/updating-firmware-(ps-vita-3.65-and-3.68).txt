@@ -37,6 +37,8 @@ Note that a custom update application can only update your device, not downgrade
   + Si no tienes una cuenta de PlayStation Network, crea una
 1. Selecciona / registra tu computador si te lo pide
   + Si encuentras un mensaje que te instruye a actualizar, reinicia la consola y vuelve a intentar
+  + If you still encounter this message, enable Flight Mode in the system settings, reboot your device, and try again
+  + If you *still* encounter this message, disable Flight Mode, follow the instructions in [Blocking Updates](blocking-updates), reboot your device, and try again
   + Si tu consola no es detectada por USB en Windows, instala [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) y vuelve a intentar
 1. The finalhe application should display instructions for updating your device
 
