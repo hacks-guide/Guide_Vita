@@ -29,6 +29,7 @@ Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria ofic
 1. Read the disclaimer, then tap "Install"
   + If you get an error and cannot proceed, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
 1. If the exploit was successful, you will now have a bubble on your LiveArea screen named "molecularShell".
+  + If the exploit was successful but the molecularShell application is missing, perform the exploit again and press R1 when prompted to re-install molecularShell
 
 #### Sección II - Configurar HENkaku
 
