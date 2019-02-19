@@ -37,6 +37,8 @@ Note that a custom update application can only update your device, not downgrade
   + Dacă nu aveți un cont PlayStation Network, creați unul
 1. Selectați / înregistrați calculatorul când vi se cere
   + Dacă vedeți un mesaj care vă cere să actualizați, reporniţi dispozitivul și încercați din nou
+  + If you still encounter this message, enable Flight Mode in the system settings, reboot your device, and try again
+  + If you *still* encounter this message, disable Flight Mode, follow the instructions in [Blocking Updates](blocking-updates), reboot your device, and try again
   + Dacă dispozitivul nu este detectat prin USB pe Windows, instalați [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) și încercați din nou
 1. The finalhe application should display instructions for updating your device
 
