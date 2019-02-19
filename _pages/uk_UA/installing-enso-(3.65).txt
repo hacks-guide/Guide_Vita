@@ -6,9 +6,9 @@ title: "Installing Ensō (3.65)"
 
 ### Required Reading
 
-Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment.
+If your device on firmware version 3.65 was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will fortunately still be able to use the more convenience Ensō boot-time exploit.
 
-It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
+Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
 
 ### What You Need
 
