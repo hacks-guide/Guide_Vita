@@ -73,7 +73,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Press (Cross) to continue the install each time you are prompted about extended permissions
 1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
 1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. Fermez l'application VitaShell
 
 #### Section III - Blocking Updates
 
