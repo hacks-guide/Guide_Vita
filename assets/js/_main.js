@@ -124,11 +124,12 @@ $(document).ready(function(){
 
   var methods = {
     "updating-firmware-(3.60)": "0",
-    "installing-henkaku": "1",
+    "get-started": "1",
     "updating-firmware-(ps-tv-3.65-and-3.68)": "2",
     "updating-firmware-(ps-vita-3.65-and-3.68)": "3",
     "installing-h-encore": "4",
     "installing-enso-(3.65)": "5",
+    "downgrading-firmware-(3.65)": "6",
   };
 
   for(var method in methods){
@@ -147,10 +148,12 @@ $(document).ready(function(){
     var route = {
       "0": ["updating-firmware-(3.60)", "installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
       "1": ["installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
-      "2": ["updating-firmware-(ps-tv-3.65-and-3.68)", "installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
-      "3": ["updating-firmware-(ps-vita-3.65-and-3.68)", "installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
-      "4": ["installing-h-encore", "configuring-h-encore", "multiple-options", "finalizing-setup"],
-      "5": ["installing-h-encore", "configuring-h-encore", "installing-enso-(3.65)", "finalizing-setup"],
+      "2": ["updating-firmware-(ps-tv-3.65-and-3.68)", "installing-h-encore", "downgrading-firmware-(3.60)", "installing-enso-(3.60)", "finalizing-setup"],
+      "3": ["updating-firmware-(ps-vita-3.65-and-3.68)", "installing-h-encore", "downgrading-firmware-(3.60)", "installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
+      "4": ["installing-h-encore", "downgrading-firmware-(3.60)", "installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
+      "5": ["installing-h-encore", "downgrading-firmware-(3.60)", "installing-enso-(3.65)", "finalizing-setup"],
+      "6": ["installing-h-encore", "downgrading-firmware-(3.60)", "downgrading-firmware-(3.65)", "installing-enso-(3.65)", "finalizing-setup"],
+      "7": ["installing-h-encore", "downgrading-firmware-(3.60)", "configuring-h-encore", "finalizing-setup"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
