@@ -1,6 +1,6 @@
 
 ---
-title: "Обновление до 3.60"
+title: "Updating Firmware (3.60)"
 ---
 
 {% include toc title="Содержание" %}
