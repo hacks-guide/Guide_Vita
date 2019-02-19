@@ -61,7 +61,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Нажмите (Крест) чтобы подтвердить удаление
 1. Закройте приложение VitaShell
 
-#### Section III - Downgrading
+#### Section III - Downgrading Prep
 
 1. Перезагрузите консоль
 1. Запустите приложение h-encore
@@ -72,6 +72,14 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Выберите "Install HENkaku"
   + Это действие установит эксплойт HENkaku и разрешит доступ к хоумбрю до следующей перезагрузки
 1. Выберите "Exit"
+1. Запустите приложение Настройки
+1. Перейдите в `Настройки HENkaku`
+1. Выберите "Отвязать карту памяти"
+1. Вернитесь в меню Настройки HENkaku
+1. Закройте приложение Настройки
+
+#### Section IV - Downgrading
+
 1. Launch the modoru application
 1. Press (Cross) to confirm the downgrade to firmware version 3.60
   + If you are given the message "Error you cannot go lower than your factory firmware.", you will be unable to downgrade to firmware version 3.60
