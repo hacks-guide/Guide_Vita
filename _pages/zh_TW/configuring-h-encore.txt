@@ -6,42 +6,13 @@ title: "設定 h-encore"
 
 ### 必讀事項
 
-在安裝完 h-encore 後，我們將設定您的主機好讓您以後可以更容易地存取自製軟體。
+If your device was unable to downgrade to either 3.60 or 3.65 due to its "factory firmware", you will be unable to use the more convenient Ensō boot-time exploit.
+
+As a result, you will have to perform the h-encore exploit manually after each reboot. To make this slightly more convenient, we will disable the "trophy warning" that currently appears on every launch of the h-encore exploit.
 
 ### 操作說明
 
-#### 第一節 — 設定 h-encore
-
-1. 啟動 h-encore
-1. 如有提示關於獎盃的事項，選擇「是」
-1. 如果漏洞成功執行的話，您將會看到 h-encore 引導選單
-  + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
-  + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
-1. 選擇『Install HENkaku』
-  + 這將會安裝 HENkaku 漏洞，並啟用自製軟體存取權直到下次重啟
-1. 選擇『Download VitaShell』
-  + 這將會安裝自製軟體 VitaShell 以管理您主機的檔案系統
-  + VitaShell (以及所有其他的自製軟體) 於重啟後仍會保持其安裝狀態，但如果沒有先執行 HENkaku 漏洞的話將無法執行
-1. 選擇『Exit』
-
-#### 第二節 — 設定 HENkaku
-
-1. 啟動設定
-1. 移動至 `HENkaku 設置`
-  + 如果您找不到 HENkaku 設置，從 h-core 引導選單中選擇『Reset taiHEN config.txt』並再試一次
-1. 勾選『啟動不安全自制軟件』
-1. 回到 HENkaku 設置選單
-1. 關閉設定
-
-#### 第三節 — 關閉獎盃相關警告
-
-{% capture notice-1 %}
-本結為選用章節。此章節將會關閉啟動 h-encore 時所出現的獎盃相關警告。
-
-本章節不建議用於持有系統版本 3.65 的主機，因為 Ensō 可以在這些系統中替代 h-encore。
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
+#### Section I - Disabling Trophy Warning
 
 1. 啟動 VitaShell
 1. 移動至 `ux0:` -> `user/` -> `00/` -> `savedata`
@@ -69,24 +40,6 @@ title: "設定 h-encore"
 1. 關閉 VitaShell
 
 ___
-### 方法
-
-___
-
-#### 韌體版本 3.65
-
-於韌體版本 3.65 的主機現在可以透過 h-encore 漏洞安裝 Ensō，另一個更方便會於重啟時自動重新執行的漏洞。
-
-### 繼續至 [安裝 Ensō (版本 3.65)](installing-enso-(3.65))
-{: .notice--primary}
-
-___
-
-#### 韌體版本 3.67 及 3.68
-
-很不幸地，於韌體版本 3.67 及 3.68 的主機將無法與 Ensō 相容，且必須在每次重新啟動主機時重新運行 h-encore 漏洞。
 
 ### 繼續至[完成安裝](finalizing-setup)
 {: .notice--primary}
-
-___
