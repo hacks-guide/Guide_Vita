@@ -2,9 +2,9 @@
 title: "Updating Firmware (PS TV 3.65 and 3.68)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 The h-encore exploit is only compatible with the firmware versions 3.65 and 3.68. As a result, other firmware versions must update using a custom update application in order to use that exploit.
 
@@ -14,7 +14,7 @@ Users on a firmware version above 3.65 will unfortunately have to update to the 
 
 Note that a custom update application can only update your device, not downgrade it. If you are on a firmware version higher than 3.68, you should return to [Get Started](get-started).
 
-### What you need
+### Ce dont vous aurez besoin
 
 * A FAT32 formatted USB drive with 150MB of free space
 * The `PSP2Updat.PUP` file corresponding to the firmware version you are attempting to update to
