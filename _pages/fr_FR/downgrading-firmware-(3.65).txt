@@ -8,7 +8,7 @@ If your device was unable to downgrade to firmware version 3.60 due to its "fact
 
 Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
 
-Ensure your device has a battery charge of 50% or greater before proceeding.
+Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de continuer.
 {:.notice--info}
 
 ### Ce dont vous aurez besoin
@@ -35,23 +35,23 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Transfer the 3.65 `PSP2UPDAT.PUP` to the `data` folder
 1. Appuyez sur (Rond) sur votre machine pour fermer la connexion FTP
 
-#### Section II - Installing modoru
+#### Section II - Installation de modoru
 
 1. Sur votre machine, naviguez vers `ux0:` -> `data/`
-1. Press (Cross) on `modoru.vpk` to install it
+1. Appuyez sur (Croix) sur le fichier 'modoru.vpk' pour installer le fichier
 1. Appuyez sur (Croix) pour confirmer l'installation
 1. Press (Cross) to continue the install when you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete `modoru.vpk`
+1. Appuyez sur (Triangle) pour ouvrir le menu, et sélectionnez "Delete" pour supprimer modoru
 1. Appuyez sur (Croix) pour confirmer la suppression
 1. Press (Triangle) on the 3.65 `PSP2UPDAT.PUP` to open the menu, then select "Copy"
 1. Appuyez sur (croix) pour fermer la boîte de dialogue de fichier copié
-1. Press (Circle) to return to the `ux0:` partition
-1. Navigate to `app` -> `MODORU000`
+1. Appuyez sur (Rond) pour retourner vers `ux0:`
+1. Naviguez vers `app` -> `MODORU000`
 1. Press (Triangle) on the existing 3.60 `PSP2UPDAT.PUP` to open the menu, then select "Delete"
 1. Appuyez sur (Croix) pour confirmer la suppression
 1. Press (Triangle) to open then menu, then select "Paste" to paste the 3.65 `PSP2UPDAT.PUP` in the current folder
-1. Press (Circle) to return to the `ux0:` partition
-1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
+1. Appuyez sur (Rond) pour retourner vers `ux0:`
+1. Appuyez sur (Triangle) sur le dossier `tai` pour ouvrir le menu, et sélectionnez "Delete" pour supprimer le dossier `tai`.
 1. Appuyez sur (Croix) pour confirmer la suppression
 1. Fermez l'application VitaShell
 
@@ -59,18 +59,18 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 
 1. Redémarrez votre machine
 1. Lancez l'application h-encore
-1. If prompted about trophies, select "Yes"
-1. If the exploit was successful, you will now see the h-encore bootstrap menu
-  + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
-  + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
-1. Select "Install HENkaku"
-  + This will install the HENkaku exploit and enable homebrew access until the next reboot
-1. Select "Exit"
-1. Launch the modoru application
+1. Si demandez par rapport aux trophées, sélectionnez "yes"
+1. Si l'exploit est un succès, vous verrez maintenant le menu bootstrap de h-encore
+  + Si l'exploit est figé sur un écran blanc, simplement fermer l'application (qui causera un plantage et un redémarrage de votre console), ensuite essayez encore
+  + S'il est encore figé, maintenez le bouton d'alimentation pendant plus de 30 secondes pour forcer un redémarrage, ensuite essayez encore
+1. Sélectionnez "install HENkaku"
+  + Cela installera l'exploit HENkaku et permettra l'accès aux homebrews jusqu'au prochain redémarrage
+1. Sélectionnez "EXIT"
+1. Lancez l'application modoru
 1. Press (Cross) to confirm the downgrade to firmware version 3.65
-1. Press (Cross) to accept the terms and conditions
-1. Your device will begin the downgrade process
-1. Wait until the process is completed, your device will reboot automatically
+1. Appuyez sur (Croix) pour accepter les termes et conditions d'utilisation.
+1. Votre appareil commencera le downgrade
+1. Attendez que le downgrade soit terminé, votre appareil redémarrera automatiquement.
 
 ___
 
