@@ -14,7 +14,7 @@ Par conséquent, vous devrez réaliser l'exploit h-encore manuellement après ch
 
 #### Section I - Désactiver l'avertissement des Trophées
 
-1. Launch the VitaShell application
+1. Lancez l'application VitaShell
 1. Allez à `ux0:` -> `user/` -> `00/` -> `savedata`
 1. Appuyez sur (Triangle) sur le dossier `PCSG90096` pour ouvrir le menu, puis sélectionnez « Open decrypted »
   + Si vous voyez `sce_pfs`, vous n'ouvrirez pas le dossier en utilisant l'option correcte du menu
