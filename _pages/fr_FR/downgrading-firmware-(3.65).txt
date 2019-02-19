@@ -44,7 +44,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Press (Triangle) to open the menu, then select "Delete" to delete `modoru.vpk`
 1. Press (Cross) to confirm the deletion
 1. Press (Triangle) on the 3.65 `PSP2UPDAT.PUP` to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
+1. Appuyez sur (croix) pour fermer la boîte de dialogue de fichier copié
 1. Press (Circle) to return to the `ux0:` partition
 1. Navigate to `app` -> `MODORU000`
 1. Press (Triangle) on the existing 3.60 `PSP2UPDAT.PUP` to open the menu, then select "Delete"
@@ -53,12 +53,12 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Press (Circle) to return to the `ux0:` partition
 1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
 1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. Fermez l'application VitaShell
 
 #### Section III - Downgrading
 
 1. Reboot your device
-1. Launch the h-encore application
+1. Lancez l'application h-encore
 1. If prompted about trophies, select "Yes"
 1. If the exploit was successful, you will now see the h-encore bootstrap menu
   + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
