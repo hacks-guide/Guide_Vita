@@ -9,7 +9,6 @@ sitemap: false
 
 + [Adrenaline](adrenaline)
 + [Blocking Updates](blocking-updates)
-+ [Configurar h-encore](configuring-h-encore)
 + [Créditos](credits)
 + [Donaciones](donations)
 + [FAQ](faq)
@@ -18,7 +17,6 @@ sitemap: false
 + [Comencemos](get-started)
 + [Inicio](/)
 + [Installing Ensō (3.60)](installing-enso-(3.60))
-+ [Instalar Ensō (3.65)](installing-enso-(3.65))
 + [Instalar h-encore](installing-h-encore)
 + [Installing HENkaku](installing-henkaku)
 + [Formatear almacenamiento (Linux)](storage-format-(linux))
@@ -27,7 +25,6 @@ sitemap: false
 + [StorageMgr](storagemgr)
 + [Solución de problemas](troubleshooting)
 + [Updating Firmware (3.60)](updating-firmware-(3.60))
-+ [Updating Firmware (HENkaku)](updating-firmware-(henkaku))
 + [Updating Firmware (PS TV 3.65 and 3.68)](updating-firmware-(ps-tv-3.65-and-3.68))
 + [Updating Firmware (PS Vita 3.65 and 3.68)](updating-firmware-(ps-vita-3.65-and-3.68))
 + [¿Por qué anuncios?](why-ads)
