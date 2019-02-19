@@ -42,7 +42,7 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 1. Press (Cross) to continue the install when you are prompted about extended permissions
 1. Press (Triangle) to open the menu, then select "Delete" to delete the marked file
 1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. Fermez l'application VitaShell
 
 #### Section III - Installing Ensō
 
@@ -53,5 +53,5 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continuer vers [Finalisation de l'installation](finalizing-setup)
 {: .notice--primary}
