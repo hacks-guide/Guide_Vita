@@ -2,9 +2,9 @@
 title: "Troubleshooting"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 If you encounter issues, please look for the section relevant to you and follow the instructions.
 
