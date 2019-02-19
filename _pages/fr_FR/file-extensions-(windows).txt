@@ -1,39 +1,39 @@
 ---
-title: "File Extensions (Windows)"
+title: "Extensions de fichier (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-This is an add-on section for disabling Windows's default behavior of hiding file extensions.
+Ceci est une section additionnelle pour afficher les fichiers caché dans l'explorateur windows.
 
-This will make it easier for you to find the referenced files in the rest of this guide.
+Cela rendra la tâche plus simple pour trouver les différents fichiers mentionnés dans la suite de ce guide.
 
 ### Instructions
 
 #### Windows 10 / 8.1 / 8
 
-1. Launch File Explorer by opening any directory, such as your SD card directory
-1. Click the "View" option on the ribbon menu 
-1. Check the box labeled "File name extensions"
+1. Lancez l'explorateur de fichiers en ouvrant n'importe quel dossier, comme votre carte SD par exemple
+1. Cliquez sur "Affichage" en haut de la fenêtre 
+1. Cochez la case "Extensions des noms de fichiers"
 
     ![]({{ "/images/screenshots/windows-10-file-extensions.png" | absolute_url }})
     {: .notice--info}
 
 #### Windows 7
 
-1. Open the start menu by clicking on it or using the Windows key
-1. Search for "Folder Options" and select the corresponding result
+1. Ouvrez le menu démarrer en cliquant dessus ou en utilisant la touche Windows
+1. Rechercher "Options des dossiers" et sélectionner le résultat correspondant
 
     ![]({{ "/images/screenshots/windows-7-folder-options-start-menu.png" | absolute_url }})
     {: .notice--info}
 
-1. Click the "View" option at the top of the Folder Options menu
-1. Uncheck the box labeled "Hide extensions for known file types"
+1. Cliquez sur l'onglet "Affichage" en haut
+1. Décochez la case "Masquer les extensions des fichiers dont le type est connu"
 
     ![]({{ "/images/screenshots/windows-7-folder-options.png" | absolute_url }})
     {: .notice--info}
     
 ___
 
-### Return to [Get Started](get-started)
+### Retournez vers [Pour Commencer](get-started)
 {: .notice--primary}

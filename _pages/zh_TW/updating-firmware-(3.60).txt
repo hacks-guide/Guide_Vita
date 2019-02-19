@@ -1,6 +1,6 @@
 
 ---
-title: "更新至 3.60"
+title: "更新韌體 (3.60)"
 ---
 
 {% include toc title="條目內容" %}

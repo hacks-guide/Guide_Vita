@@ -6,87 +6,19 @@ title: "Configurar h-encore"
 
 ### Lectura requerida
 
-Now that the h-encore exploit is installed on your device, we will configure it for easy homebrew access.
+Si tu consola no pudo ser downgradeada a 3.60 o 3.65 debido a su "factory firmware" (firmware de fábrica), no podrás usar el más conveniente exploit de tiempo de booteo Ensō.
+
+Por esto, tendrás que ejecutar manualmente el exploit h-encore después de cada reinicio. Para hacer esto un poco más conveniente, desactivaremos la "advertencia trofeo" que actualmente aparece en cada lanzamiento del exploit h-encore.
 
 ### Instrucciones
 
-#### Sección I - Configurar h-encore
+#### Sección I - Desactivar advertencia de trofeo
 
-1. Inicia la aplicación h-encore
-1. Si te pregunta por trofeos, selecciona "Yes"
-1. Si el exploit fue exitoso, ahora verás el menú de inicio de h-encore
-  + Si el exploit se quedó en una pantalla en blanco, tan solo cierra la aplicación (lo cual causará un crash y reiniciará tu consola), y vuelve a intentar
-  + Si aún no funciona, mantén presionado el botón de apagado por unos 30 segundos para forzar un reinicio, y vuelve a intentar
-1. Selecciona "Install HENkaku"
-  + Esto instalará el exploit HENkaku para activar acceso a homebrew hasta el siguiente reinicio
-1. Selecciona "Download VitaShell"
-  + Esto instalará la aplicación de homebrew VitaShell para adminsitrar el sistema de archivos de tu consola
-  + VitaShell (y en general todas las aplicaciones de homebrew) se mantendrán instaladas luego de un reinicio, pero darán un error al ejecutar si el exploit de HENkaku no está activo
+1. Inicia la aplicación de h-encore mientras presionas (R)
+1. Selecciona "Personalize savedata"
 1. Selecciona "Exit"
 
-#### Sección II - Configurar HENkaku
-
-1. Inicia la aplicación Ajustes
-1. Ve a `HENkaku Settings`
-  + Si los ajustes de HENkaku no aparece, selecciona "Reset taiHEN config.txt" en el menú de inicio de h-encore, y vuelve a intentar
-1. Activa "Enable Unsafe Homebrew"
-1. Vuelve al menú de ajustes de HENkaku
-1. Cierra la aplicación Ajustes
-
-#### Sección III - Desactivar alerta sobre trofeos
-
-{% capture notice-1 %}
-Esta es una sección opcional con la que desactivarás la alerta sobre trofeos que aparece cuando h-encore es ejecutado.
-
-Esta sección no es recomendada para consolas con versión de firmware 3.65 ya que Ensō puede reemplazar h-encore en esos sistemas.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
-
-1. Inicia la aplicación VitaShell
-1. Ve a `ux0:` -> `user/` -> `00/` -> `savedata`
-1. Presiona (Triángulo) en la carpeta `PCSG90096` para abrir el menú, luego selecciona "Open decrypted"
-  + Si ves `sce_pfs`, no abriste la carpeta con la opción correcta del menú
-1. Presiona (Triángulo) en el archivo `system.dat` para abrir el menú, luego selecciona "Copy"
-1. Presiona (Cruz) para cerrar el diálogo de archivo copiado
-1. Presiona (Círculo) para volver a la carpeta `savedata`
-1. Presiona (Tríángulo) para abrir el menú, luego selecciona "Paste" para pegar `system.dat` en la carpeta actual
-1. Presiona (Cuadrado) para desmarcar `system.dat`
-1. Presiona (Triángulo) en la carpeta `PCSG90096` para abrir el menú, luego selecciona "Delete" para borrar la carpeta
-1. Presiona (Cruz) para confirmar la eliminación
-1. Cierra la aplicación VitaShell
-1. Inicia la aplicación h-encore
-1. Cuando el menú principal de "Bitter Smile" aparezca, cierra la aplicación h-encore
-1. Inicia la aplicación VitaShell
-1. Presiona (Triángulo) en el archivo `system.dat` para abrir el menú, luego selecciona "Copy"
-1. Presiona (Cruz) para cerrar el diálogo de archivo copiado
-1. Presiona (Triángulo) en la carpeta `PCSG90096` para abrir el menú, luego selecciona "Open decrypted"
-  + Si ves `sce_pfs`, no abriste la carpeta con la opción correcta del menú
-1. Presiona (Tríángulo) para abrir el menú, luego selecciona "Paste" para pegar `system.dat` en la carpeta actual
-1. Presiona (Círculo) para volver a la carpeta `savedata`
-1. Presiona (Triángulo) sobre el archivo `system.dat` para abrir el menú, luego selecciona "Delete" para borrar el archivo
-1. Presiona (Cruz) para confirmar la eliminación
-1. Cierra la aplicación VitaShell
-
 ___
-### Métodos
-
-___
-
-#### Firmware versión 3.65
-
-Consolas en firmware versión 3.65 ahora pueden usar el exploit de h-encore para instalar Ensō, un exploit más conveniente que se ejecuta automáticamente luego de un reinicio.
-
-### Continúa a [Instalar Ensō (3.65)](installing-enso-(3.65))
-{: .notice--primary}
-
-___
-
-#### Versiones de firmware 3.67 y 3.68
-
-Consolas en la versión de firmware 3.67 y 3.68 lamentablemente son incompatibles con Ensō y deben ejecutar el exploit h-encore manualmente luego de cada reinicio.
 
 ### Continúa en [Finalizar instalación](finalizing-setup)
 {: .notice--primary}
-
-___

@@ -47,7 +47,7 @@ You must have already installed VitaShell to use this.
 
 1. Press (Circle) to return to `ux0:`
 1. Navigate to `tai/`
-  + If `urx:tai` doesn't exist, press (Circle) again and then navigate to `ur0:taix`
+  + If `urx:tai` doesn't exist, press (Circle) again and then navigate to `ur0:tai`
 1. Press (Cross) on `config.txt` to open it in the editor
 1. Highlight the `*KERNEL` line with the cursor
 1. Press (Triangle) to open the menu, then select "Insert empty line"
@@ -61,7 +61,7 @@ You must have already installed VitaShell to use this.
 1. Reboot your device
   + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
   + This is required to load the new kernel plugin added to `ux0:tai/config.txt`
-	
+
 #### Section IV - Installing PSP XMB
 
 1. Launch the Adrenaline application

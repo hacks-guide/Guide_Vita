@@ -52,7 +52,7 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) pe dispozitiv, fo
 1. Transferați `VitaHBBrowser.vpk` către folderul `data`
 1. Transfer `UpdateBlocker.vpk` to the `data` folder
 1. Folosind clientul FTP, navigați la `ux0:`
-1. Ştergeţi folderul `tai`
+1. Delete the `tai` folder if it exists
 1. Navigați spre `ur0:` -> `tai/`
 1. Transferați `config.txt` către folderul `tai`
   + Suprascrieți (înlocuiți) fișierul existent `config.txt`
@@ -64,7 +64,7 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) pe dispozitiv, fo
 1. Transferați `pngshot.suprx` către folderul `tai`
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
 
-#### Secţiunea II - Instalând VPK
+#### Secţiunea III - Instalând VPK-uri
 
 1. Pe dispozitiv, navigaţi la `ux0:` -> `data/`
 1. Apăsaţi (pătrat) pe fiecare dintre fişierele `.vpk` pentru a le marca
@@ -103,7 +103,10 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) pe dispozitiv, fo
 1. Selectaţi "PS Vita"
 1. Ştergeţi următoarele aplicaţii în cazul în care acestea există (țineți cont că, în funcţie de metoda dumneavoastră de a instala, unele sau toate aceste aplicaţii ar putea să lipsească):
   + "ensō"
+  + "modoru 戻る"
   + "molecularShell"
+1. Users on firmware version 3.60 should additionally delete the following application if it exists:
+  + "h-encore"
 1. Închideți aplicația Content Manager
 
 ___

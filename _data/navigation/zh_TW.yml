@@ -50,9 +50,6 @@ sidebar_pages:
     title: 更新韌體 (3.60)
     url: updating-firmware-(3.60)
   - 
-    title: 更新韌體 (持有 HENkaku 的主機)
-    url: updating-firmware-(henkaku)
-  - 
     title: 更新韌體 (PS TV 3.65 及 3.68)
     url: updating-firmware-(ps-tv-3.65-and-3.68)
   - 
@@ -61,6 +58,12 @@ sidebar_pages:
   - 
     title: 安裝 h-encore
     url: installing-h-encore
+  - 
+    title: 降級韌體 (3.60)
+    url: downgrading-firmware-(3.60)
+  - 
+    title: 降級韌體 (3.65)
+    url: downgrading-firmware-(3.65)
   - 
     title: 安裝 HENkaku
     url: installing-henkaku

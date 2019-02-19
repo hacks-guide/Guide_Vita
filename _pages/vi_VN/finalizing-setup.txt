@@ -52,7 +52,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Transfer `VitaHBBrowser.vpk` to the `data` folder
 1. Transfer `UpdateBlocker.vpk` to the `data` folder
 1. Using your FTP client, navigate to `ux0:`
-1. Delete the `tai` folder
+1. Delete the `tai` folder if it exists
 1. Navigate to `ur0:` -> `tai/`
 1. Transfer `config.txt` to  the `tai` folder
   + Overwrite (replace) the existing `config.txt` file
@@ -64,7 +64,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Transfer `pngshot.suprx` to the `tai` folder
 1. Press (Circle) on your device to close the FTP connection
 
-#### Section II - Installing VPK
+#### Section II - Installing VPKs
 
 1. On your device, navigate to `ux0:` -> `data/`
 1. Press (Square) on each of the `.vpk` files to mark them
@@ -103,7 +103,10 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Select "PS Vita"
 1. Delete the following applications if they exist (note that, depending on your install method, some or all of these applications may be missing):
   + "ensō"
+  + "modoru 戻る"
   + "molecularShell"
+1. Users on firmware version 3.60 should additionally delete the following application if it exists:
+  + "h-encore"
 1. Close the Content Manager application
 
 ___
