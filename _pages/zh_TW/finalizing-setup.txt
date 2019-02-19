@@ -52,7 +52,7 @@ title: "完成安裝"
 1. 複製 `VitaHBBrowser.vpk` 至 `data` 資料夾中
 1. 複製 `UpdateBlocker.vpk` 至 `data` 資料夾中
 1. 透過 FTP 端移動至 `ux0:`
-1. 刪除 `tai` 資料夾
+1. Delete the `tai` folder if it exists
 1. 移動至 `ur0:` -> `tai/`
 1. 複製 `config.txt` 至 `tai` 資料夾中
   + 複寫任何已存在的 `config.txt` 檔案
@@ -64,7 +64,7 @@ title: "完成安裝"
 1. 複製 `pngshot.suprx` 至 `tai` 資料夾中
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
-#### 第二節 — 安裝 VPK
+#### 第二節 — 安裝 VPKs
 
 1. 於您的主機中移動至 `ux0:` -> `data/`
 1. 於各個 `.vpk` 檔案上按下「□」(方形) 鍵將其選取
@@ -103,7 +103,10 @@ title: "完成安裝"
 1. 選擇『PS Vita』
 1. 若有看見下列檔案，請將其刪除 (您所看到的檔案將因您的安裝方式而異，因此您可能只會看見部分列出的檔案)：
   + "ensō"
+  + "modoru 戻る"
   + "molecularShell"
+1. Users on firmware version 3.60 should additionally delete the following application if it exists:
+  + "h-encore"
 1. 關閉『內容管理員』
 
 ___
