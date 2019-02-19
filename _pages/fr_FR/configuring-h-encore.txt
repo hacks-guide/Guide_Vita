@@ -1,45 +1,45 @@
 ---
-title: "Configuring h-encore"
+title: "Configuration de h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
-If your device was unable to downgrade to either 3.60 or 3.65 due to its "factory firmware", you will be unable to use the more convenient Ensō boot-time exploit.
+Si votre Psvita n'a pas pu downgrader soit en 3.60, ou soit en 3.65, cela est surement due a son "factory firmware" (Sa version d'usine). Si la version indiqué par modoru est supérieur à 3.65, vous n'avez aucun moyen d'utiliser l'exploit Ensō.
 
-As a result, you will have to perform the h-encore exploit manually after each reboot. To make this slightly more convenient, we will disable the "trophy warning" that currently appears on every launch of the h-encore exploit.
+Par conséquent, vous devrez réaliser l'exploit h-encore manuellement après chaque redémarrage. Pour rendre cela un peu plus pratique, nous désactiverons l'avertissement "trophée" qui apparaît à chaque lancement de l'exploit h-encore.
 
 ### Instructions
 
-#### Section I - Disabling Trophy Warning
+#### Section I - Désactiver l'avertissement des Trophées
 
 1. Launch the VitaShell application
-1. Navigate to `ux0:` -> `user/` -> `00/` -> `savedata`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Square) to un-mark `system.dat`
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Delete" to delete the folder
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
-1. Launch the h-encore application
-1. When the "Bitter Smile" main menu appears, close the h-encore application
-1. Launch the VitaShell application
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Triangle) on the `PCSG90096` folder to open the menu, then select "Open decrypted"
-  + If you see `sce_pfs`, you did not open the folder using the correct menu option
-1. Press (Triangle) to open the menu, then select "Paste" to paste `system.dat` in the current folder
-1. Press (Circle) to return to the `savedata` folder
-1. Press (Triangle) on the `system.dat` file to open the menu, then select "Delete" to delete the file
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. Allez à `ux0:` -> `user/` -> `00/` -> `savedata`
+1. Appuyez sur (Triangle) sur le dossier `PCSG90096` pour ouvrir le menu, puis sélectionnez « Open decrypted »
+  + Si vous voyez `sce_pfs`, vous n'ouvrirez pas le dossier en utilisant l'option correcte du menu
+1. Appuyez sur (Triangle) sur le fichier `system.dat` pour ouvrir le menu, puis sélectionnez « Copy »
+1. Appuyez sur (croix) pour fermer la boîte de dialogue de fichier copié
+1. Appuyez sur cercle pour retourner dans le dossier `savedata`
+1. Appuyez sur (Triangle) pour ouvrir le menu, puis sélectionnez « Coller » pour coller `system.dat` dans le dossier
+1. Appuyez sur (carré) pour désélectionner `system.dat`
+1. Appuyez sur (Triangle) sur le dossier `PCSG90096` pour ouvrir le menu, puis sélectionnez "Delete" pour supprimer le dossier
+1. Appuyez sur (Croix) pour confirmer la suppression
+1. Fermez l'application VitaShell
+1. Lancez l'application h-encore
+1. Quand le menu principal de `Bitter Smile` apparait, fermez l'application
+1. Lancez l'application VitaShell
+1. Appuyez sur (Triangle) sur le fichier `system.dat` pour ouvrir le menu, puis sélectionnez « Copy »
+1. Appuyez sur (croix) pour fermer la boîte de dialogue de fichier copié
+1. Appuyez sur (Triangle) sur le dossier `PCSG90096` pour ouvrir le menu, puis sélectionnez « Open decrypted »
+  + Si vous voyez `sce_pfs`, vous n'avez pas ouvert le dossier en utilisant la bonne option dans le menu
+1. Appuyez sur (Triangle) pour ouvrir le menu, puis sélectionnez « Coller » pour coller `system.dat` dans le dossier
+1. Appuyez sur cercle pour retourner dans le dossier `savedata`
+1. Appuyez sur (Triangle) sur le fichier `system.dat` pour ouvrir le menu, puis choisissez "Delete" pour supprimer le fichier
+1. Appuyez sur (Croix) pour confirmer la suppression
+1. Fermez l'application VitaShell
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continuer vers [Finalisation de l'installation](finalizing-setup)
 {: .notice--primary}
