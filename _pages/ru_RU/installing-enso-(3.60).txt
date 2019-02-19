@@ -1,5 +1,5 @@
 ---
-title: "Установка Ensō (3.65)"
+title: "Installing Ensō (3.60)"
 ---
 
 {% include toc title="Содержание" %}
