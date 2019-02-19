@@ -52,7 +52,7 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 1. Transfiere `VitaHBBrowser.vpk` a la carpeta `data`
 1. Transfer `UpdateBlocker.vpk` to the `data` folder
 1. Usando tu cliente FTP, navega a `ux0:`
-1. Borrar la carpeta `tai`
+1. Delete the `tai` folder if it exists
 1. Ve a `ur0:` -> `tai/`
 1. Transfiere `config.txt` a la carpeta `tai`
   + Sobreescribe (reemplaza) el archivo `config.txt` existente
@@ -64,7 +64,7 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 1. Transfiere `pngshot.suprx` a la carpeta `tai`
 1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
 
-#### Sección II - Instalar VPK
+#### Sección II - Instalar VPKs
 
 1. En tu consola, navega a `ux0:` -> `data/`
 1. Presiona (Cuadrado) en cada archivo `.vpk` para marcarlos
@@ -103,7 +103,10 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 1. Selecciona "PS Vita"
 1. Elimina las siguientes aplicaciones si existen (ten en cuenta que, dependiendo de tu método de instalación, algunas podrían no estar):
   + "ensō"
+  + "modoru 戻る"
   + "molecularShell"
+1. Users on firmware version 3.60 should additionally delete the following application if it exists:
+  + "h-encore"
 1. Cierra la aplicación Gestor de contenido
 
 ___
