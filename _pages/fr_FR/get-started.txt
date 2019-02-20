@@ -1,12 +1,12 @@
 ---
-title: "Get Started"
+title: "Pour Commencer"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-Different device versions will require different steps to achieve the end goal of Custom Firmware. This page will help you find where to start for your device.
+Des consoles de versions différentes requièrent des étapes différentes pour atteindre l'objectif final qu'est le Custom Firmware. Cette page vous aidera à trouver par où commencer en fonction de votre console.
 
 Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
 {: .notice--info}
