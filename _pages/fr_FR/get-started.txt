@@ -8,17 +8,17 @@ title: "Pour Commencer"
 
 Des consoles de versions différentes requièrent des étapes différentes pour atteindre l'objectif final qu'est le Custom Firmware. Cette page vous aidera à trouver par où commencer en fonction de votre console.
 
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Avant de commencer, les utilisateurs de Windows devraient permettre d'afficher les extensions de fichiers suivant ce guide [Extensions de fichiers (Windows)](file-extensions-(windows)) !
 {: .notice--info}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.03 to 3.63" row includes 1.03, 3.63, and all versions in-between.
+Sélectionnez la page appropriée à votre version dans le tableau ci-dessous. Notez que les champs "De" et "À" sont inclusifs. Cela veut dire que, par exemple, la ligne "de 1.03 à 3.63" inclut 1.03, 3.63, et toutes les versions entre.
 
-Your device version can be found under the System Information menu in the System category of the Settings application.
+La version de votre console peut être trouvée sous le menu Info système de la console, dans la catégorie Système de l'application Paramètres de la console.
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-### Version Table
+### Tableau des versions
 
 <table>
   <colgroup>
@@ -28,8 +28,8 @@ Your device version can be found under the System Information menu in the System
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style="text-align: center; font-weight: bold;">De</th>
+      <th style="text-align: center; font-weight: bold;">À</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
