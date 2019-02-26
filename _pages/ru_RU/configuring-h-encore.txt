@@ -12,7 +12,7 @@ As a result, you will have to perform the h-encore exploit manually after each r
 
 ### Инструкция
 
-#### Section I - Disabling Trophy Warning
+#### Часть I - Отключение предупреждения о призах
 
 1. Запустите приложение VitaShell
 1. Перейдите в `ux0:` -> `user/` -> `00/` -> `savedata`
