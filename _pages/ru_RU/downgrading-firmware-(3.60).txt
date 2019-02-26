@@ -61,7 +61,7 @@ Ensō это полноценное CFW решение для PS Vita (TV), ко
 1. Нажмите (Крест) чтобы подтвердить удаление
 1. Закройте приложение VitaShell
 
-#### Section III - Downgrading Prep
+#### Часть III - Подготовка к даунгрейду
 
 1. Перезагрузите консоль
 1. Запустите приложение h-encore
@@ -78,7 +78,7 @@ Ensō это полноценное CFW решение для PS Vita (TV), ко
 1. Вернитесь в меню Настройки HENkaku
 1. Закройте приложение Настройки
 
-#### Section IV - Downgrading
+#### Часть IV - Даунгрейд
 
 1. Launch the modoru application
 1. Press (Cross) to confirm the downgrade to firmware version 3.60
