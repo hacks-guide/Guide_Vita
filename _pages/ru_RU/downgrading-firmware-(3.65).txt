@@ -66,11 +66,11 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 1. Выберите "Install HENkaku"
   + Это действие установит эксплойт HENkaku и разрешит доступ к хоумбрю до следующей перезагрузки
 1. Выберите "Exit"
-1. Launch the modoru application
+1. Запустите приложение modoru
 1. Press (Cross) to confirm the downgrade to firmware version 3.65
-1. Press (Cross) to accept the terms and conditions
-1. Your device will begin the downgrade process
-1. Wait until the process is completed, your device will reboot automatically
+1. Нажмите (Крест) чтобы принять условия
+1. Ваша консоль начнет процесс даунгрейда
+1. Дождитесь окончания процесса, консоль перезагрузится автоматически
 
 ___
 
