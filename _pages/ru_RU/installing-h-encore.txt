@@ -69,16 +69,16 @@ title: "Установка h-encore"
   + VitaShell (как и все прочие хоумбрю приложения) останется установленным после перезагрузки, но будет выдавать ошибку при запуске, если эксплойт HENkaku не активен
 1. Выберите "Exit"
 
-#### Section IV - Configuring HENkaku
+#### Часть IV - Настройка HENkaku
 
 1. Запустите приложение Настройки
 1. Перейдите в `Настройки HENkaku`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
+  + Если пункт Настройки HENkaku отсутствует, выберите "Reset taiHEN config.txt" в меню h-encore bootstrap, затем попробуйте снова
 1. Установите флажок "Включить небезопасные приложения"
 1. Вернитесь в меню Настройки HENkaku
 1. Закройте приложение Настройки
 
 ___
 
-### Continue to [Downgrading Firmware (3.60)](downgrading-firmware-(3.60))
+### Следующий шаг: [Понижение версии прошивки (3.60)](downgrading-firmware-(3.60))
 {: .notice--primary}
