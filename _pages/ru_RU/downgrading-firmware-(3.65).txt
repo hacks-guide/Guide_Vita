@@ -1,12 +1,12 @@
 ---
-title: Downgrading Firmware (3.65)
+title: Понижение версии прошивки (3.65)
 ---
 
 ### Обязательно к прочтению
 
-If your device was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will still be able to use the more convenience Ensō boot-time exploit (as long as your "factory firmware" is 3.65 or lower) by downgrading to firmware version 3.65.
+Если версия прошивки вашей консоли не может быть понижена до 3.60 из-за "заводской прошивки" консоли, то вы все еще сможете использовать более удобный эксплойт Ensō (при условии, что ваша "заводская прошивка" равна 3.65 или ниже) путем понижения версии прошивки до 3.65.
 
-Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
+К сожалению, вы можете заметить незначительную несовместимость программного обеспечения, поскольку не сможете использовать homebrew приложения, совместимые только с 3.60.
 
 Убедитесь, что ваша консоль имеет заряд аккумулятора 50% или больше, прежде чем продолжить.
 {:.notice--info}
@@ -19,7 +19,7 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 
 #### Часть I - Подготовительные работы
 
-1. Exit the modoru application
+1. Закройте приложение modoru
 1. Запустите приложение VitaShell
 1. Нажмите (Start) чтобы открыть настройки VitaShell
 1. Нажмите (Крест), выделив пункт "SELECT button" чтобы изменить режим на "FTP"
@@ -31,8 +31,8 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 1. Запустите FTP клиент на компьютере
 1. Введите IP адрес и порт, отображаемые на консоли
 1. Используя FTP клиент, перейдите в `ux0:` -> `data/`
-1. Delete the existing 3.60 `PSP2UPDAT.PUP` file
-1. Transfer the 3.65 `PSP2UPDAT.PUP` to the `data` folder
+1. Удалите существующий файл `PSP2UPDAT.PUP` версии 3.60
+1. Загрузите `PSP2UPDAT.PUP` версии 3.65 в папку `data`
 1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
 
 #### Часть II - Установка modoru
