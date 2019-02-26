@@ -37,8 +37,8 @@ title: "Обновление прошивки (PS Vita 3.65 и 3.68)"
   + Если у вас нет аккаунта PlayStation Network, создайте его
 1. Выберите / зарегистрируйте ваш компьютер, если появится запрос
   + Если появится сообщение о необходимости обновления, перезагрузите консоль и попробуйте снова
-  + If you still encounter this message, enable Flight Mode in the system settings, reboot your device, and try again
-  + If you *still* encounter this message, disable Flight Mode, follow the instructions in [Blocking Updates](blocking-updates), reboot your device, and try again
+  + Если сообщение по-прежнему появляется, включите Режим авиаперелета в Системных настройках, перезагрузите консоль и попробуйте снова
+  + Если сообщение *по-прежнему* появляется, выключите Режим авиаперелета, выполните инструкции на странице [Блокировка обновлений](blocking-updates), перезагрузите консоль и попробуйте снова
   + Если консоль не определяется при подключении через USB под Windows, установите [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) и попробуйте снова
 1. Приложение finalhe должно отобразить инструкции для обновления консоли
 
