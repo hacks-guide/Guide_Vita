@@ -6,7 +6,7 @@ title: "Установка Ensō (3.65)"
 
 ### Обязательно к прочтению
 
-If your device on firmware version 3.65 was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will fortunately still be able to use the more convenience Ensō boot-time exploit.
+Если версия прошивки вашей консоли (с текущей прошивкой 3.65) не может быть понижена до 3.60 из-за "заводской прошивки" консоли, то вы все еще сможете использовать более удобный эксплойт Ensō.
 
 К сожалению, вы можете заметить незначительную несовместимость программного обеспечения, поскольку не сможете использовать homebrew приложения, совместимые только с 3.60.
 
