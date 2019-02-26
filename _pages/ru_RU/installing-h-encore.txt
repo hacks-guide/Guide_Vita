@@ -64,9 +64,9 @@ title: "Установка h-encore"
   + Если это не помогло, удерживайте кнопку питания в течение 30 секунд для принудительной перезагрузки, затем попробуйте снова
 1. Выберите "Install HENkaku"
   + Это действие установит эксплойт HENkaku и разрешит доступ к хоумбрю до следующей перезагрузки
-1. Select "Download VitaShell"
-  + This will install the VitaShell homebrew application for managing your device's filesystem
-  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
+1. Выберите "Download VitaShell"
+  + Это действие установит хоумбрю приложение VitaShell для управления файловой системой консоли
+  + VitaShell (как и все прочие хоумбрю приложения) останется установленным после перезагрузки, но будет выдавать ошибку при запуске, если эксплойт HENkaku не активен
 1. Выберите "Exit"
 
 #### Section IV - Configuring HENkaku
