@@ -52,7 +52,7 @@ title: "Завершение установки"
 1. Загрузите `VitaHBBrowser.vpk` в папку `data`
 1. Загрузите `UpdateBlocker.vpk` в папку `data`
 1. Используя FTP клиент, перейдите в `ux0:`
-1. Delete the `tai` folder if it exists
+1. Удалите папку `tai`, если она существует
 1. Перейдите в `ur0:` -> `tai/`
 1. Загрузите `config.txt` в папку `tai`
   + Перезапишите существующий файл `config.txt`
@@ -105,7 +105,7 @@ title: "Завершение установки"
   + "ensō"
   + "modoru 戻る"
   + "molecularShell"
-1. Users on firmware version 3.60 should additionally delete the following application if it exists:
+1. Пользователям с версией прошивки 3.60 необходимо также удалить следующие приложения, если они есть:
   + "h-encore"
 1. Закройте приложение Управление данными
 
