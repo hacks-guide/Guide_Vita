@@ -80,15 +80,15 @@ Ensō это полноценное CFW решение для PS Vita (TV), ко
 
 #### Часть IV - Даунгрейд
 
-1. Launch the modoru application
-1. Press (Cross) to confirm the downgrade to firmware version 3.60
-  + If you are given the message "Error you cannot go lower than your factory firmware.", you will be unable to downgrade to firmware version 3.60
-  + If you are currently on firmware version 3.65, proceed to [Installing Ensō (3.65)](installing-enso-(3.65))
-  + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is 3.65 or lower, proceed to [Downgrading Firmware (3.65)](downgrading-firmware-(3.65))
-  + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is greater than 3.65, proceed to [Configuring h-encore](configuring-h-encore)
-1. Press (Cross) to accept the terms and conditions
-1. Your device will begin the downgrade process
-1. Wait until the process is completed, your device will reboot automatically
+1. Запустите приложение modoru
+1. Нажмите (Крест) чтобы подтвердить даунгрейд до версии прошивки 3.60
+  + Если появляется сообщение "Error you cannot go lower than your factory firmware.", то вы не сможете понизить версию прошивки до 3.60
+  + Если ваша текущая версия прошивки 3.65, переходите к странице [Установка Ensō (3.65)](installing-enso-(3.65))
+  + Если ваша текущая версия прошивки выше чем 3.65, и указанная на экране "Factory firmware" равна 3.65 или ниже, переходите к странице [Понижение версии прошивки (3.65)](downgrading-firmware-(3.65))
+  + Если ваша текущая версия прошивки выше чем 3.65, и указанная на экране "Factory firmware" выше чем 3.65, переходите к странице [Настройка h-encore](configuring-h-encore)
+1. Нажмите (Крест) чтобы принять условия
+1. Ваша консоль начнет процесс даунгрейда
+1. Дождитесь окончания процесса, консоль перезагрузится автоматически
 
 ___
 
