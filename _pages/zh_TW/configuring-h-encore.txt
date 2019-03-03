@@ -14,30 +14,9 @@ As a result, you will have to perform the h-encore exploit manually after each r
 
 #### Section I - Disabling Trophy Warning
 
-1. 啟動 VitaShell
-1. 移動至 `ux0:` -> `user/` -> `00/` -> `savedata`
-1. 於 `PCSG90096` 資料夾上按下「△」(三角形) 鍵以啟動選單，並選擇『Open decrypted』
-  + 如果您看見 `sce_pfs`，那麼您在開啟資料夾時可能使用了錯誤的選單選項
-1. 於 `system.dat` 檔案上按下「△」(三角形) 鍵以啟動選單，並選擇『Copy』
-1. 按下「X」鍵以忽略複製檔案的對話框
-1. 按下「O」鍵以返回至 `savedata` 資料夾中
-1. 按下「△」(三角形) 鍵以開啟選單，並選擇『Paste』將 `system.dat` 檔案複製至當前的資料夾中
-1. 按下「□」(方形) 鍵以取消選取 `system.dat`
-1. 於 `PCSG90096` 資料夾上按下「△」(三角形) 鍵以啟動選單，並選擇『Delete』以刪除此資料夾
-1. 按下「X」鍵確認刪除
-1. 關閉 VitaShell
-1. 啟動 h-encore
-1. 當『Bitter Smile』主選單出現時，關閉 h-encore
-1. 啟動 VitaShell
-1. 於 `system.dat` 檔案上按下「△」(三角形) 鍵以啟動選單，並選擇『Copy』
-1. 按下「X」鍵以忽略複製檔案的對話框
-1. 於 `PCSG90096` 資料夾上按下「△」(三角形) 鍵以啟動選單，並選擇『Open decrypted』
-  + 如果您看見 `sce_pfs`，那麼您在開啟資料夾時可能使用了錯誤的選單選項
-1. 按下「△」(三角形) 鍵以開啟選單，並選擇『Paste』將 `system.dat` 檔案複製至當前的資料夾中
-1. 按下「O」鍵以返回至 `savedata` 資料夾中
-1. 於 `system.dat` 檔案上按下「△」(三角形) 鍵以啟動選單，並選擇『Delete』以刪除此檔案
-1. 按下「X」鍵確認刪除
-1. 關閉 VitaShell
+1. Launch the h-encore application while holding (R)
+1. Select "Personalize savedata"
+1. 選擇『Exit』
 
 ___
 
