@@ -57,8 +57,8 @@ Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie 
 
 #### Section III - Configuring h-encore
 
-1. Lansați aplicația h-encore
-1. Dacă vi se întreabă despre trofee, selectaţi "Yes"
+1. Launch the h-encore application while holding (R).
+1. If prompted about trophies, continue holding (R) and select "Yes"
 1. În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore
   + Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou
   + În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou
