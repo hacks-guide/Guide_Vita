@@ -57,8 +57,8 @@ h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您
 
 #### Section III - Configuring h-encore
 
-1. 啟動 h-encore
-1. 如有提示關於獎盃的事項，選擇「是」
+1. Launch the h-encore application while holding (R).
+1. If prompted about trophies, continue holding (R) and select "Yes"
 1. 如果漏洞成功執行的話，您將會看到 h-encore 引導選單
   + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
   + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
