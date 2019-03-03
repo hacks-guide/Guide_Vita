@@ -14,30 +14,9 @@ As a result, you will have to perform the h-encore exploit manually after each r
 
 #### Section I - Disabling Trophy Warning
 
-1. Inicia la aplicación VitaShell
-1. Ve a `ux0:` -> `user/` -> `00/` -> `savedata`
-1. Presiona (Triángulo) en la carpeta `PCSG90096` para abrir el menú, luego selecciona "Open decrypted"
-  + Si ves `sce_pfs`, no abriste la carpeta con la opción correcta del menú
-1. Presiona (Triángulo) en el archivo `system.dat` para abrir el menú, luego selecciona "Copy"
-1. Presiona (Cruz) para cerrar el diálogo de archivo copiado
-1. Presiona (Círculo) para volver a la carpeta `savedata`
-1. Presiona (Tríángulo) para abrir el menú, luego selecciona "Paste" para pegar `system.dat` en la carpeta actual
-1. Presiona (Cuadrado) para desmarcar `system.dat`
-1. Presiona (Triángulo) en la carpeta `PCSG90096` para abrir el menú, luego selecciona "Delete" para borrar la carpeta
-1. Presiona (Cruz) para confirmar la eliminación
-1. Cierra la aplicación VitaShell
-1. Inicia la aplicación h-encore
-1. Cuando el menú principal de "Bitter Smile" aparezca, cierra la aplicación h-encore
-1. Inicia la aplicación VitaShell
-1. Presiona (Triángulo) en el archivo `system.dat` para abrir el menú, luego selecciona "Copy"
-1. Presiona (Cruz) para cerrar el diálogo de archivo copiado
-1. Presiona (Triángulo) en la carpeta `PCSG90096` para abrir el menú, luego selecciona "Open decrypted"
-  + Si ves `sce_pfs`, no abriste la carpeta con la opción correcta del menú
-1. Presiona (Tríángulo) para abrir el menú, luego selecciona "Paste" para pegar `system.dat` en la carpeta actual
-1. Presiona (Círculo) para volver a la carpeta `savedata`
-1. Presiona (Triángulo) sobre el archivo `system.dat` para abrir el menú, luego selecciona "Delete" para borrar el archivo
-1. Presiona (Cruz) para confirmar la eliminación
-1. Cierra la aplicación VitaShell
+1. Launch the h-encore application while holding (R)
+1. Select "Personalize savedata"
+1. Selecciona "Exit"
 
 ___
 
