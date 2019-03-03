@@ -14,30 +14,9 @@ Par conséquent, vous devrez réaliser l'exploit h-encore manuellement après ch
 
 #### Section I - Désactiver l'avertissement des Trophées
 
-1. Lancez l'application VitaShell
-1. Allez à `ux0:` -> `user/` -> `00/` -> `savedata`
-1. Appuyez sur (Triangle) sur le dossier `PCSG90096` pour ouvrir le menu, puis sélectionnez « Open decrypted »
-  + Si vous voyez `sce_pfs`, vous n'ouvrirez pas le dossier en utilisant l'option correcte du menu
-1. Appuyez sur (Triangle) sur le fichier `system.dat` pour ouvrir le menu, puis sélectionnez « Copy »
-1. Appuyez sur (croix) pour fermer la boîte de dialogue de fichier copié
-1. Appuyez sur cercle pour retourner dans le dossier `savedata`
-1. Appuyez sur (Triangle) pour ouvrir le menu, puis sélectionnez « Coller » pour coller `system.dat` dans le dossier
-1. Appuyez sur (carré) pour désélectionner `system.dat`
-1. Appuyez sur (Triangle) sur le dossier `PCSG90096` pour ouvrir le menu, puis sélectionnez "Delete" pour supprimer le dossier
-1. Appuyez sur (Croix) pour confirmer la suppression
-1. Fermez l'application VitaShell
-1. Lancez l'application h-encore
-1. Quand le menu principal de `Bitter Smile` apparait, fermez l'application
-1. Lancez l'application VitaShell
-1. Appuyez sur (Triangle) sur le fichier `system.dat` pour ouvrir le menu, puis sélectionnez « Copy »
-1. Appuyez sur (croix) pour fermer la boîte de dialogue de fichier copié
-1. Appuyez sur (Triangle) sur le dossier `PCSG90096` pour ouvrir le menu, puis sélectionnez « Open decrypted »
-  + Si vous voyez `sce_pfs`, vous n'avez pas ouvert le dossier en utilisant la bonne option dans le menu
-1. Appuyez sur (Triangle) pour ouvrir le menu, puis sélectionnez « Coller » pour coller `system.dat` dans le dossier
-1. Appuyez sur cercle pour retourner dans le dossier `savedata`
-1. Appuyez sur (Triangle) sur le fichier `system.dat` pour ouvrir le menu, puis choisissez "Delete" pour supprimer le fichier
-1. Appuyez sur (Croix) pour confirmer la suppression
-1. Fermez l'application VitaShell
+1. Launch the h-encore application while holding (R)
+1. Select "Personalize savedata"
+1. Sélectionnez "EXIT"
 
 ___
 
