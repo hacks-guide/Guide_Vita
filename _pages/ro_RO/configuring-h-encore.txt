@@ -14,30 +14,9 @@ As a result, you will have to perform the h-encore exploit manually after each r
 
 #### Section I - Disabling Trophy Warning
 
-1. Lansați aplicația VitaShell
-1. Navigați spre `ux0:` -> `user/` -> `00/` -> `savedata`
-1. Apăsaţi (Triunghi) pe folderul `PCSG90096` pentru a deschide meniul, apoi selectaţi "Open decrypted"
-  + Dacă vedeţi `sce_pfs`, nu ați deschis folderul folosind opţiunea de meniu corectă
-1. Apăsaţi (Triunghi) pe fișierul `system.dat` pentru a deschide meniul, apoi selectaţi "Copy"
-1. Apăsați (X) pentru a închide căsuța de dialog de fișier copiat
-1. Apăsați (O) pentru a vă întoarce la folderul `savedata`
-1. Apăsaţi (Triunghi) pentru a deschide meniul, apoi selectaţi "Paste" pentru a lipi `system.dat` în folderul prezent
-1. Apăsți (Pătrat) pentru a demarca `system.dat`
-1. Apăsaţi (Triunghi) pe folderul `PCSG90096` pentru a deschide meniul, apoi selectaţi "Delete" pentru a șterge folderul
-1. Apăsați (X) pentru a confirma stergerea
-1. Închideți aplicația VitaShell
-1. Lansați aplicația h-encore
-1. Când apare meniul principal "Bitter Smile", închideți aplicația h-enore
-1. Lansați aplicația VitaShell
-1. Apăsaţi (Triunghi) pe fișierul `system.dat` pentru a deschide meniul, apoi selectaţi "Copy"
-1. Apăsați (X) pentru a închide căsuța de dialog de fișier copiat
-1. Apăsaţi (Triunghi) pe folderul `PCSG90096` pentru a deschide meniul, apoi selectaţi "Open decrypted"
-  + Dacă vedeţi `sce_pfs`, nu ați deschis folderul folosind opţiunea de meniu corectă
-1. Apăsaţi (Triunghi) pentru a deschide meniul, apoi selectaţi "Paste" pentru a lipi `system.dat` în folderul prezent
-1. Apăsați (O) pentru a vă întoarce la folderul `savedata`
-1. Apăsaţi (Triunghi) pe fișierul `system.dat` pentru a deschide meniul, apoi selectaţi "Delete" pentru a șterge fișierul
-1. Apăsați (X) pentru a confirma stergerea
-1. Închideți aplicația VitaShell
+1. Launch the h-encore application while holding (R)
+1. Select "Personalize savedata"
+1. Selectaţi "Exit"
 
 ___
 
