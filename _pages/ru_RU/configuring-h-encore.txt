@@ -14,8 +14,8 @@ title: "Настройка h-encore"
 
 #### Часть I - Отключение предупреждения о призах
 
-1. Launch the h-encore application while holding (R)
-1. Select "Personalize savedata"
+1. Запустите приложение h-encore, держа нажатой кнопку (R)
+1. Выберите "Personalize savedata"
 1. Выберите "Exit"
 
 ___
