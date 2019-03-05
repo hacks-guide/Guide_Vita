@@ -58,8 +58,8 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 #### Section III - Downgrading
 
 1. Reinicia tu consola
-1. Inicia la aplicación h-encore
-1. Si te pregunta por trofeos, selecciona "Yes"
+1. Launch the h-encore application while holding (R)
+  + If prompted about trophies, continue holding (R) and select "Yes"
 1. Si el exploit fue exitoso, ahora verás el menú de inicio de h-encore
   + Si el exploit se quedó en una pantalla en blanco, tan solo cierra la aplicación (lo cual causará un crash y reiniciará tu consola), y vuelve a intentar
   + Si aún no funciona, mantén presionado el botón de apagado por unos 30 segundos para forzar un reinicio, y vuelve a intentar
