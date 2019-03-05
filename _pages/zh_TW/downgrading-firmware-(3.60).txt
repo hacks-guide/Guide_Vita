@@ -64,8 +64,8 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 #### Section III - Downgrading Prep
 
 1. 重新啟動您的主機
-1. 啟動 h-encore
-1. 如有提示關於獎盃的事項，選擇「是」
+1. Launch the h-encore application while holding (R)
+  + If prompted about trophies, continue holding (R) and select "Yes"
 1. 如果漏洞成功執行的話，您將會看到 h-encore 引導選單
   + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
   + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
