@@ -1,5 +1,5 @@
 ---
-title: "Installing Ensō (3.60)"
+title: "Instalar Ensō (3.60)"
 ---
 
 {% include toc title="Tabla de contenidos" %}
@@ -8,25 +8,25 @@ title: "Installing Ensō (3.60)"
 
 Ensō es una solución completa de CFW para la PS Vita (TV) y permite acceso conveniente a homebrew en tu consola al ejecutar un exploit en el tiempo de inicio para configurar el entorno de homebrew de HENkaku.
 
-It is more convenient than HENkaku as it does not require you to trigger an exploit on your device after every reboot manually.
+Es más conveniente que HENkaku ya que no requiere que ejecutes un exploit en tu consola luego de cada reinicio.
 
 ### Qué necesitas
 
 * Un cliente FTP como [WinSCP](https://winscp.net/) o [CyberDuck](https://cyberduck.io/)
-* The latest release of [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
-* The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
+* La última versión de [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
+* La última versión de [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
 
 ### Instrucciones
 
 #### Sección I - Preparativos
 
-1. Launch the molecularShell application
+1. Inicia la aplicación molecularShell
 1. Presiona (Select) para activar el acceso FTP en tu consola
 1. Abre el cliente FTP en tu computadora
 1. Ingresa la dirección IP y el puerto mostrados en tu consola
 1. Usando tu cliente FTP, navega a `ux0:` -> `data/`
 1. Transfiere `enso.vpk` a la carpeta `data`
-1. Transfer `VitaShell.vpk` to the `data` folder
+1. Transfiere `VitaShell.vpk` a la carpeta `data`
 1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
 
 #### Sección II - Instalar VPKs
@@ -38,7 +38,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 1. Presiona (Cruz) para continuar la instalación cada vez que te pregunte sobre permisos extendidos
 1. Presiona (Triángulo) para abrir el menú, luego selecciona "Delete" para borrar los archivos marcados
 1. Presiona (Cruz) para confirmar la eliminación
-1. Close the molecularShell application
+1. Cierra la aplicación molecularShell
 
 #### Sección III - Instalar Ensō
 
