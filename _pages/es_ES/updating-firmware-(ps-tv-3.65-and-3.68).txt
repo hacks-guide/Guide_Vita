@@ -23,7 +23,7 @@ Ten en cuenta que una aplicación de actualización personalizada sólo puede ac
 
 ### Instrucciones
 
-#### Section I - Drive Preparation
+#### Sección I - Preparar dispositivo USB
 
 1. Crea una carpeta llamada `PSVITA` en la raíz de tu dispositivo USB
 1. Crea una carpeta llamada `UPDATE` dentro de la carpeta `PSVITA` en tu dispositivo USB
