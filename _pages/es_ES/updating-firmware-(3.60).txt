@@ -7,9 +7,9 @@ title: "Actualizar firmware (3.60)"
 
 ### Lectura requerida
 
-El exploit HENkaku sólo es compatible con la versión de firmware 3.60. As a result, lower firmware versions must update using a custom update server in order to use that exploit.
+El exploit HENkaku sólo es compatible con la versión de firmware 3.60. Como resultado, versiones de firmware anteriores deben usar un servidor de actualizaciones personalizado para poder utilizar el exploit.
 
-Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.60, you should return to [Get Started](get-started).
+Ten en cuenta que un servidor personalizado sólo puede actualizar tu consola; no puede downgradearla. Si estás en una versión de firmware superior a 3.60, deberías volver a [Comencemos](get-started).
 
 ### Qué necesitas
 
@@ -17,7 +17,7 @@ Note that a custom update server can only update your device, not downgrade it. 
 
 ### Instrucciones
 
-#### Section I: Prep Work
+#### Sección I: Preparativos
 
 1. Inicia la aplicación Ajustes
 1. Ve a `Red` -> `Ajustes Wi-Fi`
@@ -31,15 +31,15 @@ Note that a custom update server can only update your device, not downgrade it. 
 1. Asegúrate de que "Servidor proxy" está configurado como "No usar"
 1. Vuelve al menú principal de Ajustes
 
-#### Section II: Updating to 3.60
+#### Sección II: Actualizar a 3.60
 
 1. Ve a `Actualización del sistema` -> `Actualizar mediante Wi-Fi`
-1. Ensure the update message "3.60 (変革 Compatible)" is displayed
+1. Asegúrate que se muestra el mensaje "3.60 (変革 Compatible)"
   + Si muestra cualquier otro mensaje, detente y averigua qué está mal
-1. Follow the prompts to update your device to 3.60
+1. Sigue las instrucciones en pantalla para actualizar tu consola a 3.60
   + Una vez haya que el proceso terminado, tu consola se reiniciará automáticamente
 
 ___
 
-### Continue to [Installing HENkaku](installing-henkaku)
+### Continúa a [Instalar HENkaku](installing-henkaku)
 {: .notice--primary}
