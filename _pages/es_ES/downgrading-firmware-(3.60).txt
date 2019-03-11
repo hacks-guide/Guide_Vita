@@ -53,11 +53,11 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Presiona (Cruz) para confirmar la eliminación
 1. Press (Triangle) on `PSP2UPDAT.PUP` to open the menu, then select "Copy"
 1. Presiona (Cruz) para cerrar el diálogo de archivo copiado
-1. Press (Circle) to return to the `ux0:` partition
-1. Navigate to `app` -> `MODORU000`
+1. Presiona (Círculo) para regresar a la partición `ux0:`
+1. Ve a `app` -> `MODORU000`
 1. Press (Triangle) to open then menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
-1. Press (Circle) to return to the `ux0:` partition
-1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
+1. Presiona (Círculo) para regresar a la partición `ux0:`
+1. Presiona (Triángulo) sobre `tai` para abrir el menú, luego selecciona "Delete" la carpeta `tai`
 1. Presiona (Cruz) para confirmar la eliminación
 1. Cierra la aplicación VitaShell
 
@@ -80,17 +80,17 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 
 #### Section IV - Downgrading
 
-1. Launch the modoru application
+1. Inicia la aplicación moduru
 1. Press (Cross) to confirm the downgrade to firmware version 3.60
   + If you are given the message "Error you cannot go lower than your factory firmware.", you will be unable to downgrade to firmware version 3.60
   + If you are currently on firmware version 3.65, proceed to [Installing Ensō (3.65)](installing-enso-(3.65))
   + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is 3.65 or lower, proceed to [Downgrading Firmware (3.65)](downgrading-firmware-(3.65))
   + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is greater than 3.65, proceed to [Configuring h-encore](configuring-h-encore)
-1. Press (Cross) to accept the terms and conditions
-1. Your device will begin the downgrade process
-1. Wait until the process is completed, your device will reboot automatically
+1. Presiona (Cruz) para aceptar los términos y condiciones
+1. Tu consola iniciará el proceso de downgrade
+1. Espera hasta que haya terminado el proceso, tu consola se reiniciará automáticamente
 
 ___
 
-### Continue to [Installing HENkaku](installing-henkaku)
+### Continúa a [Instalar HENkaku](installing-henkaku)
 {: .notice--primary}
