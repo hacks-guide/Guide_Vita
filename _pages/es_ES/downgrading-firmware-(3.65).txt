@@ -1,14 +1,14 @@
 ---
-title: Downgrading Firmware (3.65)
+title: Downgradear firmware (3.65)
 ---
 
 ### Lectura requerida
 
-If your device was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will still be able to use the more convenience Ensō boot-time exploit (as long as your "factory firmware" is 3.65 or lower) by downgrading to firmware version 3.65.
+Si tu consola no pudo bajar a la versión 3.60 de firmware debido a su "factory firmware", todavía podrás utilizar el más conveniente exploit de tiempo de arranque Ensō (siempre que tu "factory firmware" sea 3.65 o inferior) bajando de versión a 3.65.
 
-Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
+Desafortunadamente, podrías experimentar incompatibilidades menores de software, ya que no podrás utilizar ningún homebrew que sea compatible solo con 3.60.
 
-Ensure your device has a battery charge of 50% or greater before proceeding.
+Asegúrate de que tu consola tiene una carga de al menos 50% antes de continuar.
 {:.notice--info}
 
 ### Qué necesitas
@@ -19,7 +19,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 
 #### Sección I - Preparativos
 
-1. Exit the modoru application
+1. Sal de la aplicación modoru
 1. Inicia la aplicación VitaShell
 1. Presiona (Start) para abrir los ajustes de VitaShell
 1. Presiona (Cruz) sobre "SELECT button" para cambiar el modo a "FTP"
@@ -31,19 +31,19 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Abre el cliente FTP en tu computadora
 1. Ingresa la dirección IP y el puerto mostrados en tu consola
 1. Usando tu cliente FTP, navega a `ux0:` -> `data/`
-1. Delete the existing 3.60 `PSP2UPDAT.PUP` file
-1. Transfer the 3.65 `PSP2UPDAT.PUP` to the `data` folder
+1. Elimina el archivo `PSP2UPDAT.PUP` de firmware 3.60 existente
+1. Transfiere el archivo de firmware 3.65 `PSP2UPDAT.PUP` a la carpeta `data`
 1. Presiona (Círculo) en tu consola para cerrar la conexión FTP
 
-#### Section II - Installing modoru
+#### Sección II - Instalar modoru
 
 1. En tu consola, navega a `ux0:` -> `data/`
-1. Press (Cross) on `modoru.vpk` to install it
+1. Presiona (Cruz) sobre `modoru.vpk` para instalarlo
 1. Presiona (Cruz) para confirmar la instalación
 1. Presiona (Cruz) para continuar la instalación cuando se pregunte sobre permisos extendidos
-1. Press (Triangle) to open the menu, then select "Delete" to delete `modoru.vpk`
+1. Presiona (Triángulo) para abrir el menú, luego selecciona "Delete" para borrar `moduru.vpk`
 1. Presiona (Cruz) para confirmar la eliminación
-1. Press (Triangle) on the 3.65 `PSP2UPDAT.PUP` to open the menu, then select "Copy"
+1. Presiona (Triángulo) sobre el archivo de firmware 3.65 `PSP2UPDAT.PUP` para abrir el menú, luego selecciona "Copy"
 1. Presiona (Cruz) para cerrar el diálogo de archivo copiado
 1. Presiona (Círculo) para regresar a la partición `ux0:`
 1. Ve a `app` -> `MODORU000`
