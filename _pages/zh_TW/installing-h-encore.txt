@@ -34,8 +34,8 @@ h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您
   + 如果您並沒有一隻 PlayStation Network 的帳號，請創立一隻
 1. 如提示時，選擇／註冊您的電腦
   + 若有提示更新的警示，請重新啟動您的主機並再試一次
-  + If you still encounter this message, follow the instructions on [Blocking Updates](blocking-updates) and try again
-  + If you *stil* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
+  + 若您仍遇到該警示，請見[阻擋更新](blocking-updates)並再試一次
+  + 若您*還是*遇到該警示，於系統設定中啟用飛航模式並再試一次 (PS TV 將無法使用此步驟)
   + 如果您的 Windows 電腦偵測不到您主機的 USB 連線的話，請安裝 [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) 並再試一次
 
 #### 第二節 — h-encore 轉移
@@ -55,30 +55,30 @@ h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您
 1. 於您的主機中關閉「內容管理員」
 1. 在您的電腦中關閉 finalhe
 
-#### Section III - Configuring h-encore
+#### 第三節 — 設定 h-encore
 
-1. Launch the h-encore application while holding (R)
-  + If prompted about trophies, continue holding (R) and select "Yes"
+1. 於啟動 h-encore 時按住『R』鍵
+  + 如提示獎盃相關訊息時，按住「R」並選擇『是 (Yes)』
 1. 如果漏洞成功執行的話，您將會看到 h-encore 引導選單
   + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
   + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
 1. 選擇『Install HENkaku』
   + 這將會安裝 HENkaku 漏洞，並啟用自製軟體存取權直到下次重啟
-1. Select "Download VitaShell"
-  + This will install the VitaShell homebrew application for managing your device's filesystem
-  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
+1. 選擇『Download VitaShell』
+  + 這將會安裝自製軟體 VitaShell 以管理您主機的檔案系統
+  + VitaShell (以及所有其他的自製軟體) 於重啟後仍會保持其安裝狀態，但如果沒有先執行 HENkaku 漏洞的話將無法執行
 1. 選擇『Exit』
 
-#### Section IV - Configuring HENkaku
+#### 第四節 — 設定 HENkaku
 
 1. 啟動設定
 1. 移動至 `HENkaku 設置`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
+  + 如果您找不到 HENkaku 設置，從 h-core 引導選單中選擇『Reset taiHEN config.txt』並再試一次
 1. 勾選『啟動不安全自制軟件』
 1. 回到 HENkaku 設置選單
 1. 關閉設定
 
 ___
 
-### Continue to [Downgrading Firmware (3.60)](downgrading-firmware-(3.60))
+### 繼續至[降級韌體 (3.60)](downgrading-firmware-(3.60))
 {: .notice--primary}
