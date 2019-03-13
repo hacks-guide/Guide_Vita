@@ -1,14 +1,14 @@
 ---
-title: Downgrading Firmware (3.65)
+title: 降級韌體 (3.65)
 ---
 
 ### 必讀事項
 
-If your device was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will still be able to use the more convenience Ensō boot-time exploit (as long as your "factory firmware" is 3.65 or lower) by downgrading to firmware version 3.65.
+如果您的主機因『出廠韌體 (Factory Firmware)』無法降級至韌體版本 3.60，只要您的出廠韌體是 3.65 或更早的版本，您還是可以降級至韌體版本 3.65 並使用較為方便的 Ensō 漏洞。
 
-Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
+壞消息是，您可能因無法使用僅於 3.60 版本相容的自製軟體而遇到相容性問題。
 
-Ensure your device has a battery charge of 50% or greater before proceeding.
+在繼續操作之前, 請確保您裝置的電量已達 50%。
 {:.notice--info}
 
 ### 必備項目
@@ -19,7 +19,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 
 #### 第一節 — 準備工作
 
-1. Exit the modoru application
+1. 退出 modoru
 1. 啟動 VitaShell
 1. 按下「Start」鍵開啟 VitaShell 設定
 1. 於『SELECT button』上按下「X」鍵以將模式更改為『FTP』
@@ -31,46 +31,46 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. 於您的電腦中啟動您的 FTP 客戶端
 1. 輸入於您主機上顯示的 IP 位址以及埠
 1. 透過 FTP 端移動至 `ux0:` -> `data/`
-1. Delete the existing 3.60 `PSP2UPDAT.PUP` file
-1. Transfer the 3.65 `PSP2UPDAT.PUP` to the `data` folder
+1. 刪除現有的 `PSP2UPDAT.PUP` 檔案
+1. 複製 3.65 的 `PSP2UPDAT.PUP` 至 `data` 資料夾中
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
-#### Section II - Installing modoru
+#### 第二節 — 安裝 modoru
 
 1. 於您的主機中移動至 `ux0:` -> `data/`
-1. Press (Cross) on `modoru.vpk` to install it
+1. 於 `modoru.vpk` 上按下「X」鍵安裝
 1. 按下「X」鍵確認安裝
 1. 當提示要求使用更高權限時，按下「X」繼續
-1. Press (Triangle) to open the menu, then select "Delete" to delete `modoru.vpk`
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除 `modoru.vpk`
 1. 按下「X」鍵確認刪除
-1. Press (Triangle) on the 3.65 `PSP2UPDAT.PUP` to open the menu, then select "Copy"
+1. 於 3.65 的 `PSP2UPDAT.PUP` 上按下「△」(三角形) 鍵開啟選單，並選擇『Copy』
 1. 按下「X」鍵以忽略複製檔案的對話框
-1. Press (Circle) to return to the `ux0:` partition
-1. Navigate to `app` -> `MODORU000`
-1. Press (Triangle) on the existing 3.60 `PSP2UPDAT.PUP` to open the menu, then select "Delete"
+1. 按下「O」鍵回到 `ux0:` 磁區中
+1. 移動至 `app` -> `MODORU000`
+1. 於現有的 3.60 `PSP2UPDAT.PUP` 上按下「△」(三角形) 鍵開啟選單，並選擇『Delete』
 1. 按下「X」鍵確認刪除
-1. Press (Triangle) to open then menu, then select "Paste" to paste the 3.65 `PSP2UPDAT.PUP` in the current folder
-1. Press (Circle) to return to the `ux0:` partition
-1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『Paste』將 3.65 的 `PSP2UPDAT.PUP` 檔案複製至當前的資料夾中
+1. 按下「O」鍵回到 `ux0:` 磁區中
+1. 於 `tai` 上按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除 `tai` 資料夾
 1. 按下「X」鍵確認刪除
 1. 關閉 VitaShell
 
-#### Section III - Downgrading
+#### 第三節 — 降級作業
 
 1. 重新啟動您的主機
-1. Launch the h-encore application while holding (R)
-  + If prompted about trophies, continue holding (R) and select "Yes"
+1. 於啟動 h-encore 時按住『R』鍵
+  + 如提示獎盃相關訊息時，按住「R」並選擇『是 (Yes)』
 1. 如果漏洞成功執行的話，您將會看到 h-encore 引導選單
   + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
   + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
 1. 選擇『Install HENkaku』
   + 這將會安裝 HENkaku 漏洞，並啟用自製軟體存取權直到下次重啟
 1. 選擇『Exit』
-1. Launch the modoru application
-1. Press (Cross) to confirm the downgrade to firmware version 3.65
-1. Press (Cross) to accept the terms and conditions
-1. Your device will begin the downgrade process
-1. Wait until the process is completed, your device will reboot automatically
+1. 啟動 modoru
+1. 按「X」鍵確認降級至 3.65
+1. 按下「X」鍵以接受聲明條款
+1. 您的裝置將開始降級作業
+1. 當更新完畢後，您的主機將自動重啟
 
 ___
 
