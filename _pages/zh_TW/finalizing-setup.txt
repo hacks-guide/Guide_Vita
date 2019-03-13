@@ -52,7 +52,7 @@ title: "完成安裝"
 1. 複製 `VitaHBBrowser.vpk` 至 `data` 資料夾中
 1. 複製 `UpdateBlocker.vpk` 至 `data` 資料夾中
 1. 透過 FTP 端移動至 `ux0:`
-1. Delete the `tai` folder if it exists
+1. 刪除可能現有的 `tai` 資料夾
 1. 移動至 `ur0:` -> `tai/`
 1. 複製 `config.txt` 至 `tai` 資料夾中
   + 複寫任何已存在的 `config.txt` 檔案
@@ -105,7 +105,7 @@ title: "完成安裝"
   + "ensō"
   + "modoru 戻る"
   + "molecularShell"
-1. Users on firmware version 3.60 should additionally delete the following application if it exists:
+1. 使用 3.60 版本的使用者若有看見下列檔案也應將其刪除：
   + "h-encore"
 1. 關閉『內容管理員』
 
