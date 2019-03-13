@@ -6,9 +6,9 @@ title: "安裝 Ensō (版本 3.65)"
 
 ### 必讀事項
 
-If your device on firmware version 3.65 was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will fortunately still be able to use the more convenience Ensō boot-time exploit.
+如果您的主機韌體版本為 3.65 且因『出廠韌體 (Factory Firmware)』無法降級至韌體版本 3.60，您還是可以使用較為方便的 Ensō 漏洞。
 
-Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
+壞消息是，您可能因無法使用僅於 3.60 版本相容的自製軟體而遇到相容性問題。
 
 ### 必備項目
 
