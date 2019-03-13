@@ -59,7 +59,7 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 
 1. Redémarrez votre machine
 1. Launch the h-encore application while holding (R)
-  + If prompted about trophies, continue holding (R) and select "Yes"
+  Si un message apparait à propos des trophées, continuez à appuyer sur (R) et choisissez "Oui"
 1. Si l'exploit est un succès, vous verrez maintenant le menu bootstrap de h-encore
   + Si l'exploit est figé sur un écran blanc, simplement fermer l'application (qui causera un plantage et un redémarrage de votre console), ensuite essayez encore
   + S'il est encore figé, maintenez le bouton d'alimentation pendant plus de 30 secondes pour forcer un redémarrage, ensuite essayez encore
