@@ -6,16 +6,16 @@ title: "設定 h-encore"
 
 ### 必讀事項
 
-If your device was unable to downgrade to either 3.60 or 3.65 due to its "factory firmware", you will be unable to use the more convenient Ensō boot-time exploit.
+如果您因系統出場韌體版本過高無法降級至版本 3.60 或 3.65，您將無法使用較為方便且於開機運行的 Ensō 漏洞。
 
-As a result, you will have to perform the h-encore exploit manually after each reboot. To make this slightly more convenient, we will disable the "trophy warning" that currently appears on every launch of the h-encore exploit.
+因此，您得於每次重啟後手動運行 h-encore 漏洞。 為了使步驟方便些，我們將關閉於啟動 h-encore 時所出現的遊戲獎盃之相關警告。
 
 ### 操作說明
 
-#### Section I - Disabling Trophy Warning
+#### 第一節 — 關閉獎盃相關警告
 
-1. Launch the h-encore application while holding (R)
-1. Select "Personalize savedata"
+1. 於啟動 h-encore 時按住『R』鍵
+1. 選擇「個性化儲存 (Personalize savedata)」
 1. 選擇『Exit』
 
 ___
