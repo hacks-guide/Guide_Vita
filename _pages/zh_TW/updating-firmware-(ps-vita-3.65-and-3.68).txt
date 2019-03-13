@@ -37,8 +37,8 @@ h-encore 漏洞僅與韌體版本 3.65 及 3.68 相容。 因此，其他韌體�
   + 如果您並沒有一隻 PlayStation Network 的帳號，請創立一隻
 1. 如提示時，選擇／註冊您的電腦
   + 若有提示更新的警示，請重新啟動您的主機並再試一次
-  + If you still encounter this message, enable Flight Mode in the system settings, reboot your device, and try again
-  + If you *still* encounter this message, disable Flight Mode, follow the instructions in [Blocking Updates](blocking-updates), reboot your device, and try again
+  + 若您仍遇到該警示，於系統設定中啟用飛航模式，重啟主機並再試一次
+  + 若您*仍*遇到該警示，請將飛航模式關閉並遵守[阻擋更新](blocking-updates)中的步驟，重啟並再試一次
   + 如果您的 Windows 電腦偵測不到您主機的 USB 連線的話，請安裝 [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) 並再試一次
 1. finalhe 此時應在您的畫面上顯示更新步驟
 
