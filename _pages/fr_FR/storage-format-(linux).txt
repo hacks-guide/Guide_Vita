@@ -1,48 +1,48 @@
 ---
-title: "Storage Format (Linux)"
+title: "Formatage de l'espace de stockage (Linux)"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+Il s’agit d’une section Add-on pour mettre en place un périphérique de stockage pour être utilisé avec le plugin de noyau de StorageMgr.
 
-Additionally, there is an optional section for checking your storage device for errors using F3. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+En outre, il y a une section facultative pour la vérification de votre périphérique de stockage pour les erreurs à l’aide de F3. En fonction de la taille de votre carte Sd et de la vitesse de votre ordinateur, ce processus peut prendre plusieurs heures !
 
-This page is for Linux users only. If you are not on Linux, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Mac)](storage-format-(mac)) pages.
+Cette page est uniquement destinée aux utilisateurs de Linux. Si vous n’êtes pas sur Linux, consultez le [Format de stockage (Windows)](storage-format-(windows)) ou [le Format de stockage (Mac)](storage-format-(mac)) pages.
 
 ### Ce dont vous aurez besoin
 
-* The latest version of [exfat-utils](https://github.com/relan/exfat) for your distribution (check your package manager)
-* The latest version of [fuse-exfat](https://github.com/relan/exfat) for your distribution (check your package manager)
-* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
-  + This is not required if you do not want to check your storage device for errors
+* La dernière version de [exfat-utils](https://github.com/relan/exfat) pour votre distribution (vérifier votre gestionnaire de paquets)
+* La dernière version de [fuse-exfat](https://github.com/relan/exfat) pour votre distribution (vérifier votre gestionnaire de paquets)
+* La dernière version de [F3](https://github.com/AltraMayor/f3/releases/latest)
+  + Ce n'est pas requis si vous ne souhaitez pas vérifier si votre périphérique de stockage a des erreurs
 
 ### Instructions
 
-#### Section I - Formatting Storage Device
+#### Section I - Formatage du périphérique de stockage
 
-1. Insert your storage device into your computer
-1. Unmount your storage device with `umount`
-1. Run `sudo dd if=/dev/zero of=/dev/sdX` to wipe the storage device
-  + `sdX` should be the device corresponding to your storage device
-1. Remove your storage device from your computer
-1. Re-insert your storage device into your computer
-1. Run `mkfs.exfat /dev/sdX` to format your storage device as exFAT
+1. Insérez votre périphérique de stockage dans votre ordinateur
+1. Éjectez votre espace de stockage avec 'éjecter'
+1. Exécutez la commande `sudo dd if=/dev/zero of=/dev/sdX' pour nettoyer votre espace de stockage
+  + 'sdX' doit être l'appareil correspondant à votre espace de stockage
+1. Éjectez votre périphérique de stockage de votre ordinateur
+1. Ré-insérez votre périphérique de stockage dans votre ordinateur
+1. Executez `mkfs.exfat /dev/sdX` pour formater votre espace de stockage
 
-#### Section II - Verifying Storage Device
+#### Section II - Vérification de l'espace de stockage
 
-If you do not want to check your storage device for errors, skip this section.
+Si vous ne voulez pas vérifier votre espace de stockage vous pouvez passer cette étape.
 {: .notice--info}
 
-1. Unzip the f3 `.zip` file
-1. `cd` into the f3 directory
-1. Run `make` to compile F3
-1. Insert your storage device into your computer
-1. Mount your storage device
-1. Run `./f3write <your storage device mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. Décompressez le fichier `.zip` de f3
+1. Faites un `cd` vers le dossier de F3
+1. Lancez `make` pour compiler F3
+1. Insérez votre périphérique de stockage dans votre ordinateur
+1. Monter votre espace de stockage
+1. Exécutez la commande `./f3write <point de montage de votre carte Sd>`
+1. Attendez la fin de l'opération. Voir ci-dessous pour un exemple de sortie.
 
 ~~~ bash
 $ ./f3write /media/michel/6135-3363/
@@ -54,8 +54,8 @@ Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
 ~~~
 
-1. Run `./f3read <your storage device mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. Exécutez la commande `./f3read <point de montage de votre carte Sd>`
+1. Attendez la fin de l'opération. Voir ci-dessous pour un exemple de sortie.
 
 ~~~ bash
 $ ./f3read /media/michel/6135-3363/
@@ -72,13 +72,13 @@ Data LOST: 0.00 Byte (0 sectors)
 Average Reading speed: 9.42 MB/s
 ~~~
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your storage device is good and you can delete all `.h2w` files on your storage device
+Si le test montre comme résultat `Data LOST: 0.00 Byte (0 sectors)` , votre carte SD est saine et vous pouvez supprimer tous les fichiers `.h2w` sur votre carte SD
 {: .notice--success}
 
-If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
+Si le test montre un autre résultat, votre carte Sd est peut-être corrompue ou endommagée et vous devrez peut-être la remplacer !
 {: .notice--danger}
 
 ___
 
-### Return to [Get Started](get-started)
+### Retournez vers [Pour Commencer](get-started)
 {: .notice--primary}
