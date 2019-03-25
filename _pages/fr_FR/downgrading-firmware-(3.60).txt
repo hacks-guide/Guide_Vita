@@ -92,5 +92,5 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 
 ___
 
-### Continue to [Installing HENkaku](installing-henkaku)
+### Continuez vers [Installation de HENkaku](installing-henkaku)
 {: .notice--primary}
