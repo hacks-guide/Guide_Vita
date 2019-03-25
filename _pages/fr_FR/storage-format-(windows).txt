@@ -1,66 +1,66 @@
 ---
-title: "Storage Format (Windows)"
+title: "Formatage de l'espace de stockage (Windows)"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+Il s’agit d’une section Add-on pour mettre en place un périphérique de stockage pour être utilisé avec le plugin de noyau de StorageMgr.
 
-Additionally, there is an optional section for checking your storage device for errors using h2testw. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+En outre, il y a une section facultative pour la vérification de votre périphérique de stockage pour les erreurs à l’aide de h2testw. En fonction de la taille de votre carte Sd et de la vitesse de votre ordinateur, ce processus peut prendre plusieurs heures !
 
-This page is for Windows users only. If you are not on Windows, check out the [Storage Format (Linux)](storage-format-(linux)) or [Storage Format (Mac)](storage-format-(mac)) pages.
+Cette page est pour les utilisateurs de Windows uniquement. Si vous n’êtes pas sur Windows, consultez le [Format de stockage (Linux)](storage-format-(Linux)) ou [le Format de stockage (Mac)](storage-format-(mac)) pages.
 
 ### Ce dont vous aurez besoin
 
 * [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }})
-* The latest version of [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-  + This is not required if you do not want to check your storage device for errors
+* La dernière version de [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
+* La dernière version de [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+  + Ce n'est pas requis si vous ne souhaitez pas vérifier si votre périphérique de stockage a des erreurs
 
 ### Instructions
 
-#### Section I - Formatting Storage Device
+#### Section I - Formatage du périphérique de stockage
 
-1. Install Win32DiskImager if you have not already
-1. Insert your storage device into your computer
-1. Launch Win32DiskImager
-1. Select `zzBlank.img` as the "Image File"
-1. Set "Device" to the drive letter of your storage device
-1. Select "Write"
-1. Select "Yes" to continue when prompted
-1. Select "OK" to dismiss the dialogue box when the write completes
-1. Close Win32DiskImager
-1. Right-click the drive in Windows Explorer, then select "Format"
-1. Set "File system" to "exFAT"
-1. Select "Start"
-1. Select "OK" to continue when prompted
-1. Select "OK" to dismiss the dialogue box when the format completes
-1. Close the format window
+1. Installer Win32DiskImager si ce n'est pas déjà fait
+1. Insérez votre périphérique de stockage dans votre ordinateur
+1. Lancer Win32DiskImager
+1. Choisissez `zzblank.img` comme image disque
+1. Chosissez dans "Device" la lettre correspondant a votre espace de stockage
+1. Sélectionnez "Write"
+1. Sélectionnez "Yes" pour continuer si on vous le demande
+1. Sélectionnez "OK" pour enlever la boite de dialogue quand l'écriture est fini
+1. Fermez Win32DiskImager
+1. Clique droit sur l'espace de stockage dans l'explorateur Windows, puis choisissez "Formater"
+1. Choisissez le système de fichier "exFAT"
+1. Sélectionnez "Start"
+1. Sélectionnez "OK" pour continuer si on vous le demande
+1. Sélectionnez "OK" pour enlever la boite de dialogue quand le formatage est fini
+1. Ferme la fenêtre de formatage
 
-#### Section II - Verifying Storage Device
+#### Section II - Verification de l'espace de stockage
 
-If you do not want to check your storage device for errors, skip this section.
+Si vous ne voulez pas vérifier votre espace de stockage vous pouvez passer cette étape.
 {: .notice--info}
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your storage device card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
-1. Select "Select target"
-1. Select your storage device card's drive letter
-1. Ensure "all available space" is selected
-1. Select "Write + Verify"
-1. Wait until the process is completed
+1. Copiez `h2testw.exe` de l'archive h2testw`.zip` sur votre bureau
+1. Insérez votre périphérique de stockage dans votre ordinateur
+1. Démarrez `h2testw.exe`
+1. Sélectionnez "English"
+1. Cliquez sur "Select target"
+1. Sélectionnez la lettre correspondante à votre espace de stockage
+1. Assurez-vous que "all available space" soit sélectionné
+1. Cliquez sur "Write + Verify"
+1. Attendez que le processus soit terminé
 
-If the test shows the result `Test finished without errors`, your storage device card is good and you can delete all `.h2w` files on your storage device card
+Si le test affiche le résultat `Test finished without errors`, votre carte Sd est bonne et vous pouvez supprimer tous les fichiers `.h2w` sur la carte Sd
 {: .notice--success}
 
-If the test shows any other results, your storage device card may be corrupted or damaged and you may have to replace it!
+Si le test montre un autre résultat, votre carte Sd est peut-être corrompue ou endommagée et vous devrez peut-être la remplacer !
 {: .notice--danger}
 
 ___
 
-### Return to [StorageMgr](storagemgr)
+### Retourner vers [StorageMgr](storagemgr)
 {: .notice--primary}
