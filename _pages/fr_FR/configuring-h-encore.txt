@@ -14,8 +14,8 @@ Par conséquent, vous devrez réaliser l'exploit h-encore manuellement après ch
 
 #### Section I - Désactiver l'avertissement des Trophées
 
-1. Launch the h-encore application while holding (R)
-1. Select "Personalize savedata"
+1. Lancez l'application h-encore en maintenant (R)
+1. Sélectionnez "Personalize savedata"
 1. Sélectionnez "EXIT"
 
 ___
