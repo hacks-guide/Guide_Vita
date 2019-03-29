@@ -59,7 +59,7 @@ Cette section copiera les données de votre ancienne carte de mémoire de Sony �
 1. Insérez votre périphérique de stockage dans votre ordinateur
 1. Copiez le contenu de votre `ux0 :` dossier à votre nouveau périphérique de stockage
   + Cela peut prendre un certain temps si vous avez une grande quantité de données sur votre carte mémoire de Sony
-  + Do not copy the `ux0:` folder itself to your new storage device
+  + Ne copiez pas le dossier `ux0:` en lui même sur votre nouvel appareil de stockage
 1. Insérez votre périphérique de stockage dans votre PS Vita (TV)
 1. Appuyez sur (Rond) sur votre machine pour fermer la connexion FTP
 1. Fermez l'application VitaShell
