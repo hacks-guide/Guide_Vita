@@ -1,16 +1,16 @@
 ---
-title: "Installing HENkaku"
+title: "Instalar HENkaku"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 ### Lectura requerida
 
-HENkaku is an exploit chain for the PS Vita (TV) which will allow for the installation of homebrew applications to the LiveArea Screen. It is only compatible with the firmware version 3.60.
+HENkaku es una cadena de exploits para la PS Vita (TV) que permite la instalación de aplicaciones homebrew a la pantalla de inicio. Sólo es compatible con la versión de firmware 3.60.
 
-Note that the HENkaku exploit chain is not "persistent" (meaning it does not remain installed after a reboot). Fortunately, this is only a temporary restriction until HENkaku Ensō is installed on the next page.
+Ten en cuenta que la cadena de exploits HENkaku no es "persistente" (no permanece instalada tras reiniciar la consola). Por suerte, esta es sólo una restricción temporal hasta que HENkaku Ensō se instala en la siguiente página.
 
-In addition to running the HENkaku exploit, we will also enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analagous to the "administrator" mode on a computer.
+Además de ejecutar HENkaku, también habilitaremos el acceso a homebrew "inseguro" que otorga mayores permisos a aplicaciones homebrew. Esta idea es similar a lo que a veces llamamos modo "administrador" en una computadora.
 
 Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria oficial de Sony (de cualquier tamaño) para seguir esta guía. Esta restricción no aplica a los modelos PS Vita 2000 o PS TV debido a que poseen una tarjeta de memoria interna.
 {: .notice--info}
@@ -21,14 +21,15 @@ Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria ofic
 
 ### Instrucciones
 
-#### Section I - Launching HENkaku
+#### Sección I - Iniciar HENkaku
 
-1. Launch the browser and go to the following URL on your device:
+1. Abre el navegador de tu consola y ve a la siguiente dirección web:
   + `http://henkaku.xyz`
-1. Tap "Install"
-1. Read the disclaimer, then tap "Install"
-  + If you get an error and cannot proceed, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
-1. If the exploit was successful, you will now have a bubble on your LiveArea screen named "molecularShell".
+1. Pulsa "Instalar"
+1. Lee la advertencia, luego pulsa "Install"
+  + Si aparece un error y no puedes continuar, sigue la [guía de solución de problemas](troubleshooting#a-browser-based-exploit-is-not-working)
+1. Si el exploit fue exitoso, ahora tendrás una burbuja en la pantalla de inicio llamada "molecularShell".
+  + Si el exploit fue exitoso pero no está la aplicación molecularShell, realiza el exploit de nuevo y presiona R1 cuando te pida volver a instalar molecularShell
 
 #### Sección II - Configurar HENkaku
 
@@ -40,5 +41,5 @@ Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria ofic
 
 ___
 
-### Continue to [Installing Ensō (3.60)](installing-enso-(3.60))
+### Continúa a [Instalar Ensō (3.60)](installing-enso-(3.60))
 {: .notice--primary}

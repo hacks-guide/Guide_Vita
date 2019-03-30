@@ -1,35 +1,32 @@
 ---
-title: "Site Navigation" #
+title: "Index" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**Toutes**
 
 + [Adrenaline](adrenaline)
-+ [Blocking Updates](blocking-updates)
-+ [Configuring h-encore](configuring-h-encore)
-+ [Credits](credits)
++ [Bloquer les mises à jour](blocking-updates)
++ [Remerciements](credits)
 + [Donations](donations)
 + [FAQ](faq)
-+ [File Extensions (Windows)](file-extensions-(windows))
-+ [Finalizing Setup](finalizing-setup)
-+ [Get Started](get-started)
-+ [Home](/)
-+ [Installing Ensō (3.60)](installing-enso-(3.60))
-+ [Installing Ensō (3.65)](installing-enso-(3.65))
-+ [Installing h-encore](installing-h-encore)
-+ [Installing HENkaku](installing-henkaku)
-+ [Storage Format (Linux)](storage-format-(linux))
-+ [Storage Format (Mac)](storage-format-(mac))
-+ [Storage Format (Windows)](storage-format-(windows))
++ [Extensions de fichier (Windows)](file-extensions-(windows))
++ [Finalisation de la configuration](finalizing-setup)
++ [Pour commencer](get-started)
++ [Page d'accueil](/fr_FR/)
++ [Installation de Ensō (3.60)](installing-enso-(3.60))
++ [Installation de h-encore](installing-h-encore)
++ [Installation de HENkaku](installing-henkaku)
++ [Formatage du dispositif de stockage (Linux)](storage-format-(linux))
++ [Formatage du dispositif de stockage (Mac)](storage-format-(mac))
++ [Formatage du dispositif de stockage (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
-+ [Troubleshooting](troubleshooting)
-+ [Updating Firmware (3.60)](updating-firmware-(3.60))
-+ [Updating Firmware (HENkaku)](updating-firmware-(henkaku))
-+ [Updating Firmware (PS TV 3.65 and 3.68)](updating-firmware-(ps-tv-3.65-and-3.68))
-+ [Updating Firmware (PS Vita 3.65 and 3.68)](updating-firmware-(ps-vita-3.65-and-3.68))
-+ [Why Ads?](why-ads)
++ [Problèmes et Dépannage](troubleshooting)
++ [Mise à jour du système (3.60)](updating-firmware-(3.60))
++ [Mise à jour du système (PS TV 3.65 and 3.68)](updating-firmware-(ps-tv-3.65-and-3.68))
++ [Mise à jour du système (PS Vita 3.65 and 3.68)](updating-firmware-(ps-vita-3.65-and-3.68))
++ [Pourquoi des pubs ?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

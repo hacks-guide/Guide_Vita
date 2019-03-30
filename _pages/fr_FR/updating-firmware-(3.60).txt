@@ -1,45 +1,45 @@
 
 ---
-title: "Updating to 3.60"
+title: "Mise à jour du firmware (3.60)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
-The HENkaku exploit is only compatible with the firmware version 3.60. As a result, lower firmware versions must update using a custom update server in order to use that exploit.
+L'exploit HENkaku exploit est seulement compatible avec les versions système 3.60. En conséquence, d’autres versions de firmware doivent mettre à jour en utilisant une application de mise à jour personnalisée pour pouvoir utiliser cet exploit.
 
-Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.60, you should return to [Get Started](get-started).
+Notez que une application custom de mise a jour système ne permet que de la mettre à jour, pas de revenir à une version antérieur. Si vous êtes sur une version système supérieur a 3.60 retournez vers [Bien démarrer](get-started).
 
-### What you need
+### Ce dont vous aurez besoin
 
-* An internet connection on your PS Vita (TV)
+* Une connexion internet sur votre PS Vita (TV)
 
 ### Instructions
 
-#### Section I: Prep Work
+#### Section I - Préparation
 
-1. Launch the Settings application
-1. Navigate to `Network` -> `Wi-Fi Settings`
-  + Connect to a Wi-Fi network if you have not already done so
-1. Select your current connection
-  + This is signified by a green dot next to the network
-1. Select "Advanced Settings"
-1. Set "DNS Settings" to "Manual"
-1. Set "Primary DNS" to `212.47.229.76`
-1. Leave "Secondary DNS" blank
-1. Ensure "Proxy Server" is set to "Do Not Use"
-1. Return to the main Settings menu
+1. Allez dans l'application paramètres
+1. Accédez au  `Réseau`-> `Paramètres connexion Wi-Fi`
+  + Se connecter à un réseau Wi-Fi si vous ne le n'avez pas déjà fait
+1. Sélectionnez votre réseau actuel
+  + Ceci est indiqué par un point verte à côté du réseau
+1. Sélectionnez "Modifier les paramètres"
+1. Mettez "Paramétrage du DNS" sur "Manuel"
+1. Mettez "DNS primaire" à `212.47.229.76`
+1. Laissez "DNS secondaire" vide
+1. Assurez vous que "Serveur Proxy" soit mis en mode "Ne pas utiliser"
+1. Retournez au menu des paramètres
 
-#### Section II: Updating to 3.60
+#### Section II - Mise à jour en 3.60
 
-1. Navigate to `System Update` -> `Update Using Wi-Fi`
-1. Ensure the update message "3.60 (変革 Compatible)" is displayed
-  + If it displays any other message, stop and figure out what went wrong
-1. Follow the prompts to update your device to 3.60
-  + When the process has completed, your device will reboot automatically
+1. Naviguez vers `Mise à jour système` -> `Mise à jour via PC`
+1. Assurez vous que le message "3.60 (変革 Compatible)" apparait
+  + Si il affiche un autre message. Arrêtez vous et tentez de voir ce que qui s'est mal passé
+1. Suivez la procédure pour mettre à jour votre appareil en 3.60
+  + Une fois le processus terminé, votre appareil redémarrera automatiquement
 
 ___
 
-### Continue to [Installing HENkaku](installing-henkaku)
+### Continuez vers [Installation de HENkaku](installing-henkaku)
 {: .notice--primary}

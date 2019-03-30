@@ -47,7 +47,7 @@ Adrenaline 是一個用於修改 PS Vita (TV) 中內建的 PSP 模擬器並透�
 
 1. 按下「O」鍵回到 `ux0:` 中
 1. 移動至 `tai/`
-  + 如果 `urx:tai` 不存在，請按下「O」鍵並移動至 `ur0:taix`
+  + 如果 `urx:tai` 不存在，請按下「O」鍵並移動至 `ur0:tai`
 1. 於 `config.txt` 上按下「X」鍵將其於文件編輯器中開啟
 1. 透過游標選取含有 `*KERNEL` 字串的行列
 1. 按下「△」(三角形) 鍵開啟選單，並選擇『Insert empty line』(插入空行)
@@ -61,7 +61,7 @@ Adrenaline 是一個用於修改 PS Vita (TV) 中內建的 PSP 模擬器並透�
 1. 重新啟動您的主機
   + 如果您的主機尚未安裝 Ensō，您將會需要手動啟動並關閉 h-encore 以啟用自製軟體使用權
   + 此為必要步驟以載入剛所設定至 `ux0:tai/config.txt` 的內核插件
-	
+
 #### 第四節 — 安裝 PSP 主選單 (XMB)
 
 1. 啟動 Adrenaline

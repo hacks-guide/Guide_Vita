@@ -1,62 +1,84 @@
 ---
-title: "Installing h-encore"
+title: "Installer h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
-The h-encore exploit chain for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 and 3.68.
+La chaine d'exploit h-encore pour la PS Vita (TV) permet l'installation de homebrew sur votre système. It est compatible avec les firmwares 3.65 à .3.68.
 
-Note that the h-encore exploit chain is not "persistent" (meaning it does not remain installed after a reboot). For devices on firmware version 3.65, this is fortunately only a temporary restriction until Ensō is installed on a later page. For devices on 3.68, you will, unfortunately, need to perform a small portion of these instructions (which will be indicated) after every reboot until a new persistent exploit is developed.
+Notez que la chaine d'exploit h-encore n'est pas "permanente" (le hack disparaîtra après un redémarrage). Aux fins de ces instructions, nous nous contenterons de l'utiliser pour obtenir le niveau d'accès requis pour downgrader vers la version 3.60 du firmware afin d'installer des exploits plus puissants.
 
-Prior to installing the h-encore exploit, we configure your network's DNS settings to use a custom update server which blocks new firmware versions from being installed when the device attempts to perform an update.
+En plus d'installer l'exploit h-encore, nous allons autoriser le lancement d'homebrew dit "unsafe" (qui demande des permissions étendu). Ce mode peut être considéré comme étant un mode "administrateur" sur un ordinateur.
 
-In addition to installing the h-encore exploit, we enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the "administrator" mode on a computer.
+Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (de n'importe quel taille) pour suivre ce guide. Cette restriction ne s'applique pas pour les PS Vita 2000 et PS TV car ceux ci dispose d'une mémoire interne.
+{: .notice--info}
 
-If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
+### Ce dont vous aurez besoin
 
-The "finalhe" tool is used to automate the h-encore installation.
-
-### What You Need
-
-* The latest release of [finalhe](https://github.com/soarqin/finalhe/releases/latest)
+* La dernière version de [finalhe](https://github.com/soarqin/finalhe/releases/latest)
 
 ### Instructions
 
 #### Section I - finalhe
 
-1. Copy the contents of the finalhe `.zip` to a folder on your computer
-1. Launch finalhe on your computer
-  + If you are using a Windows computer and are prompted to allow finalhe network access through the firewall, do so
-1. Launch the Content Manager application on your device
-1. Select "Copy Content"
-1. Select "PC"
-1. Select the method you wish to use to connect to finalhe
-  + If you are prompted to log-in to a PlayStation Network Account, do so
-  + If you do not have a PlayStation Network Account, create one
-1. Select / register your computer if prompted
-  + If you encounter a message instructing you to update, reboot your device and try again
-  + If your device is not detected over USB on Windows, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
+1. Copiez le contenu du fichier zip de finalhe vers un dossier sur votre ordinateur
+1. Lancez finalhe sur votre ordinateur
+  + Si vous utilisez un ordinateur Windows et qu'il vous demande si vous devez autoriser l'accès au réseaux faite oui.
+1. Lancez l’application Gestionnaire de Contenu
+1. Sélectionnez "Copier du contenu"
+1. Sélectionnez "PC"
+1. Selectionner la méthode que vous voulez pour vous connecter à finalhe
+  + Si vous êtes amené a vous connecter a un compte PlayStation Network faites donc
+  + Si vous n'avez pas de compte PlayStation Network créez en un
+1. Choisissez enregistrer l'ordinateur si cela vous est demandé
+  + Si vous rencontré un message vous demandant de mettre a jour votre appareil, veuillez redémarrer en mode sans échec (appuyez sur Ps + R + bouton d'allumage) et activez l'option mettre à jour la base de donnée
+  + Si vous rencontrez toujours ce message, suivez les instructions de [Blocking Updates](blocking-updates) et réessayez
+  + Si vous *stil* rencontrez ce message, activez le Mode Avion dans les paramètres système et réessayez (cela ne fonctionnera *pas* sur les PS TVs)
+  + Si votre appareil n'est pas pas détécté via USB sur Windows, installez [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) et essayez encore
 
-#### Section II - h-encore Transfer
+#### Section II - Réduire la taille de h-encore a 13MO
 
-1. Select "Trim h-encore to ~13MB"
-1. Select "Let's GO!"
-  + The exploit files will be automatically downloaded and prepared
-  + This process will take some time
-1. Select "PC -> PS Vita System" on your device
-1. Select "Applications"
-1. Select "PS Vita"
-1. Select "h-encore"
-1. Select "Copy"
-1. Select "OK"
-  + The h-encore exploit will be copied to your device
-  + This process will take some time
-1. Close the Content Manager application on your device
-1. Close finalhe on your computer
+1. Choisissez "Trim h-encore to ~13MB"
+1. Choisissez "Let's GO!"
+  + Les fichiers nécessaire à l'exploit seront automatiquement téléchargé et préparé
+  + Ce processus prendra un certain temps
+1. Coisissez "PC -> système PS Vita" sur votre PS VITA dans l'application Gestionnaire de Contenu
+1. Sélectionner "Applications"
+1. Sélectionnez "PS Vita"
+1. Selectionnez "h-encore"
+1. Sélectionnez "Copier"
+1. Sélectionnez "OK"
+  + L'exploit h-encore sera copié vers votre Ps Vita
+  + Ce processus prendra un certain temps
+1. Fermez l’application Gestionnaire de Contenu
+1. Fermez finalhe sur votre ordinateur
+
+#### Section III - Configuration de h-encore
+
+1. Lancez l'application h-encore en maintenant (R)
+  Si un message apparait à propos des trophées, continuez à appuyer sur (R) et choisissez "Oui"
+1. Si l'exploit est un succès, vous verrez maintenant le menu bootstrap de h-encore
+  + Si l'exploit est figé sur un écran blanc, simplement fermer l'application (qui causera un plantage et un redémarrage de votre console), ensuite essayez encore
+  + S'il est encore figé, maintenez le bouton d'alimentation pendant plus de 30 secondes pour forcer un redémarrage, ensuite essayez encore
+1. Sélectionnez "install HENkaku"
+  + Cela installera l'exploit HENkaku et permettra l'accès aux homebrews jusqu'au prochain redémarrage
+1. Sélectionnez "Download VitaShell"
+  + Cela installera l'application VitaShell afin de gérer le système de fichiers de votre console
+  + VitaShell (et toutes les applications homebrew en général) resteront installées après un redémarrage, mais donneront une erreur au lancement si l’exploit HENkaku n’est pas actif
+1. Sélectionnez "EXIT"
+
+#### Section IV - Configuration de HENkaku
+
+1. Allez dans l'application paramètres
+1. Accédez à `HENkaku Settings`
+  + Si HENkaku Settings est manquant, sélectionnez "Reset taiHEN config.txt" dans le menu de démarrage de h-encore et réessayez
+1. Cochez "Enable Unsafe Homebrew"
+1. Retournez au menu paramètre HENkaku
+1. Fermez l’application de Paramètres
 
 ___
 
-### Continue to [Configuring h-encore](configuring-h-encore)
+### Continuez vers [Downgrade du Firmware (3.60)](downgrading-firmware-(3.60))
 {: .notice--primary}

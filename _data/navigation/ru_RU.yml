@@ -50,9 +50,6 @@ sidebar_pages:
     title: Обновление прошивки (3.60)
     url: updating-firmware-(3.60)
   - 
-    title: Обновление прошивки (HENkaku)
-    url: updating-firmware-(henkaku)
-  - 
     title: Обновление прошивки (PS TV 3.65 и 3.68)
     url: updating-firmware-(ps-tv-3.65-and-3.68)
   - 
@@ -61,6 +58,12 @@ sidebar_pages:
   - 
     title: Установка h-encore
     url: installing-h-encore
+  - 
+    title: Понижение версии прошивки (3.60)
+    url: downgrading-firmware-(3.60)
+  - 
+    title: Понижение версии прошивки (3.65)
+    url: downgrading-firmware-(3.65)
   - 
     title: Установка HENkaku
     url: installing-henkaku

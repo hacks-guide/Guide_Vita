@@ -50,9 +50,6 @@ sidebar_pages:
     title: Updating Firmware (3.60)
     url: updating-firmware-(3.60)
   - 
-    title: Updating Firmware (HENkaku)
-    url: updating-firmware-(henkaku)
-  - 
     title: Updating Firmware (PS TV 3.65 and 3.68)
     url: updating-firmware-(ps-tv-3.65-and-3.68)
   - 
@@ -61,6 +58,12 @@ sidebar_pages:
   - 
     title: Installing h-encore
     url: installing-h-encore
+  - 
+    title: Downgrading Firmware (3.60)
+    url: downgrading-firmware-(3.60)
+  - 
+    title: Downgrading Firmware (3.65)
+    url: downgrading-firmware-(3.65)
   - 
     title: Installing HENkaku
     url: installing-henkaku

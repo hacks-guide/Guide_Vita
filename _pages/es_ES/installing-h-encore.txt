@@ -6,17 +6,14 @@ title: "Instalar h-encore"
 
 ### Lectura requerida
 
-La cadena de exploits de h-encore para la PS Vita (TV) permite la instalación de aplicaciones de homebrew a tu pantalla de inicio. It is compatible with the firmware versions 3.65 and 3.68.
+La cadena de exploits de h-encore para la PS Vita (TV) permite la instalación de aplicaciones de homebrew a tu pantalla de inicio. Es compatible con las versiones de firmware 3.65, y 3.68.
 
-Ten en cuenta que la cadena de exploits de h-encore no es "persistente" (o sea, que no se mantiene instalada luego de reiniciar). Para consolas en la versión de firmware 3.65, esto es, por suerte, una restricción temporal hasta que Ensō sea instalado en una página posterior. For devices on 3.68, you will, unfortunately, need to perform a small portion of these instructions (which will be indicated) after every reboot until a new persistent exploit is developed.
-
-Antes de instalar el exploit h-encore, configuraremos los ajustes de DNS de la red para utilizar un servidor *custom*, el cual previene que nuevas versiones de firmware sean instaladas en la consola al intentar realizar una actualización.
+Ten en cuenta que la cadena de exploits de h-encore no es "persistente" (o sea, que no se mantiene instalada luego de reiniciar). Para fines de estas instrucciones, simplemente lo utilizaremos para obtener el nivel de acceso necesario para downgradear a la versión de firmware 3.60 para instalar mejores exploits.
 
 Además de instalar el exploit h-encore, activaremos el acceso a homebrew "no seguro", el cual entrega mayores permisos a las aplicaciones homebrew. Esta idea es similar a lo que a veces llamamos modo "administrador" en un computador.
 
 Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria oficial de Sony (de cualquier tamaño) para seguir esta guía. Esta restricción no aplica a los modelos PS Vita 2000 o PS TV debido a que poseen una tarjeta de memoria interna.
-
-La herramienta "finalhe" es utilizada para automatizar la instalación de h-encore.
+{: .notice--info}
 
 ### Qué necesitas
 
@@ -24,7 +21,7 @@ La herramienta "finalhe" es utilizada para automatizar la instalación de h-enco
 
 ### Instrucciones
 
-#### Section I - finalhe
+#### Sección I - finalhe
 
 1. Copia el contenido del `.zip` de finalhe a una carpeta en tu computador
 1. Ejecuta finalhe en tu computador
@@ -37,9 +34,11 @@ La herramienta "finalhe" es utilizada para automatizar la instalación de h-enco
   + Si no tienes una cuenta de PlayStation Network, crea una
 1. Selecciona / registra tu computador si te lo pide
   + Si encuentras un mensaje que te instruye a actualizar, reinicia la consola y vuelve a intentar
+  + Si todavía recibes este mensaje, sigue las instrucciones en [Bloqueo de actualizaciones](blocking-updates) y vuelve a intentar
+  + Si *aún* recibes este mensaje, activa el Modo avión en las configuraciones del sistema y vuelve a intentar (esto *no* funcionará en las PS TV)
   + Si tu consola no es detectada por USB en Windows, instala [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) y vuelve a intentar
 
-#### Section II - h-encore Transfer
+#### Sección II - Transferir h-encore
 
 1. Selecciona "Trim h-encore to ~13MB"
 1. Selecciona "Let's GO!"
@@ -54,9 +53,32 @@ La herramienta "finalhe" es utilizada para automatizar la instalación de h-enco
   + El exploit h-encore será copiado en tu consola
   + Este proceso tomará algún tiempo
 1. Cierra la aplicación Gestor de contenido en tu consola
-1. Close finalhe on your computer
+1. Cierra finalhe en tu computadora
+
+#### Sección III - Configurar h-encore
+
+1. Inicia la aplicación de h-encore mientras presionas (R)
+  + Si te pregunta por trofeos, continúa presionando (R) y selecciona "Yes"
+1. Si el exploit fue exitoso, ahora verás el menú de inicio de h-encore
+  + Si el exploit se quedó en una pantalla en blanco, tan solo cierra la aplicación (lo cual causará un crash y reiniciará tu consola), y vuelve a intentar
+  + Si aún no funciona, mantén presionado el botón de apagado por unos 30 segundos para forzar un reinicio, y vuelve a intentar
+1. Selecciona "Install HENkaku"
+  + Esto instalará el exploit HENkaku para activar acceso a homebrew hasta el siguiente reinicio
+1. Selecciona "Download VitaShell"
+  + Esto instalará la aplicación de homebrew VitaShell para administrar el sistema de archivos de tu consola
+  + VitaShell (y en general todas las aplicaciones de homebrew) se mantendrán instaladas luego de un reinicio, pero darán un error al ejecutar si el exploit HENkaku no está activo
+1. Selecciona "Exit"
+
+#### Sección IV - Configurar HENkaku
+
+1. Inicia la aplicación Ajustes
+1. Ve a `HENkaku Settings`
+  + Si HENkaku Settings no aparece, selecciona "Reset taiHEN config.txt" en el menú de inicio de h-encore, y vuelve a intentar
+1. Activa "Enable Unsafe Homebrew"
+1. Vuelve al menú de ajustes de HENkaku
+1. Cierra la aplicación Ajustes
 
 ___
 
-### Continúa a [Configurar h-encore](configuring-h-encore)
+### Continúa con [Downgradear firmware (3.60)](downgrading-firmware-(3.60))
 {: .notice--primary}
