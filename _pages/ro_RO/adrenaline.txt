@@ -68,7 +68,7 @@ Trebuie să aveți deja instalat VitaShell pentru a utiliza aceasta aplicație.
 1. Apăsați (X) pentru a descărca firmware-ul de PSP 6.61
   + Acest proces va lua ceva timp
   + Dacă descărcarea eșuează, downloader-ul va deveni confuz și va începe să vă dea eroarea "Cannot find ux0:/app/PSPEMUCFW/661.PBP"
-  + Dacă apare eroarea de mai sus, utilizați VitaShell pentru a șterge folderul "ux0: app / PSPEMUCFW / flash0 /", apoi încercați din nou
+  + Dacă apare eroarea de mai sus, folosiți VitaShell pentru a șterge folderul `ux0:app/PSPEMUCFW/flash0/`, apoi încercați din nou
   + Dacă această eroare persistă, descărcați manual [EBOOT.PBP],(http://de01.psp.update.playstation.org/update/psp/image/eu/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP),redenumiți-o la '661.PBP', apoi transferați-o la `ux0:app/PSPEMUCFW/` folosind VitaShell
   Adrenaline se va închide automat după terminarea descărcării
 1. Re-lansați aplicația Adrenaline
