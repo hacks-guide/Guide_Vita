@@ -26,7 +26,7 @@ main:
     url: site-navigation
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/m7MwpKA">HENkaku on Discord</a>.
+    title: Para soporte en inglés, pide ayuda en el <a href="https://discord.gg/m7MwpKA">Discord de HENkaku</a>.
   - 
     title: Si aprecias esta guía, aceptamos <a href="donations">donaciones</a>.
 footer:
@@ -37,7 +37,7 @@ footer:
   - 
     title: '¿Por qué anuncios?'
   - 
-    title: Privacy Policy
+    title: Política de privacidad
 sidebar_title:
   - 
     title: Progreso total
