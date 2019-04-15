@@ -7,7 +7,7 @@ layout: single-no-ads
 
 Este sitio utiliza cookies para facilitar el seguimiento de las instrucciones de la guía por parte de los usuarios. Las cookies permiten que el recuadro lateral de la página muestre el progreso de la lectura de la misma para ayudar a los usuarios a navegar por las instrucciones con mayor facilidad.
 
-### Contenido incluído de otros sitios web
+### Contenido incluido de otros sitios web
 
 Este sitio puede incluir contenido externo (por ej.: videos, imágenes, artículos, etc.). Éste tipo de contenidos se comporta como si el usuario visitase el otro sitio web.
 
@@ -19,16 +19,16 @@ Este sitio utiliza Google Analytics para monitorear y analizar el tráfico. Este
 
 ### Información recolectada
 
-Este sitio no recolecta información personal. This site may collect usage information in order to analyze interest in content and to provide advertisers with information on an aggregate basis. No personally identifiable information is shared with third-party advertising companies.
+Este sitio no recolecta información personal. Este sitio puede recolectar información de uso para poder analizar el interés en el contenido y proporcionar información más completa a anunciantes. Ningún tipo de información de identificación personal es compartida con empresas de publicidad de terceros.
 
-Google (as a third party advertisement vendor) uses cookies to serve ads on this site. The use of DART cookies by Google allows them to serve advertisements to visitors based on their visits to this site as well as other sites. To opt-out of DART cookies, see the [Google Advertising Privacy Policy](http://www.google.com/policies/technologies/ads/).
+Google (como proveedor de anuncios externo) utiliza cookies para mostrar anuncios en este sitio web. El uso de cookies DART por parte de Google les permite mostrar publicidad a los usuarios basados en sus visitas a este sitio web así como en otros sitios. Para excluirte del uso de cookies DART, revisa la [Política de privacidad de anuncios de Google](http://www.google.com/policies/technologies/ads/).
 
-Other third-party advertising servers or networks may also use cookies to track user activity on this site to measure advertising effectiveness or for other reasons provided in their privacy policies. This site has no access or control over any cookies which may be used by third-party advertisers.
+Otros servidores o redes publicitarias de terceros también podrían hacer uso de cookies para hacer seguimiento de la actividad de usuarios en este sitio web, para medir la eficiencia de la publicidad o por otras razones propiamente detalladas en sus respectivas políticas de privacidad. Este sitio web no tiene acceso ni control de ninguna de las cookies que pueden ser usadas por anunciantes de terceros.
 
-### Third-Party Websites
+### Sitios web externos
 
-This site may link to other sites for users to use or reference. This site is not responsible for the privacy policies of other sites. Users should be aware that the privacy policies of other websites may differ from this one.
+Este sitio web puede enlazar a otros sitios para uso o referencia por parte de los usuarios. Este sitio no se hace responsable de las políticas de privacidad de otros sitios web. Los usuarios deben ser conscientes de que las políticas de privacidad de otros sitios pueden diferir de ésta.
 
-### Changes to Privacy Policy
+### Cambios a la política de privacidad
 
-The contents of this Privacy Policy may be altered at any time and for any reason. For questions regarding this site's Privacy policy, contact [plailect@gmail.com](mailto:plailect@gmail.com).
+El contenido de esta Política de privacidad puede ser modificado en cualquier momento y por cualquier motivo. Para consultas sobre la Política de privacidad de este sitio, escribe a [plailect@gmail.com](mailto:plailect@gmail.com).
