@@ -18,6 +18,15 @@
 <meta name="theme-color" content="#2E3440">
 <meta name="theme-color" content="#2E3440">
 
+{% assign split_path = page.path | split: "/" %}
+{% assign locale = split_path[1] %}
+{% if locale == 'en_US' %}
+  {% assign locale_var = '/' %}
+{% else %}
+  {% assign locale_var = locale | prepend:'/' | append:'/' %}
+{% endif %}
+{% assign top = site.data.navigation[locale].top %}
+
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script>
@@ -35,7 +44,7 @@ window.cookieconsent.initialise({
   "position": "top",
   "static": true,
   "content": {
-    "message": "This website uses cookies to display the current guide progress on the sidebar."
+    "message": "{{ top[0].title }}"
   }
 })});
 </script>
