@@ -6,7 +6,7 @@ title: "Preguntas Frecuentes"
 **R:** No en este momento.
 
 <a name="faq_downgrade" />**Q:** *¿Puedo hacer downgrade a mi Vita?*    
-**R:** No.
+**A:** Yes, but only if the console is already on a hackable firmware. Modoru can downgrade any system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
 
 <a name="faq_update" />**Q:** *¿Es seguro actualizar una Vita con CFW?*    
 **A:** ¡No! Siempre debes asegurarte que has bloqueado las actualizaciones tal como se especifica al final de [Finalizar instalación](finalizing-setup).
