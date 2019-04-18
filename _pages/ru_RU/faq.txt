@@ -6,7 +6,7 @@ title: "Вопросы и ответы"
 **О:** На данный момент - нет.
 
 <a name="faq_downgrade" />**В:** *Могу ли я понизить версию прошивки на своей Vita?*    
-**О:** Нет.
+**A:** Yes, but only if the console is already on a hackable firmware. Modoru can downgrade any system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
 
 <a name="faq_update" />**В:** *Безопасно ли обновлять Vita на кастомной прошивке?*    
 **О:** Нет! Убедитесь, что у вас заблокированы обновления, как написано в конце страницы [Завершение установки](finalizing-setup).
