@@ -345,11 +345,11 @@ body:hover .visually-hidden button {
             transform: rotate3d(0,0,1,-45deg);
   }
 }
-  
+
 /*
     Langicons
     ========================================================================== */
-  
+
 .langicon {
   position: relative;
   width: $navicon-width;
@@ -377,7 +377,7 @@ body:hover .visually-hidden button {
     bottom: (-2 * $navicon-height);
   }
 }
-  
+
 .close .langicon {
   /* hide the middle line*/
   background: transparent;
@@ -585,8 +585,13 @@ a.reversefootnote {
 .adsbygoogle {
   border-bottom: none;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .adsbygoogle:last-child {
   margin-bottom: 0;
+}
+
+.adsbygoogle:first-child {
+  margin-top: 0;
 }
