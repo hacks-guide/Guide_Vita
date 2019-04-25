@@ -26,6 +26,7 @@ Această pagină este doar pentru utilizatorii de Mac. Dacă nu sunteţi pe Mac,
 1. Selectaţi dispozitivul de stocare
 1. Selectaţi meniul "Partiţie"
 1. Partiţionaţi dispozitivul de stocare ca MBR cu o singură partiţie exFAT
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
 #### Secțiunea II - Verificând dispozitivul de stocare
 
