@@ -30,6 +30,7 @@ Această pagină este doar pentru utilizatorii de Linux. Dacă nu sunteţi pe Li
 1. Scoateți dispozitivul de stocare din calculator
 1. Reintroduceți dispozitivul de stocare în calculator
 1. Executați `mkfs.exfat /dev/sdX` pentru a formata dispozitivul de stocare ca exFAT
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
 #### Secțiunea II - Verificând dispozitivul de stocare
 
