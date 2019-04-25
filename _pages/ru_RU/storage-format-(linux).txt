@@ -1,48 +1,49 @@
 ---
-title: "Форматирование накопителя (Linux)"
+title: "Storage Format (Linux)"
 ---
 
 {% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-Этот дополнительный раздел содержит информацию о форматировании накопителя для использования с плагином StorageMgr.
+This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
 
-Кроме того, есть опциональный раздел для проверки накопителя на ошибки с помощью F3. В зависимости от размера накопителя и скорости компьютера процесс проверки может занять до нескольких часов!
+Additionally, there is an optional section for checking your storage device for errors using F3. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
 
-Этот раздел предназначен только для пользователей Linux. Если у вас не Linux, воспользуйтесь [Форматирование накопителя (Windows)](storage-format-(windows)) или [Форматирование накопителя (Mac)](storage-format-(mac)).
+This page is for Linux users only. If you are not on Linux, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Mac)](storage-format-(mac)) pages.
 
 ### Что понадобится
 
-* Свежая версия [exfat-utils](https://github.com/relan/exfat) для вашего дистрибутива (используйте свой менеджер пакетов)
-* Свежая версия [fuse-exfat](https://github.com/relan/exfat) для вашего дистрибутива (используйте свой менеджер пакетов)
-* Свежая версия [F3](https://github.com/AltraMayor/f3/releases/latest)
-  + Это не требуется, если вы не хотите проверять накопитель на наличие ошибок
+* The latest version of [exfat-utils](https://github.com/relan/exfat) for your distribution (check your package manager)
+* The latest version of [fuse-exfat](https://github.com/relan/exfat) for your distribution (check your package manager)
+* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
+  + This is not required if you do not want to check your storage device for errors
 
 ### Инструкция
 
-#### Часть I - Форматирование накопителя
+#### Section I - Formatting Storage Device
 
-1. Вставьте накопитель в компьютер
-1. Размонтируйте накопитель командой `umount`
-1. Выполните `sudo dd if=/dev/zero of=/dev/sdX` чтобы очистить накопитель
-  + Замените `sdX` на устройство, соответствующее вашему накопителю
-1. Извлеките накопитель из компьютера
-1. Снова вставьте накопитель в компьютер
-1. Выполните `mkfs.exfat /dev/sdX` чтобы отформатировать накопитель в exFAT
+1. Insert your storage device into your computer
+1. Unmount your storage device with `umount`
+1. Run `sudo dd if=/dev/zero of=/dev/sdX` to wipe the storage device
+  + `sdX` should be the device corresponding to your storage device
+1. Remove your storage device from your computer
+1. Re-insert your storage device into your computer
+1. Run `mkfs.exfat /dev/sdX` to format your storage device as exFAT
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
-#### Часть II - Проверка накопителя
+#### Section II - Verifying Storage Device
 
-Если вы не хотите проверять накопитель на наличие ошибок, пропустите эту часть.
+If you do not want to check your storage device for errors, skip this section.
 {: .notice--info}
 
-1. Разархивируйте `.zip-архив` с f3
-1. Перейдите в каталог с f3 командой `cd`
-1. Выполните `make` для компиляции F3
-1. Вставьте накопитель в компьютер
-1. Смонтируйте накопитель
-1. Выполните `./f3write <your storage device mount point>`
-1. Дождитесь окончания процесса. Ниже приведен пример результата работы программы.
+1. Unzip the f3 `.zip` file
+1. `cd` into the f3 directory
+1. Run `make` to compile F3
+1. Insert your storage device into your computer
+1. Mount your storage device
+1. Run `./f3write <your storage device mount point>`
+1. Wait until the process is complete. See below for an example output.
 
 ~~~ bash
 $ ./f3write /media/michel/6135-3363/
@@ -54,8 +55,8 @@ Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
 ~~~
 
-1. Выполните `./f3read <your storage device mount point>`
-1. Дождитесь окончания процесса. Ниже приведен пример результата работы программы.
+1. Run `./f3read <your storage device mount point>`
+1. Wait until the process is complete. See below for an example output.
 
 ~~~ bash
 $ ./f3read /media/michel/6135-3363/
@@ -72,10 +73,10 @@ Data LOST: 0.00 Byte (0 sectors)
 Average Reading speed: 9.42 MB/s
 ~~~
 
-Если в результате тестирования вы видите `Data LOST: 0.00 Byte (0 sectors)`, ваш накопитель в порядке. Можете удалить все файлы с расширением `.h2w` на накопителе
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your storage device is good and you can delete all `.h2w` files on your storage device
 {: .notice--success}
 
-При любом другом результате накопитель скорее всего поврежден и его стоит заменить!
+If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
 ___
