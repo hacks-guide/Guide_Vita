@@ -34,6 +34,7 @@ Această pagină este doar pentru utilizatorii de Windows. Dacă nu sunteţi pe 
 1. Închideți Win32DiskImager
 1. Faceţi clic dreapta pe unitate în Windows Explorer, apoi selectaţi "Format"
 1. Setați "File system" la "exFAT"
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 1. Selectați "Start"
 1. Selectaţi "OK" pentru a continua atunci când vi se solicită
 1. Selectaţi "OK" pentru a închide căsuța de dialog atunci când se completează formatarea
