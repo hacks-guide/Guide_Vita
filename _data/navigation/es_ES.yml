@@ -24,9 +24,12 @@ main:
   - 
     title: Navegación del sitio
     url: site-navigation
+top:
+  - 
+    title: Este sitio web utiliza cookies para mostrar el progreso actual de la guía en la barra lateral y hacer mejor el sitio de otras maneras.
 bottom:
   - 
-    title: Para soporte en inglés, pide ayuda en el <a href="https://discord.gg/JXEKeg6">Discord de Vita Hacking</a>.
+    title: Para soporte en inglés, pide ayuda en el <a href="https://discord.gg/m7MwpKA">Discord de HENkaku</a>.
   - 
     title: Si aprecias esta guía, aceptamos <a href="donations">donaciones</a>.
 footer:
@@ -36,6 +39,8 @@ footer:
     title: Navegación del sitio
   - 
     title: '¿Por qué anuncios?'
+  - 
+    title: Política de privacidad
 sidebar_title:
   - 
     title: Progreso total

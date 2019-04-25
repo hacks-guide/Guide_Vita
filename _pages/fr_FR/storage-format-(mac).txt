@@ -26,6 +26,7 @@ Cette page est pour les utilisateurs de Mac uniquement. Si vous n’êtes pas su
 1. Sélectionnez votre espace de stockage
 1. Sélectionnez le menu "Partition"
 1. Partitionnez votre espace de stockage comme étant MBR avec une partition exFAT
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
 #### Section II - Vérification de l'espace de stockage
 

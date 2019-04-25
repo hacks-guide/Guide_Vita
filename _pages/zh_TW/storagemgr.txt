@@ -59,7 +59,7 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
 1. 將您所想使用的儲存裝置插入至電腦中
 1. 將所有剛剛複製的內容複製進您新的儲存裝置中
   + 依您的 Sony 記憶卡內容大小而定，這可能得耗費一些時間
-  + Do not copy the `ux0:` folder itself to your new storage device
+  + 請勿將 `ux0:` 資料夾本身複製至您新的儲存裝置中
 1. 將您所想使用的儲存裝置插入至 PS Vita (TV) 中
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 1. 關閉 VitaShell
