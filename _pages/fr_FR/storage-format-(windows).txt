@@ -34,6 +34,7 @@ Cette page est pour les utilisateurs de Windows uniquement. Si vous n’êtes pa
 1. Fermez Win32DiskImager
 1. Clique droit sur l'espace de stockage dans l'explorateur Windows, puis choisissez "Formater"
 1. Choisissez le système de fichier "exFAT"
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 1. Sélectionnez "Start"
 1. Sélectionnez "OK" pour continuer si on vous le demande
 1. Sélectionnez "OK" pour enlever la boite de dialogue quand le formatage est fini
