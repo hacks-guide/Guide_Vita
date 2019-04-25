@@ -30,6 +30,7 @@ title: "格式化儲存空間 (Linux)"
 1. 將該儲存裝置從電腦中拔除
 1. 重新插入該儲存裝置
 1. 運行 `mkfs.exfat /dev/sdX` 以將您的儲存裝置格式化為 exFAT
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
 #### 第二節 — 檢查儲存空間
 
