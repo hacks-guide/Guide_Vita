@@ -24,9 +24,12 @@ main:
   - 
     title: 網站導覽
     url: site-navigation
+top:
+  - 
+    title: 此網站透過 Cookies 來顯示您手冊的操作進度以及提升此網站的使用經驗。
 bottom:
   - 
-    title: 若需英語支援，請於 <a href="https://discord.gg/JXEKeg6">Discord 上的 Vita Hacking 伺服器</a>發問。
+    title: 若需英語支援，請於 <a href="https://discord.gg/m7MwpKA">Discord 上的 Vita Hacking 伺服器</a>發問。
   - 
     title: 如果您喜歡本教學，我們很樂意接受<a href="donations">捐贈</a>。
 footer:
@@ -36,6 +39,8 @@ footer:
     title: 網站導覽
   - 
     title: 為什麼會有廣告?
+  - 
+    title: 隱私權政策
 sidebar_title:
   - 
     title: 整體進度

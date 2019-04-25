@@ -22,11 +22,14 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Index du site
+    title: Site Navigation
     url: site-navigation
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
-    title: Pour un support en Anglais, demandez de l'aide sur le <a href="https://discord.gg/JXEKeg6">Discord Vita Hacking</a>.
+    title: For support in English, ask for help at <a href="https://discord.gg/m7MwpKA">HENkaku on Discord</a>.
   - 
     title: Si vous appréciez ce guide, j'accepte des <a href="donations">dons</a>.
 footer:
@@ -36,12 +39,14 @@ footer:
     title: Index du site
   - 
     title: Pourquoi des pubs ?
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: Progression globale
 sidebar_pages:
   - 
-    title: Accueil
+    title: Home
     url: /
   - 
     title: Pour commencer

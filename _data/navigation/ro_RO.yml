@@ -22,11 +22,14 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Navigarea pe site
+    title: Site Navigation
     url: site-navigation
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
-    title: Pentru suport în engleză, cereți ajutor la <a href="https://discord.gg/JXEKeg6">Vita Hacking pe Discord</a>.
+    title: For support in English, ask for help at <a href="https://discord.gg/m7MwpKA">HENkaku on Discord</a>.
   - 
     title: Dacă apreciați acest ghid, acceptăm <a href="donations">Donații</a>.
 footer:
@@ -36,12 +39,14 @@ footer:
     title: Navigarea pe site
   - 
     title: De ce sunt reclame?
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: Progres total
 sidebar_pages:
   - 
-    title: Acasă
+    title: Home
     url: /
   - 
     title: Începeți

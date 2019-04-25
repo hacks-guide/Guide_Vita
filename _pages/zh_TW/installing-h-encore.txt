@@ -8,7 +8,7 @@ title: "安裝 h-encore"
 
 h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您安裝自製軟體至您的主畫面中。 它與 3.65 至 3.68 的系統韌體相容。
 
-請注意，h-encore 並非永久性的漏洞 (也就是說該漏洞將於主機重啟後失效)。 For the purposes of these instructions, we will be merely using it in order to gain the level of access required to downgrade to firmware version 3.60 in order to install more powerful exploits.
+請注意，h-encore 並非永久性的漏洞 (也就是說該漏洞將於主機重啟後失效)。 我們僅將透過此漏洞以取得權限降級韌體版本至 3.60，以安裝更強大的漏洞。
 
 除了安裝 h-encore 漏洞外，我們也將啟用『非安全』的自製程式使用權以提高自製程式的執行權限。 這類似於電腦中的「管理員」權限。
 

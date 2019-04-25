@@ -30,6 +30,7 @@ Cette page est uniquement destinée aux utilisateurs de Linux. Si vous n’êtes
 1. Éjectez votre périphérique de stockage de votre ordinateur
 1. Ré-insérez votre périphérique de stockage dans votre ordinateur
 1. Executez `mkfs.exfat /dev/sdX` pour formater votre espace de stockage
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
 #### Section II - Vérification de l'espace de stockage
 
