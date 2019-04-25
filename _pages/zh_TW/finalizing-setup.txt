@@ -114,8 +114,12 @@ ___
 您現在可以透過 Vita Homebrew Browser 輕易地安裝任何自製程式。 或者，您也可以在 [VitaDB](https://vitadb.rinnegatamante.it/) 中找尋新的自製程式。
 {: .notice--info}
 
+It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "Enso EX"). Doing so without fully understanding the system can lead to a BRICK!
+{: .notice--danger}
+
 若您想要以其他記憶卡代替原廠的 Sony 記憶卡 (比如像是 microSD 或 USB 磁碟)，請見 [StorageMgr](storagemgr)。
 {: .notice--success}
 
 若您想要於內建的 PSP 模擬器中安裝自製韌體，請見 [Adrenaline](adrenaline)。
 {: .notice--success}
+
