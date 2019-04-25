@@ -34,6 +34,7 @@ title: "格式化儲存空間 (Windows)"
 1. 關閉 Win32DiskImager
 1. 透過檔案管理員於您的儲存裝置按下右鍵並選擇『格式化』
 1. 選擇『檔案系統』為『exFAT』
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 1. 選擇『開始』
 1. 當提示時按下『OK』
 1. 當格式化完畢後按下『OK』以忽略完成的提示
