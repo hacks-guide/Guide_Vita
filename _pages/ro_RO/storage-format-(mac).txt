@@ -1,48 +1,49 @@
 ---
-title: "Formatare de stocare (Mac)"
+title: "Storage Format (Mac)"
 ---
 
 {% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-Aceasta este o secțiune suplimentară pentru a formata un dispozitiv de stocare pentru a-l folosi cu plugin-ul de kernal StorageMgr.
+This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
 
-În plus, există o secţiune opţională pentru verificarea dispozitivului de stocare după erori folosind F3X. În funcție de mărimea dispozitivului de stocare și de viteza calculatorului dumneavoastră, acest proces poate dura până la câteva ore!
+Additionally, there is an optional section for checking your storage device for errors using F3X. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
 
-Această pagină este doar pentru utilizatorii de Mac. Dacă nu sunteţi pe Mac, vedeți paginile [Formatare de stocare (Windows)](storage-format-(windows)) sau [Formatare de stocare (Linux)](storage-format-(linux)).
+This page is for Mac users only. If you are not on Mac, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Linux)](storage-format-(linux)) pages.
 
 ### Ce aveți nevoie
 
-* Ultima versiune de [F3X](https://github.com/insidegui/F3X/releases/latest)
-  + Acesta nu este necesar dacă nu doriți să verificați dispozitivul de stocare după erori
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+  + This is not required if you do not want to check your storage device for errors
 
 ### Instrucțiuni
 
-#### Secțiunea I - Formatând dispozitivul de stocare
+#### Section I - Formatting Storage Device
 
-1. Introduceți dispozitivul de stocare în calculator
-1. Lansaţi Utilitar disc
-1. Selectaţi dispozitivul de stocare
-1. Selectaţi meniul "Partiţie"
-1. Partiţionaţi dispozitivul de stocare ca MBR cu o singură partiţie exFAT
+1. Insert your storage device into your computer
+1. Launch Disk Utility
+1. Select your storage device
+1. Select the "Partition" menu
+1. Partition your storage device as MBR with one exFAT partition
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
-#### Secțiunea II - Verificând dispozitivul de stocare
+#### Section II - Verifying Storage Device
 
-Dacă nu doriți să verificați dispozitivul de stocare după erori, săriți peste această secțiune.
+If you do not want to check your storage device for errors, skip this section.
 {: .notice--info}
 
-1. Extrageți arhiva `.zip` F3X
-1. Introduceți dispozitivul de stocare în calculator
-1. Executaţi aplicaţia F3X
-1. Selectaţi dispozitivul de stocare
-1. Apăsaţi "Start Test"
-1. Așteptați până când procesul este terminat.
+1. Unzip the F3X `.zip` file
+1. Insert your storage device into your computer
+1. Run the F3X app
+1. Select your storage device
+1. Press "Start Test"
+1. Wait until the process is complete.
 
-Dacă testul afișează rezultatul `Success! Your card is ok!` dispozitivul de stocare este bun și puteți șterge toate fișierle `.h2w` de pe dispozitivul de stocare
+If the test shows the result `Success! Your card is ok!` your storage device is good and you can delete all `.h2w` files on your storage device
 {: .notice--success}
 
-Dacă testul arată alte rezultate, dispozitivul de stocare ar putea fi corupt sau deteriorat și s-ar putea să trebuiască să-l înlocuiți!
+If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
 ___
