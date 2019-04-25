@@ -26,6 +26,7 @@ title: "格式化儲存空間 (Mac)"
 1. 選擇您的儲存裝置
 1. 選擇『磁區』選單
 1. 將您的儲存空間設置為 MBR 並設置一個 exFAT 磁區
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
 #### 第二節 — 檢查儲存空間
 
