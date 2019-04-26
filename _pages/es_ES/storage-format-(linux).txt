@@ -1,48 +1,49 @@
 ---
-title: "Formatear almacenamiento (Linux)"
+title: "Storage Format (Linux)"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 ### Lectura requerida
 
-Esta es una sección adicional para formatear el dispositivo de almacenamiento para ser usado con el plugin de kernel StorageMgr.
+This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
 
-Además, hay una sección opcional para revisar tu dispositivo de almacenamiento en busca de errores usando F3. Dependiendo del tamaño tu dispositivo de almacenamiento y la velocidad de tu computadora, ¡este proceso podría tardar varias horas!
+Additionally, there is an optional section for checking your storage device for errors using F3. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
 
-Esta página es solo para usuarios de Linux. Si no estás en Linux, revisa las páginas [Formatear almacenamiento (Windows)](storage-format-(windows)) o [Formatear almacenamiento (Mac)](storage-format-(mac)).
+This page is for Linux users only. If you are not on Linux, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Mac)](storage-format-(mac)) pages.
 
 ### Qué necesitas
 
-* La última versión de [exfat-utils](https://github.com/relan/exfat) para tu distribución (revisa en tu gestor de paquetes)
-* La última versión de [fuse-exfat](https://github.com/relan/exfat) para tu distribución (revisa en tu gestor de paquetes)
-* La última versión de [F3](https://github.com/AltraMayor/f3/releases/latest)
-  + No es necesario si no quieres comprobar el dispositivo de almacenamiento por errores
+* The latest version of [exfat-utils](https://github.com/relan/exfat) for your distribution (check your package manager)
+* The latest version of [fuse-exfat](https://github.com/relan/exfat) for your distribution (check your package manager)
+* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
+  + This is not required if you do not want to check your storage device for errors
 
 ### Instrucciones
 
-#### Sección I - Formatear el dispositivo de almacenamiento
+#### Section I - Formatting Storage Device
 
-1. Inserta el dispositivo de almacenamiento en tu computadora
-1. Desmonta tu dispositivo de almacenamiento con `umount`
-1. Ejecuta `sudo dd if=/dev/zero of=/dev/sdX` para vaciar el dispositivo de almacenamiento
-  + `sdX` debería ser el dispositivo correspondiente a tu dispositivo de almacenamiento
-1. Extrae el dispositivo de almacenamiento de tu computadora
-1. Vuelve a insertar el dispositivo de almacenamiento en tu computadora
-1. Ejecuta `mkfs.exfat /dev/sdX` para formatear tu dispositivo de almacenamiento como exFAT
+1. Insert your storage device into your computer
+1. Unmount your storage device with `umount`
+1. Run `sudo dd if=/dev/zero of=/dev/sdX` to wipe the storage device
+  + `sdX` should be the device corresponding to your storage device
+1. Remove your storage device from your computer
+1. Re-insert your storage device into your computer
+1. Run `mkfs.exfat /dev/sdX` to format your storage device as exFAT
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
-#### Sección II - Verificar tu dispositivo de almacenamiento
+#### Section II - Verifying Storage Device
 
-Si no deseas revisar el dispositivo de almacenamiento en busca de errores, omite esta sección.
+If you do not want to check your storage device for errors, skip this section.
 {: .notice--info}
 
-1. Descomprime el archivo `.zip` de f3
-1. Haz `cd` al directorio f3
-1. Ejecuta `make` para compilar F3
-1. Inserta tu dispositivo de almacenamiento en tu computadora
-1. Monta tu dispositivo de almacenamiento
-1. Run `./f3write <punto de montaje de tu dispositivo de almacenamiento>`
-1. Espera hasta que se complete el proceso. Revisa a continuación un ejemplo de resultado.
+1. Unzip the f3 `.zip` file
+1. `cd` into the f3 directory
+1. Run `make` to compile F3
+1. Insert your storage device into your computer
+1. Mount your storage device
+1. Run `./f3write <your storage device mount point>`
+1. Wait until the process is complete. See below for an example output.
 
 ~~~ bash
 $ ./f3write /media/michel/6135-3363/
@@ -54,8 +55,8 @@ Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
 ~~~
 
-1. Run `./f3read <punto de montaje de tu dispositivo de almacenamiento>`
-1. Espera hasta que se complete el proceso. Revisa a continuación un ejemplo de resultado.
+1. Run `./f3read <your storage device mount point>`
+1. Wait until the process is complete. See below for an example output.
 
 ~~~ bash
 $ ./f3read /media/michel/6135-3363/
@@ -72,10 +73,10 @@ Data LOST: 0.00 Byte (0 sectors)
 Average Reading speed: 9.42 MB/s
 ~~~
 
-Si la comprobación muestra el resultado `Data LOST: 0.00 Byte (0 sectors)` tu dispositivo de almacenamiento está bien y puedes borrar todos los archivos `.h2w` de tu dispositivo de almacenamiento
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your storage device is good and you can delete all `.h2w` files on your storage device
 {: .notice--success}
 
-Si la comprobación muestra otro tipo de resultado, ¡tu dispositivo de almacenamiento puede estar corrupto o dañado y tendrás que reemplazarlo!
+If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
 ___
