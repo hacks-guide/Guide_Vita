@@ -42,7 +42,7 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 
 #### Sección II - Verificar tu dispositivo de almacenamiento
 
-If you do not want to check your storage device for errors, skip this section.
+Si no quieres buscar errores en el dispositivo de almacenamiento, omite esta sección.
 {: .notice--info}
 
 1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
