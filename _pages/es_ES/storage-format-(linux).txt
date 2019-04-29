@@ -32,7 +32,7 @@ This page is for Linux users only. If you are not on Linux, check out the [Stora
 1. Run `mkfs.exfat /dev/sdX` to format your storage device as exFAT
   + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
-#### Section II - Verifying Storage Device
+#### Sección II - Verificar tu dispositivo de almacenamiento
 
 If you do not want to check your storage device for errors, skip this section.
 {: .notice--info}
