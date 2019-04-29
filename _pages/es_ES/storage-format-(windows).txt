@@ -40,7 +40,7 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 1. Select "OK" to dismiss the dialogue box when the format completes
 1. Close the format window
 
-#### Section II - Verifying Storage Device
+#### Sección II - Verificar tu dispositivo de almacenamiento
 
 If you do not want to check your storage device for errors, skip this section.
 {: .notice--info}
