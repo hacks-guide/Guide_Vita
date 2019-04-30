@@ -6,9 +6,9 @@ title: "Storage Format (Windows)"
 
 ### Обязательно к прочтению
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+Этот дополнительный раздел содержит информацию о форматировании накопителя для использования с плагином StorageMgr.
 
-Additionally, there is an optional section for checking your storage device for errors using h2testw. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+Additionally, there is an optional section for checking your storage device for errors using h2testw. В зависимости от размера накопителя и скорости компьютера процесс проверки может занять до нескольких часов!
 
 This page is for Windows users only. If you are not on Windows, check out the [Storage Format (Linux)](storage-format-(linux)) or [Storage Format (Mac)](storage-format-(mac)) pages.
 
@@ -17,7 +17,7 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 * [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }})
 * The latest version of [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
 * The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-  + This is not required if you do not want to check your storage device for errors
+  + Это не требуется, если вы не хотите проверять накопитель на наличие ошибок
 
 ### Инструкция
 
