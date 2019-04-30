@@ -1,5 +1,5 @@
 ---
-title: "Storage Format (Windows)"
+title: "Форматирование накопителя (Windows)"
 ---
 
 {% include toc title="Содержание" %}
@@ -8,60 +8,60 @@ title: "Storage Format (Windows)"
 
 Этот дополнительный раздел содержит информацию о форматировании накопителя для использования с плагином StorageMgr.
 
-Additionally, there is an optional section for checking your storage device for errors using h2testw. В зависимости от размера накопителя и скорости компьютера процесс проверки может занять до нескольких часов!
+Кроме того, есть опциональный раздел для проверки накопителя на ошибки с помощью h2testw. В зависимости от размера накопителя и скорости компьютера процесс проверки может занять до нескольких часов!
 
-This page is for Windows users only. If you are not on Windows, check out the [Storage Format (Linux)](storage-format-(linux)) or [Storage Format (Mac)](storage-format-(mac)) pages.
+Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь [Форматирование накопителя (Linux)](storage-format-(linux)) или [Форматирование накопителя (Mac)](storage-format-(mac)).
 
 ### Что понадобится
 
 * [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }})
-* The latest version of [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* Свежая версия [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
+* Свежая версия [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
   + Это не требуется, если вы не хотите проверять накопитель на наличие ошибок
 
 ### Инструкция
 
-#### Section I - Formatting Storage Device
+#### Часть I - Форматирование накопителя
 
-1. Install Win32DiskImager if you have not already
-1. Insert your storage device into your computer
-1. Launch Win32DiskImager
-1. Select `zzBlank.img` as the "Image File"
-1. Set "Device" to the drive letter of your storage device
-1. Select "Write"
-1. Select "Yes" to continue when prompted
-1. Select "OK" to dismiss the dialogue box when the write completes
-1. Close Win32DiskImager
-1. Right-click the drive in Windows Explorer, then select "Format"
-1. Set "File system" to "exFAT"
-  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
-1. Select "Start"
-1. Select "OK" to continue when prompted
-1. Select "OK" to dismiss the dialogue box when the format completes
-1. Close the format window
+1. Установите Win32DiskImager, если вы еще этого не сделали
+1. Вставьте накопитель в компьютер
+1. Запустите Win32DiskImager
+1. Выберите `zzBlank.img` в качестве "Image File"
+1. Выберите букву вашего накопителя в качестве "Device"
+1. Нажмите "Write"
+1. Нажмите "Yes" чтобы продолжить при появлении запроса
+1. Нажмите "OK" чтобы закрыть окно диалога, когда запись завершится
+1. Закройте Win32DiskImager
+1. Щелкните правой кнопкой мыши диск в Проводнике Windows, затем выберите "Форматировать"
+1. Измените "Файловая система" на "exFAT"
+  + Если накопитель имеет емкость 256 ГБ или больше, то необходимо произвести форматирование с размером кластера 64 КБ
+1. Нажмите "Start"
+1. Нажмите "OK" чтобы продолжить при появлении запроса
+1. Нажмите "OK" чтобы закрыть окно диалога, когда форматирование завершится
+1. Закройте окно форматирования
 
-#### Section II - Verifying Storage Device
+#### Часть II - Проверка накопителя
 
-If you do not want to check your storage device for errors, skip this section.
+Если вы не хотите проверять накопитель на наличие ошибок, пропустите эту часть.
 {: .notice--info}
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your storage device card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
-1. Select "Select target"
-1. Select your storage device card's drive letter
-1. Ensure "all available space" is selected
-1. Select "Write + Verify"
-1. Wait until the process is completed
+1. Скопируйте `h2testw.exe` из `.zip-архива` с h2testw на рабочий стол
+1. Вставьте накопитель в компьютер
+1. Запустите `h2testw.exe`
+1. Выберите "English"
+1. Нажмите "Select target"
+1. Выберите букву, соответствующую накопителю
+1. Убедитесь, что выбран пункт "all available space"
+1. Нажмите "Write + Verify"
+1. Дождитесь окончания процесса
 
-If the test shows the result `Test finished without errors`, your storage device card is good and you can delete all `.h2w` files on your storage device card
+Если в результате тестирования вы видите `Test finished without errors`, ваш накопитель в порядке. Можете удалить все файлы с расширением `.h2w` на накопителе
 {: .notice--success}
 
-If the test shows any other results, your storage device card may be corrupted or damaged and you may have to replace it!
+При любом другом результате накопитель скорее всего поврежден и его стоит заменить!
 {: .notice--danger}
 
 ___
 
-### Return to [StorageMgr](storagemgr)
+### Вернитесь к [StorageMgr](storagemgr)
 {: .notice--primary}
