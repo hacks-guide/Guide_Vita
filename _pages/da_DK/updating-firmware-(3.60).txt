@@ -1,4 +1,3 @@
-
 ---
 title: "Updating Firmware (3.60)"
 ---
