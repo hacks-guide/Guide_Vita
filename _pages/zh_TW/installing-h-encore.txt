@@ -35,7 +35,7 @@ h-encore 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您
 1. 如提示時，選擇／註冊您的電腦
   + 若有提示更新的警示，請重新啟動您的主機並再試一次
   + 若您仍遇到該警示，請見[阻擋更新](blocking-updates)並再試一次
-  + 若您*還是*遇到該警示，於系統設定中啟用飛航模式並再試一次 (PS TV 將無法使用此步驟)
+  + If you *still* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
   + 如果您的 Windows 電腦偵測不到您主機的 USB 連線的話，請安裝 [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) 並再試一次
 
 #### 第二節 — h-encore 轉移
