@@ -35,7 +35,7 @@ Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie 
 1. Selectați / înregistrați calculatorul când vi se cere
   + Dacă vedeți un mesaj care vă cere să actualizați, reporniţi dispozitivul și încercați din nou
   + If you still encounter this message, follow the instructions on [Blocking Updates](blocking-updates) and try again
-  + If you *stil* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
+  + If you *still* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
   + Dacă dispozitivul nu este detectat prin USB pe Windows, instalați [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) și încercați din nou
 
 #### Section II - h-encore Transfer
