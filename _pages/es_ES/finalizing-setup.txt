@@ -114,7 +114,7 @@ ___
 Ahora puedes fácilmente instalar nuevas aplicaciones homebrew tan sólo utilizando el Vita Homebrew Browser. Alternativamente, también puedes buscar nuevas aplicaciones homebrew en [VitaDB](https://vitadb.rinnegatamante.it/).
 {: .notice--info}
 
-It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "Enso EX"). Doing so without fully understanding the system can lead to a BRICK!
+*No* se recomienda hacer modificaciones a tu instalación de Custom Firmware instalando aplicaciones homebrew orientadas a usuarios avanzados (por ejemplo "Enso EX"). ¡Hacer eso sin entender plenamente el sistema te puede llevar a INUTILIZAR tu consola!
 {: .notice--danger}
 
 Para información sobre cómo reemplazar tu memora Sony con almacenamiento alternativo (como una tarjeta microSD o una unidad USB), revisa la página [StorageMgr](storagemgr).
