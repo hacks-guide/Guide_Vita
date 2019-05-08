@@ -6,7 +6,7 @@ title: "Storage Format (Mac)"
 
 ### Lectura requerida
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+Esta es una sección adicional para formatear el dispositivo de almacenamiento para ser usado con el plugin de kernel StorageMgr.
 
 Additionally, there is an optional section for checking your storage device for errors using F3X. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
 
