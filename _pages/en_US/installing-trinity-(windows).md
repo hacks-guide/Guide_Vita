@@ -1,5 +1,5 @@
 ---
-title: Installing Trinity
+title: Installing Trinity (Windows)
 ---
 
 ### Required Reading
@@ -10,16 +10,16 @@ Note that the Trinity exploit chain is not "persistent" (meaning it does not rem
 
 In addition to installing the Trinity exploit, we enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the "administrator" mode on a computer.
 
-This guide will involve manually installing the exploit into your compatible game by decrypting it, copying the exploit in, and then re-encrypting it.
+This guide will involve using a tool named "FinTrinity" to automatically install the exploit rather than manual installation.
 
 If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
 {: .notice--info}
 
 ### What You Need
 
-- The latest release of [Trinity](https://github.com/TheOfficialFloW/Trinity/releases/latest)
+- The latest release of [FinTrinity](https://github.com/bamhm182/FinTrinity/latest)
 - The latest release of [qcma](https://github.com/codestation/qcma/releases/latest)
-- The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest)
+- The latest release of [Python3](https://www.python.org/downloads/)
 
 ### Section I - Backing Up
 
@@ -47,27 +47,9 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 
 ### Section II - Installing Trinity
 
-1. Navigate to the folder `/Documents/PS Vita/PGAME` on your computer
-1. Open the folder labeled as a 16 character string
-  - This is your account ID
-1. Open the folder labeled as the game's title ID
-  - You can see the icon of the game in the folder at `sce_sys/icon0.png`
-  - The folder should contain the folders `game`, `license` and `sce_sys`.
-1. Once you've correctly identified the right game, copy it as a backup to somewhere safe on your computer
-1. Copy the account ID (16 character string) that you idenitified earlier and paste it into [cma.henkaku.xyz](http://cma.henkaku.xyz/)
-  - This will give you a key which you can use to decrypt/re-encrypt your game
-1. Unzip the psvimgtools `.zip` file into the game folder
-1. Open a terminal in the folder
-  - On Windows, this can be done by tying `cmd` into the path bar in the File Explorer
-1. Type in `psvimg-extract -K YOUR_KEY game/game.psvimg game_dec`
-  - Replace `YOUR_KEY` with the key you got from [cma.henkaku.xyz](http://cma.henkaku.xyz/) earlier
-1. Copy the Trinity `PBOOT.PBP` to `ux0_pspemu_temp_game_PSP_GAME_YYYYZZZZZ/PBOOT.PBP`
-  - Make YYYYZZZZZ the title ID you identified earlier
-  - If `PBOOT.PBP` already exists, overwrite it
-1. Re-encrypt the backup with the command: `psvimg-create -n game -K YOUR_KEY game_dec game`
-  - Again, replace `YOUR_KEY` with he key you got from [cma.henkaku.xyz](http://cma.henkaku.xyz/) earlier
-1. Delete the `game_dec` folder
-1. Delete all psvimgtools in the folder
+1. Open the `GUI.py` file in the FinTrinity `.zip` file using Python
+1. Check that FinTrinity has detected the right game, and select "Confirm"
+1. When it's complete, select "Finished"
 
 ### Section III - Restoring to System
 

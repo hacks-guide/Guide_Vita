@@ -10,6 +10,9 @@ The latest PS Vita (TV) exploit (dubbed 'Trinity') requires you to install softw
 
 Since the exploit uses games existing only online, on the PS Store, it's important to download it as soon as possible in the event that Sony patches the exploit in the future. Your device must be linked and activated with a PSN account to allow you to download the PSP games from the PS Store. The instructions on how to do this are detailed below.
 
+If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
+{: .notice--info}
+
 ### Section I - Blocking Updates
 
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
@@ -75,5 +78,8 @@ Ensure that the game is a PSP or PS minis game by launching the game and holding
 
 ___
 
-### Continue to [Installing Trinity](installing-trinity)
+### If you are running Windows, continue to [Installing Trinity (Windows)](installing-trinity-(windows))
+{: .notice--primary}
+
+### If you are running a UNIX based system, e.g. MacOS or Linux, continue to [Installing Trinity](installing-trinity)
 {: .notice--primary}
