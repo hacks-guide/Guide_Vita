@@ -2,6 +2,17 @@
 title: Installing Trinity
 ---
 
+### Required Reading
+
+The Trinity exploit chain for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.70.
+
+Note that the Trinity exploit chain is not "persistent" (meaning it does not remain installed after a reboot). For the purposes of these instructions, we will be merely using it in order to gain the level of access required to downgrade to firmware version 3.60 in order to install more powerful exploits.
+
+In addition to installing the Trinity exploit, we enable access to "unsafe" homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the "administrator" mode on a computer.
+
+If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
+{: .notice--info}
+
 ### What You Need
 
 - The latest release of [Trinity](https://github.com/TheOfficialFloW/Trinity/releases/latest)
