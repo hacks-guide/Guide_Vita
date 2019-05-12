@@ -14,6 +14,9 @@ In addition to installing the Trinity exploit, we enable access to "unsafe" home
 
 This guide will involve using a tool named "FinTrinity" to automatically install the exploit rather than manual installation.
 
+Remember that Trinity is a temporary solution. It's strongly recommended that afterwards you downgrade to a lower firmware version to ensure compatibility with homebrew applications.
+{: .notice--warning}
+
 If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
 {: .notice--info}
 
