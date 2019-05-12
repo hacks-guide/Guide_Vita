@@ -52,6 +52,14 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 
 ### Section II - Installing Trinity
 
+1. Navigate to the folder `/Documents/PS Vita/PGAME` on your computer
+1. Open the folder labeled as a 16 character string
+  - This is your account ID
+1. Open the folder labeled as the game's title ID
+  - You can see the icon of the game in the folder at `sce_sys/icon0.png`
+  - The folder should contain the folders `game`, `license` and `sce_sys`.
+1. Once you've correctly identified the right game, copy it as a backup to somewhere safe on your computer
+  - If you have any other games in the folder, back them up to another folder and remove them from the `PGAME` folder
 1. Open the `GUI.py` file in the FinTrinity `.zip` file using Python
 1. Check that FinTrinity has detected the right game, and select "Confirm"
 1. When it's complete, select "Finished"
