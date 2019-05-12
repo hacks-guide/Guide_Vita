@@ -2,6 +2,8 @@
 title: Installing Trinity
 ---
 
+{% include toc title="Table of Contents" %}
+
 ### Required Reading
 
 The Trinity exploit chain for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.70.

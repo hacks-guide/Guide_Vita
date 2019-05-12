@@ -78,8 +78,8 @@ Ensure that the game is a PSP or PS minis game by launching the game and holding
 
 ___
 
-### If you are running Windows, continue to [Installing Trinity (Windows)](installing-trinity-(windows))
+If you are running Windows, continue to [Installing Trinity (Windows)](installing-trinity-(windows))
 {: .notice--primary}
 
-### If you are running a UNIX based system, e.g. MacOS or Linux, continue to [Installing Trinity](installing-trinity)
+If you are running a UNIX based system, e.g. MacOS or Linux, continue to [Installing Trinity](installing-trinity)
 {: .notice--primary}
