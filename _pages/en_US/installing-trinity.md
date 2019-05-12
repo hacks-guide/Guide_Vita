@@ -60,9 +60,8 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
   - This will give you a key which you can use to decrypt/re-encrypt your game
 1. Unzip the psvimgtools `.zip` file into the game folder
 1. Open a terminal in the folder
-  - On Windows, this can be done by tying `cmd` into the path bar in the File Explorer
   - On MacOS and Linux, open the terminal app and use the `cd` command to navigate to the folder (e.g. `cd path/to/vita/game`)
-1. Type in `psvimg-extract -K YOUR_KEY game/game.psvimg game_dec`
+1. Type in `./psvimg-extract -K YOUR_KEY game/game.psvimg game_dec`
   - Replace `YOUR_KEY` with the key you got from [cma.henkaku.xyz](http://cma.henkaku.xyz/) earlier
 1. Copy the Trinity `PBOOT.PBP` to `ux0_pspemu_temp_game_PSP_GAME_YYYYZZZZZ/PBOOT.PBP`
   - Make YYYYZZZZZ the title ID you identified earlier
