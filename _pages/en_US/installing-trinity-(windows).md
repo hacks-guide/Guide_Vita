@@ -22,7 +22,7 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 
 ### What You Need
 
-- The latest release of [FinTrinity](https://github.com/bamhm182/FinTrinity/latest)
+- The latest release of [FinTrinity](https://github.com/bamhm182/FinTrinity/releases/latest)
 - The latest release of [qcma](https://github.com/codestation/qcma/releases/latest)
 - The latest release of [Python3](https://www.python.org/downloads/)
 
