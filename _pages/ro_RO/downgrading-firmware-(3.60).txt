@@ -8,9 +8,9 @@ We will now downgrade your device to firmware version 3.60 as it is the best sup
 
 Ensō este cea mai bună soluţie de CFW disponibilă pentru PS Vita (TV), care permite acces convenbil la homebrew pe dispozitiv executând un exploit în timpul pornirii pentru a genera un spaţiu de lucru pentru HENkaku.
 
-Este mai convenabil decât h-encore de vreme ce nu are nevoie să porniţi un exploit pe dispozitiv după fiecare repornire manuală.
+It is more convenient than h-encore and Trinity as it does not require you to trigger an exploit on your device after every reboot manually.
 
-While it is possible to run homebrew on your current firmware version using either h-encore or Ensō, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
+While it is possible to run homebrew on your current firmware version using either h-encore, Trinity or Ensō, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
 
 Since the release of the reF00D system plugin, there are very few (if any) downsides to running firmware version 3.60 as this plugin allows you to install and play games which would normally require a newer firmware version.
 
@@ -63,12 +63,14 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 
 #### Section III - Downgrading Prep
 
-1. Reporniți dispozitivul
-1. Launch the h-encore application while holding (R)
-  + If prompted about trophies, continue holding (R) and select "Yes"
-1. În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore
-  + Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou
-  + În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou
+1. Launch your homebrew application
+      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
+      <ol><li>Launch the h-encore application while holding (R)</li>
+      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
+      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
+      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
+      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
+      <li>For 3.69 and above, this will be Trinity</li></ul>
 1. Selectaţi "Install HENkaku"
   + Aceasta va instala exploit-ul HENkaku şi va permite accesul la homebrew până la următoarea repornire
 1. Selectaţi "Exit"
@@ -86,6 +88,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
   + If you are currently on firmware version 3.65, proceed to [Installing Ensō (3.65)](installing-enso-(3.65))
   + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is 3.65 or lower, proceed to [Downgrading Firmware (3.65)](downgrading-firmware-(3.65))
   + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is greater than 3.65, proceed to [Configuring h-encore](configuring-h-encore)
+  + If you are currently on a firmware above 3.69 and the listed "Factory firmware" is greater than 3.68, proceed to [Finalizing Setup](finalizing-setup)
 1. Press (Cross) to accept the terms and conditions
 1. Your device will begin the downgrade process
 1. Wait until the process is completed, your device will reboot automatically
