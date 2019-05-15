@@ -88,7 +88,7 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 
 The game should now have a different icon and be called `Trinity`.
 
-#### Section IV - Configuring h-encore
+### Section IV - Configuring Trinity
 
 1. Enable Wi-Fi on your system if it is not already
 1. Reboot your system
@@ -102,11 +102,11 @@ The game should now have a different icon and be called `Trinity`.
   + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
 1. Select "Exit"
 
-#### Section V - Configuring HENkaku
+### Section V - Configuring HENkaku
 
 1. Launch the Settings application
 1. Navigate to `HENkaku Settings`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
+  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the Trinity bootstrap menu, then try again
 1. Check "Enable Unsafe Homebrew"
 1. Return to HENkaku Settings menu
 1. Close the Settings application
