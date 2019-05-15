@@ -58,13 +58,15 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 #### Section III - Downgrading
 
 1. Reporniți dispozitivul
-1. Launch the h-encore application while holding (R)
-  + If prompted about trophies, continue holding (R) and select "Yes"
-1. În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore
-  + Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou
-  + În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou
+1. Launch your homebrew application
+      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
+      <ol><li>Launch the h-encore application while holding (R)</li>
+      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
+      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
+      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
+      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
+      <li>For 3.69 and above, this will be Trinity</li></ul>
 1. Selectaţi "Install HENkaku"
-  + Aceasta va instala exploit-ul HENkaku şi va permite accesul la homebrew până la următoarea repornire
 1. Selectaţi "Exit"
 1. Launch the modoru application
 1. Press (Cross) to confirm the downgrade to firmware version 3.65
