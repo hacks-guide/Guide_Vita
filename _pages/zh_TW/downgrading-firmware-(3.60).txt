@@ -8,9 +8,9 @@ title: 降級韌體 (3.60)
 
 Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，您的主機能於啟動時自動設置 HENkaku 環境，讓您能輕易地使用自製軟體。
 
-因為 h-encore 需於每次主機重新啟動時重新手動觸發漏洞，此方案相對方便許多。
+It is more convenient than h-encore and Trinity as it does not require you to trigger an exploit on your device after every reboot manually.
 
-雖然您已可以在您目前的系統版本中透過 h-encore 或 Ensō 漏洞啟動自製軟體，但降級至 3.60 可提供更好的自製軟體相容性。
+While it is possible to run homebrew on your current firmware version using either h-encore, Trinity or Ensō, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
 
 自從 reF00D 系統插件被發明並使用後，因為該插件可正常讓您遊玩任何版本較新的遊戲，降級至 3.60 幾乎沒有任何缺點可言。
 
@@ -63,12 +63,14 @@ Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，
 
 #### 第三節 — 降級前置作業
 
-1. 重新啟動您的主機
-1. 於啟動 h-encore 時按住『R』鍵
-  + 如提示獎盃相關訊息時，按住「R」並選擇『是 (Yes)』
-1. 如果漏洞成功執行的話，您將會看到 h-encore 引導選單
-  + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
-  + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
+1. Launch your homebrew application
+      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
+      <ol><li>Launch the h-encore application while holding (R)</li>
+      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
+      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
+      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
+      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
+      <li>For 3.69 and above, this will be Trinity</li></ul>
 1. 選擇『Install HENkaku』
   + 這將會安裝 HENkaku 漏洞，並啟用自製軟體存取權直到下次重啟
 1. 選擇『Exit』
@@ -86,6 +88,7 @@ Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，
   + 如果您目前的韌體版本為 3.65，請繼續至[安裝 Ensō (3.65)](installing-enso-(3.65))
   + 如果您目前的韌體版本為 3.65 且『出廠韌體 (Factory Firmware)』為 3.65 或更早的版本，請繼續至[降級韌體 (3.65)](downgrading-firmware-(3.65))
   + 如果您目前的韌體版本高於 3.65 且『出廠韌體 (Factory Firmware)』高於 3.65，請繼續至[設置 h-encore](configuring-h-encore)
+  + If you are currently on a firmware above 3.69 and the listed "Factory firmware" is greater than 3.68, proceed to [Finalizing Setup](finalizing-setup)
 1. 按下「X」鍵以接受聲明條款
 1. 您的裝置將開始降級作業
 1. 當更新完畢後，您的主機將自動重啟
