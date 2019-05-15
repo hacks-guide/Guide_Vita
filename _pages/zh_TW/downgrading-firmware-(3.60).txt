@@ -63,6 +63,7 @@ While it is possible to run homebrew on your current firmware version using eith
 
 #### 第三節 — 降級前置作業
 
+1. 重新啟動您的主機
 1. Launch your homebrew application
       <ul><li>For 3.65 to 3.68, this will be h-encore</li>
       <ol><li>Launch the h-encore application while holding (R)</li>
