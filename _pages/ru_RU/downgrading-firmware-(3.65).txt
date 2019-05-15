@@ -58,13 +58,15 @@ title: Понижение версии прошивки (3.65)
 #### Часть III - Даунгрейд
 
 1. Перезагрузите консоль
-1. Запустите приложение h-encore, держа нажатой кнопку (R)
-  + Если появится запрос о призах, выберите "Да", продолжая держать нажатой кнопку (R)
-1. Если эксплойт сработал, вы увидите меню h-encore bootstrap
-  + Если эксплойт завис на белом экране, просто закройте приложение (это приведет к перезагрузке консоли), затем попробуйте снова
-  + Если это не помогло, удерживайте кнопку питания в течение 30 секунд для принудительной перезагрузки, затем попробуйте снова
+1. Launch your homebrew application
+      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
+      <ol><li>Launch the h-encore application while holding (R)</li>
+      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
+      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
+      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
+      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
+      <li>For 3.69 and above, this will be Trinity</li></ul>
 1. Выберите "Install HENkaku"
-  + Это действие установит эксплойт HENkaku и разрешит доступ к хоумбрю до следующей перезагрузки
 1. Выберите "Exit"
 1. Запустите приложение modoru
 1. Нажмите (Крест) чтобы подтвердить даунгрейд до версии прошивки 3.65
