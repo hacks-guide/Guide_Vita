@@ -88,16 +88,28 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 
 The game should now have a different icon and be called `Trinity`.
 
-### Section IV - Launching Trinity
+### Section IV - Configuring Trinity
 
 1. Enable Wi-Fi on your system if it is not already
 1. Reboot your system
-1. Immediately run Trinity after reboot
+1. Launch the Trinity application immediately after reboot
   - It's important that you have nothing running in the background, especially downloads
+1. Select "Install HENkaku"
+  + This will install the HENkaku exploit and enable homebrew access until the next reboot
   - If the exploit fails, simply re-run Trinity
-1. Select `Download VitaShell`
-1. Select `Install HENkaku`
-1. Select `Exit`
+1. Select "Download VitaShell"
+  + This will install the VitaShell homebrew application for managing your device's filesystem
+  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
+1. Select "Exit"
+
+### Section V - Configuring HENkaku
+
+1. Launch the Settings application
+1. Navigate to `HENkaku Settings`
+  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the Trinity bootstrap menu, then try again
+1. Check "Enable Unsafe Homebrew"
+1. Return to HENkaku Settings menu
+1. Close the Settings application
 
 ___
 
