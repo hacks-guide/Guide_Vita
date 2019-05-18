@@ -8,9 +8,9 @@ Ahora downgradearemos tu consola a la versión de firmware 3.60 ya que es la mej
 
 Ensō es una solución completa de CFW para la PS Vita (TV) y permite acceso conveniente a homebrew en tu consola al ejecutar un exploit en el tiempo de inicio para configurar el entorno de homebrew de HENkaku.
 
-It is more convenient than h-encore and Trinity as it does not require you to trigger an exploit on your device after every reboot manually.
+Es más conveniente que h-encore y Trinity ya que no requiere que ejecutes un exploit en tu consola luego de cada reinicio.
 
-While it is possible to run homebrew on your current firmware version using either h-encore, Trinity or Ensō, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
+Si bien es posible ejecutar homebrew en tu versión actual de firmware usando h-encore, Trinity o Ensō, la actualización a la versión de firmware 3.60 te proporcionará la mayor compatibilidad homebrew posible.
 
 Dada la publicación del plugin de sistema reF00D, hay muy pocos (si es que hay) inconvenientes para ejecutar la versión 3.60 del firmware, ya que este plugin le permite instalar y jugar juegos que normalmente requerirían una versión más reciente de firmware.
 
@@ -64,14 +64,14 @@ Asegúrate de que tu consola tiene una carga de al menos 50% antes de continuar.
 #### Sección III - Preparación de downgradeo
 
 1. Reinicia tu consola
-1. Launch your homebrew application
-      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
-      <ol><li>Launch the h-encore application while holding (R)</li>
-      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
-      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
-      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
-      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
-      <li>For 3.69 and above, this will be Trinity</li></ul>
+1. Inicia tu aplicación homebrew
+      <ul><li>Para versiones 3.65 a 3.68, esta será h-encore</li>
+      <ol><li>Inicia la aplicación h-encore mientras presionas (R)</li>
+      <ul><li>Si te pregunta por trofeos, continúa manteniendo presionado (R) y selecciona “Yes”</li></ul>
+      <li>Si el exploit fue exitoso, ahora verás el menú de inicio de h-encore</li>
+      <ul><li>Si el exploit se quedó en una pantalla en blanco, tan solo cierra la aplicación (lo cual causará un crash y reiniciará tu consola), y vuelve a intentar</li>
+      <li>Si aún no funciona, mantén presionado el botón de apagado por unos 30 segundos para forzar un reinicio, y vuelve a intentar</li></ul></ol>
+      <li>Para versiones desde 3.69, esta será Trinity</li></ul>
 1. Selecciona "Install HENkaku"
   + Esto instalará el exploit HENkaku para activar acceso a homebrew hasta el siguiente reinicio
 1. Selecciona "Exit"
@@ -89,7 +89,7 @@ Asegúrate de que tu consola tiene una carga de al menos 50% antes de continuar.
   + Si estás actualmente en la versión 3.65 de firmware, continúa en [Instalar Ensō (3.65)](installing-enso-(3.65))
   + Si actualmente estás en una versión de firmware superior a 3.65 y el "Factory firmware" mostrado es 3.65 o inferior, continúa en [Downgradear firmware (3.65)](downgrading-firmware-(3.65))
   + Si actualmente estás en una versión de firmware superior a 3.65 y el "Factory firmware" mostrado es mayor que 3.65, continúa en [Configurar h-encore](configuring-h-encore)
-  + If you are currently on a firmware above 3.69 and the listed "Factory firmware" is greater than 3.68, proceed to [Finalizing Setup](finalizing-setup)
+  + Si actualmente estás en una versión de firmware superior a 3.69 y la versión del "Factory firmware" es mayor a 3.68, continúa en [Finalizar instalación](finalizing-setup)
 1. Presiona (Cruz) para aceptar los términos y condiciones
 1. Tu consola iniciará el proceso de downgrade
 1. Espera hasta que haya terminado el proceso, tu consola se reiniciará automáticamente
