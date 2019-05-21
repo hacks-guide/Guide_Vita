@@ -46,15 +46,15 @@ Per informazioni su come funziona un custom firmware, leggi [questo post](https:
 
 Lo scopo di questa guida è di installare un custom firmware su una PS Vita (TV) stock mai modificata.
 
-The best CFW solution currently available, Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to trigger an exploit on your device after every reboot manually.
+Il miglior CFW attualmente disponibile, Ensō, permette l'utilizzo facile di homebrew sulla tua console tramite un exploit durante l'avvio della stessa. È più comodo di altri CFW (come HENkaku o h-encore) poichè non ha bisogno di essere manualmente avviato dopo ogni riavvio della console.
 
-Ensō is available on all devices with firmware version 3.65 or below, while higher firmware version devices can use h-encore to achieve a similar (if less convenient) result.
+Ensō è disponibile su tutti i dispositivi con una versione di sistema 3.65 o inferiore, mentre le versioni più recenti possono sfruttare h-encore per ottenere un risultato simile (ma meno comodo).
 
-## What can I do with Custom Firmware?
+## Cosa posso fare con un Custom Firmware?
 
-+ Customize your home screen with user-created [themes](http://vstema.com/).
-+ Use "ROM hacks" for games that you own
-+ [Backup, edit, and restore](https://github.com/d3m3vilurr/vita-savemgr) saves for many games.
++ Personalizzare la schermata iniziale con [temi](http://vstema.com/) creati dagli utenti.
++ Applicare "ROMhack" ai propri giochi
++ [Salva, modifica e ripristina](https://github.com/d3m3vilurr/vita-savemgr) salvataggi per molti giochi.
 + Play games for older systems with various emulators, using RetroArch or other standalone emulators.
 + Dump your game cards to a format you can install, and play them without needing the card.
 + Certain games only: stream live gameplay to your PC wirelessly with Rincheat Streamer.
