@@ -87,14 +87,14 @@ In order to install the necessary `.vpk` (content package) files on your device,
 
 #### Section IV - PSN Access
 
-1. Launch the Settings application
+1. Apri le Impostazioni
 1. Navigate to `HENkaku Settings`
 1. Check "Enable PSN spoofing"
 1. Check "Enable Version Spoofing"
 1. Navigate to "Spoofed Version"
 1. Enter "3.70" into the box
   + Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN
-1. Close the Settings application
+1. Chiudi le impostazioni
 
 #### Section V - Cleanup
 
