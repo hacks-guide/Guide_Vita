@@ -2,9 +2,9 @@
 title: "Installing Ensō (3.60)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment.
 
@@ -16,7 +16,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 * The latest release of [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
 * The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
 
-### Instructions
+### Istruzioni
 
 #### Section I - Prep Work
 
