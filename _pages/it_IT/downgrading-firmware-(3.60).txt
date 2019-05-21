@@ -2,7 +2,7 @@
 title: Downgrading Firmware (3.60)
 ---
 
-### Required Reading
+### Lettura necessaria
 
 We will now downgrade your device to firmware version 3.60 as it is the best supported firmware version which supports the Ensō boot-time exploit.
 
