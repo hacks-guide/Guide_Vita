@@ -14,7 +14,7 @@ Users on a firmware version above 3.65 will unfortunately have to update to the 
 
 Note that a custom update application can only update your device, not downgrade it. If you are on a firmware version higher than 3.68, you should return to [Get Started](get-started).
 
-### What you need
+### Cosa ti serve
 
 * A FAT32 formatted USB drive with 150MB of free space
 * The `PSP2Updat.PUP` file corresponding to the firmware version you are attempting to update to
