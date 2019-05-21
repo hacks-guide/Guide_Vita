@@ -75,11 +75,11 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Select "Install HENkaku"
   + This will install the HENkaku exploit and enable homebrew access until the next reboot
 1. Select "Exit"
-1. Launch the Settings application
+1. Apri le Impostazioni
 1. Navigate to `HENkaku Settings`
 1. Select "Unlink Memory Card"
 1. Ritorna a Impostazioni HENkaku
-1. Close the Settings application
+1. Chiudi le impostazioni
 
 #### Section IV - Downgrading
 
