@@ -8,7 +8,7 @@ If your device was unable to downgrade to firmware version 3.60 due to its "fact
 
 Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
 
-Ensure your device has a battery charge of 50% or greater before proceeding.
+Assicurati prima di procedere che la tua console sia carica almeno al 50% di batteria.
 {:.notice--info}
 
 ### Cosa Ti Serve
@@ -35,22 +35,22 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Transfer the 3.65 `PSP2UPDAT.PUP` to the `data` folder
 1. Premi (Cerchio) sulla tua console per chiudere la connessione FTP
 
-#### Section II - Installing modoru
+#### Sezione II - Installazione di modoru
 
 1. Utilizzando la tua console, entra in `ux0:`-> `data/`
-1. Press (Cross) on `modoru.vpk` to install it
+1. Premi (Croce) su `modoru.vpk` per installarlo
 1. Premi (Croce) per confermare l'installazione
 1. Premi (Croce) per continuare l'installazione ogni volta che vengono chieste maggiori autorizzazioni
-1. Press (Triangle) to open the menu, then select "Delete" to delete `modoru.vpk`
+1. Premi (Triangolo) per aprire il menu, quindi seleziona "Delete" per eliminare `modoru.vpk`
 1. Premi (Croce) per confermare l'eliminazione
 1. Press (Triangle) on the 3.65 `PSP2UPDAT.PUP` to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Circle) to return to the `ux0:` partition
-1. Navigate to `app` -> `MODORU000`
+1. Premi (Croce) per chiudere la finestra di dialogo
+1. Premi (Cerchio) per tornare alla partizione `ux0:`
+1. Entra in `app` -> `MODORU000`
 1. Press (Triangle) on the existing 3.60 `PSP2UPDAT.PUP` to open the menu, then select "Delete"
 1. Premi (Croce) per confermare l'eliminazione
 1. Press (Triangle) to open then menu, then select "Paste" to paste the 3.65 `PSP2UPDAT.PUP` in the current folder
-1. Press (Circle) to return to the `ux0:` partition
+1. Premi (Cerchio) per tornare alla partizione `ux0:`
 1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
 1. Premi (Croce) per confermare l'eliminazione
 1. Chiudi VitaShell
