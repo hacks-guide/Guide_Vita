@@ -2,9 +2,9 @@
 title: "StorageMgr"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 StorageMgr is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
 
@@ -30,7 +30,7 @@ You must have already installed VitaShell to use this.
   + `GCD=ux0` should be kept as-is for SD2Vita users, and edited to `UMA=ux0` for USB drive and psvd users
   + `UMA=grw0` should be removed unless you have multiple storage devices (in which case the device which is not assigned to `ux0:` should be assigned to `grw0:`)
 
-### Instructions
+### Istruzioni
 
 #### Section I - Installing Plugins
 
