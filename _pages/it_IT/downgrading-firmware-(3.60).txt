@@ -55,46 +55,46 @@ Assicurati prima di procedere che la tua console sia carica almeno al 50% di bat
 1. Premi (Croce) per chiudere la finestra di dialogo
 1. Premi (Cerchio) per tornare alla partizione `ux0:`
 1. Entra in `app` -> `MODORU000`
-1. Press (Triangle) to open then menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
+1. Premi (Triangolo) per aprire il menu, quindi seleziona "Paste" per incollare il file `PSP2UPDAT.PUP` nella cartella corrente
 1. Premi (Cerchio) per tornare alla partizione `ux0:`
-1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
+1. Premi (Triangolo) su `tai` per aprire il menu, quindi seleziona "Delete" per eliminare la cartella `tai`
 1. Premi (Croce) per confermare l'eliminazione
 1. Chiudi VitaShell
 
-#### Section III - Downgrading Prep
+#### Sezione III - Preparazione al Downgrade
 
 1. Riavvia la console
-1. Launch your homebrew application
-      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
-      <ol><li>Launch the h-encore application while holding (R)</li>
-      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
-      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
-      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
-      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
-      <li>For 3.69 and above, this will be Trinity</li></ul>
+1. Avvia la tua applicazione homebrew
+      <ul><li>Per le versioni da 3.65 a 3.68, questa sarà h-encore</li>
+      <ol><li>Avvia l'applicazione h-encore tenendo premuto (R)</li>
+      <ul><li>Se ti viene richiesto qualcosa riguardo ai trofei, continua a tener premuto (R) e seleziona "Yes"</li></ul>
+      <li>Se l'exploit ha avuto successo, ti troverai sul bootstrap menu di h-encore </li>
+      <ul><li>Se l'exploit è bloccato su una schermata bianca, chiudi semplicemente l'applicazione (che causerà un crash e riavvio della console), poi riprova</li>
+      <li>Se la console è ancora bloccata, tieni premuto il pulsante di accensione per più di 30 secondi per forzare un riavvio, quindi riprova</li></ul></ol>
+      <li>Per 3.69 e superiori, questa sarà Trinity</li></ul>
 1. Seleziona "Install HENkaku"
   + Questa opzione installerà l'exploit HENkaku e abiliterà l'accesso agli homebrew fino al prossimo riavvio
 1. Seleziona "Exit"
 1. Apri le Impostazioni
 1. Apri `Impostazioni HENkaku`
-1. Select "Unlink Memory Card"
+1. Seleziona "Scollega Memory Card"
 1. Ritorna a Impostazioni HENkaku
 1. Chiudi le impostazioni
 
-#### Section IV - Downgrading
+#### Sezione IV - Downgrade
 
-1. Launch the modoru application
-1. Press (Cross) to confirm the downgrade to firmware version 3.60
-  + If you are given the message "Error you cannot go lower than your factory firmware.", you will be unable to downgrade to firmware version 3.60
-  + If you are currently on firmware version 3.65, proceed to [Installing Ensō (3.65)](installing-enso-(3.65))
-  + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is 3.65 or lower, proceed to [Downgrading Firmware (3.65)](downgrading-firmware-(3.65))
-  + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is greater than 3.65, proceed to [Configuring h-encore](configuring-h-encore)
-  + If you are currently on a firmware above 3.69 and the listed "Factory firmware" is greater than 3.68, proceed to [Finalizing Setup](finalizing-setup)
-1. Press (Cross) to accept the terms and conditions
-1. Your device will begin the downgrade process
-1. Wait until the process is completed, your device will reboot automatically
+1. Avvia l'applicazione modoru
+1. Premi (Croce) per confermare il downgrade alla versione di sistema 3.60
+  + Se ricevi il messaggio "Error you cannot go lower than your factory firmware.", non potrai effettuare il downgrade alla versione di sistema 3.60
+  + Se al momento ti ritrovi con la versione di sistema 3.65, procedi con l'[Installazione di Ensō (3.65)](installing-enso-(3.65))
+  + Se al momento ti ritrovi con una versione di sistema superiore a 3.65, e la "versione di fabbrica" visualizzata a schermo è 3.65 o minore, procedi con il [Downgrade del Firmware (3.65)](downgrading-firmware-(3.65))
+  + Se al momento ti ritrovi con una versione di sistema superiore a 3.65, e la "versione di fabbrica" visualizzata a schermo è maggiore di 3.65, procedi con [Configurare h-encore](configuring-h-encore)
+  + Se al momento ti ritrovi con una versione di sistema superiore a 3.69, e la "versione di fabbrica" visualizzata a schermo è maggiore di 3.68, procedi con il [Completamento dell'installazione](finalizing-setup)
+1. Premi (Croce) per accettare i termini e le condizioni
+1. Il tuo dispositivo avvierà il processo di downgrade
+1. Attendi che il processo sia completato, la console si riavvierà automaticamente
 
 ___
 
-### Continue to [Installing HENkaku](installing-henkaku)
+### Continua con l'[Installazione di HENkaku](installing-henkaku)
 {: .notice--primary}
