@@ -93,33 +93,33 @@ Per installare i file `.vpk` necessari sulla tua console, useremo il [File Trans
 1. Spunta "Abilita lo Spoof della versione corrente"
 1. Vai a "Versione corrente (Spoof)"
 1. Scrivi "3.70" nella casella di testo
-  + Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN
+  + Se in futuro verrà rilasciata una nuova versione di sistema, dovrai cambiare la versione spoofata in modo che sia uguale all'ultima versione per poter riabilitare l'accesso al PSN
 1. Chiudi le impostazioni
 
-#### Section V - Cleanup
+#### Sezione V - Pulizia
 
-1. Launch the Content Manager application
-1. Select "Manage Content on Memory Card"
-1. Select "PS Vita"
-1. Delete the following applications if they exist (note that, depending on your install method, some or all of these applications may be missing):
+1. Avvia "Gestione contenuto"
+1. Seleziona "Gestione contenuti su scheda di memoria"
+1. Seleziona "PS Vita"
+1. Elimina le seguenti applicazioni se ci sono (nota che, in base al tuo metodo di installazione, alcune di queste applicazioni potrebbero non essere presenti):
   + "ensō"
   + "modoru 戻る"
   + "molecularShell"
-1. Users on firmware version 3.60 should additionally delete the following application if it exists:
+1. Gli utenti con versione di sistema 3.60 dovrebbero inoltre cancellare la seguente applicazione, se presente:
   + "h-encore"
-1. Close the Content Manager application
+1. Chiudi "Gestione contenuto"
 
 ___
 
-You can now easily install new homebrew applications just by using Vita Homebrew Browser. Alternatively, you can also browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
+Ora puoi facilmente installare nuovi homebrew utilizzando Vita Homebrew Browser. In alternativa, puoi anche cercare nuovi Homebrew su [VitaDB] (https://vitadb.rinnegatamante.it/).
 {: .notice--info}
 
-It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "Enso EX"). Doing so without fully understanding the system can lead to a BRICK!
+*Non* è consigliato effettuare modifiche alla propria installazione di Custom Firmware installando applicazioni homebrew destinate a utenti più esperti (come ad esempio "Enso EX"). L'utilizzo di queste applicazioni senza una conoscenza approfondita del sistema può portare a un BRICK!
 {: .notice--danger}
 
-For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [StorageMgr](storagemgr) page.
+Per informazioni su come sostituire la tua memory card Sony con altri tipi di memorie esterne (come una microSD o una chiavetta USB), visita la pagina [StorageMgr](storagemgr).
 {: .notice--success}
 
-For information on installing CFW to the built-in PSP emulator, check out the [Adrenaline](adrenaline) page.
+Per informazioni su come installare un CFW sull'emulatore PSP integrato, visita la pagina [Adrenaline](adrenaline).
 {: .notice--success}
 
