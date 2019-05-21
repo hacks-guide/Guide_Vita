@@ -25,7 +25,7 @@ sitemap: false
 + [Installazione di HENkaku](installing-henkaku)
 + [Installazione di Trinity (Windows)](installing-trinity-(windows))
 + [Installazione di Trinity](installing-trinity)
-+ [Preparazione per Trinity](Preparazione-for-trinity)
++ [Preparazione per Trinity](preparing-for-trinity)
 + [Informativa sulla Privacy](privacy-policy)
 + [Formattare una memoria (Linux)](storage-format-(linux))
 + [Formattare una memoria (Mac)](storage-format-(mac))
