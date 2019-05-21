@@ -10,7 +10,7 @@ Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenien
 
 It is more convenient than HENkaku as it does not require you to trigger an exploit on your device after every reboot manually.
 
-### What You Need
+### Cosa Ti Serve
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
 * The latest release of [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
