@@ -2,9 +2,9 @@
 title: "Finalizing Setup"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 We will now setup applications and plugins such as the following:
 
@@ -32,7 +32,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 * The latest release of [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * The latest release of [pngshot](https://github.com/xyzz/pngshot/releases/latest)
 
-### Instructions
+### Istruzioni
 
 #### Section I - Prep Work
 
