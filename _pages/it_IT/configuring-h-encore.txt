@@ -20,5 +20,5 @@ As a result, you will have to perform the h-encore exploit manually after each r
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Prosegui con il [Completamento dell'installazione](finalizing-setup)
 {: .notice--primary}
