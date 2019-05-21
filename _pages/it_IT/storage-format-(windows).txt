@@ -12,7 +12,7 @@ Additionally, there is an optional section for checking your storage device for 
 
 This page is for Windows users only. If you are not on Windows, check out the [Storage Format (Linux)](storage-format-(linux)) or [Storage Format (Mac)](storage-format-(mac)) pages.
 
-### What You Need
+### Cosa Ti Serve
 
 * [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }})
 * The latest version of [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
