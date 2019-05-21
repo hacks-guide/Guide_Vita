@@ -2,9 +2,9 @@
 title: "Updating Firmware (3.60)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 The HENkaku exploit is only compatible with the firmware version 3.60. As a result, lower firmware versions must update using a custom update server in order to use that exploit.
 
@@ -14,7 +14,7 @@ Note that a custom update server can only update your device, not downgrade it. 
 
 * An internet connection on your PS Vita (TV)
 
-### Instructions
+### Istruzioni
 
 #### Section I: Prep Work
 
