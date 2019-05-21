@@ -12,7 +12,7 @@ Additionally, there is an optional section for checking your storage device for 
 
 This page is for Mac users only. If you are not on Mac, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Linux)](storage-format-(linux)) pages.
 
-### What You Need
+### Cosa Ti Serve
 
 * The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
   + This is not required if you do not want to check your storage device for errors
