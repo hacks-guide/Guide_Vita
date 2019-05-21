@@ -2,7 +2,7 @@
 title: Downgrading Firmware (3.65)
 ---
 
-### Required Reading
+### Lettura necessaria
 
 If your device was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will still be able to use the more convenience Ensō boot-time exploit (as long as your "factory firmware" is 3.65 or lower) by downgrading to firmware version 3.65.
 
