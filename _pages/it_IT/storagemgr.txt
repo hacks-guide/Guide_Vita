@@ -21,8 +21,8 @@ You must have already installed VitaShell to use this.
 
 * A formatted storage device compatible with your system
   + To format your device, see [Storage Format (Windows)](storage-format-(windows)), [Storage Format (Linux)](storage-format-(linux)), or [Storage Format (Mac)](storage-format-(mac))
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
+* Un client FTP come [WinSCP](https://winscp.net/) o [CyberDuck](https://cyberduck.io/)
+  + In alternativa, puoi anche utilizzare la funzionalità di trasferimento USB di VitaShell
 * The latest release of [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
   + `storage_config.txt` should be edited to fit your situation as instructed in the [README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
   + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
@@ -34,10 +34,10 @@ You must have already installed VitaShell to use this.
 
 #### Section I - Installing Plugins
 
-1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
+1. Avvia VitaShell
+1. Premi (Select) per abilitare l'accesso FTP sulla tua console
+1. Apri il tuo client FTP sul tuo computer
+1. Immetti l'indirizzo IP e la porta visualizzati sulla console
 1. Using your FTP client, copy all files from `ux0:tai/` to `ur0:tai/`
   + Overwrite any existing files in the `ur0:tai/` folder
   + If you do not have a `ux0:tai/` folder, skip this step
@@ -61,8 +61,8 @@ This section will copy the data from your old Sony memory card to your new stora
   + This may take some time if you have a large amount of data on your Sony memory card
   + Do not copy the `ux0:` folder itself to your new storage device
 1. Insert your new storage device into your PS Vita (TV)
-1. Press (Circle) on your device to close the FTP connection
-1. Close the VitaShell application
+1. Premi (Cerchio) sulla tua console per chiudere la connessione FTP
+1. Chiudi VitaShell
 1. Reboot your device
   + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
   + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
