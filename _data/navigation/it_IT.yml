@@ -1,19 +1,19 @@
 ---
 main:
   - 
-    title: Home
+    title: Pagina Iniziale
     url: /
   - 
     title: FAQ
     url: faq
   - 
-    title: Donations
+    title: Donazioni
     url: donations
   - 
-    title: Credits
+    title: Riconoscimenti
     url: credits
   - 
-    title: Troubleshooting
+    title: Risoluzione dei problemi
     url: troubleshooting
   - 
     title: Adrenaline
@@ -22,37 +22,37 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Site Navigation
+    title: Mappa del sito
     url: site-navigation
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: Questo sito web utilizza i cookie per visualizzare l'avanzamento della guida sulla barra laterale o migliorare il sito.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/m7MwpKA">HENkaku on Discord</a>.
+    title: Se hai bisogno di aiuto, chiedi pure su <a href="https://discord.gg/m7MwpKA">HENKaku su Discord</a> (in inglese).
   - 
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+    title: Se hai apprezzato questa guida, accettiamo <a href="donations">donazioni</a>.
 footer:
   - 
-    title: Source
+    title: Codice Sorgente
   - 
-    title: Site Navigation
+    title: Mappa del sito
   - 
-    title: Why Ads?
+    title: Perché c'è la pubblicità?
   - 
-    title: Privacy Policy
+    title: Informativa sulla Privacy
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Avanzamento
 sidebar_pages:
   - 
-    title: Home
+    title: Pagina Iniziale
     url: /
   - 
-    title: Get Started
+    title: Cominciamo!
     url: get-started
   - 
-    title: Updating Firmware (3.60)
+    title: Aggiornamento del Firmware (3.60)
     url: updating-firmware-(3.60)
   - 
     title: Updating Firmware (PS TV 3.65 and 3.68)
