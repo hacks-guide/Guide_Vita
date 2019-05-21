@@ -1,67 +1,67 @@
 ---
-title: "Storage Format (Windows)"
+title: "Formattare una memoria (Windows)"
 ---
 
 {% include toc title="Indice" %}
 
 ### Lettura necessaria
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+Questa è una sezione aggiuntiva per la formattazione di un dispositivo di archiviazione da usare col plugin del kernel StorageMgr.
 
-Additionally, there is an optional section for checking your storage device for errors using h2testw. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+Inoltre, c'è una sezione facoltativa per cercare errori nel dispositivo di archiviazione usando h2testw. A seconda della dimensione del tuo dispositivo di archiviazione e della velocità del tuo computer, questo procedimento può durare diverse ore!
 
-This page is for Windows users only. If you are not on Windows, check out the [Storage Format (Linux)](storage-format-(linux)) or [Storage Format (Mac)](storage-format-(mac)) pages.
+Questa pagina è solo per utenti Windows. Se non utilizzi Windows, visita le pagine [Formattare una memoria (Linux)](storage-format-(linux)) o [Formattare una memoria (Mac)](storage-format-(mac)).
 
 ### Cosa Ti Serve
 
 * [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }})
-* The latest version of [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-  + This is not required if you do not want to check your storage device for errors
+* L'ultima versione di [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
+* L'ultima versione di [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+  + h2testw non è richiesto se non vuoi controllare la presenza di eventuali errori nel tuo dispositivo di archiviazione
 
 ### Istruzioni
 
-#### Section I - Formatting Storage Device
+#### Sezione I - Formattare il dispositivo di archiviazione
 
-1. Install Win32DiskImager if you have not already
-1. Insert your storage device into your computer
-1. Launch Win32DiskImager
-1. Select `zzBlank.img` as the "Image File"
-1. Set "Device" to the drive letter of your storage device
-1. Select "Write"
-1. Select "Yes" to continue when prompted
-1. Select "OK" to dismiss the dialogue box when the write completes
-1. Close Win32DiskImager
-1. Right-click the drive in Windows Explorer, then select "Format"
-1. Set "File system" to "exFAT"
-  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
-1. Select "Start"
-1. Select "OK" to continue when prompted
-1. Select "OK" to dismiss the dialogue box when the format completes
-1. Close the format window
+1. Installa Win32DiskImager se non l'hai già fatto
+1. Inserisci il dispositivo di archiviazione nel tuo computer
+1. Avvia Win32DiskImager
+1. Seleziona `zzBlank.img` come "Image File"
+1. Imposta la lettera dell'unità del dispositivo di archiviazione alla voce "Device"
+1. Seleziona "Write"
+1. Seleziona "Yes" quando ti viene richiesto
+1. Seleziona "OK" per chiudere la casella di dialogo a scrittura completata
+1. Chiudi Win32DiskImager
+1. Clicca col pulsante destro del mouse il dispositivo di archiviazione in Esplora risorse, quindi seleziona "Formatta"
+1. Imposta "File system" su "exFAT"
+  + Se il tuo dispositivo di archiviazione ha una capacità di 256 GB o maggiore, dovrai formattare con una dimensione di allocazione di 64 KB
+1. Seleziona "Avvia"
+1. Seleziona "OK" quando ti viene richiesto
+1. Seleziona "OK" per chiudere la casella di dialogo una volta completata la formattazione
+1. Chiudi la finestra di formattazione
 
-#### Section II - Verifying Storage Device
+#### Sezione II - Verificare il dispositivo di archiviazione
 
-If you do not want to check your storage device for errors, skip this section.
+Se non vuoi controllare la presenza di eventuali errori nel tuo dispositivo di archiviazione, salta questa sezione.
 {: .notice--info}
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your storage device card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
-1. Select "Select target"
-1. Select your storage device card's drive letter
-1. Ensure "all available space" is selected
-1. Select "Write + Verify"
-1. Wait until the process is completed
+1. Copia il file `h2testw.exe` dall'archivio `.zip` di h2testw sul tuo desktop
+1. Inserisci il dispositivo di archiviazione nel tuo computer
+1. Avvia `h2testw.exe`
+1. Seleziona "English"
+1. Clicca su "Select target"
+1. Seleziona la lettera di unità del vostro dispositivo di archiviazione
+1. Assicurati che "all available space" sia selezionato
+1. Clicca su "Write + Verify"
+1. Attendi il termine del processo
 
-If the test shows the result `Test finished without errors`, your storage device card is good and you can delete all `.h2w` files on your storage device card
+Se il test mostra come risultato "Test finished without errors", il tuo dispositivo di archiviazione funziona correttamente e puoi cancellare tutti i file `.h2w` dal dispositivo
 {: .notice--success}
 
-If the test shows any other results, your storage device card may be corrupted or damaged and you may have to replace it!
+Se il test mostra qualunque altro risultato, il tuo dispositivo di archiviazione potrebbe essere corrotto o danneggiato e potresti doverlo sostituire!
 {: .notice--danger}
 
 ___
 
-### Return to [StorageMgr](storagemgr)
+### Ritorna a [StorageMgr](storagemgr)
 {: .notice--primary}
