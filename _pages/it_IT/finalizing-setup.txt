@@ -18,7 +18,7 @@ We will now setup applications and plugins such as the following:
 
 In order to install the necessary `.vpk` (content package) files on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
 
-### What You Need
+### Cosa Ti Serve
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
   + Alternatively, you can also use the USB transfer feature of VitaShell
