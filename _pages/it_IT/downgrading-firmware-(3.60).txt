@@ -38,14 +38,14 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Premi (Select) per abilitare l'accesso FTP sulla tua console
 1. Apri il tuo client FTP sul tuo computer
 1. Immetti l'indirizzo IP e la porta visualizzati sulla console
-1. Using your FTP client, navigate to `ux0:` -> `data/`
+1. Utilizzando il tuo client FTP, entra in `ux0:`-> `data/`
 1. Transfer `modoru.vpk` to the `data` folder
 1. Transfer `PSP2UPDAT.PUP` to the `data` folder
 1. Premi (Cerchio) sulla tua console per chiudere la connessione FTP
 
 #### Section II - Installing modoru
 
-1. On your device, navigate to `ux0:` -> `data/`
+1. Utilizzando la tua console, entra in `ux0:`-> `data/`
 1. Press (Cross) on `modoru.vpk` to install it
 1. Premi (Croce) per confermare l'installazione
 1. Premi (Croce) per continuare l'installazione ogni volta che vengono chieste maggiori autorizzazioni
@@ -63,7 +63,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 
 #### Section III - Downgrading Prep
 
-1. Reboot your device
+1. Riavvia la console
 1. Launch your homebrew application
       <ul><li>For 3.65 to 3.68, this will be h-encore</li>
       <ol><li>Launch the h-encore application while holding (R)</li>
@@ -72,9 +72,9 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
       <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
       <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
       <li>For 3.69 and above, this will be Trinity</li></ul>
-1. Select "Install HENkaku"
-  + This will install the HENkaku exploit and enable homebrew access until the next reboot
-1. Select "Exit"
+1. Seleziona "Install HENkaku"
+  + Questa opzione installerà l'exploit HENkaku e abiliterà l'accesso agli homebrew fino al prossimo riavvio
+1. Seleziona "Exit"
 1. Apri le Impostazioni
 1. Apri `Impostazioni HENkaku`
 1. Select "Unlink Memory Card"
