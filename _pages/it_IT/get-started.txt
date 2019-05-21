@@ -2,9 +2,9 @@
 title: "Get Started"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 Different device versions will require different steps to achieve the end goal of Custom Firmware. This page will help you find where to start for your device.
 
