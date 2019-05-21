@@ -17,7 +17,7 @@ This will use FTP (File Transfer Protocol) to transfer the files, so your Vita a
 You must have already installed VitaShell to use this.
 {: .notice--info}
 
-### What You Need
+### Cosa Ti Serve
 
 * A formatted storage device compatible with your system
   + To format your device, see [Storage Format (Windows)](storage-format-(windows)), [Storage Format (Linux)](storage-format-(linux)), or [Storage Format (Mac)](storage-format-(mac))
