@@ -1,49 +1,50 @@
 ---
 layout: splash
-title: "PS Vita (TV) Hacks Guide" #
+title: "Guida per l'Hacking della PS Vita (TV)" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to PS Vita (TV) custom firmware, <br /> from stock to Ensō.<br />"
+excerpt: "La guida omnicomprensiva per installare un custom firmware su PS Vita (TV), <br /> da zero a Ensō.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Per la lista di tutte le guide per l'installazione di homebrew e custom firmware su altre console, visita [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di continuare.
 {: .notice--warning}
 
-This guide is for retail (consumer purchased; not from the PlayStation Partner Program) consoles _only_!
+Questa guida è riservata _solamente_ alle console retail (cioè quelle acquistate in negozio, non quelle ottenute tramite il PlayStation Partner Program)!
 {: .notice--danger}
 
 {% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
-Alternatively, click [here](https://crowdin.com/project/vita-guide) to help to keep these translations up to date.
+Questa guida è disponibile anche in altre lingue!
+Clicca l'icona <i class="fa fa-language" aria-hidden="true"></i> in alto a destra per cambiare la lingua.
+Oppure, clicca [qui]
+(https://crowdin.com/project/vita-guide) per aiutare a mantenere queste traduzioni aggiornate.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Cosa vuol dire Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Sony. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+Con [**Homebrew**](https://en.wikipedia.org/wiki/Homebrew_(video_games)) di solito si fa riferimento a software non autorizzato da Sony. Ti permette di avviare giochi amatoriali, programmi di save editing e di backup, ed emulatori di diverse piattaforme ormai obsolete.
 
-In many cases, running homebrew on your device is 100% free using just the system browser.
+Nella molti casi, è possibile avviare homebrew sulla tua console in modo del tutto gratuito attraverso il browser internet.
 
-## What is Custom Firmware?
+## Cosa vuol dire Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do. Essentially all homebrew solutions on the PS Vita (TV) include a CFW of some kind.
+Un **Custom Firmware** ("CFW") ti permette di accedere a funzionalità avanzate (spesso) non disponibili con un homebrew userland. Tutte le soluzioni homebrew su PS Vita (TV) includono un CFW di qualunque tipo.
 
-For information on how custom firmware works, please see [this post](https://yifan.lu/2017/07/31/henkaku-enso-bootloader-hack-for-vita/) by [Yifan Lu](https://twitter.com/yifanlu).
+Per informazioni su come funziona un custom firmware, leggi [questo post](https://yifan.lu/2017/07/31/henkaku-enso-bootloader-hack-for-vita/) scritto da [Yifan Lu](https://twitter.com/yifanlu).
 
-## What does this guide install?
+## Cosa viene installato con questa guida?
 
-This guide has the end goal of taking a completely unmodified PS Vita (TV) from stock firmware to custom firmware.
+Lo scopo di questa guida è di installare un custom firmware su una PS Vita (TV) stock mai modificata.
 
 The best CFW solution currently available, Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to trigger an exploit on your device after every reboot manually.
 
