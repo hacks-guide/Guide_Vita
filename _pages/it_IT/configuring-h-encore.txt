@@ -2,9 +2,9 @@
 title: "Configuring h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 If your device was unable to downgrade to either 3.60 or 3.65 due to its "factory firmware", you will be unable to use the more convenient Ensō boot-time exploit.
 
