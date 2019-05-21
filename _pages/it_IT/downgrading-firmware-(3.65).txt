@@ -55,7 +55,7 @@ Assicurati prima di procedere che la tua console sia carica almeno al 50% di bat
 1. Premi (Croce) per confermare l'eliminazione
 1. Chiudi VitaShell
 
-#### Section III - Downgrading
+#### Sezione III - Downgrade
 
 1. Riavvia la console
 1. Avvia la tua applicazione homebrew
@@ -69,12 +69,12 @@ Assicurati prima di procedere che la tua console sia carica almeno al 50% di bat
 1. Seleziona "Install HENkaku"
 1. Seleziona "Exit"
 1. Avvia l'applicazione modoru
-1. Press (Cross) to confirm the downgrade to firmware version 3.65
+1. Premi (Croce) per confermare il downgrade alla versione di sistema 3.65
 1. Premi (Croce) per accettare i termini e le condizioni
 1. Il tuo dispositivo avvierà il processo di downgrade
 1. Attendi che il processo sia completato, la console si riavvierà automaticamente
 
 ___
 
-### Continue to [Installing Ensō (3.65)](installing-enso-(3.65))
+### Continua con l'[Installazione di Ensō (3.65)](installing-enso-(3.65))
 {: .notice--primary}
