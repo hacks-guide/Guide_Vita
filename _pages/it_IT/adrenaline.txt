@@ -13,7 +13,7 @@ Additionally, adrenaline also enables access to a full PSP home menu running und
 You must have already installed VitaShell to use this.
 {: .notice--info}
 
-### What You Need
+### Cosa Ti Serve
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
   + Alternatively, you can also use the USB transfer feature of VitaShell
