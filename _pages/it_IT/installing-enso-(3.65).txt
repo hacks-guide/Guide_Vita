@@ -2,9 +2,9 @@
 title: "Installing Ensō (3.65)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 If your device on firmware version 3.65 was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will fortunately still be able to use the more convenience Ensō boot-time exploit.
 
@@ -16,7 +16,7 @@ Unfortunately, you may experience minor software incompatibilities as you will n
   + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest release of [Ensō (3.65)](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
-### Instructions
+### Istruzioni
 
 #### Section I - Prep Work
 
