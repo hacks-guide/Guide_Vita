@@ -2,9 +2,9 @@
 title: "Storage Format (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
 
@@ -19,7 +19,7 @@ This page is for Linux users only. If you are not on Linux, check out the [Stora
 * The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
   + This is not required if you do not want to check your storage device for errors
 
-### Instructions
+### Istruzioni
 
 #### Section I - Formatting Storage Device
 
@@ -81,5 +81,5 @@ If the test shows any other results, your storage device may be corrupted or dam
 
 ___
 
-### Return to [Get Started](get-started)
+### Ritorna a [Cominciamo!](get-started)
 {: .notice--primary}
