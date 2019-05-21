@@ -12,7 +12,7 @@ To prevent unwanted updates, we configure the device's DNS settings to use a cus
 
 ### What you need
 
-* An internet connection on your PS Vita (TV)
+* Una connessione internet sulla tua PS Vita (TV)
 
 ### Istruzioni
 
