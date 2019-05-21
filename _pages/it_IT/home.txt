@@ -55,8 +55,8 @@ Ensō è disponibile su tutti i dispositivi con una versione di sistema 3.65 o i
 + Personalizzare la schermata iniziale con [temi](http://vstema.com/) creati dagli utenti.
 + Applicare "ROMhack" ai propri giochi
 + [Salva, modifica e ripristina](https://github.com/d3m3vilurr/vita-savemgr) salvataggi per molti giochi.
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Dump your game cards to a format you can install, and play them without needing the card.
++ Avviare giochi per vecchie piattaforme usando vari emulatori, come ad esempio RetroArch o altri emulatori a sé stanti.
++ Creare un backup delle tue cartucce di gioco in un formato che permetta di giocare ai tuoi giochi senza di esse.
 + Certain games only: stream live gameplay to your PC wirelessly with Rincheat Streamer.
 + Play your PSP games on your Vita with Adrenaline ePSP CFW
 
