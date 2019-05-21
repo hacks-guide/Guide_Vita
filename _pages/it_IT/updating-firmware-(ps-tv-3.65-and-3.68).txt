@@ -37,10 +37,10 @@ Nota che la applicazione di aggiornamento personalizzata può solo aggiornare la
 1. Connetti un controller utilizzando un cavo USB, quindi premi il pulsante (PS)
 1. Entra in `Aggiorna il Software di Sistema` -> `Aggiorna da dispositivo USB`
 1. Connetti il tuo dispositivo USB alla PS TV
-1. Follow the prompts to update your device
+1. Segui le istruzioni visualizzate a schermo per aggiornare la console
   + Al termine, la console si riavvierà automaticamente
 
 ___
 
-### Continue to [Installing h-encore](installing-h-encore)
+### Continua con l'[Installazione di h-encore](installing-h-encore)
 {: .notice--primary}
