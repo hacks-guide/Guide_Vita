@@ -19,7 +19,7 @@ Unfortunately, a very small number of devices will be unable to downgrade to 3.6
 Ensure your device has a battery charge of 50% or greater before proceeding.
 {:.notice--info}
 
-### What You Need
+### Cosa Ti Serve
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
   + Alternatively, you can also use the USB transfer feature of VitaShell
@@ -78,7 +78,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Launch the Settings application
 1. Navigate to `HENkaku Settings`
 1. Select "Unlink Memory Card"
-1. Return to HENkaku Settings menu
+1. Ritorna a Impostazioni HENkaku
 1. Close the Settings application
 
 #### Section IV - Downgrading
