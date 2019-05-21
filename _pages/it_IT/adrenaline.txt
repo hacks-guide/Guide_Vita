@@ -15,33 +15,33 @@ You must have already installed VitaShell to use this.
 
 ### Cosa Ti Serve
 
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
+* Un client FTP come [WinSCP](https://winscp.net/) o [CyberDuck](https://cyberduck.io/)
+  + In alternativa, puoi anche utilizzare la funzionalità di trasferimento USB di VitaShell
 * The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
 * The latest release of [PSP Homebrew Browser]({{ "/assets/files/PSPhbb_dev.vpk" | absolute_url }})
 
 ### Istruzioni
 
-#### Section I - Prep Work
+#### Sezione I - Preparazione
 
-1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
+1. Avvia VitaShell
+1. Premi (Select) per abilitare l'accesso FTP sulla tua console
+1. Apri il tuo client FTP sul tuo computer
+1. Immetti l'indirizzo IP e la porta visualizzati sulla console
 1. Using your FTP client, navigate to `ux0:` -> `data/`
 1. Transfer `Adrenaline.vpk` to the `data` folder
 1. Transfer `PSPhbb_dev.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
+1. Premi (Cerchio) sulla tua console per chiudere la connessione FTP
 
-#### Section II - Installing VPKs
+#### Sezione II - Installazione dei VPK
 
 1. On your device, navigate to `ux0:` -> `data/`
 1. Press (Square) on each of the `.vpk` files to mark them
-1. Press (Triangle) to open the menu, then select "More" -> "Install all" to install the marked files
-1. Press (Cross) to confirm the install
+1. Premi (Triangolo) per aprire il menu, quindi seleziona "More"-> "Install all" per installare i file contrassegnati
+1. Premi (Croce) per confermare l'installazione
 1. Press (Cross) to continue the install each time you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
-1. Press (Cross) to confirm the deletion
+1. Premi (Triangolo) per aprire il menu, quindi seleziona "Delete" per eliminare i file contrassegnati
+1. Premi (Croce) per confermare l'eliminazione
 
 #### Section III - Modifying Plugin Config
 
