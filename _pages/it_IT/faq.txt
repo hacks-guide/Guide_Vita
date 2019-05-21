@@ -2,26 +2,27 @@
 title: "FAQ"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Not at this time.
+<a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*    
+**R:** Non in questo momento.
 
-<a name="faq_downgrade" />**Q:** *Can I downgrade my Vita?*    
-**A:** Yes, but only if the console is already on a hackable firmware. Modoru can downgrade any system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
+<a name="faq_downgrade" />**D:** *Posso eseguire il downgrade della mia PS Vita?*    
+**R:** Sì, ma solo se la console è già su un firmware hackabile. Modoru può effettuare il downgrade di qualsiasi sistema modificato con HENkaku o H-Encore a qualsiasi firmware uguale o maggiore del firmware che la console aveva di fabbrica.
 
-<a name="faq_update" />**Q:** *Is it safe to update a Vita with CFW?*    
-**A:** No! You must always ensure that you have blocked updates as specified at the end of [Finalizing Setup](finalizing-setup).
+<a name="faq_update" />**D:** *È sicuro aggiornare una PS Vita con un CFW?*    
+**R:** No! Devi sempre sempre assicurarti di aver bloccato gli aggiornamenti, come specificato alla fine del [Completamento dell'installazione](finalizing-setup).
 
-<a name="faq_updates" />**Q:** *Now that Sony has ended production of the Vita, does that mean no more updates will be released?*    
-**A:** This is not necessarily the case. The firmware version 3.68 was released six months after the previous update (at which point it was assumed no new updates would be released).
+<a name="faq_updates" />**D:** *Ora che Sony ha smesso di produrre la PS Vita, non ci saranno più aggiornamenti?*    
+**R:** Non per forza. La versione 3.68 è stata rilasciata sei mesi dopo il rilascio dell'aggiornamento precedente (e a quel punto tutti si aspettavano che nessun'altro aggiornamento sarebbe stato rilasciato).
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are *basically* impossible unless you ignore instructions.
+<a name="faq_risky" />**D:** *Quanto è rischioso modificare la mia console?*    
+**R:** Brickare la console è *praticamente* impossibile, a meno che tu non ignori le istruzioni.
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! This enables any custom user-made homebrew to be played on your device.
+<a name="faq_homebrew" />**D:** *Potrò avviare emulatori ed homebrew fantastici al termine della guida?*    
+**R:** Sì! In questo modo qualsiasi homebrew può essere avviato sulla tua console.
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6).
+<a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*    
+**R:** Se hai bisogno di aiuto, chiedi pure sul [server Discord di Vita Hacking](https://discord.gg/JXEKeg6).
+ (in inglese).
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer?*    
-**A:** No! You must have a PC to complete this guide.
+<a name="faq_nopc" />**D:** *Posso seguire questa guida senza un computer?*    
+**R:** No! Devi avere un computer per seguire questa guida.
