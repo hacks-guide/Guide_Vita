@@ -14,7 +14,7 @@ By using the StorageMgr kernel plugin, the USB drive or microSD card you use wil
 
 This will use FTP (File Transfer Protocol) to transfer the files, so your Vita and PC must be connected to the same network.
 
-You must have already installed VitaShell to use this.
+Per seguire questa guida è necessario aver già installato VitaShell.
 {: .notice--info}
 
 ### Cosa Ti Serve
@@ -63,8 +63,8 @@ This section will copy the data from your old Sony memory card to your new stora
 1. Insert your new storage device into your PS Vita (TV)
 1. Premi (Cerchio) sulla tua console per chiudere la connessione FTP
 1. Chiudi VitaShell
-1. Reboot your device
-  + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
+1. Riavvia la console
+  + Se il tuo dispositivo non dispone di Ensō, sarà necessario avviare manualmente ed uscire da h-encore per abilitare l'uso di Homebrew
   + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
 
 ___
