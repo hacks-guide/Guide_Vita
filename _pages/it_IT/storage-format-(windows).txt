@@ -2,9 +2,9 @@
 title: "Storage Format (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
 
@@ -19,7 +19,7 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 * The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
   + This is not required if you do not want to check your storage device for errors
 
-### Instructions
+### Istruzioni
 
 #### Section I - Formatting Storage Device
 
