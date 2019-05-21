@@ -2,9 +2,9 @@
 title: "Blocking Updates"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 The latest PS Vita exploit is not compatible with versions 3.69 and higher. As a result, we must wait for a new exploit to be released and stop the Vita updating any further than its current firmware version. Updating further may patch future exploits which could be used.
 
@@ -14,7 +14,7 @@ To prevent unwanted updates, we configure the device's DNS settings to use a cus
 
 * An internet connection on your PS Vita (TV)
 
-### Instructions
+### Istruzioni
 
 #### Section I - DNS Configuration
 
