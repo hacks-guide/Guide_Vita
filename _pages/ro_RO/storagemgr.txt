@@ -59,7 +59,7 @@ Această secţiune va copia datele de pe cardul de memorie Sony vechi la noul di
 1. Introduceți noul dispozitiv de stocare în calculator
 1. Copiați conținutul de pe folderul `ux0:` în noul dispozitiv de stocare
   + Aceasta poate dura ceva timp, dacă aveţi o cantitate mare de date pe cardul de memorie Sony
-  + Do not copy the `ux0:` folder itself to your new storage device
+  + Nu copiați folderul `ux0:` în noul dispozitiv de stocare
 1. Introduceți noul dispozitiv de stocare în PS Vita (TV)
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
 1. Închideți aplicația VitaShell
