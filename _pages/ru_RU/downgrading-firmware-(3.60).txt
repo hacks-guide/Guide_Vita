@@ -55,7 +55,7 @@ While it is possible to run homebrew on your current firmware version using eith
 1. Нажмите (Крест) чтобы закрыть окно диалога
 1. Нажмите (Круг) чтобы вернуться в `ux0:`
 1. Перейдите в `app` -> `MODORU000`
-1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Paste" чтобы вставить файл `PSP2UPDAT.PUP` в текущую папку
+1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
 1. Нажмите (Круг) чтобы вернуться в `ux0:`
 1. Нажмите (Треугольник), выделив папку `tai` чтобы открыть меню, затем выберите "Delete" чтобы удалить папку `tai`
 1. Нажмите (Крест) чтобы подтвердить удаление
