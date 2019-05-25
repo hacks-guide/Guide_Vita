@@ -1,25 +1,25 @@
 ---
-title: Downgrading Firmware (3.65)
+title: Retrogradând Firmware-ul (3.65)
 ---
 
 ### Lectură obligatorie
 
-If your device was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will still be able to use the more convenience Ensō boot-time exploit (as long as your "factory firmware" is 3.65 or lower) by downgrading to firmware version 3.65.
+Dacă dispozitivul cu versiunea de firmware 3.65 nu a reușit să se retrogradeze la 3.60 din cauza "firmware-ului de fabrică", încă veți avea șansa să folosiți exploit-ul mai convenabil activat la pornire, Ensō (cât timp "firmware-ul de fabrică" este 3.65 sau inferior) prin retrogradare la versiunea de firmware 3.65.
 
-Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
+Din păcate, este posibil să apară incompatibilități minore de software de vreme ce nu veți fi capabil de a folosi orice homebrew care este compatibil numai cu 3.60.
 
-Ensure your device has a battery charge of 50% or greater before proceeding.
+Asigurați-vă că dispozitivul are bateria încărcată la 50% sau mai mult înainte de a continua.
 {:.notice--info}
 
 ### Ce aveți nevoie
 
 * Un Client FTP, cum ar fi [WinSCP](https://winscp.net/) sau [CyberDuck](https://cyberduck.io/)
   + Alternativ, puteţi utiliza VitaShell in modul USB
-* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [PSP2UPDAT.PUP](magnet:?xt=urn:btih:5f2437f2141408c925ffc5d81ff76e94e1a4c493&dn=PSP2UPDAT.PUP&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce) (3.65) ([mirror](https://web.archive.org/web/20180630222648id_/http://dus01.psp2.update.playstation.net/update/psp2/image/2017_0317/rel_0a0f2a9ae58968ac5d1d2127049c3cba/PSP2UPDAT.PUP))
+* <i class="fa fa-magnet" aria-hidden="true" title="Acesta este un link magnetic. Folosiți un client de torrent pentru a descărca fișierul."></i> - [PSP2UPDAT.PUP](magnet:?xt=urn:btih:5f2437f2141408c925ffc5d81ff76e94e1a4c493&dn=PSP2UPDAT.PUP&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce) (3.65) ([mirror](https://web.archive.org/web/20180630222648id_/http://dus01.psp2.update.playstation.net/update/psp2/image/2017_0317/rel_0a0f2a9ae58968ac5d1d2127049c3cba/PSP2UPDAT.PUP))
 
 #### Secțiunea I - Preparații
 
-1. Exit the modoru application
+1. Ieșiți din aplicația modoru
 1. Lansați aplicația VitaShell
 1. Apăsaţi (Start) pentru a deschide setările de VitaShell
 1. Apăsaţi (X) pe "SELECT button" pentru a schimba modul la "FTP"
@@ -31,48 +31,48 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Deschideţi clientul FTP pe computer
 1. Introduceţi adresa IP şi Portul afişat pe aparatul dvs
 1. Folosind clientul FTP, navigați la `ux0:` -> `data /`
-1. Delete the existing 3.60 `PSP2UPDAT.PUP` file
-1. Transfer the 3.65 `PSP2UPDAT.PUP` to the `data` folder
+1. Ștergeți fișierul de firmware 3.60 `PSP2UPDAT.PUP` existent
+1. Transferați fișierul de firmware 3.65 `PSP2UPDAT.PUP` în dosarul `data`
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
 
-#### Section II - Installing modoru
+#### Secţiunea II - Instalând modoru
 
 1. Pe dispozitiv, navigaţi la `ux0:` -> `data/`
-1. Press (Cross) on `modoru.vpk` to install it
+1. Apăsați (X) pe `modoru.vpk` pentru a-instala
 1. Apăsați (X) pentru a confirma instalarea
 1. Apăsați (X) pentru a continua instalarea când vi se solicită permisiuni extinse
-1. Press (Triangle) to open the menu, then select "Delete" to delete `modoru.vpk`
+1. Apăsați (Triunghi) pentru a deschide meniul, apoi selectați "Delete" pentru a șterge `modoru.vpk`
 1. Apăsați (X) pentru a confirma stergerea
-1. Press (Triangle) on the 3.65 `PSP2UPDAT.PUP` to open the menu, then select "Copy"
+1. Apăsaţi (Triunghi) pe fișierul de firmware 3.65 `PSP2UPDAT.PUP` pentru a deschide meniul, apoi selectaţi "Copy"
 1. Apăsați (X) pentru a închide căsuța de dialog de fișier copiat
-1. Press (Circle) to return to the `ux0:` partition
-1. Navigate to `app` -> `MODORU000`
-1. Press (Triangle) on the existing 3.60 `PSP2UPDAT.PUP` to open the menu, then select "Delete"
+1. Apăsați (Cerc) pentru a reveni la partiția `ux0:`
+1. Mergeți spre `app` -> `MODORU000`
+1. Apăsaţi (Triunghi) pe fișierul de firmware 3.60 `PSP2UPDAT.PUP` existent pentru a deschide meniul, apoi selectaţi "Delete"
 1. Apăsați (X) pentru a confirma stergerea
-1. Press (Triangle) to open then menu, then select "Paste" to paste the 3.65 `PSP2UPDAT.PUP` in the current folder
-1. Press (Circle) to return to the `ux0:` partition
-1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
+1. Apăsaţi (Triunghi) pentru a deschide meniul, apoi selectaţi "Paste" pentru a lipi fișierul de firmware 3.65 `PSP2UPDAT.PUP` în folderul prezent
+1. Apăsați (Cerc) pentru a reveni la partiția `ux0:`
+1. Apăsați (Triunghi) pe `tai` pentru a deschide meniul, apoi selectați "Delete" pentru a șterge folderul `tai`
 1. Apăsați (X) pentru a confirma stergerea
 1. Închideți aplicația VitaShell
 
-#### Section III - Downgrading
+#### Secțiunea III - Retrogradând
 
 1. Reporniți dispozitivul
-1. Launch your homebrew application
-      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
-      <ol><li>Launch the h-encore application while holding (R)</li>
-      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
-      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
-      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
-      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
-      <li>For 3.69 and above, this will be Trinity</li></ul>
+1. Porniți aplicația homebrew
+      <ul><li>Pentru versiunile 3.65 până la 3.68, aceasta va fi h-encore</li>
+      <ol><li>Lansați aplicaţia h-encore în timp ce ţineţi (R)</li>
+      <ul><li>Dacă vi se întreabă despre trofee, țineți apăsat (R) și selectați Yes"</li></ul>
+      <li>În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore</li>
+      <ul><li>Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou</li>
+      <li>În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou</li></ul></ol>
+      <li>Pentru versiunile de la 3.69 în sus, aceasta va fi Trinity</li></ul>
 1. Selectaţi "Install HENkaku"
 1. Selectaţi "Exit"
-1. Launch the modoru application
-1. Press (Cross) to confirm the downgrade to firmware version 3.65
-1. Press (Cross) to accept the terms and conditions
-1. Your device will begin the downgrade process
-1. Wait until the process is completed, your device will reboot automatically
+1. Lansați aplicația modoru
+1. Apăsați (X) pentru a confirma retrogradarea spre versiunea de firmware 3.65
+1. Apăsați (X) pentru a accepta termenii și condițiile
+1. Dispozitivul dumneavoastră va începe procedeul de retrogradare
+1. Așteptați până când procedeul se va termina, dispozitivul se va reporni automatic
 
 ___
 
