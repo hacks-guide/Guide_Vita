@@ -8,7 +8,7 @@ sitemap: false
 **Toate**
 
 + [Adrenaline](adrenaline)
-+ [Blocking Updates](blocking-updates)
++ [Blocând Actualizări](blocking-updates)
 + [Configuring h-encore](configuring-h-encore)
 + [Contribuții](credits)
 + [Donaţii](donations)
