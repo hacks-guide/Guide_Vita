@@ -6,7 +6,7 @@ title: "Mise à jour du logiciel (PS Vita 3,65 et 3,68)"
 
 ### Lecture requise
 
-L'exploit hencore exploit est seulement compatible avec les versions système 3.65 et 3.68. En conséquence, d’autres versions de firmware doivent mettre à jour en utilisant une application de mise à jour personnalisée pour pouvoir utiliser cet exploit.
+L'exploit h-encore est seulement compatible avec les versions système 3.65 et 3.68. En conséquence, d’autres versions de firmware doivent mettre à jour en utilisant une application de mise à jour personnalisée pour pouvoir utiliser cet exploit.
 
 Alors que l’exploit de h-encore lui-même est compatible avec la version firmware 3,68, utilisateurs sur une version de firmware moins 3,65 doivent seulement mettre à jour version firmware 3.65 car c’est la dernière version qui supporte encore l’exploit du bootloader Ensō.
 
