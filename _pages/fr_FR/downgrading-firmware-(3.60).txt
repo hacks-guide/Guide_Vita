@@ -55,7 +55,7 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 1. Appuyez sur (croix) pour fermer la boîte de dialogue de fichier copié
 1. Appuyez sur (Rond) pour retourner vers `ux0:`
 1. Naviguez vers `app` -> `MODORU000`
-1. Appuyez sur (Triangle) pour ouvrir le menu, puis sélectionnez « Coller » pour coller `PSP2UPDAT.PUP` dans le dossier
+1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
 1. Appuyez sur (Rond) pour retourner vers `ux0:`
 1. Appuyez sur (Triangle) sur le dossier `tai` pour ouvrir le menu, et sélectionnez "Delete" pour supprimer le dossier `tai`.
 1. Appuyez sur (Croix) pour confirmer la suppression
