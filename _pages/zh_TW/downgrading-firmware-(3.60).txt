@@ -55,7 +55,7 @@ While it is possible to run homebrew on your current firmware version using eith
 1. 按下「X」鍵以忽略複製檔案的對話框
 1. 按下「O」鍵回到 `ux0:` 磁區中
 1. 移動至 `app` -> `MODORU000`
-1. 按下「△」(三角形) 鍵開啟選單，並選擇『Paste』將 `PSP2UPDAT.PUP` 檔案複製至當前的資料夾中
+1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
 1. 按下「O」鍵回到 `ux0:` 磁區中
 1. 於 `tai` 上按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除 `tai` 資料夾
 1. 按下「X」鍵確認刪除
