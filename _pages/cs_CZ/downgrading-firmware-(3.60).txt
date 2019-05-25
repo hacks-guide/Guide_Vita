@@ -55,7 +55,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Press (Cross) to dismiss the copied file dialogue box
 1. Press (Circle) to return to the `ux0:` partition
 1. Navigate to `app` -> `MODORU000`
-1. Press (Triangle) to open then menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
+1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
 1. Press (Circle) to return to the `ux0:` partition
 1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
 1. Press (Cross) to confirm the deletion
