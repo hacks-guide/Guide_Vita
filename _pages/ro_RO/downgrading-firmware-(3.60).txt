@@ -55,7 +55,7 @@ Asigurați-vă că dispozitivul are bateria încărcată la 50% sau mai mult în
 1. Apăsați (X) pentru a închide căsuța de dialog de fișier copiat
 1. Apăsați (Cerc) pentru a reveni la partiția `ux0:`
 1. Mergeți spre `app` -> `MODORU000`
-1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
+1. Apăsaţi (Triunghi) pentru a deschide meniul, apoi selectaţi "Paste" pentru a lipi `PSP2UPDAT.PUP` în folderul prezent
 1. Apăsați (Cerc) pentru a reveni la partiția `ux0:`
 1. Apăsați (Triunghi) pe `tai` pentru a deschide meniul, apoi selectați "Delete" pentru a șterge folderul `tai`
 1. Apăsați (X) pentru a confirma stergerea
