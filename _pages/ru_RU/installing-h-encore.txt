@@ -35,7 +35,7 @@ title: "Установка h-encore"
 1. Выберите / зарегистрируйте ваш компьютер, если появится запрос
   + Если появится сообщение о необходимости обновления, перезагрузите консоль и попробуйте снова
   + Если сообщение по-прежнему появляется, выполните инструкции на странице [Блокировка обновлений](blocking-updates) и попробуйте снова
-  + If you *still* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
+  + Если сообщение *по-прежнему* появляется, включите Режим авиаперелета в Системных настройках и попробуйте снова (это *не* работает для PS TV)
   + Если консоль не определяется при подключении через USB под Windows, установите [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) и попробуйте снова
 
 #### Часть II - Перенос h-encore
