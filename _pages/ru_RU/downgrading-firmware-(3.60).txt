@@ -8,9 +8,9 @@ title: Понижение версии прошивки (3.60)
 
 Ensō это полноценное CFW решение для PS Vita (TV), которое предоставляет удобный доступ к хоумбрю путем запуска эксплойта в процессе загрузки для установки хоумбрю окружения HENkaku.
 
-It is more convenient than h-encore and Trinity as it does not require you to trigger an exploit on your device after every reboot manually.
+Это решение более удобно чем h-encore и Trinity, поскольку не требует вручную активировать эксплойт после каждой перезагрузки.
 
-While it is possible to run homebrew on your current firmware version using either h-encore, Trinity or Ensō, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
+Хотя и можно запустить homebrew на текущей прошивке с помощью h-encore, Trinity или Ensō, понижение версии прошивки до 3.60 обеспечит вам наибольшую совместимость с homebrew.
 
 С момента выпуска системного плагина reF00D, существует очень мало (если они вообще есть) минусов при использовании прошивки версии 3.60, так как этот плагин позволяет устанавливать и играть в игры, которые обычно требуют более высокой версии прошивки.
 
@@ -55,7 +55,7 @@ While it is possible to run homebrew on your current firmware version using eith
 1. Нажмите (Крест) чтобы закрыть окно диалога
 1. Нажмите (Круг) чтобы вернуться в `ux0:`
 1. Перейдите в `app` -> `MODORU000`
-1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
+1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Paste" чтобы вставить файл `PSP2UPDAT.PUP` в текущую папку
 1. Нажмите (Круг) чтобы вернуться в `ux0:`
 1. Нажмите (Треугольник), выделив папку `tai` чтобы открыть меню, затем выберите "Delete" чтобы удалить папку `tai`
 1. Нажмите (Крест) чтобы подтвердить удаление
