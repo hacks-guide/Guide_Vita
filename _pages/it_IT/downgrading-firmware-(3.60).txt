@@ -55,7 +55,7 @@ Assicurati prima di procedere che la tua console sia carica almeno al 50% di bat
 1. Premi (Croce) per chiudere la finestra di dialogo
 1. Premi (Cerchio) per tornare alla partizione `ux0:`
 1. Entra in `app` -> `MODORU000`
-1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
+1. Premi (Triangolo) per aprire il menu, poi seleziona "Paste" per copiare "PSP2UPDAT.PUP" nella cartella attuale
 1. Premi (Cerchio) per tornare alla partizione `ux0:`
 1. Premi (Triangolo) su `tai` per aprire il menu, quindi seleziona "Delete" per eliminare la cartella `tai`
 1. Premi (Croce) per confermare l'eliminazione
