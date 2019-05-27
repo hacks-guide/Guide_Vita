@@ -55,7 +55,7 @@ Asegúrate de que tu consola tiene una carga de al menos 50% antes de continuar.
 1. Presiona (Cruz) para cerrar el diálogo de archivo copiado
 1. Presiona (Círculo) para regresar a la partición `ux0:`
 1. Ve a `app` -> `MODORU000`
-1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
+1. Presiona (Tríángulo) para abrir el menú, luego selecciona "Paste" para pegar `PSP2UPDAT.PUP` en la carpeta actual
 1. Presiona (Círculo) para regresar a la partición `ux0:`
 1. Presiona (Triángulo) sobre `tai` para abrir el menú, luego selecciona "Delete" la carpeta `tai`
 1. Presiona (Cruz) para confirmar la eliminación
