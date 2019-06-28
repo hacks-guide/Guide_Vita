@@ -2,7 +2,7 @@
 title: "Installing Ensō (3.65)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="内容目录" %}
 
 ### Required Reading
 
@@ -18,7 +18,7 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 
 ### Instructions
 
-#### Section I - Prep Work
+#### 第一步 — 准备工作
 
 1. Launch the VitaShell application
 1. Press (Start) to open the VitaShell settings
