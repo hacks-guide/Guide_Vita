@@ -2,7 +2,7 @@
 title: "Updating Firmware (PS TV 3.65 and 3.68)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="内容目录" %}
 
 ### Required Reading
 
