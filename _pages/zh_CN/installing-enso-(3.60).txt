@@ -2,7 +2,7 @@
 title: "Installing Ensō (3.60)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="内容目录" %}
 
 ### Required Reading
 
@@ -18,7 +18,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 
 ### Instructions
 
-#### Section I - Prep Work
+#### 第一步 — 准备工作
 
 1. Launch the molecularShell application
 1. Press (Select) to enable FTP access on your device
