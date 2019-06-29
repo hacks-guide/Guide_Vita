@@ -57,7 +57,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 
 #### Section III - Downgrading
 
-1. Reboot your device
+1. 重启你的设备
 1. Launch your homebrew application
       <ul><li>For 3.65 to 3.68, this will be h-encore</li>
       <ol><li>Launch the h-encore application while holding (R)</li>
