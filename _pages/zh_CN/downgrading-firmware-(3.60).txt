@@ -14,65 +14,65 @@ Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方�
 
 自reF00D系统插件发布以来，让设备运行 3.60 系统的缺点几乎没有（如果有的话），因为这个插件允许你安装和玩任何需要更新系统版本的游戏。
 
-Unfortunately, a very small number of devices will be unable to downgrade to 3.60 due to their "factory firmware" version. Further instructions will be presented when relevant for users who encounter this situation.
+有一个坏消息是，有少部分的设备由于“出厂版本”过高而无法降级到 3.60。 如果你遇到这种情况时，之后将提供进一步的说明。
 
-Ensure your device has a battery charge of 50% or greater before proceeding.
+继续前请确认你的设备电量在 50% 以上。
 {:.notice--info}
 
 ### 准备工作
 
 * 一个 FTP 连接软件，比如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，你也可以使用 VitaShell 的 USB 传输功能
-* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [PSP2UPDAT.PUP](magnet:?xt=urn:btih:19720f56ab6a299292f009aebae67a9a50eb6e8a&dn=PSP2UPDAT.PUP&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce) (3.60) ([mirror](https://web.archive.org/web/20160902205052id_/http://dus01.psp2.update.playstation.net/update/psp2/image/2016_0323/rel_cd80b3da55771c99557db552542dff2b/PSP2UPDAT.PUP))
-* The latest release of [modoru](https://github.com/TheOfficialFloW/modoru/releases/latest/)
+* <i class="fa fa-magnet" aria-hidden="true" title="这是一个磁力链。 使用BT协议下载软件下载此文件。"></i> - [PSP2UPDAT.PUP](magnet:?xt=urn:btih:19720f56ab6a299292f009aebae67a9a50eb6e8a&dn=PSP2UPDAT.PUP&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce) (3.60) ([mirror](https://web.archive.org/web/20160902205052id_/http://dus01.psp2.update.playstation.net/update/psp2/image/2016_0323/rel_cd80b3da55771c99557db552542dff2b/PSP2UPDAT.PUP))
+* 最新版 [modoru](https://github.com/TheOfficialFloW/modoru/releases/latest/)
 
-#### Section I - Prep Work
+#### 第一步 — 准备工作
 
 1. 启动 VitaShell 应用
-1. Press (Start) to open the VitaShell settings
-1. Press (Cross) on "SELECT button" to change the mode to "FTP"
-  + Alternatively, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
-  + Note that the USB transfer mode will start you in the ux0 partition
-  + Additionally, some files will be hidden in USB mode on Windows; you must enable "Show hidden files, folders, and drives" and disable "Hide protected operating system files" in the File Explorer options in order to see all files
-1. Press (Circle) to close the VitaShell settings
+1. 按下 “Start” 键来打开 VitaShell 的设置
+1. 在 “SELECT button” 上按下×键来切换模式为“FTP”
+  + 或者你也可以切换成USB模式并通过其传输方式来传输所需文件
+  + 注意，如果你使用 USB 传输模式，连接的分区将是 ux0 分区
+  + 另外，有些文件会在 USB 模式时会被Windows隐藏；你必须在资源管理器的查看设置中选择“显示隐藏的文件、文件夹和驱动器”和并去掉“隐藏受保护的操作系统文件（推荐）”
+1. 按下 “○” 关闭 VitaShell settings
 1. 按下 “Select” 键以启用设备上的 FTP 访问
 1. 在电脑上打开 FTP 客户端
 1. 输入设备上显示的 IP 地址与端口
 1. 使用客户端移动至 `ux0:` -> `data/`
-1. Transfer `modoru.vpk` to the `data` folder
-1. Transfer `PSP2UPDAT.PUP` to the `data` folder
+1. 将 `modoru.vpk` 复制到 `data` 文件夹
+1. 将 `PSP2UPDAT.PUP` 复制到 `data` 文件夹
 1. 在你的主机上按下 “○” 键以关闭 FTP 连接
 
-#### Section II - Installing modoru
+#### 第二步 — 安装 modoru
 
 1. 在你的设备上移动至 `ux0:` -> `data/`
-1. Press (Cross) on `modoru.vpk` to install it
+1. 在 `modoru.vpk` 上按 “×” 键以进行安装
 1. 按下 “×” 键确认安装
-1. Press (Cross) to continue the install when you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete `modoru.vpk`
+1. 当系统提示有关“扩展权限(extended permissions)”的时候, 按 “×” 键确认以继续安装
+1. 按下 “△” 键打开菜单, 然后选择 “Delete” 以删除 `modoru.vpk`
 1. 按下 “×” 键确认删除
-1. Press (Triangle) on `PSP2UPDAT.PUP` to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Circle) to return to the `ux0:` partition
-1. Navigate to `app` -> `MODORU000`
-1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
-1. Press (Circle) to return to the `ux0:` partition
-1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
+1. 在 `PSP2UPDAT.PUP` 上按下 “△” 来打开菜单，然后选择“Copy”
+1. 按下 “×” 键来忽略复制文件时的提示
+1. 按下 “○” 键返回到 `ux0:` 分区
+1. 移动到 `app` -> `MODORU000`
+1. 按下 “△” 来打开菜单，然后选择 “Paste” 来粘贴 `PSP2UPDAT.PUP` 到当前文件夹
+1. 按下 “○” 键返回到 `ux0:` 分区
+1. 在 `tai` 上按下 “△” 来打开菜单，然后选择 “Delete” 来删除 `tai` 文件夹
 1. 按下 “×” 键确认删除
-1. Close the VitaShell application
+1. 关闭 VitaShell 应用
 
-#### Section III - Downgrading Prep
+#### 第三步 — 降级前准备
 
 1. 重启你的设备
-1. Launch your homebrew application
-      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
-      <ol><li>Launch the h-encore application while holding (R)</li>
-      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
-      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
-      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
-      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
-      <li>For 3.69 and above, this will be Trinity</li></ul>
-1. Select "Install HENkaku"
+1. 启动你的 homebrew 应用
+      <ul><li>对于3.65到3.68之间的系统，这是h-encore</li>
+      <ol><li>在启动h-encore应用程序的同时按下“R”键</li>
+      <ul><li>如果提示有关奖杯的信息，请继续按住“R”键并选择“Yes”</li></ul>
+      <li>如果漏洞成功触发，你现在将看到h-encore引导程序菜单</li>
+      <ul><li>如果漏洞触发后卡在白屏上，只需关闭应用程序（这会导致系统崩溃并重启设备），然后再试一次</li>
+      <li>如果仍然卡住，请按住电源按钮超过30秒以强制重启，然后再试一次</li></ul></ol>
+      <li>对于3.69及以上，这是Trinity</li></ul>
+1. 选择 “Install HENkaku”
   + This will install the HENkaku exploit and enable homebrew access until the next reboot
 1. Select "Exit"
 1. 打开系统设置
