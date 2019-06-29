@@ -1,5 +1,5 @@
 ---
-title: "Updating Firmware (PS Vita 3.65 and 3.68)"
+title: "升级固件 (PS Vita 3.65 和 3.68)"
 ---
 
 {% include toc title="内容目录" %}
@@ -23,10 +23,10 @@ h-encore 漏洞只与系统版本 3.65 和 3.68 兼容。 因此，其他的系�
 
 ### 操作步骤
 
-#### Section I - finalhe
+#### 第一步 — finalhe
 
 1. 解压 finalhe `.zip` 到你电脑上的任何一个文件夹
-1. Move `PSP2UPDAT.PUP` to the same folder as finalhe
+1. 移动 `PSP2UPDAT.PUP` 到与 finalhe 的同个文件夹
 1. 在你的电脑上启动 finalhe
   + 如果你使用的是安装 Windows 的电脑，然后系统弹出了防火墙警告，请允许 finalhe 连接网络。
 1. 在你的主机中启动“内容管理器”程序
@@ -37,16 +37,16 @@ h-encore 漏洞只与系统版本 3.65 和 3.68 兼容。 因此，其他的系�
   + 如果你没有账号请创建一个
 1. 当提示时，选择／注册你的电脑
   + 如果你遇到消息指示你更新，请重启设备并再试一次
-  + If you still encounter this message, enable Flight Mode in the system settings, reboot your device, and try again
-  + If you *still* encounter this message, disable Flight Mode, follow the instructions in [Blocking Updates](blocking-updates), reboot your device, and try again
+  + 如果你依然遇到此提示，请与系统设置内打开飞行模式，然后重启并再试一次
+  + 如果你*依然*遇到了提示，请禁用飞行模式，然后请参见[阻止更新](blocking-updates)并重启设备再试一次
   + 如果你的Windows电脑无法检测到与设备的USB连接，请安装 [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) 然后再试一次
-1. The finalhe application should display instructions for updating your device
+1. finalhe 在这时应显示更新步骤
 
 #### 第二步 — 升级自制固件
 
 1. 打开系统设置
-1. Navigate to `System Update` -> `Update by Connecting to a PC`
-1. Ensure the update message "Version 3.65" or "Version 3.68" is displayed, depending on which version you are attempting to update to
+1. 移动至 `系统更新(System Update)` -> `连接PC更新(Update by Connecting to a PC)`
+1. 依照你所选择的版本，请确保所示更新为“版本 3.65”或“版本 3.68”
   + 如果显示的是其他信息，请立即停下来然后检查你之前漏了什么步骤
 1. 按照提示步骤更新你的设备
   + 当完成时，你的设备会自动重启
