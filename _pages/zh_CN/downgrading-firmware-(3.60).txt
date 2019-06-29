@@ -73,28 +73,28 @@ Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方�
       <li>如果仍然卡住，请按住电源按钮超过30秒以强制重启，然后再试一次</li></ul></ol>
       <li>对于3.69及以上，这是Trinity</li></ul>
 1. 选择 “Install HENkaku”
-  + This will install the HENkaku exploit and enable homebrew access until the next reboot
-1. Select "Exit"
+  + 这将安装HENkaku漏洞并启用自制程序权限，直到下次重新启动
+1. 选择 “Exit”
 1. 打开系统设置
-1. Navigate to `HENkaku Settings`
-1. Select "Unlink Memory Card"
-1. Return to HENkaku Settings menu
-1. Close the Settings application
+1. 移动至 `HENkaku Settings`
+1. 选择 “取消内存卡连接(Unlink Memory Card)”
+1. 返回 HENkaku 设置菜单
+1. 关闭系统设置
 
-#### Section IV - Downgrading
+#### 第四步 — 降级
 
-1. Launch the modoru application
-1. Press (Cross) to confirm the downgrade to firmware version 3.60
-  + If you are given the message "Error you cannot go lower than your factory firmware.", you will be unable to downgrade to firmware version 3.60
-  + If you are currently on firmware version 3.65, proceed to [Installing Ensō (3.65)](installing-enso-(3.65))
-  + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is 3.65 or lower, proceed to [Downgrading Firmware (3.65)](downgrading-firmware-(3.65))
-  + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is greater than 3.65, proceed to [Configuring h-encore](configuring-h-encore)
-  + If you are currently on a firmware above 3.69 and the listed "Factory firmware" is greater than 3.68, proceed to [Finalizing Setup](finalizing-setup)
-1. Press (Cross) to accept the terms and conditions
-1. Your device will begin the downgrade process
-1. Wait until the process is completed, your device will reboot automatically
+1. 启动 modoru 应用
+1. 按 “×” 键确认降级至 3.60
+  + 如果出现“错误－你无法降级至比你出厂固件更早的版本 (Error you cannot go lower than your factory firmware)”，则你将无法降级至 3.60
+  + 如果你目前的固件是3.65，则请继续至 [安装 Ensō (3.65)](installing-enso-(3.65))
+  + 如果你目前的固件版本为 3.65 且“出厂版本”为3.65或更早的版本，请继续至[降级固件 (3.65)](downgrading-firmware-(3.65))
+  + 如果你目前的固件版本高于 3.65 且“出厂版本”也高于3.65，请继续至[配置 h-encore](configuring-h-encore)
+  + 如果你当前的固件版本高于 3.69 并且“出厂版本”高于3.68，请继续至 [完成安装](finalizing-setup)
+1. 按下 “×” 来接受服务条款
+1. 你的设备将开始降级
+1. 完成时，你的设备会自动重启
 
 ___
 
-### Continue to [Installing HENkaku](installing-henkaku)
+### 继续至 [安装 HENkaku](installing-henkaku)
 {: .notice--primary}
