@@ -6,22 +6,22 @@ title: "Storage Format (Mac)"
 
 ### 必读事项
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+这是一个用于格式化存储设备来使用StorageMgr内核插件的附加章节。
 
-Additionally, there is an optional section for checking your storage device for errors using F3X. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+Additionally, there is an optional section for checking your storage device for errors using F3X. 这个操作的耗时取决于你存储设备和电脑的速度，可能将耗费数个小时完成！
 
 This page is for Mac users only. If you are not on Mac, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Linux)](storage-format-(linux)) pages.
 
 ### 准备工作
 
 * The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
-  + This is not required if you do not want to check your storage device for errors
+  + 如果你不想检查你的内存卡是否有误就不需要下载这个
 
 ### 操作步骤
 
-#### Section I - Formatting Storage Device
+#### 第一步 — 格式化存储设备
 
-1. Insert your storage device into your computer
+1. 将存储设备插入电脑
 1. Launch Disk Utility
 1. Select your storage device
 1. Select the "Partition" menu
@@ -34,7 +34,7 @@ If you do not want to check your storage device for errors, skip this section.
 {: .notice--info}
 
 1. Unzip the F3X `.zip` file
-1. Insert your storage device into your computer
+1. 将存储设备插入电脑
 1. Run the F3X app
 1. Select your storage device
 1. Press "Start Test"
