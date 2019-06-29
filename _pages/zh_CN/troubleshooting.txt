@@ -1,33 +1,33 @@
 ---
-title: "Troubleshooting"
+title: "问题排查"
 ---
 
 {% include toc title="内容目录" %}
 
 ### 必读事项
 
-If you encounter issues, please look for the section relevant to you and follow the instructions.
+如果你遇到了问题，请参阅本页面中的相关章节，并按照教程执行。
 
-If you still cannot solve your issue and need to reach out for help, please come for help prepared with a detailed description of your problem and what you've tried.
+如果仍然无法解决你的问题并需要寻求帮助，请前来寻求支援，并详细描述你的问题以及你所尝试的方法。
 
-## A browser based exploit is not working
+## 浏览器漏洞无法使用
 
-Browser based exploits (such as the WebKit exploit used for HENkaku) can be unstable and crash frequently, but they can sometimes be fixed by doing the following steps:
+基于浏览器漏洞的破解（例如用来安装 HENkaku 的 Webkit 漏洞）通常不够稳定并经常崩溃，但也可以尝试按照下面的步骤修复：
 
-1. Ensure your device has a stable network connection
-1. Launch the browser, then open the browser settings
-1. Scroll to the bottom and click "Delete Cookies" and "Clear Search History"
-1. Try the exploit again
+1. 确保你的设备有稳定的网络连接
+1. 打开浏览器，进入浏览器设置页面
+1. 滚动至底端，点击“删除 Cookies” 与 “清除搜索历史”
+1. 再次尝试触发漏洞
 
-## Removing an PSN account without formatting your device
+## 在不格式化主机的情况下清除 PSN 账号
 
-1. Go to your [PSN Account Management Page](https://account.sonyentertainmentnetwork.com/home/index!display.action)
-1. Under the devices section, choose "PlayStation Systems"
-1. Select your console
-1. Select "Deactivate"
+1. 前往你的 [PSN 账户管理页面](https://account.sonyentertainmentnetwork.com/home/index!display.action)
+1. 在设备栏选择 “PlayStation 系统”
+1. 选择你的设备
+1. 选择 “解除认证”
 
-## Black screen on boot
+## 开机时遇到黑屏
 
-1. Hold L on boot to disable TaiHEN plugin loading
-1. If your device boots, try editing `ux0:tai/config.txt` and remove any plugins you may have recently added
-1. If these instructions do not work, your device may be bricked
+1. 按住 L 键开机，取消 TaiHEN 插件的加载
+1. 如果你的设备成功启动了，请尝试编辑 `ux0:tai/config.txt` 并删除你最近安装的插件
+1. 如果以上步骤无法解决你的问题，那你的设备可能已经变砖了
