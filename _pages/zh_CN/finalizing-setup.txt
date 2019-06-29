@@ -82,7 +82,7 @@ In order to install the necessary `.vpk` (content package) files on your device,
 1. Wait for the process to complete and return to the menu
 1. Press (Cross) to block system updates
 1. Your device will reboot when the process completes
-  + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
+  + 如果你的设备没有安装 Ensō ，则你将需要手动启动并退出 h-encore 来开启 homebrew。
   + To confirm that everything is working, you should now see a battery percentage in the status bar
 
 #### Section IV - PSN Access
