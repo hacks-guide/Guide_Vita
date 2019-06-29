@@ -52,33 +52,33 @@ h-encore 是一系列专门用于 PS Vita (TV) 的漏洞；此漏洞允许你安
 1. 选择 “OK”
   + h-encore 漏洞将会被复制到你的设备中
   + 此过程会花费一些时间
-1. Close the Content Manager application on your device
-1. Close finalhe on your computer
+1. 关闭“内容管理器”程序
+1. 关闭 finalhe
 
-#### Section III - Configuring h-encore
+#### 第三步 — 配置h-encore
 
 1. 在启动 h-encore 应用程序时按住“R”键
-  + If prompted about trophies, continue holding (R) and select "Yes"
-1. If the exploit was successful, you will now see the h-encore bootstrap menu
-  + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
-  + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
-1. Select "Install HENkaku"
+  + 如果提示有关奖杯的信息，请继续按住“R”键并选择“Yes”
+1. 如果漏洞成功触发，你现在将看到h-encore引导程序菜单
+  + 如果漏洞触发后卡在白屏上，只需关闭应用程序（这会导致系统崩溃并重启设备），然后再试一次
+  + 如果仍然卡住，请按住电源按钮超过30秒以强制重启，然后再试一次
+1. 选择 “Install HENkaku”
   + 这将安装HENkaku漏洞并启用自制程序权限，直到下次重新启动
-1. Select "Download VitaShell"
-  + This will install the VitaShell homebrew application for managing your device's filesystem
-  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
+1. 选择 “下载VitaShell(Download VitaShell)”
+  + 这将会安装 VitaShell 自制程序来管理你设备的文件系统
+  + VitaShell （以及所有的自制程序）在重启后依然会保持安装的状态，但是如果没有触发 HENkaku 漏洞的话是无法运行的。
 1. 选择 “Exit”
 
-#### Section IV - Configuring HENkaku
+#### 第五步 — 配置 HENkaku
 
 1. 打开系统设置
 1. 移动至 `HENkaku Settings`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
-1. Check "Enable Unsafe Homebrew"
-1. Return to HENkaku Settings menu
+  + 如果找不到 HENkaku 设置，那就从h-encore菜单中选择“Reset taiHEN config.txt”，然后再试一次
+1. 勾选“Enable Unsafe Homebrew”
+1. 返回 HENkaku 设置菜单
 1. 关闭系统设置
 
 ___
 
-### Continue to [Downgrading Firmware (3.60)](downgrading-firmware-(3.60))
+### 继续至 [降级固件 (3.60)](downgrading-firmware-(3.60))
 {: .notice--primary}
