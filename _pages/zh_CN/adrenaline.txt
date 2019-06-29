@@ -48,37 +48,37 @@ Adrenaline 是 PS Vita 的一个自制程序。它可以修改 PS Vita (TV) 中�
 1. 按下 “○” 键返回到 `ux0:`
 1. 打开 `tai/` 文件夹
   + 如果没有 `urx:tai` 这个文件夹, 请再次按下 “○” 键, 然后移动到 `ur0:tai` 文件夹
-1. Press (Cross) on `config.txt` to open it in the editor
-1. Highlight the `*KERNEL` line with the cursor
-1. Press (Triangle) to open the menu, then select "Insert empty line"
-1. Highlight the new blank line
-1. Press (Cross) to edit the line
-1. Enter the following text:
+1. 在 `config.txt` 上按下 “×” 键以在编辑器中打开它
+1. 移动光标至 `*KERNEL` 行
+1. 按下 “△” 键打开菜单, 然后选择 “插入空行(Insert empty line)”
+1. 将光标移动至新插入的空行
+1. 按下 “×” 键编辑该行
+1. 输入下列文字：
   + `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
-1. Press (Circle) to close the editor
-1. When prompted, press (Cross) to save your modifications
-1. Close the VitaShell application
-1. Reboot your device
-  + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
-  + This is required to load the new kernel plugin added to `ux0:tai/config.txt`
+1. 按下 “○” 键来关闭编辑器
+1. 当提示保存时，按下 “×” 键来保存更改
+1. 退出 VitaShell 应用
+1. 重启你的设备
+  + 如果你的设备没有安装 Ensō ，则你将需要手动启动并退出 h-encore 来开启 homebrew。
+  + 这是一个必要步骤，用于配置基于 `ux0:tai/config.txt` 里所写的配置的内核插件
 
-#### Section IV - Installing PSP XMB
+#### 第四步 － 安装 PSP XMB
 
-1. Launch the Adrenaline application
-1. Press (Cross) to download the PSP 6.61 firmware
-  + This process will take some time
-  + If the download fails, the downloader will get confused and begin to give you the error `Cannot find ux0:/app/PSPEMUCFW/661.PBP`
-  + If you encounter the above error, use VitaShell to delete the `ux0:app/PSPEMUCFW/flash0/` folder, then try again
-  + If you still encounter this error, manually download [EBOOT.PBP](http://de01.psp.update.playstation.org/update/psp/image/eu/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP), rename it to `661.PBP`, then transfer it to `ux0:app/PSPEMUCFW/` using VitaShell
-  + The Adrenaline application will close automatically when the download is complete
-1. Re-launch the Adrenaline application
-1. Press (Cross) to install PSP 6.61 the firmware
-1. Press (Cross) to boot the PSP home menu
-  + The PSP home menu is also known as the [XrossMediaBar](https://wikipedia.org/wiki/XrossMediaBar) ("XMB")
-1. Perform the PSP Initial Setup
-1. To close the PSP Emulator, hold the (PS) button to open the menu, then select `Settings` -> `Exit PspEmu Application`
+1. 启动 Adrenaline 应用
+1. 按下 “×” 键以下载 PSP 6.61 的固件
+  + 此过程会花费一些时间
+  + 如果下载失败，下载工具会显示 `Cannot find ux0:/app/PSPEMUCFW/661.PBP` 的错误
+  + 如果遇到上述错误，请使用 VitaShell 删除 `ux0:app/PSPEMUCFW/flash0/` 文件夹，然后重试
+  + 如果仍然遇到此错误, 请手动下载 [EBOOT.PBP](http://de01.psp.update.playstation.org/update/psp/image/eu/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP)，将其重命名为 `661.PBP`，然后使用 VitaShell 将其复制到 `ux0:app/PSPEMUCFW/` 文件夹中
+  + 当下载完成时，Adrenaline 将自动关闭
+1. 重新启动 Adrenaline
+1. 按下 “×” 键以安装 PSP 6.61 的固件
+1. 按下 “×” 键以启动 PSP 系统主页
+  + PSP 的主页菜单也叫作 [XrossMediaBar](https://zh.m.wikipedia.org/wiki/XMB) ("XMB")
+1. 完成 PSP 的初始设置
+1. 若要关闭 PSP 模拟器，按住PS键打开菜单，然后选择 `Settings` -> `Exit PspEmu Application`
 
 ___
 
-Adrenaline and the PSP Homebrew Browser have been successfully installed.
+Adrenaline 以及PSP自制浏览器已被成功安装。
 {: .notice--success}
