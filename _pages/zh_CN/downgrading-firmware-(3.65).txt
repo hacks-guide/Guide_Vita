@@ -8,7 +8,7 @@ If your device was unable to downgrade to firmware version 3.60 due to its "fact
 
 Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
 
-Ensure your device has a battery charge of 50% or greater before proceeding.
+继续前请确认你的设备电量在 50% 以上。
 {:.notice--info}
 
 ### 准备工作
@@ -35,38 +35,38 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Transfer the 3.65 `PSP2UPDAT.PUP` to the `data` folder
 1. 在你的主机上按下 “○” 键以关闭 FTP 连接
 
-#### Section II - Installing modoru
+#### 第二步 — 安装 modoru
 
 1. 在你的设备上移动至 `ux0:` -> `data/`
 1. Press (Cross) on `modoru.vpk` to install it
 1. 按下 “×” 键确认安装
 1. Press (Cross) to continue the install when you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete `modoru.vpk`
+1. 按下 “△” 键打开菜单, 然后选择 “Delete” 以删除 `modoru.vpk`
 1. 按下 “×” 键确认删除
 1. Press (Triangle) on the 3.65 `PSP2UPDAT.PUP` to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Circle) to return to the `ux0:` partition
-1. Navigate to `app` -> `MODORU000`
+1. 按下 “×” 键来忽略复制文件时的提示
+1. 按下 “○” 键返回到 `ux0:` 分区
+1. 移动到 `app` -> `MODORU000`
 1. Press (Triangle) on the existing 3.60 `PSP2UPDAT.PUP` to open the menu, then select "Delete"
 1. 按下 “×” 键确认删除
 1. Press (Triangle) to open then menu, then select "Paste" to paste the 3.65 `PSP2UPDAT.PUP` in the current folder
-1. Press (Circle) to return to the `ux0:` partition
-1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
+1. 按下 “○” 键返回到 `ux0:` 分区
+1. 在 `tai` 上按下 “△” 来打开菜单，然后选择 “Delete” 来删除 `tai` 文件夹
 1. 按下 “×” 键确认删除
 1. Close the VitaShell application
 
 #### Section III - Downgrading
 
 1. 重启你的设备
-1. Launch your homebrew application
-      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
-      <ol><li>Launch the h-encore application while holding (R)</li>
-      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
-      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
-      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
-      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
-      <li>For 3.69 and above, this will be Trinity</li></ul>
-1. Select "Install HENkaku"
+1. 启动你的 homebrew 应用
+      <ul><li>对于3.65到3.68之间的系统，这是h-encore</li>
+      <ol><li>在启动h-encore应用程序的同时按下“R”键</li>
+      <ul><li>如果提示有关奖杯的信息，请继续按住“R”键并选择“Yes”</li></ul>
+      <li>如果漏洞成功触发，你现在将看到h-encore引导程序菜单</li>
+      <ul><li>如果漏洞触发后卡在白屏上，只需关闭应用程序（这会导致系统崩溃并重启设备），然后再试一次</li>
+      <li>如果仍然卡住，请按住电源按钮超过30秒以强制重启，然后再试一次</li></ul></ol>
+      <li>对于3.69及以上，这是Trinity</li></ul>
+1. 选择 “Install HENkaku”
 1. Select "Exit"
 1. Launch the modoru application
 1. Press (Cross) to confirm the downgrade to firmware version 3.65
