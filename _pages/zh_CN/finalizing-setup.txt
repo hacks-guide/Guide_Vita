@@ -1,33 +1,33 @@
 ---
-title: "Finalizing Setup"
+title: "完成安装"
 ---
 
 {% include toc title="内容目录" %}
 
 ### 必读事项
 
-We will now setup applications and plugins such as the following:
+我们现在将安装如下所示的应用程序和插件：
 
-+  **Vita Homebrew Browser** *(downloads and installs other homebrew applications)*
-+  **UpdateBlocker** *(completely prevents system updates from being accidentally installed)*
-+  **NoNpDrm** *(allows for encrypted games and applications to be used)*
-+  **reF00D** *(allows for transparently decrypting games and applications of any firmware version)*
-+  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
-+  **shellbat** *(displays exact battery percentage in the status bar)*
-+  **pngshot** *(improves the built-in screenshot utility)*
++  **Vita Homebrew Browser** *(下载并安装其他自制程序)*
++  **UpdateBlocker** *(完全防止意外更新系统)*
++  **NoNpDrm** *(允许使用已加密的游戏和应用程序)*
++  **reF00D** *(透明化解密任何固件版本的游戏和应用程序)*
++  **DownloadEnabler** *(允许使用浏览器下载任何类型的文件)*
++  **shellbat** *(在状态栏中显示准确的电池百分比)*
++  **pngshot** *(改进内置的屏幕截图程序)*
 
-In order to install the necessary `.vpk` (content package) files on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
+为了在你的设备安装必要的`.vpk` 安装包，我们使用 [FTP](https://zh.m.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE) 来将文件复制到你设备的内存卡。
 
 ### 准备工作
 
 * 一个 FTP 连接软件，比如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，你也可以使用 VitaShell 的 USB 传输功能
-* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [keys.bin](magnet:?xt=urn:btih:a3796f22b82b80c5fefa8407c6fd7d71df2c2258&dn=keys.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce) ([mirror](https://www.mediafire.com/download/t5obgaa3naatr9m))
+* <i class="fa fa-magnet" aria-hidden="true" title="这是一个磁力链。 使用BT协议下载软件下载此文件。"></i> - [keys.bin](magnet:?xt=urn:btih:a3796f22b82b80c5fefa8407c6fd7d71df2c2258&dn=keys.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce) ([mirror](https://www.mediafire.com/download/t5obgaa3naatr9m))
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
-* The latest release of [UpdateBlocker](https://bitbucket.org/SilicaAndPina/updateblocker/downloads/)
-* The latest release of [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* The latest release of [reF00D](https://github.com/dots-tb/reF00D/releases/latest)
+* 最新版 [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
+* 最新版 [UpdateBlocker](https://bitbucket.org/SilicaAndPina/updateblocker/downloads/)
+* 最新版 [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
+* 最新版 [reF00D](https://github.com/dots-tb/reF00D/releases/latest)
 * The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * The latest release of [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * The latest release of [pngshot](https://github.com/xyzz/pngshot/releases/latest)
