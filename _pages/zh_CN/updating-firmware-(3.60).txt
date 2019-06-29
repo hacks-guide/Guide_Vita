@@ -10,25 +10,25 @@ The HENkaku exploit is only compatible with the firmware version 3.60. As a resu
 
 Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.60, you should return to [Get Started](get-started).
 
-### What you need
+### 准备工作
 
-* An internet connection on your PS Vita (TV)
+* 将你的 PS Vita (TV) 连接上网络
 
 ### 操作步骤
 
 #### Section I: Prep Work
 
-1. Launch the Settings application
-1. Navigate to `Network` -> `Wi-Fi Settings`
-  + Connect to a Wi-Fi network if you have not already done so
-1. Select your current connection
-  + This is signified by a green dot next to the network
-1. Select "Advanced Settings"
-1. Set "DNS Settings" to "Manual"
+1. 打开系统设置
+1. 依次进入 `网络(Network)` -> `Wi-Fi 设定(Wi-Fi Settings)`
+  + 如果你之前没有联网，那么现在请连接到 Wi-Fi 网络
+1. 选择你想使用的接入点
+  + 已连接的网络旁边会有绿色的点
+1. 选择 “高级设置(Advanced Settings)”
+1. 找到 “DNS 设置(DNS Settings)” 并将它设置为“手动(Manual)”
 1. Set "Primary DNS" to `212.47.229.76`
-1. Leave "Secondary DNS" blank
-1. Ensure "Proxy Server" is set to "Do Not Use"
-1. Return to the main Settings menu
+1. 将“备用 DNS(Secondary DNS)” 留空
+1. 确认“代理服务器 (Proxy)” 设置为 “不使用(Do Not Use)”
+1. 返回到设置的主菜单
 
 #### Section II: Updating to 3.60
 
