@@ -8,7 +8,7 @@ title: "Installing Ensō (3.65)"
 
 If your device on firmware version 3.65 was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will fortunately still be able to use the more convenience Ensō boot-time exploit.
 
-Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
+不过，你可能会遇到某些软件只与 3.60 系统版本兼容的问题。
 
 ### 准备工作
 
@@ -31,7 +31,7 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 1. 在电脑上打开 FTP 客户端
 1. 输入设备上显示的 IP 地址与端口
 1. 使用客户端移动至 `ux0:` -> `data/`
-1. Transfer `enso.vpk` to the `data` folder
+1. 将`enso.vpk` 传输到 `data` 文件夹
 1. 在你的主机上按下 “○” 键以关闭 FTP 连接
 
 #### Section II - Installing VPK
@@ -46,8 +46,8 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 
 #### Section III - Installing Ensō
 
-1. Open the Ensō application
-1. Press (Circle) to accept the terms
+1. 打开 Ensō 应用程序
+1. 按 (○) 接受用户协议
 1. Press (Cross) to install Ensō
   + When the process has completed, press any button to reboot your device
 
