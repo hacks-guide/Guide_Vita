@@ -1,33 +1,33 @@
 ---
-title: "Storage Format (Linux)"
+title: "格式化存储空间 (Linux)"
 ---
 
 {% include toc title="内容目录" %}
 
-### Required Reading
+### 必读事项
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+这是一个用于格式化存储设备来使用StorageMgr内核插件的附加章节。
 
-Additionally, there is an optional section for checking your storage device for errors using F3. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+此外，还有一个使用F3来检查存储设备是否存在错误的附加章节。 这个操作的耗时取决于你存储设备和电脑的速度，可能将耗费数个小时完成！
 
-This page is for Linux users only. If you are not on Linux, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Mac)](storage-format-(mac)) pages.
+本节教程仅限Linux用户。 如果你的电脑没有安装Linux，请参见 [格式化存储空间(Windows)](storage-format-(windows)) 或 [格式化存储空间 (Mac)](storage-format-(mac)) 。
 
 ### 准备工作
 
-* The latest version of [exfat-utils](https://github.com/relan/exfat) for your distribution (check your package manager)
-* The latest version of [fuse-exfat](https://github.com/relan/exfat) for your distribution (check your package manager)
-* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
-  + This is not required if you do not want to check your storage device for errors
+* 最新的提供给你的分发版 [exfat-utils](https://github.com/relan/exfat) （请检查你的软件包管理器）
+* 最新的提供给你的分发版 [fuse-exfat](https://github.com/relan/exfat) （请检查你的软件包管理器）
+* 最新版 [F3](https://github.com/AltraMayor/f3/releases/latest)
+  + 如果你不想检查你的内存卡是否有误就不需要下载这个
 
 ### 操作步骤
 
-#### Section I - Formatting Storage Device
+#### 第一步 — 格式化存储设备
 
-1. Insert your storage device into your computer
-1. Unmount your storage device with `umount`
-1. Run `sudo dd if=/dev/zero of=/dev/sdX` to wipe the storage device
-  + `sdX` should be the device corresponding to your storage device
-1. Remove your storage device from your computer
+1. 将存储设备插入电脑
+1. 使用 `umount` 卸载你的存储设备
+1. 输入 `sudo dd if=/dev/zero of=/dev/sdX` 来擦除存储设备
+  +`sdX`应该是与你的存储设备对应的
+1. 将存储设备从电脑上移除
 1. Re-insert your storage device into your computer
 1. Run `mkfs.exfat /dev/sdX` to format your storage device as exFAT
   + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
@@ -40,7 +40,7 @@ If you do not want to check your storage device for errors, skip this section.
 1. Unzip the f3 `.zip` file
 1. `cd` into the f3 directory
 1. Run `make` to compile F3
-1. Insert your storage device into your computer
+1. 将存储设备插入电脑
 1. Mount your storage device
 1. Run `./f3write <your storage device mount point>`
 1. Wait until the process is complete. See below for an example output.
