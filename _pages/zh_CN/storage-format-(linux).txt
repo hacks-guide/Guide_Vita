@@ -28,22 +28,22 @@ title: "格式化存储空间 (Linux)"
 1. 输入 `sudo dd if=/dev/zero of=/dev/sdX` 来擦除存储设备
   +`sdX`应该是与你的存储设备对应的
 1. 将存储设备从电脑上移除
-1. Re-insert your storage device into your computer
-1. Run `mkfs.exfat /dev/sdX` to format your storage device as exFAT
-  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
+1. 重新将存储设备插入电脑
+1. 运行 `mkfs.exfat /dev/sdX` 以把存储设备格式为exFAT
+  + 如果你的存储设备容量为256GB或更大，你必须将格式化时设置的分配单元大小设置为 64 KB
 
-#### Section II - Verifying Storage Device
+#### 第二步 — 验证存储设备
 
-If you do not want to check your storage device for errors, skip this section.
+如果你不想检查你的存储设备是否有错误，那么请跳过这一节。
 {: .notice--info}
 
-1. Unzip the f3 `.zip` file
-1. `cd` into the f3 directory
-1. Run `make` to compile F3
+1. 将 f3 `.zip` 文件解压
+1. `cd` 到 f3 目录
+1. 执行 `make` 命令以编译 F3
 1. 将存储设备插入电脑
-1. Mount your storage device
-1. Run `./f3write <your storage device mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. 挂载你的存储设备
+1. 执行 `./f3write <你存储设备的挂载路径>`
+1. 等待，直到该过程执行完毕。 你可以参考以下范例。
 
 ~~~ bash
 $ ./f3write /media/michel/6135-3363/
@@ -55,8 +55,8 @@ Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
 ~~~
 
-1. Run `./f3read <your storage device mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. 执行 `./f3read <你存储设备的挂载路径>`
+1. 等待，直到该过程执行完毕。 你可以参考以下范例。
 
 ~~~ bash
 $ ./f3read /media/michel/6135-3363/
@@ -73,10 +73,10 @@ Data LOST: 0.00 Byte (0 sectors)
 Average Reading speed: 9.42 MB/s
 ~~~
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your storage device is good and you can delete all `.h2w` files on your storage device
+如果测试结果显示 `Data LOST: 0.00 Byte (0 sectors)` 代表你的存储设备完好，接着请删除存储设备上的所有 `.h2w` 文件。
 {: .notice--success}
 
-If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
+如果测试显示任何其他结果，你的存储设备可能已经出错或损坏，你可能需要更换一个存储设备！
 {: .notice--danger}
 
 ___
