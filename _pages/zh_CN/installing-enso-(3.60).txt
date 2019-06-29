@@ -49,5 +49,5 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### 继续至 [完成安装](finalizing-setup)
 {: .notice--primary}
