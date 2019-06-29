@@ -1,18 +1,18 @@
 ---
-title: Downgrading Firmware (3.60)
+title: 降级固件 (3.60)
 ---
 
-### Required Reading
+### 必读事项
 
-We will now downgrade your device to firmware version 3.60 as it is the best supported firmware version which supports the Ensō boot-time exploit.
+我们现在将将你的设备降级到 3.60 版本的固件，因为它是支持 Ensō 的最佳系统版本。
 
-Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment.
+Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方案，可在你的主机开机时自动配置HENkaku环境，可以在你的设备上方便地使用自制软件。
 
-It is more convenient than h-encore and Trinity as it does not require you to trigger an exploit on your device after every reboot manually.
+它比h-encore和Trinity更方便，因为它不需要你在每次重启后手动触发设备上的漏洞。
 
-While it is possible to run homebrew on your current firmware version using either h-encore, Trinity or Ensō, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
+虽然h-encore、Trinity和Ensō可在你目前的系统版本上运行自制程序，但降级到固件版本 3.60 将为你提供最大的自制程序兼容性。
 
-Since the release of the reF00D system plugin, there are very few (if any) downsides to running firmware version 3.60 as this plugin allows you to install and play games which would normally require a newer firmware version.
+自reF00D系统插件发布以来，让设备运行 3.60 系统的缺点几乎没有（如果有的话），因为这个插件允许你安装和玩任何需要更新系统版本的游戏。
 
 Unfortunately, a very small number of devices will be unable to downgrade to 3.60 due to their "factory firmware" version. Further instructions will be presented when relevant for users who encounter this situation.
 
@@ -75,7 +75,7 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Select "Install HENkaku"
   + This will install the HENkaku exploit and enable homebrew access until the next reboot
 1. Select "Exit"
-1. Launch the Settings application
+1. 打开系统设置
 1. Navigate to `HENkaku Settings`
 1. Select "Unlink Memory Card"
 1. Return to HENkaku Settings menu
