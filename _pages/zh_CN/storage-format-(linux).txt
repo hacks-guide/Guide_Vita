@@ -81,5 +81,5 @@ If the test shows any other results, your storage device may be corrupted or dam
 
 ___
 
-### Return to [Get Started](get-started)
+### 返回到[开始教程](get-started)
 {: .notice--primary}
