@@ -73,7 +73,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Apăsați (X) pentru a confirma stergerea
 1. Închideți aplicația VitaShell
 
-#### Secţiunea III - Blocând Actualizările 
+#### Secţiunea III - Blocând Actualizările
 
 1. Lansați aplicația Settings
 1. Navigați spre `Network` -> `Wi-Fi Settings`
@@ -95,7 +95,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Bifați "Enable PSN Spoofing"
 1. Bifați "Enable Version Spoofing"
 1. Navigați spre "Spoofed Version"
-1. Scrieți "3.70" în căsuță
+1. Enter "3.71" into the box
   + Când va fi lansată o nouă versiune de firmware pe viitor, va trebui să schimbați versiunea falsificată ca să coincidă astfel încât să aveți acces la PSN
 1. Închideți aplicația Settings
 
@@ -125,4 +125,3 @@ Pentru informații despre cum să înlocuiți cardul de memorie Sony cu stocare 
 
 Pentru informaţii despre instalarea de CFW în emulatorul integrat de PSP, vedeți pagina [Adrenaline](adrenaline).
 {: .notice--success}
-
