@@ -69,5 +69,9 @@ Versiunea dispozitivului dumneavoastră poate fi găsit sub meniul System Inform
       <td style="text-align: center; font-weight: bold;">3.70</td>
       <td style="text-align: center; font-weight: bold;"><a href="preparing-for-trinity">Pregătire pentru Trinity</a></td>
     </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">3.71</td>
+      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+    </tr>
   </tbody>
 </table>
