@@ -2,26 +2,23 @@
 title: "FAQ"
 ---
 
-<a name="faq_latestfw" /> **Q :** *Je suis sur la dernière version du système, est-ce que ma console est hackable ?*    
+<a name="faq_latestfw" /> **Q :** *Je suis sur la dernière version du système, est-ce que ma console est hackable ?*
 **A:** Non pas à ce jour.
 
-<a name="faq_downgrade" />**Q :** *Puis-je downgrader ma Vita ?*    
+<a name="faq_downgrade" />**Q :** *Puis-je downgrader ma Vita ?*
 **A:** Yes, but only if the console is already on a hackable firmware. Modoru can downgrade any system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
 
-<a name="faq_update" />**Q:** *Est-il sûr de mettre à jour une Vita avec un CFW ?*    
+<a name="faq_update" />**Q:** *Est-il sûr de mettre à jour une Vita avec un CFW ?*
 **R :** Non ! Vous devez toujours vérifier que vous avez bloqué les mises à jour comme dit à la fin de la [finalisation de la configuration](finalizing-setup).
 
-<a name="faq_updates" />**Q:** *Maintenant que Sony a stoppé la production de la Vita, cela signifie-t-il qu'il n'y aura plus jamais de mises à jour ?*    
-**R :** Pas forcément. La version 3.68 a été publiée six mois après la mise à jour précédente (à ce moment-là, il était certain que plus aucune mise à jour ne serait publiée).
-
-<a name="faq_risky" /> **Q :** *À quel point hacker ma console est-il risqué ?*    
+<a name="faq_risky" /> **Q :** *À quel point hacker ma console est-il risqué ?*
 **R :** Les bricks sont *en pratique* impossibles, à moins que vous n'ignoriez les instructions.
 
-<a name="faq_homebrew" /> **Q :** *Puis-je exécuter des homebrews géniaux et des émulateurs avec cela ?*    
+<a name="faq_homebrew" /> **Q :** *Puis-je exécuter des homebrews géniaux et des émulateurs avec cela ?*
 **R :** Oui ! Cela vous permet d'exécuter n'importe quel homebrew sur votre console.
 
-<a name="faq_support" /> **Q :** *Où dois-je aller pour avoir de l'aide ?*    
+<a name="faq_support" /> **Q :** *Où dois-je aller pour avoir de l'aide ?*
 **R :** Pour obtenir de l'aide, demandez de l'aide au [Discord Vita Hacking](https://discord.gg/JXEKeg6) (Anglais).
 
-<a name="faq_nopc" /> **Q :** *Puis-je faire cela sans ordinateur ?*    
-**R :** Non ! Vous devez avoir un PC pour terminer ce guide.
+<a name="faq_nopc" /> **Q :** *Puis-je faire cela sans ordinateur ?*
+**A:** No, you must have a PC to complete this guide.
