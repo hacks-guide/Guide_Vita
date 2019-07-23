@@ -73,7 +73,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Premi (Croce) per confermare l'eliminazione
 1. Chiudi VitaShell
 
-#### Sezione III - Blocco degli aggiornamenti 
+#### Sezione III - Blocco degli aggiornamenti
 
 1. Apri le Impostazioni
 1. Vai a `Connessioni` -> `Impostazioni Wi-Fi`
@@ -95,7 +95,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Spunta "Abilita la Spoof PSN"
 1. Spunta "Abilita lo Spoof della versione corrente"
 1. Vai a "Versione corrente (Spoof)"
-1. Scrivi "3.70" nella casella di testo
+1. Enter "3.71" into the box
   + Se in futuro verrà rilasciata una nuova versione di sistema, dovrai cambiare la versione spoofata in modo che sia uguale all'ultima versione per poter riabilitare l'accesso al PSN
 1. Chiudi le impostazioni
 
@@ -125,4 +125,3 @@ Per informazioni su come sostituire la tua memory card Sony con altri tipi di me
 
 Per informazioni su come installare un CFW sull'emulatore PSP integrato, visita la pagina [Adrenaline](adrenaline).
 {: .notice--success}
-
