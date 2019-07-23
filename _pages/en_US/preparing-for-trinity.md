@@ -18,9 +18,6 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 Note that these DNS servers will need to be set on each network you connect your device to for it to block updates!
 {: .notice--warning}
 
-If you are on 3.69 and haven't created **and** activated a PSN account on your system, you will need to update to 3.70 through system settings and then proceed.
-{: .notice--warning}
-
 1. Launch the Settings application
 1. Navigate to `Network` -> `Wi-Fi Settings`
   + Connect to a Wi-Fi network if you have not already done so
