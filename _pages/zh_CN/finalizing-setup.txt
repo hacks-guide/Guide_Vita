@@ -73,7 +73,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. 按下 “×” 键确认删除
 1. 关闭 VitaShell 应用
 
-#### 第三步 — 阻止更新 
+#### 第三步 — 阻止更新
 
 1. 打开系统设置
 1. 依次进入 `网络(Network)` -> `Wi-Fi 设定(Wi-Fi Settings)`
@@ -95,7 +95,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. 勾选 “启用PSN伪装(Enable PSN spoofing)”
 1. 勾选 “开启版本伪装(Enable Version Spoofing)”
 1. 移动至“版本伪装(Spoofed Version)”
-1. 输入 “3.70”
+1. Enter "3.71" into the box
   + 如果以后索尼更新了系统固件，则你必须把其数值替换成最新版本才能访问 PSN
 1. 关闭系统设置
 
@@ -125,4 +125,3 @@ ___
 
 若你想要在内置的 PSP 模拟器中安装自制固件，请参见[Adrenaline](adrenaline)。
 {: .notice--success}
-
