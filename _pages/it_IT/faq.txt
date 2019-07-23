@@ -2,27 +2,24 @@
 title: "FAQ"
 ---
 
-<a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*    
+<a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*
 **R:** Non in questo momento.
 
-<a name="faq_downgrade" />**D:** *Posso eseguire il downgrade della mia PS Vita?*    
+<a name="faq_downgrade" />**D:** *Posso eseguire il downgrade della mia PS Vita?*
 **R:** Sì, ma solo se la console è già su un firmware hackabile. Modoru può effettuare il downgrade di qualsiasi sistema modificato con HENkaku o H-Encore a qualsiasi firmware uguale o maggiore del firmware che la console aveva di fabbrica.
 
-<a name="faq_update" />**D:** *È sicuro aggiornare una PS Vita con un CFW?*    
+<a name="faq_update" />**D:** *È sicuro aggiornare una PS Vita con un CFW?*
 **R:** No! Devi sempre sempre assicurarti di aver bloccato gli aggiornamenti, come specificato alla fine del [Completamento dell'installazione](finalizing-setup).
 
-<a name="faq_updates" />**D:** *Ora che Sony ha smesso di produrre la PS Vita, non ci saranno più aggiornamenti?*    
-**R:** Non per forza. La versione 3.68 è stata rilasciata sei mesi dopo il rilascio dell'aggiornamento precedente (e a quel punto tutti si aspettavano che nessun'altro aggiornamento sarebbe stato rilasciato).
-
-<a name="faq_risky" />**D:** *Quanto è rischioso modificare la mia console?*    
+<a name="faq_risky" />**D:** *Quanto è rischioso modificare la mia console?*
 **R:** Brickare la console è *praticamente* impossibile, a meno che tu non ignori le istruzioni.
 
-<a name="faq_homebrew" />**D:** *Potrò avviare emulatori ed homebrew fantastici al termine della guida?*    
+<a name="faq_homebrew" />**D:** *Potrò avviare emulatori ed homebrew fantastici al termine della guida?*
 **R:** Sì! In questo modo qualsiasi homebrew può essere avviato sulla tua console.
 
-<a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*    
+<a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*
 **R:** Se hai bisogno di aiuto, chiedi pure sul [server Discord di Vita Hacking](https://discord.gg/JXEKeg6).
  (in inglese).
 
-<a name="faq_nopc" />**D:** *Posso seguire questa guida senza un computer?*    
-**R:** No! Devi avere un computer per seguire questa guida.
+<a name="faq_nopc" />**D:** *Posso seguire questa guida senza un computer?*
+**A:** No, you must have a PC to complete this guide.
