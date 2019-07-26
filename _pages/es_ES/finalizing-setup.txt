@@ -67,10 +67,10 @@ We will also block updates using a DNS server. The server tricks your device int
 
 1. En tu consola, navega a `ux0:` -> `data/`
 1. Press (Cross) on `VitaHBBrowser.vpk` to install it
-1. Presiona (Cruz) para confirmar la instalación
+1. Press (Cross) to confirm the install
 1. Press (Cross) to continue the install if you are prompted about extended permissions
 1. Press (Triangle) to open the menu, then select "Delete" to delete the `.vpk` file
-1. Presiona (Cruz) para confirmar la eliminación
+1. Press (Cross) to confirm the deletion
 1. Cierra la aplicación VitaShell
 
 #### Sección III - Bloquear actualizaciones
