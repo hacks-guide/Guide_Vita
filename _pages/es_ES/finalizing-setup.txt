@@ -15,9 +15,9 @@ Ahora configuraremos aplicaciones y plugins tales como:
 +  **shellbat** *(muestra el porcentaje de batería exacto en la barra de estado)*
 +  **pngshot** *(mejora la utilidad de captura de pantalla integrada)*
 
-In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
+Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu consola, usaremos [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) para copiar archivos a la tarjeta de memoria de tu consola.
 
-We will also block updates using a DNS server. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
+También bloquearemos las actualizaciones usando un servidor DNS. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
 
 ### Qué necesitas
 
