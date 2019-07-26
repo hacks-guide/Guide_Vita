@@ -21,4 +21,4 @@ title: "Preguntas Frecuentes"
 **A:** Para soporte, puedes pedir ayuda (*en inglés*) en [Vita Hacking en Discord](https://discord.gg/JXEKeg6).
 
 <a name="faq_nopc" />**P:** *¿Puedo realizar este proceso sin una computadora?*
-**A:** No, you must have a PC to complete this guide.
+**A:** No. Debes de tener una computadora para completar esta guía.
