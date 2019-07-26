@@ -17,7 +17,7 @@ Ahora configuraremos aplicaciones y plugins tales como:
 
 Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu consola, usaremos [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) para copiar archivos a la tarjeta de memoria de tu consola.
 
-También bloquearemos las actualizaciones usando un servidor DNS. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
+También bloquearemos las actualizaciones usando un servidor DNS. El servidor engaña a tu consola para detectar la versión 3.60 de firmware como la última, lo que significa que no se actualizará más allá de eso. Esto es útil ya que la versión 3.60 de firmware es la más antigua en la que HENkaku funciona. Estos ajustes deben aplicarse a cada red que te unas.
 
 ### Qué necesitas
 
@@ -66,11 +66,11 @@ También bloquearemos las actualizaciones usando un servidor DNS. The server tri
 #### Sección II - Instalar VPKs
 
 1. En tu consola, navega a `ux0:` -> `data/`
-1. Press (Cross) on `VitaHBBrowser.vpk` to install it
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install if you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the `.vpk` file
-1. Press (Cross) to confirm the deletion
+1. Presiona (Cruz) sobre `VitaHBBrowser.vpk` para instalarlo
+1. Presiona (Cruz) para confirmar la instalación
+1. Presiona (Cruz) para continuar la instalación cuando te pregunte sobre permisos extendidos
+1. Presiona (Triángulo) para abrir el menú, luego selecciona "Delete" para borrar el archivo marcado
+1. Presiona (Cruz) para confirmar la eliminación
 1. Cierra la aplicación VitaShell
 
 #### Sección III - Bloquear actualizaciones
@@ -82,9 +82,9 @@ También bloquearemos las actualizaciones usando un servidor DNS. The server tri
   + Esto se denota por un punto verde junto a la red
 1. Selecciona "Ajustes avanzados"
 1. Establece la "Configuración del DNS" en "Modo manual"
-  + You must apply the following DNS settings to each network you use
+  + Debes aplicar los siguientes ajustes DNS a cada red que utilices
 1. Establece el "DNS primario" como `212.47.229.76`
-1. Set "Secondary DNS" to `212.47.229.76`
+1. Establece el "DNS secundario" como `212.47.229.76`
 1. Asegúrate de que "Servidor proxy" está configurado como "No usar"
 1. Cierra la aplicación Ajustes
 
@@ -95,7 +95,7 @@ También bloquearemos las actualizaciones usando un servidor DNS. The server tri
 1. Marca "Enable PSN spoofing"
 1. Marca "Enable Version Spoofing"
 1. Ve a "Spoofed Version"
-1. Enter "3.71" into the box
+1. Escribe "3.71" en el cuadro de texto
   + Cuando se publique una nueva versión en el futuro, debes cambiar la versión falsificada para coincidir de modo de poder acceder a PSN
 1. Cierra la aplicación Ajustes
 
