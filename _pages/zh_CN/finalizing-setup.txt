@@ -15,9 +15,9 @@ title: "完成安装"
 +  **shellbat** *(在状态栏中显示准确的电池百分比)*
 +  **pngshot** *(改进内置的屏幕截图程序)*
 
-In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
+为了在你的设备安装必要的 `.vpk` 安装包，我们使用 [FTP](https://zh.m.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE) 来将文件复制到你设备的内存卡。
 
-We will also block updates using a DNS server. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
+我们还将使用 DNS 服务器来阻止系统更新。 DNS 服务器将使主机认为 3.60 是最新版本，而不会更新到 3.60 之后的版本。 这是非常有用的，因为 3.60 是能运行 HENkaku 的最早固件。 你必须在每个你想连接的网络中都做一次才能阻止系统更新。
 
 ### 准备工作
 
@@ -66,10 +66,10 @@ We will also block updates using a DNS server. The server tricks your device int
 #### 第二步 － 安装 .vpk 文件
 
 1. 在你的设备上移动至 `ux0:` -> `data/`
-1. Press (Cross) on `VitaHBBrowser.vpk` to install it
+1. 在 `VitaHBBrowser.vpk` 上按 “×” 键以进行安装
 1. 按下 “×” 键确认安装
-1. Press (Cross) to continue the install if you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the `.vpk` file
+1. 当系统提示有关 “扩展权限(extended permissions)” 的时候, 按 “×” 键确认以继续安装
+1. 按下 “△” 键打开菜单, 然后选择 “Delete” 以删除 `.vpk` 文件
 1. 按下 “×” 键确认删除
 1. 关闭 VitaShell 应用
 
@@ -82,9 +82,9 @@ We will also block updates using a DNS server. The server tricks your device int
   + 已连接的网络旁边会有绿色的点
 1. 选择 “高级设置(Advanced Settings)”
 1. 找到 “DNS 设置(DNS Settings)” 并将它设置为“手动(Manual)”
-  + You must apply the following DNS settings to each network you use
+  + 你必须在每个你想连接的网络中都做一次。
 1. 将 “主DNS(Primary DNS)” 设置为 `212.47.229.76`
-1. Set "Secondary DNS" to `212.47.229.76`
+1. 将 “备用DNS(Secondary DNS)” 设为 `212.47.229.76`
 1. 确认“代理服务器 (Proxy)” 设置为 “不使用(Do Not Use)”
 1. 关闭系统设置
 
@@ -95,7 +95,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. 勾选 “启用PSN伪装(Enable PSN spoofing)”
 1. 勾选 “开启版本伪装(Enable Version Spoofing)”
 1. 移动至“版本伪装(Spoofed Version)”
-1. Enter "3.71" into the box
+1. 输入 “3.71” 到框中
   + 如果以后索尼更新了系统固件，则你必须把其数值替换成最新版本才能访问 PSN
 1. 关闭系统设置
 
