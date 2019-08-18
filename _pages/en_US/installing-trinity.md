@@ -69,7 +69,7 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 1. Copy the Trinity `PBOOT.PBP` to `ux0_pspemu_temp_game_PSP_GAME_YYYYZZZZZ/PBOOT.PBP`
   - Make YYYYZZZZZ the title ID you identified earlier
   - If `PBOOT.PBP` already exists, overwrite it
-1. Re-encrypt the backup with the command: `psvimg-create -n game -K YOUR_KEY game_dec game`
+1. Re-encrypt the backup with the command: `./psvimg-create -n game -K YOUR_KEY game_dec game`
   - Again, replace `YOUR_KEY` with he key you got from [cma.henkaku.xyz](http://cma.henkaku.xyz/) earlier
 1. Delete the `game_dec` folder
 1. Delete all psvimgtools in the folder
