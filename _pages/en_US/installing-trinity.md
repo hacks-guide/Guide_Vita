@@ -61,12 +61,6 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
   - You can see the icon of the game in the folder at `sce_sys/icon0.png`
   - The folder should contain the folders `game`, `license` and `sce_sys`.
 1. Once you've correctly identified the right game, copy it as a backup to somewhere safe on your computer
-<<<<<<< HEAD
-  - If you have any other games in the folder, back them up to another folder and remove them from the `PGAME` folder
-1. Open the `GUI.py` file in the FinTrinity `.zip` file using Python
-1. Check that FinTrinity has detected the right game, and select "Confirm"
-1. When it's complete, select "Finished"
-=======
 1. Copy the account ID (16 character string) that you idenitified earlier and paste it into [cma.henkaku.xyz](http://cma.henkaku.xyz/)
   - This will give you a key which you can use to decrypt/re-encrypt your game
 1. Unzip the psvimgtools `.zip` file into the game folder
@@ -81,7 +75,6 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
   - Again, replace `YOUR_KEY` with he key you got from [cma.henkaku.xyz](http://cma.henkaku.xyz/) earlier
 1. Delete the `game_dec` folder
 1. Delete all psvimgtools in the folder
->>>>>>> 3d1034d7240118a03fcd4e9bd46a7f9d04852817
 
 ### Section III - Restoring to System
 
