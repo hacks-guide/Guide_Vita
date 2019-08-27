@@ -1,0 +1,104 @@
+---
+title: "Installing h-encore² (MacOS / Linux)"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+The h-encore² exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.72.
+
+Note that the h-encore² exploit chain is not “persistent” (meaning it does not remain installed after a reboot). This means you will have to run the exploit again after each reboot.
+
+In addition to installing the h-encore² exploit, we enable access to “unsafe” homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the “administrator” mode on a computer.
+
+The h-encore² installation is performed manually and requires the use of the command line. MacOS or Linux is required for this guide.
+
+Downgrading with modoru while using the h-encore² on firmware 3.71 and above can stop your device from working. Do not downgrade your device until further notice.
+{: .notice--danger}
+
+If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
+{: .notice--info}
+
+### What You Need
+
+* [unpack.sh]({{ "/assets/files/unpack.sh" | absolute_url }}){:download="unpack.sh"}
+* The `.pkg` format demo of [Bitter Smile](http://ares.dl.playstation.net/cdn/JP0741/PCSG90096_00/xGMrXOkORxWRyqzLMihZPqsXAbAXLzvAdJFqtPJLAZTgOcqJobxQAhLNbgiFydVlcmVOrpZKklOYxizQCRpiLfjeROuWivGXfwgkq.pkg)
+* The latest release of [h-encore²](https://github.com/TheOfficialFloW/h-encore-2/releases/latest)
+* The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) *(the `.zip` file for your OS)*
+* The latest version of [pkg2zip](https://github.com/mmozeiko/pkg2zip/archive/master.zip)
+  + You will need to compile pkg2zip manually by following the [readme](https://github.com/mmozeiko/pkg2zip/blob/master/README.md#building)
+* The latest release of [QCMA](https://github.com/codestation/qcma/releases/latest)
+  + Uninstall the official Sony CMA if it is already installed
+  + MacOS users should download the "noffmpeg" version of QCMA
+
+### Instructions
+
+#### Section I - Prep Work
+
+1. Install and launch QCMA on your computer if you have not already
+1. Copy the contents of the auto h-encore `.zip` to a folder on your computer
+1. Launch the Content Manager application on your device
+1. Select "Copy Content"
+1. Select "PC"
+1. Select the method you wish to use to connect to QCMA
+  + If you are prompted to log-in to a PlayStation Network Account, do so
+  + If you do not have a PlayStation Network Account, create one
+1. Select / register your computer if prompted
+
+#### Section II - Installing h-encore²
+
+1. Open [cma.henkaku.xyz](http://cma.henkaku.xyz/) on your computer
+1. Navigate to the `PS Vita/APP/` folder on your computer using the file explorer
+  + By default, this directory will be in the `Documents` folder on your computer
+  + If you cannot find it, check the QCMA "Applications / Backups" setting
+1. Copy the name of the folder in this directory, then paste it into the "AID" box on the CMA website
+  + Here is an example AID: `ec8d45ec9c055609`
+1. Select "Submit" to generate the corresponding key
+  + Keep this page open; you will need this key soon
+  + Here is an example key: `488d3ff6cce7a9ef1be6da8338c7d18db18147c3255fa4d50596568555687174`
+1. Copy the contents h-encore `.zip` to a folder on your computer
+1. Copy the contents of the psvimgtools `.zip` to that folder
+1. Copy the compiled `pkg2zip` binary to that folder
+1. Move the Bitter Smile `.pkg` file to that folder
+1. Copy `unpack.sh` to that folder
+1. Open a terminal window
+1. `cd` into that folder
+1. Run `sh unpack.sh`
+1. Run `./psvimg-create -n app -K YOUR_KEY app PCSG90096/app`
+  + Replace "YOUR_KEY" with the key we generated earlier
+1. Run `./psvimg-create -n appmeta -K YOUR_KEY appmeta PCSG90096/appmeta`
+1. Run `./psvimg-create -n license -K YOUR_KEY license PCSG90096/license`
+1. Run `./psvimg-create -n savedata -K YOUR_KEY savedata PCSG90096/savedata`
+1. Close your terminal window
+1. Copy the `PCSG90096` folder to the `PS Vita/APP/YOUR_AID/` folder on your computer using the file explorer
+
+#### Section III - QCMA Transfer
+
+1. Right-click the QCMA icon in the system tray, then select "Refresh database"
+1. In the Content Manager application on your device, select "PC -> PS Vita System"
+1. Select "Applications"
+1. Select "PS Vita"
+1. Select "h-encore²"
+1. Select "Copy"
+1. Select "OK"
+  + The h-encore² exploit will be copied to your device
+  + This process will take some time
+1. Close the Content Manager application
+
+#### Section IV - Configuring HENkaku
+
+1. Launch the Settings application
+1. Navigate to `HENkaku Settings`
+  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore² bootstrap menu, then try again
+1. Check "Enable Unsafe Homebrew"
+1. Return to HENkaku Settings menu
+1. Close the Settings application
+
+___
+
+### If you are on firmware version 3.70 or below, continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
+{: .notice--primary}
+
+### If you are on firwmare version 3.71 or above, continue to [Finalizing Setup](finalizing-setup)
+{: .notice--primary}
