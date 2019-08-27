@@ -52,7 +52,7 @@ Your device version can be found under the System Information menu in the System
     <tr>
       <td style="text-align: center; font-weight: bold;">3.65</td>
       <td style="text-align: center; font-weight: bold;">3.65</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">Installing h-encore</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore-(windows)">Installing h-encore (Windows)</a> or <a href="installing-h-encore-(macos)">Installing h-encore (MacOS)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.67</td>
@@ -62,7 +62,7 @@ Your device version can be found under the System Information menu in the System
     <tr>
       <td style="text-align: center; font-weight: bold;">3.68</td>
       <td style="text-align: center; font-weight: bold;">3.68</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">Installing h-encore</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore-(windows)">Installing h-encore (Windows)</a> or <a href="installing-h-encore-(macos)">Installing h-encore (MacOS)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.69</td>
@@ -70,12 +70,9 @@ Your device version can be found under the System Information menu in the System
       <td style="text-align: center; font-weight: bold;"><a href="preparing-for-trinity">Preparing for Trinity</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">3.71</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore-2">Installing h-encore²</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">3.72</td>
-      <td style="text-align: center; font-weight: bold;"><a href="blocking-updates">Blocking Updates</a></td>
+      <td style="text-align: center; font-weight: bold;">3.71</td>
+      <td style="text-align: center; font-weight: bold;">3.72</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore-2-(windows)">Installing h-encore² (Windows)</a></td>
     </tr>
   </tbody>
 </table>
