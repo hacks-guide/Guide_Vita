@@ -58,13 +58,15 @@ title: 降級韌體 (3.65)
 #### 第三節 — 降級作業
 
 1. 重新啟動您的主機
-1. 於啟動 h-encore 時按住『R』鍵
-  + 如提示獎盃相關訊息時，按住「R」並選擇『是 (Yes)』
-1. 如果漏洞成功執行的話，您將會看到 h-encore 引導選單
-  + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
-  + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
+1. Launch your homebrew application
+      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
+      <ol><li>Launch the h-encore application while holding (R)</li>
+      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
+      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
+      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
+      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
+      <li>For 3.69 and above, this will be Trinity</li></ul>
 1. 選擇『Install HENkaku』
-  + 這將會安裝 HENkaku 漏洞，並啟用自製軟體存取權直到下次重啟
 1. 選擇『Exit』
 1. 啟動 modoru
 1. 按「X」鍵確認降級至 3.65
