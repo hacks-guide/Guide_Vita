@@ -1,16 +1,21 @@
 ---
-title: "Installer h-encore"
+title: Installing h-encore
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-La chaine d'exploit h-encore pour la PS Vita (TV) permet l'installation de homebrew sur votre système. It est compatible avec les firmwares 3.65 à .3.68.
+The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.72.
 
-Notez que la chaine d'exploit h-encore n'est pas "permanente" (le hack disparaîtra après un redémarrage). Aux fins de ces instructions, nous nous contenterons de l'utiliser pour obtenir le niveau d'accès requis pour downgrader vers la version 3.60 du firmware afin d'installer des exploits plus puissants.
+Note that the h-encore exploit chain is not “persistent” (meaning it does not remain installed after a reboot). This means you will have to run the exploit again after each reboot.
 
-En plus d'installer l'exploit h-encore, nous allons autoriser le lancement d'homebrew dit "unsafe" (qui demande des permissions étendu). Ce mode peut être considéré comme étant un mode "administrateur" sur un ordinateur.
+In addition to installing the h-encore exploit, we enable access to “unsafe” homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the “administrator” mode on a computer.
+
+If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.72, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
+
+Downgrading with modoru while using the h-encore² on firmware 3.71 and above can stop your device from working. Do not downgrade your device until further notice.
+{: .notice--danger}
 
 Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (de n'importe quel taille) pour suivre ce guide. Cette restriction ne s'applique pas pour les PS Vita 2000 et PS TV car ceux ci dispose d'une mémoire interne.
 {: .notice--info}
@@ -18,6 +23,7 @@ Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (d
 ### Ce dont vous aurez besoin
 
 * La dernière version de [finalhe](https://github.com/soarqin/finalhe/releases/latest)
+  - If you are using MacOS or Linux you will be required to compile finalhe yourself
 
 ### Instructions
 
@@ -25,7 +31,7 @@ Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (d
 
 1. Copiez le contenu du fichier zip de finalhe vers un dossier sur votre ordinateur
 1. Lancez finalhe sur votre ordinateur
-  + Si vous utilisez un ordinateur Windows et qu'il vous demande si vous devez autoriser l'accès au réseaux faite oui.
+  + If you are prompted to allow finalhe network access through the firewall, do so
 1. Lancez l’application Gestionnaire de Contenu
 1. Sélectionnez "Copier du contenu"
 1. Sélectionnez "PC"
@@ -35,19 +41,20 @@ Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (d
 1. Choisissez enregistrer l'ordinateur si cela vous est demandé
   + Si vous rencontré un message vous demandant de mettre a jour votre appareil, veuillez redémarrer en mode sans échec (appuyez sur Ps + R + bouton d'allumage) et activez l'option mettre à jour la base de donnée
   + Si vous rencontrez toujours ce message, suivez les instructions de [Blocking Updates](blocking-updates) et réessayez
-  + Si vous *stil* rencontrez ce message, activez le Mode Avion dans les paramètres système et réessayez (cela ne fonctionnera *pas* sur les PS TVs)
-  + Si votre appareil n'est pas pas détécté via USB sur Windows, installez [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) et essayez encore
+  + If you *still* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
+  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
 
 #### Section II - Réduire la taille de h-encore a 13MO
 
 1. Choisissez "Trim h-encore to ~13MB"
+  + Only do this step if you are on 3.68 or below
 1. Choisissez "Let's GO!"
   + Les fichiers nécessaire à l'exploit seront automatiquement téléchargé et préparé
   + Ce processus prendra un certain temps
 1. Coisissez "PC -> système PS Vita" sur votre PS VITA dans l'application Gestionnaire de Contenu
 1. Sélectionner "Applications"
 1. Sélectionnez "PS Vita"
-1. Selectionnez "h-encore"
+1. Select "h-encore" or "h-encore²" depending on which is displayed
 1. Sélectionnez "Copier"
 1. Sélectionnez "OK"
   + L'exploit h-encore sera copié vers votre Ps Vita
@@ -56,6 +63,9 @@ Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (d
 1. Fermez finalhe sur votre ordinateur
 
 #### Section III - Configuration de h-encore
+
+h-encore² only has a ~25% success rate. It may take a long time to launch the h-encore² exploit.
+{: .notice--warning}
 
 1. Lancez l'application h-encore en maintenant (R)
   Si un message apparait à propos des trophées, continuez à appuyer sur (R) et choisissez "Oui"
@@ -80,5 +90,8 @@ Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (d
 
 ___
 
-### Continuez vers [Downgrade du Firmware (3.60)](downgrading-firmware-(3.60))
+### If you are on firmware version 3.70 or below, continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
+{: .notice--primary}
+
+### If you are on firwmare version 3.71 or above, continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
