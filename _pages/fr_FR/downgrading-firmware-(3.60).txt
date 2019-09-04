@@ -8,9 +8,9 @@ Nous allons maintenant downgrader votre appareil vers le logicielle système 3.6
 
 Ensō+HENkaku est une solution complète CFW pour la PS Vita (TV) qui permet de lancer henkaku dès le démarrage de la console pour pouvoir directement lancer les homebrews.
 
-C'est une solution plus aisé que l'exploit h-encore qui doit être lancé à chaque redémarrage de la console.
+It is more convenient than h-encore and Trinity as it does not require you to trigger an exploit on your device after every reboot manually.
 
-Bien qu'il soit possible d'exécuter homebrew sur votre version actuelle du logicielle système à l'aide d'h-encore ou d'Ensō, la mise à jour vers la version 3.60 vous fournira la plus grande compatibilité de homebrew.
+While it is possible to run homebrew on your current firmware version using either h-encore, Trinity or Ensō, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
 
 Depuis la sortie du plugin reF00D, il y a très peu (s'il y en a) désavantage à exécuter la version 3.60 du firmware car ce plugin vous permet d'installer et de jouer à des jeux qui auraient normalement besoin d'une version du firmware plus récente.
 
@@ -55,7 +55,7 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 1. Appuyez sur (croix) pour fermer la boîte de dialogue de fichier copié
 1. Appuyez sur (Rond) pour retourner vers `ux0:`
 1. Naviguez vers `app` -> `MODORU000`
-1. Appuyez sur (Triangle) pour ouvrir le menu, puis sélectionnez « Coller » pour coller `PSP2UPDAT.PUP` dans le dossier
+1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
 1. Appuyez sur (Rond) pour retourner vers `ux0:`
 1. Appuyez sur (Triangle) sur le dossier `tai` pour ouvrir le menu, et sélectionnez "Delete" pour supprimer le dossier `tai`.
 1. Appuyez sur (Croix) pour confirmer la suppression
@@ -64,11 +64,14 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 #### Section III - Préparation au Downgrade
 
 1. Redémarrez votre machine
-1. Lancez l'application h-encore en maintenant (R)
-  Si un message apparait à propos des trophées, continuez à appuyer sur (R) et choisissez "Oui"
-1. Si l'exploit est un succès, vous verrez maintenant le menu bootstrap de h-encore
-  + Si l'exploit est figé sur un écran blanc, simplement fermer l'application (qui causera un plantage et un redémarrage de votre console), ensuite essayez encore
-  + S'il est encore figé, maintenez le bouton d'alimentation pendant plus de 30 secondes pour forcer un redémarrage, ensuite essayez encore
+1. Launch your homebrew application
+      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
+      <ol><li>Launch the h-encore application while holding (R)</li>
+      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
+      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
+      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
+      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
+      <li>For 3.69 and above, this will be Trinity</li></ul>
 1. Sélectionnez "install HENkaku"
   + Cela installera l'exploit HENkaku et permettra l'accès aux homebrews jusqu'au prochain redémarrage
 1. Sélectionnez "EXIT"
@@ -86,6 +89,7 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
   + Si vous êtes actuellement sur la version 3.65 du logicielle système, passez à [Installer Ensō (3.65)](installing-enso-(3.65))
   + Si vous êtes actuellement sur une version du logicielle système au-dessus de 3.65 et que le "Factory firmware" (version logicielle système d'usine) listé est 3.65 ou inférieur, passez à [Téléchargement de Firmware (3.65)](downgrading-firmware-(3.65))
   + Si vous êtes actuellement sur une version du firmware au-dessus de 3.65 et que le "Factory firmware" (version logicielle système d'usine) listé est supérieur à 3.65, passez à [Configuration de h-encore](configuring-h-encore)
+  + If you are currently on a firmware above 3.69 and the listed "Factory firmware" is greater than 3.68, proceed to [Finalizing Setup](finalizing-setup)
 1. Appuyez sur (Croix) pour accepter les termes et conditions d'utilisation.
 1. Votre appareil commencera le downgrade
 1. Attendez que le downgrade soit terminé, votre appareil redémarrera automatiquement.
