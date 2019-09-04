@@ -14,9 +14,6 @@ In addition to installing the h-encore exploit, we enable access to “unsafe”
 
 If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.72, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
 
-Downgrading with modoru while using the h-encore² on firmware 3.71 and above can stop your device from working. Do not downgrade your device until further notice.
-{: .notice--danger}
-
 如果你的设备是 PS Vita 1000，你需要用到一张 Sony 原厂内存卡（任意容量）来继续此教程。 此限制不适用于 PS Vita 2000 或 PS TV，因为这些机型都有内置储存卡。
 {: .notice--info}
 
@@ -90,8 +87,5 @@ h-encore² only has a ~25% success rate. It may take a long time to launch the h
 
 ___
 
-### If you are on firmware version 3.70 or below, continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
-{: .notice--primary}
-
-### If you are on firwmare version 3.71 or above, continue to [Finalizing Setup](finalizing-setup)
+### Continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
 {: .notice--primary}
