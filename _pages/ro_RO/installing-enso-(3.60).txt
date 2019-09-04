@@ -1,5 +1,5 @@
 ---
-title: "Installing Ensō (3.60)"
+title: "Instalând Ensō (3.60)"
 ---
 
 {% include toc title="Cuprins" %}
@@ -8,25 +8,25 @@ title: "Installing Ensō (3.60)"
 
 Ensō este cea mai bună soluţie de CFW disponibilă pentru PS Vita (TV), care permite acces convenbil la homebrew pe dispozitiv executând un exploit în timpul pornirii pentru a genera un spaţiu de lucru pentru HENkaku.
 
-It is more convenient than HENkaku as it does not require you to trigger an exploit on your device after every reboot manually.
+Este mai convenabil decât HENkaku de vreme ce nu are nevoie să porniţi un exploit pe dispozitiv după fiecare repornire manuală.
 
 ### Ce aveți nevoie
 
 * Un Client FTP, cum ar fi [WinSCP](https://winscp.net/) sau [CyberDuck](https://cyberduck.io/)
-* The latest release of [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
-* The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
+* Ultima versiune de [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
+* Ultima versiune de [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
 
 ### Instrucțiuni
 
 #### Secțiunea I - Preparații
 
-1. Launch the molecularShell application
+1. Lansați aplicația molecularShell
 1. Apăsați (Select) pentru a activa accesul FTP pe dispozitiv
 1. Deschideţi clientul FTP pe computer
 1. Introduceţi adresa IP şi Portul afişat pe aparatul dvs
 1. Folosind clientul FTP, navigați la `ux0:` -> `data /`
 1. Transferați `enso.vpk` către folderul `data`
-1. Transfer `VitaShell.vpk` to the `data` folder
+1. Transferați `VitaShell.vpk` către folderul `data`
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
 
 #### Secţiunea III - Instalând VPK-uri
@@ -38,7 +38,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 1. Apăsați (X) pentru a continua instalarea de fiecare dată când vi se solicită permisiuni extinse
 1. Apăsați (Triunghi) pentru a deschide meniul, apoi selectați "Delete" pentru a șterge fișierele marcate
 1. Apăsați (X) pentru a confirma stergerea
-1. Close the molecularShell application
+1. Închideți aplicația molecularShell
 
 #### Secţiunea III - Instalând Ensō
 
