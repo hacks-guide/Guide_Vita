@@ -1,16 +1,21 @@
 ---
-title: "Instalând h-encore"
+title: Installing h-encore
 ---
 
 {% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-Lanțul de exploits de h-encore pentru PS Vita (TV) permite instalarea de aplicații homebrew pentru ecranul de pornire. It is compatible with the firmware versions 3.65 and 3.68.
+The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.72.
 
-Țineți cont că lanțul de exploit-uri h-encore nu este "persistent" (ceea ce înseamnă că nu rămâne instalat după o repornire). For the purposes of these instructions, we will be merely using it in order to gain the level of access required to downgrade to firmware version 3.60 in order to install more powerful exploits.
+Note that the h-encore exploit chain is not “persistent” (meaning it does not remain installed after a reboot). This means you will have to run the exploit again after each reboot.
 
-În plus, faţă de instalarea exploit-ului h-encore, vom activa accesul la homebrew "nesigur" care dă permisiuni extinse la aplicaţiile homebrew. Această idee ar putea fi considerată similară cu modul de "administrator" de pe un calculator.
+In addition to installing the h-encore exploit, we enable access to “unsafe” homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the “administrator” mode on a computer.
+
+If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.72, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
+
+Downgrading with modoru while using the h-encore² on firmware 3.71 and above can stop your device from working. Do not downgrade your device until further notice.
+{: .notice--danger}
 
 Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie Sony (de orice mărime) pentru a urma acest ghid. Această restricţie nu se aplică la PS Vita 2000 sau PS TV de vreme ce aceste dispozitive au un card de memorie incorporat.
 {: .notice--info}
@@ -18,14 +23,15 @@ Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie 
 ### Ce aveți nevoie
 
 * Ultima versiune de [finalhe](https://github.com/soarqin/finalhe/releases/latest)
+  - If you are using MacOS or Linux you will be required to compile finalhe yourself
 
 ### Instrucțiuni
 
-#### Section I - finalhe
+#### Secțiunea I - finalhe
 
 1. Copiați conținutul arhivei `.zip` către un folder de pe calculator
 1. Porniți finalhe pe calculator
-  + Dacă folosiți un calculator Windows și firewall-ul vă cere să permiteți accesul la rețea pentru finalhe, faceți astfel
+  + If you are prompted to allow finalhe network access through the firewall, do so
 1. Lansați aplicația Content Manager pe dispozitiv
 1. Selectați "Copy Content"
 1. Selectați "PC"
@@ -34,51 +40,58 @@ Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie 
   + Dacă nu aveți un cont PlayStation Network, creați unul
 1. Selectați / înregistrați calculatorul când vi se cere
   + Dacă vedeți un mesaj care vă cere să actualizați, reporniţi dispozitivul și încercați din nou
-  + If you still encounter this message, follow the instructions on [Blocking Updates](blocking-updates) and try again
-  + If you *stil* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
-  + Dacă dispozitivul nu este detectat prin USB pe Windows, instalați [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) și încercați din nou
+  + Dacă încă vedeți acest mesaj, urmați instrucțiunile de pe [Blocând actualizări](blocking-updates) și încercați din nou
+  + Dacă *încă* mai vedeți acest mesaj, activați Modul avion în System Settings și încercați din nou (această metodă *nu* va funcționa pe un PS TV)
+  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
 
-#### Section II - h-encore Transfer
+#### Secțiunea II - Transfer de h-encore
 
 1. Selectați "Trim h-encore to ~13MB"
+  + Only do this step if you are on 3.68 or below
 1. Selectați "Let's GO!"
   + Fișierele de exploit vor fi descărcate și pregătite automatic
   + Acest proces va lua ceva timp
 1. Selectați "PC -> PS Vita System" pe dispozitiv
 1. Selectați "Applications"
 1. Selectaţi "PS Vita"
-1. Selectaţi "h-encore"
+1. Select "h-encore" or "h-encore²" depending on which is displayed
 1. Selectați "Copy"
 1. Selectați "OK"
   + Exploit-ul h-encore va fi copiat pe dispozitiv
   + Acest proces va lua ceva timp
 1. Închideți aplicația Content Manager pe dispozitiv
-1. Close finalhe on your computer
+1. Închideți finalhe pe calculator
 
-#### Section III - Configuring h-encore
+#### Secțiunea III - Configurând h-encore
 
-1. Launch the h-encore application while holding (R)
-  + If prompted about trophies, continue holding (R) and select "Yes"
+h-encore² only has a ~25% success rate. It may take a long time to launch the h-encore² exploit.
+{: .notice--warning}
+
+1. Lansați aplicaţia h-encore în timp ce ţineţi (R)
+  + Dacă vi se întreabă despre trofee, țineți apăsat (R) și selectați Yes"
 1. În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore
   + Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou
   + În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou
 1. Selectaţi "Install HENkaku"
   + Aceasta va instala exploit-ul HENkaku şi va permite accesul la homebrew până la următoarea repornire
-1. Select "Download VitaShell"
-  + This will install the VitaShell homebrew application for managing your device's filesystem
-  + VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
+1. Selectați "Download VitaShell"
+  + Aceasta va instala aplicația de homebrew VitaShell pentru a administra sistemul de fișiere al dispozitivului
+  + VitaShell (și toate aplicațiile de homebrew în general) vor rămâne instalate după o repornire, dar vor afișa o eroare la lansare dacă exploit-ul HENkaku nu este activ
 1. Selectaţi "Exit"
 
-#### Section IV - Configuring HENkaku
+#### Secțiunea IV - Configurând HENkaku
 
 1. Lansați aplicația Settings
 1. Navigați spre `HENkaku Settings`
-  + If HENkaku Settings is missing, select the "Reset taiHEN config.txt" in the h-encore bootstrap menu, then try again
+  + În cazul în care setările HENkaku lipsesc, selectaţi "Reset taiHEN config.txt" în meniul de pornire h-encore, apoi încercați din nou
 1. Activați "Enable Unsafe Homebrew"
 1. Reveniți la meniul de setări HENkaku
 1. Închideți aplicația Settings
 
 ___
 
-### Continue to [Downgrading Firmware (3.60)](downgrading-firmware-(3.60))
+### If you are on firmware version 3.70 or below, continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
+{: .notice--primary}
+
+### If you are on firwmare version 3.71 or above, continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
