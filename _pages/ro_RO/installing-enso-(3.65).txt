@@ -6,15 +6,15 @@ title: "Instalând Ensō (3.65)"
 
 ### Lectură obligatorie
 
-If your device on firmware version 3.65 was unable to downgrade to firmware version 3.60 due to its "factory firmware", you will fortunately still be able to use the more convenience Ensō boot-time exploit.
+Dacă dispozitivul cu versiunea de firmware 3.65 nu a reușit să se retrogradeze la 3.60 din cauza "firmware-ului de fabrică", încă veți avea șansa să folosiți exploit-ul mai convenabil activat la pornire, Ensō.
 
-Unfortunately, you may experience minor software incompatibilities as you will not be able to use any homebrew which is only compatible with 3.60.
+Din păcate, este posibil să apară incompatibilități minore de software de vreme ce nu veți fi capabil de a folosi orice homebrew care este compatibil numai cu 3.60.
 
 ### Ce aveți nevoie
 
 * Un Client FTP, cum ar fi [WinSCP](https://winscp.net/) sau [CyberDuck](https://cyberduck.io/)
   + Alternativ, puteţi utiliza VitaShell in modul USB
-* The latest release of [Ensō (3.65)](https://github.com/TheOfficialFloW/enso/releases/latest/)
+* Ultima versiune de [Ensō (3.65)](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
 ### Instrucțiuni
 
