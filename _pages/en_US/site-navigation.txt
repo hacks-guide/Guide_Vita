@@ -23,9 +23,6 @@ sitemap: false
 + [Installing Ensō (3.65)](installing-enso-(3.65))
 + [Installing h-encore](installing-h-encore)
 + [Installing HENkaku](installing-henkaku)
-+ [Installing Trinity (Windows)](installing-trinity-(windows))
-+ [Installing Trinity](installing-trinity)
-+ [Preparing for Trinity](preparing-for-trinity)
 + [Privacy Policy](privacy-policy)
 + [Storage Format (Linux)](storage-format-(linux))
 + [Storage Format (Mac)](storage-format-(mac))
@@ -33,8 +30,8 @@ sitemap: false
 + [StorageMgr](storagemgr)
 + [Troubleshooting](troubleshooting)
 + [Updating Firmware (3.60)](updating-firmware-(3.60))
-+ [Updating Firmware (PS TV 3.65 and 3.68)](updating-firmware-(ps-tv-3.65-and-3.68))
-+ [Updating Firmware (PS Vita 3.65 and 3.68)](updating-firmware-(ps-vita-3.65-and-3.68))
++ [Updating Firmware (PS TV 3.65)](updating-firmware-(ps-tv-3.65))
++ [Updating Firmware (PS Vita 3.65)](updating-firmware-(ps-vita-3.65))
 + [Why Ads?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

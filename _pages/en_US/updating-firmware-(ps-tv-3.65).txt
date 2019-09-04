@@ -1,5 +1,6 @@
 ---
 title: "Updating Firmware (PS TV 3.65)"
+redirect_from: /updating-firmware-(ps-tv-3.65-and-3.68)
 ---
 
 {% include toc title="Table of Contents" %}
