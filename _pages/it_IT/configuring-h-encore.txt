@@ -1,24 +1,24 @@
 ---
-title: "Configuring h-encore"
+title: "Configurazione di h-encore"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
-If your device was unable to downgrade to either 3.60 or 3.65 due to its "factory firmware", you will be unable to use the more convenient Ensō boot-time exploit.
+Se il tuo dispositivo non è stato in grado di effettuare il downgrade a 3.60 o 3.65 a causa della sua "versione di fabbrica", non potrai usare il più conveniente exploit Ensō.
 
-As a result, you will have to perform the h-encore exploit manually after each reboot. To make this slightly more convenient, we will disable the "trophy warning" that currently appears on every launch of the h-encore exploit.
+Di conseguenza, dovrai eseguire l'exploit di h-encore manualmente dopo ogni riavvio. Per renderlo un po' più semplice, disabiliteremo l' "Avviso trofei" che attualmente appare ad ogni lancio dell'exploit h-encore.
 
-### Instructions
+### Istruzioni
 
-#### Section I - Disabling Trophy Warning
+#### Sezione I - Disabilitare Avviso Trofei
 
-1. Launch the h-encore application while holding (R)
-1. Select "Personalize savedata"
-1. Select "Exit"
+1. Apri l'applicazione h-encore tenendo premuto (R)
+1. Seleziona "Personalize savedata"
+1. Seleziona "Exit"
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Prosegui con il [Completamento dell'installazione](finalizing-setup)
 {: .notice--primary}
