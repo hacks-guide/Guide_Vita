@@ -1,4 +1,3 @@
-
 ---
 title: "Actualizar firmware (3.60)"
 ---
