@@ -8,9 +8,9 @@ Adesso faremo un downgrade della console per riportarla alla versione di sistema
 
 Ensō è un CFW per la PS Vita (TV) che ti permette un accesso agli homebrew più comodo, facendo avviare automaticamente un exploit ad ogni avvio della console.
 
-È più comodo di h-encore e di Trinity, poichè non richiede di riavviare l'exploit manualmente dopo ogni riavvio della console.
+It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
 
-Anche se è possibile avviare programmi homebrew sulla tua versione di sistema corrente utilizzando h-encore, Trinity o Ensō, il downgrade alla versione di sistema 3.60 ti fornirà la massima compatibilità con i vari programmi homebrew.
+While it is possible to run homebrew on most firmware versions, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
 
 Dal rilascio del plugin di sistema reF00D, ci sono pochissimi (se nulli) svantaggi nell'utilizzare la versione di sistema 3.60, dato che questo plugin ti permette di installare e giocare a giochi che normalmente richiederebbero una versione di sistema più alta.
 
@@ -64,14 +64,11 @@ Assicurati prima di procedere che la tua console sia carica almeno al 50% di bat
 #### Sezione III - Preparazione al Downgrade
 
 1. Riavvia la console
-1. Avvia la tua applicazione homebrew
-      <ul><li>Per le versioni da 3.65 a 3.68, questa sarà h-encore</li>
-      <ol><li>Avvia l'applicazione h-encore tenendo premuto (R)</li>
-      <ul><li>Se ti viene richiesto qualcosa riguardo ai trofei, continua a tener premuto (R) e seleziona "Yes"</li></ul>
-      <li>Se l'exploit ha avuto successo, ti troverai sul bootstrap menu di h-encore </li>
-      <ul><li>Se l'exploit è bloccato su una schermata bianca, chiudi semplicemente l'applicazione (che causerà un crash e riavvio della console), poi riprova</li>
-      <li>Se la console è ancora bloccata, tieni premuto il pulsante di accensione per più di 30 secondi per forzare un riavvio, quindi riprova</li></ul></ol>
-      <li>Per 3.69 e superiori, questa sarà Trinity</li></ul>
+1. Apri l'applicazione h-encore tenendo premuto (R)
+  + Se ti viene richiesto qualcosa riguardo ai trofei, continua a tener premuto (R) e seleziona "Yes"
+1. Se l'exploit ha avuto successo, ti ritroverai sull'h-encore bootstrap menu
+  + Se l'exploit è bloccato su una schermata bianca, chiudi semplicemente l'applicazione (che causerà un crash e il riavvio della console), quindi riprova
+  + Se la console è ancora bloccata, tieni premuto il pulsante di accensione per più di 30 secondi per forzare un riavvio, quindi riprova
 1. Seleziona "Install HENkaku"
   + Questa opzione installerà l'exploit HENkaku e abiliterà l'accesso agli homebrew fino al prossimo riavvio
 1. Seleziona "Exit"
