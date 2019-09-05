@@ -8,9 +8,9 @@ title: 降级固件 (3.60)
 
 Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方案，可在你的主机开机时自动配置HENkaku环境，可以在你的设备上方便地使用自制软件。
 
-它比h-encore和Trinity更方便，因为它不需要你在每次重启后手动触发设备上的漏洞。
+It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
 
-虽然h-encore、Trinity和Ensō可在你目前的系统版本上运行自制程序，但降级到固件版本 3.60 将为你提供最大的自制程序兼容性。
+While it is possible to run homebrew on most firmware versions, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
 
 自reF00D系统插件发布以来，让设备运行 3.60 系统的缺点几乎没有（如果有的话），因为这个插件允许你安装和玩任何需要更新系统版本的游戏。
 
@@ -64,14 +64,11 @@ Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方�
 #### 第三步 — 降级前准备
 
 1. 重启你的设备
-1. 启动你的 homebrew 应用
-      <ul><li>对于3.65到3.68之间的系统，这是h-encore</li>
-      <ol><li>在启动h-encore应用程序的同时按下“R”键</li>
-      <ul><li>如果提示有关奖杯的信息，请继续按住“R”键并选择“Yes”</li></ul>
-      <li>如果漏洞成功触发，你现在将看到h-encore引导程序菜单</li>
-      <ul><li>如果漏洞触发后卡在白屏上，只需关闭应用程序（这会导致系统崩溃并重启设备），然后再试一次</li>
-      <li>如果仍然卡住，请按住电源按钮超过30秒以强制重启，然后再试一次</li></ul></ol>
-      <li>对于3.69及以上，这是Trinity</li></ul>
+1. 在启动 h-encore 应用程序时按住“R”键
+  + 如果提示有关奖杯的信息，请继续按住“R”键并选择“Yes”
+1. 如果漏洞成功触发，你现在将看到h-encore引导程序菜单
+  + 如果漏洞触发后卡在白屏上，只需关闭应用程序（这会导致系统崩溃并重启设备），然后再试一次
+  + 如果仍然卡住，请按住电源按钮超过30秒以强制重启，然后再试一次
 1. 选择 “Install HENkaku”
   + 这将安装HENkaku漏洞并启用自制程序权限，直到下次重新启动
 1. 选择 “Exit”
