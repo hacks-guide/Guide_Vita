@@ -58,14 +58,11 @@ Asegúrate de que tu consola tiene una carga de al menos 50% antes de continuar.
 #### Sección III - Downgradeo
 
 1. Reinicia tu consola
-1. Inicia tu aplicación homebrew
-      <ul><li>Para versiones 3.65 a 3.68, esta será h-encore</li>
-      <ol><li>Inicia la aplicación h-encore mientras presionas (R)</li>
-      <ul><li>Si te pregunta por trofeos, continúa manteniendo presionado (R) y selecciona “Yes”</li></ul>
-      <li>Si el exploit fue exitoso, ahora verás el menú de inicio de h-encore</li>
-      <ul><li>Si el exploit se quedó en una pantalla en blanco, tan solo cierra la aplicación (lo cual causará un crash y reiniciará tu consola), y vuelve a intentar</li>
-      <li>Si aún no funciona, mantén presionado el botón de apagado por unos 30 segundos para forzar un reinicio, y vuelve a intentar</li></ul></ol>
-      <li>Para versiones desde 3.69, esta será Trinity</li></ul>
+1. Inicia la aplicación de h-encore mientras presionas (R)
+  + Si te pregunta por trofeos, continúa presionando (R) y selecciona "Yes"
+1. Si el exploit fue exitoso, ahora verás el menú de inicio de h-encore
+  + Si el exploit se quedó en una pantalla en blanco, tan solo cierra la aplicación (lo cual causará un crash y reiniciará tu consola), y vuelve a intentar
+  + Si aún no funciona, mantén presionado el botón de apagado por unos 30 segundos para forzar un reinicio, y vuelve a intentar
 1. Selecciona "Install HENkaku"
 1. Selecciona "Exit"
 1. Inicia la aplicación moduru
