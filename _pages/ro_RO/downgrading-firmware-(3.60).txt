@@ -8,9 +8,9 @@ Acuma vom retrograda dispozitivul la versiunea de firmware 3.60 de vreme ce este
 
 Ensō este cea mai bună soluţie de CFW disponibilă pentru PS Vita (TV), care permite acces convenbil la homebrew pe dispozitiv executând un exploit în timpul pornirii pentru a genera un spaţiu de lucru pentru HENkaku.
 
-Este mai convenabil decât h-encore și Trinity de vreme ce nu are nevoie să porniţi un exploit pe dispozitiv după fiecare repornire manuală.
+It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
 
-Deși este posibil să porniți homebrew pe firmware-ul prezent folosind fie h-encore, Trinity sau Ensō, retrogradând firmware-ul la versiunea 3.60 vă va oferi cea mai mare compatibilitate de homebrew.
+While it is possible to run homebrew on most firmware versions, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
 
 De la relansarea plugin-ului de sistem reFOOD, sunt foarte puține (dacă sunt) dezavantaje la rularea versiunii de firmware 3.60 de vreme ce vă permite să instalați și să jucați jocuri care în mod normal ar avea nevoie de o versiune de firmware mai recentă.
 
@@ -64,14 +64,11 @@ Asigurați-vă că dispozitivul are bateria încărcată la 50% sau mai mult în
 #### Secțiunea III - Pregătire pentru retrogradare
 
 1. Reporniți dispozitivul
-1. Porniți aplicația homebrew
-      <ul><li>Pentru versiunile 3.65 până la 3.68, aceasta va fi h-encore</li>
-      <ol><li>Lansați aplicaţia h-encore în timp ce ţineţi (R)</li>
-      <ul><li>Dacă vi se întreabă despre trofee, țineți apăsat (R) și selectați Yes"</li></ul>
-      <li>În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore</li>
-      <ul><li>Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou</li>
-      <li>În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou</li></ul></ol>
-      <li>Pentru versiunile de la 3.69 în sus, aceasta va fi Trinity</li></ul>
+1. Lansați aplicaţia h-encore în timp ce ţineţi (R)
+  + Dacă vi se întreabă despre trofee, țineți apăsat (R) și selectați Yes"
+1. În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore
+  + Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou
+  + În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou
 1. Selectaţi "Install HENkaku"
   + Aceasta va instala exploit-ul HENkaku şi va permite accesul la homebrew până la următoarea repornire
 1. Selectaţi "Exit"
