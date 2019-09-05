@@ -58,14 +58,11 @@ Assicurati prima di procedere che la tua console sia carica almeno al 50% di bat
 #### Sezione III - Downgrade
 
 1. Riavvia la console
-1. Avvia la tua applicazione homebrew
-      <ul><li>Per le versioni da 3.65 a 3.68, questa sarà h-encore</li>
-      <ol><li>Avvia l'applicazione h-encore tenendo premuto (R)</li>
-      <ul><li>Se ti viene richiesto qualcosa riguardo ai trofei, continua a tener premuto (R) e seleziona "Yes"</li></ul>
-      <li>Se l'exploit ha avuto successo, ti troverai sul bootstrap menu di h-encore </li>
-      <ul><li>Se l'exploit è bloccato su una schermata bianca, chiudi semplicemente l'applicazione (che causerà un crash e riavvio della console), poi riprova</li>
-      <li>Se la console è ancora bloccata, tieni premuto il pulsante di accensione per più di 30 secondi per forzare un riavvio, quindi riprova</li></ul></ol>
-      <li>Per 3.69 e superiori, questa sarà Trinity</li></ul>
+1. Apri l'applicazione h-encore tenendo premuto (R)
+  + Se ti viene richiesto qualcosa riguardo ai trofei, continua a tener premuto (R) e seleziona "Yes"
+1. Se l'exploit ha avuto successo, ti ritroverai sull'h-encore bootstrap menu
+  + Se l'exploit è bloccato su una schermata bianca, chiudi semplicemente l'applicazione (che causerà un crash e il riavvio della console), quindi riprova
+  + Se la console è ancora bloccata, tieni premuto il pulsante di accensione per più di 30 secondi per forzare un riavvio, quindi riprova
 1. Seleziona "Install HENkaku"
 1. Seleziona "Exit"
 1. Avvia l'applicazione modoru
