@@ -8,9 +8,9 @@ Nous allons maintenant downgrader votre appareil vers le logicielle système 3.6
 
 Ensō+HENkaku est une solution complète CFW pour la PS Vita (TV) qui permet de lancer henkaku dès le démarrage de la console pour pouvoir directement lancer les homebrews.
 
-It is more convenient than h-encore and Trinity as it does not require you to trigger an exploit on your device after every reboot manually.
+It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
 
-While it is possible to run homebrew on your current firmware version using either h-encore, Trinity or Ensō, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
+While it is possible to run homebrew on most firmware versions, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
 
 Depuis la sortie du plugin reF00D, il y a très peu (s'il y en a) désavantage à exécuter la version 3.60 du firmware car ce plugin vous permet d'installer et de jouer à des jeux qui auraient normalement besoin d'une version du firmware plus récente.
 
@@ -64,14 +64,11 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
 #### Section III - Préparation au Downgrade
 
 1. Redémarrez votre machine
-1. Launch your homebrew application
-      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
-      <ol><li>Launch the h-encore application while holding (R)</li>
-      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
-      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
-      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
-      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
-      <li>For 3.69 and above, this will be Trinity</li></ul>
+1. Lancez l'application h-encore en maintenant (R)
+  Si un message apparait à propos des trophées, continuez à appuyer sur (R) et choisissez "Oui"
+1. Si l'exploit est un succès, vous verrez maintenant le menu bootstrap de h-encore
+  + Si l'exploit est figé sur un écran blanc, simplement fermer l'application (qui causera un plantage et un redémarrage de votre console), ensuite essayez encore
+  + S'il est encore figé, maintenez le bouton d'alimentation pendant plus de 30 secondes pour forcer un redémarrage, ensuite essayez encore
 1. Sélectionnez "install HENkaku"
   + Cela installera l'exploit HENkaku et permettra l'accès aux homebrews jusqu'au prochain redémarrage
 1. Sélectionnez "EXIT"
