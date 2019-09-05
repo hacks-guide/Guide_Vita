@@ -8,9 +8,9 @@ We will now downgrade your device to firmware version 3.60 as it is the best sup
 
 Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment.
 
-It is more convenient than h-encore and Trinity as it does not require you to trigger an exploit on your device after every reboot manually.
+It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
 
-While it is possible to run homebrew on your current firmware version using either h-encore, Trinity or Ensō, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
+While it is possible to run homebrew on most firmware versions, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
 
 Since the release of the reF00D system plugin, there are very few (if any) downsides to running firmware version 3.60 as this plugin allows you to install and play games which would normally require a newer firmware version.
 
@@ -64,14 +64,11 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 #### Section III - Downgrading Prep
 
 1. Reboot your device
-1. Launch your homebrew application
-      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
-      <ol><li>Launch the h-encore application while holding (R)</li>
-      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
-      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
-      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
-      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
-      <li>For 3.69 and above, this will be Trinity</li></ul>
+1. Launch the h-encore application while holding (R)
+  + If prompted about trophies, continue holding (R) and select "Yes"
+1. If the exploit was successful, you will now see the h-encore bootstrap menu
+  + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
+  + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
 1. Select "Install HENkaku"
   + This will install the HENkaku exploit and enable homebrew access until the next reboot
 1. Select "Exit"
