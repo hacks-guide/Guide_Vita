@@ -58,14 +58,11 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 #### Section III - Downgrading
 
 1. Reboot your device
-1. Launch your homebrew application
-      <ul><li>For 3.65 to 3.68, this will be h-encore</li>
-      <ol><li>Launch the h-encore application while holding (R)</li>
-      <ul><li>If prompted about trophies, continue holding (R) and select “Yes”</li></ul>
-      <li>If the exploit was successful, you will now see the h-encore bootstrap menu</li>
-      <ul><li>If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again</li>
-      <li>If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again</li></ul></ol>
-      <li>For 3.69 and above, this will be Trinity</li></ul>
+1. Launch the h-encore application while holding (R)
+  + If prompted about trophies, continue holding (R) and select "Yes"
+1. If the exploit was successful, you will now see the h-encore bootstrap menu
+  + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
+  + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
 1. Select "Install HENkaku"
 1. Select "Exit"
 1. Launch the modoru application
