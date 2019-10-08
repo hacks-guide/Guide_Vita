@@ -1,9 +1,9 @@
 ---
-title: "Page Not Found" #
+title: "找不到页面" #
 layout: single-no-ads
-excerpt: "Page not found. Your pixels are in another canvas." #
+excerpt: "找不到页面。 你的画在另一张画布上哦！"#
 sitemap: false
 ---
 
-Sorry, but the page you were trying to view does not exist.
+对不起，该页面不存在。
 {: .notice--info}
