@@ -22,14 +22,14 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Site Navigation
+    title: Navigarea pe site
     url: site-navigation
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: Acest website folosește cookie-uri pentru a afișa progresul actual al ghidului pe bara laterală și astfel îmbunătăți site-ul prin alte mijloace.
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/m7MwpKA">HENkaku on Discord</a>.
+    title: Pentru suport în engleză, cereți ajutor la <a href="https://discord.gg/JXEKeg6">Vita Hacking pe Discord</a>.
   - 
     title: Dacă apreciați acest ghid, acceptăm <a href="donations">Donații</a>.
 footer:
@@ -40,50 +40,50 @@ footer:
   - 
     title: De ce sunt reclame?
   - 
-    title: Privacy Policy
+    title: Politica de confidenţialitate
 sidebar_title:
   - 
     title: Progres total
 sidebar_pages:
   - 
-    title: Home
+    title: Acasă
     url: /
   - 
     title: Începeți
     url: get-started
   - 
-    title: Updating Firmware (3.60)
+    title: Actualizând Firmware-ul (3.60)
     url: updating-firmware-(3.60)
   - 
-    title: Updating Firmware (PS TV 3.65 and 3.68)
+    title: Actualizând Firmware-ul (PS TV 3.65 şi 3.68)
     url: updating-firmware-(ps-tv-3.65-and-3.68)
   - 
-    title: Updating Firmware (PS Vita 3.65 and 3.68)
+    title: Actualizând firmware-ul (PS Vita 3.65 şi 3.68)
     url: updating-firmware-(ps-vita-3.65-and-3.68)
   - 
-    title: Installing h-encore
+    title: Instalând h-encore
     url: installing-h-encore
   - 
-    title: Downgrading Firmware (3.60)
+    title: Retrogradând Firmware-ul (3.60)
     url: downgrading-firmware-(3.60)
   - 
-    title: Downgrading Firmware (3.65)
+    title: Retrogradând Firmware-ul (3.65)
     url: downgrading-firmware-(3.65)
   - 
-    title: Installing HENkaku
+    title: Instalând HENkaku
     url: installing-henkaku
   - 
-    title: Configuring h-encore
+    title: Configurând h-encore
     url: configuring-h-encore
   - 
-    title: Multiple Options
+    title: Mai multe opţiuni
     url: multiple-options
   - 
-    title: Installing Ensō (3.65)
+    title: Instalând Ensō (3.65)
     url: installing-enso-(3.65)
   - 
-    title: Installing Ensō (3.60)
+    title: Instalând Ensō (3.60)
     url: installing-enso-(3.60)
   - 
-    title: Finalizing Setup
+    title: Finalizând instalarea
     url: finalizing-setup
