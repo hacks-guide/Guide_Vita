@@ -1,19 +1,19 @@
 ---
 main:
   - 
-    title: Home
+    title: 主页
     url: /
   - 
-    title: FAQ
+    title: 常见问题
     url: faq
   - 
-    title: Donations
+    title: 捐赠
     url: donations
   - 
-    title: Credits
+    title: 致谢
     url: credits
   - 
-    title: Troubleshooting
+    title: 故障排查
     url: troubleshooting
   - 
     title: Adrenaline
@@ -22,68 +22,68 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Site Navigation
+    title: 网站导航
     url: site-navigation
 top:
   - 
-    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+    title: 本网站利用cookies在侧边栏上显示当前的操作进度并改善此站点的使用体验。
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/m7MwpKA">HENkaku on Discord</a>.
+    title: 如果会英语，可以到<a href="https://discord.gg/m7MwpKA">HENkaku Discord服务器</a>寻求支援。
   - 
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+    title: 如果你喜欢这个教程，可以通过<a href="donations">捐赠</a>支持我。
 footer:
   - 
-    title: Source
+    title: 本站源码
   - 
-    title: Site Navigation
+    title: 网站导航
   - 
-    title: Why Ads?
+    title: 为什么有广告？
   - 
-    title: Privacy Policy
+    title: 隐私政策
 sidebar_title:
   - 
-    title: Overall Progress
+    title: 总进度
 sidebar_pages:
   - 
-    title: Home
+    title: 主页
     url: /
   - 
-    title: Get Started
+    title: 开始
     url: get-started
   - 
-    title: Updating Firmware (3.60)
+    title: 更新固件 (3.60)
     url: updating-firmware-(3.60)
   - 
-    title: Updating Firmware (PS TV 3.65 and 3.68)
+    title: 更新固件(PS TV 3.65和3.68)
     url: updating-firmware-(ps-tv-3.65-and-3.68)
   - 
-    title: Updating Firmware (PS Vita 3.65 and 3.68)
+    title: 更新固件(PS Vita 3.65和3.68)
     url: updating-firmware-(ps-vita-3.65-and-3.68)
   - 
-    title: Installing h-encore
+    title: 安装 h-encore
     url: installing-h-encore
   - 
-    title: Downgrading Firmware (3.60)
+    title: 降级固件(3.60)
     url: downgrading-firmware-(3.60)
   - 
-    title: Downgrading Firmware (3.65)
+    title: 降级固件(3.65)
     url: downgrading-firmware-(3.65)
   - 
-    title: Installing HENkaku
+    title: 安装 HENkaku
     url: installing-henkaku
   - 
-    title: Configuring h-encore
+    title: 配置 h-encore
     url: configuring-h-encore
   - 
-    title: Multiple Options
+    title: 多个选项
     url: multiple-options
   - 
-    title: Installing Ensō (3.65)
+    title: 安装 Ensō (3.65)
     url: installing-enso-(3.65)
   - 
-    title: Installing Ensō (3.60)
+    title: 安装 Ensō (3.60)
     url: installing-enso-(3.60)
   - 
-    title: Finalizing Setup
+    title: 完成安装
     url: finalizing-setup
