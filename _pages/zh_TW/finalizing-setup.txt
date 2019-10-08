@@ -9,14 +9,15 @@ title: "完成安裝"
 我們將安裝下列程式及插件：
 
 +  **Vita Homebrew Browser** *(下載及安裝其他自製軟體)*
-+  **UpdateBlocker** *(完全防止意外的系統更新)*
 +  **NoNpDrm** *(允許您使用已加密的遊戲及應用程式)*
 +  **reF00D** *(透明化解密任一版本的遊戲及軟體)*
 +  **DownloadEnabler** *(允許您在內建的網頁瀏覽器中下載任何檔案類型)*
 +  **shellbat** *(於狀態列中顯示剩餘電量)*
 +  **pngshot** *(改進內建的截圖程式)*
 
-為了在您的主機上安裝必要的 `.vpk` 安裝包，我們將會使用[檔案傳輸協定 (FTP)](https://zh.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE) 來將檔案複製到您主機的記憶卡中。
+In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
+
+We will also block updates using a DNS server. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
 
 ### 必備項目
 
@@ -25,7 +26,6 @@ title: "完成安裝"
 * <i class="fa fa-magnet" aria-hidden="true" title="這是個種子連結。 請使用一個 BT 下載器來下載此檔案。"></i> - [keys.bin](magnet:?xt=urn:btih:a3796f22b82b80c5fefa8407c6fd7d71df2c2258&dn=keys.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce) ([mirror](https://www.mediafire.com/download/t5obgaa3naatr9m))
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * 最新版的 [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
-* 最新版的 [UpdateBlocker](https://bitbucket.org/SilicaAndPina/updateblocker/downloads/)
 * 最新版的 [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
 * 最新版的 [reF00D](https://github.com/dots-tb/reF00D/releases/latest)
 * 最新版的 [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
@@ -50,7 +50,6 @@ title: "完成安裝"
   + `ux0:` 代表著您主機記憶卡的磁區 (在第一代的 Vita 中 (PSV-1000)，本磁區指的是外存記憶卡；在第二代 Vita (PSV-2000) 及 PS TV 中，本磁區指的是內存或者是已插入的外存記憶卡)
   + `ur0:` 代表著您主機的系統內存；此磁區永遠都會出現在任何主機中 (在第二代 Vita 中 (PSV-2000) 及 PS TV 中，這與普通內存是*不相干的*!)
 1. 複製 `VitaHBBrowser.vpk` 至 `data` 資料夾中
-1. 複製 `UpdateBlocker.vpk` 至 `data` 資料夾中
 1. 透過 FTP 端移動至 `ux0:`
 1. 刪除可能現有的 `tai` 資料夾
 1. 移動至 `ur0:` -> `tai/`
@@ -67,23 +66,27 @@ title: "完成安裝"
 #### 第二節 — 安裝 VPKs
 
 1. 於您的主機中移動至 `ux0:` -> `data/`
-1. 於各個 `.vpk` 檔案上按下「□」(方形) 鍵將其選取
-1. 按下「△」(三角形) 鍵開啟選單，並選擇『More』->『Install all』以安裝所有已選取的檔案
+1. Press (Cross) on `VitaHBBrowser.vpk` to install it
 1. 按下「X」鍵確認安裝
-1. 當每次提示要求使用更高權限時，按下「X」繼續
-1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
+1. Press (Cross) to continue the install if you are prompted about extended permissions
+1. Press (Triangle) to open the menu, then select "Delete" to delete the `.vpk` file
 1. 按下「X」鍵確認刪除
 1. 關閉 VitaShell
 
 #### 第三節 — 阻擋系統更新
 
-1. 啟動 UpdateBlocker
-1. 按下「□」(方形) 鍵阻止下載更新
-1. 等待過程結束並退出至主選單
-1. 按下「X」鍵阻擋系統更新
-1. 您的主機將在過程完成後自動重啟
-  + 如果您的主機尚未安裝 Ensō，您將會需要手動啟動並關閉 h-encore 以啟用自製軟體使用權
-  + 若您做對一切的話，您現在應該可以在狀態列中看到剩餘電量的百分比
+1. 啟動設定
+1. 移動至 `網路` -> `Wi-Fi 設定`
+  + 若您尚未連上網，請連接到 Wi-Fi 網路
+1. 選擇您目前所連結的網路
+  + 已連上的網路旁邊會有一個綠色點點
+1. 選擇『詳細設定』
+1. 將『DNS 設定』改為『手動』
+  + You must apply the following DNS settings to each network you use
+1. 將『主要 DNS (Primary DNS)』改為 `212.47.229.76`
+1. Set "Secondary DNS" to `212.47.229.76`
+1. 確保您已將『Proxy 伺服器』設定至『不使用』
+1. 關閉設定
 
 #### 第四節 — PSN 存取
 
@@ -92,7 +95,7 @@ title: "完成安裝"
 1. 勾選『啟用 PSN 偽裝』
 1. 勾選『啟用版本偽裝』
 1. 移動至『偽裝版本』
-1. 輸入『3.70』
+1. Enter "3.72" into the box
   + 如果未來 Sony 推出了新的系統韌體，您必須將此數值更換至最新的系統版本以存取 PSN
 1. 關閉設定
 
@@ -122,4 +125,3 @@ It is *not* recommended to make modifications to your Custom Firmware installati
 
 若您想要於內建的 PSP 模擬器中安裝自製韌體，請見 [Adrenaline](adrenaline)。
 {: .notice--success}
-
