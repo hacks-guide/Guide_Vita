@@ -64,7 +64,6 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
   + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
   + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
 1. Select "Install HENkaku"
-  + This will install the HENkaku exploit and enable homebrew access until the next reboot
 1. Select "Exit"
 1. Launch the modoru application
 1. Press (Cross) to confirm the downgrade to firmware version 3.65

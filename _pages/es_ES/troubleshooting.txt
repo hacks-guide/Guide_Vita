@@ -16,7 +16,7 @@ Los exploits basados en navegador (como el de WebKit usado para HENkaku) pueden 
 
 1. Asegúrate de que tu consola tiene una conexión estable
 1. Inicia el navegador y luego abre los ajustes del navegador
-1. Haz scroll hasta el final y haz click en "Borrar cookies" y "Limpiar historial de búsqueda"
+1. Haz scroll hasta el final y haz clic en "Borrar cookies" y "Limpiar historial de búsqueda"
 1. Prueba el exploit otra vez
 
 ## Eliminar una cuenta de PSN sin formatear tu consola

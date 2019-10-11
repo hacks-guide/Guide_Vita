@@ -26,6 +26,7 @@ This page is for Mac users only. If you are not on Mac, check out the [Storage F
 1. Select your storage device
 1. Select the "Partition" menu
 1. Partition your storage device as MBR with one exFAT partition
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
 #### Section II - Verifying Storage Device
 

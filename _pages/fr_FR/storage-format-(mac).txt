@@ -1,49 +1,49 @@
 ---
-title: "Formatage de l'espace de stockage (Mac)"
+title: "Storage Format (Mac)"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-Il s’agit d’une section Add-on pour mettre en place un périphérique de stockage pour être utilisé avec le plugin de noyau de StorageMgr.
+This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
 
-En outre, il y a une section facultative pour la vérification de votre périphérique de stockage pour les erreurs à l’aide de F3X. En fonction de la taille de votre carte Sd et de la vitesse de votre ordinateur, ce processus peut prendre plusieurs heures !
+Additionally, there is an optional section for checking your storage device for errors using F3X. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
 
-Cette page est pour les utilisateurs de Mac uniquement. Si vous n’êtes pas sur Mac, consultez le [Format de stockage (Windows)](storage-format-(windows)) ou [le Format de stockage (Linux)](storage-format-(linux)) pages.
+This page is for Mac users only. If you are not on Mac, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Linux)](storage-format-(linux)) pages.
 
 ### Ce dont vous aurez besoin
 
-* La dernière version de [F3X](https://github.com/insidegui/F3X/releases/latest)
-  + Ce n'est pas requis si vous ne souhaitez pas vérifier si votre périphérique de stockage a des erreurs
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+  + This is not required if you do not want to check your storage device for errors
 
 ### Instructions
 
-#### Section I - Formatage du périphérique de stockage
+#### Section I - Formatting Storage Device
 
-1. Insérez votre périphérique de stockage dans votre ordinateur
-1. Lancez Utilitaire de Disque
-1. Sélectionnez votre espace de stockage
-1. Sélectionnez le menu "Partition"
-1. Partitionnez votre espace de stockage comme étant MBR avec une partition exFAT
+1. Insert your storage device into your computer
+1. Launch Disk Utility
+1. Select your storage device
+1. Select the "Partition" menu
+1. Partition your storage device as MBR with one exFAT partition
   + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
-#### Section II - Vérification de l'espace de stockage
+#### Section II - Verifying Storage Device
 
-Si vous ne voulez pas vérifier votre espace de stockage vous pouvez passer cette étape.
+If you do not want to check your storage device for errors, skip this section.
 {: .notice--info}
 
-1. Dé-zippez le fichier `F3X.zip`
-1. Insérez votre périphérique de stockage dans votre ordinateur
-1. Lancez l'application F3X
-1. Sélectionnez votre espace de stockage
-1. Cliquez sur "Start Test"
-1. Attendez la fin de l'opération.
+1. Unzip the F3X `.zip` file
+1. Insert your storage device into your computer
+1. Run the F3X app
+1. Select your storage device
+1. Press "Start Test"
+1. Wait until the process is complete.
 
-Si le test affiche le résultat `Success! Your card is ok!` votre carte Sd est bonne et vous pouvez supprimer tous les fichiers `.h2w` sur la carte Sd
+If the test shows the result `Success! Your card is ok!` your storage device is good and you can delete all `.h2w` files on your storage device
 {: .notice--success}
 
-Si le test montre un autre résultat, votre carte Sd est peut-être corrompue ou endommagée et vous devrez peut-être la remplacer !
+If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
 ___

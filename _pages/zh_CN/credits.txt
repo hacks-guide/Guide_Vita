@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "致谢"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/vita-guide) for being awesome!**
+**特别感谢所有的[翻译人员](https://crowdin.com/project/vita-guide)，他们超棒的！**
 {: .notice--primary}
 
-If we forgot you here, contact us and we'll add your name.
+如果我忘了列出你的名字，请联系我。我会把你加上。
 
 {% capture notice-1 %}
 

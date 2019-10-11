@@ -1,66 +1,67 @@
 ---
-title: "Storage Format (Windows)"
+title: "格式化存储空间 (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="内容目录" %}
 
-### Required Reading
+### 必读事项
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+这是一个用于格式化存储设备来使用StorageMgr内核插件的附加章节。
 
-Additionally, there is an optional section for checking your storage device for errors using h2testw. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+此外，还有一个使用h2testw来检查存储设备是否存在错误的附加章节。 这个操作的耗时取决于你存储设备和电脑的速度，可能将耗费数个小时完成！
 
-This page is for Windows users only. If you are not on Windows, check out the [Storage Format (Linux)](storage-format-(linux)) or [Storage Format (Mac)](storage-format-(mac)) pages.
+本节教程仅限 Windows 用户。 如果你的电脑没有安装Windows，请参见 [格式化存储空间(Linux)](storage-format-(linux)) 或 [格式化存储空间 (Mac)](storage-format-(mac)) 。
 
-### What You Need
+### 你需要准备点啥？
 
 * [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }})
-* The latest version of [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-  + This is not required if you do not want to check your storage device for errors
+* 最新版 [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
+* 最新版 [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+  + 如果你不想检查你的内存卡是否有误就不需要下载这个
 
-### Instructions
+### 操作步骤
 
-#### Section I - Formatting Storage Device
+#### 第一步 — 格式化存储设备
 
-1. Install Win32DiskImager if you have not already
-1. Insert your storage device into your computer
-1. Launch Win32DiskImager
-1. Select `zzBlank.img` as the "Image File"
-1. Set "Device" to the drive letter of your storage device
-1. Select "Write"
-1. Select "Yes" to continue when prompted
-1. Select "OK" to dismiss the dialogue box when the write completes
-1. Close Win32DiskImager
-1. Right-click the drive in Windows Explorer, then select "Format"
-1. Set "File system" to "exFAT"
-1. Select "Start"
-1. Select "OK" to continue when prompted
-1. Select "OK" to dismiss the dialogue box when the format completes
-1. Close the format window
+1. 如果你还没有安装Win32DiskImager，请现在安装
+1. 将存储设备插入电脑
+1. 启动 Win32DiskImager
+1. 在“Image File”一栏中选择`zzBlank.img`
+1. 在 “Device” 一栏选择你存储设备的驱动器号
+1. 选择 “Write”
+1. 当提示时选择“Yes”继续
+1. 写入完成后，选择“OK”关闭对话框
+1. 关闭 Win32DiskImager
+1. 在Windows资源管理器中右键单击该驱动器，然后选择“格式化”
+1. 将“文件系统”设置为“exFAT”
+  + 如果你的存储设备容量为256GB或更大，你必须将格式化时设置的分配单元大小设置为 64 KB
+1. 选择 “Start”
+1. 当提示时选择“OK”继续
+1. 格式化完成后，选择“OK”关闭对话框
+1. 关闭格式化窗口
 
-#### Section II - Verifying Storage Device
+#### 第二步 — 验证存储设备
 
-If you do not want to check your storage device for errors, skip this section.
+如果你不想检查你的存储设备是否有错误，那么请跳过这一节。
 {: .notice--info}
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your storage device card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
-1. Select "Select target"
-1. Select your storage device card's drive letter
-1. Ensure "all available space" is selected
-1. Select "Write + Verify"
-1. Wait until the process is completed
+1. 解压缩 `h2testw `压缩包，复制 `h2testw.exe` 文件到桌面
+1. 将存储设备插入电脑
+1. 运行 `h2testw.exe`
+1. 选择 “English”
+1. 点击 “Select target”
+1. 选择存储设备的驱动器号
+1. 确保 “all available space” 已勾选
+1. 点击“Write + Verify”
+1. 等待检查完成
 
-If the test shows the result `Test finished without errors`, your storage device card is good and you can delete all `.h2w` files on your storage device card
+如果测试结果显示 `Test finished without errors`（测试完成，没有错误），则你的存储设备没有问题，接着请删除存储设备上所有的 `.h2w` 文件
 {: .notice--success}
 
-If the test shows any other results, your storage device card may be corrupted or damaged and you may have to replace it!
+如果测试显示任何其他结果，你的存储设备可能已经出错或损坏，你可能需要更换一个存储设备！
 {: .notice--danger}
 
 ___
 
-### Return to [StorageMgr](storagemgr)
+### 返回至 [StorageMgr](storagemgr)
 {: .notice--primary}

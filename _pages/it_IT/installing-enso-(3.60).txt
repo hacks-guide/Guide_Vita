@@ -1,53 +1,53 @@
 ---
-title: "Installing Ensō (3.60)"
+title: "Installazione di Ensō (3.60)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
-Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment.
+Ensō è un CFW per la PS Vita (TV) che ti permette un accesso agli homebrew più comodo, facendo avviare automaticamente un exploit ad ogni avvio della console.
 
-It is more convenient than HENkaku as it does not require you to trigger an exploit on your device after every reboot manually.
+È più comdo di HENkaku, poichè non richiede di avviare l'exploit manualmente dopo ogni riavvio.
 
-### What You Need
+### Cosa Ti Serve
 
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-* The latest release of [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
-* The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
+* Un client FTP come [WinSCP](https://winscp.net/) o [CyberDuck](https://cyberduck.io/)
+* L'ultima versione di [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
+* L'ultima versione di [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
 
-### Instructions
+### Istruzioni
 
-#### Section I - Prep Work
+#### Sezione I - Preparazione
 
-1. Launch the molecularShell application
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `enso.vpk` to the `data` folder
-1. Transfer `VitaShell.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
+1. Avvia l'applicazione molecularShell
+1. Premi (Select) per abilitare l'accesso FTP sulla tua console
+1. Apri il tuo client FTP sul tuo computer
+1. Immetti l'indirizzo IP e la porta visualizzati sulla console
+1. Utilizzando il tuo client FTP, entra in `ux0:`-> `data/`
+1. Trasferisci `enso.vpk` nella cartella `data`
+1. Trasferisci `VitaShell.vpk` nella cartella `data`
+1. Premi (Cerchio) sulla tua console per chiudere la connessione FTP
 
-#### Section II - Installing VPKs
+#### Sezione II - Installazione dei file VPK
 
-1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Square) on each of the `.vpk` files to mark them
-1. Press (Triangle) to open the menu, then select "More" -> "Install all" to install the marked files
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install each time you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
-1. Press (Cross) to confirm the deletion
-1. Close the molecularShell application
+1. Utilizzando la tua console, entra in `ux0:`-> `data/`
+1. Premi (Quadrato) su ciascuno dei file `. vpk` per contrassegnarli
+1. Premi (Triangolo) per aprire il menu, quindi seleziona "More"-> "Install all" per installare i file contrassegnati
+1. Premi (Croce) per confermare l'installazione
+1. Premi (Croce) per continuare l'installazione ogni volta che vengono chieste maggiori autorizzazioni
+1. Premi (Triangolo) per aprire il menu, quindi seleziona "Delete" per eliminare i file contrassegnati
+1. Premi (Croce) per confermare l'eliminazione
+1. Chiudi l'applicazione molecularShell
 
-#### Section III - Installing Ensō
+#### Sezione III - Installazione di Ensō
 
-1. Open the Ensō application
-1. Press (Circle) to accept the terms
-1. Press (Cross) to install Ensō
-  + When the process has completed, press any button to reboot your device
+1. Apri l'applicazione Ensō
+1. Premi (Cerchio) per accettare le condizioni d'uso
+1. Premi (Croce) per installare Ensō
+  + Quando il processo è completato, premi un pulsante qualsiasi per riavviare la tua console
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Prosegui con il [Completamento dell'installazione](finalizing-setup)
 {: .notice--primary}

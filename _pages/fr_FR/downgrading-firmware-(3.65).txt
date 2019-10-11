@@ -64,7 +64,6 @@ Assurez-vous que votre appareil a un niveau de batterie de 50% ou plus avant de 
   + Si l'exploit est figé sur un écran blanc, simplement fermer l'application (qui causera un plantage et un redémarrage de votre console), ensuite essayez encore
   + S'il est encore figé, maintenez le bouton d'alimentation pendant plus de 30 secondes pour forcer un redémarrage, ensuite essayez encore
 1. Sélectionnez "install HENkaku"
-  + Cela installera l'exploit HENkaku et permettra l'accès aux homebrews jusqu'au prochain redémarrage
 1. Sélectionnez "EXIT"
 1. Lancez l'application modoru
 1. Appuyez sur (Croix) pour confirmer le downgrade vers la version 3.65 du logicielle système.

@@ -2,50 +2,51 @@
 title: "Storage Format (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="内容目录" %}
 
-### Required Reading
+### 必读事项
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+这是一个用于格式化存储设备来使用StorageMgr内核插件的附加章节。
 
-Additionally, there is an optional section for checking your storage device for errors using F3X. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+此外，还有一个使用F3X来检查存储设备是否存在错误的附加章节。 这个操作的耗时取决于你存储设备和电脑的速度，可能将耗费数个小时完成！
 
-This page is for Mac users only. If you are not on Mac, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Linux)](storage-format-(linux)) pages.
+本节教程仅限Mac用户。 如果你的电脑不是Mac，请参见 [格式化存储空间(Windows)](storage-format-(windows)) 或 [格式化存储空间 (Linux)](storage-format-(linux)) 。
 
-### What You Need
+### 你需要准备点啥？
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
-  + This is not required if you do not want to check your storage device for errors
+* 最新版本的[F3X](https://github.com/insidegui/F3X/releases/latest)
+  + 如果你不想检查你的内存卡是否有误就不需要下载这个
 
-### Instructions
+### 操作步骤
 
-#### Section I - Formatting Storage Device
+#### 第一步 — 格式化存储设备
 
-1. Insert your storage device into your computer
-1. Launch Disk Utility
-1. Select your storage device
-1. Select the "Partition" menu
-1. Partition your storage device as MBR with one exFAT partition
+1. 将存储设备插入电脑
+1. 启动磁盘工具
+1. 选择你的存储设备
+1. 选择“分区”菜单
+1. 将存储设备分区为MBR的exFAT格式
+  + 如果你的存储设备容量为256GB或更大，你必须将格式化时设置的分配单元大小设置为 64 KB
 
-#### Section II - Verifying Storage Device
+#### 第二步 — 验证存储设备
 
-If you do not want to check your storage device for errors, skip this section.
+如果你不想检查你的存储设备是否有错误，那么请跳过这一节。
 {: .notice--info}
 
-1. Unzip the F3X `.zip` file
-1. Insert your storage device into your computer
-1. Run the F3X app
-1. Select your storage device
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. 解压缩 F3X`.zip` 压缩包
+1. 将存储设备插入电脑
+1. 运行F3X
+1. 选择你的存储设备
+1. 点击“开始测试(Start Test)”
+1. 等待，直到该过程执行完毕。
 
-If the test shows the result `Success! Your card is ok!` your storage device is good and you can delete all `.h2w` files on your storage device
+如果测试结果显示 `Success! Your card is ok!`（成功，你的卡没有问题！），代表你的存储设备完好，之后请删除存储设备上所有的 `.h2w` 文件
 {: .notice--success}
 
-If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
+如果测试显示任何其他结果，你的存储设备可能已经出错或损坏，你可能需要更换一个存储设备！
 {: .notice--danger}
 
 ___
 
-### Return to [Get Started](get-started)
+### 返回到[开始教程](get-started)
 {: .notice--primary}

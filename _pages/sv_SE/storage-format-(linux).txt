@@ -30,6 +30,7 @@ This page is for Linux users only. If you are not on Linux, check out the [Stora
 1. Remove your storage device from your computer
 1. Re-insert your storage device into your computer
 1. Run `mkfs.exfat /dev/sdX` to format your storage device as exFAT
+  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
 #### Section II - Verifying Storage Device
 

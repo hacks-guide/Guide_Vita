@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "Riconoscimenti"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/vita-guide) for being awesome!**
+**Un ringraziamento speciale a [tutti i traduttori](https://crowdin.com/project/vita-guide)! Siete fantastici!**
 {: .notice--primary}
 
-If we forgot you here, contact us and we'll add your name.
+Se abbiamo dimenticato di inserirti in questa lista, contattaci e ti aggiungeremo.
 
 {% capture notice-1 %}
 
