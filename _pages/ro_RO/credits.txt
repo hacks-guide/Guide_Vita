@@ -9,9 +9,11 @@ Dacă te-am uitat, contactează-ne și îți vom adăuga numele.
 
 {% capture notice-1 %}
 
+    + CelesteBlue
     + codestation
     + Davee
     + mmozeiko
+    + motoharu
     + Proxima
     + TheFloW
     + xyz
