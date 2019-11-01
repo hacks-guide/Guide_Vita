@@ -78,6 +78,18 @@ You must have already installed VitaShell to use this.
 1. Perform the PSP Initial Setup
 1. To close the PSP Emulator, hold the (PS) button to open the menu, then select `Settings` -> `Exit PspEmu Application`
 
+#### Optional - Set uma0 as PSP Memory Stick
+
+This section assumes you have completed yamt setup and have a physical memory card that has been configured as uma0.
+{: .notice--info}
+
+1. Launch the Adrenaline application
+1. Hold the PS button until the Quick Settings menu appears
+1. Click the button that says "Settings" near the top
+1. Press (R) twice
+1. Change the Memory Stick Location option to uma0:pspemu
+1. Press (Circle) to exit Adrenaline settings
+
 ___
 
 Adrenaline and the PSP Homebrew Browser have been successfully installed.

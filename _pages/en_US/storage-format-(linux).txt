@@ -6,7 +6,7 @@ title: "Storage Format (Linux)"
 
 ### Required Reading
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+This is an add-on section for formatting a storage device for use with the YAMT kernel plugin.
 
 Additionally, there is an optional section for checking your storage device for errors using F3. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
 
@@ -81,5 +81,5 @@ If the test shows any other results, your storage device may be corrupted or dam
 
 ___
 
-### Return to [Get Started](get-started)
+### Return to [SD2Vita Setup](sd2vita)
 {: .notice--primary}

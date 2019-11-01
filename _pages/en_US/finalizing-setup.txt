@@ -117,10 +117,10 @@ ___
 You can now easily install new homebrew applications just by using Vita Homebrew Browser. Alternatively, you can also browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
 {: .notice--info}
 
-It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "Enso EX"). Doing so without fully understanding the system can lead to a BRICK!
+It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "enso_ex"). Doing so without fully understanding the system can lead to a BRICK!
 {: .notice--danger}
 
-For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [StorageMgr](storagemgr) page.
+For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [SD2Vita Setup](sd2vita) page.
 {: .notice--success}
 
 For information on installing CFW to the built-in PSP emulator, check out the [Adrenaline](adrenaline) page.

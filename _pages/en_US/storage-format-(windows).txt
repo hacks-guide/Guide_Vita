@@ -6,7 +6,7 @@ title: "Storage Format (Windows)"
 
 ### Required Reading
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+This is an add-on section for formatting a storage device for use with the YAMT kernel plugin.
 
 Additionally, there is an optional section for checking your storage device for errors using h2testw. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
 
@@ -63,5 +63,5 @@ If the test shows any other results, your storage device card may be corrupted o
 
 ___
 
-### Return to [StorageMgr](storagemgr)
+### Return to [SD2Vita Setup](sd2vita)
 {: .notice--primary}
