@@ -6,8 +6,6 @@ title: "Blocarea actualizarilor"
 
 ### Lectură obligatorie
 
-The latest PS Vita exploit is not compatible with version 3.71. Astfel, trebuie să așteptăm ca un nou exlpoit să fie lansat și să oprim dispozitivul de a se actualiza mai mult decât versiunea curentă de firmware. Actualizând mai mult ar putea patch-ui viitoarele exploit-uri care ar putea fi folosite.
-
 Pentru a preveni actualizările nedorite, vom configura setările DNS de reţea pentru a folosi un server de actualizare personalizat care arată 3.60 ca ultima actuazlizare disponibilă. Acest lucru are ca efect blocarea oricărei versiuni de firmware mai mare de 3.60 din a fi instalat atunci când dispozitivul încearcă să efectueze o actualizare.
 
 ### Ce aveți nevoie
