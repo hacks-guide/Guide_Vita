@@ -95,7 +95,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Spunta "Abilita la Spoof PSN"
 1. Spunta "Abilita lo Spoof della versione corrente"
 1. Vai a "Versione corrente (Spoof)"
-1. Enter "3.72" into the box
+1. Enter "3.73" into the box
   + Se in futuro verrà rilasciata una nuova versione di sistema, dovrai cambiare la versione spoofata in modo che sia uguale all'ultima versione per poter riabilitare l'accesso al PSN
 1. Chiudi le impostazioni
 
