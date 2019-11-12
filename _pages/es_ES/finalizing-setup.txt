@@ -95,7 +95,7 @@ También bloquearemos las actualizaciones usando un servidor DNS. El servidor en
 1. Marca "Enable PSN spoofing"
 1. Marca "Enable Version Spoofing"
 1. Ve a "Spoofed Version"
-1. Enter "3.72" into the box
+1. Enter "3.73" into the box
   + Cuando se publique una nueva versión en el futuro, debes cambiar la versión falsificada para coincidir de modo de poder acceder a PSN
 1. Cierra la aplicación Ajustes
 
