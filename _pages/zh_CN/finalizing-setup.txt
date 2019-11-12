@@ -95,7 +95,7 @@ title: "完成安装"
 1. 勾选 “启用PSN伪装(Enable PSN spoofing)”
 1. 勾选 “开启版本伪装(Enable Version Spoofing)”
 1. 移动至“版本伪装(Spoofed Version)”
-1. Enter "3.72" into the box
+1. Enter "3.73" into the box
   + 如果以后索尼更新了系统固件，则你必须把其数值替换成最新版本才能访问 PSN
 1. 关闭系统设置
 
