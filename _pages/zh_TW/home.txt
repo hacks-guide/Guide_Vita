@@ -63,7 +63,7 @@ Ensō 可在所有持有 3.65 系統版本(含)以下的主機中執行；至於
 ## 在開始前我得注意什麼？
 
 + **在開始前，您一定得注意 Vita 改機的風險：每當您修改系統時，都有可能造成無法挽回的磚機。 這種情況是滿罕見的，但還是有可能的；所以請確實遵守每一個步驟。**
-+ This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.72
++ This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.73
 + 如果一切都順利的話，您將不會失去任何資料 (像是遊戲、PSN 帳號、存檔... 等都會被留下)。
 + **請在充電的情況下改機，以確保途中不會因為電力關係而突然關機造成資料遺失或甚至毀損！**
 + PS Vita 2000 及 PS TV 型號的軟體基本上與原版 PS Vita 1000 是非常相似的。 除非特別註明，否則文章中所提及任何關於『PS Vita』的步驟皆適用於其他型號。
