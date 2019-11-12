@@ -6,8 +6,6 @@ title: "Blocco degli aggiornamenti"
 
 ### Lettura necessaria
 
-The latest PS Vita exploit is not compatible with version 3.71. Di conseguenza, dobbiamo attendere che venga rilasciato un nuovo exploit e fermare l'aggiornamento della Vita oltre la sua versione attuale del firmware. Aggiornare ulteriormente potrebbe patchare futuri exploit che potrebbero essere utilizzati.
-
 Per evitare aggiornamenti indesiderati, configuramo le impostazioni DNS del dispositivo per utilizzare un server di aggiornamento personalizzato che punti a 3.60 come ultimo aggiornamento disponibile. Questa operazione blocca l'installazione di eventuali versioni sopra la 3.60 quando il dispositivo prova ad effettuare un aggiornamento.
 
 ### Cosa ti serve
