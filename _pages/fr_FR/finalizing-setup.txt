@@ -95,7 +95,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Cochez « Enable PSN spoofing »
 1. Cocher « Enable Version Spoofing »
 1. Naviguez vers "Spoofed Version"
-1. Enter "3.72" into the box
+1. Enter "3.73" into the box
   + SI une nouvelle version du firmware devrait être publiée à l’avenir, vous devez modifier la version du spoof pour correspondre à la nouvelle mise à jour publié afin d’accéder à PSN
 1. Fermez l’application de Paramètres
 
