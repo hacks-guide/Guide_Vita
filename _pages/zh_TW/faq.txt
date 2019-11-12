@@ -3,10 +3,10 @@ title: "常見問題 FAQ"
 ---
 
 <a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*
-**A:** Yes, 3.72 is hackable at the moment.
+**A:** Yes, 3.73 is hackable at the moment.
 
 <a name="faq_downgrade" />**Q:** *我能降級我的 Vita 系統嗎？*
-**A:** Yes, but only if the console is already on 3.70 or below. Modoru can downgrade any 3.70 or below system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
+**A:** Yes, the tool Modoru can downgrade any system hacked with HENkaku or h-encore to any firmware equal or greater than the firmware the console came with out of the box.
 
 <a name="faq_update" />**Q:** *在自製韌體環境中安裝官方更新是否安全？*
 **A:** 不！ 您必須確保您在[完成安裝](finalizing-setup)最後步驟中設置好防範未來的更新的措施。
