@@ -11,7 +11,7 @@ title: "Начало"
 Перед началом, пользователям Windows необходимо включить отображение расширений файлов следуя [Расширения файлов (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Выберите подходящую для вашей версии страницу из таблицы ниже. Обратите внимание, что столбцы "С" и "По" обозначают границы диапазона. This means that, for example, the "from 1.03 to 3.57" row includes 1.03, 3.57, and all versions in-between.
+Выберите подходящую для вашей версии страницу из таблицы ниже. Обратите внимание, что столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 1.03 по 3.57" включает в себя 1.03, 3.57 и все версии между ними.
 
 Версия прошивки вашей консоли отображается в меню Информация о системе в приложении Настройки.
 
@@ -47,7 +47,7 @@ title: "Начало"
     <tr>
       <td style="text-align: center; font-weight: bold;">3.61</td>
       <td style="text-align: center; font-weight: bold;">3.63</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65)">Updating Firmware (PS Vita)</a><br>or<br><a href="updating-firmware-(ps-tv-3.65)">Updating Firmware (PS TV)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65)">Обновление прошивки (PS Vita)</a><br>или<br><a href="updating-firmware-(ps-tv-3.65)">Обновление прошивки (PS TV)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.65</td>
