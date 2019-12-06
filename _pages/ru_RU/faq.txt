@@ -3,10 +3,10 @@ title: "Вопросы и ответы"
 ---
 
 <a name="faq_latestfw" />**В:** *Моя консоль на последней версии прошивки, могу ли я её взломать?*
-**A:** Yes, 3.73 is hackable at the moment.
+**О:** Да, 3.73 на данный момент можно взломать.
 
 <a name="faq_downgrade" />**В:** *Могу ли я понизить версию прошивки на своей Vita?*
-**A:** Yes, the tool Modoru can downgrade any system hacked with HENkaku or h-encore to any firmware equal or greater than the firmware the console came with out of the box.
+**О:** Да, утилита Modoru может понизить версию прошивки на любой консоли, которая взломана с помощью HENkaku или h-encore, до любой версии равной или выше заводской версии прошивки.
 
 <a name="faq_update" />**В:** *Безопасно ли обновлять Vita на кастомной прошивке?*
 **О:** Нет! Убедитесь, что у вас заблокированы обновления, как написано в конце страницы [Завершение установки](finalizing-setup).
@@ -21,4 +21,4 @@ title: "Вопросы и ответы"
 **О:** Для поддержки, обратитесь за помощью на сервер [Vita Hacking в Discord](https://discord.gg/JXEKeg6).
 
 <a name="faq_nopc" />**В:** *Могу ли я обойтись без использования компьютера?*
-**A:** No, you must have a PC to complete this guide.
+**О:** Нет, у вас должен быть компьютер для выполнения этого руководства.
