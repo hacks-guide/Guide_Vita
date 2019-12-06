@@ -7,11 +7,11 @@ redirect_from: /updating-firmware-(ps-vita-3.65-and-3.68)
 
 ### Обязательно к прочтению
 
-The h-encore exploit is only compatible with firmware versions 3.65 and above. Поэтому консоли с другой версией прошивки должны быть обновлены при помощи кастомного приложения для обновлений, чтобы использовать этот эксплойт.
+Эксплойт h-encore совместим только с версиями прошивки 3.65 и выше. Поэтому консоли с другой версией прошивки должны быть обновлены при помощи кастомного приложения для обновлений, чтобы использовать этот эксплойт.
 
-While the h-encore exploit itself is compatible with higher firmware versions, users on a firmware version under 3.65 should only update to firmware version 3.65 as it is the latest version which still supports the Ensō boot-time exploit.
+Хотя эксплойт h-encore и совместим с более высокими версиями прошивки, пользователи с версией прошивки ниже 3.65 должны обновиться только до версии прошивки 3.65, поскольку это последняя версия, поддерживающая эксплойт Ensō.
 
-Обратите внимание, что кастомное приложение для обновлений может лишь увеличить версию прошивки, но не понизить её. If you are on a firmware version higher than 3.65, you should return to [Get Started](get-started).
+Обратите внимание, что кастомное приложение для обновлений может лишь увеличить версию прошивки, но не понизить её. Если ваша версия прошивки выше 3.65, то вы должны вернуться к [Началу](get-started).
 
 ### Что понадобится
 
