@@ -1,5 +1,5 @@
 ---
-title: Installing h-encore
+title: Установка h-encore
 ---
 
 {% include toc title="Содержание" %}
@@ -44,14 +44,14 @@ title: Installing h-encore
 #### Часть II - Перенос h-encore
 
 1. Выберите "Обрезать пузырь h-encore до ~13МБ"
-  + Only do this step if you are on 3.68 or below
+  + Выполните этот шаг только если вы используете версию 3.68 или ниже
 1. Выберите "Поехали!"
   + Файлы эксплойта будут автоматически скачаны и подготовлены
   + Этот процесс займет некоторое время
 1. Выберите "PC -> система PS Vita" на консоли
 1. Выберите "Приложения"
 1. Выберите "PS Vita"
-1. Select "h-encore" or "h-encore²" depending on which is displayed
+1. Выберите "h-encore" или "h-encore²" в зависимости от того, что отображается
 1. Выберите "Копировать"
 1. Выберите "OK"
   + Эксплойт h-encore будет скопирован на вашу консоль
@@ -61,7 +61,7 @@ title: Installing h-encore
 
 #### Часть III - Настройка h-encore
 
-h-encore² only has a ~25% success rate. It may take a long time to launch the h-encore² exploit.
+h-encore² срабатывает только в ~25% случаев. Может потребоваться много времени для запуска эксплойта h-encore².
 {: .notice--warning}
 
 1. Запустите приложение h-encore, держа нажатой кнопку (R)
@@ -87,5 +87,5 @@ h-encore² only has a ~25% success rate. It may take a long time to launch the h
 
 ___
 
-### Continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
+### Следующий шаг: [Downgrading to 3.60](downgrading-firmware-(3.60))
 {: .notice--primary}
