@@ -15,9 +15,9 @@ title: "Завершение установки"
 +  **shellbat** *(отображает процент заряда батареи в строке состояния)*
 +  **pngshot** *(улучшает встроенную утилиту для скриншотов)*
 
-In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
+Для установки необходимых файлов `.vpk` (content package) на консоль мы используем [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol), чтобы скопировать файлы на карту памяти консоли.
 
-We will also block updates using a DNS server. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
+Мы также блокируем обновления с помощью DNS-сервера. Сервер заставляет консоль обнаруживать 3.60 в качестве последней версии прошивки, таким образом она не будет обновляться дальше. Это полезно, потому что 3.60 является самой ранней прошивкой, на которой работает HENkaku. Эти настройки должны быть применены для каждой сети, к которой вы подключаетесь.
 
 ### Что понадобится
 
@@ -66,10 +66,10 @@ We will also block updates using a DNS server. The server tricks your device int
 #### Часть II - Установка VPK
 
 1. На консоли перейдите в `ux0:` -> `data/`
-1. Press (Cross) on `VitaHBBrowser.vpk` to install it
+1. Нажмите (Крест), выделив файл `VitaHBBrowser.vpk` чтобы установить его
 1. Нажмите (Крест) чтобы подтвердить установку
-1. Press (Cross) to continue the install if you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the `.vpk` file
+1. Нажмите (Крест) чтобы продолжить, если появится запрос о расширенных правах
+1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Delete" чтобы удалить `.vpk` файл
 1. Нажмите (Крест) чтобы подтвердить удаление
 1. Закройте приложение VitaShell
 
@@ -82,9 +82,9 @@ We will also block updates using a DNS server. The server tricks your device int
   + Оно обозначено зелёной точкой рядом с сетью
 1. Выберите "Дополнительные настройки"
 1. Измените "Настройки DNS" на "Вручную"
-  + You must apply the following DNS settings to each network you use
+  + Вы должны применить следующие настройки DNS для каждой сети, которую вы используете
 1. Измените "Основной DNS" на `212.47.229.76`
-1. Set "Secondary DNS" to `212.47.229.76`
+1. Измените "Дополнительный DNS" на `212.47.229.76`
 1. Убедитесь, что настройка "Прокси-сервер" имеет значение "Не использовать"
 1. Закройте приложение Настройки
 
@@ -95,7 +95,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Установите флажок "Включить спуфинг PSN"
 1. Установите флажок "Включить подмену версии"
 1. Перейдите в "Поддельная версия"
-1. Enter "3.72" into the box
+1. Введите "3.73"
   + Если выйдет новая версия прошивки, вы должны будете изменить эту настройку, чтобы вновь получить доступ к PSN
 1. Закройте приложение Настройки
 
