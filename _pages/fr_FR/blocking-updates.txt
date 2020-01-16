@@ -6,8 +6,6 @@ title: "Bloquer les mises à jour"
 
 ### Lecture requise
 
-The latest PS Vita exploit is not compatible with version 3.71. En conséquence, il faut attendre pour qu'un nouvel exploit soit libéré et arrêter de mettre a jour sa Psvita plus loin que la version actuelle du firmware. Mettre a jour sa Psvita peut corriger des exploits qui peuvent être utilisé pour hacker la Psvita.
-
 Pour empêcher les mises à jour indésirables, nous configurons les paramètres DNS de l’appareil pour utiliser un serveur de mise à jour personnalisée qui redirige vers 3.60 comme étant la dernière mise à jour disponible. Cela a pour effet de bloquer toutes les versions du firmware supérieur au 3.60 lorsque le périphérique tente d’effectuer une mise à jour.
 
 ### Ce dont vous aurez besoin
