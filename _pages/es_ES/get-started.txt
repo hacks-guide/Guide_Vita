@@ -51,7 +51,7 @@ La versión del sistema de tu consola se encuentra debajo del menú de Informaci
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.65</td>
-      <td style="text-align: center; font-weight: bold;">3.72</td>
+      <td style="text-align: center; font-weight: bold;">3.73</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">Instalar h-encore</a></td>
     </tr>
   </tbody>
