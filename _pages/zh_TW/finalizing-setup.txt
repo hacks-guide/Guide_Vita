@@ -95,7 +95,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. 勾選『啟用 PSN 偽裝』
 1. 勾選『啟用版本偽裝』
 1. 移動至『偽裝版本』
-1. Enter "3.72" into the box
+1. Enter "3.73" into the box
   + 如果未來 Sony 推出了新的系統韌體，您必須將此數值更換至最新的系統版本以存取 PSN
 1. 關閉設定
 
