@@ -72,13 +72,16 @@ ___
 {% capture notice-1 %}
 如果你想要清理你内存卡中的内容 (如果想存 PSP 游戏之类的到卡里)，你可 `uma0:` (新的内存卡挂载位置) 以及/或者 `imc0:` (适用于 PS Vita 2000 或 PS TV) 中的资料删除。
 
-如果你想要清理，而你正使用着 h-encore 且主机系统版本为 3.67 或 3.68，则你*绝对不能*删除下面的文件夹:
+If you decide to do this, you must *not* delete these folders if they exist:
 
+  + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
-  + `uma0:data/bootstrap.self`
+  + `uma0:appmeta/VITASHELL`
   + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
   + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
 
 这是因为 h-encore 得保证内存卡中的文件归位正常，这样你才能在重启之后启用 HENkaku (还有 StorageMgr)。
 {% endcapture %}
