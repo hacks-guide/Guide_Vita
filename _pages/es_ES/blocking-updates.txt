@@ -6,8 +6,6 @@ title: "Bloquear actualizaciones"
 
 ### Lectura requerida
 
-El ultimo exploit para PS Vita no es compatible con la versión 3.71. Por ello, debemos esperar a que un nuevo exploit sea lanzado y detener cualquier actualización de Vita que sea superior a su versión de firmware actual. Actualizar podría arreglar cualquier exploit futuro que pudiera ser utilizado.
-
 Para evitar actualizaciones indeseadas, configuraremos los DNS de la consola para utilizar un servidor especial de actualización que informa que 3.60 es la versión más reciente disponible. Esto tiene el efecto de evitar que cualquier versión de firmware superior a 3.60 sea instalada si la consola intenta realizar una actualización.
 
 ### Qué necesitas
