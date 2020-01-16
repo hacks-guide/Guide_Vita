@@ -72,13 +72,16 @@ ___
 {% capture notice-1 %}
 Si vous voulez plus d'espace sur votre carte mémoire sony (pour pouvoir mettre des jeux PSP par exemple.) Vous pouvez supprimer tout les fichiers dans `uma0:` et/ou `imc0:` (Pour les utilisateur de PS vita 2000 et PS TV ).
 
-Si vous décidez de le faire et que vous utilisez h-encore sur les versions de firmware 3,67 ou 3,68, vous devez * pas * supprimer ces dossiers :
+If you decide to do this, you must *not* delete these folders if they exist:
 
+  + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
-  + `uma0:data/bootstrap.self`
+  + `uma0:appmeta/VITASHELL`
   + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
   + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
 
 C’est parce que vous devez garder h-encore installé sur la carte mémoire, donc vous pouvez activer HENkaku (et, par conséquent, StorageMgr) après un redémarrage.
 {% endcapture %}
