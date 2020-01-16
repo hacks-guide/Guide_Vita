@@ -72,13 +72,16 @@ ___
 {% capture notice-1 %}
 如果您想要清理您記憶卡中的內容 (假設說您想存放 PSP 遊戲之類的)，您可將 `uma0:` (新的記憶卡掛載點) 以及/或者 `imc0:` (適用於 PS Vita 2000 或 PS TV) 中的資料刪除。
 
-如果您想要做清理的動作，且您的主機為正使用 h-encore 且持有韌體版本 3.67 或 3.68 的主機，您*千萬不可*刪除下列資料夾:
+If you decide to do this, you must *not* delete these folders if they exist:
 
+  + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
-  + `uma0:data/bootstrap.self`
+  + `uma0:appmeta/VITASHELL`
   + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
   + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
 
 這是因為 h-encore 得保持其記憶卡中的安裝狀態，這樣您才能在重啟後啟用 HENkaku (及 StorageMgr)。
 {% endcapture %}
