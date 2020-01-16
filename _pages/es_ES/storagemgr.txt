@@ -72,13 +72,16 @@ ___
 {% capture notice-1 %}
 Si quieres tener más espacio en tu tarjeta de memoria (para usarlo para guardar juegos de PSP, por ejemplo), puedes borrar el contenido de `uma0:` (el punto de montaje de la nueva tarjeta de memoria) y/o `imc0:` (si tienes una PS Vita 200 o PS TV).
 
-Si decides hacer esto y estás usando h-encore en versiones de firmware 3.67 o 3.68, debes *conservar* las siguientes carpetas:
+If you decide to do this, you must *not* delete these folders if they exist:
 
+  + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
-  + `uma0:data/bootstrap.self`
+  + `uma0:appmeta/VITASHELL`
   + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
   + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
 
 Esto es porque debes mantener h-encore instalado en la tarjeta de memoria para que puedas activar HENkaku (y por ende StorageMgr) luego de reiniciar.
 {% endcapture %}
