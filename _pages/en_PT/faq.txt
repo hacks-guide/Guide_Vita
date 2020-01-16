@@ -3,10 +3,10 @@ title: "FAQ"
 ---
 
 <a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*
-**A:** Yes, 3.72 is hackable at the moment.
+**A:** Yes, 3.73 is hackable at the moment.
 
 <a name="faq_downgrade" />**Q:** *Can I downgrade my Vita?*
-**A:** Yes, but only if the console is already on 3.70 or below. Modoru can downgrade any 3.70 or below system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
+**A:** Yes, the tool Modoru can downgrade any system hacked with HENkaku or h-encore to any firmware equal or greater than the firmware the console came with out of the box.
 
 <a name="faq_update" />**Q:** *Is it safe to update a Vita with CFW?*
 **A:** No! You must always ensure that you have blocked updates as specified at the end of [Finalizing Setup](finalizing-setup).
