@@ -95,7 +95,7 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Bifați "Enable PSN Spoofing"
 1. Bifați "Enable Version Spoofing"
 1. Navigați spre "Spoofed Version"
-1. Enter "3.72" into the box
+1. Enter "3.73" into the box
   + Când va fi lansată o nouă versiune de firmware pe viitor, va trebui să schimbați versiunea falsificată ca să coincidă astfel încât să aveți acces la PSN
 1. Închideți aplicația Settings
 
