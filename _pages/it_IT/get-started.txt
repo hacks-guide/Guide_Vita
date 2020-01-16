@@ -51,7 +51,7 @@ Puoi scoprire la versione firmware della tua console in "Impostazioni">"Sistema"
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.65</td>
-      <td style="text-align: center; font-weight: bold;">3.72</td>
+      <td style="text-align: center; font-weight: bold;">3.73</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">Installazione di h-encore</a></td>
     </tr>
   </tbody>
