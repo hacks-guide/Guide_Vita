@@ -72,13 +72,16 @@ ___
 {% capture notice-1 %}
 Dacă doriţi să recuperați spaţiul de pe cardul de memorie (pentru a stoca jocuri PSP de exemplu), puteți să ştergeţi conţinutul de pe `uma0:` (noul punct de montare a cardului de memorie) şi / sau`imc0:` (dacă aveţi un PS Vita 2000 sau PS TV).
 
-Dacă decideţi să faceţi acest lucru şi folosiți h-encore pe versiuni de firmware 3.67 sau 3,68, trebuie să *nu* ştergeţi aceste foldere:
+If you decide to do this, you must *not* delete these folders if they exist:
 
+  + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
-  + `uma0:data/bootstrap.self`
+  + `uma0:appmeta/VITASHELL`
   + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
   + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
 
 Acest lucru este din cauza că trebuie să păstraţi h-encore instalat pe cardul de memorie astfel încât să puteți activa HENkaku (şi, prin urmare, StorageMgr) după o repornire.
 {% endcapture %}
