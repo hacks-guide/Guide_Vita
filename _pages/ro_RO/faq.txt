@@ -3,10 +3,10 @@ title: "Întrebări frecvente"
 ---
 
 <a name="faq_latestfw" />**Î:** *Am dispozitivul actualizat la zi, este dispozitivul modabil?*
-**A:** Yes, 3.73 is hackable at the moment.
+**R:** Da, 3.73 este modabil în prezent.
 
 <a name="faq_downgrade" /> ** Q: ** * Pot să-mi downgradez Vita-ul?*
-**A:** Yes, the tool Modoru can downgrade any system hacked with HENkaku or h-encore to any firmware equal or greater than the firmware the console came with out of the box.
+**R:** Da, Modoru poate retrograda orice sistem modat cu HENkaku sau h-encore către orice firmware egal sau mai mare decât firmware-ul de origine al dispozitivului.
 
 <a name="faq_update" />**Î:** *Este în regulă să actualizez un Vita cu CFW?*
 **R:** Nu! Trebuie să vă asigurați întotdeauna că ați blocat actualizările așa cum este specificat la sfârșitul secțiunii [Finalizing Setup](finalizing-setup).
@@ -21,4 +21,4 @@ title: "Întrebări frecvente"
 **R:** Pentru suport, cereți ajutor la [Vita Hacking pe Discord](https://discord.gg/JXEKeg6).
 
 <a name="faq_nopc" />**Î:** *Pot face asta fără un calculator?*
-**A:** No, you must have a PC to complete this guide.
+**R:** Nu, trebuie să aveți un calculator pentru a urma acest ghid.
