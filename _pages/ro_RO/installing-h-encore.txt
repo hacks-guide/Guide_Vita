@@ -1,18 +1,18 @@
 ---
-title: Installing h-encore
+title: Instalând h-encore
 ---
 
 {% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.73.
+Exploit-ul h-encore pentru PS Vita (TV) permite instalarea de aplicații homebrew pentru ecranul de pornire. Este compatibil cu versiunile de firmware 3.65 până la 3.73.
 
-Note that the h-encore exploit chain is not “persistent” (meaning it does not remain installed after a reboot). This means you will have to run the exploit again after each reboot.
+Țineți cont că exploit-ul h-encore nu este "persistent" (ceea ce înseamnă că nu rămâne instalat după o repornire). Asta înseamnă că trebuie să porniți exploit-ul din nou după fiecare repornire.
 
-In addition to installing the h-encore exploit, we enable access to “unsafe” homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the “administrator” mode on a computer.
+În plus, faţă de instalarea exploit-ului h-encore, vom activa accesul la homebrew "nesigur" care dă permisiuni extinse la aplicaţiile homebrew. Această idee ar putea fi considerată similară cu modul de "administrator" de pe un calculator.
 
-If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.73, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
+Dacă sunteți pe versiunile de firmware 3.65 până la 3.68, veți folosi exploit-ul h-encore, totuși dacă sunteți pe versiunile de firmware 3.69 până la 3.73, veți folosi exploit-ul h-encore². Programul care folosim pentru a instala exploit-ul pe dispozitiv (finalhe) va rezolva asta.
 
 Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie Sony (de orice mărime) pentru a urma acest ghid. Această restricţie nu se aplică la PS Vita 2000 sau PS TV de vreme ce aceste dispozitive au un card de memorie incorporat.
 {: .notice--info}
@@ -20,7 +20,7 @@ Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie 
 ### Ce aveți nevoie
 
 * Ultima versiune de [finalhe](https://github.com/soarqin/finalhe/releases/latest)
-  - If you are using MacOS or Linux you will be required to compile finalhe yourself
+  - Dacă folosiți MacOS sau Linux va trebui să compilați finalhe singur
 
 ### Instrucțiuni
 
@@ -28,7 +28,7 @@ Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie 
 
 1. Copiați conținutul arhivei `.zip` către un folder de pe calculator
 1. Porniți finalhe pe calculator
-  + If you are prompted to allow finalhe network access through the firewall, do so
+  + Dacă vi se cere să permiteți accesul la rețea pentru finalhe prin firewall, faceți astfel
 1. Lansați aplicația Content Manager pe dispozitiv
 1. Selectați "Copy Content"
 1. Selectați "PC"
@@ -39,19 +39,19 @@ Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie 
   + Dacă vedeți un mesaj care vă cere să actualizați, reporniţi dispozitivul și încercați din nou
   + Dacă încă vedeți acest mesaj, urmați instrucțiunile de pe [Blocând actualizări](blocking-updates) și încercați din nou
   + Dacă *încă* mai vedeți acest mesaj, activați Modul avion în System Settings și încercați din nou (această metodă *nu* va funcționa pe un PS TV)
-  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
+  + Dacă dispozitivul nu este detectat prin USB, instalați [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) și încercați din nou
 
 #### Secțiunea II - Transfer de h-encore
 
 1. Selectați "Trim h-encore to ~13MB"
-  + Only do this step if you are on 3.68 or below
+  + Faceți acest pas dacă sunteți pe 3.68 sau inferior
 1. Selectați "Let's GO!"
   + Fișierele de exploit vor fi descărcate și pregătite automatic
   + Acest proces va lua ceva timp
 1. Selectați "PC -> PS Vita System" pe dispozitiv
 1. Selectați "Applications"
 1. Selectaţi "PS Vita"
-1. Select "h-encore" or "h-encore²" depending on which is displayed
+1. Selectați "h-encore" sau "h-encore²" depinzând de care este afișat
 1. Selectați "Copy"
 1. Selectați "OK"
   + Exploit-ul h-encore va fi copiat pe dispozitiv
@@ -61,7 +61,7 @@ Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie 
 
 #### Secțiunea III - Configurând h-encore
 
-h-encore² only has a ~25% success rate. It may take a long time to launch the h-encore² exploit.
+h-encore² are o rată de succes de doar ~25%. Ar putea dura o vreme lungă pentru a porni exploit-ul h-encore.
 {: .notice--warning}
 
 1. Lansați aplicaţia h-encore în timp ce ţineţi (R)
@@ -87,5 +87,5 @@ h-encore² only has a ~25% success rate. It may take a long time to launch the h
 
 ___
 
-### Continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
+### Continuați la [Retrogradând spre 3.60](downgrading-firmware-(3.60))
 {: .notice--primary}
