@@ -30,8 +30,8 @@ sitemap: false
 + [StorageMgr](storagemgr)
 + [Depanare](troubleshooting)
 + [Actualizând Firmware-ul (3.60)](updating-firmware-(3.60))
-+ [Updating Firmware (PS TV 3.65)](updating-firmware-(ps-tv-3.65))
-+ [Updating Firmware (PS Vita 3.65)](updating-firmware-(ps-vita-3.65))
++ [Actualizând Firmware-ul (PS TV 3.65)](updating-firmware-(ps-tv-3.65))
++ [Actualizând Firmware-ul (PS Vita 3.65)](updating-firmware-(ps-vita-3.65))
 + [De ce sunt reclame?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
