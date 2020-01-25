@@ -72,7 +72,7 @@ ___
 {% capture notice-1 %}
 Dacă doriţi să recuperați spaţiul de pe cardul de memorie (pentru a stoca jocuri PSP de exemplu), puteți să ştergeţi conţinutul de pe `uma0:` (noul punct de montare a cardului de memorie) şi / sau`imc0:` (dacă aveţi un PS Vita 2000 sau PS TV).
 
-If you decide to do this, you must *not* delete these folders if they exist:
+Dacă hotărâți să faceți asta, *nu* ștergeți aceste foldere dacă există:
 
   + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
