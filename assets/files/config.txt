@@ -4,7 +4,7 @@
 
 *KERNEL
 ur0:tai/nonpdrm.skprx
-ur0:tai/reF00D.skprx
+ur0:tai/0syscall6.skprx
 
 *main
 ur0:tai/henkaku.suprx
