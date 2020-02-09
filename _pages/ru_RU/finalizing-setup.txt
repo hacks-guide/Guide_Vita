@@ -10,7 +10,7 @@ title: "Завершение установки"
 
 +  **Vita Homebrew Browser** *(скачивает и устанавливает другие хоумбрю приложения)*
 +  **NoNpDrm** *(позволяет использовать зашифрованные игры и приложения)*
-+  **0syscall6** *(allows using games and applications that require higher firmware versions)*
++ **0syscall6** *(позволяет использовать игры и приложения, требующие более высоких версий прошивки)*
 +  **DownloadEnabler** *(позволяет скачивать файлы любых типов с помощью браузера)*
 +  **shellbat** *(отображает процент заряда батареи в строке состояния)*
 +  **pngshot** *(улучшает встроенную утилиту для скриншотов)*
@@ -25,7 +25,7 @@ title: "Завершение установки"
   + Вместо этого можно использовать функцию USB transfer в приложении VitaShell
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * Свежая версия [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* The latest release of [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
+* Свежая версия [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
 * Свежая версия [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Свежая версия [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Свежая версия [pngshot](https://github.com/xyzz/pngshot/releases/latest)
@@ -54,13 +54,13 @@ title: "Завершение установки"
 1. Загрузите `config.txt` в папку `tai`
   + Перезапишите существующий файл `config.txt`
 1. Загрузите `nonpdrm.skprx` в папку `tai`
-1. Transfer `0syscall6.skprx` to the `tai` folder
+1. Загрузите `0syscall6.skprx` в папку `tai`
 1. Загрузите `download_enabler.suprx` в папку `tai`
 1. Загрузите `shellbat.suprx` в папку `tai`
 1. Загрузите `pngshot.suprx` в папку `tai`
 1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
 
-#### Section II - Blocking Updates
+#### Часть II - Блокировка обновлений
 
 1. Запустите приложение Настройки
 1. Перейдите в `Сеть` -> `Настройки Wi-Fi`
@@ -75,7 +75,7 @@ title: "Завершение установки"
 1. Убедитесь, что настройка "Прокси-сервер" имеет значение "Не использовать"
 1. Закройте приложение Настройки
 
-#### Section III - PSN Access
+#### Часть III - Доступ к PSN
 
 1. Запустите приложение Настройки
 1. Перейдите в `Настройки HENkaku`
@@ -86,7 +86,7 @@ title: "Завершение установки"
   + Если выйдет новая версия прошивки, вы должны будете изменить эту настройку, чтобы вновь получить доступ к PSN
 1. Закройте приложение Настройки
 
-#### Section IV - Cleanup
+#### Часть IV - Очистка
 
 1. Запустите приложение Управление данными
 1. Выберите "Управление данными на карте памяти"
@@ -101,7 +101,7 @@ title: "Завершение установки"
 
 ___
 
-You can browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
+Вы можете найти новые хоумбрю приложения на [VitaDB](https://vitadb.rinnegatamante.it/).
 {: .notice--info}
 
 *НЕ* рекомендуется модифицировать кастомную прошивку путем установки хоумбрю приложений, предназначенных для опытных пользователей (таких как "Enso EX"). Такие действия без полного понимания системы могут привести к БРИКУ!
