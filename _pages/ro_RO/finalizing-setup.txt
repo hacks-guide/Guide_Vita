@@ -8,7 +8,6 @@ title: "Finalizând instalarea"
 
 Acuma vom instala aplicații și plugin-uri precum următoarele:
 
-+  **Vita Homebrew Browser** *(descarcă și instalează alte aplicații homebrew)*
 +  **NoNpDrm** *(permite ca jocurile și aplicațiile criptate să fie folosite)*
 +  **0syscall6** *(allows using games and applications that require higher firmware versions)*
 +  **DownloadEnabler** *(permite orice tip de fișier să fie descărcat cu browserul)*
