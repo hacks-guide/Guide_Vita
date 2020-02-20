@@ -8,7 +8,6 @@ title: "Finalisation de l'installation"
 
 Nous allons maintenant configurer les applications et plugins comme par exemple :
 
-+ **Vita Homebrew Browser** *(télécharge et installe automatiquement les homebrews à la manière d'un magasin d'application.)*
 + **NoNpDrm** *(Autorise le lancement de jeu et applications crypté soit des jeux originaux.)*
 +  **0syscall6** *(allows using games and applications that require higher firmware versions)*
 + **DownloadEnabler ** *(Autorise le téléchargement de n'importe quel type de fichiers depuis le navigateur sony sur Psvita)*
