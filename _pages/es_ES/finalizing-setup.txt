@@ -8,7 +8,6 @@ title: "Finalizar instalación"
 
 Ahora configuraremos aplicaciones y plugins tales como:
 
-+  **Vita Homebrew Browser** *(descarga e instala otras aplicación homebrew)*
 +  **NoNpDrm** *(permite que juegos y aplicaciones encriptadas sean utilizadas)*
 +  **0syscall6** *(allows using games and applications that require higher firmware versions)*
 +  **DownloadEnabler** *(permite descargar cualquier tipo de archivo con el navegador)*
