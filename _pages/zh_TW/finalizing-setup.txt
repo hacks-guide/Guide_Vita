@@ -8,7 +8,6 @@ title: "完成安裝"
 
 我們將安裝下列程式及插件：
 
-+  **Vita Homebrew Browser** *(下載及安裝其他自製軟體)*
 +  **NoNpDrm** *(允許您使用已加密的遊戲及應用程式)*
 +  **0syscall6** *(allows using games and applications that require higher firmware versions)*
 +  **DownloadEnabler** *(允許您在內建的網頁瀏覽器中下載任何檔案類型)*
