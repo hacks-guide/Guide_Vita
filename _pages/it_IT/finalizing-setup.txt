@@ -8,7 +8,6 @@ title: "Completamento dell'installazione"
 
 Adesso installeremo i seguenti plugin e applicazioni:
 
-+  **Vita Homebrew Browser** *(scarica ed installa altri homebrew)*
 +  **NoNpDrm** *(permette l'utilizzo di applicazioni e giochi criptati)*
 +  **0syscall6** *(allows using games and applications that require higher firmware versions)*
 +  **DownloadEnabler** *(permette di scaricare ogni tipo di file dal browser)*
