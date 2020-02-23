@@ -39,7 +39,7 @@ If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exp
   + 若有提示更新的警示，請重新啟動您的主機並再試一次
   + 若您仍遇到該警示，請見[阻擋更新](blocking-updates)並再試一次
   + If you *still* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
-  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
+  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.9.1/QcmaDriver_winusb.exe) and try again
 
 #### 第二節 — h-encore 轉移
 
