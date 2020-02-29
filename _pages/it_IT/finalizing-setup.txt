@@ -43,11 +43,9 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Premi (Select) per abilitare l'accesso FTP sulla tua console
 1. Apri il tuo client FTP sul tuo computer
 1. Immetti l'indirizzo IP e la porta visualizzati sulla console
-1. Utilizzando il tuo client FTP, entra in `ux0:`-> `data/`
+1. Usando il client FTP, entra in `ux0:`
   + La partizione `ux0:` corrisponde alla memory card della tua console (sulla PS Vita 1000, questa partizione sarà sempre la memory card esterna; sulla PS Vita 2000 e sulla PS TV, questa partizione sarà la memory card esterna se ce n'è una inserita, altrimenti sarà la memory card integrata)
   + La partizione `ur0` corrisponde alla memoria di sistema interna della console, che è presente su tutti i modelli (sulla PS Vita 2000 e sulla PS TV, la memoria di sistema interna e la memory card interna *NON* sono la stessa cosa!)
-1. Trasferisci `VitaHBBrowser.vpk` nella cartella `data`
-1. Usando il client FTP, entra in `ux0:`
 1. Cancella la cartella `tai`, se presente
 1. Entra in `ur0:` -> `tai/`
 1. Trasferisci `config.txt` nella cartella `tai`
