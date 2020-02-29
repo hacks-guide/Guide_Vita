@@ -43,11 +43,9 @@ We will also block updates using a DNS server. The server tricks your device int
 1. 按下「Select」鍵以啟動 FTP 存取功能
 1. 於您的電腦中啟動您的 FTP 客戶端
 1. 輸入於您主機上顯示的 IP 位址以及埠
-1. 透過 FTP 端移動至 `ux0:` -> `data/`
+1. 透過 FTP 端移動至 `ux0:`
   + `ux0:` 代表著您主機記憶卡的磁區 (在第一代的 Vita 中 (PSV-1000)，本磁區指的是外存記憶卡；在第二代 Vita (PSV-2000) 及 PS TV 中，本磁區指的是內存或者是已插入的外存記憶卡)
   + `ur0:` 代表著您主機的系統內存；此磁區永遠都會出現在任何主機中 (在第二代 Vita 中 (PSV-2000) 及 PS TV 中，這與普通內存是*不相干的*!)
-1. 複製 `VitaHBBrowser.vpk` 至 `data` 資料夾中
-1. 透過 FTP 端移動至 `ux0:`
 1. 刪除可能現有的 `tai` 資料夾
 1. 移動至 `ur0:` -> `tai/`
 1. 複製 `config.txt` 至 `tai` 資料夾中
