@@ -43,11 +43,9 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
 1. Apăsați (Select) pentru a activa accesul FTP pe dispozitiv
 1. Deschideţi clientul FTP pe computer
 1. Introduceţi adresa IP şi Portul afişat pe aparatul dvs
-1. Folosind clientul FTP, navigați la `ux0:` -> `data /`
+1. Folosind clientul FTP, navigați la `ux0:`
   + Partiția `ux0:` corespunde cardului de memorie de pe dispozitiv (pe PS Vita 1000, această partiție va fi mereu cardul de memorie extern; pe PS Vita 2000 și PS TV, această partiție va fi ori cardul de memorie extern dacă vreunul este inserat, sau cardul de memorie incorporat)
   + Partiția `ur0:` corespunde la memoria internă a dospozitivului care este mereu prezentă în toate dispozitivele (pe PS Vita 2000 și PS TV, acesta *nu* este la fel ca memoria internă a dispozitivului!)
-1. Transferați `VitaHBBrowser.vpk` către folderul `data`
-1. Folosind clientul FTP, navigați la `ux0:`
 1. Ştergeţi folderul `tai` dacă există
 1. Navigați spre `ur0:` -> `tai/`
 1. Transferați `config.txt` către folderul `tai`
