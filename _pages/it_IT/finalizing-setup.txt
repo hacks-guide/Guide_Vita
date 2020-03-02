@@ -9,14 +9,14 @@ title: "Completamento dell'installazione"
 Adesso installeremo i seguenti plugin e applicazioni:
 
 +  **NoNpDrm** *(permette l'utilizzo di applicazioni e giochi criptati)*
-+  **0syscall6** *(allows using games and applications that require higher firmware versions)*
++ **0syscall6** *(permette l'utilizzo di giochi e applicazioni che richiedono firmware più aggiornati)*
 +  **DownloadEnabler** *(permette di scaricare ogni tipo di file dal browser)*
 +  **shellbat** *(mostra la percentuale della batteria nella barra di stato)*
 +  **pngshot** *(migliora lo strumento per gli screenshot integrato)*
 
-In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
+Per installare i file `.vpk` (pacchetto contenuti) necessari sulla tua console, useremo il [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) per copiare i file sulla tua memory card.
 
-We will also block updates using a DNS server. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
+Bloccheremo anche gli aggiornamenti utilizzando un server DNS. Il server inganna il tuo dispositivo facendogli credere che la 3.60 sia la versione più recente, il che significa che non aggiornerà a versioni superiori. Fare ciò è utile poiché la 3.60 è la prima versione su cui HENkaku funziona. Queste impostazioni vanno applicate ad ogni rete a cui si accede.
 
 ### Cosa Ti Serve
 
@@ -24,7 +24,7 @@ We will also block updates using a DNS server. The server tricks your device int
   + In alternativa, puoi anche utilizzare la funzionalità di trasferimento USB di VitaShell
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * L'ultima versione di [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* The latest release of [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
+* L'ultima versione di [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
 * L'ultima versione di [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * L'ultima versione di [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * L'ultima versione di [pngshot](https://github.com/xyzz/pngshot/releases/latest)
@@ -51,13 +51,13 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Trasferisci `config.txt` nella cartella `tai`
   + Sovrascrivi (sostituisci) il file `config.txt` già presente
 1. Trasferisci `nonpdrm.skprx` nella cartella `tai`
-1. Transfer `0syscall6.skprx` to the `tai` folder
+1. Trasferisci `0syscall6.skprx` nella cartella `tai`
 1. Trasferisci `download_enabler.suprx` nella cartella `tai`
 1. Trasferisci `shellbat.suprx` nella cartella `tai`
 1. Trasferisci `pngshot.suprx` nella cartella `tai`
 1. Premi (Cerchio) sulla tua console per chiudere la connessione FTP
 
-#### Section II - Blocking Updates
+#### Sezione II - Blocco degli aggiornamenti
 
 1. Apri le Impostazioni
 1. Vai a `Connessioni` -> `Impostazioni Wi-Fi`
@@ -66,24 +66,24 @@ We will also block updates using a DNS server. The server tricks your device int
   + Puoi riconoscerla perché ha un pallino verde vicino al nome
 1. Seleziona "Impostazioni avanzate"
 1. Imposta "Impostazioni DNS" su "Manuale"
-  + You must apply the following DNS settings to each network you use
+  + Devi applicare le seguenti impostazioni DNS per ogni rete che usi
 1. Imposta `212.47.229.76` come "DNS primario"
-1. Set "Secondary DNS" to `212.47.229.76`
+1. Imposta il "DNS Secondario" su `212.47.229.76`
 1. Assicurati che "Server proxy" sia impostato su "Non usare"
 1. Chiudi le impostazioni
 
-#### Section III - PSN Access
+#### Sezione III - Accesso al PSN
 
 1. Apri le Impostazioni
 1. Apri `Impostazioni HENkaku`
 1. Spunta "Abilita la Spoof PSN"
 1. Spunta "Abilita lo Spoof della versione corrente"
 1. Vai a "Versione corrente (Spoof)"
-1. Enter "3.73" into the box
+1. Scrivi "3.73" nella casella di testo
   + Se in futuro verrà rilasciata una nuova versione di sistema, dovrai cambiare la versione spoofata in modo che sia uguale all'ultima versione per poter riabilitare l'accesso al PSN
 1. Chiudi le impostazioni
 
-#### Section IV - Cleanup
+#### Sezione IV - Pulizia
 
 1. Avvia "Gestione contenuto"
 1. Seleziona "Gestione contenuti su scheda di memoria"
@@ -98,7 +98,7 @@ We will also block updates using a DNS server. The server tricks your device int
 
 ___
 
-You can browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
+Puoi cercare nuovi homebrew su [VitaDB](https://vitadb.rinnegatamante.it/).
 {: .notice--info}
 
 *Non* è consigliato effettuare modifiche alla propria installazione di Custom Firmware installando applicazioni homebrew destinate a utenti più esperti (come ad esempio "Enso EX"). L'utilizzo di queste applicazioni senza una conoscenza approfondita del sistema può portare a un BRICK!
