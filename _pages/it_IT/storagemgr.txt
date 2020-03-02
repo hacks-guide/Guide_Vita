@@ -72,7 +72,7 @@ ___
 {% capture notice-1 %}
 Se vuoi riottenere lo spazio di archiviazione della tua memory card (usandola per tenere i giochi PSP ad esempio), puoi eliminare il contenuto della cartella `uma0:` (il nuovo mount point della memory card) e / o `imc0:` (se possiedi una PS Vita 2000 o PS TV).
 
-If you decide to do this, you must *not* delete these folders if they exist:
+Se decidi di farlo, *non* devi eliminare queste cartelle se esistono:
 
   + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
