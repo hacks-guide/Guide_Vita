@@ -3,10 +3,10 @@ title: "FAQ"
 ---
 
 <a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*
-**A:** Yes, 3.73 is hackable at the moment.
+**A:** Sì. la versione 3.73 è hackerabile al momento.
 
 <a name="faq_downgrade" />**D:** *Posso eseguire il downgrade della mia PS Vita?*
-**A:** Yes, the tool Modoru can downgrade any system hacked with HENkaku or h-encore to any firmware equal or greater than the firmware the console came with out of the box.
+**A:** Sì, lo strumento Modoru può effettuare il downgrade di ogni sistema hackerato con HENkaku o h-encore verso ogni firmware equivalente o maggiore del firmware della console alla sua uscita dalla scatola.
 
 <a name="faq_update" />**D:** *È sicuro aggiornare una PS Vita con un CFW?*
 **R:** No! Devi sempre sempre assicurarti di aver bloccato gli aggiornamenti, come specificato alla fine del [Completamento dell'installazione](finalizing-setup).
@@ -22,4 +22,4 @@ title: "FAQ"
  (in inglese).
 
 <a name="faq_nopc" />**D:** *Posso seguire questa guida senza un computer?*
-**A:** No, you must have a PC to complete this guide.
+**R:** No, ti serve un PC per completare questa guida.
