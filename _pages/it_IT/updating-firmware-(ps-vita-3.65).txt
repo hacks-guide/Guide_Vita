@@ -1,17 +1,17 @@
 ---
-title: "Updating Firmware (PS Vita 3.65)"
-redirect_from: /updating-firmware-(ps-vita-3.65-and-3.68)
+title: "Aggiornare il Firmware (PS Vita 3.65)"
+redirect_from: /update-firmware-(ps-vita-3.65-e-3.68)
 ---
 
 {% include toc title="Indice" %}
 
 ### Lettura necessaria
 
-The h-encore exploit is only compatible with firmware versions 3.65 and above. Di conseguenza, le altre versioni di sistema devono essere aggiornate utilizzando una applicazione di aggiornamento personalizzata per utilizzare questo exploit.
+L'exploit h-encore è compatibile solo con le versioni di sistema 3.65 e superiori. Di conseguenza, le altre versioni di sistema devono essere aggiornate utilizzando una applicazione di aggiornamento personalizzata per utilizzare questo exploit.
 
-While the h-encore exploit itself is compatible with higher firmware versions, users on a firmware version under 3.65 should only update to firmware version 3.65 as it is the latest version which still supports the Ensō boot-time exploit.
+Mentre l'exploit h-encore in sè è compatibile con la versione di sistema 3.68, gli utenti con una versione di sistema inferiore a 3.65 dovranno solo aggiornare alla versione di sistema 3.65, dato che è l'ultima versione che supporta l'exploit Ensō.
 
-Nota che la applicazione di aggiornamento personalizzata può solo aggiornare la tua console, non effettuare il downgrade. If you are on a firmware version higher than 3.65, you should return to [Get Started](get-started).
+Nota che la applicazione di aggiornamento personalizzata può solo aggiornare la tua console, non effettuare il downgrade. Se stai utilizzando una versione firmware superiore a 3.65, dovresti tornare a [Cominciamo](get-started).
 
 ### Cosa ti serve
 
@@ -44,7 +44,7 @@ Nota che la applicazione di aggiornamento personalizzata può solo aggiornare la
 
 1. Apri le Impostazioni
 1. Vai su "Aggiornamento di sistema" -> "Aggiorna tramite connessione a un PC"
-1. Ensure the update message "Version 3.65" is displayed, depending on which version you are attempting to update to
+1. Assicurati che sia mostrato l'avviso di aggiornamento "Versione 3.65", a seconda della versione alla quale stai cercando di aggiornare
   + Se compare un qualsiasi altro messaggio, fermati e cerca di capire dove hai sbagliato
 1. Segui le istruzioni visualizzate a schermo per aggiornare la console
   + Al termine, la console si riavvierà automaticamente
