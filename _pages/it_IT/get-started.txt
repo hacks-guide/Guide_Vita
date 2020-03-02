@@ -11,7 +11,7 @@ Console con versioni di sistema differenti richiedono procedure differenti per i
 Prima di iniziare, gli utenti Windows dovrebbero attivare l'opzione per visualizzare le estensioni dei file. Basta seguire le istruzioni indicate nella pagina delle [Estensioni dei file (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Per proseguire, clicca sul collegamento corrispondente alla tua versione di sistema dalla tabella sottostante. I campi "da" e "a" sono inclusivi. This means that, for example, the "from 1.03 to 3.57" row includes 1.03, 3.57, and all versions in-between.
+Per proseguire, clicca sul collegamento corrispondente alla tua versione di sistema dalla tabella sottostante. I campi "da" e "a" sono inclusivi. Ciò vuol dire, per esempio, che la riga "da 1.03 a 3.57" include 1.03, 3.57, e tutte le versioni comprese tra queste due.
 
 Puoi scoprire la versione firmware della tua console in "Impostazioni">"Sistema">"Informazioni sul sistema".
 
@@ -47,7 +47,7 @@ Puoi scoprire la versione firmware della tua console in "Impostazioni">"Sistema"
     <tr>
       <td style="text-align: center; font-weight: bold;">3.61</td>
       <td style="text-align: center; font-weight: bold;">3.63</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65)">Updating Firmware (PS Vita)</a><br>or<br><a href="updating-firmware-(ps-tv-3.65)">Updating Firmware (PS TV)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65)">Aggiornamento del Firmware (PS Vita)</a><br>or<br><a href="updating-firmware-(ps-tv-3.65)">Aggiornamento del Firmware (PS TV)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.65</td>
