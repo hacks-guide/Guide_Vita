@@ -9,7 +9,7 @@ title: "Finalizând instalarea"
 Acuma vom instala aplicații și plugin-uri precum următoarele:
 
 +  **NoNpDrm** *(permite ca jocurile și aplicațiile criptate să fie folosite)*
-+  **0syscall6** *(allows using games and applications that require higher firmware versions)*
++  **0syscall6** *(permite utilizarea jocurilor și a aplicațiilor care necesită versiuni de firmware mai mari)*
 +  **DownloadEnabler** *(permite orice tip de fișier să fie descărcat cu browserul)*
 +  **shellbat** *(afișează procentajul exact al bateriei în bara de stare)*
 +  **pngshot** *(îmbunătățește utilitatea de captură de ecran integrată)*
@@ -24,7 +24,7 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
   + Alternativ, puteţi utiliza VitaShell in modul USB
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * Ultima versiune de [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* The latest release of [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
+* Ultima versiune de [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
 * Ultima versiune de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Ultima versiune de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Ultima versiune de [pngshot](https://github.com/xyzz/pngshot/releases/latest)
@@ -51,7 +51,7 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
 1. Transferați `config.txt` către folderul `tai`
   + Suprascrieți (înlocuiți) fișierul existent `config.txt`
 1. Transferați `nonpdrm.skprx` către folderul `tai`
-1. Transfer `0syscall6.skprx` to the `tai` folder
+1. Transferați `0syscall6.skprx` către folderul `tai`
 1. Transferați `download_enabler.suprx` către folderul `tai`
 1. Transferați `shellbat.suprx` către folderul `tai`
 1. Transferați `pngshot.suprx` către folderul `tai`
@@ -72,7 +72,7 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
 1. Asigurați-vă că "Proxy Server" este setat la "Do Not Use"
 1. Închideți aplicația Settings
 
-#### Section III - PSN Access
+#### Secțiunea III - Acces la PSN
 
 1. Lansați aplicația Settings
 1. Navigați spre `HENkaku Settings`
@@ -83,7 +83,7 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
   + Când va fi lansată o nouă versiune de firmware pe viitor, va trebui să schimbați versiunea falsificată ca să coincidă astfel încât să aveți acces la PSN
 1. Închideți aplicația Settings
 
-#### Section IV - Cleanup
+#### Secțiunea IV - Curățare
 
 1. Lansați aplicația Content Manager
 1. Selectaţi "Manage Content on Memory Card"
@@ -98,7 +98,7 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
 
 ___
 
-You can browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/).
+Puteți căuta noi aplicaţii de homebrew pe [VitaDB](https://vitadb.rinnegatamante.it/).
 {: .notice--info}
 
 *Nu* este recomandat să se facă modificări la instalarea de Custom Firmware prin instalarea de aplicații homebrew orientate utilizatorilor avansați (precum "Enso EX"). A face asta fără o înțelegere completă a sistemului poate duce la un BRICK!
