@@ -57,7 +57,7 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
 1. Transferați `pngshot.suprx` către folderul `tai`
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
 
-#### Section II - Blocking Updates
+#### Secţiunea II - Blocând Actualizările
 
 1. Lansați aplicația Settings
 1. Navigați spre `Network` -> `Wi-Fi Settings`
