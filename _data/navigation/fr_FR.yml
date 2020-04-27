@@ -22,7 +22,7 @@ main:
     title: StorageMgr
     url: storagemgr
   - 
-    title: Site Navigation
+    title: Index du site
     url: site-navigation
 top:
   - 
@@ -46,7 +46,7 @@ sidebar_title:
     title: Progression globale
 sidebar_pages:
   - 
-    title: Home
+    title: Accueil
     url: /
   - 
     title: Pour commencer
