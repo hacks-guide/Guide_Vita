@@ -67,7 +67,7 @@ title: "完成安装"
 1. 选择 “高级设置(Advanced Settings)”
 1. 找到 “DNS 设置(DNS Settings)” 并将它设置为“手动(Manual)”
   + 你必须在每个你想连接的网络中都做一次。
-1. 将 “主DNS(Primary DNS)” 设置为 `212.47.229.76`
+1. 将 “主DNS（Primary DNS）” 设置为 `212.47.229.76`
 1. 将 “备用DNS(Secondary DNS)” 设为 `212.47.229.76`
 1. 确认“代理服务器 (Proxy)” 设置为 “不使用(Do Not Use)”
 1. 关闭系统设置
