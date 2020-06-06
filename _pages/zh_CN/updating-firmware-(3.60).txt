@@ -19,15 +19,15 @@ HENkaku 漏洞只与系统版本3.60兼容。 因此，较低的系统版本必�
 #### 第一步 — 准备工作
 
 1. 打开系统设置
-1. 依次进入 `网络(Network)` -> `Wi-Fi 设定(Wi-Fi Settings)`
+1. 依次进入 `网络（Network）` -> `Wi-Fi 设定（Wi-Fi Settings）`
   + 如果你之前没有联网，那么现在请连接到 Wi-Fi 网络
 1. 选择你想使用的接入点
   + 已连接的网络旁边会有绿色的点
-1. 选择 “高级设置(Advanced Settings)”
-1. 找到 “DNS 设置(DNS Settings)” 并将它设置为“手动(Manual)”
-1. 将 “主DNS(Primary DNS)” 设置为 `212.47.229.76`
-1. 将“备用 DNS(Secondary DNS)” 留空
-1. 确认“代理服务器 (Proxy)” 设置为 “不使用(Do Not Use)”
+1. 选择 “高级设置（Advanced Settings）”
+1. 找到 “DNS 设置（DNS Settings）” 并将它设置为“手动（Manual）”
+1. 将 “主DNS（Primary DNS）” 设置为 `212.47.229.76`
+1. 将“备用 DNS（Secondary DNS）” 留空
+1. 确认“代理服务器（Proxy）” 设置为 “不使用（Do Not Use）”
 1. 返回到设置的主菜单
 
 #### 第二步 — 更新系统到 3.60
