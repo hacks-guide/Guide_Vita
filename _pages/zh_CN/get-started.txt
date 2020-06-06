@@ -11,7 +11,7 @@ title: "新手入门"
 开始前，windows用户需要开启[显示文件后辍](file-extensions-(windows)) 选项！
 {: .notice--info}
 
-从下面的表格中选择与你的版本相符之页面。 需要注意的是，下文中所述 “从” 和 “到” 的版本号之间的任何版本均在适用范围。 This means that, for example, the "from 1.03 to 3.57" row includes 1.03, 3.57, and all versions in-between.
+从下面的表格中选择与你的版本相符之页面。 需要注意的是，下文中所述 “从” 和 “到” 的版本号之间的任何版本均在适用范围。 也就是说，一个例子：“从 1.03 到 3.57”，即包括 1.03 ~ 3.57 之间所有的版本。
 
 你的设备系统版本可以在设置应用程序的 “系统” 选项的 “系统信息” 项下找到。
 
@@ -47,7 +47,7 @@ title: "新手入门"
     <tr>
       <td style="text-align: center; font-weight: bold;">3.61</td>
       <td style="text-align: center; font-weight: bold;">3.63</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65)">Updating Firmware (PS Vita)</a><br>or<br><a href="updating-firmware-(ps-tv-3.65)">Updating Firmware (PS TV)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65)">更新固件（PS Vita）</a><br>或<br><a href="updating-firmware-(ps-tv-3.65)">更新固件（PS TV）</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.65</td>
