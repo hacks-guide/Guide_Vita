@@ -8,11 +8,11 @@ title: 降级系统 (3.60)
 
 Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方案，可在你的主机开机时自动配置HENkaku环境，可以在你的设备上方便地使用自制软件。
 
-It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
+它比 h-encore 更方便，因为其他自制系统需要在每次设备重启后手动触发漏洞进入破解模式。
 
-While it is possible to run homebrew on most firmware versions, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
+虽然自制程序可以在其他版本的系统中运行，但降级到 3.60 可以使你得到运行自制程序的最佳兼容性。
 
-自reF00D系统插件发布以来，让设备运行 3.60 系统的缺点几乎没有（如果有的话），因为这个插件允许你安装和玩任何需要更新系统版本的游戏。
+自reF00D系统插件发布以来，让设备运行 3.60 系统的缺点几乎没有，因为这个插件允许你安装和玩任何需要更新系统版本的游戏。
 
 有一个坏消息是，有少部分的设备由于“出厂版本”过高而无法降级到 3.60。 如果你遇到这种情况时，之后将提供进一步的说明。
 
