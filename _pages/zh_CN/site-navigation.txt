@@ -19,8 +19,8 @@ sitemap: false
 + [完成安装](finalizing-setup)
 + [新手入门](get-started)
 + [首页](/zh_CN/)
-+ [安装 Ensō (3.60)](installing-enso-(3.60))
-+ [安装 Ensō (3.65)](installing-enso-(3.65))
++ [安装 Ensō（3.60）](installing-enso-(3.60))
++ [安装 Ensō（3.65）](installing-enso-(3.65))
 + [安装 h-encore](installing-h-encore)
 + [安装 HENkaku](installing-henkaku)
 + [隐私政策](privacy-policy)
@@ -29,9 +29,9 @@ sitemap: false
 + [格式化存储空间 (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
 + [问题排查](troubleshooting)
-+ [升级系统 (3.60)](updating-firmware-(3.60))
-+ [Updating Firmware (PS TV 3.65)](updating-firmware-(ps-tv-3.65))
-+ [Updating Firmware (PS Vita 3.65)](updating-firmware-(ps-vita-3.65))
++ [升级系统（3.60）](updating-firmware-(3.60))
++ [升级系统（PS TV 3.65）](updating-firmware-(ps-tv-3.65))
++ [升级系统（PS Vita 3.65）](updating-firmware-(ps-vita-3.65))
 + [为什么有广告？](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
