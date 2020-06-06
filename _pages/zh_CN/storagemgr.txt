@@ -70,9 +70,9 @@ SD2Vita是一个microSD转换为游戏卡的适配器，请将它插入你设备
 ___
 
 {% capture notice-1 %}
-如果你想要清理你内存卡中的内容 (如果想存 PSP 游戏之类的到卡里)，你可 `uma0:` (新的内存卡挂载位置) 以及/或者 `imc0:` (适用于 PS Vita 2000 或 PS TV) 中的资料删除。
+如果你想要清理你内存卡中的内容（如想存 PSP 游戏之类的到卡里），你可 `uma0:`（新的内存卡挂载位置）以及/或者 `imc0:` （适用于 PS Vita 2000 或 PS TV）中的文件删除。
 
-If you decide to do this, you must *not* delete these folders if they exist:
+如果你决定这样做，那你*绝对不要*删除以下文件夹：
 
   + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
