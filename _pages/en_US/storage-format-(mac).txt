@@ -26,7 +26,7 @@ This page is for Mac users only. If you are not on Mac, check out the [Storage F
 1. Run `diskutil unmount /dev/disk2   sudo dd if=/dev/zero of=/dev/disk2` to clean the microsd (change disk2 by your disk number)
 1. Remove and reinsert your storage device
 1. Run `sudo newfs_exfat -R /dev/disk2` to format your storage device into exfat
-  + If your storage device has a capacity of 256 GB or greater, you must run `sudo newfs_exfat -R  -c 128 /dev/disk2` (It will format with a cluster size of 64kb)
+  + If your storage device has a capacity of 256 GB or greater, you must run `sudo newfs_exfat -R  -c 64 /dev/disk2` 
   
 #### Section II - Verifying Storage Device
 
