@@ -29,7 +29,7 @@ HENkaku 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您�
 1. 閱讀免責聲明，然後點選『Install』
   + 如果遇到錯誤且無法繼續的話， [請依循此疑難排解之步驟](troubleshooting#a-browser-based-exploit-is-not-working)
 1. 如果漏洞執行成功，您的 LiveArea 頁面中將出現一個新的應用程式叫做『molecularShell』。
-  + 若漏洞成功執行卻沒看到 molecularShell 程式，請再執行一次此漏洞並於提示重新安裝 molecularShell 時按下「R1」
+  + If the exploit was successful but the molecularShell application is missing, perform the exploit again and press R1 when prompted to re-install molecularShell. (Note : If you have just downgraded and have vitashell in your memorycard, henkaku won't install molecularshell because it will detect an already existing taihen config. This is not a problem because molecularshell is just an outdated version of vitashell. So keep using vitashell.)
 
 #### 第二節 — 設定 HENkaku
 
