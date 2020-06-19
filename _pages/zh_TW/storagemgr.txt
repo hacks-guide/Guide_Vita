@@ -43,14 +43,13 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
   + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 複製 `storagemgr.skprx` 至 `ur0:tai/` 資料夾中
 1. 複製 `storage_config.txt` 至 `ur0:tai/` 資料夾中
-1. 將 `ur0:tai/config.txt` 中所有的 `ux0:tai/` 替換為 `ur0:tai/` 
+1. 將 `ur0:tai/config.txt` 中所有的 `ux0:tai/` 替換為 `ur0:tai/`
   + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 將下列的字串加入至 `ur0:tai/config.txt` 中 `*KERNEL` 行列下：
   + `ur0:tai/storagemgr.skprx`
 1. 刪除 `ux0:tai/` 資料夾
+  + This is an important step as HENkaku will not load plugins installed in `ur0:tai` if it detects that `ux0:tai` exists
 
-This is an important step as henkaku will not load plugins installed in ur0:tai if it detects that ux0:tai exist.
-  
 #### 第二節 — 還原資料
 
 本節將會從您舊的 Sony 記憶卡內容複製到新的儲存裝置中。
