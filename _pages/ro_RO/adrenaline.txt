@@ -47,7 +47,7 @@ Trebuie să aveți deja instalat VitaShell pentru a utiliza aceasta aplicație.
 
 1. Apăsați (Cerc) pentru a reveni la "ux0:"
 1. Navigați spre `tai/`
-  + În cazul în care `urx:tai` nu există, apăsați (Cerc) din nou apoi navigați spre `ur0:tai`
+  + If `ux0:tai` doesn't exist, press (Circle) again and then navigate to `ur0:tai`
 1. Apăsați (X) pe `config.txt` pentru al deschide în editor
 1. Evidențiați linia `* KERNEL` cu cursorul
 1. Apăsaţi (triunghi) pentru a deschide meniul, apoi selectaţi "Insert empty line"
