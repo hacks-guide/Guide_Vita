@@ -43,14 +43,13 @@ Vous devez déjà avoir installé VitaShell pour pouvoir utiliser ceci.
   + Si vous ne possédez pas de dossier "ux0:tai" passez cette étape
 1. Transférez le `storagemgr.skprx` vers le dossier `tai`
 1. Transférez le `storage_config.txt` vers le dossier `tai`
-1. Dans le fichier `ur0:tai/config.txt`, toutes les lignes qui commencent par `ux0:tai/ `vous devez les remplacez par `ur0:tai` 
+1. Dans le fichier `ur0:tai/config.txt`, toutes les lignes qui commencent par `ux0:tai/ `vous devez les remplacez par `ur0:tai`
   + Si vous ne possédez pas de dossier "ux0:tai" passez cette étape
 1. Ajoutez la ligne suivante à `ur0:tai/config.txt` sous la ligne `*KERNEL`:
   + `ur0:tai/storagemgr.skprx`
 1. Supprimer le dossier `ux0:tai`
+  + This is an important step as HENkaku will not load plugins installed in `ur0:tai` if it detects that `ux0:tai` exists
 
-This is an important step as henkaku will not load plugins installed in ur0:tai if it detects that ux0:tai exist.
-  
 #### Section II - Restaurer les données
 
 Cette section copiera les données de votre ancienne carte de mémoire de Sony à votre nouveau périphérique de stockage.
