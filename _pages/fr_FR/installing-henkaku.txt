@@ -29,7 +29,10 @@ Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (d
 1. Lisez les avertissements et appuyez sur "Install"
   + Si vous rencontrez une autre erreur, [suivez ce guide de dépannage](troubleshooting#a-browser-based-exploit-is-not-working)
 1. Si l'exploit s'est bien déroulé, vous devriez avoir une bulle sur votre LiveArea appelé "molecularShell".
-  + If the exploit was successful but the molecularShell application is missing, perform the exploit again and press R1 when prompted to re-install molecularShell. (Note : If you have just downgraded and have vitashell in your memorycard, henkaku won't install molecularshell because it will detect an already existing taihen config. This is not a problem because molecularshell is just an outdated version of vitashell. So keep using vitashell.)
+  + If the exploit was successful but the molecularShell application is missing, perform the exploit again and press R1 when prompted to re-install molecularShell.
+
+If you have just downgraded and have VitaShell in your memory card, HENkaku won't install MolecularShell as it will detect a pre-existing taiHEN config. This will not be an issue.
+{: .notice--warning}
 
 #### Section II - Configuration de HENkaku
 
