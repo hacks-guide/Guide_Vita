@@ -22,12 +22,12 @@ title: "Storage Format (Mac)"
 #### Часть I - Форматирование накопителя
 
 1. Вставьте накопитель в компьютер
-1. Запустите Дисковую утилиту
-1. Выберите свой накопитель
-1. Выберите "Разбить на разделы"
-1. Отформатируйте накопитель в качестве MBR с одним разделом exFAT
-  + Если накопитель имеет емкость 256 ГБ или больше, то необходимо произвести форматирование с размером кластера 64 КБ
-
+1. Open a terminal an run `diskutil list` to know which disk corresponds to your storage device (usually /dev/disk2)
+1. Run `diskutil unmount /dev/disk2   sudo dd if=/dev/zero of=/dev/disk2` to clean the microsd (change disk2 by your disk number)
+1. Remove and reinsert your storage device
+1. Run `sudo newfs_exfat -R /dev/disk2` to format your storage device into exfat
+  + If your storage device has a capacity of 256 GB or greater, you must run `sudo newfs_exfat -R  -c 64 /dev/disk2` 
+  
 #### Часть II - Проверка накопителя
 
 Если вы не хотите проверять накопитель на наличие ошибок, пропустите эту часть.
