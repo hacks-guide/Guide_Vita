@@ -48,6 +48,8 @@ Per seguire questa guida è necessario aver già installato VitaShell.
 1. Aggiungi la seguente linea di testo in `ur0:tai/config.txt` sotto la linea `*KERNEL`:
   + `ur0:tai/storagemgr.skprx`
 1. Cancella la cartella `ux0:tai/`
+
+This is an important step as henkaku will not load plugins installed in ur0:tai if it detects that ux0:tai exist.
   
 #### Sezione II - Ripristino dei dati
 
