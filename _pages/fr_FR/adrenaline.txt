@@ -47,7 +47,7 @@ Vous devez déjà avoir installé VitaShell pour pouvoir utiliser ceci.
 
 1. Appuyez sur (Rond) pour retourner vers `ux0:`
 1. Naviguez vers `tai/`
-  + Si `ux0:tai` n'existe pas, appuyez à nouveau sur (Circle) puis naviguez vers `ur0:tai`
+  + If `ux0:tai` doesn't exist, press (Circle) again and then navigate to `ur0:tai`
 1. Appuyez sur (Croix) sur le fichier `config.txt` pour l'ouvrir dans l'éditeur
 1. Surlignez la ligne `*KERNEL` avec le curseur
 1. Appuyez sur (Triangle) pour ouvrir le menu, et sélectionnez "Insérer une ligne vide" (Insert Empty Line)
