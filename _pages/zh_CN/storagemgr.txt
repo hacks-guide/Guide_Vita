@@ -48,6 +48,8 @@ SD2Vita是一个microSD转换为游戏卡的适配器，请将它插入你设备
 1. 将下列的字符串加入 `ur0:tai/config.txt` 中的 `*KERNEL` 行列下：
   + `ur0:tai/storagemgr.skprx`
 1. 删除`ux0:tai/`文件夹
+
+This is an important step as henkaku will not load plugins installed in ur0:tai if it detects that ux0:tai exist.
   
 #### 第二部分 — 恢复资料
 
