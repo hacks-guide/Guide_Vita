@@ -43,14 +43,13 @@ SD2Vita это адаптер для microSD карты, который вста
   + Если у вас нет папки `ux0:tai/`, пропустите этот шаг
 1. Загрузите `storagemgr.skprx` в папку `ur0:tai/`
 1. Загрузите `storage_config.txt` в папку `ur0:tai/`
-1. Для всех путей в файле `ur0:tai/config.txt`, которые содержат `ux0:tai/`, замените `ux0:tai/` на `ur0:tai/` 
+1. Для всех путей в файле `ur0:tai/config.txt`, которые содержат `ux0:tai/`, замените `ux0:tai/` на `ur0:tai/`
   + Если у вас не было папки `ux0:tai/`, пропустите этот шаг
 1. Добавьте следующую строку в файл `ur0:tai/config.txt` сразу после строки `*KERNEL`:
   + `ur0:tai/storagemgr.skprx`
 1. Удалите папку `ux0:tai/`
+  + This is an important step as HENkaku will not load plugins installed in `ur0:tai` if it detects that `ux0:tai` exists
 
-This is an important step as henkaku will not load plugins installed in ur0:tai if it detects that ux0:tai exist.
-  
 #### Часть II - Восстановление данных
 
 В этой части мы скопируем все данные со старой карты памяти Sony на новый накопитель.
