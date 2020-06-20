@@ -22,13 +22,13 @@ title: "Storage Format (Mac)"
 #### 第一步 — 格式化存储设备
 
 1. 将存储设备插入电脑
-1. Open the Terminal app
-1. Enter `diskutil list` into the terminal
-1. Identify which disk is your storage device in the format `/dev/diskX`
-1. Enter `diskutil unmount /dev/diskX` and then `sudo dd if=/dev/zero of=/dev/diskX` to format the storage device
-1. Remove and reinsert your storage device
-1. Enter `sudo newfs_exfat -R /dev/diskX` to format your storage device into exfat
-  + If your storage device has a capacity of 256 GB or greater, you must run `sudo newfs_exfat -R  -c 64 /dev/diskX`
+1. 打开终端程序。
+1. 在终端中输入 `diskutil list`
+1. 你的存储设备将会被识别并加载到 `/dev/diskX` 文件夹中。
+1. 输入 `diskutil unmount /dev/diskX` 然后输入 `sudo dd if=/dev/zero of=/dev/diskX` 来格式化存储设备。
+1. 拔出并重新插入你的存储设备
+1. 输入 `sudo newfs_exfat -R /dev/diskX` 来将你的存储设备格式化为 exfat
+  + 如果你的存储设备容量在 256 GB 或以上，则你必须要输入 `sudo newfs_exfat -R  -c 64 /dev/diskX`
 
 #### 第二步 — 验证存储设备
 
