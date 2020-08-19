@@ -39,7 +39,7 @@ Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (d
   + Si vous rencontré un message vous demandant de mettre a jour votre appareil, veuillez redémarrer en mode sans échec (appuyez sur Ps + R + bouton d'allumage) et activez l'option mettre à jour la base de donnée
   + Si vous rencontrez toujours ce message, suivez les instructions de [Blocking Updates](blocking-updates) et réessayez
   + If you *still* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
-  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.9.1/QcmaDriver_winusb.exe) and try again
+  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) and try again
 
 #### Section II - Réduire la taille de h-encore a 13MO
 
