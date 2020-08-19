@@ -39,7 +39,7 @@ title: Установка h-encore
   + Если появится сообщение о необходимости обновления, перезагрузите консоль и попробуйте снова
   + Если сообщение по-прежнему появляется, выполните инструкции на странице [Блокировка обновлений](blocking-updates) и попробуйте снова
   + Если сообщение *по-прежнему* появляется, включите Режим авиаперелета в Системных настройках и попробуйте снова (это *не* работает для PS TV)
-  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.9.1/QcmaDriver_winusb.exe) and try again
+  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) and try again
 
 #### Часть II - Перенос h-encore
 
