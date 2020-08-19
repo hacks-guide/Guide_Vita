@@ -39,7 +39,7 @@ h-encore 漏洞允许你在 PS Vita (TV) 中安装自制程序到你的主菜单
   + 如果你遇到消息指示你更新，请重启设备并再试一次
   + 如果你依然遇到了提示，请参见[阻止更新](blocking-updates)并再试一次
   + 如果你*仍然*遇到了这个提示，请前往系统设置打开飞行模式，然后再试（这选项PS TV上是*没有*的，因为谁会在飞机上玩这个啊）
-  + 如果你的设备无法检测到与主机的USB连接，请安装 [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.9.1/QcmaDriver_winusb.exe) 然后再试一次
+  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) and try again
 
 #### 第二步 — h-encore 转移
 
