@@ -39,7 +39,7 @@ Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria ofic
   + Si encuentras un mensaje que te instruye a actualizar, reinicia la consola y vuelve a intentar
   + Si todavía recibes este mensaje, sigue las instrucciones en [Bloqueo de actualizaciones](blocking-updates) y vuelve a intentar
   + Si *aún* recibes este mensaje, activa el Modo avión en las configuraciones del sistema y vuelve a intentar (esto *no* funcionará en las PS TV)
-  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.9.1/QcmaDriver_winusb.exe) and try again
+  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) and try again
 
 #### Sección II - Transferir h-encore
 
