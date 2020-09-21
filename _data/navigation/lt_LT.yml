@@ -1,0 +1,89 @@
+---
+main:
+  - 
+    title: Home
+    url: /
+  - 
+    title: FAQ
+    url: faq
+  - 
+    title: Donations
+    url: donations
+  - 
+    title: Credits
+    url: credits
+  - 
+    title: Troubleshooting
+    url: troubleshooting
+  - 
+    title: Adrenaline
+    url: adrenaline
+  - 
+    title: StorageMgr
+    url: storagemgr
+  - 
+    title: Site Navigation
+    url: site-navigation
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+bottom:
+  - 
+    title: For support in English, ask for help at <a href="https://discord.gg/m7MwpKA">HENkaku on Discord</a>.
+  - 
+    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+footer:
+  - 
+    title: Source
+  - 
+    title: Site Navigation
+  - 
+    title: Why Ads?
+  - 
+    title: Privacy Policy
+sidebar_title:
+  - 
+    title: Overall Progress
+sidebar_pages:
+  - 
+    title: Home
+    url: /
+  - 
+    title: Get Started
+    url: get-started
+  - 
+    title: Updating Firmware (3.60)
+    url: updating-firmware-(3.60)
+  - 
+    title: Updating Firmware (PS TV 3.65 and 3.68)
+    url: updating-firmware-(ps-tv-3.65-and-3.68)
+  - 
+    title: Updating Firmware (PS Vita 3.65 and 3.68)
+    url: updating-firmware-(ps-vita-3.65-and-3.68)
+  - 
+    title: Installing h-encore
+    url: installing-h-encore
+  - 
+    title: Downgrading Firmware (3.60)
+    url: downgrading-firmware-(3.60)
+  - 
+    title: Downgrading Firmware (3.65)
+    url: downgrading-firmware-(3.65)
+  - 
+    title: Installing HENkaku
+    url: installing-henkaku
+  - 
+    title: Configuring h-encore
+    url: configuring-h-encore
+  - 
+    title: Multiple Options
+    url: multiple-options
+  - 
+    title: Installing Ensō (3.65)
+    url: installing-enso-(3.65)
+  - 
+    title: Installing Ensō (3.60)
+    url: installing-enso-(3.60)
+  - 
+    title: Finalizing Setup
+    url: finalizing-setup
