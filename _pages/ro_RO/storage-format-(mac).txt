@@ -1,5 +1,5 @@
 ---
-title: "Storage Format (Mac)"
+title: "Formatare de stocare (Mac)"
 ---
 
 {% include toc title="Cuprins" %}
@@ -22,13 +22,13 @@ Această pagină este doar pentru utilizatorii de Mac. Dacă nu sunteţi pe Mac,
 #### Secțiunea I - Formatând dispozitivul de stocare
 
 1. Introduceți dispozitivul de stocare în calculator
-1. Open the Terminal app
-1. Enter `diskutil list` into the terminal
-1. Identify which disk is your storage device in the format `/dev/diskX`
-1. Enter `diskutil unmount /dev/diskX` and then `sudo dd if=/dev/zero of=/dev/diskX` to format the storage device
-1. Remove and reinsert your storage device
-1. Enter `sudo newfs_exfat -R /dev/diskX` to format your storage device into exfat
-  + If your storage device has a capacity of 256 GB or greater, you must run `sudo newfs_exfat -R  -c 64 /dev/diskX`
+1. Deschideti aplicația Terminal
+1. Scrieți `diskutil list` în terminal
+1. Identificați care disc este dispozitivul de stocare în formatul `/dev/diskX`
+1. Scrieți `diskutil demontaţi /dev/diskX` și apoi `sudo dd if=/dev/zero of=/dev/diskX` pentru a formata dispozitivul de stocare
+1. Scoateți și reintroduceți dispozitivul de stocare
+1. Introduceți `sudo newfs_exfat -R /dev/diskX` pentru a formata dispozitivul de depozitare în formatul exFAT
+  + Dacă dispozitivul dumneavoastră de stocare are o capacitate de 256 GB sau mai mare, trebuie să scrieți și să executați `sudo newfs_exfat -R -c 64 /dev/diskX`
 
 #### Secțiunea II - Verificând dispozitivul de stocare
 
