@@ -18,16 +18,17 @@ Browser based exploits (such as the WebKit exploit used for HENkaku) can be unst
 1. Launch the browser, then open the browser settings
 1. Scroll to the bottom and click "Delete Cookies" and "Clear Search History"
 1. Try the exploit again
+  + If it still doesn't work, try to reboot, wait 5 minute, and open the browser
 
 ## Removing an PSN account without formatting your device
 
 1. Go to your [PSN Account Management Page](https://account.sonyentertainmentnetwork.com/home/index!display.action)
 1. Under the devices section, choose "PlayStation Systems"
 1. Select your console
-1. Select "Deactivate"
+1. Select "Desactivate"
 
 ## Black screen on boot
 
 1. Hold L on boot to disable TaiHEN plugin loading
 1. If your device boots, try editing `ux0:tai/config.txt` and remove any plugins you may have recently added
-1. If these instructions do not work, your device may be bricked
+1. If these instructions do not work, your device may be bricked. you will need to follow this [tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)
