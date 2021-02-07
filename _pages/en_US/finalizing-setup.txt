@@ -57,6 +57,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. Transfer `pngshot.suprx` to the `tai` folder
 1. Transfer `PSVshell.skprx` to the `tai` folder
 1. Press (Circle) on your device to close the FTP connection
+  + Additionally if you want to learn how to install plugins on your vita and understand the config.txt you can read [this](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
 #### Section II - Blocking Updates
 
