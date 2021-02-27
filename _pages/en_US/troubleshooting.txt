@@ -25,10 +25,11 @@ Browser based exploits (such as the WebKit exploit used for HENkaku) can be unst
 1. Go to your [PSN Account Management Page](https://account.sonyentertainmentnetwork.com/home/index!display.action)
 1. Under the devices section, choose "PlayStation Systems"
 1. Select your console
-1. Select "Desactivate"
+1. Select "Deactivate"
 
 ## Black screen on boot
 
 1. Hold L on boot to disable TaiHEN plugin loading
 1. If your device boots, try editing `ux0:tai/config.txt` and remove any plugins you may have recently added
-1. If these instructions do not work, your device may be bricked. you will need to follow this [tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)
+1. If these instructions do not work, your device may be bricked
+  + In unlikely event of this happening, please follow [this tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)
