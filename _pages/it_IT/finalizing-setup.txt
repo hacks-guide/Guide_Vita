@@ -87,7 +87,10 @@ Per installare i file `.vpk` (pacchetto contenuti) necessari sulla tua console, 
   + "molecularShell"
 1. Gli utenti con versione di sistema 3.60 dovrebbero inoltre cancellare la seguente applicazione, se presente:
   + "h-encore"
-    + the h-encore exploit will not work on 3.60 and the device will reboot if used
+
+    The h-encore exploit will not work on 3.60 and the device will reboot if used.
+    {: .notice--warning}
+
 1. Chiudi "Gestione contenuto"
 
 ___
