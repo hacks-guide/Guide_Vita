@@ -13,10 +13,9 @@ title: "完成安裝"
 +  **DownloadEnabler** *(允許您在內建的網頁瀏覽器中下載任何檔案類型)*
 +  **shellbat** *(於狀態列中顯示剩餘電量)*
 +  **pngshot** *(改進內建的截圖程式)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
 
 In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
-
-We will also block updates using a DNS server. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
 
 ### 必備項目
 
@@ -28,6 +27,7 @@ We will also block updates using a DNS server. The server tricks your device int
 * 最新版的 [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * 最新版的 [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * 最新版的 [pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
 
 ### 操作說明
 
@@ -55,21 +55,15 @@ We will also block updates using a DNS server. The server tricks your device int
 1. 複製 `download_enabler.suprx` 至 `tai` 資料夾中
 1. 複製 `shellbat.suprx` 至 `tai` 資料夾中
 1. 複製 `pngshot.suprx` 至 `tai` 資料夾中
+1. Transfer `PSVshell.skprx` to the `tai` folder
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
+  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
 #### Section II - Blocking Updates
 
 1. 啟動設定
-1. 移動至 `網路` -> `Wi-Fi 設定`
-  + 若您尚未連上網，請連接到 Wi-Fi 網路
-1. 選擇您目前所連結的網路
-  + 已連上的網路旁邊會有一個綠色點點
-1. 選擇『詳細設定』
-1. 將『DNS 設定』改為『手動』
-  + You must apply the following DNS settings to each network you use
-1. 將『主要 DNS (Primary DNS)』改為 `212.47.229.76`
-1. Set "Secondary DNS" to `212.47.229.76`
-1. 確保您已將『Proxy 伺服器』設定至『不使用』
+1. 移動至 `系統` -> `自動啟動設定`
+1. Uncheck the `Download Update File for System Sofwtare`
 1. 關閉設定
 
 #### Section III - PSN Access
@@ -89,11 +83,11 @@ We will also block updates using a DNS server. The server tricks your device int
 1. 選擇『管理記憶卡的內容』
 1. 選擇『PS Vita』
 1. 若有看見下列檔案，請將其刪除 (您所看到的檔案將因您的安裝方式而異，因此您可能只會看見部分列出的檔案)：
-  + "ensō"
   + "modoru 戻る"
   + "molecularShell"
 1. 使用 3.60 版本的使用者若有看見下列檔案也應將其刪除：
   + "h-encore"
+    + the h-encore exploit will not work on 3.60 and the device will reboot if used
 1. 關閉『內容管理員』
 
 ___
