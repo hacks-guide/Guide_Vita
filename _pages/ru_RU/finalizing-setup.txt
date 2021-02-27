@@ -13,10 +13,9 @@ title: "Завершение установки"
 +  **DownloadEnabler** *(позволяет скачивать файлы любых типов с помощью браузера)*
 +  **shellbat** *(отображает процент заряда батареи в строке состояния)*
 +  **pngshot** *(улучшает встроенную утилиту для скриншотов)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
 
 Для установки необходимых файлов `.vpk` (content package) на консоль мы используем [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol), чтобы скопировать файлы на карту памяти консоли.
-
-Мы также блокируем обновления с помощью DNS-сервера. Сервер заставляет консоль обнаруживать 3.60 в качестве последней версии прошивки, таким образом она не будет обновляться дальше. Это полезно, потому что 3.60 является самой ранней прошивкой, на которой работает HENkaku. Эти настройки должны быть применены для каждой сети, к которой вы подключаетесь.
 
 ### Что понадобится
 
@@ -28,6 +27,7 @@ title: "Завершение установки"
 * Свежая версия [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Свежая версия [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Свежая версия [pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
 
 ### Инструкция
 
@@ -55,21 +55,15 @@ title: "Завершение установки"
 1. Загрузите `download_enabler.suprx` в папку `tai`
 1. Загрузите `shellbat.suprx` в папку `tai`
 1. Загрузите `pngshot.suprx` в папку `tai`
+1. Transfer `PSVshell.skprx` to the `tai` folder
 1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
+  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
 #### Часть II - Блокировка обновлений
 
 1. Запустите приложение Настройки
-1. Перейдите в `Сеть` -> `Настройки Wi-Fi`
-  + Подключитесь к сети Wi-Fi, если вы еще этого не сделали
-1. Выберите ваше текущее подключение
-  + Оно обозначено зелёной точкой рядом с сетью
-1. Выберите "Дополнительные настройки"
-1. Измените "Настройки DNS" на "Вручную"
-  + Вы должны применить следующие настройки DNS для каждой сети, которую вы используете
-1. Измените "Основной DNS" на `212.47.229.76`
-1. Измените "Дополнительный DNS" на `212.47.229.76`
-1. Убедитесь, что настройка "Прокси-сервер" имеет значение "Не использовать"
+1. Перейдите в `Система` -> `Настройка автозапуска`
+1. Uncheck the `Download Update File for System Sofwtare`
 1. Закройте приложение Настройки
 
 #### Часть III - Доступ к PSN
@@ -89,11 +83,11 @@ title: "Завершение установки"
 1. Выберите "Управление данными на карте памяти"
 1. Выберите "PS Vita"
 1. Удалите следующие приложения, если они есть (в зависимости от метода установки некоторые либо все эти приложения могут отсутствовать):
-  + "ensō"
   + "modoru 戻る"
   + "molecularShell"
 1. Пользователям с версией прошивки 3.60 необходимо также удалить следующие приложения, если они есть:
   + "h-encore"
+    + the h-encore exploit will not work on 3.60 and the device will reboot if used
 1. Закройте приложение Управление данными
 
 ___
