@@ -87,7 +87,10 @@ title: "Завершение установки"
   + "molecularShell"
 1. Пользователям с версией прошивки 3.60 необходимо также удалить следующие приложения, если они есть:
   + "h-encore"
-    + the h-encore exploit will not work on 3.60 and the device will reboot if used
+
+    The h-encore exploit will not work on 3.60 and the device will reboot if used.
+    {: .notice--warning}
+
 1. Закройте приложение Управление данными
 
 ___
