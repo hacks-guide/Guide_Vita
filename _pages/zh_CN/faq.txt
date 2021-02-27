@@ -9,7 +9,7 @@ title: "常见问题"
 **A:** 是的，Modoru可以将任何被HENkaku或H-Encore破解的系统降级到任何等于或大于设备开箱时的固件。
 
 <a name="faq_update" />**Q:** *在使用自制固件的时候升级 Vita 安全吗?*
-**A:** 不！ 你必须始终确保已按[完成安装](finalizing-setup)结尾处的方法阻止更新。
+**A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
 <a name="faq_risky" />**Q: ** *破解我的机器风险有多大？*
 **A:** 除非你忽略教程的指示，否则砖机基本上是*不可能*的。
@@ -18,7 +18,7 @@ title: "常见问题"
 **A:** 可以！ 通过本教程可以在你的设备上开启任何用户自制的自制程序。
 
 <a name="faq_support" />**Q:** *如果我遇到麻烦可以在哪寻求帮助?*
-**A:** 如需支援，请加入 [Vita Hacking Discord服务器](https://discord.gg/JXEKeg6)。
+**A:** For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
 <a name="faq_nopc" />**Q:** *我能在没有电脑的时候完成这个教程吗？*
-**A:** 不，你必须要有一台电脑才能完成这个教程。
+**A:** You must have a computer if you are on firmware version 3.61 or higher.
