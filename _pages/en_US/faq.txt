@@ -9,7 +9,8 @@ title: "FAQ"
 **A:** Yes, the tool Modoru can downgrade any system hacked with HENkaku or h-encore to any firmware equal or greater than the firmware the console came with out of the box.
 
 <a name="faq_update" />**Q:** *Is it safe to update a Vita with CFW?*
-**A:** There is no need to update a PSVita with CFW. Stay in 3.60 (or 3.65 if you couldn't downgrade lower)
+**A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
+
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*
 **A:** Bricks are *basically* impossible unless you ignore instructions.
 
