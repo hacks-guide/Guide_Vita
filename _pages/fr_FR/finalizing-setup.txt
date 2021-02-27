@@ -13,10 +13,9 @@ Nous allons maintenant configurer les applications et plugins comme par exemple 
 + **DownloadEnabler ** *(Autorise le téléchargement de n'importe quel type de fichiers depuis le navigateur sony sur Psvita)*
 + **shellbat** *(affiche un pourcentage exact du niveau de la batterie.)*
 + **pngshot** *(Améliore la fonctionnalité de screenshot inclue dans le système.)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
 
 In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
-
-We will also block updates using a DNS server. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
 
 ### Ce dont vous aurez besoin
 
@@ -28,6 +27,7 @@ We will also block updates using a DNS server. The server tricks your device int
 * La dernière version de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * La dernière version de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * La dernière version d'[pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
 
 ### Instructions
 
@@ -55,21 +55,15 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Transférez le fichier `download_enabler.suprx` dans le dossier `tai`
 1. Transférez le fichier `shellbat.suprx`dans le dossier `tai`
 1. Transférez le fichier `pngshot.suprx` dans le dossier `tai`
+1. Transfer `PSVshell.skprx` to the `tai` folder
 1. Appuyez sur (Rond) sur votre machine pour fermer la connexion FTP
+  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
 #### Section II - Blocking Updates
 
 1. Allez dans l'application paramètres
-1. Accédez au  `Réseau`-> `Paramètres connexion Wi-Fi`
-  + Se connecter à un réseau Wi-Fi si vous ne le n'avez pas déjà fait
-1. Sélectionnez votre réseau actuel
-  + Ceci est indiqué par un point verte à côté du réseau
-1. Sélectionnez "Modifier les paramètres"
-1. Mettez "Paramétrage du DNS" sur "Manuel"
-  + You must apply the following DNS settings to each network you use
-1. Mettez "DNS primaire" à `212.47.229.76`
-1. Set "Secondary DNS" to `212.47.229.76`
-1. Assurez vous que "Serveur Proxy" soit mis en mode "Ne pas utiliser"
+1. Accédez à `Système` -> `Paramètres de démarrage automatique`
+1. Uncheck the `Download Update File for System Sofwtare`
 1. Fermez l’application de Paramètres
 
 #### Section III - PSN Access
@@ -89,11 +83,11 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Sélectionnez « Gérer le contenu de la carte mémoire »
 1. Sélectionnez « PS Vita »
 1. Supprimer les applications suivantes si elles existent (à noter que, selon la méthode de votre installation, tout ou une partie de ces applications peuvent manquer) :
-  + "ensō"
   + "modoru 戻る"
   + "molecularShell"
 1. Les utilisateurs de la version 3.60 du firmware devraient en outre supprimer l'application suivante si elle existe :
   + "h-encore"
+    + the h-encore exploit will not work on 3.60 and the device will reboot if used
 1. Fermez l’application Gestionnaire de Contenu
 
 ___
