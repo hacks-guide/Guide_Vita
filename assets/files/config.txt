@@ -5,6 +5,7 @@
 *KERNEL
 ur0:tai/nonpdrm.skprx
 ur0:tai/0syscall6.skprx
+ur0:tai/PSVshell.skprx
 
 *main
 ur0:tai/henkaku.suprx
