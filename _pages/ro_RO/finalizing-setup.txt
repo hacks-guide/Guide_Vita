@@ -13,10 +13,9 @@ Acuma vom instala aplicații și plugin-uri precum următoarele:
 +  **DownloadEnabler** *(permite orice tip de fișier să fie descărcat cu browserul)*
 +  **shellbat** *(afișează procentajul exact al bateriei în bara de stare)*
 +  **pngshot** *(îmbunătățește utilitatea de captură de ecran integrată)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
 
 Pentru a putea instala fișierele `.vpk` (pachet de conținut) necesare pe dispozitiv, folosim [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) pentru a copia fișierele către cardul de memorie al dispozitivului.
-
-De asemenea vom bloca actualizările folosind un server DNS. Serverul păcălește dispozitivul în a detecta 3.60 ca fiind ultima versiune de firmware, prevenind orice altă actualizare dincolo de aceasta. Aceasta este folositoare pentru că 3.60 este cea mai veche versiune pe care merge HENkaku. Aceste setări trebuie aplicate la fiecare rețea pe care intrați.
 
 ### Ce aveți nevoie
 
@@ -28,6 +27,7 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
 * Ultima versiune de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Ultima versiune de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Ultima versiune de [pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
 
 ### Instrucțiuni
 
@@ -55,21 +55,15 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
 1. Transferați `download_enabler.suprx` către folderul `tai`
 1. Transferați `shellbat.suprx` către folderul `tai`
 1. Transferați `pngshot.suprx` către folderul `tai`
+1. Transfer `PSVshell.skprx` to the `tai` folder
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
+  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
 #### Secţiunea II - Blocând Actualizările
 
 1. Lansați aplicația Settings
-1. Navigați spre `Network` -> `Wi-Fi Settings`
-  + Conectați-vă la o rețea Wi-Fi dacă nu v-ați conectat deja
-1. Selectaţi-vă reţeaua actuală
-  + Aceasta este simbolizată de un punct verde alături de reţea
-1. Selectați "Advanced Settings"
-1. Setați "DNS Settings" la "Manual"
-  + Trebuie să aplicați următoarele setări DNS la fiecare rețea care folosiți
-1. Setaţi "Primary DNS" la `212.47.229.76`
-1. Setaţi "Secondary DNS" la `212.47.229.76`
-1. Asigurați-vă că "Proxy Server" este setat la "Do Not Use"
+1. Navigați spre `System` -> `Auto-Start Settings`
+1. Uncheck the `Download Update File for System Sofwtare`
 1. Închideți aplicația Settings
 
 #### Secțiunea III - Acces la PSN
@@ -89,11 +83,11 @@ De asemenea vom bloca actualizările folosind un server DNS. Serverul păcăleș
 1. Selectaţi "Manage Content on Memory Card"
 1. Selectaţi "PS Vita"
 1. Ştergeţi următoarele aplicaţii în cazul în care acestea există (țineți cont că, în funcţie de metoda dumneavoastră de a instala, unele sau toate aceste aplicaţii ar putea să lipsească):
-  + "ensō"
   + "modoru 戻る"
   + "molecularShell"
 1. Utilizatorii versiunei de firmware 3.60 ar trebui de asemenea să şteargă aplicația următoare, dacă există:
   + "h-encore"
+    + the h-encore exploit will not work on 3.60 and the device will reboot if used
 1. Închideți aplicația Content Manager
 
 ___
