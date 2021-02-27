@@ -6,30 +6,16 @@ title: "Blocco degli aggiornamenti"
 
 ### Lettura necessaria
 
-Per evitare aggiornamenti indesiderati, configuramo le impostazioni DNS del dispositivo per utilizzare un server di aggiornamento personalizzato che punti a 3.60 come ultimo aggiornamento disponibile. Questa operazione blocca l'installazione di eventuali versioni sopra la 3.60 quando il dispositivo prova ad effettuare un aggiornamento.
-
+To prevent unwanted updates, we will disable an option made by sony which automatically download the update file from their servers on your vita.
 ### Cosa ti serve
 
 * Una connessione internet sulla tua PS Vita (TV)
 
 ### Istruzioni
 
-#### Sezione I - Configurazione dei DNS
+#### Section I - Disabling the auto-download option
 
-Per poter bloccare gli aggiornamenti, questi server DNS devono essere impostati su tutte le reti internet alle quali è connessa la tua console!
-{: .notice--warning}
 
-1. Apri le Impostazioni
-1. Vai a `Connessioni` -> `Impostazioni Wi-Fi`
-  + Connettiti a una rete Wi-Fi se non l'hai già fatto
-1. Seleziona la rete che stai utilizzando
-  + Puoi riconoscerla perché ha un pallino verde vicino al nome
-1. Seleziona "Impostazioni avanzate"
-1. Imposta "Impostazioni DNS" su "Manuale"
-1. Imposta `212.47.229.76` come "DNS primario"
-1. Lascia "DNS secondario" vuoto
-1. Assicurati che "Server proxy" sia impostato su "Non usare"
-1. Ritorna alla pagina iniziale delle impostazioni
 1. Vai su `Sistema` -> `Impostazioni di avvio automatico`
 1. Togli la spunta a "Scarica i file di aggiornamento per il software di sistema"
 1. Ritorna alla pagina iniziale delle impostazioni
