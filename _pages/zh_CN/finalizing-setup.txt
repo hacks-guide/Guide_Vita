@@ -13,10 +13,9 @@ title: "完成安装"
 +  **DownloadEnabler** *（允许使用浏览器下载任何类型的文件）*
 +  **shellbat** *(在状态栏中显示准确的电池百分比)*
 +  **pngshot** *(改进内置的屏幕截图程序)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
 
 为了在你的设备安装必要的 `.vpk` 安装包，我们使用 [FTP](https://zh.m.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE) 来将文件复制到你设备的内存卡。
-
-我们还将使用 DNS 服务器来阻止系统更新。 DNS 服务器将使主机认为 3.60 是最新版本，而不会更新到 3.60 之后的版本。 这是非常有用的，因为 3.60 是能运行 HENkaku 的最早固件。 你必须在每个你想连接的网络中都做一次才能阻止系统更新。
 
 ### 你需要准备点啥？
 
@@ -28,6 +27,7 @@ title: "完成安装"
 * 最新版 [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * 最新版 [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * 最新版 [pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
 
 ### 操作步骤
 
@@ -55,21 +55,15 @@ title: "完成安装"
 1. 复制 `download_enabler.suprx` 到 `tai` 文件夹
 1. 复制 `shellbat.suprx` 到 `tai` 文件夹
 1. 复制 `pngshot.suprx` 到 `tai` 文件夹
+1. Transfer `PSVshell.skprx` to the `tai` folder
 1. 在你的主机上按下 “○” 键以关闭 FTP 连接
+  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
 #### 第二步 — 阻止更新
 
 1. 打开系统设置
-1. 依次进入 `网络(Network)` -> `Wi-Fi 设定(Wi-Fi Settings)`
-  + 如果你之前没有联网，那么现在请连接到 Wi-Fi 网络
-1. 选择你想使用的接入点
-  + 已连接的网络旁边会有绿色的点
-1. 选择 “高级设置(Advanced Settings)”
-1. 找到 “DNS 设置(DNS Settings)” 并将它设置为“手动(Manual)”
-  + 你必须在每个你想连接的网络中都做一次。
-1. 将 “主DNS（Primary DNS）” 设置为 `212.47.229.76`
-1. 将 “备用DNS(Secondary DNS)” 设为 `212.47.229.76`
-1. 确认“代理服务器 (Proxy)” 设置为 “不使用(Do Not Use)”
+1. 移动至 `系统(System)` -> `自动启动设置(Auto-Start Settings)`
+1. Uncheck the `Download Update File for System Sofwtare`
 1. 关闭系统设置
 
 #### 第三步 — PSN 访问
@@ -89,11 +83,11 @@ title: "完成安装"
 1. 选择 “管理内存卡的内容(Manage Content on Memory Card)”
 1. 选择 “PS Vita”
 1. 如果你看到有以下程序请删除（注意，可能会缺少下文中列出的一些程序，这是正常的。这与你破解的方式而异）:
-  + "ensō"
   + "modoru 戻る"
   + "molecularShell"
 1. 如果系统固件为 3.60 的用户如果有也应删除这些文件:
   + "h-encore"
+    + the h-encore exploit will not work on 3.60 and the device will reboot if used
 1. 关闭“内容管理器”程序
 
 ___
