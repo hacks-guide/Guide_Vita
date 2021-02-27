@@ -77,7 +77,11 @@ h-encore² only has a ~25% success rate. It may take a long time to launch the h
   + This will install the HENkaku exploit and enable homebrew access until the next reboot
 1. Select "Exit"
 
-Note : The "Download VitaShell" is not working for the moment due to a bug with github interactions with the PSVita, VitaShell (and all homebrew applications in general) will remain installed after a reboot, but will give an error on launch if the HENkaku exploit is not active
+Homebrew applications such as VitaShell will remain installed after a reboot, however will give an error on launch until the exploit is applied.
+{: .notice--info}
+
+Due to a bug concerning the PSVita interacting with GitHub, the "Download VitaShell" option is not working for the time being. 
+{: .notice--warning}
 
 #### Section IV - Configuring HENkaku
 
