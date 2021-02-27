@@ -18,6 +18,7 @@ title: "Проблемы и их решения"
 1. Запустите браузер, откройте настройки браузера
 1. Прокрутите до конца вниз и нажмите "Delete Cookies" и "Clear Search History"
 1. Попробуйте запустить эксплойт еще раз
+  + If it still doesn't work, try to reboot, wait 5 minute, and open the browser
 
 ## Удаление аккаунта PSN без форматирования устройства
 
@@ -31,3 +32,4 @@ title: "Проблемы и их решения"
 1. Удерживайте L при включении, чтобы отключить плагины TaiHEN
 1. Если консоль загружается, попробуйте отредактировать файл `ux0:tai/config.txt` и удалить недавно добавленные плагины
 1. Если эти инструкции не помогли, консоль, скорее всего, превратилась в брик
+  + In unlikely event of this happening, please follow [this tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)
