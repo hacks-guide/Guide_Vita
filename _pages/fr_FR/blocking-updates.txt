@@ -6,30 +6,16 @@ title: "Bloquer les mises à jour"
 
 ### Lecture requise
 
-Pour empêcher les mises à jour indésirables, nous configurons les paramètres DNS de l’appareil pour utiliser un serveur de mise à jour personnalisée qui redirige vers 3.60 comme étant la dernière mise à jour disponible. Cela a pour effet de bloquer toutes les versions du firmware supérieur au 3.60 lorsque le périphérique tente d’effectuer une mise à jour.
-
+To prevent unwanted updates, we will disable an option made by sony which automatically download the update file from their servers on your vita.
 ### Ce dont vous aurez besoin
 
 * Une connexion internet sur votre PS Vita (TV)
 
 ### Instructions
 
-#### Section I - Configuration du DNS
+#### Section I - Disabling the auto-download option
 
-Notez qu'il faudra définir ces serveurs DNS pour chaque réseau auquel vous connecterez votre console pour qu'elle bloque les mises à jour !
-{: .notice--warning}
 
-1. Allez dans l'application paramètres
-1. Accédez au  `Réseau`-> `Paramètres connexion Wi-Fi`
-  + Se connecter à un réseau Wi-Fi si vous ne le n'avez pas déjà fait
-1. Sélectionnez votre réseau actuel
-  + Ceci est indiqué par un point verte à côté du réseau
-1. Sélectionnez "Modifier les paramètres"
-1. Mettez "Paramétrage du DNS" sur "Manuel"
-1. Mettez "DNS primaire" à `212.47.229.76`
-1. Laissez "DNS secondaire" vide
-1. Assurez vous que "Serveur Proxy" soit mis en mode "Ne pas utiliser"
-1. Retournez au menu des paramètres
 1. Accédez à `Système` -> `Paramètres de démarrage automatique`
 1. Décochez "Télécharger les fichiers de mise a jours"
 1. Retournez au menu des paramètres
