@@ -21,4 +21,4 @@ title: "FAQ"
 **A:** For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
 <a name="faq_nopc" />**Q:** *Can I do this without a computer?*
-**A:** No, you must have a PC to complete this guide. Unless you are on 3.60 already
+**A:** You must have a computer if you are on firmware version 3.61 or higher.
