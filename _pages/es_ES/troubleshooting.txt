@@ -18,6 +18,7 @@ Los exploits basados en navegador (como el de WebKit usado para HENkaku) pueden 
 1. Inicia el navegador y luego abre los ajustes del navegador
 1. Haz scroll hasta el final y haz clic en "Borrar cookies" y "Limpiar historial de búsqueda"
 1. Prueba el exploit otra vez
+  + If it still doesn't work, try to reboot, wait 5 minute, and open the browser
 
 ## Eliminar una cuenta de PSN sin formatear tu consola
 
@@ -31,3 +32,4 @@ Los exploits basados en navegador (como el de WebKit usado para HENkaku) pueden 
 1. Mantén L al inicio para desactivar la carga del plugin TaiHEN
 1. Si tu consola inicia, prueba editando `ux0:tai/config.txt` y quita cualquier plugin que hayas agregado recientemente
 1. Si estas instrucciones no funcionan, tu consola podría haber quedado inutilizable
+  + In unlikely event of this happening, please follow [this tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)
