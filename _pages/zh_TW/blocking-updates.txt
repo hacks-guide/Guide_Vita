@@ -6,30 +6,16 @@ title: "阻擋更新"
 
 ### 必讀事項
 
-我們將更改您主機的 DNS 設定並將更新伺服器設定為一個第三方的伺服器，如此一來，在您的主機眼中 3.60 即會是最新版的系統韌體。 透過這點，我們能阻擋任何比 3.60 還新的系統韌體。
-
+To prevent unwanted updates, we will disable an option made by sony which automatically download the update file from their servers on your vita.
 ### 必備項目
 
 * 在您的 PS Vita (TV) 可用的網路連線
 
 ### 操作說明
 
-#### 第一節 — DNS 設置
+#### Section I - Disabling the auto-download option
 
-請注意，您需要在每個網路設定中設定這些 DNS 伺服器以阻止更新！
-{: .notice--warning}
 
-1. 啟動設定
-1. 移動至 `網路` -> `Wi-Fi 設定`
-  + 若您尚未連上網，請連接到 Wi-Fi 網路
-1. 選擇您目前所連結的網路
-  + 已連上的網路旁邊會有一個綠色點點
-1. 選擇『詳細設定』
-1. 將『DNS 設定』改為『手動』
-1. 將『主要 DNS (Primary DNS)』改為 `212.47.229.76`
-1. 將『次要 DNS』留空
-1. 確保您已將『Proxy 伺服器』設定至『不使用』
-1. 回到主選單
 1. 移動至 `系統` -> `自動啟動設定`
 1. 取消『下載系統軟件的更新檔案』
 1. 回到主選單
