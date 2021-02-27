@@ -9,7 +9,7 @@ title: "FAQ"
 **A:** Sì, lo strumento Modoru può effettuare il downgrade di ogni sistema hackerato con HENkaku o h-encore verso ogni firmware equivalente o maggiore del firmware della console alla sua uscita dalla scatola.
 
 <a name="faq_update" />**D:** *È sicuro aggiornare una PS Vita con un CFW?*
-**R:** No! Devi sempre sempre assicurarti di aver bloccato gli aggiornamenti, come specificato alla fine del [Completamento dell'installazione](finalizing-setup).
+**A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
 <a name="faq_risky" />**D:** *Quanto è rischioso modificare la mia console?*
 **R:** Brickare la console è *praticamente* impossibile, a meno che tu non ignori le istruzioni.
@@ -18,8 +18,7 @@ title: "FAQ"
 **R:** Sì! In questo modo qualsiasi homebrew può essere avviato sulla tua console.
 
 <a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*
-**R:** Se hai bisogno di aiuto, chiedi pure sul [server Discord di Vita Hacking](https://discord.gg/JXEKeg6).
- (in inglese).
+**A:** For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
 <a name="faq_nopc" />**D:** *Posso seguire questa guida senza un computer?*
-**R:** No, ti serve un PC per completare questa guida.
+**A:** You must have a computer if you are on firmware version 3.61 or higher.
