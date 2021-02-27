@@ -21,12 +21,15 @@ Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria ofic
 
 * La última versión de [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - If you are using MacOS or Linux you will be required to compile finalhe yourself
+* The [Vitashell](https://github.com/soarqin/finalhe/releases/download/v1.91/app_VitaShell-2.0.zip) file manager for the PSVita
 
 ### Instrucciones
 
 #### Sección I - finalhe
 
-1. Copia el contenido del `.zip` de finalhe a una carpeta en tu computador
+1. Copy the contents of the finalhe `.zip` file to a folder on your computer
+1. Copy the VitaShell `.zip` file inside the finalhe folder
+  + Do not extract this file
 1. Ejecuta finalhe en tu computador
   + If you are prompted to allow finalhe network access through the firewall, do so
 1. Ejecuta la aplicación Gestor de contenido en tu consola
@@ -52,6 +55,7 @@ Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria ofic
 1. Selecciona "Applications"
 1. Selecciona "PS Vita"
 1. Select "h-encore" or "h-encore²" depending on which is displayed
+1. Select "VitaShell"
 1. Selecciona "Copy"
 1. Selecciona "OK"
   + El exploit h-encore será copiado en tu consola
@@ -71,10 +75,13 @@ h-encore² only has a ~25% success rate. It may take a long time to launch the h
   + Si aún no funciona, mantén presionado el botón de apagado por unos 30 segundos para forzar un reinicio, y vuelve a intentar
 1. Selecciona "Install HENkaku"
   + Esto instalará el exploit HENkaku para activar acceso a homebrew hasta el siguiente reinicio
-1. Selecciona "Download VitaShell"
-  + Esto instalará la aplicación de homebrew VitaShell para administrar el sistema de archivos de tu consola
-  + VitaShell (y en general todas las aplicaciones de homebrew) se mantendrán instaladas luego de un reinicio, pero darán un error al ejecutar si el exploit HENkaku no está activo
 1. Selecciona "Exit"
+
+Homebrew applications such as VitaShell will remain installed after a reboot, however will give an error on launch until the exploit is applied.
+{: .notice--info}
+
+Due to a bug concerning the PSVita interacting with GitHub, the "Download VitaShell" option is not working for the time being. 
+{: .notice--warning}
 
 #### Sección IV - Configurar HENkaku
 
