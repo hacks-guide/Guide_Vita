@@ -13,10 +13,9 @@ We will now setup applications and plugins such as the following:
 +  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
 +  **shellbat** *(displays exact battery percentage in the status bar)*
 +  **pngshot** *(improves the built-in screenshot utility)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
 
 In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
-
-We will also block updates using a DNS server. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
 
 ### What You Need
 
@@ -28,6 +27,7 @@ We will also block updates using a DNS server. The server tricks your device int
 * The latest release of [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * The latest release of [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * The latest release of [pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
 
 ### Instructions
 
@@ -55,21 +55,15 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Transfer `download_enabler.suprx` to the `tai` folder
 1. Transfer `shellbat.suprx` to the `tai` folder
 1. Transfer `pngshot.suprx` to the `tai` folder
+1. Transfer `PSVshell.skprx` to the `tai` folder
 1. Press (Circle) on your device to close the FTP connection
+  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
 #### Section II - Blocking Updates
 
 1. Launch the Settings application
-1. Navigate to `Network` -> `Wi-Fi Settings`
-  + Connect to a Wi-Fi network if you have not already done so
-1. Select your current connection
-  + This is signified by a green dot next to the network
-1. Select "Advanced Settings"
-1. Set "DNS Settings" to "Manual"
-  + You must apply the following DNS settings to each network you use
-1. Set "Primary DNS" to `212.47.229.76`
-1. Set "Secondary DNS" to `212.47.229.76`
-1. Ensure "Proxy Server" is set to "Do Not Use"
+1. Navigate to `System` -> `Auto-Start Settings`
+1. Uncheck the `Download Update File for System Sofwtare`
 1. Close the Settings application
 
 #### Section III - PSN Access
@@ -89,11 +83,11 @@ We will also block updates using a DNS server. The server tricks your device int
 1. Select "Manage Content on Memory Card"
 1. Select "PS Vita"
 1. Delete the following applications if they exist (note that, depending on your install method, some or all of these applications may be missing):
-  + "ensō"
   + "modoru 戻る"
   + "molecularShell"
 1. Users on firmware version 3.60 should additionally delete the following application if it exists:
   + "h-encore"
+    + the h-encore exploit will not work on 3.60 and the device will reboot if used
 1. Close the Content Manager application
 
 ___
