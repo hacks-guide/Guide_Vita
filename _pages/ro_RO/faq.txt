@@ -9,7 +9,7 @@ title: "Întrebări frecvente"
 **R:** Da, Modoru poate retrograda orice sistem modat cu HENkaku sau h-encore către orice firmware egal sau mai mare decât firmware-ul de origine al dispozitivului.
 
 <a name="faq_update" />**Î:** *Este în regulă să actualizez un Vita cu CFW?*
-**R:** Nu! Trebuie să vă asigurați întotdeauna că ați blocat actualizările așa cum este specificat la sfârșitul secțiunii [Finalizing Setup](finalizing-setup).
+**A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
 <a name="faq_risky" />**Î:** *Cât de riscant este să îmi fac modare la consolă?*
 **R:** Brickuirea consolei este practic imposibilă atâta timp cât nu ignorați instructiunile.
@@ -18,7 +18,7 @@ title: "Întrebări frecvente"
 **R:** Da! Astfel, orice homebrew poate fi pornit pe consolă.
 
 <a name="faq_support" /> **Î:** *Unde ar trebui să mă duc pentru asistenţă?*
-**R:** Pentru suport, cereți ajutor la [Vita Hacking pe Discord](https://discord.gg/JXEKeg6).
+**A:** For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
 <a name="faq_nopc" />**Î:** *Pot face asta fără un calculator?*
-**R:** Nu, trebuie să aveți un calculator pentru a urma acest ghid.
+**A:** You must have a computer if you are on firmware version 3.61 or higher.
