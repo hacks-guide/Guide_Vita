@@ -86,7 +86,8 @@ In order to install the necessary `.vpk` (content package) file on your device, 
   + "modoru 戻る"
   + "molecularShell"
 1. Users on firmware version 3.60 should additionally delete the following application if it exists:
-  + "h-encore" (Launching h-encore on 3.60 will make the PSVita reboot, the exploit is not working for 3.60 so don't use it)
+  + "h-encore"
+    + the h-encore exploit will not work on 3.60 and the device will reboot if used
 1. Close the Content Manager application
 
 ___
