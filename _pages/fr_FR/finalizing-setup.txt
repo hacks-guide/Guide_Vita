@@ -87,7 +87,10 @@ In order to install the necessary `.vpk` (content package) file on your device, 
   + "molecularShell"
 1. Les utilisateurs de la version 3.60 du firmware devraient en outre supprimer l'application suivante si elle existe :
   + "h-encore"
-    + the h-encore exploit will not work on 3.60 and the device will reboot if used
+
+    The h-encore exploit will not work on 3.60 and the device will reboot if used.
+    {: .notice--warning}
+
 1. Fermez l’application Gestionnaire de Contenu
 
 ___
