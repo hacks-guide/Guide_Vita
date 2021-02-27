@@ -9,7 +9,7 @@ title: "常見問題 FAQ"
 **A:** Yes, the tool Modoru can downgrade any system hacked with HENkaku or h-encore to any firmware equal or greater than the firmware the console came with out of the box.
 
 <a name="faq_update" />**Q:** *在自製韌體環境中安裝官方更新是否安全？*
-**A:** 不！ 您必須確保您在[完成安裝](finalizing-setup)最後步驟中設置好防範未來的更新的措施。
+**A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
 <a name="faq_risky" />**Q:** *改機風險多高？*
 **A:** 除非您忽略本教學所有的警示，*基本上*變磚是不可能的。
@@ -18,7 +18,7 @@ title: "常見問題 FAQ"
 **A:** 可以的！ 透過本教學您將可以在您的主機中運行任何社群所製的自製軟體。
 
 <a name="faq_support" />**Q:** *如果我遇到問題該怎麼辦？*
-**A:** 若需支援，請見 [Discord 上的 Vita Hacking](https://discord.gg/JXEKeg6) 伺服器。
+**A:** For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
 <a name="faq_nopc" />**Q:** *沒電腦也可以完成本教學嗎？*
-**A:** No, you must have a PC to complete this guide.
+**A:** You must have a computer if you are on firmware version 3.61 or higher.
