@@ -87,7 +87,10 @@ title: "完成安装"
   + "molecularShell"
 1. 如果系统固件为 3.60 的用户如果有也应删除这些文件:
   + "h-encore"
-    + the h-encore exploit will not work on 3.60 and the device will reboot if used
+
+    The h-encore exploit will not work on 3.60 and the device will reboot if used.
+    {: .notice--warning}
+
 1. 关闭“内容管理器”程序
 
 ___
