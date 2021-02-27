@@ -18,6 +18,7 @@ title: "疑難排解"
 1. 啟動網頁瀏覽器，並進入瀏覽器設定
 1. 移動至設定最下方，並點選『刪除 Cookies』以及『清除搜尋紀錄』
 1. 再試一次
+  + If it still doesn't work, try to reboot, wait 5 minute, and open the browser
 
 ## 如何在不格式化主機的情況下清除 PSN 帳號
 
@@ -31,3 +32,4 @@ title: "疑難排解"
 1. 於開機時按住 L 以關閉 TaiHEN 插件讀取
 1. 如果您的主機可以因此順利開機，請試著變更 `ux0:tai/config.txt` 並移除您最新所安裝的插件
 1. 如果上列步驟無效，您的主機很有可能已經變磚
+  + In unlikely event of this happening, please follow [this tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)
