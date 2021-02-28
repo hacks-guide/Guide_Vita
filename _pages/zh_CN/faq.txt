@@ -3,22 +3,22 @@ title: "常见问题"
 ---
 
 <a name="faq_latestfw" />**问:** *我的系统是最新版本，可以破解吗?*
-**A:** 是的，3.73 目前是可以破解的。
+**答：** 是的，3.73 目前是可以破解的。
 
-<a name="faq_downgrade" />**Q:** *我能降级我的 Vita 吗？*
-**A:** 是的，Modoru可以将任何被HENkaku或H-Encore破解的系统降级到任何等于或大于设备开箱时的固件。
+<a name="faq_downgrade" />**问：** *我能降级我的 Vita 吗？*
+**答：** 是的，Modoru可以将任何被HENkaku或H-Encore破解的系统降级到任何等于或大于设备开箱时的固件。
 
-<a name="faq_update" />**Q:** *在使用自制固件的时候升级 Vita 安全吗?*
+<a name="faq_update" />**问：** *在使用自制固件的时候升级 Vita 安全吗?*
 **A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
-<a name="faq_risky" />**Q: ** *破解我的机器风险有多大？*
-**A:** 除非你忽略教程的指示，否则砖机基本上是*不可能*的。
+<a name="faq_risky" />**问： ** *破解我的机器风险有多大？*
+**答：** 除非你忽略教程的指示，否则砖机基本上是*不可能*的。
 
-<a name="faq_homebrew" />**Q:** *我可以通过这个破解来运行自制程序和模拟器吗？*
-**A:** 可以！ 通过本教程可以在你的设备上开启任何用户自制的自制程序。
+<a name="faq_homebrew" />**问：** *我可以通过这个破解来运行自制程序和模拟器吗？*
+**答：** 可以！ 通过本教程可以在你的设备上开启任何用户自制的自制程序。
 
-<a name="faq_support" />**Q:** *如果我遇到麻烦可以在哪寻求帮助?*
+<a name="faq_support" />**问：** *如果我遇到麻烦可以在哪寻求帮助?*
 **A:** For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
-<a name="faq_nopc" />**Q:** *我能在没有电脑的时候完成这个教程吗？*
+<a name="faq_nopc" />**问：** *我能在没有电脑的时候完成这个教程吗？*
 **A:** You must have a computer if you are on firmware version 3.61 or higher.
