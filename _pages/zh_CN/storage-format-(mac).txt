@@ -1,5 +1,5 @@
 ---
-title: "Storage Format (Mac)"
+title: "格式化存储空间（Mac）"
 ---
 
 {% include toc title="内容目录" %}
