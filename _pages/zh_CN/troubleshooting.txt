@@ -18,7 +18,7 @@ title: "问题排查"
 1. 打开浏览器，进入浏览器设置页面
 1. 滚动至底端，点击“删除 Cookies” 与 “清除搜索历史”
 1. 再次尝试触发漏洞
-  + If it still doesn't work, try to reboot, wait 5 minute, and open the browser
+  + 如果依然无效，请重启主机，然后等五分钟再打开浏览器
 
 ## 在不格式化主机的情况下清除 PSN 账号
 
@@ -32,4 +32,4 @@ title: "问题排查"
 1. 按住 L 键开机，取消 TaiHEN 插件的加载
 1. 如果你的设备成功启动了，请尝试编辑 `ux0:tai/config.txt` 并删除你最近安装的插件
 1. 如果以上步骤无法解决你的问题，那你的设备可能已经变砖了
-  + In unlikely event of this happening, please follow [this tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)
+  + 如果发生这个情况，请参考[这个教程](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)
