@@ -21,15 +21,15 @@ h-encore 漏洞允许你在 PS Vita (TV) 中安装自制程序到你的主菜单
 
 * 最新版 [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - 如果你在使用 MacOS 或者 Linux 系统，那你得自行编译一个 finalhe
-* The [Vitashell](https://github.com/soarqin/finalhe/releases/download/v1.91/app_VitaShell-2.0.zip) file manager for the PSVita
+* PSVita 的 [Vitashell](https://github.com/soarqin/finalhe/releases/download/v1.91/app_VitaShell-2.0.zip) 文件管理器
 
 ### 操作步骤
 
 #### 第一步 — finalhe
 
-1. Copy the contents of the finalhe `.zip` file to a folder on your computer
-1. Copy the VitaShell `.zip` file inside the finalhe folder
-  + Do not extract this file
+1. 解压 finalhe `.zip` 到你电脑上的任何一个文件夹
+1. 复制 VitaShell `.zip`  文件到 finalhe 文件夹中
+  + 不要解压文件
 1. 在你的电脑上启动 finalhe
   + 如果你被提示是否要允许 finalhe 访问网络时，请选择允许
 1. 在你的主机中启动“内容管理器”程序
@@ -55,7 +55,7 @@ h-encore 漏洞允许你在 PS Vita (TV) 中安装自制程序到你的主菜单
 1. 选择“应用程序(Applications)”
 1. 选择 “PS Vita”
 1. 根据屏幕上的提示选择 “h-encore 或 “h-encore²”
-1. Select "VitaShell"
+1. 选择 “VitaShell”
 1. 选择 “Copy”
 1. 选择 “OK”
   + h-encore 漏洞将会被复制到你的设备中
@@ -77,10 +77,10 @@ h-encore² 只有约 25% 的成功率。 所以你可能需要浪费很长时间
   + 这将安装HENkaku漏洞并启用自制程序权限，直到下次重新启动
 1. 选择 “Exit”
 
-Homebrew applications such as VitaShell will remain installed after a reboot, however will give an error on launch until the exploit is applied.
+例如 VitaShell 之类的 Homebrew 程序将会在重启后自动继续安装，但在漏洞被应用前启动会发生错误。
 {: .notice--info}
 
-Due to a bug concerning the PSVita interacting with GitHub, the "Download VitaShell" option is not working for the time being. 
+由于一个 PSVita 与 Github 交互时的漏洞，“Download VitaShell” 选项暂时无法使用。 
 {: .notice--warning}
 
 #### 第五步 — 配置 HENkaku
