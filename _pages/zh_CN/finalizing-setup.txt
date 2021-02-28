@@ -13,7 +13,7 @@ title: "完成安装"
 +  **DownloadEnabler** *（允许使用浏览器下载任何类型的文件）*
 +  **shellbat** *(在状态栏中显示准确的电池百分比)*
 +  **pngshot** *(改进内置的屏幕截图程序)*
-+  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
++  **PSVshell** *（允许超频 PSVita 以获得更好的性能，并显示 cpu 使用率和 fps）*
 
 为了在你的设备安装必要的 `.vpk` 安装包，我们使用 [FTP](https://zh.m.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE) 来将文件复制到你设备的内存卡。
 
@@ -27,7 +27,7 @@ title: "完成安装"
 * 最新版 [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * 最新版 [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * 最新版 [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
+* 最新版 [PSVshell](https://github.com/Electry/PSVshell)
 
 ### 操作步骤
 
@@ -55,15 +55,15 @@ title: "完成安装"
 1. 复制 `download_enabler.suprx` 到 `tai` 文件夹
 1. 复制 `shellbat.suprx` 到 `tai` 文件夹
 1. 复制 `pngshot.suprx` 到 `tai` 文件夹
-1. Transfer `PSVshell.skprx` to the `tai` folder
+1. 复制 `PSVshell.skprx` 到 `tai` 文件夹
 1. 在你的主机上按下 “○” 键以关闭 FTP 连接
-  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
+  + 如需更多关于插件和它们的安装方式的信息，请阅读[这个页面](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
 #### 第二步 — 阻止更新
 
 1. 打开系统设置
 1. 移动至 `系统(System)` -> `自动启动设置(Auto-Start Settings)`
-1. Uncheck the `Download Update File for System Sofwtare`
+1. 取消 `下载系统软件的更新文件（Download Update File for System Software）`
 1. 关闭系统设置
 
 #### 第三步 — PSN 访问
@@ -88,7 +88,7 @@ title: "完成安装"
 1. 如果系统固件为 3.60 的用户如果有也应删除这些文件:
   + "h-encore"
 
-    The h-encore exploit will not work on 3.60 and the device will reboot if used.
+    h-encore 漏洞在系统版本为 3.60 以上时不可用，如果使用了设备将会重新启动。
     {: .notice--warning}
 
 1. 关闭“内容管理器”程序
