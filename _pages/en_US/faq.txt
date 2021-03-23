@@ -14,6 +14,9 @@ title: "FAQ"
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*
 **A:** Bricks are *basically* impossible unless you ignore instructions.
 
+<a name="faq_psn" />**Q:** *Can I use my PSN account without getting banned?*
+**A:** It's highly unlikely that Sony will ban accounts that are used on a hacked Vita/PSTV, unless you cheat or hack trophies. 
+
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*
 **A:** Yes! This enables any custom user-made homebrew to be played on your device.
 
