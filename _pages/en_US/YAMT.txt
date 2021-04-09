@@ -1,0 +1,85 @@
+---
+title: "YAMT"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+YAMT is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
+
+The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvd is a microSD adapter which replaces the 3g modem on 3g PS Vita models.
+
+By using the YAMT kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. This is very useful because microSD cards are significantly cheaper than Sony's proprietery memory cards (especially at higher capacities).
+
+This will use FTP (File Transfer Protocol) to transfer the files, so your Vita and PC must be connected to the same network.
+
+You must have already installed VitaShell to use this.
+{: .notice--info}
+
+### What You Need
+
+* An SD2Vita adapter or a psvd
+* A microSD card (128GB+ reccomended)
+* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
+  + Alternatively, you can also use the USB transfer feature of VitaShell  
+* The latest release of [YAMT](https://github.com/SKGleba/yamt-vita/releases)
+* The latest release of [storageFormat](https://github.com/SKGleba/VitaTools/tree/main/storageFormat/build)
+
+### Instructions
+
+#### Section I - Preparing the microSD Card
+
+Launch the VitaShell application
+Press (Select) to enable FTP access on your device
+Open your FTP client on your computer
+Enter the IP Address and Port displayed on your device
+Using your FTP client, navigate to ux0: -> data/
+Transfer storageFormat.vpk to the data folder
+Transfer YAMT.vpk to the data folder
+Press (Circle) on your device to close the FTP connection
+On your device, navigate to ux0: -> data/
+Press (Square) on each of the .vpk files to mark them
+Press (Triangle) to open the menu, then select “More” -> “Install all” to install the marked files
+Press (Cross) to confirm the install
+Press (Cross) to continue the install each time you are prompted about extended permissions
+Press (Triangle) to open the menu, then select “Delete” to delete the marked files
+Press (Cross) to confirm the deletion
+Close the VitaShell application
+Insert your microSD card into your SD2Vita
+Insert your SD2VITA into your device's game card slot
+Launch storageFormat on your device and choose "Format target storage"
+Select "Reboot the device", your console will reboot
+Remove your SD2VITA from your device
+
+#### Section II - Configuring YAMT
+
+Launch YAMT and select "Install the lite version"
+Launch the inbuilt Settings app and go to Devices->Storage Devices
+Enable "Use YAMT" and reboot the console
+
+#### Section III - Transferring Data
+This section will copy the data from your old Sony memory card to your new storage device.
+{: .notice--info}
+
+Insert the SD2Vita adapter into the GameCard slot
+Launch the Settings application
+Navigate to Devices->Storage Devices
+Set "ux0" to Default
+Set "uma0" to SD2Vita
+Reboot the console
+Launch the VitaShell application
+Navigate to "ux0:"
+Press (Triangle) and then "Mark All"
+Press (Triangle) and then "Move"
+Navigate to "uma0:"
+Press (Triangle) and then "Paste"
+Launch the Settings app and go to Devices->Storage Devices
+Set "ux0" to SD2Vita, "uma0" to Memory Card
+Reboot the console
+___
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+Your new storage device is now configured and ready for use at ux0.
+{: .notice--success}
