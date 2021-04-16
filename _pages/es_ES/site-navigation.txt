@@ -27,7 +27,7 @@ sitemap: false
 + [Formatear almacenamiento (Linux)](storage-format-(linux))
 + [Formatear almacenamiento (Mac)](storage-format-(mac))
 + [Formatear almacenamiento (Windows)](storage-format-(windows))
-+ [StorageMgr](storagemgr)
++ [YAMT](yamt)
 + [Solución de problemas](troubleshooting)
 + [Actualizar firmware (3.60)](updating-firmware-(3.60))
 + [Updating Firmware (PS TV 3.65)](updating-firmware-(ps-tv-3.65))
