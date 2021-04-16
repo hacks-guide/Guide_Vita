@@ -101,7 +101,7 @@ ___
 *НЕ* рекомендуется модифицировать кастомную прошивку путем установки хоумбрю приложений, предназначенных для опытных пользователей (таких как "Enso EX"). Такие действия без полного понимания системы могут привести к БРИКУ!
 {: .notice--danger}
 
-Для получения информации о замене карты памяти Sony на другой носитель (такой как microSD карта или USB диск), перейдите к странице [StorageMgr](storagemgr).
+For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
 {: .notice--success}
 
 Для получения информации об установке CFW во встроенный эмулятор PSP, перейдите к странице [Adrenaline](adrenaline).
