@@ -114,7 +114,7 @@ $(document).ready(function(){
   var sidebar_hidden_pages = ["404", "adrenaline", "blocking-updates", "credits", "donations", "faq", "file-extensions-(windows)",
                               "get-started", "storage-format-(linux)", "storage-format-(mac)",
                               "storage-format-(windows)", "site-navigation", "storagemgr", "troubleshooting",
-                              "uninstall-cfw", "updating-to-3.65-(henkaku)", "why-ads", "privacy-policy"];
+                              "uninstall-cfw", "updating-to-3.65-(henkaku)", "why-ads", "privacy-policy", "yamt"];
 
   for(var i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
