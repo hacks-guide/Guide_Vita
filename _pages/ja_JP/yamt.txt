@@ -1,0 +1,115 @@
+---
+title: "YAMT"
+redirect_from:
+  - /storagemgr
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+YAMT (Yet Another Mount Tool) is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
+
+The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvd is a microSD adapter which replaces the 3G modem on 3G PS Vita models.
+
+By using the YAMT kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. This is very useful because microSD cards are significantly cheaper than Sony memory cards (especially at higher capacities).
+
+This will use FTP (File Transfer Protocol) to transfer the files, so your Vita and PC must be connected to the same network.
+
+YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
+{: .notice--info}
+
+### What You Need
+
+* A storage device compatible with your system
+  + This can be a microSD card to use in an SD2Vita or psvd adapter, or a USB device for a PS TV console
+* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
+  + Alternatively, you can also use the USB transfer feature of VitaShell
+* The latest release of [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
+
+### Instructions
+
+#### Section I - Prep work
+
+1. Launch the VitaShell application
+1. Press (Select) to enable FTP access on your device
+1. Open your FTP client on your computer
+1. Enter the IP Address and Port displayed on your device
+1. Using your FTP client, navigate to `ux0:` -> `data/`
+1. Transfer `yamt.vpk` to the `data` folder
+1. Press (Circle) on your device to close the FTP connection
+1. On your device, navigate to `ux0:` -> `data/`
+1. Press (Cross) on `yamt.vpk` to install it
+1. Press (Cross) again to confirm the install
+1. Press (Triangle) to open the menu, then select "Delete" to delete the yamt-vita `.vpk` file
+1. Press (Cross) to confirm the deletion
+1. Close the VitaShell application
+
+#### Section II - Installing yamt-vita
+
+If you previously installed StorageMgr or another storage plugin, please remove it from your `ux0:tai/` or `ur0:tai/` folder before continuing.
+{: .notice--info}
+
+1. Insert your storage device into your PS Vita or PS TV device if you haven't already
+  + This can be an SD2Vita card, a USB drive or a psvd adapter
+1. Launch the YAMT Installer application
+1. Press (Cross) on `-> Install the lite version`
+  + Once finished, your device will reboot
+1. Open the Settings application
+1. Navigate to `Devices` -> `Storage Devices`
+1. Enable "Use YAMT" to enable the YAMT driver
+1. Set `ux0:` to "Memory Card"
+  + If you're not using a memory card, select "Internal Storage"
+1. Set `uma0:` to "SD2Vita"
+1. Press (Cross) on "Developer options"
+1. Press (Cross) on "TexFAT format GC-SD's storage"
+  + This will erase all data on your storage device's memory and may take a few seconds to complete
+  + If unsuccessful, try reinserting the adapter or the adapter may be faulty
+1. Hold the power button and select "Power Off"
+
+#### Section III - Restoring Data
+
+This section will copy the data from your old Sony memory card to your new storage device.
+{: .notice--info}
+
+1. Power on your device to reboot
+1. Open the VitaShell application
+1. Navigate to the `ux0:` partition
+  + This is currently your official memory card or internal storage
+1. Press down on the D-Pad to highlight a folder or file
+1. Press (Triangle) to bring up the menu
+1. Press (Cross) on "Mark all" to select all folders and files in the `ux0:` partition
+1. Press (Triangle) again to bring up the menu
+1. Press (Cross) on "Copy"
+1. Press (Cross) again when prompted
+1. Navigate out of the `ux0:` partition and enter the `uma0:` partition
+  + This is your unofficial storage device's memory
+1. Press (Triangle) to bring up the menu
+1. Press (Cross) on paste and wait for it to finish
+1. Once done, exit VitaShell and open the Settings application
+1. Navigate to `Devices` -> `Storage Devices`
+1. Set `ux0:` to "SD2Vita"
+1. Set `uma0:` to "Memory Card"
+  + If you're not using a memory card, select "Internal Storage"
+1. Hold the power button and select "Power Off"
+1. Power on your device to reboot
+___
+
+{% capture notice-1 %}
+If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point) and / or `imc0:` (if you have a PS Vita 2000 or PS TV).
+
+If you decide to do this, you must *not* delete these folders if they exist:
+
+  + `uma0:data/bootstrap.self`
+  + `uma0:app/PCSG90096`
+  + `uma0:appmeta/PCSG90096`
+  + `uma0:appmeta/VITASHELL`
+  + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
+  + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
+
+This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore StorageMgr) after a reboot.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
