@@ -101,7 +101,7 @@ Puoi cercare nuovi homebrew su [VitaDB](https://vitadb.rinnegatamante.it/).
 *Non* è consigliato effettuare modifiche alla propria installazione di Custom Firmware installando applicazioni homebrew destinate a utenti più esperti (come ad esempio "Enso EX"). L'utilizzo di queste applicazioni senza una conoscenza approfondita del sistema può portare a un BRICK!
 {: .notice--danger}
 
-Per informazioni su come sostituire la tua memory card Sony con altri tipi di memorie esterne (come una microSD o una chiavetta USB), visita la pagina [StorageMgr](storagemgr).
+For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
 {: .notice--success}
 
 Per informazioni su come installare un CFW sull'emulatore PSP integrato, visita la pagina [Adrenaline](adrenaline).
