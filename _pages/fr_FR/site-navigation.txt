@@ -27,7 +27,7 @@ sitemap: false
 + [Formatage du dispositif de stockage (Linux)](storage-format-(linux))
 + [Formatage du dispositif de stockage (Mac)](storage-format-(mac))
 + [Formatage du dispositif de stockage (Windows)](storage-format-(windows))
-+ [StorageMgr](storagemgr)
++ [YAMT](yamt)
 + [Problèmes et Dépannage](troubleshooting)
 + [Mise à jour du système (3.60)](updating-firmware-(3.60))
 + [Updating Firmware (PS TV 3.65)](updating-firmware-(ps-tv-3.65))
