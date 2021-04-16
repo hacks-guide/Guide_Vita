@@ -101,7 +101,7 @@ Puteți căuta noi aplicaţii de homebrew pe [VitaDB](https://vitadb.rinnegatama
 *Nu* este recomandat să se facă modificări la instalarea de Custom Firmware prin instalarea de aplicații homebrew orientate utilizatorilor avansați (precum "Enso EX"). A face asta fără o înțelegere completă a sistemului poate duce la un BRICK!
 {: .notice--danger}
 
-Pentru informații despre cum să înlocuiți cardul de memorie Sony cu stocare alternativă (precum un card microSD sau o unitate USB), vedeți pagina [StorageMgr](storagemgr).
+For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
 {: .notice--success}
 
 Pentru informaţii despre instalarea de CFW în emulatorul integrat de PSP, vedeți pagina [Adrenaline](adrenaline).
