@@ -27,7 +27,7 @@ sitemap: false
 + [格式化存储空间 (Linux)](storage-format-(linux))
 + [格式化存储空间 (Mac)](storage-format-(mac))
 + [格式化存储空间 (Windows)](storage-format-(windows))
-+ [StorageMgr](storagemgr)
++ [YAMT](yamt)
 + [问题排查](troubleshooting)
 + [升级系统（3.60）](updating-firmware-(3.60))
 + [升级系统（PS TV 3.65）](updating-firmware-(ps-tv-3.65))
