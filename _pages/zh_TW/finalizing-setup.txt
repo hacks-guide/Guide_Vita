@@ -101,7 +101,7 @@ You can browse for new homebrew applications on [VitaDB](https://vitadb.rinnegat
 It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "Enso EX"). Doing so without fully understanding the system can lead to a BRICK!
 {: .notice--danger}
 
-若您想要以其他記憶卡代替原廠的 Sony 記憶卡 (比如像是 microSD 或 USB 磁碟)，請見 [StorageMgr](storagemgr)。
+For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
 {: .notice--success}
 
 若您想要於內建的 PSP 模擬器中安裝自製韌體，請見 [Adrenaline](adrenaline)。
