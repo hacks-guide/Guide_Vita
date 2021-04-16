@@ -27,7 +27,7 @@ sitemap: false
 + [Форматирование накопителя (Linux)](storage-format-(linux))
 + [Форматирование накопителя (Mac)](storage-format-(mac))
 + [Форматирование накопителя (Windows)](storage-format-(windows))
-+ [StorageMgr](storagemgr)
++ [YAMT](yamt)
 + [Проблемы и их решения](troubleshooting)
 + [Обновление прошивки (3.60)](updating-firmware-(3.60))
 + [Обновление прошивки (PS TV 3.65)](updating-firmware-(ps-tv-3.65))
