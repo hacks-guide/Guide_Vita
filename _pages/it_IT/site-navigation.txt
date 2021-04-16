@@ -27,7 +27,7 @@ sitemap: false
 + [Formattare una memoria (Linux)](storage-format-(linux))
 + [Formattare una memoria (Mac)](storage-format-(mac))
 + [Formattare una memoria (Windows)](storage-format-(windows))
-+ [StorageMgr](storagemgr)
++ [YAMT](yamt)
 + [Risoluzione dei problemi](troubleshooting)
 + [Aggiornamento del Firmware (3.60)](updating-firmware-(3.60))
 + [Aggiornamento del Firmware (PS TV 3.65)](updating-firmware-(3.65))
