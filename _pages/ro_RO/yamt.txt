@@ -1,20 +1,19 @@
 ---
 title: "YAMT"
-redirect_from:
-  - /storagemgr
 ---
 
 {% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-YAMT (Yet Another Mount Tool) is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
-
-The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvd is a microSD adapter which replaces the 3G modem on 3G PS Vita models.
+YAMT (Yet Another Mount Tool) is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of a microSD card as a storage device via an SD2Vita adapter. The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device.
 
 By using the YAMT kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. Acest lucru este foarte util deoarece cardurile microSD sunt semnificativ mai ieftine decât cardurile de memorie Sony (mai ales la capacităţi mai mari).
 
 Pentru asta se va folosi FTP (File Transfer Protocol) spre a transfera fişiere, astfel încât calculatorul și Vita-ul să fie conectați la aceeași rețea.
+
+If you're using a USB drive or psvd adapter, or if this method doesn't work for you, follow the [StorageMgr](storagemgr) guide.
+{: .notice--primary}
 
 YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 {: .notice--info}
@@ -26,10 +25,11 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 * Un Client FTP, cum ar fi [WinSCP](https://winscp.net/) sau [CyberDuck](https://cyberduck.io/)
   + Alternativ, puteţi utiliza VitaShell in modul USB
 * The latest release of [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
+* The latest release of [storageFormat](https://github.com/SKGleba/VitaTools/raw/main/storageFormat/build/storageFormat.vpk)
 
 ### Instrucțiuni
 
-#### Section I - Prep work
+#### Secțiunea I - Preparații
 
 1. Lansați aplicația VitaShell
 1. Apăsați (Select) pentru a activa accesul FTP pe dispozitiv
@@ -37,21 +37,36 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 1. Introduceţi adresa IP şi Portul afişat pe aparatul dvs
 1. Folosind clientul FTP, navigați la `ux0:` -> `data /`
 1. Transfer `yamt.vpk` to the `data` folder
+1. Transfer `storageFormat.vpk` to the `data` folder
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
+
+#### Secţiunea III - Instalând VPK-uri
+
 1. Pe dispozitiv, navigaţi la `ux0:` -> `data/`
-1. Press (Cross) on `yamt.vpk` to install it
-1. Press (Cross) again to confirm the install
-1. Press (Triangle) to open the menu, then select "Delete" to delete the yamt-vita `.vpk` file
+1. Apăsaţi (pătrat) pe fiecare dintre fişierele `.vpk` pentru a le marca
+1. Apăsaţi (triunghi) pentru a deschide meniul, apoi selectează "More" -> "Install all" pentru a instala fişierele selectate
+1. Apăsați (X) pentru a confirma instalarea
+1. Apăsați (X) pentru a continua instalarea de fiecare dată când vi se solicită permisiuni extinse
+1. Apăsați (Triunghi) pentru a deschide meniul, apoi selectați "Delete" pentru a șterge fișierele marcate
 1. Apăsați (X) pentru a confirma stergerea
 1. Închideți aplicația VitaShell
 
-#### Section II - Installing yamt-vita
+#### Section III - Formatting the microSD
+
+1. Insert your SD2Vita with the microSD card into your PS Vita or PS TV device
+1. Launch the storageFormat application
+1. Ensure `Target` is set to "SD2Vita" and `Filesystem` is set to "TexFAT"
+1. Press (Cross) on "Format target storage"
+  + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
+  + If it still fails, follow the [StorageMgr](storagemgr) guide
+1. Press (Cross) on "Reboot your device"
+
+#### Section IV - Installing yamt-vita
 
 If you previously installed StorageMgr or another storage plugin, please remove it from your `ux0:tai/` or `ur0:tai/` folder before continuing.
 {: .notice--info}
 
-1. Insert your storage device into your PS Vita or PS TV device if you haven't already
-  + This can be an SD2Vita card, a USB drive or a psvd adapter
+1. Power on your device to reboot
 1. Launch the YAMT Installer application
 1. Press (Cross) on `-> Install the lite version`
   + Once finished, your device will reboot
@@ -67,7 +82,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
   + If unsuccessful, try reinserting the adapter or the adapter may be faulty
 1. Hold the power button and select "Power Off"
 
-#### Section III - Restoring Data
+#### Section V - Restoring Data
 
 Această secţiune va copia datele de pe cardul de memorie Sony vechi la noul dispozitiv de stocare.
 {: .notice--info}
@@ -93,6 +108,7 @@ Această secţiune va copia datele de pe cardul de memorie Sony vechi la noul di
   + If you're not using a memory card, select "Internal Storage"
 1. Hold the power button and select "Power Off"
 1. Power on your device to reboot
+
 ___
 
 {% capture notice-1 %}
