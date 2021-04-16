@@ -1,20 +1,19 @@
 ---
 title: "YAMT"
-redirect_from:
-  - /storagemgr
 ---
 
 {% include toc title="條目內容" %}
 
 ### 必讀事項
 
-YAMT (Yet Another Mount Tool) is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
-
-The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvd is a microSD adapter which replaces the 3G modem on 3G PS Vita models.
+YAMT (Yet Another Mount Tool) is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of a microSD card as a storage device via an SD2Vita adapter. The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device.
 
 By using the YAMT kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. 這是非常有用的，因為 microSD 卡與原廠 Sony Vita 記憶卡相比價錢天差地別 (尤其是容量較大的記憶卡)。
 
 本節將使用 FTP (檔案傳輸協定) 以與您的電腦及 Vita 進行連接並傳輸檔案，因此這兩台裝置得必須連到同一個網路下才能繼續。
+
+If you're using a USB drive or psvd adapter, or if this method doesn't work for you, follow the [StorageMgr](storagemgr) guide.
+{: .notice--primary}
 
 YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 {: .notice--info}
@@ -26,10 +25,11 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 * 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
 * The latest release of [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
+* The latest release of [storageFormat](https://github.com/SKGleba/VitaTools/raw/main/storageFormat/build/storageFormat.vpk)
 
 ### 操作說明
 
-#### Section I - Prep work
+#### 第一節 — 準備工作
 
 1. 啟動 VitaShell
 1. 按下「Select」鍵以啟動 FTP 存取功能
@@ -37,21 +37,36 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 1. 輸入於您主機上顯示的 IP 位址以及埠
 1. 透過 FTP 端移動至 `ux0:` -> `data/`
 1. Transfer `yamt.vpk` to the `data` folder
+1. Transfer `storageFormat.vpk` to the `data` folder
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
+
+#### 第二節 — 安裝 VPKs
+
 1. 於您的主機中移動至 `ux0:` -> `data/`
-1. Press (Cross) on `yamt.vpk` to install it
-1. Press (Cross) again to confirm the install
-1. Press (Triangle) to open the menu, then select "Delete" to delete the yamt-vita `.vpk` file
+1. 於各個 `.vpk` 檔案上按下「□」(方形) 鍵將其選取
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『More』->『Install all』以安裝所有已選取的檔案
+1. 按下「X」鍵確認安裝
+1. 當每次提示要求使用更高權限時，按下「X」繼續
+1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
 1. 按下「X」鍵確認刪除
 1. 關閉 VitaShell
 
-#### Section II - Installing yamt-vita
+#### Section III - Formatting the microSD
+
+1. Insert your SD2Vita with the microSD card into your PS Vita or PS TV device
+1. Launch the storageFormat application
+1. Ensure `Target` is set to "SD2Vita" and `Filesystem` is set to "TexFAT"
+1. Press (Cross) on "Format target storage"
+  + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
+  + If it still fails, follow the [StorageMgr](storagemgr) guide
+1. Press (Cross) on "Reboot your device"
+
+#### Section IV - Installing yamt-vita
 
 If you previously installed StorageMgr or another storage plugin, please remove it from your `ux0:tai/` or `ur0:tai/` folder before continuing.
 {: .notice--info}
 
-1. Insert your storage device into your PS Vita or PS TV device if you haven't already
-  + This can be an SD2Vita card, a USB drive or a psvd adapter
+1. Power on your device to reboot
 1. Launch the YAMT Installer application
 1. Press (Cross) on `-> Install the lite version`
   + Once finished, your device will reboot
@@ -67,7 +82,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
   + If unsuccessful, try reinserting the adapter or the adapter may be faulty
 1. Hold the power button and select "Power Off"
 
-#### Section III - Restoring Data
+#### Section V - Restoring Data
 
 本節將會從您舊的 Sony 記憶卡內容複製到新的儲存裝置中。
 {: .notice--info}
@@ -93,6 +108,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
   + If you're not using a memory card, select "Internal Storage"
 1. Hold the power button and select "Power Off"
 1. Power on your device to reboot
+
 ___
 
 {% capture notice-1 %}
