@@ -1,0 +1,115 @@
+---
+title: "YAMT"
+redirect_from:
+  - /storagemgr
+---
+
+{% include toc title="條目內容" %}
+
+### 必讀事項
+
+YAMT (Yet Another Mount Tool) is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
+
+The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvd is a microSD adapter which replaces the 3G modem on 3G PS Vita models.
+
+By using the YAMT kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. 這是非常有用的，因為 microSD 卡與原廠 Sony Vita 記憶卡相比價錢天差地別 (尤其是容量較大的記憶卡)。
+
+本節將使用 FTP (檔案傳輸協定) 以與您的電腦及 Vita 進行連接並傳輸檔案，因此這兩台裝置得必須連到同一個網路下才能繼續。
+
+YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
+{: .notice--info}
+
+### 必備項目
+
+* A storage device compatible with your system
+  + This can be a microSD card to use in an SD2Vita or psvd adapter, or a USB device for a PS TV console
+* 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
+  + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
+* The latest release of [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
+
+### 操作說明
+
+#### Section I - Prep work
+
+1. 啟動 VitaShell
+1. 按下「Select」鍵以啟動 FTP 存取功能
+1. 於您的電腦中啟動您的 FTP 客戶端
+1. 輸入於您主機上顯示的 IP 位址以及埠
+1. 透過 FTP 端移動至 `ux0:` -> `data/`
+1. Transfer `yamt.vpk` to the `data` folder
+1. 於您的主機按下「O」鍵以關閉 FTP 連線
+1. 於您的主機中移動至 `ux0:` -> `data/`
+1. Press (Cross) on `yamt.vpk` to install it
+1. Press (Cross) again to confirm the install
+1. Press (Triangle) to open the menu, then select "Delete" to delete the yamt-vita `.vpk` file
+1. 按下「X」鍵確認刪除
+1. 關閉 VitaShell
+
+#### Section II - Installing yamt-vita
+
+If you previously installed StorageMgr or another storage plugin, please remove it from your `ux0:tai/` or `ur0:tai/` folder before continuing.
+{: .notice--info}
+
+1. Insert your storage device into your PS Vita or PS TV device if you haven't already
+  + This can be an SD2Vita card, a USB drive or a psvd adapter
+1. Launch the YAMT Installer application
+1. Press (Cross) on `-> Install the lite version`
+  + Once finished, your device will reboot
+1. Open the Settings application
+1. Navigate to `Devices` -> `Storage Devices`
+1. Enable "Use YAMT" to enable the YAMT driver
+1. Set `ux0:` to "Memory Card"
+  + If you're not using a memory card, select "Internal Storage"
+1. Set `uma0:` to "SD2Vita"
+1. Press (Cross) on "Developer options"
+1. Press (Cross) on "TexFAT format GC-SD's storage"
+  + This will erase all data on your storage device's memory and may take a few seconds to complete
+  + If unsuccessful, try reinserting the adapter or the adapter may be faulty
+1. Hold the power button and select "Power Off"
+
+#### Section III - Restoring Data
+
+本節將會從您舊的 Sony 記憶卡內容複製到新的儲存裝置中。
+{: .notice--info}
+
+1. Power on your device to reboot
+1. Open the VitaShell application
+1. Navigate to the `ux0:` partition
+  + This is currently your official memory card or internal storage
+1. Press down on the D-Pad to highlight a folder or file
+1. Press (Triangle) to bring up the menu
+1. Press (Cross) on "Mark all" to select all folders and files in the `ux0:` partition
+1. Press (Triangle) again to bring up the menu
+1. Press (Cross) on "Copy"
+1. Press (Cross) again when prompted
+1. Navigate out of the `ux0:` partition and enter the `uma0:` partition
+  + This is your unofficial storage device's memory
+1. Press (Triangle) to bring up the menu
+1. Press (Cross) on paste and wait for it to finish
+1. Once done, exit VitaShell and open the Settings application
+1. Navigate to `Devices` -> `Storage Devices`
+1. Set `ux0:` to "SD2Vita"
+1. Set `uma0:` to "Memory Card"
+  + If you're not using a memory card, select "Internal Storage"
+1. Hold the power button and select "Power Off"
+1. Power on your device to reboot
+___
+
+{% capture notice-1 %}
+如果您想要清理您記憶卡中的內容 (假設說您想存放 PSP 遊戲之類的)，您可將 `uma0:` (新的記憶卡掛載點) 以及/或者 `imc0:` (適用於 PS Vita 2000 或 PS TV) 中的資料刪除。
+
+If you decide to do this, you must *not* delete these folders if they exist:
+
+  + `uma0:data/bootstrap.self`
+  + `uma0:app/PCSG90096`
+  + `uma0:appmeta/PCSG90096`
+  + `uma0:appmeta/VITASHELL`
+  + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
+  + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
+
+這是因為 h-encore 得保持其記憶卡中的安裝狀態，這樣您才能在重啟後啟用 HENkaku (及 StorageMgr)。
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
