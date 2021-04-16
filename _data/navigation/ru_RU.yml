@@ -19,8 +19,8 @@ main:
     title: Adrenaline
     url: adrenaline
   - 
-    title: StorageMgr
-    url: storagemgr
+    title: YAMT
+    url: yamt
   - 
     title: Навигация по сайту
     url: site-navigation
