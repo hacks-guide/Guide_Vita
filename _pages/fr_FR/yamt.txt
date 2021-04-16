@@ -1,5 +1,6 @@
 ---
-title: "YAMT"
+title: "YAMT (SD2Vita)"
+excerpt: "Guide on installing the YAMT plugin for SD2Vita."
 ---
 
 {% include toc title="Table des matières" %}
