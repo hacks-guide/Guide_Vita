@@ -20,7 +20,7 @@ Ensō è un CFW per la PS Vita (TV) che ti permette un accesso agli homebrew pi�
 
 #### Sezione I - Preparazione
 
-1. Avvia l'applicazione molecularShell
+1. Launch the molecularShell or VitaShell application
 1. Premi (Select) per abilitare l'accesso FTP sulla tua console
 1. Apri il tuo client FTP sul tuo computer
 1. Immetti l'indirizzo IP e la porta visualizzati sulla console
@@ -38,7 +38,7 @@ Ensō è un CFW per la PS Vita (TV) che ti permette un accesso agli homebrew pi�
 1. Premi (Croce) per continuare l'installazione ogni volta che vengono chieste maggiori autorizzazioni
 1. Premi (Triangolo) per aprire il menu, quindi seleziona "Delete" per eliminare i file contrassegnati
 1. Premi (Croce) per confermare l'eliminazione
-1. Chiudi l'applicazione molecularShell
+1. Close the molecularShell or VitaShell application
 
 #### Sezione III - Installazione di Ensō
 
