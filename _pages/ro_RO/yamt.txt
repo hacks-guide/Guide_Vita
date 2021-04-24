@@ -13,7 +13,7 @@ By using the YAMT kernel plugin, the USB drive or microSD card you use will be m
 
 Pentru asta se va folosi FTP (File Transfer Protocol) spre a transfera fişiere, astfel încât calculatorul și Vita-ul să fie conectați la aceeași rețea.
 
-If you're using a USB drive or psvd adapter, or if this method doesn't work for you, follow the [StorageMgr](storagemgr) guide.
+If you're using a USB drive or psvsd adapter, or if this method doesn't work for you, follow the [StorageMgr](storagemgr) guide.
 {: .notice--primary}
 
 YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
@@ -22,7 +22,7 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 ### Ce aveți nevoie
 
 * A storage device compatible with your system
-  + This can be a microSD card to use in an SD2Vita or psvd adapter, or a USB device for a PS TV console
+  + This can be a microSD card to use in an SD2Vita or psvsd adapter, or a USB device for a PS TV console
 * Un Client FTP, cum ar fi [WinSCP](https://winscp.net/) sau [CyberDuck](https://cyberduck.io/)
   + Alternativ, puteţi utiliza VitaShell in modul USB
 * The latest release of [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
