@@ -77,10 +77,6 @@ If you previously installed StorageMgr or another storage plugin, please remove 
 1. Set `ux0:` to "Memory Card"
   + If you're not using a memory card, select "Internal Storage"
 1. Set `uma0:` to "SD2Vita"
-1. Press (Cross) on "Developer options"
-1. Press (Cross) on "TexFAT format GC-SD's storage"
-  + This will erase all data on your storage device's memory and may take a few seconds to complete
-  + If unsuccessful, try reinserting the adapter or the adapter may be faulty
 1. Hold the power button and select "Power Off"
 
 #### Section V - Restoring Data
