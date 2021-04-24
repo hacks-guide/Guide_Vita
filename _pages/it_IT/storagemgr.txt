@@ -6,9 +6,9 @@ title: "StorageMgr"
 
 ### Lettura necessaria
 
-StorageMgr is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvd.
+StorageMgr is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvsd adapter.
 
-The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvd is a microSD adapter which replaces the 3g modem on 3g PS Vita models.
+The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvsd is a microSD adapter which replaces the 3g modem on 3g PS Vita models.
 
 By using the StorageMgr kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. Questo è molto utile poiché le schede microSD sono molto più economiche rispetto alle memory card Sony (specialmente a grandezze di archiviazione maggiori).
 
@@ -27,7 +27,7 @@ Per seguire questa guida è necessario aver già installato VitaShell.
   + `storage_config.txt` should be edited to fit your situation as instructed in the [README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
   + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
   + `INT=imc0` should be kept as-is for PS Vita 2000 and PS TV users, and removed for PS Vita 1000 users
-  + `GCD=ux0` should be kept as-is for SD2Vita users, and edited to `UMA=ux0` for USB drive and psvd users
+  + `GCD=ux0` should be kept as-is for SD2Vita users, and edited to `UMA=ux0` for USB drive and psvsd users
   + `UMA=grw0` should be removed unless you have multiple storage devices (in which case the device which is not assigned to `ux0:` should be assigned to `grw0:`)
 
 ### Istruzioni
