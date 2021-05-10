@@ -39,34 +39,34 @@ By using the StorageMgr kernel plugin, the USB drive or microSD card you use wil
 1. 在电脑上打开 FTP 客户端
 1. 输入设备上显示的 IP 地址与端口
 1. Using your FTP client, copy all files from `ux0:tai/` to `ur0:tai/`
-  + Overwrite any existing files in the `ur0:tai/` folder
-  + If you do not have a `ux0:tai/` folder, skip this step
-1. Transfer `storagemgr.skprx` to the `ur0:tai/` folder
-1. Transfer `storage_config.txt` to  the `ur0:tai/` folder
-1. For any paths in `ur0:tai/config.txt` which contain `ux0:tai/`, replace `ux0:tai/` with `ur0:tai/`
-  + If you did not have a `ux0:tai/` folder, skip this step
-1. Add the following line to `ur0:tai/config.txt` under the `*KERNEL` line:
+  + 覆盖所有在 `ur0:tai/` 文件夹中的文件
+  + 如果你没有 `ux0:tai/` 文件夹，请忽略此步骤
+1. 复制 `storagemgr.skprx` 到 `ur0:tai/` 文件夹
+1. 复制 `storage_config.txt` 到 `ur0:tai/` 文件夹
+1. 将 `ur0:tai/config.txt` 中所有的 `ux0:tai/` 替换为 `ur0:tai/`
+  + 如果你没有 `ux0:tai/` 文件夹，请忽略此步骤
+1. 将下列的字符串加入 `ur0:tai/config.txt` 中的 `*KERNEL` 行列下：
   + `ur0:tai/storagemgr.skprx`
-1. Delete the `ux0:tai/` folder
-  + This is an important step as HENkaku will not load plugins installed in `ur0:tai` if it detects that `ux0:tai` exists
+1. 删除 `ux0:tai/` 文件夹
+  + 这是一个重要的步骤，因为 HENkaku 在检测到 `ux0:tai` 存在的时候将不会加载 `ur0:tai` 中的插件。
 
-#### Section II - Restoring Data
+#### 第二部分 — 恢复数据
 
 此步将复制你旧的索尼内存卡中的数据到你的新存储设备中。
 {: .notice--info}
 
-1. Backup the contents of `ux0:` to a folder on your computer
-  + This may take some time if you have a large amount of data on your Sony memory card
-1. Insert your new storage device into your computer
-1. Copy the contents of your `ux0:` folder to your new storage device
-  + This may take some time if you have a large amount of data on your Sony memory card
-  + Do not copy the `ux0:` folder itself to your new storage device
-1. Insert your new storage device into your PS Vita (TV)
+1. 将 `ux0:` 里的所有文件备份到你电脑上的一个文件夹
+  + 这与你在索尼内存卡里面存了多少文件而定，可能需要耗费一些时间
+1. 将新的存储设备插入电脑
+1. 将你刚刚复制的 `ux0:` 文件夹内的文件粘贴到新的存储设备中
+  + 这与你在索尼内存卡里面存了多少文件而定，可能需要耗费一些时间
+  + 请勿将整个 `ux0:` 文件夹直接复制进新的存储设备，请复制它里面所有的文件到存储设备
+1. 插入你想用的新存储设备到你的 PS Vita (TV)
 1. 在你的主机上按下 “○” 键以关闭 FTP 连接
 1. 退出 VitaShell 应用
 1. 重启你的设备
   + 如果你的设备没有安装 Ensō ，则你将需要手动启动并退出 h-encore 来开启 homebrew。
-  + This is required to load the new kernel plugins added to `ur0:tai/config.txt`
+  + 这是加载之前写入 `ur0:tai/config.txt` 的内核插件的必要步骤
 
 ___
 
@@ -89,5 +89,5 @@ ___
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Your new storage device is now configured and ready for use at the mount point specified in your `storage_config.txt`.
+你新的储存设备已经配置完毕，挂载位置已处于你在 `storage_config.txt` 中指定的位置中。
 {: .notice--success}
