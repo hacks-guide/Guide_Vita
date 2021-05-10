@@ -101,7 +101,7 @@ ___
 *不建议*通过安装高级用户自制程序（例如“Enso EX”）来更改自制固件的安装情况。 在没有完全理解系统运作的情况下这样做会导致*砖机*！
 {: .notice--danger}
 
-For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
+如果你想用其他的内存卡来代替原厂的索尼内存卡（比如 MicroSD 卡或者 USB 硬盘），请参见 [YAMT](yamt)。
 {: .notice--success}
 
 若你想要在内置的 PSP 模拟器中安装自制固件，请参见[Adrenaline](adrenaline)。
