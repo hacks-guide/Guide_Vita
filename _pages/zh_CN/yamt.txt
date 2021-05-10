@@ -1,32 +1,32 @@
 ---
 title: "YAMT (SD2Vita)"
-excerpt: "Guide on installing the YAMT plugin for SD2Vita."
+excerpt: "为 SD2Vita 安装 YAMT 插件的手册。"
 ---
 
 {% include toc title="内容目录" %}
 
 ### 必读事项
 
-YAMT (Yet Another Mount Tool) is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of a microSD card as a storage device via an SD2Vita adapter. The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device.
+YAMT（Yet Another Mount Tool）是一个为 PS Vita（TV）而制作的多用途内核工具，允许使用 SD2Vita 将 micro SD 卡作为存储设备。 SD2Vita 是一个插在你主机的游戏卡槽中，用于 microSD 转游戏卡的适配器。
 
-By using the YAMT kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. 这非常有用，因为microSD卡比索尼内存卡便宜得多（特别是在高容量时）。
+通过使用 YAMT 内核插件，你使用的 USB 驱动器或 microSD 卡将像索尼专用的内存卡一样被挂载到 `ux0:`。 这非常有用，因为microSD卡比索尼内存卡便宜得多（特别是在高容量时）。
 
 本教程将使用FTP传输文件，因此你的Vita和PC必须在同一网络。
 
 如果你正在使用 USB 驱动器或者 psvsd 适配器，亦或者此方法不适用于你，请跟随 [StorageMgr](storagemgr) 教程做。
 {: .notice--primary}
 
-YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
+YAMT 仅兼容固件版本在 3.60 和 3.65 的 HENkaku Ensō。
 {: .notice--info}
 
 ### 你需要准备点啥？
 
-* A storage device compatible with your system
-  + This can be a microSD card to use in an SD2Vita or psvsd adapter, or a USB device for a PS TV console
+* 与你的设备兼容的存储设备
+  + 这可以是 SD2Vita 或 psvsd 适配器中使用的 microSD 卡，也可以是 PS TV 主机的 USB 设备
 * 一个 FTP 连接软件，比如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，你也可以使用 VitaShell 的 USB 传输功能
-* The latest release of [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
-* The latest release of [storageFormat](https://github.com/SKGleba/VitaTools/raw/main/storageFormat/build/storageFormat.vpk)
+* 最新版 [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
+* 最新版 [storageFormat](https://github.com/SKGleba/VitaTools/raw/main/storageFormat/build/storageFormat.vpk)
 
 ### 操作步骤
 
@@ -37,8 +37,8 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 1. 在电脑上打开 FTP 客户端
 1. 输入设备上显示的 IP 地址与端口
 1. 使用客户端移动至 `ux0:` -> `data/`
-1. Transfer `yamt.vpk` to the `data` folder
-1. Transfer `storageFormat.vpk` to the `data` folder
+1. 复制 `yamt.vpk` 到 `data` 文件夹
+1. 复制 `storageFormat.vpk` 到 `data` 文件夹
 1. 在你的主机上按下 “○” 键以关闭 FTP 连接
 
 #### 第二步 － 安装 .vpk 文件
@@ -52,15 +52,15 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 1. 按下 “×” 键确认删除
 1. 退出 VitaShell 应用
 
-#### Section III - Formatting the microSD
+#### 第三步 – 格式化 microSD 卡
 
-1. Insert your SD2Vita with the microSD card into your PS Vita or PS TV device
-1. Launch the storageFormat application
-1. Ensure `Target` is set to "SD2Vita" and `Filesystem` is set to "TexFAT"
-1. Press (Cross) on "Format target storage"
-  + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
-  + If it still fails, follow the [StorageMgr](storagemgr) guide
-1. Press (Cross) on "Reboot your device"
+1. 把你的 SD2Vita 插上 microSD 卡，然后将其插到你的 PS Vita 或 PS TV 主机中。
+1. 启动 storageFormat 应用
+1. 确认 `Target` 被设置为 “SD2Vita” 且 `Filesystem` 被设置为 “TexFAT”
+1. 在 “Format target storage” 上按下 (×) 键
+  + 如果失败了，请确保适配器正确插入且其未损坏，然后重启并重试
+  + 如果仍然不行，请照 [StorageMgr](storagemgr) 教程做
+1. 在 “Reboot your device” 上按下 (×) 键
 
 #### Section IV - Installing yamt-vita
 
@@ -76,35 +76,35 @@ If you previously installed StorageMgr or another storage plugin, please remove 
 1. Enable "Use YAMT" to enable the YAMT driver
 1. Set `ux0:` to "Memory Card"
   + If you're not using a memory card, select "Internal Storage"
-1. Set `uma0:` to "SD2Vita"
-1. Hold the power button and select "Power Off"
+1. 设置 `uma0:` 为 “SD2Vita”
+1. 长按电源键然后选择 “Power Off”
 
-#### Section V - Restoring Data
+#### 第五部分 — 恢复数据
 
 此步将复制你旧的索尼内存卡中的数据到你的新存储设备中。
 {: .notice--info}
 
-1. Power on your device to reboot
-1. Open the VitaShell application
-1. Navigate to the `ux0:` partition
-  + This is currently your official memory card or internal storage
-1. Press down on the D-Pad to highlight a folder or file
-1. Press (Triangle) to bring up the menu
-1. Press (Cross) on "Mark all" to select all folders and files in the `ux0:` partition
-1. Press (Triangle) again to bring up the menu
-1. Press (Cross) on "Copy"
-1. Press (Cross) again when prompted
-1. Navigate out of the `ux0:` partition and enter the `uma0:` partition
-  + This is your unofficial storage device's memory
-1. Press (Triangle) to bring up the menu
-1. Press (Cross) on paste and wait for it to finish
-1. Once done, exit VitaShell and open the Settings application
-1. Navigate to `Devices` -> `Storage Devices`
-1. Set `ux0:` to "SD2Vita"
-1. Set `uma0:` to "Memory Card"
-  + If you're not using a memory card, select "Internal Storage"
-1. Hold the power button and select "Power Off"
-1. Power on your device to reboot
+1. 将你的主机重启
+1. 启动 VitaShell 应用
+1. 进入到 `ux0:` 分区
+  + 这是当前你官方内存卡或内部存储的位置
+1. 按下十字键中的“下”键以突出显示文件夹或文件
+1. 按下 (△) 键打开菜单
+1. 在“Mark all” 上按下 (×) 键来选择在 `ux0:` 分区中的文件夹及文件。
+1. 再次按下 (△) 键打开菜单
+1. 在 “Copy” 上按下 (×) 键
+1. 当提示时再次按下 (×) 键
+1. 退出 `ux0:` 分区并进入 `uma0:` 分区
+  + 这是你的非官方存储设备的内存
+1. 按下 (△) 键打开菜单
+1. 按下 (×) 键粘贴并等待完成
+1. 完成后，退出 VitaShell 并打开设置程序
+1. 进入到 `Devices` -> `Storage Devices`
+1. 设置 `ux0:` 为 “SD2Vita”
+1. 设置 `uma0:` 为 “Memory Card”
+  + 如果你没有使用存储卡，请选择 “Internal Storage”
+1. 长按电源键然后选择 “Power Off”
+1. 将你的主机重启
 
 ___
 
