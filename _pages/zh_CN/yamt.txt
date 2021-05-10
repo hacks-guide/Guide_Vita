@@ -13,7 +13,7 @@ By using the YAMT kernel plugin, the USB drive or microSD card you use will be m
 
 本教程将使用FTP传输文件，因此你的Vita和PC必须在同一网络。
 
-If you're using a USB drive or psvsd adapter, or if this method doesn't work for you, follow the [StorageMgr](storagemgr) guide.
+如果你正在使用 USB 驱动器或者 psvsd 适配器，亦或者此方法不适用于你，请跟随 [StorageMgr](storagemgr) 教程做。
 {: .notice--primary}
 
 YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
