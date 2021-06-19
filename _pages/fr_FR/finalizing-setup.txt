@@ -27,7 +27,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 * La dernière version de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * La dernière version de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * La dernière version d'[pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell/releases/latest)
 
 ### Instructions
 
