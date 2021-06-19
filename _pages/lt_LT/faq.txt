@@ -12,7 +12,7 @@ title: "FAQ"
 **A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*
-**A:** Bricks are *basically* impossible unless you ignore instructions.
+**A:** Bricks are *basically* impossible unless you ignore instructions and Sony doesn't ban consoles nor accounts unless you hack trophies or ingame.
 
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*
 **A:** Yes! This enables any custom user-made homebrew to be played on your device.
