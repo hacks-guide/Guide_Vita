@@ -27,7 +27,7 @@ Para poder instalar los archivos `.vpk` necesarios (paquete de contenido) en tu 
 * La última versión de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * La última versión de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * La última versión de [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell/releases/latest)
 
 ### Instrucciones
 
