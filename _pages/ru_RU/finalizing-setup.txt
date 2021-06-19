@@ -27,7 +27,7 @@ title: "Завершение установки"
 * Свежая версия [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Свежая версия [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Свежая версия [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell/releases/latest)
 
 ### Инструкция
 
