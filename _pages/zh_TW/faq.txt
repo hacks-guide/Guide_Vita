@@ -12,7 +12,7 @@ title: "常見問題 FAQ"
 **A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
 <a name="faq_risky" />**Q:** *改機風險多高？*
-**A:** 除非您忽略本教學所有的警示，*基本上*變磚是不可能的。
+**A:** Bricks are *basically* impossible unless you ignore instructions and Sony doesn't ban consoles nor accounts unless you hack trophies or ingame.
 
 <a name="faq_homebrew" />**Q:** *我可以透過本教學跑超讚的自製程式跟模擬器嗎？*
 **A:** 可以的！ 透過本教學您將可以在您的主機中運行任何社群所製的自製軟體。
