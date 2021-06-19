@@ -12,7 +12,7 @@ title: "常见问题"
 **答：**没有必要升级安装了自制固件的 PSVita。 请留在 3.60 或 3.65 版本。
 
 <a name="faq_risky" />**问： ** *破解我的机器风险有多大？*
-**答：** 除非你忽略教程的指示，否则砖机基本上是*不可能*的。
+**A:** Bricks are *basically* impossible unless you ignore instructions and Sony doesn't ban consoles nor accounts unless you hack trophies or ingame.
 
 <a name="faq_homebrew" />**问：** *我可以通过这个破解来运行自制程序和模拟器吗？*
 **答：** 可以！ 通过本教程可以在你的设备上开启任何用户自制的自制程序。
