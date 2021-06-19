@@ -27,7 +27,7 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) necesare pe dispo
 * Ultima versiune de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * Ultima versiune de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * Ultima versiune de [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSVshell](https://github.com/Electry/PSVshell)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell/releases/latest)
 
 ### Instrucțiuni
 
