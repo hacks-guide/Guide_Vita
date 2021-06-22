@@ -29,7 +29,7 @@ h-encore 漏洞允许你在 PS Vita (TV) 中安装自制程序到你的主菜单
 #### 第一步 — finalhe
 
 1. 解压 finalhe `.zip` 到你电脑上的任何一个文件夹
-1. 复制 VitaShell `.zip`  文件到 finalhe 文件夹中
+1. Copy the VitaDeploy `.zip` file inside the finalhe folder
   + 不要解压文件
 1. 在你的电脑上启动 finalhe
   + 如果你被提示是否要允许 finalhe 访问网络时，请选择允许
