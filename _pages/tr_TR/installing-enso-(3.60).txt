@@ -49,5 +49,5 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}
