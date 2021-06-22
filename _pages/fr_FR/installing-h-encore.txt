@@ -21,7 +21,8 @@ Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (d
 
 * La dernière version de [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - If you are using MacOS or Linux you will be required to compile finalhe yourself
-* The [Vitashell](https://github.com/soarqin/finalhe/releases/download/v1.91/app_VitaShell-2.0.zip) file manager for the PSVita
+* The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
+  - Donwnload the `VitaDeploy-FHE.zip` file
 
 ### Instructions
 
@@ -33,55 +34,47 @@ Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (d
 1. Lancez finalhe sur votre ordinateur
   + If you are prompted to allow finalhe network access through the firewall, do so
 1. Lancez l’application Gestionnaire de Contenu
-1. Sélectionnez "Copier du contenu"
-1. Sélectionnez "PC"
+1. Tap "Copy Content"
+  + If your device is already connected to your computer via USB, you can skip to [Section II - h-encore Transfer](#section-ii---h-encore-transfer)
+  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) and try again
+1. Tap "PC"
 1. Selectionner la méthode que vous voulez pour vous connecter à finalhe
   + Si vous êtes amené a vous connecter a un compte PlayStation Network faites donc
   + Si vous n'avez pas de compte PlayStation Network créez en un
-1. Choisissez enregistrer l'ordinateur si cela vous est demandé
+1. Select or register your computer if prompted
   + Si vous rencontré un message vous demandant de mettre a jour votre appareil, veuillez redémarrer en mode sans échec (appuyez sur Ps + R + bouton d'allumage) et activez l'option mettre à jour la base de donnée
-  + Si vous rencontrez toujours ce message, suivez les instructions de [Blocking Updates](blocking-updates) et réessayez
-  + If you *still* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
-  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) and try again
+  + If you still encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
+  + If you *still* encounter this message, update to the latest firmware version and try again
 
 #### Section II - Réduire la taille de h-encore a 13MO
 
-1. Choisissez "Trim h-encore to ~13MB"
-  + Only do this step if you are on 3.68 or below
-1. Choisissez "Let's GO!"
+1. Select "Trim h-encore to ~7MB"
+1. Click on the small arrow on the right-hand side of the finalhe window
+  + This can be hard to spot, especially on high-DPI displays
+1. Tick the "VitaDeploy" box
+1. Click "Let's GO!"
   + Les fichiers nécessaire à l'exploit seront automatiquement téléchargé et préparé
   + Ce processus prendra un certain temps
-1. Coisissez "PC -> système PS Vita" sur votre PS VITA dans l'application Gestionnaire de Contenu
-1. Sélectionner "Applications"
-1. Sélectionnez "PS Vita"
+1. Tap "PC -> PS Vita System" or "PC -> PS TV System" on your device
+1. Tap "Applications"
+1. Tap "PS Vita"
 1. Select "h-encore" or "h-encore²" depending on which is displayed
-1. Select "VitaShell"
-1. Sélectionnez "Copier"
-1. Sélectionnez "OK"
-  + L'exploit h-encore sera copié vers votre Ps Vita
+1. Select "VitaDeploy"
+1. Tap "Copy"
+1. Tap "OK"
+  + The h-encore exploit and VitaDeploy application will be copied to your device
   + Ce processus prendra un certain temps
 1. Fermez l’application Gestionnaire de Contenu
 1. Fermez finalhe sur votre ordinateur
 
 #### Section III - Configuration de h-encore
 
-h-encore² only has a ~25% success rate. It may take a long time to launch the h-encore² exploit.
-{: .notice--warning}
-
-1. Lancez l'application h-encore en maintenant (R)
-  Si un message apparait à propos des trophées, continuez à appuyer sur (R) et choisissez "Oui"
+1. Launch the h-encore(²) application
+  + If prompted about trophies, select "Yes"
 1. Si l'exploit est un succès, vous verrez maintenant le menu bootstrap de h-encore
-  + Si l'exploit est figé sur un écran blanc, simplement fermer l'application (qui causera un plantage et un redémarrage de votre console), ensuite essayez encore
-  + S'il est encore figé, maintenez le bouton d'alimentation pendant plus de 30 secondes pour forcer un redémarrage, ensuite essayez encore
-1. Sélectionnez "install HENkaku"
-  + Cela installera l'exploit HENkaku et permettra l'accès aux homebrews jusqu'au prochain redémarrage
-1. Sélectionnez "EXIT"
-
-Homebrew applications such as VitaShell will remain installed after a reboot, however will give an error on launch until the exploit is applied.
-{: .notice--info}
-
-Due to a bug concerning the PSVita interacting with GitHub, the "Download VitaShell" option is not working for the time being. 
-{: .notice--warning}
+  + If the exploit gets stuck, reboot your device and try again
+  + If you can't reboot normally, hold the power button down for over 30 seconds to force a reboot
+1. Press (Cross) to exit the application
 
 #### Section IV - Configuration de HENkaku
 
@@ -92,7 +85,20 @@ Due to a bug concerning the PSVita interacting with GitHub, the "Download VitaSh
 1. Retournez au menu paramètre HENkaku
 1. Fermez l’application de Paramètres
 
+#### Section V - Installing essential homebrew
+
+1. Launch the VitaDeploy application
+1. Tap "App downloader"
+  + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
+1. Select "[VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/) *(A powerful file manager)*""
+1. Tap "Download the selected apps"
+1. Wait for the app to finish downloading
+  + When finished, you should be presented with the `VitaShell.vpk` file
+1. Press (Cross) on the `VitaShell.vpk` file to install it
+1. Appuyez sur (Croix) pour confirmer l'installation
+1. Press (Cross) to confirm the install again when prompted
+
 ___
 
-### Continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
+### Continue to [Installing Ensō](installing-enso)
 {: .notice--primary}
