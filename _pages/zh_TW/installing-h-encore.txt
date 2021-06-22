@@ -29,7 +29,7 @@ If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exp
 #### 第一節 — finalhe
 
 1. Copy the contents of the finalhe `.zip` file to a folder on your computer
-1. Copy the VitaShell `.zip` file inside the finalhe folder
+1. Copy the VitaDeploy `.zip` file inside the finalhe folder
   + Do not extract this file
 1. 在您的電腦中啟動 finalhe
   + If you are prompted to allow finalhe network access through the firewall, do so
