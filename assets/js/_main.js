@@ -123,7 +123,7 @@ $(document).ready(function(){
   }
 
   var methods = {
-    "updating-firmware-(3.60)": "0",
+    "updating-firmware-(3.73)": "0",
     "get-started": "1",
     "updating-firmware-(ps-tv-3.65-and-3.68)": "2",
     "updating-firmware-(ps-vita-3.65-and-3.68)": "3",
@@ -146,11 +146,11 @@ $(document).ready(function(){
   if(sidebar_shown){
     var unhide = [];
     var route = {
-      "0": ["updating-firmware-(3.60)", "installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
-      "1": ["installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
+      "0": ["updating-firmware-(3.73)", "installing-h-encore", "installing-enso", "finalizing-setup"],
+      "1": ["installing-henkaku", "installing-enso-(3.60)", "finalizing-setup-(legacy)"],
       "2": ["updating-firmware-(ps-tv-3.65-and-3.68)", "installing-h-encore", "downgrading-firmware-(3.60)", "installing-enso-(3.60)", "finalizing-setup"],
       "3": ["updating-firmware-(ps-vita-3.65-and-3.68)", "installing-h-encore", "downgrading-firmware-(3.60)", "installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
-      "4": ["installing-h-encore", "downgrading-firmware-(3.60)", "installing-henkaku", "installing-enso-(3.60)", "finalizing-setup"],
+      "4": ["installing-h-encore", "installing-enso", "finalizing-setup"],
       "5": ["installing-h-encore", "downgrading-firmware-(3.60)", "installing-enso-(3.65)", "finalizing-setup"],
       "6": ["installing-h-encore", "downgrading-firmware-(3.60)", "downgrading-firmware-(3.65)", "installing-enso-(3.65)", "finalizing-setup"],
       "7": ["installing-h-encore", "downgrading-firmware-(3.60)", "configuring-h-encore", "finalizing-setup"],
