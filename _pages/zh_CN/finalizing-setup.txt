@@ -6,44 +6,31 @@ title: "完成安装"
 
 ### 必读事项
 
-我们现在将安装如下所示的应用程序和插件：
+We will now setup the following applications:
 
-+  **Vita Homebrew Browser** *(allows for installing homebrew applications from the internet)*
-+  **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
++  **[Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)** *(allows for installing homebrew applications from the internet)*
++  **[iTLS Installer](https://github.com/SKGleba/iTLS-Enso/releases/latest/)** *(adds TLSv1.2 support in older firmwares for online connection)*
 
-为了在你的设备安装必要的 `.vpk` 安装包，我们使用 [FTP](https://zh.m.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE) 来将文件复制到你设备的内存卡。
+In order to install the necessary applications on your device, we use the VitaDeploy application to download the latest version of each app.
 
 ### 你需要准备点啥？
 
-* 一个 FTP 连接软件，比如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
-  + 或者，你也可以使用 VitaShell 的 USB 传输功能
-* The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)
-* The latest release of [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso/releases/latest/)
+* The VitaDeploy application installed on your device
+  + If you don't have VitaDeploy installed, follow [Installing VitaDeploy](installing-vitadeploy)
 
 ### 操作步骤
 
-#### 第一步 — 准备工作
+#### Section I - Installing homebrew applications
 
-1. 启动 VitaShell 应用
-1. 按下 “Start” 键来打开 VitaShell 的设置
-1. 在 “SELECT button” 上按下×键来切换模式为“FTP”
-  + 或者你也可以切换成USB模式并通过其传输方式来传输所需文件
-1. 按下 “○” 关闭 VitaShell settings
-1. 按下 “Select” 键以启用设备上的 FTP 访问
-1. 在电脑上打开 FTP 客户端
-1. 输入设备上显示的 IP 地址与端口
-1. 通过 FTP 客户端移动至 `ux0:`
-  + `ux0:` 分区代表你设备上内存卡的分区 (在 PS Vita 1000中，这个分区永远指的是外部内存卡；在 PS Vita 2000 和 PS TV 中，如果插入了一个外部存储卡，则该分区为外部存储卡，反之则为内置存储)
-1. 如果有 `tai` 文件夹请删除
-1. Navigate to the `data/` folder
-1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
-1. Transfer `iTLS-Enso.vpk` to the `data/` folder
-1. 在你的主机上按下 “○” 键以关闭 FTP 连接
-
-#### Section II - Installing homebrew applications
-
-1. 启动 VitaShell 应用
-1. Navigate to `ux0:` -> `data/`
+1. Launch the VitaDeploy application
+1. Tap "App downloader"
+  + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
+1. Select the following applications:
+  + Vita Homebrew Browser
+  + iTLS Installer
+1. Tap "Download the selected apps"
+1. Wait for the app to finish downloading
+  + When finished, you should be presented with a list of two `.vpk` files
 1. Press (Triangle) to open the side menu
 1. Press (Cross) on "Mark all"
 1. Press (Triangle) to open the side menu again
@@ -52,21 +39,21 @@ title: "完成安装"
 1. 按下 “×” 键确认安装
 1. Press (Cross) to confirm the install again when prompted
 
-#### Section III - Installing iTLS
+#### Section II - Installing iTLS
 
 1. Open the iTLS-Enso application
 1. Press (Cross) on "Install the full iTLS package"
   + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
 1. Wait for your device to reboot
 
-#### Section IV - Blocking Updates
+#### Section III - Blocking Updates
 
 1. 打开系统设置
 1. 移动至 `系统(System)` -> `自动启动设置(Auto-Start Settings)`
 1. 取消 `下载系统软件的更新文件（Download Update File for System Software）`
 1. 关闭系统设置
 
-#### Section V - PSN Access
+#### Section IV - PSN Access
 
 1. 打开系统设置
 1. 移动至 `HENkaku Settings`
@@ -79,7 +66,7 @@ title: "完成安装"
 
 ___
 
-你可以到 [VitaDB](https://vitadb.rinnegatamante.it/) 上寻找新的自制程序。
+You can browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/) or in the [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/).
 {: .notice--info}
 
 *不建议*通过安装高级用户自制程序（例如“Enso EX”）来更改自制固件的安装情况。 在没有完全理解系统运作的情况下这样做会导致*砖机*！
