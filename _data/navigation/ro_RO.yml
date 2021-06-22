@@ -55,35 +55,44 @@ sidebar_pages:
     title: Actualizând Firmware-ul (3.60)
     url: updating-firmware-(3.60)
   - 
-    title: Actualizând Firmware-ul (PS TV 3.65 şi 3.68)
+    title: Updating Firmware (3.73)
+    url: updating-firmware-(3.73)
+  - 
+    title: Updating Firmware (PS TV 3.65 and 3.68)
     url: updating-firmware-(ps-tv-3.65-and-3.68)
   - 
-    title: Actualizând firmware-ul (PS Vita 3.65 şi 3.68)
+    title: Updating Firmware (PS Vita 3.65 and 3.68)
     url: updating-firmware-(ps-vita-3.65-and-3.68)
   - 
-    title: Instalând h-encore
+    title: Installing h-encore
     url: installing-h-encore
   - 
-    title: Retrogradând Firmware-ul (3.60)
+    title: Downgrading Firmware (3.60)
     url: downgrading-firmware-(3.60)
   - 
-    title: Retrogradând Firmware-ul (3.65)
+    title: Downgrading Firmware (3.65)
     url: downgrading-firmware-(3.65)
   - 
-    title: Instalând HENkaku
+    title: Installing HENkaku
     url: installing-henkaku
   - 
-    title: Configurând h-encore
+    title: Configuring h-encore
     url: configuring-h-encore
   - 
-    title: Mai multe opţiuni
+    title: Multiple Options
     url: multiple-options
   - 
-    title: Instalând Ensō (3.65)
+    title: Installing Ensō
+    url: installing-enso
+  - 
+    title: Installing Ensō (3.65)
     url: installing-enso-(3.65)
   - 
-    title: Instalând Ensō (3.60)
+    title: Installing Ensō (3.60)
     url: installing-enso-(3.60)
   - 
-    title: Finalizând instalarea
+    title: Finalizing Setup
     url: finalizing-setup
+  - 
+    title: Finalizing Setup (Legacy)
+    url: finalizing-setup-(legacy)
