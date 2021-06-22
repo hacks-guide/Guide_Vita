@@ -49,5 +49,5 @@ Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方�
 
 ___
 
-### 继续至 [完成安装](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}
