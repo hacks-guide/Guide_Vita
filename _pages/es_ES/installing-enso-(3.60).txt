@@ -49,5 +49,5 @@ Es más conveniente que HENkaku ya que no requiere que ejecutes un exploit en tu
 
 ___
 
-### Continúa en [Finalizar instalación](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}
