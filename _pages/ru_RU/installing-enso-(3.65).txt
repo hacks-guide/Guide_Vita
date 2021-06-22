@@ -53,5 +53,5 @@ title: "Установка Ensō (3.65)"
 
 ___
 
-### Следующий шаг: [Завершение установки](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}
