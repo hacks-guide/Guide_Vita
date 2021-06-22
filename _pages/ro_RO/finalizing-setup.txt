@@ -8,12 +8,8 @@ title: "Finalizând instalarea"
 
 Acuma vom instala aplicații și plugin-uri precum următoarele:
 
-+  **NoNpDrm** *(permite ca jocurile și aplicațiile criptate să fie folosite)*
-+  **0syscall6** *(permite utilizarea jocurilor și a aplicațiilor care necesită versiuni de firmware mai mari)*
-+  **DownloadEnabler** *(permite orice tip de fișier să fie descărcat cu browserul)*
-+  **shellbat** *(afișează procentajul exact al bateriei în bara de stare)*
-+  **pngshot** *(îmbunătățește utilitatea de captură de ecran integrată)*
-+  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
++  **Vita Homebrew Browser** *(allows for installing homebrew applications from the internet)*
++  **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
 
 Pentru a putea instala fișierele `.vpk` (pachet de conținut) necesare pe dispozitiv, folosim [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) pentru a copia fișierele către cardul de memorie al dispozitivului.
 
@@ -21,13 +17,8 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) necesare pe dispo
 
 * Un Client FTP, cum ar fi [WinSCP](https://winscp.net/) sau [CyberDuck](https://cyberduck.io/)
   + Alternativ, puteţi utiliza VitaShell in modul USB
-* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* Ultima versiune de [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* Ultima versiune de [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
-* Ultima versiune de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
-* Ultima versiune de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
-* Ultima versiune de [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSVshell](https://github.com/Electry/PSVshell/releases/latest)
+* The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)
+* The latest release of [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso/releases/latest/)
 
 ### Instrucțiuni
 
@@ -37,36 +28,45 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) necesare pe dispo
 1. Apăsaţi (Start) pentru a deschide setările de VitaShell
 1. Apăsaţi (X) pe "SELECT button" pentru a schimba modul la "FTP"
   + Alternativ, puteţi lăsa această setare pe "USB" şi transfera toate fişierele prin cablu USB pentru restul ghidului
-  + Ţineţi cont că modul de transfer USB vă va lăsa iniţial pe partiţia ux0
-  + În plus, unele fişiere vor fi ascunse în modul USB pe Windows; trebuie să bifați "Show hidden files, folders and drives" şi debifați "Hide protected operating system files" în opţiunile de File Explorer pentru a vedea toate fişierele
 1. Apăsaţi (Cerc) pentru a închide setările de VitaShell
 1. Apăsați (Select) pentru a activa accesul FTP pe dispozitiv
 1. Deschideţi clientul FTP pe computer
 1. Introduceţi adresa IP şi Portul afişat pe aparatul dvs
 1. Folosind clientul FTP, navigați la `ux0:`
   + Partiția `ux0:` corespunde cardului de memorie de pe dispozitiv (pe PS Vita 1000, această partiție va fi mereu cardul de memorie extern; pe PS Vita 2000 și PS TV, această partiție va fi ori cardul de memorie extern dacă vreunul este inserat, sau cardul de memorie incorporat)
-  + Partiția `ur0:` corespunde la memoria internă a dospozitivului care este mereu prezentă în toate dispozitivele (pe PS Vita 2000 și PS TV, acesta *nu* este la fel ca memoria internă a dispozitivului!)
 1. Ştergeţi folderul `tai` dacă există
-1. Navigați spre `ur0:` -> `tai/`
-1. Transferați `config.txt` către folderul `tai`
-  + Suprascrieți (înlocuiți) fișierul existent `config.txt`
-1. Transferați `nonpdrm.skprx` către folderul `tai`
-1. Transferați `0syscall6.skprx` către folderul `tai`
-1. Transferați `download_enabler.suprx` către folderul `tai`
-1. Transferați `shellbat.suprx` către folderul `tai`
-1. Transferați `pngshot.suprx` către folderul `tai`
-1. Transfer `PSVshell.skprx` to the `tai` folder
+1. Navigate to the `data/` folder
+1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
+1. Transfer `iTLS-Enso.vpk` to the `data/` folder
 1. Apăsați (○) pe dispozitiv pentru a închide conexiunea FTP
-  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
-#### Secţiunea II - Blocând Actualizările
+#### Section II - Installing homebrew applications
+
+1. Lansați aplicația VitaShell
+1. Navigate to `ux0:` -> `data/`
+1. Press (Triangle) to open the side menu
+1. Press (Cross) on "Mark all"
+1. Press (Triangle) to open the side menu again
+1. Press (Cross) on "More"
+1. Press (Cross) on "Install all"
+1. Apăsați (X) pentru a confirma instalarea
+1. Press (Cross) to confirm the install again when prompted
+
+#### Section III - Installing iTLS
+
+1. Open the iTLS-Enso application
+1. Press (Cross) on "Install the full iTLS package"
+  + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
+1. Wait for your device to reboot
+
+#### Section IV - Blocking Updates
 
 1. Lansați aplicația Settings
 1. Navigați spre `System` -> `Auto-Start Settings`
 1. Uncheck the `Download Update File for System Sofwtare`
 1. Închideți aplicația Settings
 
-#### Secțiunea III - Acces la PSN
+#### Section V - PSN Access
 
 1. Lansați aplicația Settings
 1. Navigați spre `HENkaku Settings`
@@ -76,22 +76,6 @@ Pentru a putea instala fișierele `.vpk` (pachet de conținut) necesare pe dispo
 1. Scrieți "3.73" în căsuță
   + Când va fi lansată o nouă versiune de firmware pe viitor, va trebui să schimbați versiunea falsificată ca să coincidă astfel încât să aveți acces la PSN
 1. Închideți aplicația Settings
-
-#### Secțiunea IV - Curățare
-
-1. Lansați aplicația Content Manager
-1. Selectaţi "Manage Content on Memory Card"
-1. Selectaţi "PS Vita"
-1. Ştergeţi următoarele aplicaţii în cazul în care acestea există (țineți cont că, în funcţie de metoda dumneavoastră de a instala, unele sau toate aceste aplicaţii ar putea să lipsească):
-  + "modoru 戻る"
-  + "molecularShell"
-1. Utilizatorii versiunei de firmware 3.60 ar trebui de asemenea să şteargă aplicația următoare, dacă există:
-  + "h-encore"
-
-    The h-encore exploit will not work on 3.60 and the device will reboot if used.
-    {: .notice--warning}
-
-1. Închideți aplicația Content Manager
 
 ___
 
