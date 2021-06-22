@@ -49,5 +49,5 @@ Ensō это полноценное CFW решение для PS Vita (TV), ко
 
 ___
 
-### Следующий шаг: [Завершение установки](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}
