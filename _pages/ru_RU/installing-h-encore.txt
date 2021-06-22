@@ -29,7 +29,7 @@ title: Установка h-encore
 #### Часть I - finalhe
 
 1. Copy the contents of the finalhe `.zip` file to a folder on your computer
-1. Copy the VitaShell `.zip` file inside the finalhe folder
+1. Copy the VitaDeploy `.zip` file inside the finalhe folder
   + Do not extract this file
 1. Запустите finalhe на компьютере
   + Если появится запрос на разрешение доступа к сети для finalhe, разрешите доступ
