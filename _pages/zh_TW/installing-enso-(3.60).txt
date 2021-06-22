@@ -49,5 +49,5 @@ Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，
 
 ___
 
-### 繼續至[完成安裝](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}
