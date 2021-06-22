@@ -21,7 +21,8 @@ h-encore 漏洞允许你在 PS Vita (TV) 中安装自制程序到你的主菜单
 
 * 最新版 [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - 如果你在使用 MacOS 或者 Linux 系统，那你得自行编译一个 finalhe
-* PSVita 的 [Vitashell](https://github.com/soarqin/finalhe/releases/download/v1.91/app_VitaShell-2.0.zip) 文件管理器
+* The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
+  - Donwnload the `VitaDeploy-FHE.zip` file
 
 ### 操作步骤
 
@@ -33,55 +34,47 @@ h-encore 漏洞允许你在 PS Vita (TV) 中安装自制程序到你的主菜单
 1. 在你的电脑上启动 finalhe
   + 如果你被提示是否要允许 finalhe 访问网络时，请选择允许
 1. 在你的主机中启动“内容管理器”程序
-1. 选择“复制内容(Copy Content)”
-1. 选择 “PC”
+1. Tap "Copy Content"
+  + If your device is already connected to your computer via USB, you can skip to [Section II - h-encore Transfer](#section-ii---h-encore-transfer)
+  + 如果你的设备无法检测到与主机的USB连接，请安装 [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) 然后再试一次
+1. Tap "PC"
 1. 选择你想要的方法连接至 finalhe
   + 如果你被要求登录至 PlayStation Network，请登录
   + 如果你没有账号请创建一个
-1. 当提示时，选择／注册你的电脑
+1. Select or register your computer if prompted
   + 如果你遇到消息指示你更新，请重启设备并再试一次
-  + 如果你依然遇到了提示，请参见[阻止更新](blocking-updates)并再试一次
-  + 如果你*仍然*遇到了这个提示，请前往系统设置打开飞行模式，然后再试（这选项 PS TV 上是*没有*的，因为谁会在飞机上玩这个啊）
-  + 如果你的设备无法检测到与主机的USB连接，请安装 [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) 然后再试一次
+  + If you still encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
+  + If you *still* encounter this message, update to the latest firmware version and try again
 
 #### 第二步 — h-encore 转移
 
-1. 选择“Trim h-encore to ~13MB”
-  + 只有你的系统在 3.68 以下时才需要做这个
-1. 选择 “Let's GO!”
+1. Select "Trim h-encore to ~7MB"
+1. Click on the small arrow on the right-hand side of the finalhe window
+  + This can be hard to spot, especially on high-DPI displays
+1. Tick the "VitaDeploy" box
+1. Click "Let's GO!"
   + 漏洞所需文件将会自动下载并准备好
   + 此过程会花费一些时间
-1. 在你的设备上选择 “PC -> PS Vita System”
-1. 选择“应用程序(Applications)”
-1. 选择 “PS Vita”
+1. Tap "PC -> PS Vita System" or "PC -> PS TV System" on your device
+1. Tap "Applications"
+1. Tap "PS Vita"
 1. 根据屏幕上的提示选择 “h-encore 或 “h-encore²”
-1. 选择 “VitaShell”
-1. 选择 “Copy”
-1. 选择 “OK”
-  + h-encore 漏洞将会被复制到你的设备中
+1. Select "VitaDeploy"
+1. Tap "Copy"
+1. Tap "OK"
+  + The h-encore exploit and VitaDeploy application will be copied to your device
   + 此过程会花费一些时间
 1. 关闭“内容管理器”程序
 1. 关闭 finalhe
 
 #### 第三步 — 配置h-encore
 
-h-encore² 只有约 25% 的成功率。 所以你可能需要浪费很长时间来尝试启动 h-encore² 漏洞。
-{: .notice--warning}
-
-1. 在启动 h-encore 应用程序时按住“R”键
-  + 如果提示有关奖杯的信息，请继续按住“R”键并选择“Yes”
+1. Launch the h-encore(²) application
+  + If prompted about trophies, select "Yes"
 1. 如果漏洞成功触发，你现在将看到h-encore引导程序菜单
-  + 如果漏洞触发后卡在白屏上，只需关闭应用程序（这会导致系统崩溃并重启设备），然后再试一次
-  + 如果仍然卡住，请按住电源按钮超过30秒以强制重启，然后再试一次
-1. 选择 “Install HENkaku”
-  + 这将安装HENkaku漏洞并启用自制程序权限，直到下次重新启动
-1. 选择 “Exit”
-
-例如 VitaShell 之类的 Homebrew 程序将会在重启后自动继续安装，但在漏洞被应用前启动会发生错误。
-{: .notice--info}
-
-由于一个 PSVita 与 Github 交互时的漏洞，“Download VitaShell” 选项暂时无法使用。 
-{: .notice--warning}
+  + If the exploit gets stuck, reboot your device and try again
+  + If you can't reboot normally, hold the power button down for over 30 seconds to force a reboot
+1. Press (Cross) to exit the application
 
 #### 第五步 — 配置 HENkaku
 
@@ -92,7 +85,20 @@ h-encore² 只有约 25% 的成功率。 所以你可能需要浪费很长时间
 1. 返回 HENkaku 设置菜单
 1. 关闭系统设置
 
+#### Section V - Installing essential homebrew
+
+1. Launch the VitaDeploy application
+1. Tap "App downloader"
+  + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
+1. Select "[VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/) *(A powerful file manager)*""
+1. Tap "Download the selected apps"
+1. Wait for the app to finish downloading
+  + When finished, you should be presented with the `VitaShell.vpk` file
+1. Press (Cross) on the `VitaShell.vpk` file to install it
+1. 按下 “×” 键确认安装
+1. Press (Cross) to confirm the install again when prompted
+
 ___
 
-### 继续至 [降级 3.60](downgrading-firmware-(3.60))
+### Continue to [Installing Ensō](installing-enso)
 {: .notice--primary}
