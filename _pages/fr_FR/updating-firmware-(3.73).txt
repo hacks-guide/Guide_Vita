@@ -1,0 +1,24 @@
+---
+title: "Updating Firmware (3.73)"
+---
+
+{% include toc title="Table des matières" %}
+
+### Lecture requise
+
+The h-encore exploit is only compatible with the firmware versions 3.65 and above. As a result, lower firmware versions must update to the latest firmware to use the exploit.
+
+### Ce dont vous aurez besoin
+
+* Une connexion internet sur votre PS Vita (TV)
+
+### Instructions
+
+1. Naviguez vers `Mise à jour système` -> `Mise à jour via PC`
+1. Follow the prompts to update your device to 3.73
+  + Une fois le processus terminé, votre appareil redémarrera automatiquement
+
+___
+
+### Continuez vers [Installation de h-encore](installing-h-encore)
+{: .notice--primary}
