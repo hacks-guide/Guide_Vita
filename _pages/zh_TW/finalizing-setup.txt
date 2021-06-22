@@ -8,12 +8,8 @@ title: "完成安裝"
 
 我們將安裝下列程式及插件：
 
-+  **NoNpDrm** *(允許您使用已加密的遊戲及應用程式)*
-+  **0syscall6** *(allows using games and applications that require higher firmware versions)*
-+  **DownloadEnabler** *(允許您在內建的網頁瀏覽器中下載任何檔案類型)*
-+  **shellbat** *(於狀態列中顯示剩餘電量)*
-+  **pngshot** *(改進內建的截圖程式)*
-+  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
++  **Vita Homebrew Browser** *(allows for installing homebrew applications from the internet)*
++  **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
 
 In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
 
@@ -21,13 +17,8 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 
 * 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
-* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* 最新版的 [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* The latest release of [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
-* 最新版的 [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
-* 最新版的 [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
-* 最新版的 [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSVshell](https://github.com/Electry/PSVshell/releases/latest)
+* The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)
+* The latest release of [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso/releases/latest/)
 
 ### 操作說明
 
@@ -37,36 +28,45 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. 按下「Start」鍵開啟 VitaShell 設定
 1. 於『SELECT button』上按下「X」鍵以將模式更改為『FTP』
   + 或者，您也可以將此設定為『USB』模式並透過其方式傳輸所有的檔案
-  + 若您使用的是 USB 傳輸模式的話，連接的磁區為 ux0
-  + 此外，某些檔案將藏於 USB 傳輸模式中；您必須在『檔案總管』的『檢視』設定中開啟『顯示隱藏的檔案、資料夾及磁碟機』並關閉『隱藏保護的作業系統檔案 (建議選項)』
 1. 按下「O」鍵關閉 VitaShell 設定
 1. 按下「Select」鍵以啟動 FTP 存取功能
 1. 於您的電腦中啟動您的 FTP 客戶端
 1. 輸入於您主機上顯示的 IP 位址以及埠
 1. 透過 FTP 端移動至 `ux0:`
   + `ux0:` 代表著您主機記憶卡的磁區 (在第一代的 Vita 中 (PSV-1000)，本磁區指的是外存記憶卡；在第二代 Vita (PSV-2000) 及 PS TV 中，本磁區指的是內存或者是已插入的外存記憶卡)
-  + `ur0:` 代表著您主機的系統內存；此磁區永遠都會出現在任何主機中 (在第二代 Vita 中 (PSV-2000) 及 PS TV 中，這與普通內存是*不相干的*!)
 1. 刪除可能現有的 `tai` 資料夾
-1. 移動至 `ur0:` -> `tai/`
-1. 複製 `config.txt` 至 `tai` 資料夾中
-  + 複寫任何已存在的 `config.txt` 檔案
-1. 複製 `nonpdrm.skprx` 至 `tai` 資料夾中
-1. Transfer `0syscall6.skprx` to the `tai` folder
-1. 複製 `download_enabler.suprx` 至 `tai` 資料夾中
-1. 複製 `shellbat.suprx` 至 `tai` 資料夾中
-1. 複製 `pngshot.suprx` 至 `tai` 資料夾中
-1. Transfer `PSVshell.skprx` to the `tai` folder
+1. Navigate to the `data/` folder
+1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
+1. Transfer `iTLS-Enso.vpk` to the `data/` folder
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
-  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
-#### Section II - Blocking Updates
+#### Section II - Installing homebrew applications
+
+1. 啟動 VitaShell
+1. Navigate to `ux0:` -> `data/`
+1. Press (Triangle) to open the side menu
+1. Press (Cross) on "Mark all"
+1. Press (Triangle) to open the side menu again
+1. Press (Cross) on "More"
+1. Press (Cross) on "Install all"
+1. 按下「X」鍵確認安裝
+1. Press (Cross) to confirm the install again when prompted
+
+#### Section III - Installing iTLS
+
+1. Open the iTLS-Enso application
+1. Press (Cross) on "Install the full iTLS package"
+  + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
+1. Wait for your device to reboot
+
+#### Section IV - Blocking Updates
 
 1. 啟動設定
 1. 移動至 `系統` -> `自動啟動設定`
 1. Uncheck the `Download Update File for System Sofwtare`
 1. 關閉設定
 
-#### Section III - PSN Access
+#### Section V - PSN Access
 
 1. 啟動設定
 1. 移動至 `HENkaku 設置`
@@ -76,22 +76,6 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. Enter "3.73" into the box
   + 如果未來 Sony 推出了新的系統韌體，您必須將此數值更換至最新的系統版本以存取 PSN
 1. 關閉設定
-
-#### Section IV - Cleanup
-
-1. 啟動『內容管理員』
-1. 選擇『管理記憶卡的內容』
-1. 選擇『PS Vita』
-1. 若有看見下列檔案，請將其刪除 (您所看到的檔案將因您的安裝方式而異，因此您可能只會看見部分列出的檔案)：
-  + "modoru 戻る"
-  + "molecularShell"
-1. 使用 3.60 版本的使用者若有看見下列檔案也應將其刪除：
-  + "h-encore"
-
-    The h-encore exploit will not work on 3.60 and the device will reboot if used.
-    {: .notice--warning}
-
-1. 關閉『內容管理員』
 
 ___
 
