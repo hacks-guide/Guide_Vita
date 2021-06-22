@@ -49,5 +49,5 @@ C'est une solution plus aisé que l'exploit webkit HENkaku car eux doivent être
 
 ___
 
-### Continuer vers [Finalisation de l'installation](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}
