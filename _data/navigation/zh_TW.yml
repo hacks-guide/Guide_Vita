@@ -55,35 +55,44 @@ sidebar_pages:
     title: 更新韌體 (3.60)
     url: updating-firmware-(3.60)
   - 
-    title: 更新韌體 (PS TV 3.65 及 3.68)
+    title: Updating Firmware (3.73)
+    url: updating-firmware-(3.73)
+  - 
+    title: Updating Firmware (PS TV 3.65 and 3.68)
     url: updating-firmware-(ps-tv-3.65-and-3.68)
   - 
-    title: 更新韌體 (PS Vita 3.65 及 3.68)
+    title: Updating Firmware (PS Vita 3.65 and 3.68)
     url: updating-firmware-(ps-vita-3.65-and-3.68)
   - 
-    title: 安裝 h-encore
+    title: Installing h-encore
     url: installing-h-encore
   - 
-    title: 降級韌體 (3.60)
+    title: Downgrading Firmware (3.60)
     url: downgrading-firmware-(3.60)
   - 
-    title: 降級韌體 (3.65)
+    title: Downgrading Firmware (3.65)
     url: downgrading-firmware-(3.65)
   - 
-    title: 安裝 HENkaku
+    title: Installing HENkaku
     url: installing-henkaku
   - 
-    title: 設置 h-encore
+    title: Configuring h-encore
     url: configuring-h-encore
   - 
-    title: 多項選擇
+    title: Multiple Options
     url: multiple-options
   - 
-    title: 安裝 Ensō (版本 3.65)
+    title: Installing Ensō
+    url: installing-enso
+  - 
+    title: Installing Ensō (3.65)
     url: installing-enso-(3.65)
   - 
-    title: 安裝 Ensō (版本 3.60)
+    title: Installing Ensō (3.60)
     url: installing-enso-(3.60)
   - 
-    title: 完成安裝
+    title: Finalizing Setup
     url: finalizing-setup
+  - 
+    title: Finalizing Setup (Legacy)
+    url: finalizing-setup-(legacy)
