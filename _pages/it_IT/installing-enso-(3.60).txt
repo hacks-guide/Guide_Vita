@@ -49,5 +49,5 @@ Ensō è un CFW per la PS Vita (TV) che ti permette un accesso agli homebrew pi�
 
 ___
 
-### Prosegui con il [Completamento dell'installazione](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}
