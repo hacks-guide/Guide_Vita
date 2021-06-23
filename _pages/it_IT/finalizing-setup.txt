@@ -50,7 +50,7 @@ In order to install the necessary applications on your device, we use the VitaDe
 
 1. Apri le Impostazioni
 1. Vai su `Sistema` -> `Impostazioni di avvio automatico`
-1. Uncheck the `Download Update File for System Sofwtare`
+1. Uncheck the `Download Update File for System Software`
 1. Chiudi le impostazioni
 
 #### Section IV - PSN Access
