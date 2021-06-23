@@ -50,7 +50,7 @@ In order to install the necessary applications on your device, we use the VitaDe
 
 1. 打开系统设置
 1. 移动至 `系统(System)` -> `自动启动设置(Auto-Start Settings)`
-1. 取消 `下载系统软件的更新文件（Download Update File for System Software）`
+1. Uncheck the `Download Update File for System Software`
 1. 关闭系统设置
 
 #### Section IV - PSN Access
