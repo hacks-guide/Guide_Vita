@@ -20,7 +20,7 @@ In order to install the necessary applications on your device, we use the VitaDe
 
 ### 操作說明
 
-#### Section I - Installing homebrew applications
+#### 第一節 — 安裝自製程式
 
 1. 啟動 VitaDeploy
 1. Tap "App downloader"
