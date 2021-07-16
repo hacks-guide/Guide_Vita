@@ -64,7 +64,7 @@ sidebar_pages:
     title: Updating Firmware (PS Vita 3.65 and 3.68)
     url: updating-firmware-(ps-vita-3.65-and-3.68)
   - 
-    title: Installing h-encore
+    title: 安裝 h-encore
     url: installing-h-encore
   - 
     title: 降級韌體 (版本 3.60)
@@ -73,10 +73,10 @@ sidebar_pages:
     title: 降級韌體 (版本 3.65)
     url: downgrading-firmware-(3.65)
   - 
-    title: Installing HENkaku
+    title: 安裝 HENkaku
     url: installing-henkaku
   - 
-    title: Configuring h-encore
+    title: 設置 h-encore
     url: configuring-h-encore
   - 
     title: Multiple Options
@@ -91,8 +91,8 @@ sidebar_pages:
     title: 安裝 Ensō (版本 3.60)
     url: installing-enso-(3.60)
   - 
-    title: Finalizing Setup
+    title: 完成安裝
     url: finalizing-setup
   - 
-    title: Finalizing Setup (Legacy)
+    title: 完成安裝 (舊版)
     url: finalizing-setup-(legacy)
