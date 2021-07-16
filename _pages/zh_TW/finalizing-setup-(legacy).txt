@@ -11,7 +11,7 @@ title: "Finalizing Setup (Legacy)"
 +  **Vita Homebrew Browser** *(allows for installing homebrew applications from the internet)*
 +  **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
 +  **NoNpDrm** *(允許您使用已加密的遊戲及應用程式)*
-+  **0syscall6** *(allows using games and applications that require higher firmware versions)*
++ **0syscall6** *(允許使用需要更新系統版本的遊戲和應用程式)*
 +  **DownloadEnabler** *(允許您在內建的網頁瀏覽器中下載任何檔案類型)*
 +  **shellbat** *(於狀態列中顯示剩餘電量)*
 +  **pngshot** *(改進內建的截圖程式)*
@@ -23,14 +23,14 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 
 * 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)
-* The latest release of [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso/releases/latest/)
+* 最新版的 [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)
+* 最新版的 [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso/releases/latest/)
 * 最新版的 [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* The latest release of [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
+* 最新版的 [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
 * 最新版的 [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
 * 最新版的 [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
 * 最新版的 [pngshot](https://github.com/xyzz/pngshot/releases/latest)
-* The latest release of [PSVshell](https://github.com/Electry/PSVshell/releases/latest)
+* 最新版的 [PSVshell](https://github.com/Electry/PSVshell/releases/latest)
 
 ### 操作說明
 
@@ -75,21 +75,21 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. 按下「X」鍵確認安裝
 1. Press (Cross) to confirm the install again when prompted
 
-#### Section III - Installing iTLS
+#### 第三節 — 安裝 iTLS
 
 1. Open the iTLS-Enso application
 1. Press (Cross) on "Install the full iTLS package"
   + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
 1. Wait for your device to reboot
 
-#### Section IV - Blocking Updates
+#### 第四節 — 阻擋系統更新
 
 1. 啟動設定
 1. 移動至 `系統` -> `自動啟動設定`
 1. Uncheck the `Download Update File for System Sofwtare`
 1. 關閉設定
 
-#### Section V - PSN Access
+#### 第五節 — PSN 存取
 
 1. 啟動設定
 1. 移動至 `HENkaku 設置`
