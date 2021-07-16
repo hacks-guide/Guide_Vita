@@ -50,7 +50,7 @@ By using the StorageMgr kernel plugin, the USB drive or microSD card you use wil
 1. Delete the `ux0:tai/` folder
   + This is an important step as HENkaku will not load plugins installed in `ur0:tai` if it detects that `ux0:tai` exists
 
-#### Section II - Restoring Data
+#### 第二節 — 還原資料
 
 本節將會從您舊的 Sony 記憶卡內容複製到新的儲存裝置中。
 {: .notice--info}
