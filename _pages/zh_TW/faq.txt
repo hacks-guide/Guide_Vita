@@ -3,7 +3,7 @@ title: "常見問題 FAQ"
 ---
 
 <a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*
-**A:** Yes, 3.73 is hackable at the moment.
+**A：** 是的，3.73 目前是可以破解的。
 
 <a name="faq_downgrade" />**Q:** *我能降級我的 Vita 系統嗎？*
 **A:** Yes, the tool Modoru can downgrade any system hacked with HENkaku or h-encore to any firmware equal or greater than the firmware the console came with out of the box.
