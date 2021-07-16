@@ -41,7 +41,7 @@ In order to install the necessary applications on your device, we use the VitaDe
 
 #### Section II - Installing iTLS
 
-1. Open the iTLS-Enso application
+1. 啟動 iTLS-Enso
 1. Press (Cross) on "Install the full iTLS package"
   + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
 1. Wait for your device to reboot
