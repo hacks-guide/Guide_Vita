@@ -25,8 +25,8 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
   + This can be a microSD card to use in an SD2Vita or psvsd adapter, or a USB device for a PS TV console
 * 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
-* The latest release of [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
-* The latest release of [storageFormat](https://github.com/SKGleba/VitaTools/raw/main/storageFormat/build/storageFormat.vpk)
+* 最新版的 [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
+* 最新版的 [storageFormat](https://github.com/SKGleba/VitaTools/raw/main/storageFormat/build/storageFormat.vpk)
 
 ### 操作說明
 
@@ -52,7 +52,7 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 1. 按下「X」鍵確認刪除
 1. 關閉 VitaShell
 
-#### Section III - Formatting the microSD
+#### 第三節 — 格式化 microSD 卡
 
 1. Insert your SD2Vita with the microSD card into your PS Vita or PS TV device
 1. Launch the storageFormat application
@@ -62,7 +62,7 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
   + If it still fails, follow the [StorageMgr](storagemgr) guide
 1. Press (Cross) on "Reboot your device"
 
-#### Section IV - Installing yamt-vita
+#### 第四節 — 安裝 yamt-vita
 
 If you previously installed StorageMgr or another storage plugin, please remove it from your `ux0:tai/` or `ur0:tai/` folder before continuing.
 {: .notice--info}
