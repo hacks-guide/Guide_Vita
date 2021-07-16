@@ -22,7 +22,7 @@ In order to install the necessary applications on your device, we use the VitaDe
 
 #### Section I - Installing homebrew applications
 
-1. Launch the VitaDeploy application
+1. 啟動 VitaDeploy
 1. Tap "App downloader"
   + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
 1. Select the following applications:
@@ -39,7 +39,7 @@ In order to install the necessary applications on your device, we use the VitaDe
 1. 按下「X」鍵確認安裝
 1. Press (Cross) to confirm the install again when prompted
 
-#### Section II - Installing iTLS
+#### 第二節 — 安裝 iTLS
 
 1. 啟動 iTLS-Enso
 1. Press (Cross) on "Install the full iTLS package"
