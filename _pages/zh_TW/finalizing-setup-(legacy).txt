@@ -66,7 +66,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 #### Section II - Installing homebrew applications
 
 1. 啟動 VitaShell
-1. Navigate to `ux0:` -> `data/`
+1. 移動至 `ux0:` -> `data/`
 1. Press (Triangle) to open the side menu
 1. Press (Cross) on "Mark all"
 1. Press (Triangle) to open the side menu again
@@ -77,7 +77,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 
 #### 第三節 — 安裝 iTLS
 
-1. Open the iTLS-Enso application
+1. 啟動 iTLS-Enso
 1. Press (Cross) on "Install the full iTLS package"
   + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
 1. Wait for your device to reboot
