@@ -53,5 +53,5 @@ title: "安裝 Ensō (版本 3.65)"
 
 ___
 
-### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
+### 繼續至 [完成安裝 (舊版)](finalizing-setup-(legacy))
 {: .notice--primary}
