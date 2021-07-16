@@ -85,7 +85,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
 {: .notice--info}
 
 1. Power on your device to reboot
-1. Open the VitaShell application
+1. 啟動 VitaShell
 1. Navigate to the `ux0:` partition
   + This is currently your official memory card or internal storage
 1. Press down on the D-Pad to highlight a folder or file
