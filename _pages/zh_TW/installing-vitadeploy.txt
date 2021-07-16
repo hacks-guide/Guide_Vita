@@ -29,7 +29,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
 
-#### Section II - Installing the application
+#### 第二節 — 安裝程式
 
 1. 啟動 VitaShell
 1. 移動至 `ux0:` -> `data/`
