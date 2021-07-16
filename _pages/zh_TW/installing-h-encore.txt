@@ -87,7 +87,7 @@ If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exp
 
 #### Section V - Installing essential homebrew
 
-1. Launch the VitaDeploy application
+1. 啟動 VitaDeploy
 1. Tap "App downloader"
   + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
 1. Select "[VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/) *(A powerful file manager)*""
@@ -100,5 +100,5 @@ If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exp
 
 ___
 
-### Continue to [Installing Ensō](installing-enso)
+### 繼續至 [安裝 Ensō](installing-enso)
 {: .notice--primary}
