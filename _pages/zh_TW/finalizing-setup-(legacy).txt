@@ -63,7 +63,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. 於您的主機按下「O」鍵以關閉 FTP 連線
   + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
-#### Section II - Installing homebrew applications
+#### 第二節 — 安裝自製程式
 
 1. 啟動 VitaShell
 1. 移動至 `ux0:` -> `data/`
