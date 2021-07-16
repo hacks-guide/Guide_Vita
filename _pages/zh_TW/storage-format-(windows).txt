@@ -15,13 +15,13 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 ### 必備項目
 
 * [zzBlank.img]({{ "/assets/files/zzBlank.img" | absolute_url }})
-* The latest version of [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* 最新版的 [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
+* 最新版的 [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
   + This is not required if you do not want to check your storage device for errors
 
 ### 操作說明
 
-#### Section I - Formatting Storage Device
+#### 第一節 — 格式化儲存空間
 
 1. Install Win32DiskImager if you have not already
 1. Insert your storage device into your computer
@@ -40,7 +40,7 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 1. Select "OK" to dismiss the dialogue box when the format completes
 1. Close the format window
 
-#### Section II - Verifying Storage Device
+#### 第二節 — 檢查儲存空間
 
 If you do not want to check your storage device for errors, skip this section.
 {: .notice--info}
