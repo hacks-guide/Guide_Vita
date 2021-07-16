@@ -14,14 +14,14 @@ This page is for Linux users only. If you are not on Linux, check out the [Stora
 
 ### 必備項目
 
-* The latest version of [exfat-utils](https://github.com/relan/exfat) for your distribution (check your package manager)
-* The latest version of [fuse-exfat](https://github.com/relan/exfat) for your distribution (check your package manager)
-* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
+* 適用於您 Linux 發行版的 [exfat-utils](https://github.com/relan/exfat) (請見您系統的 package manager)
+* 適用於您 Linux 發行版的 [fuse-exfat](https://github.com/relan/exfat) (請見您系統的 package manager)
+* 最新版的 [F3](https://github.com/AltraMayor/f3/releases/latest)
   + This is not required if you do not want to check your storage device for errors
 
 ### 操作說明
 
-#### Section I - Formatting Storage Device
+#### 第一節 — 格式化儲存空間
 
 1. Insert your storage device into your computer
 1. Unmount your storage device with `umount`
@@ -32,7 +32,7 @@ This page is for Linux users only. If you are not on Linux, check out the [Stora
 1. Run `mkfs.exfat /dev/sdX` to format your storage device as exFAT
   + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
 
-#### Section II - Verifying Storage Device
+#### 第二節 — 檢查儲存空間
 
 If you do not want to check your storage device for errors, skip this section.
 {: .notice--info}
