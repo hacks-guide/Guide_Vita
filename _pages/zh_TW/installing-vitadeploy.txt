@@ -32,7 +32,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 #### Section II - Installing the application
 
 1. 啟動 VitaShell
-1. Navigate to `ux0:` -> `data/`
+1. 移動至 `ux0:` -> `data/`
 1. Press (Cross) on "VitaDeploy.vpk"
 1. 按下「X」鍵確認安裝
 1. Press (Cross) to confirm the install again when prompted
