@@ -22,7 +22,7 @@ This mod will make PERMANENT modifications to your device. If anything goes wron
 
 ### 操作說明
 
-1. Open the VitaDeploy application
+1. 啟動 VitaDeploy
 1. Tap "Install a different OS"
   + If you don't see a green menu with this option, make sure you have [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku) in HENkaku Settings
 1. Tap "Quick 3.65 Install"
