@@ -1,49 +1,49 @@
 ---
-title: "Storage Format (Linux)"
+title: "格式化儲存空間 (Linux)"
 ---
 
 {% include toc title="條目內容" %}
 
 ### 必讀事項
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+本篇為額外章節。本章節將教您如何準備並格式化任意儲存裝置以便與 StorageMgr 內核插件相並使用。
 
-Additionally, there is an optional section for checking your storage device for errors using F3. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+除此之外，本節另有提供額外的選用章節將教您如何透過 F3 檢查您的儲存裝置是否健全。 根據您儲存空間的大小和電腦的速度，此過程可能需要幾個小時 ！
 
-This page is for Linux users only. If you are not on Linux, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Mac)](storage-format-(mac)) pages.
+本教學僅適用於 Linux 使用者。 若您並非 Linux 使用者，請見[格式化儲存空間 (Windows)](storage-format-(windows)) 或 [格式化儲存空間 (Mac)](storage-format-(mac)) 頁面。
 
 ### 必備項目
 
 * 適用於您 Linux 發行版的 [exfat-utils](https://github.com/relan/exfat) (請見您系統的 package manager)
 * 適用於您 Linux 發行版的 [fuse-exfat](https://github.com/relan/exfat) (請見您系統的 package manager)
 * 最新版的 [F3](https://github.com/AltraMayor/f3/releases/latest)
-  + This is not required if you do not want to check your storage device for errors
+  + 如果您不想檢查您的儲存裝置是否有誤，您可忽略本需求
 
 ### 操作說明
 
 #### 第一節 — 格式化儲存空間
 
-1. Insert your storage device into your computer
-1. Unmount your storage device with `umount`
-1. Run `sudo dd if=/dev/zero of=/dev/sdX` to wipe the storage device
-  + `sdX` should be the device corresponding to your storage device
-1. Remove your storage device from your computer
-1. Re-insert your storage device into your computer
-1. Run `mkfs.exfat /dev/sdX` to format your storage device as exFAT
-  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
+1. 將您所想使用的儲存裝置插入至電腦中
+1. 透過 `unmount` 指令將此儲存裝置卸除
+1. 運行 `sudo dd if=/dev/zero of=/dev/sdX` 將此儲存空間清除
+  + `sdX` 應與您的儲存裝置的代號相同
+1. 將該儲存裝置從電腦中拔除
+1. 重新插入該儲存裝置
+1. 運行 `mkfs.exfat /dev/sdX` 以將您的儲存裝置格式化為 exFAT
+  + 如果你的儲存空間容量為 256GB 或更大，你必須將格式化時設置的分配單元大小設置為 64 KB
 
 #### 第二節 — 檢查儲存空間
 
-If you do not want to check your storage device for errors, skip this section.
+如果您不想檢查您的儲存裝置是否有誤，請跳過本節。
 {: .notice--info}
 
-1. Unzip the f3 `.zip` file
-1. `cd` into the f3 directory
-1. Run `make` to compile F3
-1. Insert your storage device into your computer
-1. Mount your storage device
-1. Run `./f3write <your storage device mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. 解壓 f3 `.zip`
+1. `cd` 至 f3 目錄中
+1. 運行 `make` 以編譯 F3
+1. 將您所想使用的儲存裝置插入至電腦中
+1. 掛載您的儲存裝置
+1. 輸入 `./f3write <您儲存裝置的掛載點>`
+1. 等到檢查完畢為止。 可以參考底下的範例。
 
 ~~~ bash
 $ ./f3write /media/michel/6135-3363/
@@ -55,8 +55,8 @@ Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
 ~~~
 
-1. Run `./f3read <your storage device mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. 輸入 `./f3read <您儲存裝置的掛載點>`
+1. 等到檢查完畢為止。 可以參考底下的範例。
 
 ~~~ bash
 $ ./f3read /media/michel/6135-3363/
@@ -73,10 +73,10 @@ Data LOST: 0.00 Byte (0 sectors)
 Average Reading speed: 9.42 MB/s
 ~~~
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your storage device is good and you can delete all `.h2w` files on your storage device
+如果結果顯示 `Data LOST: 0.00 Byte (0 sectors)`，則表示您的儲存裝置是沒問題的，接著就可以刪除儲存空間中所有的 `.h2w` 檔案了
 {: .notice--success}
 
-If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
+如果出現任何其他結果，您的儲存裝置可能是有問題且需要更換的！
 {: .notice--danger}
 
 ___
