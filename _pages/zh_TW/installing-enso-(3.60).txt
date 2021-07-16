@@ -38,7 +38,7 @@ Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，
 1. 當每次提示要求使用更高權限時，按下「X」繼續
 1. 按下「△」(三角形) 鍵開啟選單，並選擇『Delete』以刪除所有已選取的檔案
 1. 按下「X」鍵確認刪除
-1. Close the molecularShell or VitaShell application
+1. 關閉 molecularShell 或 VitaShell
 
 #### 第三節 — 安裝 VPK
 
@@ -49,5 +49,5 @@ Ensō 是一套適用於 PS Vita (TV) 的自製韌體方案。透過本方案，
 
 ___
 
-### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
+### 繼續至 [完成安裝 (舊版)](finalizing-setup-(legacy))
 {: .notice--primary}
