@@ -21,7 +21,7 @@ If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exp
 
 * 最新版的 [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - If you are using MacOS or Linux you will be required to compile finalhe yourself
-* The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
+* 最新版的 [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
   - Donwnload the `VitaDeploy-FHE.zip` file
 
 ### 操作說明
