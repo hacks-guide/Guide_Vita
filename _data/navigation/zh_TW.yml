@@ -67,10 +67,10 @@ sidebar_pages:
     title: Installing h-encore
     url: installing-h-encore
   - 
-    title: Downgrading Firmware (3.60)
+    title: 降級韌體 (版本 3.60)
     url: downgrading-firmware-(3.60)
   - 
-    title: Downgrading Firmware (3.65)
+    title: 降級韌體 (版本 3.65)
     url: downgrading-firmware-(3.65)
   - 
     title: Installing HENkaku
@@ -82,13 +82,13 @@ sidebar_pages:
     title: Multiple Options
     url: multiple-options
   - 
-    title: Installing Ensō
+    title: 安裝 Ensō
     url: installing-enso
   - 
-    title: Installing Ensō (3.65)
+    title: 安裝 Ensō (版本 3.65)
     url: installing-enso-(3.65)
   - 
-    title: Installing Ensō (3.60)
+    title: 安裝 Ensō (版本 3.60)
     url: installing-enso-(3.60)
   - 
     title: Finalizing Setup
