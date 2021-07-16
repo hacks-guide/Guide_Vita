@@ -13,7 +13,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 * 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
 * 最新版的 [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest/)
-  + Download the `VitaDeploy.vpk` file
+  + 下載 `VitaDeploy.vpk`
 
 #### 第一節 — 準備工作
 
