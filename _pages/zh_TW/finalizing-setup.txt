@@ -46,14 +46,14 @@ In order to install the necessary applications on your device, we use the VitaDe
   + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
 1. Wait for your device to reboot
 
-#### Section III - Blocking Updates
+#### 第三節 — 阻擋系統更新
 
 1. 啟動設定
 1. 移動至 `系統` -> `自動啟動設定`
 1. Uncheck the `Download Update File for System Software`
 1. 關閉設定
 
-#### Section IV - PSN Access
+#### 第四節 — PSN 存取
 
 1. 啟動設定
 1. 移動至 `HENkaku 設置`
