@@ -10,7 +10,7 @@ HENkaku es una cadena de exploits para la PS Vita (TV) que permite la instalaci�
 
 Ten en cuenta que la cadena de exploits HENkaku no es "persistente" (no permanece instalada tras reiniciar la consola). Por suerte, esta es sólo una restricción temporal hasta que HENkaku Ensō se instala en la siguiente página.
 
-Además de ejecutar HENkaku, también habilitaremos el acceso a homebrew "inseguro" que otorga mayores permisos a aplicaciones homebrew. Esta idea es similar a lo que a veces llamamos modo "administrador" en una computadora.
+Además de ejecutar HENkaku, también habilitaremos el acceso a homebrew "inseguro" que otorga mayores permisos a aplicaciones homebrew. This idea could be considered analogous to the "administrator" mode on a computer.
 
 Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria oficial de Sony (de cualquier tamaño) para seguir esta guía. Esta restricción no aplica a los modelos PS Vita 2000 o PS TV debido a que poseen una tarjeta de memoria interna.
 {: .notice--info}
