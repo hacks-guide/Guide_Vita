@@ -15,7 +15,7 @@ Nous allons maintenant configurer les applications et plugins comme par exemple 
 + **DownloadEnabler ** *(Autorise le téléchargement de n'importe quel type de fichiers depuis le navigateur sony sur Psvita)*
 + **shellbat** *(affiche un pourcentage exact du niveau de la batterie.)*
 + **pngshot** *(Améliore la fonctionnalité de screenshot inclue dans le système.)*
-+  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing CPU usage and fps counter)*
 
 In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
 
