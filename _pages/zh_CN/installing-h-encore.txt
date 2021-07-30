@@ -22,7 +22,7 @@ h-encore 漏洞允许你在 PS Vita (TV) 中安装自制程序到你的主菜单
 * 最新版 [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - 如果你在使用 MacOS 或者 Linux 系统，那你得自行编译一个 finalhe
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
-  - Donwnload the `VitaDeploy-FHE.zip` file
+  - Download the `VitaDeploy-FHE.zip` file
 
 ### 操作步骤
 
