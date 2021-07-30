@@ -6,7 +6,7 @@ title: "阻止更新"
 
 ### 必读事项
 
-为了防止不必要的系统更新，我们将会禁用由 sony 决定的从服务器自动下载文件并更新 vita 的选项。
+To prevent unwanted updates, we will disable an option made by Sony which automatically download the update file from their servers on your vita.
 ### 你需要准备点啥？
 
 * 将你的 PS Vita (TV) 连接上网络
