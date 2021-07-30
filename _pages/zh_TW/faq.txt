@@ -12,7 +12,7 @@ title: "常見問題 FAQ"
 **A:** 除非有特殊狀況，否則正常情況下不需要在搭載自製韌體的 PSVita 上進行更新。 請留在 3.60 或 3.65 版本。
 
 <a name="faq_risky" />**Q:** *改機風險多高？*
-**A:** 變磚在正常情況下是很難發生的，除非你完全忽略本手冊中的各項步驟，加上 Sony 並不會主動封殺主機跟帳號，除非你亂修改遊戲或其獎盃。
+**A:** Bricks are *basically* impossible unless you ignore instructions and Sony doesn't ban consoles nor accounts unless you hack trophies or in-game.
 
 <a name="faq_homebrew" />**Q:** *我可以透過本教學跑超讚的自製程式跟模擬器嗎？*
 **A:** 可以的！ 透過本教學您將可以在您的主機中運行任何社群所製的自製軟體。
