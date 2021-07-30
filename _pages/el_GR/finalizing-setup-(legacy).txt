@@ -15,7 +15,7 @@ We will now setup applications and plugins such as the following:
 +  **DownloadEnabler** *(allows any file type to be downloaded with the browser)*
 +  **shellbat** *(displays exact battery percentage in the status bar)*
 +  **pngshot** *(improves the built-in screenshot utility)*
-+  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing CPU usage and fps counter)*
 
 In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
 
