@@ -6,7 +6,7 @@ title: "Bloquear actualizaciones"
 
 ### Lectura requerida
 
-To prevent unwanted updates, we will disable an option made by sony which automatically download the update file from their servers on your vita.
+To prevent unwanted updates, we will disable an option made by Sony which automatically download the update file from their servers on your vita.
 ### Qué necesitas
 
 * Una conexión a internet en tu PS Vita (TV)
