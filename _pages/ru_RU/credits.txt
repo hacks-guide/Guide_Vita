@@ -18,6 +18,7 @@ title: "Благодарности"
     + TheFloW
     + xyz
     + YifanLu
+    + SKGleba
 
 {% endcapture %}
 
