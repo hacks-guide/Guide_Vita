@@ -10,7 +10,7 @@ La catena di exploit HENkaku per PS Vita (TV) permette l'installazione di applic
 
 Ricorda che l'exploit HENkaku non è "permanente" (cioè non rimane installato dopo un riavvio della console). Fortunatamente, è solo una restrizione temporanea, dato che installerai HENkaku Ensō nella pagina successiva.
 
-Oltre ad avviare l'exploit HENkaku, abiliteremo l'accesso a homebrew "non sicuri" che danno maggiori permessi alle applicazioni homebrew. Questa idea potrebbe essere analoga a quella della modalità "amministratore" sui computer.
+Oltre ad avviare l'exploit HENkaku, abiliteremo l'accesso a homebrew "non sicuri" che danno maggiori permessi alle applicazioni homebrew. This idea could be considered analogous to the "administrator" mode on a computer.
 
 Se hai la PS Vita 1000, devi avere una memory card ufficiale Sony (di qualunque dimensione) per seguire questa guida. Questa restrizione non vale anche per la PS Vita 2000 o la PS TV, siccome queste console hanno già una Memory Card integrata.
 {: .notice--info}
