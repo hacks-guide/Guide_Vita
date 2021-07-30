@@ -22,7 +22,7 @@ h-encore 是專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您安裝自
 * 最新版的 [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - 如果您的系統為 MacOS 或者 Linux，那您得自行編譯 finalhe
 * 最新版的 [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
-  - 下載 `VitaDeploy-FHE.zip`
+  - Download the `VitaDeploy-FHE.zip` file
 
 ### 操作說明
 
