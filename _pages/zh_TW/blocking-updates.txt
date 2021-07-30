@@ -6,7 +6,7 @@ title: "阻擋更新"
 
 ### 必讀事項
 
-為了防止不必要的系統更新，我們將會關閉 Sony 的自動下載更新機制。
+To prevent unwanted updates, we will disable an option made by Sony which automatically download the update file from their servers on your vita.
 ### 必備項目
 
 * 在您的 PS Vita (TV) 可用的網路連線
