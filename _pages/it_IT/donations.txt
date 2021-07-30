@@ -5,6 +5,6 @@ layout: single-no-ads
 
 ### emiyl
 
-[![Paypal]({{ "/images/paypal_white.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://emiyl.com/paypal){: .align-center}
+[![PayPal]({{ "/images/paypal_white.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://emiyl.com/paypal){: .align-center}
 {: .text-center}
 {: .notice--info}
