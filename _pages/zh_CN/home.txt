@@ -63,7 +63,7 @@ Ensō 可在所有 3.65 或以下版本的设备中运行；而系统版本更�
 
 + **在开始之前，你要知道破解Vita的风险：每次你修改系统的时候，都有可能会使你的 Vita 不可恢复的变砖。 这种情况很少见，但是仍然存在这样的可能性，所以请确保你完全按照本教程的指导进行操作。**
 + 此指南适用于所有系统版本在从 1.03 到 3.73 的 PS Vita、PS Vita Slim 与 PS TV 设备，无论地区版本。
-+ 如果一切顺利，在安装完自制系统后你不会丢失任何数据（包括游戏、PSN账号、存档等）。
++ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc. will be preserved).
 + **确保你的设备在操作过程中接上电源线充电，防止因意外关机而造成数据丢失或机器损坏！**
 + PS Vita 2000 与 PS TV 在软件上与最初的 PS Vita 1000 是非常相似的。 除非有特殊说明，所有标为 “PS Vita” 的步骤在其他机型上也适用。
 + 如果你的设备是 PS Vita 1000，你需要用到一张 Sony 原厂内存卡（任意容量）来继续此教程。 此限制不适用于 PS Vita 2000 或 PS TV，因为这些机型都有内置储存卡。
