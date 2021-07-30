@@ -15,7 +15,7 @@ title: "Finalizing Setup (Legacy)"
 +  **DownloadEnabler** *(позволяет скачивать файлы любых типов с помощью браузера)*
 +  **shellbat** *(отображает процент заряда батареи в строке состояния)*
 +  **pngshot** *(улучшает встроенную утилиту для скриншотов)*
-+  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing CPU usage and fps counter)*
 
 Для установки необходимых файлов `.vpk` (content package) на консоль мы используем [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol), чтобы скопировать файлы на карту памяти консоли.
 
