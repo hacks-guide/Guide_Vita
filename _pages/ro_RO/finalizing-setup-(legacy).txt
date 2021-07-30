@@ -15,7 +15,7 @@ Acuma vom instala aplicații și plugin-uri precum următoarele:
 +  **DownloadEnabler** *(permite orice tip de fișier să fie descărcat cu browserul)*
 +  **shellbat** *(afișează procentajul exact al bateriei în bara de stare)*
 +  **pngshot** *(îmbunătățește utilitatea de captură de ecran integrată)*
-+  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing CPU usage and fps counter)*
 
 Pentru a putea instala fișierele `.vpk` (pachet de conținut) necesare pe dispozitiv, folosim [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) pentru a copia fișierele către cardul de memorie al dispozitivului.
 
