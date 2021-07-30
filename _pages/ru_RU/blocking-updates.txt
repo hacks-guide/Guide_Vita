@@ -6,7 +6,7 @@ title: "Блокировка обновлений"
 
 ### Обязательно к прочтению
 
-To prevent unwanted updates, we will disable an option made by sony which automatically download the update file from their servers on your vita.
+To prevent unwanted updates, we will disable an option made by Sony which automatically download the update file from their servers on your vita.
 ### Что понадобится
 
 * Подключение к интернету на PS Vita (TV)
