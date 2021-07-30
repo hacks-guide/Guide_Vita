@@ -15,7 +15,7 @@ Adesso installeremo i seguenti plugin e applicazioni:
 +  **DownloadEnabler** *(permette di scaricare ogni tipo di file dal browser)*
 +  **shellbat** *(mostra la percentuale della batteria nella barra di stato)*
 +  **pngshot** *(migliora lo strumento per gli screenshot integrato)*
-+  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing cpu usage and fps counter)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing CPU usage and fps counter)*
 
 Per installare i file `.vpk` (pacchetto contenuti) necessari sulla tua console, useremo il [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) per copiare i file sulla tua memory card.
 
