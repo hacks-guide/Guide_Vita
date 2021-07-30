@@ -108,6 +108,9 @@ You can browse for new homebrew applications on [VitaDB](https://vitadb.rinnegat
 It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "Enso EX"). Doing so without fully understanding the system can lead to a BRICK!
 {: .notice--danger}
 
+Do *not* use AutoPlugin II. It does not always install the plugins correctly, contains many outdated versions of plugins, fails to teach you how to manually install plugins and makes it very hard for people to assist you when things go wrong.
+{: .notice--danger}
+
 For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
 {: .notice--success}
 
