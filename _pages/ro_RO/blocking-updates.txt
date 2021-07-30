@@ -6,7 +6,7 @@ title: "Blocarea actualizarilor"
 
 ### Lectură obligatorie
 
-To prevent unwanted updates, we will disable an option made by sony which automatically download the update file from their servers on your vita.
+To prevent unwanted updates, we will disable an option made by Sony which automatically download the update file from their servers on your vita.
 ### Ce aveți nevoie
 
 * O conexiune la Internet pe PS Vita (TV)
