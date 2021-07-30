@@ -22,7 +22,7 @@ Se hai la PS Vita 1000, devi avere una memory card ufficiale Sony (di qualunque 
 * L'ultima versione di [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - Se sei su un sistema operativo MacOS o Linux dovrai compilare finalhe tu stesso
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
-  - Donwnload the `VitaDeploy-FHE.zip` file
+  - Download the `VitaDeploy-FHE.zip` file
 
 ### Istruzioni
 
