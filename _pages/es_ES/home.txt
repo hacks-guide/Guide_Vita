@@ -63,7 +63,7 @@ Ensō está disponible para todas las consolas con versión de firmware 3.65 o i
 
 + **Antes de comenzar la guía, debes conocer los riesgos de hackear la PS Vita: CADA VEZ que modificas tu sistema, siempre existe la posibilidad de que tu consola quede inutilizable de forma PERMANENTE. Es algo raro, pero la posibilidad está ahí, así que asegúrate de seguir TODAS las instrucciones AL PIE DE LA LETRA.**
 + This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.73
-+ Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente (tus juegos, cuenta de PSN, datos de guardado, etcétera, se conservarán).
++ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc. will be preserved).
 + **¡Mantén tu consola conectada y cargada durante todo el proceso para evitar pérdidas de datos o daños, producto de un apagado inesperado!**
 + Los modelos PS Vita 2000 y PS TV son prácticamente idénticos al modelo original PS Vita 1000 en términos de software. Todos los pasos que mencionen "PS Vita" también aplicarán a los otros modelos, exceptuando cuando se especifiquen en particular.
 + Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria oficial de Sony (de cualquier tamaño) para seguir esta guía. Esta restricción no aplica a los modelos PS Vita 2000 o PS TV debido a que poseen una tarjeta de memoria interna.
