@@ -16,6 +16,9 @@ YAMT（Yet Another Mount Tool）是一个为 PS Vita（TV）而制作的多用�
 如果你正在使用 USB 驱动器或者 psvsd 适配器，亦或者此方法不适用于你，请跟随 [StorageMgr](storagemgr) 教程做。
 {: .notice--primary}
 
+Samsung Evo cards are not compatible with YAMT. If you have a Samsung Evo MicroSD card please follow the [StorageMgr](storagemgr) guide.
+{: .notice--warning}
+
 YAMT 仅兼容固件版本在 3.60 和 3.65 的 HENkaku Ensō。
 {: .notice--info}
 
