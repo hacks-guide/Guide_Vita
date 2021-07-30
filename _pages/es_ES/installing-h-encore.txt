@@ -22,7 +22,7 @@ Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria ofic
 * La última versión de [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - If you are using MacOS or Linux you will be required to compile finalhe yourself
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
-  - Donwnload the `VitaDeploy-FHE.zip` file
+  - Download the `VitaDeploy-FHE.zip` file
 
 ### Instrucciones
 
