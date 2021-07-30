@@ -15,7 +15,7 @@ title: "Finalizing Setup (Legacy)"
 +  **DownloadEnabler** *（允许使用浏览器下载任何类型的文件）*
 +  **shellbat** *(在状态栏中显示准确的电池百分比)*
 +  **pngshot** *(改进内置的屏幕截图程序)*
-+  **PSVshell** *（允许超频 PSVita 以获得更好的性能，并显示 cpu 使用率和 fps）*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing CPU usage and fps counter)*
 
 为了在你的设备安装必要的 `.vpk` 安装包，我们使用 [FTP](https://zh.m.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE) 来将文件复制到你设备的内存卡。
 
