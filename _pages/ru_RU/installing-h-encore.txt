@@ -22,7 +22,7 @@ title: Установка h-encore
 * Свежая версия [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - Если вы используете MacOS или Linux, вам нужно будет собрать finalhe самостоятельно
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
-  - Donwnload the `VitaDeploy-FHE.zip` file
+  - Download the `VitaDeploy-FHE.zip` file
 
 ### Инструкция
 
