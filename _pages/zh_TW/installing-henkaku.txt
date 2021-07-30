@@ -10,7 +10,7 @@ HENkaku 是一系列專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您�
 
 請注意，HENkaku 系列漏洞並非「永久性」的 (也就是說該漏洞將於主機重啟後失效)。 好消息是待會可以安裝 HENkaku Ensō 來解決這問題。
 
-除了運行 HENkaku 漏洞外，我們也將啟用『非安全』的自製程式使用權以提高自製程式的執行權限。 這類似於電腦中的「管理員」權限。
+除了運行 HENkaku 漏洞外，我們也將啟用『非安全』的自製程式使用權以提高自製程式的執行權限。 This idea could be considered analogous to the "administrator" mode on a computer.
 
 如果您使用的是 PS Vita 1000，那麼您必須要有一張原廠 Sony 記憶卡 (任意大小) 才能繼續。 此限制不適用於 PS Vita 2000 或 PS TV，因為這些主機皆有內建記憶卡/內存。
 {: .notice--info}
