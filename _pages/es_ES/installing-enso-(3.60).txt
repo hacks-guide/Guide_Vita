@@ -20,7 +20,7 @@ Es más conveniente que HENkaku ya que no requiere que ejecutes un exploit en tu
 
 #### Sección I - Preparativos
 
-1. Inicia la aplicación molecularShell
+1. Launch the molecularShell or VitaShell application
 1. Presiona (Select) para activar el acceso FTP en tu consola
 1. Abre el cliente FTP en tu computadora
 1. Ingresa la dirección IP y el puerto mostrados en tu consola
@@ -38,7 +38,7 @@ Es más conveniente que HENkaku ya que no requiere que ejecutes un exploit en tu
 1. Presiona (Cruz) para continuar la instalación cada vez que te pregunte sobre permisos extendidos
 1. Presiona (Triángulo) para abrir el menú, luego selecciona "Delete" para borrar los archivos marcados
 1. Presiona (Cruz) para confirmar la eliminación
-1. Cierra la aplicación molecularShell
+1. Close the molecularShell or VitaShell application
 
 #### Sección III - Instalar Ensō
 
@@ -49,5 +49,5 @@ Es más conveniente que HENkaku ya que no requiere que ejecutes un exploit en tu
 
 ___
 
-### Continúa en [Finalizar instalación](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}

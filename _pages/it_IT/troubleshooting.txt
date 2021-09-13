@@ -18,6 +18,7 @@ Gli exploit basati sul browser (come l'exploit WebKit usato per HENkaku) sono in
 1. Avvia il browser internet, quindi apri le sue impostazioni
 1. Scorri verso il basso e fai clic su "Elimina cookie" e "Cancella cronologia di ricerca"
 1. Riprova ad eseguire l'exploit
+  + If it still doesn't work, try to reboot, wait 5 minute, and open the browser
 
 ## Rimuovere un account PSN senza formattare la console
 
@@ -31,3 +32,4 @@ Gli exploit basati sul browser (come l'exploit WebKit usato per HENkaku) sono in
 1. Tieni premuto L all'avvio per disabilitare il caricamento del plugin TaiHEN
 1. Se il dispositivo si avvia, prova a modificare `ux0:tai/config.txt` e a rimuovere qualsiasi plugin aggiunto di recente
 1. Se queste istruzioni non funzionano, il dispositivo potrebbe essere brickato
+  + In unlikely event of this happening, please follow [this tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)

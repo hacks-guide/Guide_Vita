@@ -20,7 +20,7 @@ Ensō это полноценное CFW решение для PS Vita (TV), ко
 
 #### Часть I - Подготовительные работы
 
-1. Запустите приложение molecularShell
+1. Launch the molecularShell or VitaShell application
 1. Нажмите (Select) чтобы включить доступ по FTP на консоли
 1. Запустите FTP клиент на компьютере
 1. Введите IP адрес и порт, отображаемые на консоли
@@ -38,7 +38,7 @@ Ensō это полноценное CFW решение для PS Vita (TV), ко
 1. Нажимайте (Крест) чтобы продолжить каждый раз, когда появляется запрос о расширенных правах
 1. Нажмите (Треугольник) чтобы открыть меню, затем выберите "Delete" чтобы удалить все выделенные файлы
 1. Нажмите (Крест) чтобы подтвердить удаление
-1. Закройте приложение molecularShell
+1. Close the molecularShell or VitaShell application
 
 #### Часть III - Установка Ensō
 
@@ -49,5 +49,5 @@ Ensō это полноценное CFW решение для PS Vita (TV), ко
 
 ___
 
-### Следующий шаг: [Завершение установки](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}

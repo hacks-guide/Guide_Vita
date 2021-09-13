@@ -3,22 +3,22 @@ title: "FAQ"
 ---
 
 <a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*
-**A:** Yes, 3.72 is hackable at the moment.
+**A:** Yes, 3.73 is hackable at the moment.
 
 <a name="faq_downgrade" />**Q:** *Can I downgrade my Vita?*
-**A:** Yes, but only if the console is already on 3.70 or below. Modoru can downgrade any 3.70 or below system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
+**A:** Yes, the tool Modoru can downgrade any system hacked with HENkaku or h-encore to any firmware equal or greater than the firmware the console came with out of the box.
 
 <a name="faq_update" />**Q:** *Is it safe to update a Vita with CFW?*
-**A:** No! You must always ensure that you have blocked updates as specified at the end of [Finalizing Setup](finalizing-setup).
+**A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*
-**A:** Bricks are *basically* impossible unless you ignore instructions.
+**A:** Bricks are *basically* impossible unless you ignore instructions and Sony doesn't ban consoles nor accounts unless you hack trophies or in-game.
 
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*
 **A:** Yes! This enables any custom user-made homebrew to be played on your device.
 
 <a name="faq_support" />**Q:** *Where should I go for support?*
-**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6).
+**A:** For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
 <a name="faq_nopc" />**Q:** *Can I do this without a computer?*
-**A:** No, you must have a PC to complete this guide.
+**A:** You must have a computer if you are on firmware version 3.61 or higher.

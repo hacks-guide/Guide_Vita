@@ -1,18 +1,18 @@
 ---
-title: Installing h-encore
+title: Instalând h-encore
 ---
 
 {% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.72.
+Exploit-ul h-encore pentru PS Vita (TV) permite instalarea de aplicații homebrew pentru ecranul de pornire. Este compatibil cu versiunile de firmware 3.65 până la 3.73.
 
-Note that the h-encore exploit chain is not “persistent” (meaning it does not remain installed after a reboot). This means you will have to run the exploit again after each reboot.
+Țineți cont că exploit-ul h-encore nu este "persistent" (ceea ce înseamnă că nu rămâne instalat după o repornire). Asta înseamnă că trebuie să porniți exploit-ul din nou după fiecare repornire.
 
-In addition to installing the h-encore exploit, we enable access to “unsafe” homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the “administrator” mode on a computer.
+În plus, faţă de instalarea exploit-ului h-encore, vom activa accesul la homebrew "nesigur" care dă permisiuni extinse la aplicaţiile homebrew. Această idee ar putea fi considerată similară cu modul de "administrator" de pe un calculator.
 
-If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.72, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
+Dacă sunteți pe versiunile de firmware 3.65 până la 3.68, veți folosi exploit-ul h-encore, totuși dacă sunteți pe versiunile de firmware 3.69 până la 3.73, veți folosi exploit-ul h-encore². Programul care folosim pentru a instala exploit-ul pe dispozitiv (finalhe) va rezolva asta.
 
 Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie Sony (de orice mărime) pentru a urma acest ghid. Această restricţie nu se aplică la PS Vita 2000 sau PS TV de vreme ce aceste dispozitive au un card de memorie incorporat.
 {: .notice--info}
@@ -20,61 +20,61 @@ Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie 
 ### Ce aveți nevoie
 
 * Ultima versiune de [finalhe](https://github.com/soarqin/finalhe/releases/latest)
-  - If you are using MacOS or Linux you will be required to compile finalhe yourself
+  - Dacă folosiți MacOS sau Linux va trebui să compilați finalhe singur
+* The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
+  - Download the `VitaDeploy-FHE.zip` file
 
 ### Instrucțiuni
 
 #### Secțiunea I - finalhe
 
-1. Copiați conținutul arhivei `.zip` către un folder de pe calculator
+1. Copy the contents of the finalhe `.zip` file to a folder on your computer
+1. Copy the VitaDeploy `.zip` file inside the finalhe folder
+  + Do not extract this file
 1. Porniți finalhe pe calculator
-  + If you are prompted to allow finalhe network access through the firewall, do so
+  + Dacă vi se cere să permiteți accesul la rețea pentru finalhe prin firewall, faceți astfel
 1. Lansați aplicația Content Manager pe dispozitiv
-1. Selectați "Copy Content"
-1. Selectați "PC"
+1. Tap "Copy Content"
+  + If your device is already connected to your computer via USB, you can skip to [Section II - h-encore Transfer](#section-ii---h-encore-transfer)
+  + Dacă dispozitivul nu este detectat prin USB, instalați [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) și încercați din nou
+1. Tap "PC"
 1. Selectați metoda cu care doriți să vă conectați la finalhe
   + Dacă vi se cere să vă logați la un cont de PlayStation Network, faceți astfel
   + Dacă nu aveți un cont PlayStation Network, creați unul
-1. Selectați / înregistrați calculatorul când vi se cere
+1. Select or register your computer if prompted
   + Dacă vedeți un mesaj care vă cere să actualizați, reporniţi dispozitivul și încercați din nou
-  + Dacă încă vedeți acest mesaj, urmați instrucțiunile de pe [Blocând actualizări](blocking-updates) și încercați din nou
-  + Dacă *încă* mai vedeți acest mesaj, activați Modul avion în System Settings și încercați din nou (această metodă *nu* va funcționa pe un PS TV)
-  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
+  + If you still encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
+  + If you *still* encounter this message, update to the latest firmware version and try again
 
 #### Secțiunea II - Transfer de h-encore
 
-1. Selectați "Trim h-encore to ~13MB"
-  + Only do this step if you are on 3.68 or below
-1. Selectați "Let's GO!"
+1. Select "Trim h-encore to ~7MB"
+1. Click on the small arrow on the right-hand side of the finalhe window
+  + This can be hard to spot, especially on high-DPI displays
+1. Tick the "VitaDeploy" box
+1. Click "Let's GO!"
   + Fișierele de exploit vor fi descărcate și pregătite automatic
   + Acest proces va lua ceva timp
-1. Selectați "PC -> PS Vita System" pe dispozitiv
-1. Selectați "Applications"
-1. Selectaţi "PS Vita"
-1. Select "h-encore" or "h-encore²" depending on which is displayed
-1. Selectați "Copy"
-1. Selectați "OK"
-  + Exploit-ul h-encore va fi copiat pe dispozitiv
+1. Tap "PC -> PS Vita System" or "PC -> PS TV System" on your device
+1. Tap "Applications"
+1. Tap "PS Vita"
+1. Selectați "h-encore" sau "h-encore²" depinzând de care este afișat
+1. Select "VitaDeploy"
+1. Tap "Copy"
+1. Tap "OK"
+  + The h-encore exploit and VitaDeploy application will be copied to your device
   + Acest proces va lua ceva timp
 1. Închideți aplicația Content Manager pe dispozitiv
 1. Închideți finalhe pe calculator
 
 #### Secțiunea III - Configurând h-encore
 
-h-encore² only has a ~25% success rate. It may take a long time to launch the h-encore² exploit.
-{: .notice--warning}
-
-1. Lansați aplicaţia h-encore în timp ce ţineţi (R)
-  + Dacă vi se întreabă despre trofee, țineți apăsat (R) și selectați Yes"
+1. Launch the h-encore(²) application
+  + If prompted about trophies, select "Yes"
 1. În cazul în care exploit-ul a reușit, veţi vedea acum meniul de pornire h-encore
-  + Dacă exploit-ul este blocat pe un ecran alb, pur şi simplu închideţi aplicaţia (care va provoca un crash şi va reporniţi dispozitivul), apoi încercați din nou
-  + În cazul în care este încă blocat, apăsați butonul de pornire mai mult de 30 de secunde pentru a forţa o repornire, apoi încercați din nou
-1. Selectaţi "Install HENkaku"
-  + Aceasta va instala exploit-ul HENkaku şi va permite accesul la homebrew până la următoarea repornire
-1. Selectați "Download VitaShell"
-  + Aceasta va instala aplicația de homebrew VitaShell pentru a administra sistemul de fișiere al dispozitivului
-  + VitaShell (și toate aplicațiile de homebrew în general) vor rămâne instalate după o repornire, dar vor afișa o eroare la lansare dacă exploit-ul HENkaku nu este activ
-1. Selectaţi "Exit"
+  + If the exploit gets stuck, reboot your device and try again
+  + If you can't reboot normally, hold the power button down for over 30 seconds to force a reboot
+1. Press (Cross) to exit the application
 
 #### Secțiunea IV - Configurând HENkaku
 
@@ -85,7 +85,20 @@ h-encore² only has a ~25% success rate. It may take a long time to launch the h
 1. Reveniți la meniul de setări HENkaku
 1. Închideți aplicația Settings
 
+#### Section V - Installing essential homebrew
+
+1. Launch the VitaDeploy application
+1. Tap "App downloader"
+  + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
+1. Select "[VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/) *(A powerful file manager)*""
+1. Tap "Download the selected apps"
+1. Wait for the app to finish downloading
+  + When finished, you should be presented with the `VitaShell.vpk` file
+1. Press (Cross) on the `VitaShell.vpk` file to install it
+1. Apăsați (X) pentru a confirma instalarea
+1. Press (Cross) to confirm the install again when prompted
+
 ___
 
-### Continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
+### Continue to [Installing Ensō](installing-enso)
 {: .notice--primary}

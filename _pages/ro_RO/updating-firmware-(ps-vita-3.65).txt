@@ -1,17 +1,16 @@
 ---
-title: "Updating Firmware (PS Vita 3.65)"
-redirect_from: /updating-firmware-(ps-vita-3.65-and-3.68)
+title: "Actualizând Firmware-ul (PS Vita 3.65)" redirect_from: /updating-firmware-(ps-tv-3.65-and-3.68)
 ---
 
 {% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-The h-encore exploit is only compatible with firmware versions 3.65 and above. Ca urmare, alte versiuni de firmware trebuie să se actualizeze folosind un server personalizat de aplicații pentru a folosi acel exploit.
+Exploit-ul h-encore este compatibil doar cu versiunile de firmware 3.65 și superior. Ca urmare, alte versiuni de firmware trebuie să se actualizeze folosind un server personalizat de aplicații pentru a folosi acel exploit.
 
-While the h-encore exploit itself is compatible with higher firmware versions, users on a firmware version under 3.65 should only update to firmware version 3.65 as it is the latest version which still supports the Ensō boot-time exploit.
+Deși exploit-ul h-encore în sine este compatibil cu versiunile de firmware superioare, utilizatorii sub versiunea 3.65 ar trebui să actualizeze doar la versiunea de firmware 3.65 de vreme ce este ultima versiune care încă suportă exploit-ul activat la pornire, Ensō.
 
-Țineți cont că o actualizare de aplicație personalizată poate doar să actualizeze dispozitivul, nu să-l retrogradeze. If you are on a firmware version higher than 3.65, you should return to [Get Started](get-started).
+Țineți cont că o actualizare de aplicație personalizată poate doar să actualizeze dispozitivul, nu să-l retrogradeze. Dacă sunteţi pe o versiune de firmware mai mare decât 3.65, va trebui să reveniți la [Începeți](get-started).
 
 ### Ce aveți nevoie
 
@@ -44,7 +43,7 @@ While the h-encore exploit itself is compatible with higher firmware versions, u
 
 1. Lansați aplicația Settings
 1. Navigați spre `System Update` -> `Update by Connecting to a PC`
-1. Ensure the update message "Version 3.65" is displayed, depending on which version you are attempting to update to
+1. Asigurați-vă că mesajul de actualizare "Version 3.65" este afișat, depinzând de ce versiune încercați să actualizați
   + În cazul în care se afişează orice alt mesaj, opriți-vă şi încercați să vă dați seama ce a mers prost
 1. Urmaţi instrucţiunile pentru a vă actualiza dispozitivul
   + Când se va termina, dispozitivul se va reporni automatic

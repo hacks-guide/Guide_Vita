@@ -20,7 +20,7 @@ Este mai convenabil decât HENkaku de vreme ce nu are nevoie să porniţi un exp
 
 #### Secțiunea I - Preparații
 
-1. Lansați aplicația molecularShell
+1. Launch the molecularShell or VitaShell application
 1. Apăsați (Select) pentru a activa accesul FTP pe dispozitiv
 1. Deschideţi clientul FTP pe computer
 1. Introduceţi adresa IP şi Portul afişat pe aparatul dvs
@@ -38,7 +38,7 @@ Este mai convenabil decât HENkaku de vreme ce nu are nevoie să porniţi un exp
 1. Apăsați (X) pentru a continua instalarea de fiecare dată când vi se solicită permisiuni extinse
 1. Apăsați (Triunghi) pentru a deschide meniul, apoi selectați "Delete" pentru a șterge fișierele marcate
 1. Apăsați (X) pentru a confirma stergerea
-1. Închideți aplicația molecularShell
+1. Close the molecularShell or VitaShell application
 
 #### Secţiunea III - Instalând Ensō
 
@@ -49,5 +49,5 @@ Este mai convenabil decât HENkaku de vreme ce nu are nevoie să porniţi un exp
 
 ___
 
-### Continuați la [Finalizând instalarea](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}

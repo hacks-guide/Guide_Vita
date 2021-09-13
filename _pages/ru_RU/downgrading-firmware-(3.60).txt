@@ -8,9 +8,9 @@ title: Понижение версии прошивки (3.60)
 
 Ensō это полноценное CFW решение для PS Vita (TV), которое предоставляет удобный доступ к хоумбрю путем запуска эксплойта в процессе загрузки для установки хоумбрю окружения HENkaku.
 
-It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
+Это решение более удобно чем h-encore, поскольку не требует вручную активировать эксплойт после каждой перезагрузки.
 
-While it is possible to run homebrew on most firmware versions, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
+Хотя и возможно запустить homebrew на большинстве разных версий прошивки, понижение версии прошивки до 3.60 обеспечит вам наибольшую совместимость с homebrew.
 
 С момента выпуска системного плагина reF00D, существует очень мало (если они вообще есть) минусов при использовании прошивки версии 3.60, так как этот плагин позволяет устанавливать и играть в игры, которые обычно требуют более высокой версии прошивки.
 
@@ -24,7 +24,7 @@ While it is possible to run homebrew on most firmware versions, downgrading to f
 * FTP клиент, такой как [WinSCP](https://winscp.net/) или [CyberDuck](https://cyberduck.io/)
   + Вместо этого можно использовать функцию USB transfer в приложении VitaShell
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [PSP2UPDAT.PUP](magnet:?xt=urn:btih:19720f56ab6a299292f009aebae67a9a50eb6e8a&dn=PSP2UPDAT.PUP&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce) (3.60) ([mirror](https://web.archive.org/web/20160902205052id_/http://dus01.psp2.update.playstation.net/update/psp2/image/2016_0323/rel_cd80b3da55771c99557db552542dff2b/PSP2UPDAT.PUP))
-* The latest release of [modoru](https://github.com/SKGleba/modoru/releases/latest/)
+* Свежая версия [modoru](https://github.com/SKGleba/modoru/releases/latest/)
 
 #### Часть I - Подготовительные работы
 

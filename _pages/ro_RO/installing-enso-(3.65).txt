@@ -53,5 +53,5 @@ Din păcate, este posibil să apară incompatibilități minore de software de v
 
 ___
 
-### Continuați la [Finalizând instalarea](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}

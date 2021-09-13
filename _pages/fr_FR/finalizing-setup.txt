@@ -6,121 +6,73 @@ title: "Finalisation de l'installation"
 
 ### Lecture requise
 
-Nous allons maintenant configurer les applications et plugins comme par exemple :
+We will now setup the following applications:
 
-+ **Vita Homebrew Browser** *(télécharge et installe automatiquement les homebrews à la manière d'un magasin d'application.)*
-+ **NoNpDrm** *(Autorise le lancement de jeu et applications crypté soit des jeux originaux.)*
-+ **reF00D** *(Autorise le décryptage en temps réel des jeux et application pour les lancer dans n'importe quel version système.)*
-+ **DownloadEnabler ** *(Autorise le téléchargement de n'importe quel type de fichiers depuis le navigateur sony sur Psvita)*
-+ **shellbat** *(affiche un pourcentage exact du niveau de la batterie.)*
-+ **pngshot** *(Améliore la fonctionnalité de screenshot inclue dans le système.)*
++  **[Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)** *(allows for installation of homebrew applications from [VitaDB](https://vitadb.rinnegatamante.it/))*
++  **[iTLS Installer](https://github.com/SKGleba/iTLS-Enso/releases/latest/)** *(adds TLSv1.2 support in older firmwares for online connection)*
 
-In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
-
-We will also block updates using a DNS server. The server tricks your device into detecting 3.60 as the latest firmware version, meaning it won't update past that. This is useful because 3.60 is the earliest firmware that HENkaku works on. These settings must be applied to every network that you join.
+In order to install the necessary applications on your device, we use the VitaDeploy application to download the latest version of each app.
 
 ### Ce dont vous aurez besoin
 
-* Un client FTP comme [WinSCP](https://winscp.net/) ou [CyberDuck](https://cyberduck.io/)
-  + Vous pouvez également utiliser la fonctionnalité de tranfert USB de VitaShell
-* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client Torrent pour télécharger ces fichiers."></i> - [keys.bin](magnet:?xt=urn:btih:a3796f22b82b80c5fefa8407c6fd7d71df2c2258&dn=keys.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce) ([mirror](https://www.mediafire.com/download/t5obgaa3naatr9m))
-* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* La dernière version de [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest)
-* La dernière version de [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
-* La dernière version de [reF00D] (https://github.com/dots-tb/reF00D/releases/latest)
-* La dernière version de [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
-* La dernière version de [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
-* La dernière version d'[pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* The VitaDeploy application installed on your device
+  + If you don't have VitaDeploy installed, follow [Installing VitaDeploy](installing-vitadeploy)
 
 ### Instructions
 
-#### Section I - Préparation
+#### Section I - Installing homebrew applications
 
-1. Lancez l'application VitaShell
-1. Appuyez (Start) pour ouvrir les paramètre VitaShell
-1. Appuyez sur (croix) sur "SELECT button" pour changer le mode vers "FTP"
-  + Comme Alternative, vous pouvez tout aussi laisser l'option "USB" et transférer les fichiers avec un cable USB (mais pour les plugins vous devrez les copier manuellement vers ur0:tai)
-  + Notez que le mode de transfert via USB n'affiche que la partition mémoire principale ux0.
-  + Additionnellement, certains fichiers seront caché en mode USB sur Windows; Vous devez activer les option "Afficher les fichiers caché, dossier et disques." et désactiver "Protéger les fichier système" dans les paramètre du gestionnaire de fichiers pour voir tout les fichiers.
-1. Appuyez (Cercle) pour fermer les paramètres VitaShell
-1. Appuyez sur (Select) pour activer l'accès FTP sur votre machine
-1. Ouvrez votre client FTP sur votre ordinateur
-1. Entrez l'adresse IP et le port affichés sur votre machine
-1. En utilisant votre client FTP, naviguez vers `ux0:` -> `data/`
-  + Le `ux0 :` partition correspond à la carte mémoire de votre appareil (sur la PS Vita 1000, cette partition sera toujours la carte de mémoire externe ; sur la PS Vita 2000 et PS TV, cette partition sera soit la carte mémoire externe si une carte mémoire est inséré ou la mémoire interne autrement)
-  + Le `ur0 :` partition correspond à la mémoire du système interne qui est toujours présente sur tous les appareils (sur la PS Vita 2000 et PS TV, c’est * pas * le même que la carte mémoire intégrée ! elle sert a stocker des fichiers tel que les trophées ou d'autre information.)
-1. Transférez `VitaHBBrowser.vpk` vers le dossier 'data'
-1. En utilisant votre client FTP, naviguez vers `ux0:`
-1. Supprimez le dossier `tai` s'il existe
-1. Naviguez vers `ur0` -> `tai/`
-1. Transferez le `config.txt` dans le dossier `tai`
-  + écrasez le `config.txt` déja présent
-1. Transférez le `nonpdrm.skprx` vers le dossier `tai`
-1. Transférez le fichier `reF00D.skprx`dans le dossier `tai`
-1. Transférez le fichier `keys.bin` dans le dossier `tai`
-1. Transférez le fichier `download_enabler.suprx` dans le dossier `tai`
-1. Transférez le fichier `shellbat.suprx`dans le dossier `tai`
-1. Transférez le fichier `pngshot.suprx` dans le dossier `tai`
-1. Appuyez sur (Rond) sur votre machine pour fermer la connexion FTP
-
-#### Section II - Installer les VPKs
-
-1. Sur votre machine, naviguez vers `ux0:` -> `data/`
-1. Press (Cross) on `VitaHBBrowser.vpk` to install it
+1. Launch the VitaDeploy application
+1. Tap "App downloader"
+  + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
+1. Select the following applications:
+  + Vita Homebrew Browser
+  + iTLS Installer
+1. Tap "Download the selected apps"
+1. Wait for the app to finish downloading
+  + When finished, you should be presented with a list of two `.vpk` files
+1. Press (Triangle) to open the side menu
+1. Press (Cross) on "Mark all"
+1. Press (Triangle) to open the side menu again
+1. Press (Cross) on "More"
+1. Press (Cross) on "Install all"
 1. Appuyez sur (Croix) pour confirmer l'installation
-1. Press (Cross) to continue the install if you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the `.vpk` file
-1. Appuyez sur (Croix) pour confirmer la suppression
-1. Fermez l'application VitaShell
+1. Press (Cross) to confirm the install again when prompted
 
-#### Section III - Blocage des mises à jour
+#### Section II - Installing iTLS
+
+1. Open the iTLS-Enso application
+1. Press (Cross) on "Install the full iTLS package"
+  + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
+1. Wait for your device to reboot
+
+#### Section III - Blocking Updates
 
 1. Allez dans l'application paramètres
-1. Accédez au  `Réseau`-> `Paramètres connexion Wi-Fi`
-  + Se connecter à un réseau Wi-Fi si vous ne le n'avez pas déjà fait
-1. Sélectionnez votre réseau actuel
-  + Ceci est indiqué par un point verte à côté du réseau
-1. Sélectionnez "Modifier les paramètres"
-1. Mettez "Paramétrage du DNS" sur "Manuel"
-  + You must apply the following DNS settings to each network you use
-1. Mettez "DNS primaire" à `212.47.229.76`
-1. Set "Secondary DNS" to `212.47.229.76`
-1. Assurez vous que "Serveur Proxy" soit mis en mode "Ne pas utiliser"
+1. Accédez à `Système` -> `Paramètres de démarrage automatique`
+1. Uncheck the `Download Update File for System Software`
 1. Fermez l’application de Paramètres
 
-### Section IV - accès PSN
+#### Section IV - PSN Access
 
 1. Allez dans l'application paramètres
 1. Accédez à « HENkaku Settings »
 1. Cochez « Enable PSN spoofing »
 1. Cocher « Enable Version Spoofing »
 1. Naviguez vers "Spoofed Version"
-1. Enter "3.72" into the box
+1. Enter "3.73" into the box
   + SI une nouvelle version du firmware devrait être publiée à l’avenir, vous devez modifier la version du spoof pour correspondre à la nouvelle mise à jour publié afin d’accéder à PSN
 1. Fermez l’application de Paramètres
 
-#### Section V - Nettoyage
-
-1. Lancez l’application Gestionnaire de Contenu
-1. Sélectionnez « Gérer le contenu de la carte mémoire »
-1. Sélectionnez « PS Vita »
-1. Supprimer les applications suivantes si elles existent (à noter que, selon la méthode de votre installation, tout ou une partie de ces applications peuvent manquer) :
-  + "ensō"
-  + "modoru 戻る"
-  + "molecularShell"
-1. Les utilisateurs de la version 3.60 du firmware devraient en outre supprimer l'application suivante si elle existe :
-  + "h-encore"
-1. Fermez l’application Gestionnaire de Contenu
-
 ___
 
-Vous pouvez maintenant installer facilement des nouvelles applications homebrew simplement à l’aide de Vita Homebrew Browser. Vous pouvez aussi chercher de nouveaux homebrew sur le site [VitaDB](https://vitadb.rinnegatamante.it/).
+You can browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/) or in the [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/). Please note that Vita Homebrew Browser may take up to 15 minutes to load on first use.
 {: .notice--info}
 
 It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "Enso EX"). Doing so without fully understanding the system can lead to a BRICK!
 {: .notice--danger}
 
-Pour plus d’informations sur le remplacement de votre carte mémoire Sony avec un autre stockage (par exemple, une carte microSD ou USB), consultez la page [StorageMgr](storagemgr).
+For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
 {: .notice--success}
 
 Pour plus d’informations sur l’installation CFW à l’émulateur PSP intégré, consultez aussi les pages de [Adrenaline](adrénaline).

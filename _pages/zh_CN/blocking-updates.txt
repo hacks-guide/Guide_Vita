@@ -6,32 +6,16 @@ title: "阻止更新"
 
 ### 必读事项
 
-最新公布的 PS Vita 漏洞并不兼容 3.71 或者更高的系统版本的主机。 所以, 在我们等待一个新的漏洞被挖掘出之前，我们需要阻止当前的系统固件系统更新。 因为更新很可能会把之后发现的新的漏洞也一并修复。
-
-为此，我们将你的设备的网络 DNS 设置配置为我们自制的更新服务器，它将使设备认为 3.60 是最新版本。 这会在设备尝试系统更新时无法升级 3.60 以上的系统版本。
-
+To prevent unwanted updates, we will disable an option made by Sony which automatically download the update file from their servers on your vita.
 ### 你需要准备点啥？
 
 * 将你的 PS Vita (TV) 连接上网络
 
 ### 操作步骤
 
-#### 第一步 － 设置 DNS
+#### 第一步 – 禁用自动下载选项
 
-请注意，这些 DNS 服务器需要在每一个用于连接你设备的网络中进行设置才能阻止更新!
-{: .notice--warning}
 
-1. 打开系统设置
-1. 依次进入 `网络(Network)` -> `Wi-Fi 设定(Wi-Fi Settings)`
-  + 如果你之前没有联网，那么现在请连接到 Wi-Fi 网络
-1. 选择你想使用的接入点
-  + 已连接的网络旁边会有绿色的点
-1. 选择 “高级设置(Advanced Settings)”
-1. 找到 “DNS 设置(DNS Settings)” 并将它设置为“手动(Manual)”
-1. 将 “主DNS(Primary DNS)” 设置为 `212.47.229.76`
-1. 将“备用 DNS(Secondary DNS)” 留空
-1. 确认“代理服务器 (Proxy)” 设置为 “不使用(Do Not Use)”
-1. 返回到设置的主菜单
 1. 移动至 `系统(System)` -> `自动启动设置(Auto-Start Settings)`
 1. 取消 “下载系统软件的更新文件(Download Update File for System Software)”
 1. 返回到设置的主菜单

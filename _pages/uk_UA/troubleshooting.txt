@@ -18,6 +18,7 @@ Browser based exploits (such as the WebKit exploit used for HENkaku) can be unst
 1. Launch the browser, then open the browser settings
 1. Scroll to the bottom and click "Delete Cookies" and "Clear Search History"
 1. Try the exploit again
+  + If it still doesn't work, try to reboot, wait 5 minute, and open the browser
 
 ## Removing an PSN account without formatting your device
 
@@ -31,3 +32,4 @@ Browser based exploits (such as the WebKit exploit used for HENkaku) can be unst
 1. Hold L on boot to disable TaiHEN plugin loading
 1. If your device boots, try editing `ux0:tai/config.txt` and remove any plugins you may have recently added
 1. If these instructions do not work, your device may be bricked
+  + In unlikely event of this happening, please follow [this tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)

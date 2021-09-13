@@ -1,17 +1,17 @@
 ---
-title: "Updating Firmware (PS Vita 3.65)"
-redirect_from: /updating-firmware-(ps-vita-3.65-and-3.68)
+title: "更新固件（PS Vita 3.65）"
+redirect_from: /updating-firmware-(ps-tv-3.65-and-3.68)
 ---
 
 {% include toc title="内容目录" %}
 
 ### 必读事项
 
-The h-encore exploit is only compatible with firmware versions 3.65 and above. 因此，其他的系统版本必须使用自定义更新程序进行更新，才能使用此漏洞。
+h-encore 漏洞只与 3.65 及以上的系统版本兼容。 因此，其他的系统版本必须使用自定义更新程序进行更新，才能使用此漏洞。
 
-While the h-encore exploit itself is compatible with higher firmware versions, users on a firmware version under 3.65 should only update to firmware version 3.65 as it is the latest version which still supports the Ensō boot-time exploit.
+虽然 h-encore 漏洞自身与较高固件版本兼容，但是在 3.65 下的固件版本的用户只能更新固件版本 3.65，因为它是仍然支持 Ensō 开机漏洞的版本。
 
-请注意，自定义更新软件只能更新你的设备，而不能降级。 If you are on a firmware version higher than 3.65, you should return to [Get Started](get-started).
+请注意，自定义更新软件只能更新你的设备，而不能降级。 如果你的设备固件版本已经高于 3.65 了，你应该回到[新手入门](get-started)。
 
 ### 你需要准备点啥？
 
@@ -43,13 +43,13 @@ While the h-encore exploit itself is compatible with higher firmware versions, u
 #### 第二步 — 升级自制固件
 
 1. 打开系统设置
-1. 移动至 `系统更新(System Update)` -> `连接PC更新(Update by Connecting to a PC)`
-1. Ensure the update message "Version 3.65" is displayed, depending on which version you are attempting to update to
+1. 移动至 `系统更新（System Update）` -> `连接PC更新（Update by Connecting to a PC）`
+1. 依照你所选择的版本，请确保所示更新为“版本 3.65”
   + 如果显示的是其他信息，请立即停下来然后检查你之前漏了什么步骤
 1. 按照提示步骤更新你的设备
   + 当完成时，你的设备会自动重启
 
 ___
 
-### 继续至 [安装 h-encore](installing-h-encore)
+### 继续至[安装 h-encore](installing-h-encore)
 {: .notice--primary}

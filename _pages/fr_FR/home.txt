@@ -62,8 +62,8 @@ Ensō est disponible sur tout les appareils dont la version système est inféri
 ## Que dois-je savoir avant de commencer ?
 
 + **Avant de commencer à suivre ce guide, vous devez connaître les risques liés au hack de votre Vita: à chaque fois que vous modifiez votre système, il y a toujours un risque de brick IRRÉCUPÉRABLE. Cela arrive rarement, mais c'est toujours une possibilité donc assurez-vous de suivre EXACTEMENT TOUTES les consignes.**
-+ This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.72
-+ Si tout se passe comme prévu, vous ne perdrez aucune donnée et finirez avec tout ce que vous aviez au départ (les jeux, votre compte PSN, les sauvegardes, etc., seront préservées).
++ This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.73
++ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc. will be preserved).
 + **Assurez-vous que votre console reste branchée et chargée pendant l'intégralité du processus pour éviter la perte de données ou les dommages causés par une extinction inattendue !**
 + Les PS Vita 2000 et PS TV sont identique à la PS Vita 1000 en terme de logiciel système. Toutes les étapes mentionnant la "PS Vita" s'appliquera aussi bien aux autres modèles sauf mention contraire.
 + Si vous avez une PS Vita 1000, vous devez aussi avoir une carte mémoire sony (de n'importe quel taille) pour suivre ce guide. Cette restriction ne s'applique pas pour les PS Vita 2000 et PS TV car ceux ci dispose d'une mémoire interne.

@@ -6,11 +6,11 @@ title: "StorageMgr"
 
 ### 必读事项
 
-StorageMgr是PS Vita（TV）的多用途内核插件，允许设备使用其他存储设备，如USB驱动器，SD2Vita或psvd。
+StorageMgr is a multi-purpose kernel plugin for the PS Vita (TV) which allows for the use of alternative storage devices such as a USB drive, an SD2Vita, or a psvsd adapter.
 
-SD2Vita是一个microSD转换为游戏卡的适配器，请将它插入你设备的游戏卡插槽，而psvd是microSD的适配器，它会取代3g PS Vita型号上的3g调制解调器。
+The SD2Vita is a microSD to game card adapter which is inserted into the game-card slot in your device, while the psvsd is a microSD adapter which replaces the 3g modem on 3g PS Vita models.
 
-通过使用StorageMgr内核插件，你使用的USB驱动器或microSD卡将被挂载到`ux0:`，就像索尼专用的内存卡一样。 这非常有用，因为microSD卡比索尼内存卡便宜得多（特别是在高容量时）。
+By using the StorageMgr kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. 这非常有用，因为microSD卡比索尼内存卡便宜得多（特别是在高容量时）。
 
 本教程将使用FTP传输文件，因此你的Vita和PC必须在同一网络。
 
@@ -19,50 +19,51 @@ SD2Vita是一个microSD转换为游戏卡的适配器，请将它插入你设备
 
 ### 你需要准备点啥？
 
-* 与你的设备格式兼容的存储设备
-  + 若要格式化你的存储设备，请见[格式化存储设备(Windows)](storage-format-(windows))，[格式化存储设备(Linux)](storage-format-(linux))，或 [格式化存储设备(Mac)](storage-format-(mac))
+* A formatted storage device compatible with your system
+  + To format your device, see [Storage Format (Windows)](storage-format-(windows)), [Storage Format (Linux)](storage-format-(linux)), or [Storage Format (Mac)](storage-format-(mac))
 * 一个 FTP 连接软件，比如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，你也可以使用 VitaShell 的 USB 传输功能
-* 最新版 [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
-  + 请依你的情形修改 `storage_config.txt`，请参考[README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
-  + `MCD=uma0` 除非你不想使用原厂的索尼内存卡，应该保持不变
-  + `INT=imc0` 对于PS Vita 2000和PS TV用户来说这应保持原样，但是PS Vita 1000用户应将其删除
-  + `GCD=ux0` SD2Vita 用户无需更改，而 psvd 或随身硬盘的用户需要更改成 `UMA=ux0`
-  + `UMA=grw0` 除非你有多个储存载体请删除此项 (如果是这样，未配置至 `ux0:` 分区的设备应该会被分到 `grw0:` 分区)
+* The latest release of [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
+  + `storage_config.txt` should be edited to fit your situation as instructed in the [README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
+  + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
+  + `INT=imc0` should be kept as-is for PS Vita 2000 and PS TV users, and removed for PS Vita 1000 users
+  + `GCD=ux0` should be kept as-is for SD2Vita users, and edited to `UMA=ux0` for USB drive and psvsd users
+  + `UMA=grw0` should be removed unless you have multiple storage devices (in which case the device which is not assigned to `ux0:` should be assigned to `grw0:`)
 
 ### 操作步骤
 
-#### 第一步 — 安装插件
+#### Section I - Installing Plugins
 
 1. 启动 VitaShell 应用
 1. 按下 “Select” 键以启用设备上的 FTP 访问
 1. 在电脑上打开 FTP 客户端
 1. 输入设备上显示的 IP 地址与端口
-1. 通过FTP客户端，从`ux0:tai/` 复制所有文件到 `ur0:tai/`
+1. Using your FTP client, copy all files from `ux0:tai/` to `ur0:tai/`
   + 覆盖所有在 `ur0:tai/` 文件夹中的文件
   + 如果你没有 `ux0:tai/` 文件夹，请忽略此步骤
 1. 复制 `storagemgr.skprx` 到 `ur0:tai/` 文件夹
 1. 复制 `storage_config.txt` 到 `ur0:tai/` 文件夹
-1. 将 `ur0:tai/config.txt` 中所有的 `ux0:tai/` 替换为 `ur0:tai/` 
+1. 将 `ur0:tai/config.txt` 中所有的 `ux0:tai/` 替换为 `ur0:tai/`
   + 如果你没有 `ux0:tai/` 文件夹，请忽略此步骤
 1. 将下列的字符串加入 `ur0:tai/config.txt` 中的 `*KERNEL` 行列下：
   + `ur0:tai/storagemgr.skprx`
-1. 删除`ux0:tai/`文件夹
-  
-#### 第二部分 — 恢复资料
+1. 删除 `ux0:tai/` 文件夹
+  + 这是一个重要的步骤，因为 HENkaku 在检测到 `ux0:tai` 存在的时候将不会加载 `ur0:tai` 中的插件。
+
+#### 第二部分 — 恢复数据
 
 此步将复制你旧的索尼内存卡中的数据到你的新存储设备中。
 {: .notice--info}
 
 1. 将 `ux0:` 里的所有文件备份到你电脑上的一个文件夹
-  + 这与你在索尼内存卡里面存了多少文件而定，这可能需要耗费一些时间
+  + 这与你在索尼内存卡里面存了多少文件而定，可能需要耗费一些时间
 1. 将新的存储设备插入电脑
-1. 将你刚刚复制的文件粘贴到新的存储设备中
-  + 这与你在索尼内存卡里面存了多少文件而定，这可能需要耗费一些时间
-  + 请勿将整个文件夹复制进新的存储设备，请复制所有的文件到存储设备
+1. 将你刚刚复制的 `ux0:` 文件夹内的文件粘贴到新的存储设备中
+  + 这与你在索尼内存卡里面存了多少文件而定，可能需要耗费一些时间
+  + 请勿将整个 `ux0:` 文件夹直接复制进新的存储设备，请复制它里面所有的文件到存储设备
 1. 插入你想用的新存储设备到你的 PS Vita (TV)
 1. 在你的主机上按下 “○” 键以关闭 FTP 连接
-1. 关闭 VitaShell 应用
+1. 退出 VitaShell 应用
 1. 重启你的设备
   + 如果你的设备没有安装 Ensō ，则你将需要手动启动并退出 h-encore 来开启 homebrew。
   + 这是加载之前写入 `ur0:tai/config.txt` 的内核插件的必要步骤
@@ -70,15 +71,18 @@ SD2Vita是一个microSD转换为游戏卡的适配器，请将它插入你设备
 ___
 
 {% capture notice-1 %}
-如果你想要清理你内存卡中的内容 (如果想存 PSP 游戏之类的到卡里)，你可 `uma0:` (新的内存卡挂载位置) 以及/或者 `imc0:` (适用于 PS Vita 2000 或 PS TV) 中的资料删除。
+如果你想要清理你内存卡中的内容（如想存 PSP 游戏之类的到卡里），你可 `uma0:`（新的内存卡挂载位置）以及/或者 `imc0:` （适用于 PS Vita 2000 或 PS TV）中的文件删除。
 
-如果你想要清理，而你正使用着 h-encore 且主机系统版本为 3.67 或 3.68，则你*绝对不能*删除下面的文件夹:
+如果你决定这样做，那你*绝对不要*删除以下文件夹：
 
+  + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
-  + `uma0:data/bootstrap.self`
+  + `uma0:appmeta/VITASHELL`
   + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
   + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
 
 这是因为 h-encore 得保证内存卡中的文件归位正常，这样你才能在重启之后启用 HENkaku (还有 StorageMgr)。
 {% endcapture %}

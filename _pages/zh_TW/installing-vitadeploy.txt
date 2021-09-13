@@ -1,0 +1,40 @@
+---
+title: "Installing VitaDeploy"
+---
+
+{% include toc title="條目內容" %}
+
+The guide uses the VitaDeploy application as the primary method of installing other apps and a custom firmware. If you didn't install VitaDeploy when installing h-encore, you can install it yourself with molecularShell or VitaShell.
+
+In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
+
+### 必備項目
+
+* 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
+  + 或者，您也可以使用 VitaShell 中的 USB 傳輸功能
+* 最新版的 [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest/)
+  + 下載 `VitaDeploy.vpk`
+
+#### 第一節 — 準備工作
+
+1. 啟動 VitaShell
+1. 按下「Start」鍵開啟 VitaShell 設定
+1. 於『SELECT button』上按下「X」鍵以將模式更改為『FTP』
+  + 或者，您也可以將此設定為『USB』模式並透過其方式傳輸所有的檔案
+1. 按下「O」鍵關閉 VitaShell 設定
+1. 按下「Select」鍵以啟動 FTP 存取功能
+1. 於您的電腦中啟動您的 FTP 客戶端
+1. 輸入於您主機上顯示的 IP 位址以及埠
+1. 透過 FTP 端移動至 `ux0:` -> `data/`
+1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
+1. 於您的主機按下「O」鍵以關閉 FTP 連線
+
+#### 第二節 — 安裝程式
+
+1. 啟動 VitaShell
+1. 移動至 `ux0:` -> `data/`
+1. Press (Cross) on "VitaDeploy.vpk"
+1. 按下「X」鍵確認安裝
+1. Press (Cross) to confirm the install again when prompted
+
+VitaDeploy should now be installed to your home screen.

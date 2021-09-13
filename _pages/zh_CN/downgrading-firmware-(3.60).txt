@@ -8,11 +8,11 @@ title: 降级系统 (3.60)
 
 Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方案，可在你的主机开机时自动配置HENkaku环境，可以在你的设备上方便地使用自制软件。
 
-It is more convenient than h-encore as it does not require you to trigger an exploit on your device after every reboot manually.
+它比 h-encore 更方便，因为其他自制系统需要在每次设备重启后手动触发漏洞进入破解模式。
 
-While it is possible to run homebrew on most firmware versions, downgrading to firmware version 3.60 will provide you with the greatest homebrew compatibility.
+虽然自制程序可以在其他版本的系统中运行，但降级到 3.60 可以使你得到运行自制程序的最佳兼容性。
 
-自reF00D系统插件发布以来，让设备运行 3.60 系统的缺点几乎没有（如果有的话），因为这个插件允许你安装和玩任何需要更新系统版本的游戏。
+自reF00D系统插件发布以来，让设备运行 3.60 系统的缺点几乎没有，因为这个插件允许你安装和玩任何需要更新系统版本的游戏。
 
 有一个坏消息是，有少部分的设备由于“出厂版本”过高而无法降级到 3.60。 如果你遇到这种情况时，之后将提供进一步的说明。
 
@@ -24,7 +24,7 @@ While it is possible to run homebrew on most firmware versions, downgrading to f
 * 一个 FTP 连接软件，比如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
   + 或者，你也可以使用 VitaShell 的 USB 传输功能
 * <i class="fa fa-magnet" aria-hidden="true" title="这是一个磁力链。 使用BT协议下载软件下载此文件。"></i> - [PSP2UPDAT.PUP](magnet:?xt=urn:btih:19720f56ab6a299292f009aebae67a9a50eb6e8a&dn=PSP2UPDAT.PUP&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker3.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker1.itzmx.com%3A8080%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fdenis.stalker.upeer.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker4.itzmx.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker2.itzmx.com%3A6961%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce) (3.60) ([mirror](https://web.archive.org/web/20160902205052id_/http://dus01.psp2.update.playstation.net/update/psp2/image/2016_0323/rel_cd80b3da55771c99557db552542dff2b/PSP2UPDAT.PUP))
-* The latest release of [modoru](https://github.com/SKGleba/modoru/releases/latest/)
+* 最新版 [modoru](https://github.com/SKGleba/modoru/releases/latest/)
 
 #### 第一步 — 准备工作
 

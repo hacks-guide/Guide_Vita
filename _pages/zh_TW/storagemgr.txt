@@ -6,9 +6,9 @@ title: "StorageMgr"
 
 ### 必讀事項
 
-StorageMgr 是一個適用於 PS Vita (TV) 的多功能內核插件；此插件將允許您使用其他儲存裝置如 USB 隨身碟、SD2Vita、或 psvd。
+StorageMgr 是一個適用於 PS Vita (TV) 的多功能內核插件；此插件將允許您使用其他儲存裝置如 USB 隨身碟、SD2Vita、或 psvsd。
 
-SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機的 Vita 卡槽中；psvd 則是個 microSD 轉接器，用於替代 3G 型號中的數據機。
+SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機的 Vita 卡槽中；psvsd 則是個 microSD 轉接器，用於替代 3G 型號中的數據機。
 
 透過 StorageMgr 插件，您的隨身碟或 microSD 卡將會被加載到 `ux0:` 底下，就跟普通的 Sony 原廠記憶卡一樣。 這是非常有用的，因為 microSD 卡與原廠 Sony Vita 記憶卡相比價錢天差地別 (尤其是容量較大的記憶卡)。
 
@@ -27,7 +27,7 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
   + 依您的情形修改 `storage_config.txt`，請見[README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
   + `MCD=uma0` 應被保留，除非您並不希望繼續使用 Sony 原廠的記憶卡
   + `INT=imc0` PS Vita 2000 及 PS TV 用戶不需更改此選項，而 PS Vita 1000 的用戶應該將此選項移除
-  + `GCD=ux0` SD2Vita 用戶不需更改此選項，而 psvd 或隨身碟的用戶需將該選項改為 `UMA=ux0`
+  + `GCD=ux0` SD2Vita 用戶不需更改此選項，而 psvsd 或隨身碟的用戶需將該選項改為 `UMA=ux0`
   + `UMA=grw0` 除非您有多項儲存空間否則請刪除此選項 (若真如此，未分發至 `ux0:` 的裝置應被分發至 `grw0:` 當中)
 
 ### 操作說明
@@ -43,12 +43,13 @@ SD2Vita 是個 microSD 至 Vita 卡的轉接器，讓您能將其插入至主機
   + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 複製 `storagemgr.skprx` 至 `ur0:tai/` 資料夾中
 1. 複製 `storage_config.txt` 至 `ur0:tai/` 資料夾中
-1. 將 `ur0:tai/config.txt` 中所有的 `ux0:tai/` 替換為 `ur0:tai/` 
+1. 將 `ur0:tai/config.txt` 中所有的 `ux0:tai/` 替換為 `ur0:tai/`
   + 如果您並沒有 `ux0:tai/` 的資料夾的話，請略過本步驟
 1. 將下列的字串加入至 `ur0:tai/config.txt` 中 `*KERNEL` 行列下：
   + `ur0:tai/storagemgr.skprx`
 1. 刪除 `ux0:tai/` 資料夾
-  
+  + 本步驟很重要！因為當 HENkaku 檢測到 `ux0:tai`，它則不會加載任何在 `ur0:tai` 中的插件
+
 #### 第二節 — 還原資料
 
 本節將會從您舊的 Sony 記憶卡內容複製到新的儲存裝置中。
@@ -72,13 +73,16 @@ ___
 {% capture notice-1 %}
 如果您想要清理您記憶卡中的內容 (假設說您想存放 PSP 遊戲之類的)，您可將 `uma0:` (新的記憶卡掛載點) 以及/或者 `imc0:` (適用於 PS Vita 2000 或 PS TV) 中的資料刪除。
 
-如果您想要做清理的動作，且您的主機為正使用 h-encore 且持有韌體版本 3.67 或 3.68 的主機，您*千萬不可*刪除下列資料夾:
+如果你決定這樣做，*千萬不要*刪除以下資料夾：
 
+  + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
-  + `uma0:data/bootstrap.self`
+  + `uma0:appmeta/VITASHELL`
   + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
   + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
 
 這是因為 h-encore 得保持其記憶卡中的安裝狀態，這樣您才能在重啟後啟用 HENkaku (及 StorageMgr)。
 {% endcapture %}

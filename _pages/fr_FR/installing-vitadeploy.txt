@@ -1,0 +1,40 @@
+---
+title: "Installing VitaDeploy"
+---
+
+{% include toc title="Table des matières" %}
+
+The guide uses the VitaDeploy application as the primary method of installing other apps and a custom firmware. If you didn't install VitaDeploy when installing h-encore, you can install it yourself with molecularShell or VitaShell.
+
+In order to install the necessary `.vpk` (content package) file on your device, we use the [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol) to copy the files to your device's memory card.
+
+### Ce dont vous aurez besoin
+
+* Un client FTP comme [WinSCP](https://winscp.net/) ou [CyberDuck](https://cyberduck.io/)
+  + Vous pouvez également utiliser la fonctionnalité de tranfert USB de VitaShell
+* The latest version of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest/)
+  + Download the `VitaDeploy.vpk` file
+
+#### Section I - Préparation
+
+1. Lancez l'application VitaShell
+1. Appuyez (Start) pour ouvrir les paramètre VitaShell
+1. Appuyez sur (croix) sur "SELECT button" pour changer le mode vers "FTP"
+  + Comme Alternative, vous pouvez tout aussi laisser l'option "USB" et transférer les fichiers avec un cable USB (mais pour les plugins vous devrez les copier manuellement vers ur0:tai)
+1. Appuyez (Cercle) pour fermer les paramètres VitaShell
+1. Appuyez sur (Select) pour activer l'accès FTP sur votre machine
+1. Ouvrez votre client FTP sur votre ordinateur
+1. Entrez l'adresse IP et le port affichés sur votre machine
+1. En utilisant votre client FTP, naviguez vers `ux0:` -> `data/`
+1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
+1. Appuyez sur (Rond) sur votre machine pour fermer la connexion FTP
+
+#### Section II - Installing the application
+
+1. Lancez l'application VitaShell
+1. Navigate to `ux0:` -> `data/`
+1. Press (Cross) on "VitaDeploy.vpk"
+1. Appuyez sur (Croix) pour confirmer l'installation
+1. Press (Cross) to confirm the install again when prompted
+
+VitaDeploy should now be installed to your home screen.

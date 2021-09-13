@@ -6,32 +6,16 @@ title: "Blocarea actualizarilor"
 
 ### Lectură obligatorie
 
-The latest PS Vita exploit is not compatible with version 3.71. Astfel, trebuie să așteptăm ca un nou exlpoit să fie lansat și să oprim dispozitivul de a se actualiza mai mult decât versiunea curentă de firmware. Actualizând mai mult ar putea patch-ui viitoarele exploit-uri care ar putea fi folosite.
-
-Pentru a preveni actualizările nedorite, vom configura setările DNS de reţea pentru a folosi un server de actualizare personalizat care arată 3.60 ca ultima actuazlizare disponibilă. Acest lucru are ca efect blocarea oricărei versiuni de firmware mai mare de 3.60 din a fi instalat atunci când dispozitivul încearcă să efectueze o actualizare.
-
+To prevent unwanted updates, we will disable an option made by Sony which automatically download the update file from their servers on your vita.
 ### Ce aveți nevoie
 
 * O conexiune la Internet pe PS Vita (TV)
 
 ### Instrucțiuni
 
-#### Secțiunea I - Configurare DNS
+#### Section I - Disabling the auto-download option
 
-Țineți cont că aceste servere DNS vor avea nevoie să fie setate pe fiecare conexiune la care vă conectați pentru a putea bloca actualizrile!
-{: .notice--warning}
 
-1. Lansați aplicația Settings
-1. Navigați spre `Network` -> `Wi-Fi Settings`
-  + Conectați-vă la o rețea Wi-Fi dacă nu v-ați conectat deja
-1. Selectaţi-vă reţeaua actuală
-  + Aceasta este simbolizată de un punct verde alături de reţea
-1. Selectați "Advanced Settings"
-1. Setați "DNS Settings" la "Manual"
-1. Setaţi "Primary DNS" la `212.47.229.76`
-1. Lăsați "DNS secundar" necompletat
-1. Asigurați-vă că "Proxy Server" este setat la "Do Not Use"
-1. Reveniți la meniul principal de Settings
 1. Navigați spre `System` -> `Auto-Start Settings`
 1. Debifaţi "Download Update File for System Software"
 1. Reveniți la meniul principal de Settings

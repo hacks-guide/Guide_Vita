@@ -3,22 +3,22 @@ title: "常見問題 FAQ"
 ---
 
 <a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*
-**A:** Yes, 3.72 is hackable at the moment.
+**A:** 是的，3.73 目前是可以破解的。
 
 <a name="faq_downgrade" />**Q:** *我能降級我的 Vita 系統嗎？*
-**A:** Yes, but only if the console is already on 3.70 or below. Modoru can downgrade any 3.70 or below system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
+**A:** 是的，Modoru 可以將任何被 HENkaku 或 H-Encore 破解的系統降級到主機出廠時或更新的韌體版本。
 
 <a name="faq_update" />**Q:** *在自製韌體環境中安裝官方更新是否安全？*
-**A:** 不！ 您必須確保您在[完成安裝](finalizing-setup)最後步驟中設置好防範未來的更新的措施。
+**A:** 除非有特殊狀況，否則正常情況下不需要在搭載自製韌體的 PSVita 上進行更新。 請留在 3.60 或 3.65 版本。
 
 <a name="faq_risky" />**Q:** *改機風險多高？*
-**A:** 除非您忽略本教學所有的警示，*基本上*變磚是不可能的。
+**A:** Bricks are *basically* impossible unless you ignore instructions and Sony doesn't ban consoles nor accounts unless you hack trophies or in-game.
 
 <a name="faq_homebrew" />**Q:** *我可以透過本教學跑超讚的自製程式跟模擬器嗎？*
 **A:** 可以的！ 透過本教學您將可以在您的主機中運行任何社群所製的自製軟體。
 
 <a name="faq_support" />**Q:** *如果我遇到問題該怎麼辦？*
-**A:** 若需支援，請見 [Discord 上的 Vita Hacking](https://discord.gg/JXEKeg6) 伺服器。
+**A:** 若需支援，請見 [Discord 上的 Henkaku](https://discord.gg/m7MwpKA) 官方伺服器。
 
 <a name="faq_nopc" />**Q:** *沒電腦也可以完成本教學嗎？*
-**A:** No, you must have a PC to complete this guide.
+**A:** 如果您的韌體版本為 3.61 或更新的版本，那麼改機則必須要有一台可用的電腦。

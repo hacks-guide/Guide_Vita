@@ -3,22 +3,22 @@ title: "Întrebări frecvente"
 ---
 
 <a name="faq_latestfw" />**Î:** *Am dispozitivul actualizat la zi, este dispozitivul modabil?*
-**A:** Yes, 3.72 is hackable at the moment.
+**R:** Da, 3.73 este modabil în prezent.
 
 <a name="faq_downgrade" /> ** Q: ** * Pot să-mi downgradez Vita-ul?*
-**A:** Yes, but only if the console is already on 3.70 or below. Modoru can downgrade any 3.70 or below system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
+**R:** Da, Modoru poate retrograda orice sistem modat cu HENkaku sau h-encore către orice firmware egal sau mai mare decât firmware-ul de origine al dispozitivului.
 
 <a name="faq_update" />**Î:** *Este în regulă să actualizez un Vita cu CFW?*
-**R:** Nu! Trebuie să vă asigurați întotdeauna că ați blocat actualizările așa cum este specificat la sfârșitul secțiunii [Finalizing Setup](finalizing-setup).
+**A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
 <a name="faq_risky" />**Î:** *Cât de riscant este să îmi fac modare la consolă?*
-**R:** Brickuirea consolei este practic imposibilă atâta timp cât nu ignorați instructiunile.
+**A:** Bricks are *basically* impossible unless you ignore instructions and Sony doesn't ban consoles nor accounts unless you hack trophies or in-game.
 
 <a name="faq_homebrew" />**Î:** *Pot rula homebrew și emulatoare cu asta?*
 **R:** Da! Astfel, orice homebrew poate fi pornit pe consolă.
 
 <a name="faq_support" /> **Î:** *Unde ar trebui să mă duc pentru asistenţă?*
-**R:** Pentru suport, cereți ajutor la [Vita Hacking pe Discord](https://discord.gg/JXEKeg6).
+**A:** For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
 <a name="faq_nopc" />**Î:** *Pot face asta fără un calculator?*
-**A:** No, you must have a PC to complete this guide.
+**A:** You must have a computer if you are on firmware version 3.61 or higher.

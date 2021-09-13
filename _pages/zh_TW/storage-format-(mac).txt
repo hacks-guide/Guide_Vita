@@ -1,49 +1,51 @@
 ---
-title: "Storage Format (Mac)"
+title: "格式化儲存空間 (Mac)"
 ---
 
 {% include toc title="條目內容" %}
 
 ### 必讀事項
 
-This is an add-on section for formatting a storage device for use with the StorageMgr kernel plugin.
+本篇為額外章節。本章節將教您如何準備並格式化任意儲存裝置以便與 StorageMgr 內核插件相並使用。
 
-Additionally, there is an optional section for checking your storage device for errors using F3X. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
+除此之外，本節另有提供額外的選用章節將教您如何透過 F3X 檢查您的儲存裝置是否健全。 根據您儲存空間的大小和電腦的速度，此過程可能需要幾個小時 ！
 
-This page is for Mac users only. If you are not on Mac, check out the [Storage Format (Windows)](storage-format-(windows)) or [Storage Format (Linux)](storage-format-(linux)) pages.
+本教學僅適用於 Mac 使用者。 若您並非 Mac 使用者，請見[格式化儲存空間 (Windows)](storage-format-(windows)) 或 [格式化儲存空間 (Linux)](storage-format-(linux)) 頁面。
 
 ### 必備項目
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
-  + This is not required if you do not want to check your storage device for errors
+* 最新版的 [F3X](https://github.com/insidegui/F3X/releases/latest)
+  + 如果您不想檢查您的儲存裝置是否有誤，您可忽略本需求
 
 ### 操作說明
 
-#### Section I - Formatting Storage Device
+#### 第一節 — 格式化儲存空間
 
-1. Insert your storage device into your computer
-1. Launch Disk Utility
-1. Select your storage device
-1. Select the "Partition" menu
-1. Partition your storage device as MBR with one exFAT partition
-  + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
+1. 將您所想使用的儲存裝置插入至電腦中
+1. 開啟終端機
+1. 在終端機中輸入 `diskutil list`
+1. Identify which disk is your storage device in the format `/dev/diskX`
+1. Enter `diskutil unmount /dev/diskX` and then `sudo dd if=/dev/zero of=/dev/diskX` to format the storage device
+1. Remove and reinsert your storage device
+1. Enter `sudo newfs_exfat -R /dev/diskX` to format your storage device into exfat
+  + If your storage device has a capacity of 256 GB or greater, you must run `sudo newfs_exfat -R  -c 64 /dev/diskX`
 
-#### Section II - Verifying Storage Device
+#### 第二節 — 檢查儲存空間
 
-If you do not want to check your storage device for errors, skip this section.
+如果您不想檢查您的儲存裝置是否有誤，請跳過本節。
 {: .notice--info}
 
-1. Unzip the F3X `.zip` file
-1. Insert your storage device into your computer
-1. Run the F3X app
-1. Select your storage device
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. 解壓 F3X `.zip` 壓縮檔
+1. 將您所想使用的儲存裝置插入至電腦中
+1. 開啟 F3X
+1. 選擇您的儲存裝置
+1. 按下『開始測試 (Start Test)』
+1. 等到檢查完畢為止。
 
-If the test shows the result `Success! Your card is ok!` your storage device is good and you can delete all `.h2w` files on your storage device
+如果測試顯示的結果『成功 ！ 您的卡一切正常！(Success! Your card is ok!)』表示您的儲存裝置是正常的，然後您可以刪除上面所有的 `.h2w` 檔案
 {: .notice--success}
 
-If the test shows any other results, your storage device may be corrupted or damaged and you may have to replace it!
+如果出現任何其他結果，您的儲存裝置可能是有問題且需要更換的！
 {: .notice--danger}
 
 ___

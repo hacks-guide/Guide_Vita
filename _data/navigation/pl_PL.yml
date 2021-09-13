@@ -19,8 +19,8 @@ main:
     title: Adrenaline
     url: adrenaline
   - 
-    title: StorageMgr
-    url: storagemgr
+    title: SD2Vita
+    url: yamt
   - 
     title: Site Navigation
     url: site-navigation
@@ -55,6 +55,9 @@ sidebar_pages:
     title: Updating Firmware (3.60)
     url: updating-firmware-(3.60)
   - 
+    title: Updating Firmware (3.73)
+    url: updating-firmware-(3.73)
+  - 
     title: Updating Firmware (PS TV 3.65 and 3.68)
     url: updating-firmware-(ps-tv-3.65-and-3.68)
   - 
@@ -79,6 +82,9 @@ sidebar_pages:
     title: Multiple Options
     url: multiple-options
   - 
+    title: Installing Ensō
+    url: installing-enso
+  - 
     title: Installing Ensō (3.65)
     url: installing-enso-(3.65)
   - 
@@ -87,3 +93,6 @@ sidebar_pages:
   - 
     title: Finalizing Setup
     url: finalizing-setup
+  - 
+    title: Finalizing Setup (Legacy)
+    url: finalizing-setup-(legacy)

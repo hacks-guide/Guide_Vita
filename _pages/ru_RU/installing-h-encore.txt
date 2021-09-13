@@ -1,18 +1,18 @@
 ---
-title: Installing h-encore
+title: Установка h-encore
 ---
 
 {% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.72.
+Эксплойт h-encore для PS Vita (TV) позволяет устанавливать хоумбрю приложения на начальный экран. Он совместим с версиями прошивки от 3.65 до 3.73.
 
-Note that the h-encore exploit chain is not “persistent” (meaning it does not remain installed after a reboot). This means you will have to run the exploit again after each reboot.
+Обратите внимание, что h-encore не является "постоянным" решением (то есть не остается установленным после перезагрузки). Это означает, что вам придется запускать эксплойт снова после каждой перезагрузки.
 
-In addition to installing the h-encore exploit, we enable access to “unsafe” homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the “administrator” mode on a computer.
+В дополнение к установке эксплойта h-encore мы включим доступ к "небезопасному" хоумбрю, что даст расширенные права хоумбрю приложениям. Этот принцип можно представить как аналог режима "администратор" на компьютере.
 
-If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.72, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
+Если вы используете прошивку версии от 3.65 до 3.68, то будете использовать эксплойт h-encore, однако если вы используете прошивку версии от 3.69 до 3.73, то будете использовать эксплойт h-encore². Программа, используемая для установки эксплойта на вашу консоль (finalhe), может сделать этот выбор для вас.
 
 Если у вас PS Vita 1000, то вам также понадобится официальная карта памяти Sony (любого размера) для выполнения этого руководства. Это ограничение не применяется к PS Vita 2000 или PS TV, поскольку эти консоли имеют встроенную карту памяти.
 {: .notice--info}
@@ -20,61 +20,61 @@ If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exp
 ### Что понадобится
 
 * Свежая версия [finalhe](https://github.com/soarqin/finalhe/releases/latest)
-  - If you are using MacOS or Linux you will be required to compile finalhe yourself
+  - Если вы используете MacOS или Linux, вам нужно будет собрать finalhe самостоятельно
+* The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
+  - Download the `VitaDeploy-FHE.zip` file
 
 ### Инструкция
 
 #### Часть I - finalhe
 
-1. Скопируйте содержимое `zip-архива` finalhe в папку на вашем компьютере
+1. Copy the contents of the finalhe `.zip` file to a folder on your computer
+1. Copy the VitaDeploy `.zip` file inside the finalhe folder
+  + Do not extract this file
 1. Запустите finalhe на компьютере
-  + If you are prompted to allow finalhe network access through the firewall, do so
+  + Если появится запрос на разрешение доступа к сети для finalhe, разрешите доступ
 1. Запустите на консоли приложение "Управление данными"
-1. Выберите "Скопировать контент"
-1. Выберите "Компьютер"
+1. Tap "Copy Content"
+  + If your device is already connected to your computer via USB, you can skip to [Section II - h-encore Transfer](#section-ii---h-encore-transfer)
+  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) and try again
+1. Tap "PC"
 1. Выберите метод, который вы хотите использовать для подключения к finalhe
   + Если вам предложат войти в аккаунт PlayStation Network, сделайте это
   + Если у вас нет аккаунта PlayStation Network, создайте его
-1. Выберите / зарегистрируйте ваш компьютер, если появится запрос
+1. Select or register your computer if prompted
   + Если появится сообщение о необходимости обновления, перезагрузите консоль и попробуйте снова
-  + Если сообщение по-прежнему появляется, выполните инструкции на странице [Блокировка обновлений](blocking-updates) и попробуйте снова
-  + Если сообщение *по-прежнему* появляется, включите Режим авиаперелета в Системных настройках и попробуйте снова (это *не* работает для PS TV)
-  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
+  + If you still encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
+  + If you *still* encounter this message, update to the latest firmware version and try again
 
 #### Часть II - Перенос h-encore
 
-1. Выберите "Обрезать пузырь h-encore до ~13МБ"
-  + Only do this step if you are on 3.68 or below
-1. Выберите "Поехали!"
+1. Select "Trim h-encore to ~7MB"
+1. Click on the small arrow on the right-hand side of the finalhe window
+  + This can be hard to spot, especially on high-DPI displays
+1. Tick the "VitaDeploy" box
+1. Click "Let's GO!"
   + Файлы эксплойта будут автоматически скачаны и подготовлены
   + Этот процесс займет некоторое время
-1. Выберите "PC -> система PS Vita" на консоли
-1. Выберите "Приложения"
-1. Выберите "PS Vita"
-1. Select "h-encore" or "h-encore²" depending on which is displayed
-1. Выберите "Копировать"
-1. Выберите "OK"
-  + Эксплойт h-encore будет скопирован на вашу консоль
+1. Tap "PC -> PS Vita System" or "PC -> PS TV System" on your device
+1. Tap "Applications"
+1. Tap "PS Vita"
+1. Выберите "h-encore" или "h-encore²" в зависимости от того, что отображается
+1. Select "VitaDeploy"
+1. Tap "Copy"
+1. Tap "OK"
+  + The h-encore exploit and VitaDeploy application will be copied to your device
   + Этот процесс займет некоторое время
 1. Закройте приложение "Управление данными" на консоли
 1. Закройте finalhe на компьютере
 
 #### Часть III - Настройка h-encore
 
-h-encore² only has a ~25% success rate. It may take a long time to launch the h-encore² exploit.
-{: .notice--warning}
-
-1. Запустите приложение h-encore, держа нажатой кнопку (R)
-  + Если появится запрос о призах, выберите "Да", продолжая держать нажатой кнопку (R)
+1. Launch the h-encore(²) application
+  + If prompted about trophies, select "Yes"
 1. Если эксплойт сработал, вы увидите меню h-encore bootstrap
-  + Если эксплойт завис на белом экране, просто закройте приложение (это приведет к перезагрузке консоли), затем попробуйте снова
-  + Если это не помогло, удерживайте кнопку питания в течение 30 секунд для принудительной перезагрузки, затем попробуйте снова
-1. Выберите "Install HENkaku"
-  + Это действие установит эксплойт HENkaku и разрешит доступ к хоумбрю до следующей перезагрузки
-1. Выберите "Download VitaShell"
-  + Это действие установит хоумбрю приложение VitaShell для управления файловой системой консоли
-  + VitaShell (как и все прочие хоумбрю приложения) останется установленным после перезагрузки, но будет выдавать ошибку при запуске, если эксплойт HENkaku не активен
-1. Выберите "Exit"
+  + If the exploit gets stuck, reboot your device and try again
+  + If you can't reboot normally, hold the power button down for over 30 seconds to force a reboot
+1. Press (Cross) to exit the application
 
 #### Часть IV - Настройка HENkaku
 
@@ -85,7 +85,20 @@ h-encore² only has a ~25% success rate. It may take a long time to launch the h
 1. Вернитесь в меню Настройки HENkaku
 1. Закройте приложение Настройки
 
+#### Section V - Installing essential homebrew
+
+1. Launch the VitaDeploy application
+1. Tap "App downloader"
+  + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
+1. Select "[VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/) *(A powerful file manager)*""
+1. Tap "Download the selected apps"
+1. Wait for the app to finish downloading
+  + When finished, you should be presented with the `VitaShell.vpk` file
+1. Press (Cross) on the `VitaShell.vpk` file to install it
+1. Нажмите (Крест) чтобы подтвердить установку
+1. Press (Cross) to confirm the install again when prompted
+
 ___
 
-### Continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
+### Continue to [Installing Ensō](installing-enso)
 {: .notice--primary}

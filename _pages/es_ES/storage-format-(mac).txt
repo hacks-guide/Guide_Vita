@@ -22,11 +22,13 @@ Esta página es sólo para usuarios de Mac. Si no estás en Mac, revisa las pág
 #### Sección I - Formatear el dispositivo de almacenamiento
 
 1. Inserta tu dispositivo de almacenamiento en tu computadora
-1. Ejecuta la Utilidad de discos
-1. Selecciona tu dispositivo de almacenamiento
-1. Selecciona el menú "Particiones"
-1. Particiona tu dispositivo de almacenamiento como MBR con una partición exFAT
-  + Si tu dispositivo de almacenamiento tiene una capacidad de 256 GB o mayor, debes formatearlo con un tamaño de cluster de 64KB
+1. Open the Terminal app
+1. Enter `diskutil list` into the terminal
+1. Identify which disk is your storage device in the format `/dev/diskX`
+1. Enter `diskutil unmount /dev/diskX` and then `sudo dd if=/dev/zero of=/dev/diskX` to format the storage device
+1. Remove and reinsert your storage device
+1. Enter `sudo newfs_exfat -R /dev/diskX` to format your storage device into exfat
+  + If your storage device has a capacity of 256 GB or greater, you must run `sudo newfs_exfat -R  -c 64 /dev/diskX`
 
 #### Sección II - Verificar tu dispositivo de almacenamiento
 

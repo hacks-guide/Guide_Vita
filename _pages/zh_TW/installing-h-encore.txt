@@ -1,18 +1,18 @@
 ---
-title: Installing h-encore
+title: 安裝 h-encore
 ---
 
 {% include toc title="條目內容" %}
 
 ### 必讀事項
 
-The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.72.
+h-encore 是專門用於 PS Vita (TV) 的漏洞；此漏洞將允許您安裝自製軟體至您的主畫面中。 它與 3.65 至 3.73 的系統韌體相容。
 
-Note that the h-encore exploit chain is not “persistent” (meaning it does not remain installed after a reboot). This means you will have to run the exploit again after each reboot.
+請注意，h-encore 漏洞並非「永久性」的 (也就是說該漏洞將於主機重啟後失效)。 也就是說你在每次重啟主機後都必須再觸發一次漏洞。
 
-In addition to installing the h-encore exploit, we enable access to “unsafe” homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the “administrator” mode on a computer.
+除了安裝 h-encore 漏洞外，我們也將啟用『非安全』的自製程式使用權以提高自製程式的執行權限。 這類似於電腦中的「管理員」權限。
 
-If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.72, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
+如果你的主機系統版本在 3.65 至 3.68 之間，則需要使用 h-encore 漏洞破解。如果你的版本在 3.69 至 3.73 以上，則需要使用 h-encore² 來破解。 我們用來安裝漏洞的程式 (finalhe) 應該會幫你處理這些雜項。
 
 如果您使用的是 PS Vita 1000，那麼您必須要有一張原廠 Sony 記憶卡 (任意大小) 才能繼續。 此限制不適用於 PS Vita 2000 或 PS TV，因為這些主機皆有內建記憶卡/內存。
 {: .notice--info}
@@ -20,61 +20,61 @@ If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exp
 ### 必備項目
 
 * 最新版的 [finalhe](https://github.com/soarqin/finalhe/releases/latest)
-  - If you are using MacOS or Linux you will be required to compile finalhe yourself
+  - 如果您的系統為 MacOS 或者 Linux，那您得自行編譯 finalhe
+* 最新版的 [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
+  - Download the `VitaDeploy-FHE.zip` file
 
 ### 操作說明
 
 #### 第一節 — finalhe
 
-1. 解壓 finalhe `.zip` 的檔案至您電腦的一個資料夾中
+1. 解壓 finalhe `.zip` 的檔案至您電腦的資料夾中
+1. 將 VitaDeploy `.zip` 檔案複製至前述資料夾中
+  + 不要解壓此檔案
 1. 在您的電腦中啟動 finalhe
-  + If you are prompted to allow finalhe network access through the firewall, do so
+  + 如果您的系統跳出防火牆警示，請允許 finalhe 連接至網路
 1. 於您的主機中啟動「內容管理員」
 1. 選擇『複製內容』
-1. 選擇『個人電腦』
+  + If your device is already connected to your computer via USB, you can skip to [Section II - h-encore Transfer](#section-ii---h-encore-transfer)
+  + 如果您的電腦偵測不到您主機的 USB 連線的話，請安裝 [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) 並再試一次
+1. 選擇『PC』
 1. 選擇您想要連接至 finalhe 的方式
   + 如果您被要求登入至 PlayStation Network，請登入
   + 如果您並沒有一隻 PlayStation Network 的帳號，請創立一隻
-1. 如提示時，選擇／註冊您的電腦
+1. 如提示時，選擇或註冊您的電腦
   + 若有提示更新的警示，請重新啟動您的主機並再試一次
-  + 若您仍遇到該警示，請見[阻擋更新](blocking-updates)並再試一次
-  + If you *still* encounter this message, enable Flight Mode in the System Settings and try again (this will *not* work on PS TVs)
-  + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.3/QcmaDriver_winusb.exe) and try again
+  + 若您還是遇到該警示，於系統設定中啟用飛航模式並再試一次 (PS TV 將無法使用此步驟)
+  + If you *still* encounter this message, update to the latest firmware version and try again
 
 #### 第二節 — h-encore 轉移
 
-1. 選擇『Trim h-encore to ~13MB』
-  + Only do this step if you are on 3.68 or below
-1. 選擇『Let's GO!』
+1. 選擇『Trim h-encore to ~7MB』
+1. Click on the small arrow on the right-hand side of the finalhe window
+  + This can be hard to spot, especially on high-DPI displays
+1. Tick the "VitaDeploy" box
+1. Click "Let's GO!"
   + 漏洞所需檔案將自動被下載及自動進行其前置作業
   + 此過程將花費一些時間
-1. 於您的主機中選擇『個人電腦 -> PS Vita』
-1. 選擇『應用程式』
-1. 選擇『PS Vita』
+1. Tap "PC -> PS Vita System" or "PC -> PS TV System" on your device
+1. Tap "Applications"
+1. Tap "PS Vita"
 1. Select "h-encore" or "h-encore²" depending on which is displayed
-1. 選擇『複製』
-1. 選擇『OK』
-  + h-encore 漏洞將會被複製到您的主機中
+1. Select "VitaDeploy"
+1. Tap "Copy"
+1. Tap "OK"
+  + The h-encore exploit and VitaDeploy application will be copied to your device
   + 此過程將花費一些時間
 1. 於您的主機中關閉「內容管理員」
 1. 在您的電腦中關閉 finalhe
 
 #### 第三節 — 設定 h-encore
 
-h-encore² only has a ~25% success rate. It may take a long time to launch the h-encore² exploit.
-{: .notice--warning}
-
-1. 於啟動 h-encore 時按住『R』鍵
-  + 如提示獎盃相關訊息時，按住「R」並選擇『是 (Yes)』
+1. Launch the h-encore(²) application
+  + If prompted about trophies, select "Yes"
 1. 如果漏洞成功執行的話，您將會看到 h-encore 引導選單
-  + 如果執行此漏洞時卡在白屏的畫面的話，試著關閉本程式 (過程中您的主機會當機並重啟) 並再試一次
-  + 如果您仍然卡死在此步驟，按住電源紐30秒以強制重啟，並再試一次
-1. 選擇『Install HENkaku』
-  + 這將會安裝 HENkaku 漏洞，並啟用自製軟體存取權直到下次重啟
-1. 選擇『Download VitaShell』
-  + 這將會安裝自製軟體 VitaShell 以管理您主機的檔案系統
-  + VitaShell (以及所有其他的自製軟體) 於重啟後仍會保持其安裝狀態，但如果沒有先執行 HENkaku 漏洞的話將無法執行
-1. 選擇『Exit』
+  + If the exploit gets stuck, reboot your device and try again
+  + If you can't reboot normally, hold the power button down for over 30 seconds to force a reboot
+1. Press (Cross) to exit the application
 
 #### 第四節 — 設定 HENkaku
 
@@ -85,7 +85,20 @@ h-encore² only has a ~25% success rate. It may take a long time to launch the h
 1. 回到 HENkaku 設置選單
 1. 關閉設定
 
+#### Section V - Installing essential homebrew
+
+1. 啟動 VitaDeploy
+1. Tap "App downloader"
+  + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
+1. Select "[VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest/) *(A powerful file manager)*""
+1. Tap "Download the selected apps"
+1. Wait for the app to finish downloading
+  + When finished, you should be presented with the `VitaShell.vpk` file
+1. Press (Cross) on the `VitaShell.vpk` file to install it
+1. 按下「X」鍵確認安裝
+1. Press (Cross) to confirm the install again when prompted
+
 ___
 
-### Continue to [Downgrading to 3.60](downgrading-firmware-(3.60))
+### 繼續至 [安裝 Ensō](installing-enso)
 {: .notice--primary}

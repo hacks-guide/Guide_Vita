@@ -62,8 +62,8 @@ Ensō este disponibil pe toate dispozitivele cu versiune de firmware 3.65 sau in
 ## Ce trebuie să știu înainte să încep?
 
 + **Inainte să începeți acest ghid, trebuie să știți riscurile modării unui Vita: DE FIECARE DATĂ când vă modificați sistemul, există întotdeauna potențialul de a face un brick IRECUPERABIL (sistemul va rămâne neutilizabil). Este rar, dar există o posibilitate așa că aveți grijă să urmați TOATE instrucțiunile cu EXACTITATE.**
-+ This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.72
-+ Dacă totul merge așa cum trebuie, nu o să pierdeți nimic și o să ajungeți să aveți toate lucrurile cu care ați început (jocurile, contul PSN, salvările, etc. vor fi păstrate).
++ Acest ghid va funcţiona pe toate dispozitivele PS Vita, PS Vita Slim, şi PS TV în toate regiunile cu firmware de la 1.03 până la 3.73
++ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc. will be preserved).
 + **Țineți dispozitivul conectat și încărcat pe toată durata procedeului pentru a evita pierderea de date sau daune de la o închidere neașteptată!**
 + Modele PS Vita 2000 şi PS TV sunt practic identice cu modelul original PS Vita 1000 în termeni de software. Toţi paşii care menţionează "PS Vita" se aplică şi la celelalte modele, cu excepţia cazului în care sunt menţionate separat.
 + Dacă aveți un PS Vita 1000, trebuie de asemenea să aveți un card de memorie Sony (de orice mărime) pentru a urma acest ghid. Această restricţie nu se aplică la PS Vita 2000 sau PS TV de vreme ce aceste dispozitive au un card de memorie incorporat.

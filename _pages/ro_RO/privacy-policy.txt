@@ -5,7 +5,7 @@ layout: single-no-ads
 
 ### Cookie-uri
 
-Acest site folosește cookie-uri pentru a ușura urmarea instrucțiunilor de către utilizatori. Cookie-urile permit ca bara laterală a paginii să afișeze progresul prezent în site pentru a ajuta utilizatorii să navigheze instrucțiunile mai ușor.
+This site utilizes cookies in order to facilitate routing users through the guide instructions. Cookie-urile permit ca bara laterală a paginii să afișeze progresul prezent în site pentru a ajuta utilizatorii să navigheze instrucțiunile mai ușor.
 
 ### Conținut Inclus De Pe Alte Site-uri
 

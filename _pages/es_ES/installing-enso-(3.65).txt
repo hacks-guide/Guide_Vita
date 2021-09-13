@@ -53,5 +53,5 @@ Desafortunadamente, podrías experimentar incompatibilidades menores de software
 
 ___
 
-### Continúa en [Finalizar instalación](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}

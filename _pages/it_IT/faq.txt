@@ -3,23 +3,22 @@ title: "FAQ"
 ---
 
 <a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*
-**A:** Yes, 3.72 is hackable at the moment.
+**A:** Sì. la versione 3.73 è hackerabile al momento.
 
 <a name="faq_downgrade" />**D:** *Posso eseguire il downgrade della mia PS Vita?*
-**A:** Yes, but only if the console is already on 3.70 or below. Modoru can downgrade any 3.70 or below system hacked with HENkaku or H-Encore to any firmware equal or greater than the firmware the console came with out of the box.
+**A:** Sì, lo strumento Modoru può effettuare il downgrade di ogni sistema hackerato con HENkaku o h-encore verso ogni firmware equivalente o maggiore del firmware della console alla sua uscita dalla scatola.
 
 <a name="faq_update" />**D:** *È sicuro aggiornare una PS Vita con un CFW?*
-**R:** No! Devi sempre sempre assicurarti di aver bloccato gli aggiornamenti, come specificato alla fine del [Completamento dell'installazione](finalizing-setup).
+**A:** There is no need to update a PSVita with CFW. Stay on 3.60 or 3.65.
 
 <a name="faq_risky" />**D:** *Quanto è rischioso modificare la mia console?*
-**R:** Brickare la console è *praticamente* impossibile, a meno che tu non ignori le istruzioni.
+**A:** Bricks are *basically* impossible unless you ignore instructions and Sony doesn't ban consoles nor accounts unless you hack trophies or in-game.
 
 <a name="faq_homebrew" />**D:** *Potrò avviare emulatori ed homebrew fantastici al termine della guida?*
 **R:** Sì! In questo modo qualsiasi homebrew può essere avviato sulla tua console.
 
 <a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*
-**R:** Se hai bisogno di aiuto, chiedi pure sul [server Discord di Vita Hacking](https://discord.gg/JXEKeg6).
- (in inglese).
+**A:** For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
 <a name="faq_nopc" />**D:** *Posso seguire questa guida senza un computer?*
-**A:** No, you must have a PC to complete this guide.
+**A:** You must have a computer if you are on firmware version 3.61 or higher.

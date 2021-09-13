@@ -18,6 +18,7 @@ Exploit-uri bazate pe browser (cum ar fi exploit-ul WebKit folosit pentru HENKak
 1. Lansați browserul, apoi deschideți setările browserului
 1. Derulați în partea de jos și faceți clic pe "Delete Cookies" și pe "Clear Search History"
 1. Încercați exploit-ul din nou
+  + If it still doesn't work, try to reboot, wait 5 minute, and open the browser
 
 ## Scoaterea contului PSN fără a formata dispozitivul dumneavoastră
 
@@ -31,3 +32,4 @@ Exploit-uri bazate pe browser (cum ar fi exploit-ul WebKit folosit pentru HENKak
 1. Țineți apăsat L la pornire pentru a dezactiva încărcarea plugin-ului TaiHEN
 1. Dacă dispozitivul pornește, încercați să editați `ux0:tai/config.txt` și ștergeți orice plugin adăugat recent
 1. Dacă aceste instrucțiuni nu funcționează, dispozitivul ar putea fi brick-uit
+  + In unlikely event of this happening, please follow [this tutorial](https://samilops2.gitbook.io/vita-troubleshooting-guide/serious-problems/bootloop)

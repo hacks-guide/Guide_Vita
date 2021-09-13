@@ -1,0 +1,115 @@
+---
+title: "Finalizing Setup (Legacy)"
+---
+
+{% include toc title="Содержание" %}
+
+### Обязательно к прочтению
+
+Мы установим и настроим следующие приложения и плагины:
+
++  **Vita Homebrew Browser** *(allows for installing homebrew applications from the internet)*
++  **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
++  **NoNpDrm** *(позволяет использовать зашифрованные игры и приложения)*
++ **0syscall6** *(позволяет использовать игры и приложения, требующие более высоких версий прошивки)*
++  **DownloadEnabler** *(позволяет скачивать файлы любых типов с помощью браузера)*
++  **shellbat** *(отображает процент заряда батареи в строке состояния)*
++  **pngshot** *(улучшает встроенную утилиту для скриншотов)*
++  **PSVshell** *(allows overclocking the PSVita for better performances as well as showing CPU usage and fps counter)*
+
+Для установки необходимых файлов `.vpk` (content package) на консоль мы используем [File Transfer Protocol (FTP)](https://wikipedia.org/wiki/File_Transfer_Protocol), чтобы скопировать файлы на карту памяти консоли.
+
+### Что понадобится
+
+* FTP клиент, такой как [WinSCP](https://winscp.net/) или [CyberDuck](https://cyberduck.io/)
+* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
+* The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)
+* The latest release of [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso/releases/latest/)
+* Свежая версия [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
+* Свежая версия [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
+* Свежая версия [DownloadEnabler](https://github.com/TheOfficialFloW/VitaTweaks/releases/tag/DownloadEnabler)
+* Свежая версия [shellbat](https://github.com/nowrep/vita-shellbat/releases/latest)
+* Свежая версия [pngshot](https://github.com/xyzz/pngshot/releases/latest)
+* The latest release of [PSVshell](https://github.com/Electry/PSVshell/releases/latest)
+
+### Инструкция
+
+#### Часть I - Подготовительные работы
+
+1. Запустите приложение VitaShell
+1. Нажмите (Start) чтобы открыть настройки VitaShell
+1. Нажмите (Крест), выделив пункт "SELECT button" чтобы изменить режим на "FTP"
+  + You cannot use USB file transfer for this section
+1. Нажмите (Круг) чтобы закрыть настройки VitaShell
+1. Нажмите (Select) чтобы включить доступ по FTP на консоли
+1. Запустите FTP клиент на компьютере
+1. Введите IP адрес и порт, отображаемые на консоли
+1. Используя FTP клиент, перейдите в `ux0:`
+  + Раздел `ux0:` соответствует карте памяти консоли (на PS Vita 1000, этот раздел всегда будет внешней картой памяти; на PS Vita 2000 и PS TV этот раздел будет либо внешней картой памяти, если она вставлена, либо встроенной картой памяти в противном случае)
+  + Раздел `ur0:` соответствует встроенной системной памяти, которая всегда присутствует на всех консолях (на PS Vita 2000 и PS TV это *не* то же самое что встроенная карта памяти!)
+1. Удалите папку `tai`, если она существует
+1. Navigate to the `data/` folder
+1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
+1. Transfer `iTLS-Enso.vpk` to the `data/` folder
+1. Перейдите в `ur0:` -> `tai/`
+1. Transfer `config.txt` to  the `tai/` folder
+  + Перезапишите существующий файл `config.txt`
+1. Transfer `nonpdrm.skprx` to the `tai/` folder
+1. Transfer `0syscall6.skprx` to the `tai/` folder
+1. Transfer `download_enabler.suprx` to the `tai/` folder
+1. Transfer `shellbat.suprx` to the `tai/` folder
+1. Transfer `pngshot.suprx` to the `tai/` folder
+1. Transfer `PSVshell.skprx` to the `tai/` folder
+1. Нажмите (Круг) на консоли чтобы выключить доступ по FTP
+  + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
+
+#### Section II - Installing homebrew applications
+
+1. Запустите приложение VitaShell
+1. Navigate to `ux0:` -> `data/`
+1. Press (Triangle) to open the side menu
+1. Press (Cross) on "Mark all"
+1. Press (Triangle) to open the side menu again
+1. Press (Cross) on "More"
+1. Press (Cross) on "Install all"
+1. Нажмите (Крест) чтобы подтвердить установку
+1. Press (Cross) to confirm the install again when prompted
+
+#### Section III - Installing iTLS
+
+1. Open the iTLS-Enso application
+1. Press (Cross) on "Install the full iTLS package"
+  + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
+1. Wait for your device to reboot
+
+#### Section IV - Blocking Updates
+
+1. Запустите приложение Настройки
+1. Перейдите в `Система` -> `Настройка автозапуска`
+1. Uncheck the `Download Update File for System Sofwtare`
+1. Закройте приложение Настройки
+
+#### Section V - PSN Access
+
+1. Запустите приложение Настройки
+1. Перейдите в `Настройки HENkaku`
+1. Установите флажок "Включить спуфинг PSN"
+1. Установите флажок "Включить подмену версии"
+1. Перейдите в "Поддельная версия"
+1. Введите "3.73"
+  + Если выйдет новая версия прошивки, вы должны будете изменить эту настройку, чтобы вновь получить доступ к PSN
+1. Закройте приложение Настройки
+
+___
+
+Вы можете найти новые хоумбрю приложения на [VitaDB](https://vitadb.rinnegatamante.it/).
+{: .notice--info}
+
+*НЕ* рекомендуется модифицировать кастомную прошивку путем установки хоумбрю приложений, предназначенных для опытных пользователей (таких как "Enso EX"). Такие действия без полного понимания системы могут привести к БРИКУ!
+{: .notice--danger}
+
+For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
+{: .notice--success}
+
+Для получения информации об установке CFW во встроенный эмулятор PSP, перейдите к странице [Adrenaline](adrenaline).
+{: .notice--success}

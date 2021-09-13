@@ -47,7 +47,7 @@ Adrenaline 是一個用於修改 PS Vita (TV) 中內建的 PSP 模擬器並透�
 
 1. 按下「O」鍵回到 `ux0:` 中
 1. 移動至 `tai/`
-  + 如果 `urx:tai` 不存在，請按下「O」鍵並移動至 `ur0:tai`
+  + 如果 `ur0:tai` 不存在，請按下「O」鍵並移動至 `ur0:tai`
 1. 於 `config.txt` 上按下「X」鍵將其於文件編輯器中開啟
 1. 透過游標選取含有 `*KERNEL` 字串的行列
 1. 按下「△」(三角形) 鍵開啟選單，並選擇『Insert empty line』(插入空行)

@@ -43,12 +43,13 @@ You must have already installed VitaShell to use this.
   + If you do not have a `ux0:tai/` folder, skip this step
 1. Transfer `storagemgr.skprx` to the `ur0:tai/` folder
 1. Transfer `storage_config.txt` to  the `ur0:tai/` folder
-1. For any paths in `ur0:tai/config.txt` which contain `ux0:tai/`, replace `ux0:tai/` with `ur0:tai/` 
+1. For any paths in `ur0:tai/config.txt` which contain `ux0:tai/`, replace `ux0:tai/` with `ur0:tai/`
   + If you did not have a `ux0:tai/` folder, skip this step
 1. Add the following line to `ur0:tai/config.txt` under the `*KERNEL` line:
   + `ur0:tai/storagemgr.skprx`
 1. Delete the `ux0:tai/` folder
-  
+  + This is an important step as HENkaku will not load plugins installed in `ur0:tai` if it detects that `ux0:tai` exists
+
 #### Section II - Restoring Data
 
 This section will copy the data from your old Sony memory card to your new storage device.
@@ -72,13 +73,16 @@ ___
 {% capture notice-1 %}
 If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point) and / or `imc0:` (if you have a PS Vita 2000 or PS TV).
 
-If you decide to do this and are using h-encore on firmware versions 3.67 or 3.68, you must *not* delete these folders:
+If you decide to do this, you must *not* delete these folders if they exist:
 
+  + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
   + `uma0:appmeta/PCSG90096`
-  + `uma0:data/bootstrap.self`
+  + `uma0:appmeta/VITASHELL`
   + `uma0:license/app/PCSG90096`
+  + `uma0:license/app/VITASHELL`
   + `uma0:user/00/savedata/PCSG90096`
+  + `uma0:user/00/savedata/VITASHELL`
 
 This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore StorageMgr) after a reboot.
 {% endcapture %}

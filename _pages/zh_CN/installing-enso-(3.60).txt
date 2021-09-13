@@ -20,7 +20,7 @@ Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方�
 
 #### 第一步 — 准备工作
 
-1. 启动molecularShell应用
+1. 启动 molecularShell 或 VitaShell 应用
 1. 按下 “Select” 键以启用设备上的 FTP 访问
 1. 在电脑上打开 FTP 客户端
 1. 输入设备上显示的 IP 地址与端口
@@ -38,7 +38,7 @@ Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方�
 1. 当提示有关“扩展权限(extended permissions)”的时候, 按 “×” 键确认以继续安装
 1. 按下 “△” 键打开菜单, 然后选择 “Delete” 以删除选中的文件
 1. 按下 “×” 键确认删除
-1. 关闭 molecularShell 应用
+1. 关闭 molecularShell 或 VitaShell 应用
 
 #### 第三步 — 安装 Ensō
 
@@ -49,5 +49,5 @@ Ensō 是 PS Vita（TV）使用自制固件的一套解决方案，依靠本方�
 
 ___
 
-### 继续至 [完成安装](finalizing-setup)
+### Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
 {: .notice--primary}
