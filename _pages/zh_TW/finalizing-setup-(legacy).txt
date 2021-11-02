@@ -8,7 +8,7 @@ title: "Finalizing Setup (Legacy)"
 
 我們將安裝下列程式及插件：
 
-+  **Vita Homebrew Browser** *(allows for installing homebrew applications from the internet)*
++  **Better Homebrew Browser** *(allows for installing homebrew applications from the internet)*
 +  **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
 +  **NoNpDrm** *(允許您使用已加密的遊戲及應用程式)*
 + **0syscall6** *(允許使用需要更新系統版本的遊戲和應用程式)*
@@ -23,7 +23,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 
 * 一套 FTP 客戶端軟體，如 [WinSCP](https://winscp.net/) 或 [CyberDuck](https://cyberduck.io/)
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* 最新版的 [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)
+* The latest release of [Better Homebrew Browser](https://github.com/Ibrahim778/BetterHomebrewBrowser/releases/)
 * 最新版的 [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso/releases/latest/)
 * 最新版的 [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
 * 最新版的 [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
@@ -49,7 +49,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
   + `ur0:` 代表著您主機的系統內存；此磁區永遠都會出現在任何主機中 (在第二代 Vita 中 (PSV-2000) 及 PS TV 中，這與普通內存是*不相干的*!)
 1. 刪除可能現有的 `tai` 資料夾
 1. Navigate to the `data/` folder
-1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
+1. Transfer `BetterHomebrewBrowser.vpk` to the `data/` folder
 1. Transfer `iTLS-Enso.vpk` to the `data/` folder
 1. 移動至 `ur0:` -> `tai/`
 1. Transfer `config.txt` to  the `tai/` folder
