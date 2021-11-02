@@ -8,7 +8,7 @@ title: "Finalizing Setup (Legacy)"
 
 Nous allons maintenant configurer les applications et plugins comme par exemple :
 
-+  **Vita Homebrew Browser** *(allows for installing homebrew applications from the internet)*
++  **Better Homebrew Browser** *(allows for installing homebrew applications from the internet)*
 +  **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
 + **NoNpDrm** *(Autorise le lancement de jeu et applications crypté soit des jeux originaux.)*
 +  **0syscall6** *(allows using games and applications that require higher firmware versions)*
@@ -23,7 +23,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 
 * Un client FTP comme [WinSCP](https://winscp.net/) ou [CyberDuck](https://cyberduck.io/)
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)
+* The latest release of [Better Homebrew Browser](https://github.com/Ibrahim778/BetterHomebrewBrowser/releases/)
 * The latest release of [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso/releases/latest/)
 * La dernière version de [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
 * The latest release of [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
@@ -49,7 +49,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
   + Le `ur0 :` partition correspond à la mémoire du système interne qui est toujours présente sur tous les appareils (sur la PS Vita 2000 et PS TV, c’est * pas * le même que la carte mémoire intégrée ! elle sert a stocker des fichiers tel que les trophées ou d'autre information.)
 1. Supprimez le dossier `tai` s'il existe
 1. Navigate to the `data/` folder
-1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
+1. Transfer `BetterHomebrewBrowser.vpk` to the `data/` folder
 1. Transfer `iTLS-Enso.vpk` to the `data/` folder
 1. Naviguez vers `ur0` -> `tai/`
 1. Transfer `config.txt` to  the `tai/` folder
