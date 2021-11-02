@@ -8,7 +8,7 @@ title: "Finalizing Setup (Legacy)"
 
 We will now setup applications and plugins such as the following:
 
-+  **Vita Homebrew Browser** *(allows for installing homebrew applications from the internet)*
++  **Better Homebrew Browser** *(allows for installing homebrew applications from the internet)*
 +  **iTLS Installer** *(adds TLSv1.2 support in older firmwares for online connection)*
 +  **NoNpDrm** *(allows for encrypted games and applications to be used)*
 +  **0syscall6** *(allows using games and applications that require higher firmware versions)*
@@ -23,7 +23,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
-* The latest release of [Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/latest/)
+* The latest release of [Better Homebrew Browser](https://github.com/Ibrahim778/BetterHomebrewBrowser/releases/)
 * The latest release of [iTLS-Enso](https://github.com/SKGleba/iTLS-Enso/releases/latest/)
 * The latest release of [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm/releases/latest)
 * The latest release of [0syscall6](https://github.com/SKGleba/0syscall6/releases/latest)
@@ -49,7 +49,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
   + The `ur0:` partition corresponds to the internal system memory which is always present on all devices (on the PS Vita 2000 and PS TV, this is *not* the same as the built-in memory card!)
 1. Delete the `tai` folder if it exists
 1. Navigate to the `data/` folder
-1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
+1. Transfer `BetterHomebrewBrowser.vpk` to the `data/` folder
 1. Transfer `iTLS-Enso.vpk` to the `data/` folder
 1. Navigate to `ur0:` -> `tai/`
 1. Transfer `config.txt` to  the `tai/` folder
