@@ -31,5 +31,5 @@ This will make it easier for you to find the referenced files in the rest of thi
 ![](/images/screenshots/windows-7-folder-options.png)
     
 ::: tip
-Return to [Get Started](/get-started)
+Return to [Get Started](get-started)
 :::

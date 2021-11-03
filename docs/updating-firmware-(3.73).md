@@ -19,5 +19,5 @@ The h-encore exploit is only compatible with the firmware versions 3.65 and abov
     + When the process has completed, your device will reboot automatically
 
 ::: tip
-Continue to [Installing h-encore](/installing-h-encore)
+Continue to [Installing h-encore](installing-h-encore)
 :::

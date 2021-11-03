@@ -9,7 +9,7 @@ This is an add-on section for formatting a storage device for use with the Stora
 
 Additionally, there is an optional section for checking your storage device for errors using h2testw. Depending on the size of your storage device and the speed of your computer, the checking process can take up to several hours!
 
-This page is for Windows users only. If you are not on Windows, check out the [Storage Format (Linux)](/storage-format-(linux)) or [Storage Format (Mac)](/storage-format-(mac)) pages.
+This page is for Windows users only. If you are not on Windows, check out the [Storage Format (Linux)](storage-format-(linux)) or [Storage Format (Mac)](storage-format-(mac)) pages.
 
 ### What You Need
 

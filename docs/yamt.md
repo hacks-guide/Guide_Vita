@@ -13,7 +13,7 @@ By using the YAMT kernel plugin, the USB drive or microSD card you use will be m
 This will use FTP (File Transfer Protocol) to transfer the files, so your Vita and PC must be connected to the same network.
 
 ::: tip
-If you're using a USB drive or psvsd adapter, or if this method doesn't work for you, follow the [StorageMgr](/storagemgr) guide.
+If you're using a USB drive or psvsd adapter, or if this method doesn't work for you, follow the [StorageMgr](storagemgr) guide.
 :::
 
 ::: tip
@@ -21,7 +21,7 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 :::
 
 ::: warning
-Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Evo MicroSD card please follow the [StorageMgr](/storagemgr) guide.
+Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Evo MicroSD card please follow the [StorageMgr](storagemgr) guide.
 :::
 
 ### What You Need
@@ -64,7 +64,7 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
 1. Ensure `Target` is set to "SD2Vita" and `Filesystem` is set to "TexFAT"
 1. Press (Cross) on "Format target storage"
     + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
-    + If it still fails, follow the [StorageMgr](/storagemgr) guide
+    + If it still fails, follow the [StorageMgr](storagemgr) guide
 1. Press (Cross) on "Reboot your device"
 
 #### Section IV - Installing yamt-vita

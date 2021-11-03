@@ -58,5 +58,5 @@ Before starting, Windows users should enable the option to show file extensions 
 </table>
 
 ::: tip
-Firmware version 3.60 can be modified by using [HENkaku](/installing-henkaku), however it’s recommended to update to 3.73 for a simplified installation.
+Firmware version 3.60 can be modified by using [HENkaku](installing-henkaku), however it’s recommended to update to 3.73 for a simplified installation.
 :::

@@ -13,8 +13,6 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 Ensure your device has a battery charge of 50% or greater before proceeding.
 :::
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-
 ### What You Need
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)

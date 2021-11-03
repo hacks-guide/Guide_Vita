@@ -7,8 +7,6 @@ sidebar: false
 Special thanks to all of [the translators](https://crowdin.com/project/vita-guide) for being awesome!
 :::
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-
 <div>
   <div class="credits">
     <div class="user">

@@ -7,7 +7,7 @@ sidebar: false
 
 The HENkaku exploit is only compatible with the firmware version 3.60. As a result, lower firmware versions must update using a custom update server in order to use that exploit.
 
-Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.60, you should return to [Get Started](/get-started).
+Note that a custom update server can only update your device, not downgrade it. If you are on a firmware version higher than 3.60, you should return to [Get Started](get-started).
 
 ### What you need
 

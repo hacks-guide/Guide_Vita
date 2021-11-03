@@ -21,8 +21,6 @@ Unfortunately, a very small number of devices will be unable to downgrade to 3.6
 Ensure your device has a battery charge of 50% or greater before proceeding.
 :::
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-
 ### What You Need
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
@@ -87,10 +85,10 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 1. Launch the modoru application
 1. Press (Cross) to confirm the downgrade to firmware version 3.60
     + If you are given the message "Error you cannot go lower than your factory firmware.", you will be unable to downgrade to firmware version 3.60
-    + If you are currently on firmware version 3.65, proceed to [Installing Ensō (3.65)](/installing-enso-(3.65))
-    + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is 3.65 or lower, proceed to [Downgrading Firmware (3.65)](/downgrading-firmware-(3.65))
-    + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is greater than 3.65, proceed to [Configuring h-encore](/configuring-h-encore)
-    + If you are currently on a firmware above 3.69 and the listed "Factory firmware" is greater than 3.68, proceed to [Finalizing Setup](/finalizing-setup)
+    + If you are currently on firmware version 3.65, proceed to [Installing Ensō (3.65)](installing-enso-(3.65))
+    + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is 3.65 or lower, proceed to [Downgrading Firmware (3.65)](downgrading-firmware-(3.65))
+    + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is greater than 3.65, proceed to [Configuring h-encore](configuring-h-encore)
+    + If you are currently on a firmware above 3.69 and the listed "Factory firmware" is greater than 3.68, proceed to [Finalizing Setup](finalizing-setup)
 1. Press (Cross) to accept the terms and conditions
 1. Your device will begin the downgrade process
 1. Wait until the process is completed, your device will reboot automatically

@@ -3,7 +3,7 @@ module.exports = {
   
   locales: {
     lang: 'en-US',
-    title: 'PS Vita (TV) Hacks Guide',
+    title: 'Vita Guide',
     description: 'A complete guide to PS Vita (TV) custom firmware, from stock to Ensō.'
   },
   
@@ -24,18 +24,18 @@ module.exports = {
       {
         text: 'Guides',
         children: [
-          '/adrenaline',
+          'adrenaline',
           {
             text: 'SD2Vita',
-            link: '/yamt'
+            link: 'yamt'
           },
         ]
       },
       {
         text: 'Help',
         children: [
-          '/troubleshooting',
-          '/faq',
+          'troubleshooting',
+          'faq',
           {
             text: 'Discord',
             link: 'https://discord.gg/m7MwpKA'
@@ -45,9 +45,9 @@ module.exports = {
       {
         text: 'Site Info',
         children: [
-          '/donations',
-          '/credits',
-          '/site-navigation'
+          'donations',
+          'credits',
+          'site-navigation'
         ]
       },
     ],
@@ -57,12 +57,12 @@ module.exports = {
         {
           text: 'Guide',
           children: [
-            '/',
-            '/get-started',
-            '/updating-firmware-(3.73)',
-            '/installing-h-encore',
-            '/installing-enso',
-            '/finalizing-setup'
+            'index.html',
+            'get-started',
+            'updating-firmware-(3.73)',
+            'installing-h-encore',
+            'installing-enso',
+            'finalizing-setup'
           ],
         },
       ],
@@ -71,11 +71,11 @@ module.exports = {
         {
           text: 'Guide',
           children: [
-            '/',
-            '/get-started',
-            '/installing-henkaku',
-            '/installing-enso',
-            '/finalizing-setup'
+            'index.html',
+            'get-started',
+            'installing-henkaku',
+            'installing-enso',
+            'finalizing-setup'
           ],
         },
       ],

@@ -9,11 +9,9 @@ The h-encore exploit is only compatible with firmware versions 3.65 and above. A
 
 While the h-encore exploit itself is compatible with higher firmware versions, users on a firmware version under 3.65 should only update to firmware version 3.65 as it is the latest version which still supports the Ensō boot-time exploit.
 
-Note that a custom update application can only update your device, not downgrade it. If you are on a firmware version higher than 3.65, you should return to [Get Started](/get-started).
+Note that a custom update application can only update your device, not downgrade it. If you are on a firmware version higher than 3.65, you should return to [Get Started](get-started).
 
 ### What you need
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 
 * A FAT32 formatted USB drive with 150MB of free space
 * The `PSP2Updat.PUP` file corresponding to the firmware version you are attempting to update to

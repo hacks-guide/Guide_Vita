@@ -71,9 +71,9 @@ It is *not* recommended to make modifications to your Custom Firmware installati
 :::
 
 ::: tip
-For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](/yamt) page.
+For information on replacing your Sony memory card with alternative storage (such as a microSD card or USB drive), check out the [YAMT](yamt) page.
 :::
 
 ::: tip
-For information on installing CFW to the built-in PSP emulator, check out the [Adrenaline](/adrenaline) page.
+For information on installing CFW to the built-in PSP emulator, check out the [Adrenaline](adrenaline) page.
 :::
