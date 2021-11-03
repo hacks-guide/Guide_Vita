@@ -2,12 +2,6 @@
     "dependencies": {
         "yarn": "^1.22.17"
     },
-    "name": "cemu.cfw.guide",
-    "version": "1.0.0",
-    "main": "index.js",
-    "repository": "github.com/cfw-guide/cemu.cfw.guide",
-    "author": "emiyl <me@emiyl.com>",
-    "license": "MIT",
     "devDependencies": {
         "@vue/component-compiler-utils": "^3.3.0",
         "@vuepress/plugin-search": "^2.0.0-beta.26",
