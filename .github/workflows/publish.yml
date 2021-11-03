@@ -1,0 +1,39 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - docs/**
+      - .github/workflows/publish.yml
+      - package.json
+  workflow_dispatch:
+
+jobs:
+  doc-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          submodules: recursive
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '13'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run VuePress
+        # Build the site using VuePress
+        run: npm run docs:build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: docs/.vuepress/dist # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
