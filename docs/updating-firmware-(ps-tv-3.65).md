@@ -34,7 +34,7 @@ Note that a custom update application can only update your device, not downgrade
 1. Navigate to `Update System Software` -> `Update from USB Storage Device`
 1. Connect your USB drive to your PS TV
 1. Follow the prompts to update your device
-  + When the process has completed, your device will reboot automatically
+    + When the process has completed, your device will reboot automatically
 
 ::: tip
 Continue to [Installing h-encore](installing-h-encore)
