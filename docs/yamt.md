@@ -30,37 +30,24 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
   + This can be a microSD card to use in an SD2Vita or psvsd adapter, or a USB device for a PS TV console
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
   + Alternatively, you can also use the USB transfer feature of VitaShell
-* The latest release of [yamt-vita](https://github.com/SKGleba/yamt-vita/releases)
-* The latest release of [storageFormat](https://github.com/SKGleba/VitaTools/raw/main/storageFormat/build/storageFormat.vpk)
+* The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/download/v1.0/VitaDeploy.vpk)
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Installing YAMT VPK
 
-1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `yamt.vpk` to the `data` folder
-1. Transfer `storageFormat.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
-
-#### Section II - Installing VPKs
-
-1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Square) on each of the `.vpk` files to mark them
-1. Press (Triangle) to open the menu, then select "More" -> "Install all" to install the marked files
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install each time you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
-1. Press (Cross) to confirm the deletion
-1. Close the VitaShell application
+1. On your device, open VitaDeploy
+1. Press (Cross) on App Downloader
+1. Select (Cross) YAMT Installer
+1. Press (Cross) on Download the selected apps
+1. Once done Close out of the VitaDeploy application
 
 #### Section III - Formatting the microSD
 
 1. Insert your SD2Vita with the microSD card into your PS Vita or PS TV device
-1. Launch the storageFormat application
+1. Launch the VitaDeploy application
+1. Press (Cross) on Miscellaneous
+1. Press (Cross) on Format a storage device
 1. Ensure `Target` is set to "SD2Vita" and `Filesystem` is set to "TexFAT"
 1. Press (Cross) on "Format target storage"
     + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
