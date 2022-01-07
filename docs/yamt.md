@@ -32,7 +32,7 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
   + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/download/v1.0/VitaDeploy.vpk)
 
-### Instructio<ns
+### Instructions
 
 #### Section I - Installing YAMT VPK
 
