@@ -13,7 +13,7 @@ In addition to installing the h-encore exploit, we enable access to “unsafe”
 If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.73, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
 
 ::: tip
-If you are unable to get the finalhe method to work for any reason, or if you own a Mac/Linux computer, the [QCMA Backup method](installing-h-encore-(qcma)) QCMA Backup method will work as well.
+If you are unable to get the finalhe method to work for any reason, or if you own a Mac/Linux computer, the [QCMA Backup method](installing-h-encore-(qcma).md) QCMA Backup method will work as well.
 :::
 
 ::: tip
