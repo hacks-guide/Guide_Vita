@@ -40,6 +40,7 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
 1. Press (Cross) on App Downloader
 1. Select (Cross) YAMT Installer
 1. Press (Cross) on Download the selected apps
+1. Press (Cross) on `YAMT.vpk` and confirm with (Cross) again to install
 1. Once done Close out of the VitaDeploy application
 
 #### Section III - Formatting the microSD
