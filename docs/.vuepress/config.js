@@ -23,10 +23,16 @@ module.exports = {
     selectLanguageText: '<i class="fas fa-globe"/>',
     adTagOne: 'waldo-tag-5340',
     adTagTwo: 'waldo-tag-5340',
-    splashAd: [{
-      id: 'div-gpt-ad-1644457402236-0',
-      size: [970, 90]
-    }],
+    splashAd: [
+      {
+        id: 'div-gpt-ad-1644457402236-0',
+        size: [970, 90]
+      },
+      {
+        id: 'div-gpt-ad-1644457402236-0',
+        size: [970, 90]
+      },
+    ],
     locales: {
       '/': config.en_US.themeConfig
     },
