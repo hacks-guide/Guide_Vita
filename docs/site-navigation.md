@@ -21,6 +21,7 @@ ads: false
 + [Installing Ensō (3.65)](installing-enso-(3.65))
 + [Installing Ensō](installing-enso)
 + [Installing h-encore](installing-h-encore)
++ [Installing h-encore (QCMA method)](installing-h-encore-(qcma).md)
 + [Installing HENkaku](installing-henkaku)
 + [Privacy Policy](privacy-policy)
 + [Storage Format (Linux)](storage-format-(linux))
