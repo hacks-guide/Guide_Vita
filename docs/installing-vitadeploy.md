@@ -25,7 +25,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. Open your FTP client on your computer
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `VitaHBBrowser.vpk` to the `data/` folder
+1. Transfer `VitaDeploy.vpk` to the `data/` folder
 1. Press (Circle) on your device to close the FTP connection
 
 #### Section II - Installing the application
