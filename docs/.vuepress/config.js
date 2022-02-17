@@ -21,17 +21,9 @@ module.exports = {
 		docsBranch: "master",
 		docsDir: "docs",
     selectLanguageText: '<i class="fas fa-globe"/>',
-    adTagOne: 'waldo-tag-5340',
-    adTagTwo: 'waldo-tag-5340',
-    splashAd: [
-      {
-        id: 'div-gpt-ad-1644457402236-0',
-        size: [970, 90]
-      },
-      {
-        id: 'div-gpt-ad-1644457402236-0',
-        size: [970, 90]
-      },
+    adArr: [
+      { name: '/22046652915/vita-0', size: "['fluid']", id: 'div-gpt-ad-1645091079164-0' },
+      { name: '/22046652915/vita-1', size: "['fluid']", id: 'div-gpt-ad-1645091139070-0' }
     ],
     locales: {
       '/': config.en_US.themeConfig
