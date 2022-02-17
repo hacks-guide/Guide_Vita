@@ -1,6 +1,15 @@
 const config = require("./configs");
 const path = require("path");
 
+const adArr = [
+  { name: '/22046652915/vita-0', size: "['fluid']", id: 'div-gpt-ad-1645091079164-0' },
+  { name: '/22046652915/vita-1', size: "['fluid']", id: 'div-gpt-ad-1645091139070-0' }
+]
+
+const headAdScripts = adArr.map(ad => [ 'script', {}, `window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('${ad.name}', ${ad.size}, '${ad.id}').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.enableServices();});`])
+
+console.log(headAdScripts)
+
 module.exports = {
   locales: {
     '/': config.en_US.locales
@@ -21,10 +30,7 @@ module.exports = {
 		docsBranch: "master",
 		docsDir: "docs",
     selectLanguageText: '<i class="fas fa-globe"/>',
-    adArr: [
-      { name: '/22046652915/vita-0', size: "['fluid']", id: 'div-gpt-ad-1645091079164-0' },
-      { name: '/22046652915/vita-1', size: "['fluid']", id: 'div-gpt-ad-1645091139070-0' }
-    ],
+    adArr: adArr,
     locales: {
       '/': config.en_US.themeConfig
     },
@@ -46,9 +52,9 @@ module.exports = {
     [ 'meta', { name: 'msapplication-config', content: '/assets/images/browserconfig.xml?v=PYEmwKvQAx' } ],
     [ 'meta', { name: 'theme-color', content: '#2E3440' } ],
     [ 'link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' } ],
-    [ 'script', { src: 'https://cdn.thisiswaldo.com/static/js/5303.js'} ],
     [ 'script', { src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'} ],
 		[ 'script', {}, 'function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-152619365-1");' ],
+    ...headAdScripts,
   ],
 
   theme: path.resolve(__dirname, './vuepress-theme'),
