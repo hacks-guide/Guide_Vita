@@ -13,6 +13,10 @@ In addition to installing the h-encore exploit, we enable access to “unsafe”
 If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.73, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
 
 ::: tip
+If you are unable to get the finalhe method to work for any reason, or if you own a Mac/Linux computer, the [QCMA Backup method](installing-h-encore-(qcma).md) QCMA Backup method will work as well.
+:::
+
+::: tip
 If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
 :::
 
