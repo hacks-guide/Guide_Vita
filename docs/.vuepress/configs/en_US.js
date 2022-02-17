@@ -18,7 +18,7 @@ module.exports = {
   	selectLanguageAriaLabel: "Select language",
   	toggleDarkMode: "Toggle dark mode",
   	toggleSidebar: "Toggle sidebar",
-  	discordNoticeText: "For support in English, ask for help at <a href='https://discord.gg/m7MwpKA' target='_blank'>HENkaku on Discord</a>.",
+  	discordNoticeText: "For support in English, ask for help at [HENkaku on Discord](https://discord.gg/m7MwpKA).",
       
     navbar: [
       {
