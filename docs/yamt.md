@@ -10,8 +10,6 @@ YAMT (Yet Another Mount Tool) is a multi-purpose kernel plugin for the PS Vita (
 
 By using the YAMT kernel plugin, the USB drive or microSD card you use will be mounted to `ux0:` just like a Sony memory card. This is very useful because microSD cards are significantly cheaper than Sony memory cards (especially at higher capacities).
 
-This will use FTP (File Transfer Protocol) to transfer the files, so your Vita and PC must be connected to the same network.
-
 ::: tip
 If you're using a USB drive or psvsd adapter, or if this method doesn't work for you, follow the [StorageMgr](storagemgr) guide.
 :::
@@ -28,8 +26,6 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
 
 * A storage device compatible with your system
   + This can be a microSD card to use in an SD2Vita or psvsd adapter, or a USB device for a PS TV console
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/download/v1.0/VitaDeploy.vpk)
 
 ### Instructions
