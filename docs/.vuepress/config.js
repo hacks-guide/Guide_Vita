@@ -1,6 +1,11 @@
 const config = require("./configs");
 const path = require("path");
 
+const adArr = [
+  { slot: '/22046652915/vita-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645091079164-0' },
+  { slot: '/22046652915/vita-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645091139070-0' }
+]
+
 module.exports = {
   locales: {
     '/': config.en_US.locales
@@ -21,10 +26,7 @@ module.exports = {
 		docsBranch: "master",
 		docsDir: "docs",
     selectLanguageText: '<i class="fas fa-globe"/>',
-    adArr: [
-      { slot: '/22046652915/vita-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645091079164-0' },
-      { slot: '/22046652915/vita-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645091139070-0' }
-    ],
+    adArr: adArr,
     locales: {
       '/': config.en_US.themeConfig
     },
@@ -49,6 +51,7 @@ module.exports = {
     [ 'script', { src: 'https://cdn.thisiswaldo.com/static/js/5303.js' } ],
     [ 'script', { src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'} ],
 		[ 'script', {}, 'function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-152619365-1");' ],
+    require('plugins/createAdScript/lib')(adArr)
   ],
 
   theme: path.resolve(__dirname, './vuepress-theme'),
