@@ -51,7 +51,7 @@ module.exports = {
     [ 'script', { src: 'https://cdn.thisiswaldo.com/static/js/5303.js' } ],
     [ 'script', { src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'} ],
 		[ 'script', {}, 'function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-152619365-1");' ],
-    require('plugins/createAdScript/lib')(adArr)
+    require('./plugins/createAdScript/lib/')(adArr)
   ],
 
   theme: path.resolve(__dirname, './vuepress-theme'),
