@@ -71,7 +71,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
 #### Section V - Restoring Data
 
 ::: tip
-This section will copy the data from your old Sony memory card to your new storage device.
+This section will copy the data from your old Sony memory card (or internal storage if you dont have a Sony memory card) to your new storage device.
 :::
 
 1. Power on your device to reboot
