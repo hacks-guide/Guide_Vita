@@ -29,6 +29,7 @@ ads: false
 + [Storage Format (Windows)](storage-format-(windows))
 + [StorageMgr](storagemgr)
 + [Troubleshooting](troubleshooting)
++ [Uninstalling CFW](uninstalling-cfw.md)
 + [Updating Firmware (3.60)](updating-firmware-(3.60))
 + [Updating Firmware (3.73)](updating-firmware-(3.73))
 + [Updating Firmware (PS TV 3.65)](updating-firmware-(ps-tv-3.65))
