@@ -43,6 +43,24 @@ Special thanks to all of [the translators](https://crowdin.com/project/vita-guid
   </div>
 </div>
 
+<div>
+  <div class="credits">
+    <div class="user">
+      <img src="https://github.com/takoyaki99.png">
+    </div>
+    <div class="user">
+      <h3>takoyaki99</h3>
+      <p>takoyaki</p>
+      <a class="social-icon" href="https://forums.bulbagarden.net/index.php?members/113757/" target="_blank">
+        <i class="fa-solid fa-at"></i>
+      </a>
+      <a class="social-icon" href="https://github.com/takoyaki99" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
 <br>
 
 If we forgot you here, contact us and we'll add your name.
@@ -57,4 +75,4 @@ If we forgot you here, contact us and we'll add your name.
     + xyz
     + YifanLu
     + SKGleba
-    + takoyaki
+  
