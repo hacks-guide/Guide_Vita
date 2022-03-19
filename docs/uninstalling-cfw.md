@@ -35,6 +35,8 @@ You will COMPLETELY uninstall the Henkaku Ensō custom firmware from your device
 1. Click "Yes" to the onscreen prompt to confirm the closing of all other running applications.
 1. Scroll to the bottom of the Software License Agreement and click "Accept".
 1. Click the "Update" button to update the system software and remove Henkaku Ensō.
-1. The Vita will now download and install the system software update.
+2.     + If you are unsure about updating, click "Do Not Accept" on the Software License Agreement.
+3. The Vita will now download and install the system software update.
+    + This process will take some time. Once the Vita fully downloads the update, the installation process cannot be cancelled. 
 
 Your device will then install firmware version 3.73, and Henkaku Ensō will be wiped from your system. Once finished, it will reboot into stock mode. User-installed titles will still show up on the screen, however they will not be accessible. Delete the bubbles or format your device if this is a problem.
