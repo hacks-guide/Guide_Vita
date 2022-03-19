@@ -7,7 +7,7 @@ title: "Uninstalling CFW"
 This guide will completely uninstall the Henkaku Ensō custom firmware (CFW) from your PlayStation Vita (TV), and revert it back to "stock". Please proceed with caution. VPK or PKG files installed with homebrew will not run on stock firmware.
 
 ::: danger
-You will COMPLETELY uninstall the Henkaku Ensō custom firmware from your device. To reinstall, go through the process detailed in this guide again. If anything goes wrong, there is no recovery. You take sole responsibility in what happens to your device.
+You will COMPLETELY uninstall the Henkaku Ensō custom firmware from your device. To reinstall, go through the process detailed in the guide again. If anything goes wrong, there is no recovery. You take sole responsibility in what happens to your device.
 :::
 
 ### What You Need
