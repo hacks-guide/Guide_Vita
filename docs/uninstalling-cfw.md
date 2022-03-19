@@ -12,7 +12,7 @@ You will COMPLETELY uninstall the Henkaku Ensō custom firmware from your device
 
 ### What You Need
 
-* A Henkaku Ensō console on 3.65 or 3.60
+* A Henkaku Ensō console on system firmware 3.65 or 3.60
   + If you only have h-encore installed (and aren't running Ensō for whatever reason), reboot your console to remove CFW.
 * An Internet connection
   + Make sure that Flight Mode is disabled and Wi-Fi is enabled.
