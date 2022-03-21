@@ -29,6 +29,10 @@ module.exports = {
             text: 'SD2Vita',
             link: 'yamt'
           },
+           {
+            text: 'Uninstalling CFW',
+            link: 'uninstalling-cfw.md'
+          },
         ]
       },
       {
