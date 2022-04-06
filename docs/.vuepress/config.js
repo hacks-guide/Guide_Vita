@@ -2,8 +2,8 @@ const config = require("./configs");
 const path = require("path");
 
 const adArr = [
-  { slot: '/22046652915/vita-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645091079164-0' },
-  { slot: '/22046652915/vita-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645091139070-0' }
+  { slot: '/22046652915/vita-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649073007284-0' },
+  { slot: '/22046652915/vita-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649073038121-0' }
 ]
 
 module.exports = {
