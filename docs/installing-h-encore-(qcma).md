@@ -51,12 +51,12 @@ This method should be used if the finalhe method of hacking your Vita does not w
 
 #### Section III - Opening h-encore
 
-1. Launch the h-encore² application while holding down the (R) button
-    + If prompted about trophies, select "Yes" while continuing to hold down the (R) button
+1. Launch the h-encore² application while holding down the <Btn btn="r" /> button
+    + If prompted about trophies, select "Yes" while continuing to hold down the <Btn btn="r" /> button
 1. If the exploit was successful, you will now see the h-encore bootstrap menu
     + If the exploit gets stuck, reboot your device and try again
     + If you can't reboot normally, hold the power button down for over 30 seconds to force a reboot
-1. Press (Cross) to exit the application
+1. Press <Btn btn="confirm" /> to exit the application
 
 #### Section IV - Configuring HENkaku
 
@@ -66,3 +66,7 @@ This method should be used if the finalhe method of hacking your Vita does not w
 1. Check "Enable Unsafe Homebrew"
 1. Return to HENkaku Settings menu
 1. Close the Settings application
+
+::: tip
+You can change your <Btn btn="circle" /> button behavior now. If you do, change it for the guide too: <BtnToggler />
+:::

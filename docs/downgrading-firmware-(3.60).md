@@ -31,43 +31,43 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 #### Section I - Prep Work
 
 1. Launch the VitaShell application
-1. Press (Start) to open the VitaShell settings
-1. Press (Cross) on "SELECT button" to change the mode to "FTP"
+1. Press <Btn btn="START" /> to open the VitaShell settings
+1. Press <Btn btn="confirm" /> on "SELECT button" to change the mode to "FTP"
     + Alternatively, you can leave this setting on "USB" and transfer all files via a USB cable for the remainder of this guide
     + Note that the USB transfer mode will start you in the ux0 partition
     + Additionally, some files will be hidden in USB mode on Windows; you must enable "Show hidden files, folders, and drives" and disable "Hide protected operating system files" in the File Explorer options in order to see all files
-1. Press (Circle) to close the VitaShell settings
-1. Press (Select) to enable FTP access on your device
+1. Press <Btn btn="cancel" /> to close the VitaShell settings
+1. Press <Btn btn="SELECT" /> to enable FTP access on your device
 1. Open your FTP client on your computer
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, navigate to `ux0:` -> `data/`
 1. Transfer `modoru.vpk` to the `data` folder
 1. Transfer `PSP2UPDAT.PUP` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
+1. Press <Btn btn="cancel" /> on your device to close the FTP connection
 
 #### Section II - Installing modoru
 
 1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Cross) on `modoru.vpk` to install it
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install when you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete `modoru.vpk`
-1. Press (Cross) to confirm the deletion
-1. Press (Triangle) on `PSP2UPDAT.PUP` to open the menu, then select "Copy"
-1. Press (Cross) to dismiss the copied file dialogue box
-1. Press (Circle) to return to the `ux0:` partition
+1. Press <Btn btn="confirm" /> on `modoru.vpk` to install it
+1. Press <Btn btn="confirm" /> to confirm the install
+1. Press <Btn btn="confirm" /> to continue the install when you are prompted about extended permissions
+1. Press <Btn btn="triangle" /> to open the menu, then select "Delete" to delete `modoru.vpk`
+1. Press <Btn btn="confirm" /> to confirm the deletion
+1. Press <Btn btn="triangle" /> on `PSP2UPDAT.PUP` to open the menu, then select "Copy"
+1. Press <Btn btn="confirm" /> to dismiss the copied file dialogue box
+1. Press <Btn btn="cancel" /> to return to the `ux0:` partition
 1. Navigate to `app` -> `MODORU000`
-1. Press (Triangle) to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
-1. Press (Circle) to return to the `ux0:` partition
-1. Press (Triangle) on `tai` to open the menu, then select "Delete" to delete the `tai` folder
-1. Press (Cross) to confirm the deletion
+1. Press <Btn btn="triangle" /> to open the menu, then select "Paste" to paste `PSP2UPDAT.PUP` in the current folder
+1. Press <Btn btn="cancel" /> to return to the `ux0:` partition
+1. Press <Btn btn="triangle" /> on `tai` to open the menu, then select "Delete" to delete the `tai` folder
+1. Press <Btn btn="confirm" /> to confirm the deletion
 1. Close the VitaShell application
 
 #### Section III - Downgrading Prep
 
 1. Reboot your device
-1. Launch the h-encore application while holding (R)
-    + If prompted about trophies, continue holding (R) and select "Yes"
+1. Launch the h-encore application while holding <Btn btn="r" />
+    + If prompted about trophies, continue holding <Btn btn="r" /> and select "Yes"
 1. If the exploit was successful, you will now see the h-encore bootstrap menu
     + If the exploit is stuck on a white screen, simply close the application (which will cause a crash and reboot your device), then try again
     + If it is still stuck, hold the power button down for over 30 seconds to force a reboot, then try again
@@ -83,13 +83,13 @@ Ensure your device has a battery charge of 50% or greater before proceeding.
 #### Section IV - Downgrading
 
 1. Launch the modoru application
-1. Press (Cross) to confirm the downgrade to firmware version 3.60
+1. Press <Btn btn="confirm" /> to confirm the downgrade to firmware version 3.60
     + If you are given the message "Error you cannot go lower than your factory firmware.", you will be unable to downgrade to firmware version 3.60
     + If you are currently on firmware version 3.65, proceed to [Installing Ensō (3.65)](installing-enso-(3.65))
     + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is 3.65 or lower, proceed to [Downgrading Firmware (3.65)](downgrading-firmware-(3.65))
     + If you are currently on a firmware version above 3.65 and the listed "Factory firmware" is greater than 3.65, proceed to [Configuring h-encore](configuring-h-encore)
     + If you are currently on a firmware above 3.69 and the listed "Factory firmware" is greater than 3.68, proceed to [Finalizing Setup](finalizing-setup)
-1. Press (Cross) to accept the terms and conditions
+1. Press <Btn btn="confirm" /> to accept the terms and conditions
 1. Your device will begin the downgrade process
 1. Wait until the process is completed, your device will reboot automatically
 

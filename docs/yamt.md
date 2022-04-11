@@ -33,23 +33,23 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
 #### Section I - Installing YAMT VPK
 
 1. On your device, open VitaDeploy
-1. Press (Cross) on App Downloader
-1. Select (Cross) YAMT Installer
-1. Press (Cross) on Download the selected apps
-1. Press (Cross) on `YAMT.vpk` and confirm with (Cross) again to install
+1. Press <Btn btn="confirm" /> on App Downloader
+1. Select <Btn btn="confirm" /> YAMT Installer
+1. Press <Btn btn="confirm" /> on Download the selected apps
+1. Press <Btn btn="confirm" /> on `YAMT.vpk` and confirm with <Btn btn="confirm" /> again to install
 1. Once done Close out of the VitaDeploy application
 
 #### Section III - Formatting the microSD
 
 1. Insert your SD2Vita with the microSD card into your PS Vita or PS TV device
 1. Launch the VitaDeploy application
-1. Press (Cross) on Miscellaneous
-1. Press (Cross) on Format a storage device
+1. Press <Btn btn="confirm" /> on Miscellaneous
+1. Press <Btn btn="confirm" /> on Format a storage device
 1. Ensure `Target` is set to "SD2Vita" and `Filesystem` is set to "TexFAT"
-1. Press (Cross) on "Format target storage"
+1. Press <Btn btn="confirm" /> on "Format target storage"
     + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
     + If it still fails, follow the [StorageMgr](storagemgr) guide
-1. Press (Cross) on "Reboot your device"
+1. Press <Btn btn="confirm" /> on "Reboot your device"
 
 #### Section IV - Installing yamt-vita
 
@@ -58,7 +58,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
 
 1. Power on your device to reboot
 1. Launch the YAMT Installer application
-1. Press (Cross) on `-> Install the lite version`
+1. Press <Btn btn="cross" /> on `-> Install the lite version`
     + Once finished, your device will reboot
 1. Open the Settings application
 1. Navigate to `Devices` -> `Storage Devices`
@@ -79,15 +79,15 @@ This section will copy the data from your old Sony memory card (or internal stor
 1. Navigate to the `ux0:` partition
     + This is currently your official memory card or internal storage
 1. Press down on the D-Pad to highlight a folder or file
-1. Press (Triangle) to bring up the menu
-1. Press (Cross) on "Mark all" to select all folders and files in the `ux0:` partition
-1. Press (Triangle) again to bring up the menu
-1. Press (Cross) on "Copy"
-1. Press (Cross) again when prompted
+1. Press <Btn btn="triangle" /> to bring up the menu
+1. Press <Btn btn="confirm" /> on "Mark all" to select all folders and files in the `ux0:` partition
+1. Press <Btn btn="triangle" /> again to bring up the menu
+1. Press <Btn btn="confirm" /> on "Copy"
+1. Press <Btn btn="confirm" /> again when prompted
 1. Navigate out of the `ux0:` partition and enter the `uma0:` partition
     + This is your unofficial storage device's memory
-1. Press (Triangle) to bring up the menu
-1. Press (Cross) on paste and wait for it to finish
+1. Press <Btn btn="triangle" /> to bring up the menu
+1. Press <Btn btn="confirm" /> on paste and wait for it to finish
 1. Once done, exit VitaShell and open the Settings application
 1. Navigate to `Devices` -> `Storage Devices`
 1. Set `ux0:` to "SD2Vita"

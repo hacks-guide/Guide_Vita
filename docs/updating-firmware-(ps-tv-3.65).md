@@ -30,7 +30,7 @@ Note that a custom update application can only update your device, not downgrade
 
 1. Power off your PS TV completely
 1. Hold the power button for at least 7 seconds to boot into safe-mode
-1. Connect a controller using a USB cable, then press the (PS) button
+1. Connect a controller using a USB cable, then press the <Btn btn="PS" /> button
 1. Navigate to `Update System Software` -> `Update from USB Storage Device`
 1. Connect your USB drive to your PS TV
 1. Follow the prompts to update your device

@@ -1,0 +1,16 @@
+kbd {
+	&.l {
+		border-radius: 15px 6px 6px 6px;
+		padding: 0 3px 0 7px;
+	}
+
+	&.r {
+		border-radius: 6px 15px 6px 6px;
+		padding: 0 7px 0 3px;
+	}
+
+	&.face {
+		padding: 0 6px;
+		border-radius: 15px;
+	}
+}

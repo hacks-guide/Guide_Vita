@@ -11,7 +11,7 @@ As a result, you will have to perform the h-encore exploit manually after each r
 
 ### Instructions
 
-1. Launch the h-encore application while holding (R)
+1. Launch the h-encore application while holding <Btn btn="r" />
 1. Select "Personalize savedata"
 1. Select "Exit"
 

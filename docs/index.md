@@ -30,6 +30,11 @@ Click the language button at the top right of the page to change the language.
 Alternatively, click [here](https://crowdin.com/project/vita-guide) to help to keep these translations up to date.
 :::-->
 
+::: tip
+**Important**: Please select your button layout: <BtnToggler />
+
+:::
+
 ## What is Homebrew?
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Sony. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.

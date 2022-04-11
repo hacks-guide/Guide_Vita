@@ -35,7 +35,7 @@ You must have already installed VitaShell to use this.
 #### Section I - Installing Plugins
 
 1. Launch the VitaShell application
-1. Press (Select) to enable FTP access on your device
+1. Press <Btn btn="SELECT" /> to enable FTP access on your device
 1. Open your FTP client on your computer
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, copy all files from `ux0:tai/` to `ur0:tai/`
@@ -61,7 +61,7 @@ This section will copy the data from your old Sony memory card to your new stora
     + This may take some time if you have a large amount of data on your Sony memory card
     + Do not copy the `ux0:` folder itself to your new storage device
 1. Insert your new storage device into your PS Vita (TV)
-1. Press (Circle) on your device to close the FTP connection
+1. Press <Btn btn="cancel" /> on your device to close the FTP connection
 1. Close the VitaShell application
 1. Reboot your device
     + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew

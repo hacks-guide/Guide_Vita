@@ -29,18 +29,18 @@ In order to install the necessary applications on your device, we use the VitaDe
 1. Tap "Download the selected apps"
 1. Wait for the app to finish downloading
     + When finished, you should be presented with a list of two `.vpk` files
-1. Press (Triangle) to open the side menu
-1. Press (Cross) on "Mark all"
-1. Press (Triangle) to open the side menu again
-1. Press (Cross) on "More"
-1. Press (Cross) on "Install all"
-1. Press (Cross) to confirm the install
-1. Press (Cross) to confirm the install again when prompted
+1. Press <Btn btn="triangle" /> to open the side menu
+1. Press <Btn btn="confirm" /> on "Mark all"
+1. Press <Btn btn="triangle" /> to open the side menu again
+1. Press <Btn btn="confirm" /> on "More"
+1. Press <Btn btn="confirm" /> on "Install all"
+1. Press <Btn btn="confirm" /> to confirm the install
+1. Press <Btn btn="confirm" /> to confirm the install again when prompted
 
 #### Section II - Installing iTLS
 
 1. Open the iTLS-Enso application
-1. Press (Cross) on "Install the full iTLS package"
+1. Press <Btn btn="cross" /> on "Install the full iTLS package"
     + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
 1. Wait for your device to reboot
 
