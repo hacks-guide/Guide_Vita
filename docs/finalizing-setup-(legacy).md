@@ -36,11 +36,11 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 #### Section I - Prep Work
 
 1. Launch the VitaShell application
-1. Press (Start) to open the VitaShell settings
-1. Press (Cross) on "SELECT button" to change the mode to "FTP"
+1. Press <Btn btn="START" /> to open the VitaShell settings
+1. Press <Btn btn="confirm" /> on "SELECT button" to change the mode to "FTP"
     + You cannot use USB file transfer for this section
-1. Press (Circle) to close the VitaShell settings
-1. Press (Select) to enable FTP access on your device
+1. Press <Btn btn="cancel" /> to close the VitaShell settings
+1. Press <Btn btn="SELECT" /> to enable FTP access on your device
 1. Open your FTP client on your computer
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, navigate to `ux0:`
@@ -59,25 +59,25 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. Transfer `shellbat.suprx` to the `tai/` folder
 1. Transfer `pngshot.suprx` to the `tai/` folder
 1. Transfer `PSVshell.skprx` to the `tai/` folder
-1. Press (Circle) on your device to close the FTP connection
+1. Press <Btn btn="cancel" /> on your device to close the FTP connection
     + For more information on plugins and their installation, read [this webpage](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)
 
 #### Section II - Installing homebrew applications
 
 1. Launch the VitaShell application
 1. Navigate to `ux0:` -> `data/`
-1. Press (Triangle) to open the side menu
-1. Press (Cross) on "Mark all"
-1. Press (Triangle) to open the side menu again
-1. Press (Cross) on "More"
-1. Press (Cross) on "Install all"
-1. Press (Cross) to confirm the install
-1. Press (Cross) to confirm the install again when prompted
+1. Press <Btn btn="triangle" /> to open the side menu
+1. Press <Btn btn="confirm" /> on "Mark all"
+1. Press <Btn btn="triangle" /> to open the side menu again
+1. Press <Btn btn="confirm" /> on "More"
+1. Press <Btn btn="confirm" /> on "Install all"
+1. Press <Btn btn="confirm" /> to confirm the install
+1. Press <Btn btn="confirm" /> to confirm the install again when prompted
 
 #### Section III - Installing iTLS
 
 1. Open the iTLS-Enso application
-1. Press (Cross) on "Install the full iTLS package"
+1. Press <Btn btn="cross" /> on "Install the full iTLS package"
     + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
 1. Wait for your device to reboot
 

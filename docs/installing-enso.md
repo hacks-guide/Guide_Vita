@@ -27,9 +27,9 @@ This mod will make PERMANENT modifications to your device. If anything goes wron
 1. Tap "Quick 3.65 Install"
     + You must be connected to the internet to use this
 1. Wait for the components to download
-1. Press (Cross) to confirm
+1. Press <Btn btn="cross" /> to confirm
 1. Read the notice given on the screen and wait 20 seconds
-1. Press (Cross) again to confirm
+1. Press <Btn btn="cross" /> again to confirm
     + If you changed your mind, you can press R to exit instead
 
 Your device will then install firmware version 3.65, alongside with HENkaku Ensō. Once finished, it will reboot into CFW mode.

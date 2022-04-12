@@ -39,16 +39,16 @@ If you have VitaShell installed from a previous homebrew installation, HENkaku w
 #### Section II - Installing VitaDeploy
 
 1. Launch the molecularShell application
-1. Press (Select) to enable FTP access on your device
+1. Press <Btn btn="SELECT" /> to enable FTP access on your device
 1. Open your FTP client on your computer
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, navigate to `ux0:` -> `data/`
 1. Transfer `VitaDeploy.vpk` to the `data` folder
-1. Press (Circle) on your device to close the FTP connection
+1. Press <Btn btn="cancel" /> on your device to close the FTP connection
 1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Cross) on `VitaDeploy.vpk` to install it
-1. Press (Cross) again to confirm the install
-1. Press (Cross) once more to confirm again
+1. Press <Btn btn="confirm" /> on `VitaDeploy.vpk` to install it
+1. Press <Btn btn="confirm" /> again to confirm the install
+1. Press <Btn btn="confirm" /> once more to confirm again
 1. Close the molecularShell application
 
 #### Section III - Configuring HENkaku
@@ -58,3 +58,7 @@ If you have VitaShell installed from a previous homebrew installation, HENkaku w
 1. Check "Enable Unsafe Homebrew"
 1. Return to HENkaku Settings menu
 1. Close the Settings application
+
+::: tip
+You can change your <Btn btn="circle" /> button behavior now. If you do, change it for the guide too: <BtnToggler />
+:::
