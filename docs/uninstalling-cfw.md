@@ -29,10 +29,10 @@ This will delete all plugins from your system. If you wish to keep plugins for w
 1. Navigate to the "ur0:" directory.
   + If you have installed plugins or have a folder named "tai" in the "ux0:" directory, go there instead.
 1. Navigate to the folder named "tai". This folder hosts all plugins and configurations for plugins.
-1. Click the Square button to highlight it.
+1. Click the <Btn btn="square" /> button to highlight it.
 1. Navigate to the folder named "tai_old".
-1. Click the Square button to highlight it.
-1. Click the Triangle button to open the side menu, and navigate to "Delete". Click the "Yes" option.
+1. Click the <Btn btn="square" /> button to highlight it.
+1. Click the <Btn btn="triangle" /> button to open the side menu, and navigate to "Delete". Click the "Yes" option.
 1. Check the "ux0:" (or "ur0:" directory) for the "tai" or "tai_old" folders. If they are there, delete those as well.
 1. Your plugin folders have now been deleted.
 1. Exit out of the VitaShell application.
@@ -43,7 +43,7 @@ This will delete all plugins from your system. If you wish to keep plugins for w
 1. Navigate to "HENkaku Settings".
 1. Disable the "Enable Version Spoofing" setting if it is on. 
 1. Reboot your device.
-1. While the console is starting, hold the L button. This will disable any plugins running on your Vita.
+1. While the console is starting, hold the <Btn btn="l" /> button. This will disable any plugins running on your Vita.
 1. Once the console has been rebooted, open the Settings application.
 1. Navigate to "System".
 1. Click on "System Information", and verify that the System Software does not say 3.73 or 変革.
