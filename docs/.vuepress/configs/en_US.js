@@ -56,7 +56,7 @@ module.exports = {
       },
     ],
       
-    sidebar: {
+     sidebar: {
       '/': [
         {
           text: 'Guide',
@@ -65,6 +65,9 @@ module.exports = {
             'get-started',
             'updating-firmware-(3.73)',
             'installing-h-encore',
+             children: [
+             'uninstalling-cfw.md',
+              ],
             'installing-enso',
             'finalizing-setup'
           ],
