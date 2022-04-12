@@ -56,7 +56,7 @@ module.exports = {
       },
     ],
       
-     sidebar: {
+    sidebar: {
       '/': [
         {
           text: 'Guide',
