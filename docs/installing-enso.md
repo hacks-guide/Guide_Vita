@@ -33,3 +33,7 @@ This mod will make PERMANENT modifications to your device. If anything goes wron
     + If you changed your mind, you can press R to exit instead
 
 Your device will then install firmware version 3.65, alongside with HENkaku Ensō. Once finished, it will reboot into CFW mode.
+
+::: danger
+If you get a prompt "Do you want to transfer the data on the internal memory card to the removable memory card?" when rebooting, select "No". Selecting "Yes" would delete the data on your Memory Card.
+:::
