@@ -39,7 +39,7 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
 1. Press <Btn btn="confirm" /> on `YAMT.vpk` and confirm with <Btn btn="confirm" /> again to install
 1. Once done Close out of the VitaDeploy application
 
-#### Section III - Formatting the microSD
+#### Section II - Formatting the microSD
 
 1. Insert your SD2Vita with the microSD card into your PS Vita or PS TV device
 1. Launch the VitaDeploy application
@@ -51,7 +51,7 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
     + If it still fails, follow the [StorageMgr](storagemgr) guide
 1. Press <Btn btn="confirm" /> on "Reboot your device"
 
-#### Section IV - Installing yamt-vita
+#### Section III - Installing yamt-vita
 
 If you previously installed StorageMgr or another storage plugin, please remove it from your `ux0:tai/` or `ur0:tai/` folder before continuing.
 {: .notice--info}
@@ -68,7 +68,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
 1. Set `uma0:` to "SD2Vita"
 1. Hold the power button and select "Power Off"
 
-#### Section V - Restoring Data
+#### Section IV - Restoring Data
 
 ::: tip
 This section will copy the data from your old Sony memory card (or internal storage if you dont have a Sony memory card) to your new storage device.
