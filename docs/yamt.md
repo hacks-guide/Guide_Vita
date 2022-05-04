@@ -72,7 +72,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
     + If it still fails, follow the [StorageMgr](storagemgr) guide
 1. Press <Btn btn="confirm" /> on "Reboot your device"
 
-#### Section IV - Transfewwing Data
+#### Section IV - Transferring Data
 
 ::: tip
 This section will copy the data from your old Sony memory card (or internal storage if you dont have a Sony memory card) to your new storage device.
