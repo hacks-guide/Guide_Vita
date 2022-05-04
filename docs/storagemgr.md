@@ -17,6 +17,16 @@ This will use FTP (File Transfer Protocol) to transfer the files, so your Vita a
 You must have already installed VitaShell to use this.
 :::
 
+::: warning
+If you previously installed "YAMT" or have used the `3.65 Quick Install` option in Vitadeploy, please uninstall YAMT first by deleting the following files from your `ur0:tai` folder:
+  
+  + `yamt.cfg`
+  + `yamt.skprx`
+  + `yamt.suprx`
+  + `yamt_helper.skprx`
+
+:::
+
 ### What You Need
 
 * A formatted storage device compatible with your system
