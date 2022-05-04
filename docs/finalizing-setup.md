@@ -37,6 +37,10 @@ In order to install the necessary applications on your device, we use the VitaDe
 1. Press <Btn btn="confirm" /> to confirm the install
 1. Press <Btn btn="confirm" /> to confirm the install again when prompted
 
+::: warning
+Vita Homebrew Browser may take several minutes to load when launched for the first time.
+:::
+
 #### Section II - Installing iTLS
 
 1. Open the iTLS-Enso application
