@@ -32,10 +32,6 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
 
 #### Section I - Installing YAMT VPK
 
-::: tip
-If you did the `3.65 Quick Install` of VitaDeploy, you already have YAMT installed and can skip to the next section.
-:::
-
 1. On your device, open VitaDeploy
 1. Press <Btn btn="confirm" /> on App Downloader
 1. Select <Btn btn="confirm" /> YAMT Installer
