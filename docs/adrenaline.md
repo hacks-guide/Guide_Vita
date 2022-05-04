@@ -47,7 +47,7 @@ You must have already installed VitaShell to use this.
 
 1. Press <Btn btn="cancel" /> to return to `ux0:`
 1. Navigate to `tai/`
-    + If `ux0:tai` doesn't exist, press <Btn btn="cancel" /> again and then navigate to `ur0:tai`
+    + If `ux0:tai` doesn't exist or does not contain a `config.txt`, press <Btn btn="cancel" /> again and then navigate to `ur0:tai`
 1. Press <Btn btn="confirm" /> on `config.txt` to open it in the editor
 1. Highlight the `*KERNEL` line with the cursor
 1. Press <Btn btn="triangle" /> to open the menu, then select "Insert empty line"
@@ -69,7 +69,8 @@ You must have already installed VitaShell to use this.
     + This process will take some time
     + If the download fails, the downloader will get confused and begin to give you the error `Cannot find ux0:/app/PSPEMUCFW/661.PBP`
     + If you encounter the above error, use VitaShell to delete the `ux0:app/PSPEMUCFW/flash0/` folder, then try again
-    + If you still encounter this error, manually download [EBOOT.PBP](http://de01.psp.update.playstation.org/update/psp/image/eu/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP), rename it to `661.PBP`, then transfer it to `ux0:app/PSPEMUCFW/` using VitaShell
+    + If the flash0 folder was not present, or you still encounter this error, manually download [EBOOT.PBP](http://de01.psp.update.playstation.org/update/psp/image/eu/2014_1212_6be8878f475ac5b1a499b95ab2f7d301/EBOOT.PBP), rename it to `661.PBP`, then transfer it to `ux0:app/PSPEMUCFW/` using VitaShell
+    + Rename the `EBOOT.PBP` to `661.PBP` *before* transferring it, otherwise you might overwrite another file with the same name in `ux0:app/PSPEMUCFW/`!
     + The Adrenaline application will close automatically when the download is complete
 1. Re-launch the Adrenaline application
 1. Press <Btn btn="cross" /> to install PSP 6.61 the firmware

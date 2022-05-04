@@ -6,7 +6,7 @@ title: "Finalizing Setup"
 
 We will now setup the following applications:
 
-+  **[Better Homebrew Browser](https://github.com/Ibrahim778/BetterHomebrewBrowser/releases/)** *(allows for installation of homebrew applications from [VitaDB](https://vitadb.rinnegatamante.it/) or [CBPS-DB](https://db.cbps.xyz/))*
++  **[Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/)** *(allows for installation of homebrew applications from [VitaDB](https://vitadb.rinnegatamante.it/)*
 +  **[iTLS Installer](https://github.com/SKGleba/iTLS-Enso/releases/latest/)** *(adds TLSv1.2 support in older firmwares for online connection)*
 
 In order to install the necessary applications on your device, we use the VitaDeploy application to download the latest version of each app.
@@ -24,7 +24,7 @@ In order to install the necessary applications on your device, we use the VitaDe
 1. Tap "App downloader"
     + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
 1. Select the following applications:
-    + Better Homebrew Browser
+    + Vita Homebrew Browser
     + iTLS Installer
 1. Tap "Download the selected apps"
 1. Wait for the app to finish downloading
@@ -36,6 +36,10 @@ In order to install the necessary applications on your device, we use the VitaDe
 1. Press <Btn btn="confirm" /> on "Install all"
 1. Press <Btn btn="confirm" /> to confirm the install
 1. Press <Btn btn="confirm" /> to confirm the install again when prompted
+
+::: warning
+Vita Homebrew Browser may take several minutes to load when launched for the first time.
+:::
 
 #### Section II - Installing iTLS
 
