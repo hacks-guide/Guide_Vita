@@ -30,37 +30,11 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
 
 ### Instructions
 
-#### Section I - Installing YAMT VPK
-
-::: tip
-If you did the `3.65 Quick Install` of VitaDeploy, you already have YAMT installed and can skip to `Section III`.
-:::
+#### Section I - Formatting the microSD
 
 ::: warning
 If you previously installed StorageMgr or another storage plugin, please remove it from your `ux0:tai/` or `ur0:tai/` folder before continuing.
 :::
-
-1. On your device, open VitaDeploy
-1. Press <Btn btn="confirm" /> on App Downloader
-1. Select <Btn btn="confirm" /> YAMT Installer
-1. Press <Btn btn="confirm" /> on Download the selected apps
-1. Press <Btn btn="confirm" /> on `YAMT.vpk` and confirm with <Btn btn="confirm" /> again to install
-1. Once done Close out of the VitaDeploy application
-
-#### Section II - Installing yamt-vita
-
-1. Launch the newly installed YAMT Installer application
-1. Press <Btn btn="cross" /> on `-> Install the lite version`
-    + Once finished, your device will reboot
-1. Open the Settings application
-1. Navigate to `Devices` -> `Storage Devices`
-1. Enable "Use YAMT" to enable the YAMT driver
-1. Set `ux0:` to "Memory Card"
-    + If you're not using a Sony memory card, select "Internal Storage"
-1. Set `uma0:` to "SD2Vita"
-1. Hold the power button and select "Power Off"
-
-#### Section III - Formatting the microSD
 
 1. Insert your SD2Vita with the microSD card into your PS Vita or PS TV device
 1. Launch the VitaDeploy application
@@ -71,6 +45,32 @@ If you previously installed StorageMgr or another storage plugin, please remove 
     + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
     + If it still fails, follow the [StorageMgr](storagemgr) guide
 1. Press <Btn btn="confirm" /> on "Reboot your device"
+
+#### Section II - Installing yamt-vita
+
+::: tip
+If you did the `3.65 Quick Install` of VitaDeploy, you already have YAMT installed and can skip this section.
+:::
+
+1. On your device, open VitaDeploy
+1. Press <Btn btn="confirm" /> on App Downloader
+1. Select <Btn btn="confirm" /> YAMT Installer
+1. Press <Btn btn="confirm" /> on Download the selected apps
+1. Press <Btn btn="confirm" /> on `YAMT.vpk` and confirm with <Btn btn="confirm" /> again to install
+1. Once done Close out of the VitaDeploy application
+1. Launch the newly installed YAMT Installer application
+1. Press <Btn btn="cross" /> on `-> Install the lite version`
+    + Once finished, your device will reboot
+
+#### Section III - Enabling the YAMT driver
+
+1. Open the Settings application
+1. Navigate to `Devices` -> `Storage Devices`
+1. Enable "Use YAMT" to enable the YAMT driver
+1. Set `ux0:` to "Memory Card"
+    + If you're not using a Sony memory card, select "Internal Storage"
+1. Set `uma0:` to "SD2Vita"
+1. Hold the power button and select "Power Off"
 
 #### Section IV - Transferring Data
 
