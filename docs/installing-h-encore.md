@@ -23,6 +23,7 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 ### What You Need
 
 * The latest release of [finalhe](https://github.com/soarqin/finalhe/releases/latest)
+  - Download the `FinalHE_v1.92_win32.7z` file
   - If you are using MacOS or Linux you will be required to compile finalhe yourself
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
   - Download the `VitaDeploy-FHE.zip` file
@@ -31,7 +32,8 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 
 #### Section I - finalhe
 
-1. Copy the contents of the finalhe `.zip` file to a folder on your computer
+1. Copy the contents of the finalhe `.7z` file to a folder on your computer
+    + You can extract `.7z` archives using 7-Zip, WinRAR or similar programs
 1. Copy the VitaDeploy `.zip` file inside the finalhe folder
     + Do not extract this file
 1. Launch finalhe on your computer
