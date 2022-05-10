@@ -26,7 +26,7 @@ Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Ev
 
 * A storage device compatible with your system
   + This can be a microSD card to use in an SD2Vita or psvsd adapter, or a USB device for a PS TV console
-* The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/download/v1.0/VitaDeploy.vpk)
+* The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
 
 ### Instructions
 
