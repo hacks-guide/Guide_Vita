@@ -50,7 +50,7 @@ If you previously installed "YAMT" or have used the `3.65 Quick Install` option 
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, copy all files from `ux0:tai/` to `ur0:tai/`
     + Overwrite any existing files in the `ur0:tai/` folder
-    + If you do not have a `ux0:tai/` folder, skip this step
+    + If you do not have a `ux0:tai/` folder, or it doesn't contain a `config.txt`, skip this step
 1. Transfer `storagemgr.skprx` to the `ur0:tai/` folder
 1. Transfer `storage_config.txt` to  the `ur0:tai/` folder
 1. For any paths in `ur0:tai/config.txt` which contain `ux0:tai/`, replace `ux0:tai/` with `ur0:tai/`
