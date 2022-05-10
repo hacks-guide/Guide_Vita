@@ -1,5 +1,5 @@
 ---
-title: "Updating Firmware (3.73)"
+title: "Updating Firmware (3.74)"
 ---
 
 ### Required Reading
@@ -13,9 +13,9 @@ The h-encore exploit is only compatible with the firmware versions 3.65 and abov
 ### Instructions
 
 1. Navigate to `System Update` -> `Update Using Wi-Fi`
-1. Ensure the update message "Version 3.73" is displayed
+1. Ensure the update message "Version 3.74" is displayed
     + If it doesn't, clear your Wi-Fi DNS settings and try again
-1. Follow the prompts to update your device to 3.73
+1. Follow the prompts to update your device to 3.74
     + When the process has completed, your device will reboot automatically
 
 ::: tip

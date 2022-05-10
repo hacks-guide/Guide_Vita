@@ -4,13 +4,13 @@ title: Installing h-encore
 
 ### Required Reading
 
-The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.73.
+The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.74.
 
 Note that the h-encore exploit chain is not “persistent” (meaning it does not remain installed after a reboot). This means you will have to run the exploit again after each reboot.
 
 In addition to installing the h-encore exploit, we enable access to “unsafe” homebrew which gives extended permissions to homebrew applications. This idea could be considered analogous to the “administrator” mode on a computer.
 
-If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.73, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
+If you are on firmware versions 3.65 to 3.68, you will be using the h-encore exploit, however if you are on firmware versions 3.69 to 3.74, you will be using the h-encore² exploit. The program we use to install the exploit to your console (finalhe) should sort this out for you.
 
 ::: tip
 If you are unable to get the finalhe method to work for any reason, or if you own a Mac/Linux computer, the [QCMA Backup method](installing-h-encore-(qcma).md) will work as well.
@@ -25,6 +25,8 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 * The latest release of [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - Download the `FinalHE_v1.92_win32.7z` file
   - If you are using MacOS or Linux you will be required to compile finalhe yourself
+  - If you are on firmware version 3.74, this version will not work; GitHub user [KorumeSan](https://github.com/KorumeSan) has compiled a [compatible version](https://github.com/soarqin/finalhe/pull/125#issuecomment-1122472822)
+    - Use this program at your own risk! We cannot verify the safety or integrity of this program
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
   - Download the `VitaDeploy-FHE.zip` file
 

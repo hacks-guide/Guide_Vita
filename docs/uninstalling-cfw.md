@@ -46,7 +46,7 @@ This will delete all plugins from your system. If you wish to keep plugins for w
 1. While the console is starting, hold the <Btn btn="l" /> button. This will disable any plugins running on your Vita.
 1. Once the console has been rebooted, open the Settings application.
 1. Navigate to "System".
-1. Click on "System Information", and verify that the System Software does not say 3.73 or 変革.
+1. Click on "System Information", and verify that the System Software does not say 3.74 or 変革.
 1. Navigate out of the "System" menu and open "System Update". 
 1. Select "Update using Wi-Fi".
 1. There should be a message onscreen saying "A new version of the system software is avaliable."
@@ -59,5 +59,5 @@ This will delete all plugins from your system. If you wish to keep plugins for w
 1. The Vita will now download and install the system software update, and CFW will be removed from your system.
     + This process will take some time. Once the Vita fully downloads the update, the installation process cannot be cancelled. 
 
-1. Your device will then install firmware version 3.73, and Henkaku Ensō will be wiped from your system. Once finished, it will reboot into stock mode. User-installed titles will still show up on the screen, however they will not be accessible. Delete the bubbles or format your device if this is a problem.
+1. Your device will then install firmware version 3.74, and Henkaku Ensō will be wiped from your system. Once finished, it will reboot into stock mode. User-installed titles will still show up on the screen, however they will not be accessible. Delete the bubbles or format your device if this is a problem.
 1. h-encore will still be in your LiveArea. If you would like, delete it to fully remove CFW access from your system.
