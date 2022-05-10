@@ -21,33 +21,38 @@ This method should be used if the finalhe method of hacking your Vita does not w
 1. Close QCMA.
 
 #### Downloading Backups
-1. Go to [Sekoree's QCMA Backups](https://api.vita.meek.moe/QuickLinks).
+1. Go to [Sekoree's QCMA Backups](https://vita.sekoree.dev/).
 1. Follow the process of getting your account ID (AID) as shown in the website.
 1. Log into your Sony Account.
 1. Once text saying `redirect` is shown on your screen, copy the URL of the page and paste it into the box in the QCMA Backups tab.
-1. Then click the `Get AID!` button.
-1. You will be shown a page where you can choose what you would like installed on your Vita. 
-    + Hencore² and VitaDeploy are required, and VitaShell is reccomended. 
-1. Click the `Generate!` button, and save the `.zip` file onto your computer. Unzip the files so they are ready to be moved.
+1. Then click the `Validate AID` button.
+1. You can now choose what apps you'd like to get
+    + Hencore² and VitaDeploy are required
+    + VitaShell is recommended but optional
+1. Click `Confirm Selection` to proceed
+3. Click the `Get Homebrews` button, and save the `.zip` file onto your computer. Unzip the files so they are ready to be moved.
 
 #### QCMA Transfer
-1. Move your downloaded files to the QCMA default directory for applications (which should be something similar to \Users\(YourUsernameHere)\Documents\PS Vita\APP).
-1. Launch QCMA on your computer (If nothing is shown on-screen, that is normal).
-1. Launch the Content Manager application on your device.
-1. Connect your Vita to USB and plug it into the computer.
-1. Tap "Copy Content" on Content Manager.
-1. Tap "PC".
-1. Tap "PC -> PS Vita System" or "PC -> PS TV System" on your device.
-1. Tap "Applications".
-1. Tap "PS Vita".
-1. Select "h-encore²".
-1. Select "VitaDeploy".
-1. Tap "Copy".
-1. Tap "OK".
+1. Move your downloaded files to the QCMA default directory for applications (which should be something similar to `\Users\<YourUsernameHere>\Documents\PS Vita\APP\`).
+    + For macOS users the default location should be either `"Home"/PSVita/APP/` or `<YourUsername>/PSVita/APP/`
+    + For Linux users the default location should be `/home/<YourUsername>/PSVita/APP/` 
+    + If you are unsure just check the `Applications / Backups` location in QCMA's settings
+3. Launch QCMA on your computer (If nothing is shown on-screen, that is normal).
+4. Launch the Content Manager application on your device.
+5. Connect your Vita to USB and plug it into the computer.
+6. Tap "Copy Content" on Content Manager.
+7. Tap "PC".
+8. Tap "PC -> PS Vita System" or "PC -> PS TV System" on your device.
+9. Tap "Applications".
+10. Tap "PS Vita".
+11. Select "h-encore²".
+12. Select "VitaDeploy".
+13. Tap "Copy".
+14. Tap "OK".
     + The h-encore² exploit and VitaDeploy application will be copied to your device.
     + This process will take some time.
-1. Once the process is over, close the Content Manager application on your device.
-1. Close QCMA on your computer.
+15. Once the process is over, close the Content Manager application on your device.
+16. Close QCMA on your computer.
 
 #### Section III - Opening h-encore
 
