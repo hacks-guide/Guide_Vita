@@ -25,7 +25,7 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 * The latest release of [finalhe](https://github.com/soarqin/finalhe/releases/latest)
   - Download the `FinalHE_v1.92_win32.7z` file
   - If you are using MacOS or Linux you will be required to compile finalhe yourself
-  - If you are on firmware version 3.74, this version will not work; GitHub user [KuromeSan](https://github.com/KuromeSan) has compiled a [compatible version](https://github.com/soarqin/finalhe/pull/125#issuecomment-1122472822)
+  - If you are on firmware version 3.74, the above version will not work; GitHub user [KuromeSan](https://github.com/KuromeSan) has compiled a [compatible version](https://github.com/soarqin/finalhe/pull/125#issuecomment-1122472822)
     - Use this program at your own risk! We cannot verify the safety or integrity of this program
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
   - Download the `VitaDeploy-FHE.zip` file
