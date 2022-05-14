@@ -63,7 +63,7 @@ module.exports = {
           children: [
             'index.html',
             'get-started',
-            'updating-firmware-(3.73)',
+            'updating-firmware-(3.74)',
             'installing-h-encore',
              children: [
              'uninstalling-cfw.md',

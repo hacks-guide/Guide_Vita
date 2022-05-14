@@ -17,6 +17,16 @@ This will use FTP (File Transfer Protocol) to transfer the files, so your Vita a
 You must have already installed VitaShell to use this.
 :::
 
+::: warning
+If you previously installed "YAMT" or have used the `3.65 Quick Install` option in Vitadeploy, please uninstall YAMT first by deleting the following files from your `ur0:tai` folder:
+  
+  + `yamt.cfg`
+  + `yamt.skprx`
+  + `yamt.suprx`
+  + `yamt_helper.skprx`
+
+:::
+
 ### What You Need
 
 * A formatted storage device compatible with your system
@@ -40,7 +50,7 @@ You must have already installed VitaShell to use this.
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, copy all files from `ux0:tai/` to `ur0:tai/`
     + Overwrite any existing files in the `ur0:tai/` folder
-    + If you do not have a `ux0:tai/` folder, skip this step
+    + If you do not have a `ux0:tai/` folder, or it doesn't contain a `config.txt`, skip this step
 1. Transfer `storagemgr.skprx` to the `ur0:tai/` folder
 1. Transfer `storage_config.txt` to  the `ur0:tai/` folder
 1. For any paths in `ur0:tai/config.txt` which contain `ux0:tai/`, replace `ux0:tai/` with `ur0:tai/`

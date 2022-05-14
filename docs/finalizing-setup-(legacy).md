@@ -95,7 +95,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. Check "Enable PSN spoofing"
 1. Check "Enable Version Spoofing"
 1. Navigate to "Spoofed Version"
-1. Enter "3.73" into the box
+1. Enter "3.74" into the box
     + Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN
 1. Close the Settings application
 

@@ -34,6 +34,10 @@ This mod will make PERMANENT modifications to your device. If anything goes wron
 
 Your device will then install firmware version 3.65, alongside with HENkaku Ensō. Once finished, it will reboot into CFW mode.
 
+::: warning
+Do not let the Vita go into sleep mode during this process. If it did anyways and is stuck on a black screen, hold the `Power Button` until the console turns off and redo this part.
+:::
+
 ::: danger
 If you get a prompt "Do you want to transfer the data on the internal memory card to the removable memory card?" when rebooting, select "No". Selecting "Yes" would delete the data on your Memory Card.
 :::
