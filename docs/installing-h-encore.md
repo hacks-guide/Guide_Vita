@@ -23,10 +23,8 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 ### What You Need
 
 * The latest release of [finalhe](https://github.com/soarqin/finalhe/releases/latest)
-  - Download the `FinalHE_v1.92_win32.7z` file
+  - Download the `FinalHE_v1.93_win32.7z` file
   - If you are using MacOS or Linux you will be required to compile finalhe yourself
-  - If you are on firmware version 3.74, this version will not work; GitHub user [KorumeSan](https://github.com/KorumeSan) has compiled a [compatible version](https://github.com/soarqin/finalhe/pull/125#issuecomment-1122472822)
-    - Use this program at your own risk! We cannot verify the safety or integrity of this program
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
   - Download the `VitaDeploy-FHE.zip` file
 
@@ -43,6 +41,7 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 1. Launch the Content Manager application on your device
 1. Tap "Copy Content"
     + If your device is already connected to your computer via USB, you can skip to [Section II - h-encore Transfer](#section-ii-h-encore-transfer)
+    + Do not install the *Sony Content Manager Assistant* on your computer when prompted and uninstall it if you already installed it previously
     + If your device is not detected over USB, install [QcmaDriver_winusb](https://github.com/soarqin/finalhe/releases/download/v1.91/QcmaDriver_winusb.exe) and try again
 1. Tap "PC"
 1. Select the method you wish to use to connect to finalhe
