@@ -1,6 +1,6 @@
 ---
 title: "Installing Ensō (3.60)"
-sidebar: false
+sidebar: true
 ---
 
 ### Required Reading
