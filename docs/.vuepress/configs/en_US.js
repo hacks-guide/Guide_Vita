@@ -78,7 +78,7 @@ module.exports = {
             'index.html',
             'get-started',
             'installing-henkaku',
-            'installing-enso',
+            'installing-enso-(3.60)',
             'finalizing-setup'
           ],
         },
