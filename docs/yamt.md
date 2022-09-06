@@ -107,11 +107,11 @@ If you want to reclaim the space on your memory card (to use for storing PSP gam
 
 If you decide to do this, you must *not* delete these folders if they exist:
 
-  + `uma0:data/bootstrap.self`
   + `uma0:app/PCSG90096`
   + `uma0:app/VITASHELL`
   + `uma0:appmeta/PCSG90096`
   + `uma0:appmeta/VITASHELL`
+  + `uma0:data/bootstrap.self`
   + `uma0:license/app/PCSG90096`
   + `uma0:license/app/VITASHELL`
   + `uma0:user/00/savedata/PCSG90096`
