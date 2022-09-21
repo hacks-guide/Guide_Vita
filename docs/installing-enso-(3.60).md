@@ -47,5 +47,5 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
     + When the process has completed, press any button to reboot your device
 
 ::: tip
-Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
+Continue to [Finalizing Setup (3.60)](finalizing-setup-(3.60))
 :::
