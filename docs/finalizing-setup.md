@@ -4,12 +4,11 @@ title: "Finalizing Setup"
 
 ### Required Reading
 
-We will now setup the following applications:
+We will now setup the following application:
 
-+  **[Vita Homebrew Browser](https://github.com/devnoname120/vhbb/releases/)** *(allows for installation of homebrew applications from [VitaDB](https://vitadb.rinnegatamante.it/)*
 +  **[iTLS Installer](https://github.com/SKGleba/iTLS-Enso/releases/latest/)** *(adds TLSv1.2 support in older firmwares for online connection)*
 
-In order to install the necessary applications on your device, we use the VitaDeploy application to download the latest version of each app.
+In order to install the application on your device, we use the VitaDeploy application to download the latest version of the app.
 
 ### What You Need
 
@@ -23,8 +22,7 @@ In order to install the necessary applications on your device, we use the VitaDe
 1. Launch the VitaDeploy application
 1. Tap "App downloader"
     + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
-1. Select the following applications:
-    + Vita Homebrew Browser
+1. Select the following application:
     + iTLS Installer
 1. Tap "Download the selected apps"
 1. Wait for the app to finish downloading
@@ -36,10 +34,6 @@ In order to install the necessary applications on your device, we use the VitaDe
 1. Press <Btn btn="confirm" /> on "Install all"
 1. Press <Btn btn="confirm" /> to confirm the install
 1. Press <Btn btn="confirm" /> to confirm the install again when prompted
-
-::: warning
-Vita Homebrew Browser may take several minutes to load when launched for the first time.
-:::
 
 #### Section II - Installing iTLS
 
@@ -65,10 +59,6 @@ Vita Homebrew Browser may take several minutes to load when launched for the fir
 1. Enter "3.74" into the box
     + Should a new firmware version be released in the future, you must change the spoofed version to match in order to access PSN
 1. Close the Settings application
-
-::: tip
-You can browse for new homebrew applications on [VitaDB](https://vitadb.rinnegatamante.it/) or in [Better Homebrew Browser](https://github.com/Ibrahim778/BetterHomebrewBrowser/releases/).
-:::
 
 ::: danger
 It is *not* recommended to make modifications to your Custom Firmware installation by installing homebrew applications intended for advanced users (such as "Enso EX"). Doing so without fully understanding the system can lead to a BRICK!
