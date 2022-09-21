@@ -42,27 +42,10 @@ You must have already installed VitaShell to use this.
 1. Press <Btn btn="confirm" /> to continue the install each time you are prompted about extended permissions
 1. Press <Btn btn="triangle" /> to open the menu, then select "Delete" to delete the marked files
 1. Press <Btn btn="confirm" /> to confirm the deletion
-
-#### Section III - Modifying Plugin Config
-
 1. Press <Btn btn="cancel" /> to return to `ux0:`
-1. Navigate to `tai/`
-    + If `ux0:tai` doesn't exist or does not contain a `config.txt`, press <Btn btn="cancel" /> again and then navigate to `ur0:tai`
-1. Press <Btn btn="confirm" /> on `config.txt` to open it in the editor
-1. Highlight the `*KERNEL` line with the cursor
-1. Press <Btn btn="triangle" /> to open the menu, then select "Insert empty line"
-1. Highlight the new blank line
-1. Press <Btn btn="confirm" /> to edit the line
-1. Enter the following text:
-    + `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
-1. Press <Btn btn="cancel" /> to close the editor
-1. When prompted, press <Btn btn="confirm" /> to save your modifications
 1. Close the VitaShell application
-1. Reboot your device
-    + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
-    + This is required to load the new kernel plugin added to `ux0:tai/config.txt`
 
-#### Section IV - Installing PSP XMB
+#### Section III - Installing PSP XMB
 
 1. Launch the Adrenaline application
 1. Press <Btn btn="cross" /> to download the PSP 6.61 firmware
@@ -78,5 +61,24 @@ You must have already installed VitaShell to use this.
     + The PSP home menu is also known as the [XrossMediaBar](https://wikipedia.org/wiki/XrossMediaBar) ("XMB")
 1. Perform the PSP Initial Setup
 1. To close the PSP Emulator, hold the <Btn btn="PS" /> button to open the menu, then select `Settings` -> `Exit PspEmu Application`
+
+#### Section IV - Modifying Plugin Config
+
+1. Launch the VitaShell application
+1. Navigate to `tai/`
+    + If `ux0:tai` doesn't exist or does not contain a `config.txt`, press <Btn btn="cancel" /> again and then navigate to `ur0:tai`
+1. Press <Btn btn="confirm" /> on `config.txt` to open it in the editor
+1. Highlight the `*KERNEL` line with the cursor
+1. Press <Btn btn="triangle" /> to open the menu, then select "Insert empty line"
+1. Highlight the new blank line
+1. Press <Btn btn="confirm" /> to edit the line
+1. Enter the following text:
+    + `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
+1. Press <Btn btn="cancel" /> to close the editor
+1. When prompted, press <Btn btn="confirm" /> to save your modifications
+1. Close the VitaShell application
+1. Reboot your device
+    + If your device does not have Ensō, you will need to manually launch and exit h-encore to enable homebrew
+    + This is required to load the new kernel plugin added to `ux0:tai/config.txt`
 
 Adrenaline and the PSP Homebrew Browser have been successfully installed.
