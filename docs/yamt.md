@@ -67,8 +67,7 @@ If you did the `3.65 Quick Install` of VitaDeploy, you already have YAMT install
 1. Open the Settings application
 1. Navigate to `Devices` -> `Storage Devices`
 1. Enable "Use YAMT" to enable the YAMT driver
-1. Set `ux0:` to "Memory Card"
-    + If you're not using a Sony memory card, select "Internal Storage"
+1. Set `ux0:` to "Default"
 1. Set `uma0:` to "SD2Vita"
 1. Hold the power button and select "Power Off"
 
