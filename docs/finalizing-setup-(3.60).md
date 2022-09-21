@@ -1,6 +1,6 @@
 ---
-title: "Finalizing Setup (Legacy)"
-sidebar: false
+title: "Finalizing Setup (3.60)"
+sidebar: true
 ---
 
 ### Required Reading

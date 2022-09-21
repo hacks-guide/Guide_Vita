@@ -7,7 +7,7 @@ sidebar: false
 
 Different device versions will require different steps to achieve the end goal of Custom Firmware. This page will help you find where to start for your device.
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.03 to 3.63" row includes 1.03, 3.63, and all versions in-between.
+Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.03 to 3.59" row includes 1.03, 3.59, and all versions in-between.
 
 Your device version can be found under the System Information menu in the System category of the Settings application.
 
@@ -35,11 +35,10 @@ Before starting, Windows users should enable the option to show file extensions 
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.03</td>
-      <!--<td style="text-align: center; font-weight: bold;">3.57</td>-->
-      <td style="text-align: center; font-weight: bold;">3.63</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74)">Updating Firmware (3.74)</a></td>
+      <td style="text-align: center; font-weight: bold;">3.59</td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.60)">Updating Firmware (3.60)</a></td>
     </tr>
-    <!--<tr>
+    <tr>
       <td style="text-align: center; font-weight: bold;">3.60</td>
       <td style="text-align: center; font-weight: bold;">3.60</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-henkaku">Installing HENkaku</a></td>
@@ -48,7 +47,7 @@ Before starting, Windows users should enable the option to show file extensions 
       <td style="text-align: center; font-weight: bold;">3.61</td>
       <td style="text-align: center; font-weight: bold;">3.63</td>
       <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74)">Updating Firmware (3.74)</a></td>
-    </tr>-->
+    </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.65</td>
       <td style="text-align: center; font-weight: bold;">3.74</td>
@@ -56,7 +55,3 @@ Before starting, Windows users should enable the option to show file extensions 
     </tr>
   </tbody>
 </table>
-
-::: tip
-Firmware version 3.60 can be modified by using [HENkaku](installing-henkaku), however it’s recommended to update to 3.74 for a simplified installation.
-:::
