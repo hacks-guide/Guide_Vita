@@ -34,7 +34,7 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 
 1. Copy the contents of the finalhe `.7z` file to a folder on your computer
     + You can extract `.7z` archives using [7-Zip](https://www.7-zip.org), [WinRAR](https://www.win-rar.com) or similar programs
-1. Copy the VitaDeploy `.zip` file inside the finalhe folder
+1. Copy the VitaDeploy `.zip` file into the finalhe folder
     + Do not extract this file
 1. Launch finalhe on your computer
     + If you are prompted to allow finalhe network access through the firewall, do so
