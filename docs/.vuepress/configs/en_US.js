@@ -65,6 +65,9 @@ module.exports = {
             'get-started',
             'updating-firmware-(3.74)',
             'installing-h-encore',
+             children: [
+             'uninstalling-cfw.md',
+              ],
             'installing-enso',
             'finalizing-setup'
           ],
