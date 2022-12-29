@@ -4,7 +4,7 @@ title: Installing h-encore
 
 ### Required Reading
 
-The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to your home screen. It is compatible with the firmware versions 3.65 to 3.74.
+The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to the LiveArea Screen. It is compatible with the firmware versions 3.65 to 3.74.
 
 Note that the h-encore exploit chain is not “persistent” (meaning it does not remain installed after a reboot). This means you will have to run the exploit again after each reboot.
 

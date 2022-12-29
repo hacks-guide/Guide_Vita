@@ -34,4 +34,5 @@ ads: false
 + [Updating Firmware (3.74)](updating-firmware-(3.74))
 + [Updating Firmware (PS TV 3.65)](updating-firmware-(ps-tv-3.65))
 + [Updating Firmware (PS Vita 3.65)](updating-firmware-(ps-vita-3.65))
++ [Using HENlo](using-henlo)
 + [YAMT](yamt)

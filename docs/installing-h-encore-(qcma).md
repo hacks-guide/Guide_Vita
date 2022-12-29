@@ -3,6 +3,9 @@ title: Installing h-encore (QCMA method)
 ---
 
 ### Required Reading
+
+The h-encore exploit for the PS Vita (TV) allows for the installation of homebrew applications to the LiveArea Screen. It is compatible with the firmware versions 3.65 to 3.74.
+
 This method should be used if the finalhe method of hacking your Vita does not work, or if your Mac or Linux computer is unable to run finalhe.
 
 ### What You Need

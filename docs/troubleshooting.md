@@ -11,7 +11,7 @@ If you still cannot solve your issue and need to reach out for help, please come
 
 ## A browser based exploit is not working
 
-Browser based exploits (such as the WebKit exploit used for HENkaku) can be unstable and crash frequently, but they can sometimes be fixed by doing the following steps:
+Browser based exploits (such as the WebKit exploit used for HENkaku and HENlo) can be unstable and crash frequently, but they can sometimes be fixed by doing the following steps:
 
 1. Ensure your device has a stable network connection
 1. Launch the browser, then open the browser settings

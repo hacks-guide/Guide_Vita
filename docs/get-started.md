@@ -45,13 +45,13 @@ Before starting, Windows users should enable the option to show file extensions 
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.61</td>
-      <td style="text-align: center; font-weight: bold;">3.63</td>
+      <td style="text-align: center; font-weight: bold;">3.61</td>
       <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74)">Updating Firmware (3.74)</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">3.65</td>
+      <td style="text-align: center; font-weight: bold;">3.63</td>
       <td style="text-align: center; font-weight: bold;">3.74</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">Installing h-encore</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="using-henlo">Using HENlo</a></td>
     </tr>
   </tbody>
 </table>

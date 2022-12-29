@@ -64,7 +64,7 @@ module.exports = {
             'index.html',
             'get-started',
             'updating-firmware-(3.74)',
-            'installing-h-encore',
+            'using-henlo',
             'installing-enso',
             'finalizing-setup'
           ],
