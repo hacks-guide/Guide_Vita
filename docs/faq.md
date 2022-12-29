@@ -22,4 +22,4 @@ Yes! This enables any custom user-made homebrew to be played on your device.
 For support, ask for help at [Official Henkaku Discord](https://discord.gg/m7MwpKA).
 
 ### Can I do this without a computer?
-You must have a computer if you are on firmware version 3.61 or higher.
+Yes, all firmwares can be hacked without use of a computer.
