@@ -12,10 +12,6 @@ In addition to running HENlo, we will also enable access to "unsafe" homebrew wh
 
 The "VitaDeploy" application will also be installed to your home screen. VitaDeploy makes installing apps, plugins, and custom firmwares simple and includes many useful tools and utilites.
 
-::: tip
-If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
-:::
-
 ### What You Need
 
 * An internet connection on your PS Vita (TV)
