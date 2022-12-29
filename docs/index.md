@@ -53,7 +53,7 @@ This guide has the end goal of taking a completely unmodified PS Vita (TV) from 
 
 The best CFW solution currently available, Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to trigger an exploit on your device after every reboot manually.
 
-Ensō is available on all devices with firmware version 3.65 or below, while higher firmware version devices can use h-encore to achieve a similar (if less convenient) result.
+Ensō is available on all devices with firmware version 3.65 or below, while higher firmware version devices can downgrade to 3.65 to achieve the same result.
 
 ## What can I do with Custom Firmware?
 
@@ -72,4 +72,3 @@ Ensō is available on all devices with firmware version 3.65 or below, while hig
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc. will be preserved).
 + **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
 + The PS Vita 2000 and PS TV models are essentially identical to the original PS Vita 1000 in terms of software. All steps which say "PS Vita" also apply to other models unless otherwise specified.
-+ If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
