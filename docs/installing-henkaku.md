@@ -19,9 +19,6 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 ### What You Need
 
 * An internet connection on your PS Vita (TV)
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-* The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest/)
-  + Download the `VitaDeploy.vpk` file
 
 ### Instructions
 
@@ -36,22 +33,8 @@ If you have a PS Vita 1000, you must also have an official Sony memory card (of 
 
 If you have VitaShell installed from a previous homebrew installation, HENkaku won't install molecularShell as it will detect a pre-existing taiHEN config. This will not be an issue.
 
-#### Section II - Installing VitaDeploy
 
-1. Launch the molecularShell application
-1. Press <Btn btn="SELECT" /> to enable FTP access on your device
-1. Open your FTP client on your computer
-1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ux0:` -> `data/`
-1. Transfer `VitaDeploy.vpk` to the `data` folder
-1. Press <Btn btn="cancel" /> on your device to close the FTP connection
-1. On your device, navigate to `ux0:` -> `data/`
-1. Press <Btn btn="confirm" /> on `VitaDeploy.vpk` to install it
-1. Press <Btn btn="confirm" /> again to confirm the install
-1. Press <Btn btn="confirm" /> once more to confirm again
-1. Close the molecularShell application
-
-#### Section III - Configuring HENkaku
+#### Section II - Configuring HENkaku
 
 1. Launch the Settings application
 1. Navigate to `HENkaku Settings`
