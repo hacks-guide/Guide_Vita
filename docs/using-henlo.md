@@ -28,7 +28,7 @@ The "VitaDeploy" application will also be installed to your home screen. VitaDep
 
 1. Press <Btn btn="confirm" /> on "Install henkaku" to enable homebrew
 1. Press <Btn btn="confirm" /> on "Install VitaDeploy"
-    - If you are on a first generation Vita without a memory card, press <Btn btn="confirm" /> on "Replace NEAR with VitaDeploy" instead (requires a reboot and will reset LiveArea screen layout)
+    - If you are on a first generation Vita without a memory card, press <Btn btn="confirm" /> on "Replace NEAR with VitaDeploy" instead (requires a reboot and will reset LiveArea screen layout). After the reboot, launch Henlo again and simply use the exit option. Then use this opportunity to create an internal memory with vitadeploy following this [guide](https://guide.psp2.dev/guides/creating-an-internal-memory-card). You will need to run Henlo again and chose the install VitaDeploy option so that VitaDeploy is correctly installed on your internal memory.
 1. Press <Btn btn="confirm" /> on "Exit"
 
 #### Section III - Configuring HENkaku
