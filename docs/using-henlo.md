@@ -31,7 +31,7 @@ The "VitaDeploy" application will also be installed to your home screen. VitaDep
     - If you are on a first generation Vita without a memory card, press <Btn btn="confirm" /> on "Replace NEAR with VitaDeploy" instead
 1. Press <Btn btn="confirm" /> on "Exit"
 
-If you are on a first generation Vita without a memory card, we recommend you create an internal memory partition by following the [Creating an internal memory card](https://guide.psp2.dev/guides/creating-an-internal-memory-card). 
+If you are on a first generation Vita without a memory card, we recommend you create an internal memory partition by following the [Creating an internal memory card](https://guide.psp2.dev/guides/creating-an-internal-memory-card) guide. Once created, follow this section again and install VitaDeploy as normal. 
 
 #### Section III - Configuring HENkaku
 
