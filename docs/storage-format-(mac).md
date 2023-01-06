@@ -24,7 +24,7 @@ This page is for Mac users only. If you are not on Mac, check out the [Storage F
 1. Open the Terminal app
 1. Enter `diskutil list` into the terminal
 1. Identify which disk is your storage device in the format `/dev/diskX`
-1. Enter `diskutil unmount /dev/diskX` and then `sudo dd if=/dev/zero of=/dev/diskX` to format the storage device
+1. Enter `diskutil unmount /dev/diskX` or `diskutil unmountdisk /dev/diskX` and then `sudo dd if=/dev/zero of=/dev/diskX` to format the storage device
 1. Remove and reinsert your storage device
 1. Enter `sudo newfs_exfat -R /dev/diskX` to format your storage device into exfat
     + If your storage device has a capacity of 256 GB or greater, you must run `sudo newfs_exfat -R  -c 64 /dev/diskX`
