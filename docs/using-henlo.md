@@ -21,7 +21,7 @@ The "VitaDeploy" application will also be installed to your home screen. VitaDep
 #### Section I - Launching HENlo
 
 1. Launch the browser and go to the following URL on your device: `http://jailbreak.psp2.dev`
-    + If you get an error and cannot proceed, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
+    + If you get an error and cannot proceed, follow our <router-link to="troubleshooting#a-browser-based-exploit-is-not-working">troubleshooting guide</router-link>
 1. If the exploit was successful, you should be greeted by a screen titled "henlo-bootstrap"
 
 #### Section II - Installing HENkaku and VitaDeploy
@@ -31,7 +31,7 @@ The "VitaDeploy" application will also be installed to your home screen. VitaDep
     - If you are on a first generation Vita without a memory card, press <Btn btn="confirm" /> on "Replace NEAR with VitaDeploy" instead
 1. Press <Btn btn="confirm" /> on "Exit"
 
-If you are on a first generation Vita without a memory card, we recommend you create an internal memory partition by following the [Creating an internal memory card](https://guide.psp2.dev/guides/creating-an-internal-memory-card) guide. Once created, follow this section again and install VitaDeploy as normal. 
+If you are on a first generation Vita without a memory card, we recommend you create an internal memory partition by following <router-link to="creating-an-internal-memory-card">Creating an internal memory card</router-link>. Once created, follow this section again and install VitaDeploy as normal. 
 
 #### Section III - Configuring HENkaku
 
