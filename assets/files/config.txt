@@ -1,0 +1,20 @@
+# For users plugins, you must refresh taiHEN from HENkaku Settings for
+# changes to take place.
+# For kernel plugins, you must reboot for changes to take place.
+
+*KERNEL
+ur0:tai/nonpdrm.skprx
+ur0:tai/0syscall6.skprx
+ur0:tai/PSVshell.skprx
+
+*main
+ur0:tai/henkaku.suprx
+ur0:tai/shellbat.suprx
+ur0:tai/pngshot.suprx
+ur0:tai/download_enabler.suprx
+
+*NPXS10015
+ur0:tai/henkaku.suprx
+
+*NPXS10016
+ur0:tai/henkaku.suprx
