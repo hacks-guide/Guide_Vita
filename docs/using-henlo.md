@@ -21,7 +21,8 @@ The "VitaDeploy" application will also be installed to your home screen. VitaDep
 #### Section I - Launching HENlo
 
 1. Launch the browser and go to the following URL on your device: `http://jailbreak.psp2.dev`
-    + If you get an error and cannot proceed, follow our <router-link to="troubleshooting#a-browser-based-exploit-is-not-working">troubleshooting guide</router-link>
+1. On the HENlo page, press `Unlock my Vita`, then press `Unlock`
+    + If you get an error or cannot proceed, follow our <router-link to="troubleshooting#a-browser-based-exploit-is-not-working">troubleshooting guide</router-link>
 1. If the exploit was successful, you should be greeted by a screen titled "henlo-bootstrap"
 
 #### Section II - Installing HENkaku and VitaDeploy
