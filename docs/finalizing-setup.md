@@ -25,12 +25,8 @@ In order to install the application on your device, we use the VitaDeploy applic
 1. Select the following application:
     + iTLS Installer
 1. Tap "Download the selected apps"
-1. Wait for the app to finish downloading
-    + When finished, you should be presented with a view of the folder containing the `.vpk` file
-1. Move the selection onto `itls.vpk`
-1. Press <Btn btn="confirm" /> to install the `.vpk` file
-1. Press <Btn btn="confirm" /> to confirm the install
-1. Press <Btn btn="confirm" /> to confirm the install again when prompted
+1. Wait for the app to finish downloading and installing
+    + When finished, you exit VitaDeploy
 
 #### Section II - Installing iTLS
 

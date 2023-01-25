@@ -15,6 +15,7 @@ Browser based exploits (such as the WebKit exploit used for HENkaku and HENlo) c
 
 1. Ensure your device has a stable network connection
 1. Launch the browser, then open the browser settings
+1. Check "Enable JavaScript"
 1. Scroll to the bottom and click "Delete Cookies" and "Clear Search History"
 1. Try the exploit again
     + If it still doesn't work, try to reboot, wait 5 minute, and open the browser
