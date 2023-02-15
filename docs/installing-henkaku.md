@@ -13,7 +13,7 @@ In addition to running the HENkaku exploit, we will also enable access to "unsaf
 The "VitaDeploy" application will also be installed to your home screen. VitaDeploy makes installing apps, plugins, and custom firmwares simple and includes many useful tools and utilites.
 
 ::: tip
-If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
+If you have a PS Vita 1000, you must also have an official Sony memory card (or [first unlock it's internal memory](creating-an-internal-memory-card.html)) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have preconfigured internal storage.
 :::
 
 ### What You Need
