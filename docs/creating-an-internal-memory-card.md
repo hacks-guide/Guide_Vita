@@ -15,7 +15,15 @@ This partition will only be 1GB in size. We recommend you use this to then insta
 
 ## Instructions
 
-### Section I - Repartitioning
+### Section I - Configuring HENkaku
+
+1. Launch the Settings application
+1. Navigate to `HENkaku Settings`
+1. Check "Enable Unsafe Homebrew"
+1. Return to HENkaku Settings menu
+1. Close the Settings application
+
+### Section II - Repartitioning
 
 1. Launch the VitaDeploy application
 1. Press <Btn btn="confirm" /> on "Miscellaneous"
@@ -25,7 +33,7 @@ This partition will only be 1GB in size. We recommend you use this to then insta
 1. Press <Btn btn="confirm" /> on "Default 2xxx storage configuration"
 1. Once repartitioned, your device will reboot
 
-### Section II - Reformatting
+### Section III - Reformatting
 
 1. If you have a memory card inserted, remove it
 1. Open the Settings application
