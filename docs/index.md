@@ -2,14 +2,8 @@
 title: "Home"
 description: "A complete guide to PS Vita (TV) custom firmware, from stock to Ensō."
 home: true
-header:
-  overlay_title: PS Vita (TV) Hacks Guide
-  overlay_excerpt: A complete guide to PS Vita (TV) custom firmware, from stock to Ensō.
-  overlay_image: /assets/images/home-page-feature.jpg
-  overlay_filter: 0.5
-  overlay_color: 1a1d24
-  cta_label: "Get Started"
-  cta_url: get-started
+heroImage: /assets/images/home-page-feature.png
+heroFilter: 0.5
 ---
 
 ::: tip
@@ -72,3 +66,9 @@ Ensō is available on all devices with firmware version 3.65 or below, while hig
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc. will be preserved).
 + **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
 + The PS Vita 2000 and PS TV models are essentially identical to the original PS Vita 1000 in terms of software. All steps which say "PS Vita" also apply to other models unless otherwise specified.
+
+::: tip
+
+Continue to [Get Started](get-started)
+
+:::

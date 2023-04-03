@@ -1,5 +1,7 @@
 const config = require("./configs");
 const path = require("path");
+const { localTheme } = require('./vuepress-theme')
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
 
 module.exports = {
   locales: {
@@ -15,14 +17,13 @@ module.exports = {
 			}
 		],
 		[
-			'@vuepress/register-components',
-			{
-				componentsDir: path.resolve(__dirname, './components')
-			}
+			registerComponentsPlugin({
+        componentsDir: path.resolve(__dirname, './components')
+      })
 		],
 	],
   
-  themeConfig: {
+  theme: localTheme({
     repo: 'hacks-guide/Guide_Vita',
 		docsBranch: "master",
 		docsDir: "docs",
@@ -34,7 +35,7 @@ module.exports = {
     locales: {
       '/': config.en_US.themeConfig
     },
-  },
+  }),
   
   head: [
     [ 'link', { rel: 'apple-touch-icon', sizes: "180x180", href: '/assets/images/apple-touch-icon.png?v=PYEmwKvQAx' } ],
@@ -55,10 +56,5 @@ module.exports = {
     [ 'script', { type: 'text/javascript', src: '//cdn.thisiswaldo.com/static/js/5303.js' } ],
     [ 'script', { src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'} ],
 		[ 'script', {}, 'function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-152619365-1");' ],
-  ],
-
-  theme: path.resolve(__dirname, './vuepress-theme'),
-  
-	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
-	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
+  ]
 };
