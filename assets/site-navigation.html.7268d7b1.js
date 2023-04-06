@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-f130dd90","path":"/site-navigation.html","title":"Site Navigation","lang":"en-US","frontmatter":{"title":"Site Navigation","sidebar":false,"ads":false},"excerpt":"","headers":[],"git":{"updatedTime":1680808673000,"contributors":[{"name":"emiyl","email":"me@emiyl.com","commits":1}]},"filePathRelative":"site-navigation.md"}');export{e as data};
