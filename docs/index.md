@@ -2,8 +2,12 @@
 title: "Home"
 description: "A complete guide to PS Vita (TV) custom firmware, from stock to Ensō."
 home: true
-heroImage: /assets/images/home-page-feature.png
+heroImage: /assets/images/home-page-feature.jpg
 heroFilter: 0.5
+actions:
+  - text: Get Started
+    link: get-started
+    type: secondary
 ---
 
 ::: tip
