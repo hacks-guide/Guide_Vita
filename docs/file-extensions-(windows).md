@@ -28,7 +28,7 @@ This will make it easier for you to find the referenced files in the rest of thi
 1. Click the "View" option at the top of the Folder Options menu
 1. Uncheck the box labeled "Hide extensions for known file types"
 
-![](/images/screenshots/windows-7-folder-options.png)
+<!--![](/images/screenshots/windows-7-folder-options.png)-->
     
 ::: tip
 Return to [Get Started](get-started)
