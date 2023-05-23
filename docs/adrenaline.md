@@ -75,7 +75,9 @@ You must have already installed VitaShell to use this.
 1. Press <Btn btn="confirm" /> to edit the line
 1. Enter the following text:
     + `ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx`
-1. Press <Btn btn="cancel" /> to close the editor
+    + Enter this even if you found `tai/` under `ur0:tai`
+1. Press <Btn btn="cancel" /> to close the line editor
+1. Press <Btn btn="cancel" /> to close the text editor
 1. When prompted, press <Btn btn="confirm" /> to save your modifications
 1. Close the VitaShell application
 1. Reboot your device
