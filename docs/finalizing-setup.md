@@ -26,7 +26,7 @@ In order to install the application on your device, we will use the VitaDeploy a
     + iTLS Installer
 1. Tap "Download the selected apps" at the top of the menu
 1. Wait for the app to finish downloading and installing
-    + When finished, you can exit VitaDeploy using the PS button
+    + When finished, you can exit VitaDeploy using the <Btn btn="PS" /> button
 
 #### Section II - Installing iTLS
 
