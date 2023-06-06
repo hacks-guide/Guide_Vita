@@ -26,7 +26,7 @@ This mod will make PERMANENT modifications to your device. If anything goes wron
     + If you don't see a green menu with this option, make sure you have [enabled unsafe homebrew](installing-h-encore.html#section-iv-configuring-henkaku) in HENkaku Settings
 1. Tap "Quick 3.65 Install"
     + You must be connected to the internet to use this
-    + Do not let the Vita go into sleep mode during this process.
+    + Do not let the Vita go into sleep mode during this process
 1. Wait for the components to download
 1. Press <Btn btn="cross" /> to confirm
 1. Read the notice given on the screen and wait 20 seconds
