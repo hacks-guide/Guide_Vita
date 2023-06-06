@@ -79,7 +79,7 @@ It is recommended to not skip this section, so that the switch from the old main
 :::
 
 ::: tip
-If you are coming from the [Using Henlo](using-henlo) guide - you may need to install VitaShell using VitaDeploy.
+If you are coming from the [Using Henlo](using-henlo) guide, you may need to install VitaShell using VitaDeploy.
 :::
 
 
