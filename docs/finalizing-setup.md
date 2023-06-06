@@ -8,7 +8,7 @@ We will now setup the following application:
 
 +  **[iTLS Installer](https://github.com/SKGleba/iTLS-Enso/releases/latest/)** *(adds TLSv1.2 support in older firmwares for online connection)*
 
-In order to install the application on your device, we use the VitaDeploy application to download the latest version of the app.
+In order to install the application on your device, we will use the VitaDeploy application to download the latest version of the app.
 
 ### What You Need
 
@@ -24,15 +24,15 @@ In order to install the application on your device, we use the VitaDeploy applic
     + If you don't see a green menu with this option, make sure you've [enabled unsafe homebrew](installing-h-encore#section-iv---configuring-henkaku)
 1. Select the following application:
     + iTLS Installer
-1. Tap "Download the selected apps"
+1. Tap "Download the selected apps" at the top of the menu
 1. Wait for the app to finish downloading and installing
-    + When finished, you exit VitaDeploy
+    + When finished, you can exit VitaDeploy using the <Btn btn="PS" /> button
 
 #### Section II - Installing iTLS
 
 1. Open the iTLS-Enso application
 1. Press <Btn btn="cross" /> on "Install the full iTLS package"
-    + If not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
+    + If you are not on HENkaku Ensō, select "Install the iTLS compat module (web-browser)" instead
 1. Wait for your device to reboot
 
 #### Section III - Blocking Updates
