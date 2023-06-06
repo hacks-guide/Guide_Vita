@@ -100,21 +100,3 @@ If you are coming from the [Using Henlo](using-henlo) guide, you may need to ins
     + If you're not using a memory card, select "Internal Storage"
 1. Hold the power button and select "Power Off"
 1. Power on your device to reboot
-
-___
-
-If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point) and / or `imc0:` (if you have a PS Vita 2000 or PS TV).
-
-If you decide to do this, you must *not* delete these folders if they exist:
-
-  + `uma0:app/PCSG90096`
-  + `uma0:app/VITASHELL`
-  + `uma0:appmeta/PCSG90096`
-  + `uma0:appmeta/VITASHELL`
-  + `uma0:data/bootstrap.self`
-  + `uma0:license/app/PCSG90096`
-  + `uma0:license/app/VITASHELL`
-  + `uma0:user/00/savedata/PCSG90096`
-  + `uma0:user/00/savedata/VITASHELL`
-
-This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore YAMT) after a reboot.
