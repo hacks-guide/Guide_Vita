@@ -18,10 +18,6 @@ If you're using a USB drive or psvsd adapter, or if this method doesn't work for
 YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 :::
 
-::: warning
-Red Samsung Evo cards are not compatible with YAMT. If you have a Red Samsung Evo MicroSD card please follow the [StorageMgr](storagemgr) guide.
-:::
-
 ### What You Need
 
 * A storage device compatible with your system
