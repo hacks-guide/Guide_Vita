@@ -42,7 +42,7 @@ This will delete all plugins from your system. If you wish to keep plugins for w
 1. Open the Settings application.
 1. Navigate to "HENkaku Settings".
 1. Disable the "Enable Version Spoofing" setting if it is on. 
-1. Reboot your device. While the console is rebooting, hold the <Btn btn="l" /> button. This will disable any plugins running on your Vita.
+1. Reboot your device and hold down the <Btn btn="l" /> button to disable plugins while booting
 1. Once the console has been rebooted, open the Settings application.
 1. Navigate to "System".
 1. Click on "System Information", and verify that the System Software does not say 3.74 or 変革.
