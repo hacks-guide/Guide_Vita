@@ -26,7 +26,9 @@ You must have already installed VitaShell to use this.
 
 1. Launch the VitaShell application
 1. Press <Btn btn="SELECT" /> to enable FTP access on your device
-    + You may need change from USB mode to FTP mode. To change to FTP mode, first press <Btn btn="start"> and change "SELECT button" from "USB" to "FTP". For username, you can use "guest". Leave the password field blank.
+    + You may need change from USB mode to FTP mode
+    + To change to FTP mode, first press <Btn btn="start"> and change "SELECT button" from "USB" to "FTP"
+    + For username, you can use "guest" and leave the password field blank
 1. Open your FTP client on your computer
 1. Enter the IP Address and Port displayed on your device
 1. Using your FTP client, navigate to `ux0:` -> `data/`
