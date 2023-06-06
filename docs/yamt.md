@@ -40,7 +40,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
 1. Press <Btn btn="confirm" /> on "Format target storage"
     + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
     + If it still fails, follow the [StorageMgr](storagemgr) guide
-1. Press <Btn btn="confirm" /> on "Reboot your device"
+1. Navigate back to the Vita Deploy menu and press <Btn btn="confirm" /> on "Reboot your device"
 
 #### Section II - Installing yamt-vita
 
@@ -73,6 +73,11 @@ If you did the `3.65 Quick Install` of VitaDeploy, you already have YAMT install
 This section will copy the data from your old Sony memory card (or internal storage if you dont have a Sony memory card) to your new storage device.
 It is recommended to not skip this section, so that the switch from the old main storage to the SD2Vita is as seamless as possible and all your apps carry over.
 :::
+
+::: tip
+If you are coming from the [Using Henlo](using-henlo) guide, you may need to install VitaShell using VitaDeploy.
+:::
+
 
 1. Power on your device to reboot
 1. Open the VitaShell application
