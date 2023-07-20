@@ -16,7 +16,7 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 * [zzBlank.img](/assets/files/zzBlank.img)
 * The latest version of [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
 * The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-  + This is not required if you do not want to check your storage device for errors
+    + This is not required if you do not want to check your storage device for errors
 
 ### Instructions
 

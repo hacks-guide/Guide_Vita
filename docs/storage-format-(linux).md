@@ -16,7 +16,7 @@ This page is for Linux users only. If you are not on Linux, check out the [Stora
 * The latest version of [exfat-utils](https://github.com/relan/exfat) for your distribution (check your package manager)
 * The latest version of [fuse-exfat](https://github.com/relan/exfat) for your distribution (check your package manager)
 * The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
-  + This is not required if you do not want to check your storage device for errors
+    + This is not required if you do not want to check your storage device for errors
 
 ### Instructions
 

@@ -10,9 +10,9 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 ### What You Need
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
+    + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest version of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest/)
-  + Download the `VitaDeploy.vpk` file
+    + Download the `VitaDeploy.vpk` file
 
 #### Section I - Prep Work
 

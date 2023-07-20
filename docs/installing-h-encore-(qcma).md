@@ -12,7 +12,7 @@ This method should be used if the finalhe method of hacking your Vita does not w
 
 * A USB cable that will connect to a computer.
 * The latest release of [QCMA](https://codestation.github.io/qcma/)
-  - Download the correct file for your operating system--Windows, Mac, and Linux versions are offered.
+    - Download the correct file for your operating system--Windows, Mac, and Linux versions are offered.
  * A PSN account connected to your Vita
   
 ### Instructions

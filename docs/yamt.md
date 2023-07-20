@@ -21,7 +21,7 @@ YAMT is only compatible with firmware versions 3.60 and 3.65 on HENkaku Ensō.
 ### What You Need
 
 * A storage device compatible with your system
-  + This can be a microSD card to use in an SD2Vita or psvsd adapter, or a USB device for a PS TV console
+    + This can be a microSD card to use in an SD2Vita or psvsd adapter, or a USB device for a PS TV console
 * The latest release of [VitaDeploy](https://github.com/SKGleba/VitaDeploy/releases/latest)
 
 ### Instructions
@@ -107,14 +107,14 @@ If you want to reclaim the space on your memory card (to use for storing PSP gam
 
 If you decide to do this, you must *not* delete these folders if they exist:
 
-  + `uma0:app/PCSG90096`
-  + `uma0:app/VITASHELL`
-  + `uma0:appmeta/PCSG90096`
-  + `uma0:appmeta/VITASHELL`
-  + `uma0:data/bootstrap.self`
-  + `uma0:license/app/PCSG90096`
-  + `uma0:license/app/VITASHELL`
-  + `uma0:user/00/savedata/PCSG90096`
-  + `uma0:user/00/savedata/VITASHELL`
++ `uma0:app/PCSG90096`
++ `uma0:app/VITASHELL`
++ `uma0:appmeta/PCSG90096`
++ `uma0:appmeta/VITASHELL`
++ `uma0:data/bootstrap.self`
++ `uma0:license/app/PCSG90096`
++ `uma0:license/app/VITASHELL`
++ `uma0:user/00/savedata/PCSG90096`
++ `uma0:user/00/savedata/VITASHELL`
 
 This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore YAMT) after a reboot.

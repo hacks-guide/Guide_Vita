@@ -12,7 +12,7 @@ Unfortunately, you may experience minor software incompatibilities as you will n
 ### What You Need
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
+    + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest release of [Ensō (3.65)](https://github.com/TheOfficialFloW/enso/releases/latest/)
 
 ### Instructions

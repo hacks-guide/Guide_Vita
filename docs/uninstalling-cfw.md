@@ -13,9 +13,9 @@ You will COMPLETELY uninstall the Henkaku Ensō custom firmware from your device
 ### What You Need
 
 * A Henkaku Ensō console on system firmware 3.65 or 3.60
-  + If you only have h-encore installed (and aren't running Ensō for whatever reason), reboot your console to remove CFW.
+    + If you only have h-encore installed (and aren't running Ensō for whatever reason), reboot your console to remove CFW.
 * An Internet connection
-  + Make sure that Flight Mode is disabled and Wi-Fi is enabled.
+    + Make sure that Flight Mode is disabled and Wi-Fi is enabled.
 
 ### Instructions
 
@@ -27,7 +27,7 @@ This will delete all plugins from your system. If you wish to keep plugins for w
 
 1. Open the VitaShell application.
 1. Navigate to the "ur0:" directory.
-  + If you have installed plugins or have a folder named "tai" in the "ux0:" directory, go there instead.
+    + If you have installed plugins or have a folder named "tai" in the "ux0:" directory, go there instead.
 1. Navigate to the folder named "tai". This folder hosts all plugins and configurations for plugins.
 1. Click the <Btn btn="square" /> button to highlight it.
 1. Navigate to the folder named "tai_old".

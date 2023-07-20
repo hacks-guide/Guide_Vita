@@ -13,7 +13,7 @@ In order to install the application on your device, we will use the VitaDeploy a
 ### What You Need
 
 * The VitaDeploy application installed on your device
-  + If you don't have VitaDeploy installed, follow [Installing VitaDeploy](installing-vitadeploy)
+    + If you don't have VitaDeploy installed, follow [Installing VitaDeploy](installing-vitadeploy)
 
 ### Instructions
 

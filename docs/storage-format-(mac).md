@@ -14,7 +14,7 @@ This page is for Mac users only. If you are not on Mac, check out the [Storage F
 ### What You Need
 
 * The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
-  + This is not required if you do not want to check your storage device for errors
+    + This is not required if you do not want to check your storage device for errors
 
 ### Instructions
 
