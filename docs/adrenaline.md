@@ -16,7 +16,7 @@ You must have already installed VitaShell to use this.
 ### What You Need
 
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
+    + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases/latest)
 * The latest release of [PSP Homebrew Browser](/assets/files/PSPhbb_dev.vpk)
 

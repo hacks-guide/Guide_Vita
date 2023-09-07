@@ -17,7 +17,7 @@ This mod will make PERMANENT modifications to your device. If anything goes wron
 ### What You Need
 
 * The VitaDeploy application installed on your device
-  + If you don't have VitaDeploy installed, follow [Installing VitaDeploy](installing-vitadeploy)
+    + If you don't have VitaDeploy installed, follow [Installing VitaDeploy](installing-vitadeploy)
 
 ### Instructions
 

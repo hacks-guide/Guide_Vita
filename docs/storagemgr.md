@@ -20,25 +20,25 @@ You must have already installed VitaShell to use this.
 ::: warning
 If you previously installed "YAMT" or have used the `3.65 Quick Install` option in Vitadeploy, please uninstall YAMT first by deleting the following files from your `ur0:tai` folder:
   
-  + `yamt.cfg`
-  + `yamt.skprx`
-  + `yamt.suprx`
-  + `yamt_helper.skprx`
++ `yamt.cfg`
++ `yamt.skprx`
++ `yamt.suprx`
++ `yamt_helper.skprx`
 
 :::
 
 ### What You Need
 
 * A formatted storage device compatible with your system
-  + To format your device, see [Storage Format (Windows)](storage-format-(windows)), [Storage Format (Linux)](storage-format-(linux)), or [Storage Format (Mac)](storage-format-(mac))
+    + To format your device, see [Storage Format (Windows)](storage-format-(windows)), [Storage Format (Linux)](storage-format-(linux)), or [Storage Format (Mac)](storage-format-(mac))
 * An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-  + Alternatively, you can also use the USB transfer feature of VitaShell
+    + Alternatively, you can also use the USB transfer feature of VitaShell
 * The latest release of [StorageMgr](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/releases)
-  + `storage_config.txt` should be edited to fit your situation as instructed in the [README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
-  + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
-  + `INT=imc0` should be kept as-is for PS Vita 2000 and PS TV users, and removed for PS Vita 1000 users
-  + `GCD=ux0` should be kept as-is for SD2Vita users, and edited to `UMA=ux0` for USB drive and psvsd users
-  + `UMA=grw0` should be removed unless you have multiple storage devices (in which case the device which is not assigned to `ux0:` should be assigned to `grw0:`)
+    + `storage_config.txt` should be edited to fit your situation as instructed in the [README](https://github.com/CelesteBlue-dev/PSVita-StorageMgr/blob/master/README.md#how-to-configure-storagemgr-)
+    + `MCD=uma0` should be kept as-is if you plan to keep a Sony memory card in your device, and removed otherwise
+    + `INT=imc0` should be kept as-is for PS Vita 2000 and PS TV users, and removed for PS Vita 1000 users
+    + `GCD=ux0` should be kept as-is for SD2Vita users, and edited to `UMA=ux0` for USB drive and psvsd users
+    + `UMA=grw0` should be removed unless you have multiple storage devices (in which case the device which is not assigned to `ux0:` should be assigned to `grw0:`)
 
 ### Instructions
 
@@ -85,13 +85,13 @@ If you want to reclaim the space on your memory card (to use for storing PSP gam
 
 If you decide to do this, you must *not* delete these folders if they exist:
 
-  + `uma0:data/bootstrap.self`
-  + `uma0:app/PCSG90096`
-  + `uma0:appmeta/PCSG90096`
-  + `uma0:appmeta/VITASHELL`
-  + `uma0:license/app/PCSG90096`
-  + `uma0:license/app/VITASHELL`
-  + `uma0:user/00/savedata/PCSG90096`
-  + `uma0:user/00/savedata/VITASHELL`
++ `uma0:data/bootstrap.self`
++ `uma0:app/PCSG90096`
++ `uma0:appmeta/PCSG90096`
++ `uma0:appmeta/VITASHELL`
++ `uma0:license/app/PCSG90096`
++ `uma0:license/app/VITASHELL`
++ `uma0:user/00/savedata/PCSG90096`
++ `uma0:user/00/savedata/VITASHELL`
 
 This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore StorageMgr) after a reboot.

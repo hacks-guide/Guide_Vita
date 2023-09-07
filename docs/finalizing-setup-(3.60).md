@@ -49,7 +49,7 @@ In order to install the necessary `.vpk` (content package) file on your device, 
 1. Transfer `iTLS-Enso.vpk` to the `data/` folder
 1. Navigate to `ur0:` -> `tai/`
 1. Transfer `config.txt` to  the `tai/` folder
-  + Overwrite (replace) the existing `config.txt` file
+    + Overwrite (replace) the existing `config.txt` file
 1. Transfer `nonpdrm.skprx` to the `tai/` folder
 1. Transfer `0syscall6.skprx` to the `tai/` folder
 1. Transfer `download_enabler.suprx` to the `tai/` folder
