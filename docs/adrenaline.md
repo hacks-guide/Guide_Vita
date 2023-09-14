@@ -27,8 +27,8 @@ You must have already installed VitaShell to use this.
 * Download 'VitaDB downloader' from the app downloader
 * Also download 'PKGj' to download Vita games for free.
 * Open VitaDB downloader, search by Most Downloaded, and install Adrenaline
-* Back out and launch Adrenaline. It will ask you to press X to install requisites, do so, and then exit again.
-* Launch Adrenaline. Press X to the prompt. It will download more stuff, then ask you to press X. Enjoy. Who needs a FTP client?
+* Back out and launch Adrenaline. It will ask you to press X to install requisites, do so, and then close itself.
+* Launch Adrenaline. Press X to the prompt. It will download more stuff, then ask you to press X. Enjoy. Who needs a FTP client? You can download another thing with VitaDB that will let you download homebrew for the PSP. 
 
 #### Section I - Prep Work
 
