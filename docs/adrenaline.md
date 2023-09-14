@@ -22,6 +22,14 @@ You must have already installed VitaShell to use this.
 
 ### Instructions
 
+### The Short Version
+* Open VitaDeploy
+* Download 'VitaDB downloader' from the app downloader
+* Also download 'PKGj' to download Vita games for free.
+* Open VitaDB downloader, search by Most Downloaded, and install Adrenaline
+* Back out and launch Adrenaline. It will ask you to press X to install requisites, do so, and then exit again.
+* Launch Adrenaline. Press X to the prompt. It will download more stuff, then ask you to press X. Enjoy. Who needs a FTP client?
+
 #### Section I - Prep Work
 
 1. Launch the VitaShell application
