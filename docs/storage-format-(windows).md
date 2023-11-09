@@ -34,6 +34,7 @@ This page is for Windows users only. If you are not on Windows, check out the [S
 1. Right-click the drive in Windows Explorer, then select "Format"
 1. Set "File system" to "exFAT"
     + If your storage device has a capacity of 256 GB or greater, you must format with a cluster size of 64 KB
+    + Use MBR, not GPT, or it wont work
 1. Select "Start"
 1. Select "OK" to continue when prompted
 1. Select "OK" to dismiss the dialogue box when the format completes
