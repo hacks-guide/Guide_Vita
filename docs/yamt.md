@@ -70,7 +70,7 @@ If you did the `3.65 Quick Install` of VitaDeploy, you already have YAMT install
 #### Section IV - Transferring Data
 
 ::: tip
-This section will copy the data from your old Sony memory card (or internal storage if you dont have a Sony memory card) to your new storage device.
+This section will copy the data from your old Sony memory card (or internal storage if you don't have a Sony memory card) to your new storage device.
 It is recommended to not skip this section, so that the switch from the old main storage to the SD2Vita is as seamless as possible and all your apps carry over.
 :::
 
@@ -97,7 +97,7 @@ If you are coming from the [Using Henlo](using-henlo) guide, you may need to ins
 1. Navigate to `Devices` -> `Storage Devices`
 1. Set `ux0:` to "SD2Vita"
 1. Set `uma0:` to "Memory Card"
-    + If you're not using a memory card, select "Internal Storage"
+    + If you're not using a physical memory card in the memory card slot, select "Internal Storage"
 1. Hold the power button and select "Power Off"
 1. Power on your device to reboot
 
