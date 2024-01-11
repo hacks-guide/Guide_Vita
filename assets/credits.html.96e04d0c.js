@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-11a5a1f8","path":"/credits.html","title":"Credits","lang":"en-US","frontmatter":{"title":"Credits","sidebar":false},"excerpt":"","headers":[],"git":{"updatedTime":1704997993000,"contributors":[{"name":"jeffyjeffy1023","email":"45441132+jeffyjeffy1023@users.noreply.github.com","commits":1}]},"filePathRelative":"credits.md"}');export{e as data};
