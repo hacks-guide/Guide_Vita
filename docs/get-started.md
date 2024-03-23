@@ -36,7 +36,7 @@ Before starting, Windows users should enable the option to show file extensions 
     <tr>
       <td style="text-align: center; font-weight: bold;">1.03</td>
       <td style="text-align: center; font-weight: bold;">3.59</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.60).html">Updating Firmware (3.60)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74).html">Updating Firmware (3.74)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">3.60</td>
@@ -44,7 +44,7 @@ Before starting, Windows users should enable the option to show file extensions 
       <td style="text-align: center; font-weight: bold;"><a href="installing-henkaku.html">Installing HENkaku</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">3.61</td>
+      <td style="text-align: center; font-weight: bold;">1.03</td>
       <td style="text-align: center; font-weight: bold;">3.63</td>
       <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74).html">Updating Firmware (3.74)</a></td>
     </tr>
