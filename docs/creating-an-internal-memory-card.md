@@ -9,11 +9,11 @@ Fortunately, it's possible to use VitaDeploy to re-partition the internal storag
 
 This partition will only be 1GB in size. We recommend you use this to then install <router-link to="yamt">YAMT</router-link> for use with an SD2Vita card. This is preferrable, as microSD cards are much cheaper than official Vita memory cards.
 
-## What you need
+### What you need
 
 - A device with the "henlo-bootstrap" screen on it, as followed in <router-link to="using-henlo">Using HENlo</router-link>
 
-## Instructions
+### Instructions
 
 #### Section I - Installing HENkaku and VitaDeploy
 
@@ -21,7 +21,7 @@ This partition will only be 1GB in size. We recommend you use this to then insta
 1. Press <Btn btn="confirm" /> on "Replace NEAR with VitaDeploy"
 1. Press <Btn btn="confirm" /> on "Exit"
 
-### Section II - Configuring HENkaku
+#### Section II - Configuring HENkaku
 
 1. Launch the Settings application
 1. Navigate to `HENkaku Settings`
@@ -29,7 +29,7 @@ This partition will only be 1GB in size. We recommend you use this to then insta
 1. Return to HENkaku Settings menu
 1. Close the Settings application
 
-### Section III - Repartitioning
+#### Section III - Repartitioning
 
 1. Launch the VitaDeploy application
 1. Press <Btn btn="confirm" /> on "Miscellaneous"
@@ -39,7 +39,7 @@ This partition will only be 1GB in size. We recommend you use this to then insta
 1. Press <Btn btn="confirm" /> on "Default 2xxx storage configuration"
 1. Once repartitioned, your device will reboot
 
-### Section IV - Reformatting
+#### Section IV - Reformatting
 
 1. If you have a memory card inserted, remove it
 1. Open the Settings application
