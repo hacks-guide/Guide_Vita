@@ -103,18 +103,13 @@ If you are coming from the [Using Henlo](using-henlo) guide, you may need to ins
 
 ___
 
-If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point) and / or `imc0:` (if you have a PS Vita 2000 or PS TV).
+If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point) and / or `imc0:` (if you have a PS Vita 2000, PS TV or are using a 1000 with no memory card).
 
-If you decide to do this, you must *not* delete these folders if they exist:
+If you decide to do this, you *shouldn't* delete these folders:
 
-+ `uma0:app/PCSG90096`
-+ `uma0:app/VITASHELL`
-+ `uma0:appmeta/PCSG90096`
-+ `uma0:appmeta/VITASHELL`
-+ `uma0:data/bootstrap.self`
-+ `uma0:license/app/PCSG90096`
-+ `uma0:license/app/VITASHELL`
-+ `uma0:user/00/savedata/PCSG90096`
-+ `uma0:user/00/savedata/VITASHELL`
++ `uma0:app/SKGD3PL0Y`
++ `uma0:appmeta/SKGD3PL0Y`
++ `uma0:license/app/SKGD3PL0Y`
++ `uma0:user/00/savedata/SKGD3PL0Y`
 
-This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore YAMT) after a reboot.
+This is because you should keep VitaDeploy installed on the memory card so you can still have tools availible in case your SD2VITA fails.
