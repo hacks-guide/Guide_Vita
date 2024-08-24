@@ -7,7 +7,7 @@ sidebar: false
 
 Adrenaline is a homebrew application which modifies the official PSP Emulator of the PS Vita (TV) to run a PSP 6.61 custom firmware.
 
-Additionally, adrenaline also enables access to a full PSP home menu running under the official PSP Emulator.
+Additionally, Adrenaline also enables access to a full PSP home menu running under the official PSP Emulator.
 
 ::: tip
 You must have already installed VitaShell to use this.
