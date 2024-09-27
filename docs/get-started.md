@@ -64,7 +64,7 @@ Before starting, Windows users should enable the option to show file extensions 
       <td style="text-align: center; font-weight: bold;"><a href="using-henlo.html">Using HENlo</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">3.67</td>
+      <td style="text-align: center; font-weight: bold;">3.69</td>
       <td style="text-align: center; font-weight: bold;">3.73</td>
       <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74).html">Updating Firmware (3.74)</a></td>
     </tr>
