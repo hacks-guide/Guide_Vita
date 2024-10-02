@@ -11,6 +11,8 @@ import container from 'markdown-it-container'
 
 import * as i18n from './i18n'
 
+process.env.VITE_EXTRA_EXTENSIONS = 'vpk,img'
+
 export default defineConfig({
   title: "Vita Hacks Guide",
   description: "A complete guide to PS Vita (TV) custom firmware, from stock to Ensō.",

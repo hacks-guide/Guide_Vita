@@ -52,5 +52,5 @@ Unfortunately, you may experience minor software incompatibilities as you will n
     + When the process has completed, press any button to reboot your device
 
 ::: tip
-Continue to [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
+Continue to [Finalizing Setup (Legacy)](finalizing-setup-(3.60))
 :::
