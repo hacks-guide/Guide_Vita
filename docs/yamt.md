@@ -1,8 +1,9 @@
 ---
-title: "YAMT (SD2Vita)"
 description: "Guide on installing the YAMT plugin for SD2Vita."
 sidebar: false
 ---
+
+# YAMT (SD2Vita)
 
 ### Required Reading
 

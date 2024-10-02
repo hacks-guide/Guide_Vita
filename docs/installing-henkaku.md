@@ -1,6 +1,4 @@
----
-title: "Installing HENkaku"
----
+# Installing HENkaku
 
 ### Required Reading
 

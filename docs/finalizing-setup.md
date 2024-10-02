@@ -1,6 +1,4 @@
----
-title: "Finalizing Setup"
----
+# Finalizing Setup
 
 ### Required Reading
 

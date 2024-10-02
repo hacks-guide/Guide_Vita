@@ -1,6 +1,4 @@
----
-title: "Using HENlo"
----
+# Using HENlo
 
 ### Required Reading
 

@@ -1,7 +1,8 @@
 ---
-title: "Get Started"
 sidebar: false
 ---
+
+# Get Started
 
 ### Required Reading
 

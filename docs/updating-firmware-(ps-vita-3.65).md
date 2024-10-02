@@ -1,7 +1,8 @@
 ---
-title: "Updating Firmware (PS Vita 3.65)"
 sidebar: false
 ---
+
+# Updating Firmware (PS Vita 3.65)
 
 ### Required Reading
 

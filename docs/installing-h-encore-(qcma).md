@@ -1,6 +1,4 @@
----
-title: Installing h-encore (QCMA method)
----
+# Installing h-encore (QCMA method)
 
 ### Required Reading
 

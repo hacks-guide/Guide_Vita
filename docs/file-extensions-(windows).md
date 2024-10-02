@@ -1,7 +1,8 @@
 ---
-title: "File Extensions (Windows)"
 sidebar: false
 ---
+
+# File Extensions (Windows)
 
 This is an add-on section for disabling Windows's default behavior of hiding file extensions.
 

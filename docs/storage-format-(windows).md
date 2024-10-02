@@ -1,7 +1,8 @@
 ---
-title: "Storage Format (Windows)"
 sidebar: false
 ---
+
+# Storage Format (Windows)
 
 ### Required Reading
 

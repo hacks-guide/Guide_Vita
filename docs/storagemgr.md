@@ -1,7 +1,8 @@
 ---
-title: "StorageMgr"
 sidebar: false
 ---
+
+# StorageMgr
 
 ### Required Reading
 
