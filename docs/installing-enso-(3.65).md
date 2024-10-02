@@ -1,7 +1,8 @@
 ---
-title: "Installing Ensō (3.65)"
 sidebar: false
 ---
+
+# Installing Ensō (3.65)
 
 ### Required Reading
 

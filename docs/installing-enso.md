@@ -1,6 +1,4 @@
----
-title: "Installing Ensō"
----
+# Installing Ensō
 
 ### Required Reading
 

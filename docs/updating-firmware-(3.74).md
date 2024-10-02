@@ -1,6 +1,4 @@
----
-title: "Updating Firmware (3.74)"
----
+# Updating Firmware (3.74)
 
 ### Required Reading
 

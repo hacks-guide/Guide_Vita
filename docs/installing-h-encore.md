@@ -1,6 +1,4 @@
----
-title: Installing h-encore
----
+# Installing h-encore
 
 ### Required Reading
 

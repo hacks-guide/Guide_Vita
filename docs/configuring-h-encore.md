@@ -1,7 +1,8 @@
 ---
-title: "Configuring h-encore"
 sidebar: false
 ---
+
+# Configuring h-encore
 
 ### Required Reading
 

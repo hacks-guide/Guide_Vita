@@ -1,7 +1,8 @@
 ---
-title: "Troubleshooting"
 sidebar: false
 ---
+
+# Troubleshooting
 
 ### Required Reading
 

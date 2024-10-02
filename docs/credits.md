@@ -1,7 +1,8 @@
 ---
-title: "Credits"
 sidebar: false
 ---
+
+# Credits
 
 ::: tip
 Special thanks to all of [the translators](https://crowdin.com/project/vita-guide) for being awesome!

@@ -1,7 +1,8 @@
 ---
-title: "FAQ"
 sidebar: false
 ---
+
+# FAQ
 
 ### I am on the latest system version, is my device hackable?
 Yes, firmware version 3.74 is hackable at the moment.

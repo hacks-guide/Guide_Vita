@@ -1,7 +1,8 @@
 ---
-title: "Storage Format (Linux)"
 sidebar: false
 ---
+
+# Storage Format (Linux)
 
 ### Required Reading
 

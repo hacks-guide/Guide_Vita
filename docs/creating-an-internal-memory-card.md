@@ -1,7 +1,8 @@
 ---
-title: Creating an internal memory card
 sidebar: false
 ---
+
+# Creating an internal memory card
 
 On first generation PS Vitas, you must have a memory card to install homebrew. This is because they don't have an internal storage partition, unlike the second generation models.
 

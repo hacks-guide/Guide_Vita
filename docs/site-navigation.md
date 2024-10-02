@@ -1,8 +1,9 @@
 ---
-title: "Site Navigation"
 sidebar: false
 ads: false
 ---
+
+# Site Navigation
 
 + [Adrenaline](adrenaline)
 + [Blocking Updates](blocking-updates)

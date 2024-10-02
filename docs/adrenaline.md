@@ -1,7 +1,8 @@
 ---
-title: "Adrenaline"
 sidebar: false
 ---
+
+# Adrenaline
 
 ### Required Reading
 

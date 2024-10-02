@@ -1,7 +1,8 @@
 ---
-title: "Installing VitaDeploy"
 sidebar: false
 ---
+
+# Installing VitaDeploy
 
 The guide uses the VitaDeploy application as the primary method of installing other apps and a custom firmware. If you didn't install VitaDeploy when installing h-encore, you can install it yourself with molecularShell or VitaShell.
 
