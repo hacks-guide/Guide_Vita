@@ -31,11 +31,7 @@ const themeConfig = {
       text: 'Help',
       items: [
         { text: 'Troubleshooting', link: '/troubleshooting' },
-        { text: 'FAQ', link: '/faq' },
-        {
-          text: 'Discord',
-          link: 'https://discord.gg/m7MwpKA'
-        },
+        { text: 'FAQ', link: '/faq' }
       ]
     },
     {
