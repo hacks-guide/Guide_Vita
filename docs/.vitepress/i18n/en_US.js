@@ -11,12 +11,13 @@ const sidebar_guide_henkaku = {
 const sidebar_guide_henlo = {
   text: 'Guide',
   items: [
-    { text: 'Get Started', link: '/get-started' },
-    { text: 'Installing HENkaku', link: '/installing-henkaku' },
-    { text: 'Installing Ensō (3.60)', link: '/installing-enso-(3.60)' },
-    { text: 'Finalizing Setup (3.60)', link: '/finalizing-setup-(3.60)' }
+    { text: 'Updating Firmware (3.74)', link: '/updating-firmware-(3.74)' },
+    { text: 'Using HENlo', link: '/using-henlo' },
+    { text: 'Installing Ensō', link: '/installing-enso' },
+    { text: 'Finalizing Setup', link: '/finalizing-setup' }
   ],
 }
+
 const themeConfig = {
   search: 'Search',
   selectLanguageName: "English",
