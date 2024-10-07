@@ -78,18 +78,6 @@ const themeConfig = {
         ],
       },
     ],
-    '/updating-firmware-(3.74)': [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Get Started', link: '/get-started' },
-          { text: 'Updating Firmware (3.74)', link: '/updating-firmware-(3.74)' },
-          { text: 'Using HENlo', link: '/using-henlo' },
-          { text: 'Installing Ensō', link: '/installing-enso' },
-          { text: 'Finalizing Setup', link: '/finalizing-setup' }
-        ],
-      },
-    ],
     '/': [
       {
         text: 'Guide',
