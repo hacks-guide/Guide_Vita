@@ -82,6 +82,7 @@ const themeConfig = {
       {
         text: 'Guide',
         items: [
+          { text: 'Get Started', link: '/get-started' },
           { text: 'Updating Firmware (3.74)', link: '/updating-firmware-(3.74)' },
           { text: 'Using HENlo', link: '/using-henlo' },
           { text: 'Installing Ensō', link: '/installing-enso' },
@@ -93,6 +94,7 @@ const themeConfig = {
       {
         text: 'Guide',
         items: [
+          { text: 'Get Started', link: '/get-started' },
           { text: 'Updating Firmware (3.74)', link: '/updating-firmware-(3.74)' },
           { text: 'Using HENlo', link: '/using-henlo' },
           { text: 'Installing Ensō', link: '/installing-enso' },
