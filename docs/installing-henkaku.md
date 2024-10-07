@@ -1,3 +1,7 @@
+---
+next: true
+---
+
 # Installing HENkaku
 
 ### Required Reading

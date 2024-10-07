@@ -1,3 +1,7 @@
+---
+next: true
+---
+
 # Installing Ensō
 
 ### Required Reading
