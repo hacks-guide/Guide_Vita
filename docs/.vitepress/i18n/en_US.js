@@ -49,7 +49,6 @@ const themeConfig = {
       {
         text: 'Guide',
         items: [
-          { text: 'Home', link: '/index.html' },
           { text: 'Get Started', link: '/get-started' },
           { text: 'Installing HENkaku', link: '/installing-henkaku' },
           { text: 'Installing Ensō (3.60)', link: '/installing-enso-(3.60)' },
@@ -61,7 +60,6 @@ const themeConfig = {
       {
         text: 'Guide',
         items: [
-          { text: 'Home', link: '/index.html' },
           { text: 'Get Started', link: '/get-started' },
           { text: 'Installing HENkaku', link: '/installing-henkaku' },
           { text: 'Installing Ensō (3.60)', link: '/installing-enso-(3.60)' },
@@ -73,7 +71,6 @@ const themeConfig = {
       {
         text: 'Guide',
         items: [
-          { text: 'Home', link: '/index.html' },
           { text: 'Get Started', link: '/get-started' },
           { text: 'Installing HENkaku', link: '/installing-henkaku' },
           { text: 'Installing Ensō (3.60)', link: '/installing-enso-(3.60)' },
