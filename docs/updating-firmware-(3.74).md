@@ -1,3 +1,7 @@
+---
+next: true
+---
+
 # Updating Firmware (3.74)
 
 ### Required Reading

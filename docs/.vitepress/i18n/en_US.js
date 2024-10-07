@@ -1,3 +1,22 @@
+const sidebar_guide_henkaku = {
+  text: 'Guide',
+  items: [
+    { text: 'Get Started', link: '/get-started' },
+    { text: 'Installing HENkaku', link: '/installing-henkaku' },
+    { text: 'Installing Ensō (3.60)', link: '/installing-enso-(3.60)' },
+    { text: 'Finalizing Setup (3.60)', link: '/finalizing-setup-(3.60)' }
+  ],
+}
+
+const sidebar_guide_henlo = {
+  text: 'Guide',
+  items: [
+    { text: 'Get Started', link: '/get-started' },
+    { text: 'Installing HENkaku', link: '/installing-henkaku' },
+    { text: 'Installing Ensō (3.60)', link: '/installing-enso-(3.60)' },
+    { text: 'Finalizing Setup (3.60)', link: '/finalizing-setup-(3.60)' }
+  ],
+}
 const themeConfig = {
   search: 'Search',
   selectLanguageName: "English",
@@ -16,96 +35,46 @@ const themeConfig = {
     {
       text: 'Guides',
       items: [
-        { text: 'Adrenaline', link: 'adrenaline' },
+        { text: 'Adrenaline', link: '/adrenaline' },
         {
           text: 'SD2Vita',
-          link: 'yamt'
+          link: '/yamt'
         },
           {
           text: 'Uninstalling CFW',
-          link: 'uninstalling-cfw'
+          link: '/uninstalling-cfw'
         },
       ]
     },
     {
       text: 'Help',
       items: [
-        { text: 'Troubleshooting', link: 'troubleshooting' },
-        { text: 'FAQ', link: 'faq' },
-        {
-          text: 'Discord',
-          link: 'https://discord.gg/m7MwpKA'
-        },
+        { text: 'Troubleshooting', link: '/troubleshooting' },
+        { text: 'FAQ', link: '/faq' }
       ]
     },
     {
       text: 'Site Info',
       items: [
-        { text: 'Donations', link: 'donations' },
-        { text: 'Credits', link: 'credits' },
-        { text: 'Site Navigation', link: 'site-navigation' }
+        { text: 'Donations', link: '/donations' },
+        { text: 'Credits', link: '/credits' },
+        { text: 'Site Navigation', link: '/site-navigation' }
       ]
     },
   ],
     
   sidebar: {
     '/installing-henkaku': [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Home', link: 'index.html' },
-          { text: 'Get Started', link: 'get-started' },
-          { text: 'Installing HENkaku', link: 'installing-henkaku' },
-          { text: 'Installing Ensō (3.60)', link: 'installing-enso-(3.60)' },
-          { text: 'Finalizing Setup (3.60)', link: 'finalizing-setup-(3.60)' }
-        ],
-      },
+      sidebar_guide_henkaku
     ],
     '/installing-enso-(3.60)': [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Home', link: 'index.html' },
-          { text: 'Get Started', link: 'get-started' },
-          { text: 'Installing HENkaku', link: 'installing-henkaku' },
-          { text: 'Installing Ensō (3.60)', link: 'installing-enso-(3.60)' },
-          { text: 'Finalizing Setup (3.60)', link: 'finalizing-setup-(3.60)' }
-        ],
-      },
+      sidebar_guide_henkaku
     ],
     '/finalizing-setup-(3.60)': [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Home', link: 'index.html' },
-          { text: 'Get Started', link: 'get-started' },
-          { text: 'Installing HENkaku', link: 'installing-henkaku' },
-          { text: 'Installing Ensō (3.60)', link: 'installing-enso-(3.60)' },
-          { text: 'Finalizing Setup (3.60)', link: 'finalizing-setup-(3.60)' }
-        ],
-      },
-    ],
-    '/updating-firmware-(3.74)': [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Updating Firmware (3.74)', link: 'updating-firmware-(3.74)' },
-          { text: 'Using HENlo', link:'using-henlo' },
-          { text: 'Installing Ensō', link: 'installing-enso' },
-          { text: 'Finalizing Setup', link: 'finalizing-setup' }
-        ],
-      },
+      sidebar_guide_henkaku
     ],
     '/': [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Updating Firmware (3.74)', link: 'updating-firmware-(3.74)' },
-          { text: 'Using HENlo', link:'using-henlo' },
-          { text: 'Installing Ensō', link: 'installing-enso' },
-          { text: 'Finalizing Setup', link: 'finalizing-setup' }
-        ],
-      },
+      sidebar_guide_henlo
     ],
   },
 };

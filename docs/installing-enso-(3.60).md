@@ -1,3 +1,7 @@
+---
+next: true
+---
+
 # Installing Ensō (3.60)
 
 ### Required Reading
