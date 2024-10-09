@@ -6,13 +6,13 @@ sidebar: false
 
 On first generation PS Vitas, you must have a memory card to install homebrew. This is because they don't have an internal storage partition, unlike the second generation models.
 
-Fortunately, it's possible to use VitaDeploy to re-partition the internal storage, allowing for homebrew installation without a memory card. VitaDeploy can be installed onto the system by replacing the system app "NEAR", and then formatting the system and following <router-link to="using-henlo">Using HENlo</router-link> again.
+Fortunately, it's possible to use VitaDeploy to re-partition the internal storage, allowing for homebrew installation without a memory card. VitaDeploy can be installed onto the system by replacing the system app "NEAR", and then formatting the system and following [Using HENlo](using-henlo) again.
 
-This partition will only be 1GB in size. We recommend you use this to then install <router-link to="yamt">YAMT</router-link> for use with an SD2Vita card. This is preferrable, as microSD cards are much cheaper than official Vita memory cards.
+This partition will only be 1GB in size. We recommend you use this to then install [YAMT](yamt) for use with an SD2Vita card. This is preferrable, as microSD cards are much cheaper than official Vita memory cards.
 
 ### What you need
 
-- A device with the "henlo-bootstrap" screen on it, as followed in <router-link to="using-henlo">Using HENlo</router-link>
+- A device with the "henlo-bootstrap" screen on it, as followed in [Using HENlo](using-henlo)
 
 ### Instructions
 
@@ -53,4 +53,4 @@ This partition will only be 1GB in size. We recommend you use this to then insta
 
 You should now have a 1GB internal partition on your device. You can verify this by opening the Settings application and navigating to `System` -> `System Information`.
 
-Now, you can go back to <router-link to="using-henlo">Using HENlo</router-link> and follow the guide as normal.
+Now, you can go back to [Using HENlo](using-henlo) and follow the guide as normal.
