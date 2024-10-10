@@ -1,8 +1,9 @@
 ---
-title: "Donations"
 ads: false
 sidebar: false
 ---
+
+# Donations
 
 ### emiyl
 

@@ -1,13 +1,15 @@
 ---
-title: "Home"
-description: "A complete guide to PS Vita (TV) custom firmware, from stock to Ensō."
-home: true
-heroImage: /assets/images/home-page-feature.jpg
-heroFilter: 0.5
-actions:
-  - text: Get Started
-    link: get-started
-    type: secondary
+layout: home
+title: "Vita Hacks Guide"
+hero:
+  text: "Vita Hacks Guide"
+  tagline: "A complete guide to PS Vita (TV) custom firmware, from stock to Ensō."
+  image:
+    src: "/assets/images/home-page-feature.jpg"
+  actions:
+    - theme: alt
+      text: Get Started
+      link: get-started
 ---
 
 ::: tip

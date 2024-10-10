@@ -1,6 +1,8 @@
+# Node.js and NPM
 node_modules
-.temp
-.cache
-dist
-yarn.lock
-yarn-error.log
+npm-debug.log*
+codekit-config.json
+
+# VitePress
+docs/.vitepress/cache
+docs/.vitepress/dist

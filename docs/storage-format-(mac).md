@@ -1,7 +1,8 @@
 ---
-title: "Storage Format (Mac)"
 sidebar: false
 ---
+
+# Storage Format (Mac)
 
 ### Required Reading
 

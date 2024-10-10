@@ -1,7 +1,8 @@
 ---
-title: "Blocking Updates"
 sidebar: false
 ---
+
+# Blocking Updates
 
 ### Required Reading
 

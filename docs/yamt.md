@@ -1,8 +1,9 @@
 ---
-title: "YAMT (SD2Vita)"
 description: "Guide on installing the YAMT plugin for SD2Vita."
 sidebar: false
 ---
+
+# YAMT (SD2Vita)
 
 ### Required Reading
 
@@ -40,7 +41,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
 1. Press <Btn btn="confirm" /> on "Format target storage"
     + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
     + If it still fails, follow the [StorageMgr](storagemgr) guide
-1. Navigate back to the Vita Deploy menu and press <Btn btn="confirm" /> on "Reboot your device"
+1. Navigate back to the Vita Deploy menu and press <Btn btn="confirm" /> on "Reboot"
 
 #### Section II - Installing yamt-vita
 

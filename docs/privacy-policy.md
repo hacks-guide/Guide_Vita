@@ -1,8 +1,9 @@
 ---
-title: "Privacy Policy"
 sidebar: false
 ads: false
 ---
+
+# Privacy Policy
 
 ### Embedded Content From Other Websites
 

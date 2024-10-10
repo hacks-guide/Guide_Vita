@@ -1,6 +1,8 @@
 ---
-title: "Installing HENkaku"
+next: true
 ---
+
+# Installing HENkaku
 
 ### Required Reading
 

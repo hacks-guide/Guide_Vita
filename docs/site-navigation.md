@@ -1,8 +1,9 @@
 ---
-title: "Site Navigation"
 sidebar: false
 ads: false
 ---
+
+# Site Navigation
 
 + [Adrenaline](adrenaline)
 + [Blocking Updates](blocking-updates)
@@ -13,7 +14,7 @@ ads: false
 + [Downgrading Firmware (3.65)](downgrading-firmware-(3.65))
 + [FAQ](faq)
 + [File Extensions (Windows)](file-extensions-(windows))
-+ [Finalizing Setup (Legacy)](finalizing-setup-(legacy))
++ [Finalizing Setup (3.60)](finalizing-setup-(3.60))
 + [Finalizing Setup](finalizing-setup)
 + [Get Started](get-started)
 + [Home](index.html)
