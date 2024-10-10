@@ -17,11 +17,11 @@ This partition will only be 1GB in size. We recommend you use this to then insta
 
 #### Section I - Installing HENkaku and VitaDeploy
 
-1. Press X on "Replace NEAR with VitaDeploy"
-1. Press Square and wait for the device to reboot
+1. Press <Btn btn="cross" /> on "Replace NEAR with VitaDeploy"
+1. Press <Btn btn="square" /> and wait for the device to reboot
 1. Launch the web browser again
 1. On the HENlo page, press `Unlock my Vita`, then press `Unlock`
-1. Press X on "Install henkaku" to enable homebrew
+1. Press <Btn btn="cross" /> on "Install henkaku" to enable homebrew
 
 
 #### Section II - Configuring HENkaku
