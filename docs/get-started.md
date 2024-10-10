@@ -12,6 +12,10 @@ Select the appropriate page for your version from the chart below. Note that the
 
 Your device version can be found under the System Information menu in the System category of the Settings application.
 
+::: danger
+If you bought a second-hand PS Vita or you're unsure whether your console had CFW installed on it beforehand, before doing anything follow [Restoring System](restoring-system) to restore and format your console.
+:::
+
 ::: tip
 Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
 :::
@@ -36,36 +40,6 @@ Before starting, Windows users should enable the option to show file extensions 
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.03</td>
-      <td style="text-align: center; font-weight: bold;">3.57</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74).html">Updating Firmware (3.74)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">3.60</td>
-      <td style="text-align: center; font-weight: bold;">3.60</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-henkaku.html">Installing HENkaku</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">3.61</td>
-      <td style="text-align: center; font-weight: bold;">3.63</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74).html">Updating Firmware (3.74)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">3.65</td>
-      <td style="text-align: center; font-weight: bold;">3.65</td>
-      <td style="text-align: center; font-weight: bold;"><a href="using-henlo.html">Using HENlo</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">3.67</td>
-      <td style="text-align: center; font-weight: bold;">3.67</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74).html">Updating Firmware (3.74)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">3.68</td>
-      <td style="text-align: center; font-weight: bold;">3.68</td>
-      <td style="text-align: center; font-weight: bold;"><a href="using-henlo.html">Using HENlo</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">3.69</td>
       <td style="text-align: center; font-weight: bold;">3.73</td>
       <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.74).html">Updating Firmware (3.74)</a></td>
     </tr>
