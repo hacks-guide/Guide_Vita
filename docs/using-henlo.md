@@ -30,12 +30,12 @@ The "VitaDeploy" application will also be installed to your home screen. VitaDep
 #### Section II - Installing HENkaku and VitaDeploy
 
 ::: danger
-If you are on a first generation Vita without a memory card, before reading this section create an internal memory partition by following [Creating an internal memory card](creating-an-internal-memory-card). Once created, you are free to come back to this part of the guide and follow it **from the start again**. 
+If you are on a first generation Vita without an official memory card, before reading this section create an internal memory partition by following [Creating an internal memory card](creating-an-internal-memory-card). Once created, you are free to come back to this part of the guide and follow it **from the start again**. 
 :::
 
-1. Press <Btn btn="confirm" /> on "Install henkaku" to enable homebrew
-1. Press <Btn btn="confirm" /> on "Install VitaDeploy"
-1. Press <Btn btn="confirm" /> on "Exit"
+1. Press <Btn btn="cross" /> on "Install henkaku" to enable homebrew
+1. Press <Btn btn="cross" /> on "Install VitaDeploy"
+1. Press <Btn btn="cross" /> on "Exit"
 
 #### Section III - Configuring HENkaku
 
