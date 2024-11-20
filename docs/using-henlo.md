@@ -6,7 +6,7 @@ next: true
 
 ### Required Reading
 
-The HENlo exploit chain for the PS Vita (TV) allows for the installation of homebrew applications to the LiveArea Screen. It is compatible with the firmware versions 3.65 to 3.74.
+The HENlo exploit chain for the PS Vita (TV) allows for the installation of homebrew applications to the LiveArea Screen. It is compatible with the firmware versions 3.65, 3.68, and 3.74.
 
 Note that the HENlo chain is not "persistent" (meaning it does not remain installed after a reboot). Fortunately, this is only a temporary restriction until HENkaku Ensō is installed on the next page.
 
