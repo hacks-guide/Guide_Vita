@@ -17,5 +17,5 @@ This is a section for users who bought a second-hand PS Vita or are unsure wheth
 1. Do the initial setup
 
 ::: tip
-Now, you can return to [Getting Started](get-started) and follow the guide like normal.
+Now, you can continue following the guide by going to [Updating Firmware (3.74)](updating-firmware-(3.74)) and updating your Vita **even if you're on a version compatible with HENlo** (Unless you are already on the latest firmware, in that case you can skip updating and go straight to [Using HENlo](using-henlo)).
 :::
