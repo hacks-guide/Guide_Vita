@@ -16,10 +16,6 @@ Your device version can be found under the System Information menu in the System
 If you bought a second-hand PS Vita or you're unsure whether your console had CFW installed on it beforehand, before doing anything follow [Restoring System](restoring-system) to restore and format your console.
 :::
 
-::: tip
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
-:::
-
 ![A screenshot of the PS Vita System Settings](/assets/images/screenshots/system-version.png)
 
 ### Version Table
