@@ -59,16 +59,7 @@ If you did the `3.65 Quick Install` of VitaDeploy, you already have YAMT install
 1. Press <Btn btn="cross" /> on `-> Install the lite version`
     + Once finished, your device will reboot
 
-#### Section III - Enabling the YAMT driver
-
-1. Open the Settings application
-1. Navigate to `Devices` -> `Storage Devices`
-1. Enable "Use YAMT" to enable the YAMT driver
-1. Set `ux0:` to "Default"
-1. Set `uma0:` to "SD2Vita"
-1. Hold the power button and select "Power Off"
-
-#### Section IV - Transferring Data
+#### Section III - Transferring Data
 
 ::: tip
 This section will copy the data from your old Sony memory card (or internal storage if you don't have a Sony memory card) to your new storage device.
@@ -79,8 +70,12 @@ It is recommended to not skip this section, so that the switch from the old main
 If you are coming from the [Using Henlo](using-henlo) guide, you may need to install VitaShell using VitaDeploy.
 :::
 
-
-1. Power on your device to reboot
+1. Open the Settings application
+1. Navigate to `Devices` -> `Storage Devices`
+1. Enable "Use YAMT" to enable the YAMT driver
+1. Set `ux0:` to "Default"
+1. Set `uma0:` to "SD2Vita"
+1. Hold the power button and select "Power Off", then power on your device
 1. Open the VitaShell application
 1. Navigate to the `ux0:` partition
     + This is currently your official memory card or internal storage
@@ -94,13 +89,17 @@ If you are coming from the [Using Henlo](using-henlo) guide, you may need to ins
     + This is your unofficial storage device's memory
 1. Press <Btn btn="triangle" /> to bring up the menu
 1. Press <Btn btn="confirm" /> on paste and wait for it to finish
-1. Once done, exit VitaShell and open the Settings application
+
+#### Section IV - Mounting SD2VITA
+
+1. Open the Settings application
 1. Navigate to `Devices` -> `Storage Devices`
+1. Enable "Use YAMT" to enable the YAMT driver
 1. Set `ux0:` to "SD2Vita"
-1. Set `uma0:` to "Memory Card"
-    + If you're not using a physical memory card in the memory card slot, select "Internal Storage"
-1. Hold the power button and select "Power Off"
-1. Power on your device to reboot
+1. Set `uma0:` to "Default"    
+1. Hold the power button and select "Power Off", then power on your device
+
+
 
 ___
 
@@ -113,4 +112,4 @@ If you decide to do this, you *shouldn't* delete these folders:
 + `uma0:license/app/SKGD3PL0Y`
 + `uma0:user/00/savedata/SKGD3PL0Y`
 
-This is because you should keep VitaDeploy installed on the memory card so you can still have tools availible in case your SD2VITA fails.
+This is because you should keep VitaDeploy installed on the memory card so you can still have tools available in case your SD2VITA fails.
