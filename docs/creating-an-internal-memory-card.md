@@ -40,7 +40,7 @@ This partition will only be 1GB in size. We recommend you use this to then insta
 1. Press <Btn btn="confirm" /> on "Create an internal memory card"
 1. Read the disclaimer, and press <Btn btn="confirm" /> to continue
     - If the application crashes, open it and try again
-1. Press <Btn btn="confirm" /> on "Default 2xxx storage configuration"
+1. Press <Btn btn="cross" /> on "Default 2xxx storage configuration"
 1. Once repartitioned, your device will reboot
 
 #### Section IV - Reformatting
