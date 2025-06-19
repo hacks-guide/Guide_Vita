@@ -1,7 +1,8 @@
 ---
-title: "Updating Firmware (PS TV 3.65)"
 sidebar: false
 ---
+
+# Updating Firmware (PS TV 3.65)
 
 ### Required Reading
 

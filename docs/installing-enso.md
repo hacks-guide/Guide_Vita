@@ -1,6 +1,8 @@
 ---
-title: "Installing Ensō"
+next: true
 ---
+
+# Installing Ensō
 
 ### Required Reading
 

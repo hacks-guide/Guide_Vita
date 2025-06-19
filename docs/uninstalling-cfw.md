@@ -1,6 +1,4 @@
----
-title: "Uninstalling CFW"
----
+# Uninstalling CFW
 
 ### Required Reading
 

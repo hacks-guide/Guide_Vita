@@ -1,10 +1,12 @@
 ---
-title: "Updating Firmware (3.74)"
+next: true
 ---
+
+# Updating Firmware (3.74)
 
 ### Required Reading
 
-The h-encore exploit is only compatible with the firmware versions 3.65 and above. As a result, lower firmware versions must update to the latest firmware to use the exploit.
+The HENlo exploit is only compatible with the firmware versions 3.65, 3.68, and 3.74. As a result, lower firmware versions must update to the latest firmware to use the exploit. Updating the firmware is also the easiest method of uninstalling any previous installation of CFW on a used system.
 
 ### What you need
 

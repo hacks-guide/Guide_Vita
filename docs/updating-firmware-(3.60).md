@@ -1,7 +1,8 @@
 ---
-title: "Updating Firmware (3.60)"
 sidebar: false
 ---
+
+# Updating Firmware (3.60)
 
 ### Required Reading
 

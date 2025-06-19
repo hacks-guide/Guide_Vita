@@ -1,8 +1,9 @@
 ---
-title: "YAMT (SD2Vita)"
 description: "Guide on installing the YAMT plugin for SD2Vita."
 sidebar: false
 ---
+
+# YAMT (SD2Vita)
 
 ### Required Reading
 
@@ -40,7 +41,7 @@ If you previously installed StorageMgr or another storage plugin, please remove 
 1. Press <Btn btn="confirm" /> on "Format target storage"
     + If this fails, ensure the adapter is inserted properly and is undamaged - then reboot and try again
     + If it still fails, follow the [StorageMgr](storagemgr) guide
-1. Navigate back to the Vita Deploy menu and press <Btn btn="confirm" /> on "Reboot your device"
+1. Navigate back to the Vita Deploy menu and press <Btn btn="confirm" /> on "Reboot"
 
 #### Section II - Installing yamt-vita
 
@@ -58,16 +59,7 @@ If you did the `3.65 Quick Install` of VitaDeploy, you already have YAMT install
 1. Press <Btn btn="cross" /> on `-> Install the lite version`
     + Once finished, your device will reboot
 
-#### Section III - Enabling the YAMT driver
-
-1. Open the Settings application
-1. Navigate to `Devices` -> `Storage Devices`
-1. Enable "Use YAMT" to enable the YAMT driver
-1. Set `ux0:` to "Default"
-1. Set `uma0:` to "SD2Vita"
-1. Hold the power button and select "Power Off"
-
-#### Section IV - Transferring Data
+#### Section III - Transferring Data
 
 ::: tip
 This section will copy the data from your old Sony memory card (or internal storage if you don't have a Sony memory card) to your new storage device.
@@ -78,8 +70,12 @@ It is recommended to not skip this section, so that the switch from the old main
 If you are coming from the [Using Henlo](using-henlo) guide, you may need to install VitaShell using VitaDeploy.
 :::
 
-
-1. Power on your device to reboot
+1. Open the Settings application
+1. Navigate to `Devices` -> `Storage Devices`
+1. Enable "Use YAMT" to enable the YAMT driver
+1. Set `ux0:` to "Default"
+1. Set `uma0:` to "SD2Vita"
+1. Hold the power button and select "Power Off", then power on your device
 1. Open the VitaShell application
 1. Navigate to the `ux0:` partition
     + This is currently your official memory card or internal storage
@@ -93,28 +89,27 @@ If you are coming from the [Using Henlo](using-henlo) guide, you may need to ins
     + This is your unofficial storage device's memory
 1. Press <Btn btn="triangle" /> to bring up the menu
 1. Press <Btn btn="confirm" /> on paste and wait for it to finish
-1. Once done, exit VitaShell and open the Settings application
+
+#### Section IV - Mounting SD2VITA
+
+1. Open the Settings application
 1. Navigate to `Devices` -> `Storage Devices`
+1. Enable "Use YAMT" to enable the YAMT driver
 1. Set `ux0:` to "SD2Vita"
-1. Set `uma0:` to "Memory Card"
-    + If you're not using a physical memory card in the memory card slot, select "Internal Storage"
-1. Hold the power button and select "Power Off"
-1. Power on your device to reboot
+1. Set `uma0:` to "Default"    
+1. Hold the power button and select "Power Off", then power on your device
+
+
 
 ___
 
-If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point) and / or `imc0:` (if you have a PS Vita 2000 or PS TV).
+If you want to reclaim the space on your memory card (to use for storing PSP games for instance), you can delete the contents of `uma0:` (the new memory card mount point) and / or `imc0:` (if you have a PS Vita 2000, PS TV or are using a 1000 with no memory card).
 
-If you decide to do this, you must *not* delete these folders if they exist:
+If you decide to do this, you *shouldn't* delete these folders:
 
-+ `uma0:app/PCSG90096`
-+ `uma0:app/VITASHELL`
-+ `uma0:appmeta/PCSG90096`
-+ `uma0:appmeta/VITASHELL`
-+ `uma0:data/bootstrap.self`
-+ `uma0:license/app/PCSG90096`
-+ `uma0:license/app/VITASHELL`
-+ `uma0:user/00/savedata/PCSG90096`
-+ `uma0:user/00/savedata/VITASHELL`
++ `uma0:app/SKGD3PL0Y`
++ `uma0:appmeta/SKGD3PL0Y`
++ `uma0:license/app/SKGD3PL0Y`
++ `uma0:user/00/savedata/SKGD3PL0Y`
 
-This is because you must keep h-encore installed to the memory card so you can enable HENkaku (and therefore YAMT) after a reboot.
+This is because you should keep VitaDeploy installed on the memory card so you can still have tools available in case your SD2VITA fails.

@@ -1,7 +1,8 @@
 ---
-title: Downgrading Firmware (3.65)
 sidebar: false
 ---
+
+# Downgrading Firmware (3.65)
 
 ### Required Reading
 
