@@ -77,9 +77,9 @@ If you are coming from the [Using Henlo](using-henlo) guide, you may need to ins
 1. Set `uma0:` to "SD2Vita"
 1. Hold the power button and select "Power Off", then power on your device
 1. Open the VitaShell application
-1. Navigate to the `ux0:` partition
+1. Enter the `ux0:` partition
     + This is currently your official memory card or internal storage
-1. Press down on the D-Pad to highlight a folder or file
+1. Use the D-Pad to highlight any folder or file
 1. Press <Btn btn="triangle" /> to bring up the menu
 1. Press <Btn btn="confirm" /> on "Mark all" to select all folders and files in the `ux0:` partition
 1. Press <Btn btn="triangle" /> again to bring up the menu
