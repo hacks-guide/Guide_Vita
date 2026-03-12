@@ -21,7 +21,7 @@ Browser based exploits (such as the WebKit exploit used for HENkaku and HENlo) c
 1. Try the exploit again.
     * If it still doesn't work, try to reboot, wait 5 minutes, and open the browser.
 
-## Removing an PSN account without formatting your device
+## Removing a PSN account without formatting your device
 
 1. Go to your [PSN Account Management Page](https://account.sonyentertainmentnetwork.com/home/index!display.action).
 1. Under the devices section, choose `PlayStation Systems`.
